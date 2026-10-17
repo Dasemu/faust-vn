@@ -6,3 +6,5 @@ Recurring problems and what worked. Read before starting; add an entry when a mi
   (`git remote add`) must run outside the sandbox.
 - `~/.cache/uv` is read-only inside the sandbox: export `UV_CACHE_DIR=$TMPDIR/uv-cache`
   before any `uv` command.
+- The sandbox mounts char-device placeholders (`.claude/`, `.mcp.json`, dotfiles) in the
+  working dir; they are gitignored, never `git add` them.
