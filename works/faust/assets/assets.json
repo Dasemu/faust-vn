@@ -14,7 +14,7 @@
       "generation_id": null,
       "reference": null,
       "raw_file": null,
-      "file": "bg/dedication.png",
+      "file": "bg/dedication.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -26,7 +26,7 @@
       "generation_id": null,
       "reference": null,
       "raw_file": null,
-      "file": "bg/theatre.png",
+      "file": "bg/theatre.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -38,7 +38,7 @@
       "generation_id": null,
       "reference": null,
       "raw_file": null,
-      "file": "bg/heaven.png",
+      "file": "bg/heaven.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -50,7 +50,7 @@
       "generation_id": null,
       "reference": null,
       "raw_file": null,
-      "file": "bg/heaven_lord.png",
+      "file": "bg/heaven_lord.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -62,8 +62,8 @@
       "generation_id": "83bd1969-5831-405d-8f27-b1e813e87439",
       "reference": null,
       "raw_file": "raw/bg_study.png",
-      "file": "bg/study.png",
-      "sha256": "56851eaed4c28d52809ef8dda3912c7b1985b2cbcb4532a027ad124bf672a4d2",
+      "file": "bg/study.webp",
+      "sha256": "ea42c3c2407d648496d251efa26c2e7f3007c6471455eb33a7c4cf56e4901d57",
       "status": "rejected",
       "notes": "Calibration image: composition good but too photorealistic; base prompt tightened."
     },
@@ -75,7 +75,7 @@
       "generation_id": null,
       "reference": "bg_study",
       "raw_file": null,
-      "file": "bg/study_macrocosm.png",
+      "file": "bg/study_macrocosm.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -87,7 +87,7 @@
       "generation_id": null,
       "reference": "bg_study",
       "raw_file": null,
-      "file": "bg/study_spirit.png",
+      "file": "bg/study_spirit.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -101,7 +101,7 @@
       "generation_id": null,
       "reference": null,
       "raw_file": null,
-      "file": "sprites/faust_neutral.png",
+      "file": "sprites/faust_neutral.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -115,7 +115,7 @@
       "generation_id": null,
       "reference": "sprite_faust_neutral",
       "raw_file": null,
-      "file": "sprites/faust_anguished.png",
+      "file": "sprites/faust_anguished.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -129,7 +129,7 @@
       "generation_id": null,
       "reference": "sprite_faust_neutral",
       "raw_file": null,
-      "file": "sprites/faust_ecstatic.png",
+      "file": "sprites/faust_ecstatic.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -143,7 +143,7 @@
       "generation_id": null,
       "reference": "sprite_faust_neutral",
       "raw_file": null,
-      "file": "sprites/faust_fearful.png",
+      "file": "sprites/faust_fearful.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -157,7 +157,7 @@
       "generation_id": null,
       "reference": null,
       "raw_file": null,
-      "file": "sprites/mephisto_neutral.png",
+      "file": "sprites/mephisto_neutral.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -171,7 +171,7 @@
       "generation_id": null,
       "reference": "sprite_mephisto_neutral",
       "raw_file": null,
-      "file": "sprites/mephisto_sly.png",
+      "file": "sprites/mephisto_sly.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -185,7 +185,7 @@
       "generation_id": null,
       "reference": "sprite_mephisto_neutral",
       "raw_file": null,
-      "file": "sprites/mephisto_scornful.png",
+      "file": "sprites/mephisto_scornful.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -199,7 +199,7 @@
       "generation_id": null,
       "reference": "sprite_mephisto_neutral",
       "raw_file": null,
-      "file": "sprites/mephisto_deferent.png",
+      "file": "sprites/mephisto_deferent.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -213,7 +213,7 @@
       "generation_id": null,
       "reference": null,
       "raw_file": null,
-      "file": "sprites/director_neutral.png",
+      "file": "sprites/director_neutral.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -227,7 +227,7 @@
       "generation_id": null,
       "reference": "sprite_director_neutral",
       "raw_file": null,
-      "file": "sprites/director_pleased.png",
+      "file": "sprites/director_pleased.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -241,7 +241,7 @@
       "generation_id": null,
       "reference": "sprite_director_neutral",
       "raw_file": null,
-      "file": "sprites/director_worried.png",
+      "file": "sprites/director_worried.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -255,7 +255,7 @@
       "generation_id": null,
       "reference": null,
       "raw_file": null,
-      "file": "sprites/poet_neutral.png",
+      "file": "sprites/poet_neutral.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -269,7 +269,7 @@
       "generation_id": null,
       "reference": "sprite_poet_neutral",
       "raw_file": null,
-      "file": "sprites/poet_inspired.png",
+      "file": "sprites/poet_inspired.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -283,7 +283,7 @@
       "generation_id": null,
       "reference": "sprite_poet_neutral",
       "raw_file": null,
-      "file": "sprites/poet_indignant.png",
+      "file": "sprites/poet_indignant.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -297,7 +297,7 @@
       "generation_id": null,
       "reference": null,
       "raw_file": null,
-      "file": "sprites/clown_neutral.png",
+      "file": "sprites/clown_neutral.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -311,7 +311,7 @@
       "generation_id": null,
       "reference": "sprite_clown_neutral",
       "raw_file": null,
-      "file": "sprites/clown_laughing.png",
+      "file": "sprites/clown_laughing.webp",
       "sha256": null,
       "status": "planned"
     },
@@ -325,7 +325,7 @@
       "generation_id": null,
       "reference": "sprite_clown_neutral",
       "raw_file": null,
-      "file": "sprites/clown_mocking.png",
+      "file": "sprites/clown_mocking.webp",
       "sha256": null,
       "status": "planned"
     }

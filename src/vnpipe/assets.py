@@ -146,7 +146,7 @@ def process_asset(work_root: Path, asset: dict[str, Any]) -> None:
             out = trim_and_scale_sprite(chroma_key(img))
         else:
             out = ImageOps.fit(img.convert("RGB"), BG_SIZE, Image.Resampling.LANCZOS)
-        out.save(final, "PNG", optimize=True)
+        out.save(final, "WEBP", quality=90, method=6)
     asset["sha256"] = sha256_file(final)
     asset["status"] = "processed"
 
@@ -173,7 +173,7 @@ def placeholder(asset: dict[str, Any], label_color: str = "#d8cfc0") -> Image.Im
 def ensure_placeholder(work_root: Path, asset: dict[str, Any]) -> None:
     final = work_root / "assets" / asset["file"]
     final.parent.mkdir(parents=True, exist_ok=True)
-    placeholder(asset).save(final, "PNG")
+    placeholder(asset).save(final, "WEBP", quality=90)
     asset.update(source="placeholder", status="placeholder", sha256=sha256_file(final))
 
 

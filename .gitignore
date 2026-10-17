@@ -21,3 +21,5 @@ build/
 # Local agent/sandbox state
 .claude/
 .mcp.json
+# Original generated images are large; final processed assets are committed instead
+works/*/assets/raw/
