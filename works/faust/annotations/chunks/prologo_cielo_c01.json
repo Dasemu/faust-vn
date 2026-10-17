@@ -1,0 +1,450 @@
+{
+  "chunk_id": "prologo_cielo_c01",
+  "prompt_version": "6a9d9f2af4141186e3e3dbe6cdb4a69b249a40c45bef50c9512b25c4a3d3add5",
+  "scene": {
+    "id": "prologo_cielo",
+    "heading": "PRÓLOGO EN EL CIELO",
+    "location": "heaven",
+    "time_of_day": "timeless"
+  },
+  "allowed": {
+    "speakers": [
+      "narrator",
+      "poet_voice",
+      "director",
+      "poet",
+      "clown",
+      "raphael",
+      "gabriel",
+      "michael",
+      "archangels",
+      "lord",
+      "mephisto",
+      "faust",
+      "spirit"
+    ],
+    "characters": [
+      "director",
+      "poet",
+      "clown",
+      "raphael",
+      "gabriel",
+      "michael",
+      "archangels",
+      "lord",
+      "mephisto",
+      "faust",
+      "spirit"
+    ],
+    "locations": [
+      "dedication",
+      "theatre",
+      "heaven",
+      "study"
+    ],
+    "emotions": [
+      "neutral",
+      "joyful",
+      "melancholic",
+      "solemn",
+      "ironic",
+      "angry",
+      "fearful",
+      "ecstatic"
+    ],
+    "positions": [
+      "left",
+      "center",
+      "right"
+    ],
+    "music": [
+      "contemplative",
+      "comic",
+      "sacred",
+      "ominous",
+      "mystical",
+      "none"
+    ]
+  },
+  "context_before": [],
+  "lines": [
+    {
+      "id": "prologo_cielo_0001",
+      "kind": "cast",
+      "speaker": null,
+      "speaker_note": null,
+      "text": "EL SEÑOR, los EJÉRCITOS CELESTIALES. Después MEFISTÓFELES. Los tres ARCÁNGELES se adelantan",
+      "defaults": {
+        "speaker": "narrator",
+        "kind": "stage_direction",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0002",
+      "kind": "verse",
+      "speaker": "raphael",
+      "speaker_note": null,
+      "text": "Une su añejo ritmo a la armonía",
+      "defaults": {
+        "speaker": "raphael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0003",
+      "kind": "verse",
+      "speaker": "raphael",
+      "speaker_note": null,
+      "text": "de la celeste esfera el sol sereno,",
+      "defaults": {
+        "speaker": "raphael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0004",
+      "kind": "verse",
+      "speaker": "raphael",
+      "speaker_note": null,
+      "text": "y exacto sigue la prescrita vía",
+      "defaults": {
+        "speaker": "raphael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0005",
+      "kind": "verse",
+      "speaker": "raphael",
+      "speaker_note": null,
+      "text": "con los potentes ímpetus del trueno.",
+      "defaults": {
+        "speaker": "raphael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0006",
+      "kind": "verse",
+      "speaker": "raphael",
+      "speaker_note": null,
+      "text": "Presta vigor al Ángel su mirada,",
+      "defaults": {
+        "speaker": "raphael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0007",
+      "kind": "verse",
+      "speaker": "raphael",
+      "speaker_note": null,
+      "text": "aunque él en vano sondearla intente:",
+      "defaults": {
+        "speaker": "raphael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0008",
+      "kind": "verse",
+      "speaker": "raphael",
+      "speaker_note": null,
+      "text": "como al salir risueña de la nada,",
+      "defaults": {
+        "speaker": "raphael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0009",
+      "kind": "verse",
+      "speaker": "raphael",
+      "speaker_note": null,
+      "text": "la obra inmensa de Dios brilla esplendente.",
+      "defaults": {
+        "speaker": "raphael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0010",
+      "kind": "verse",
+      "speaker": "gabriel",
+      "speaker_note": null,
+      "text": "Con rapidez inconcebible gira",
+      "defaults": {
+        "speaker": "gabriel",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0011",
+      "kind": "verse",
+      "speaker": "gabriel",
+      "speaker_note": null,
+      "text": "la Tierra, fulgurante de hermosura,",
+      "defaults": {
+        "speaker": "gabriel",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0012",
+      "kind": "verse",
+      "speaker": "gabriel",
+      "speaker_note": null,
+      "text": "y la luz del Edén rápida mira",
+      "defaults": {
+        "speaker": "gabriel",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0013",
+      "kind": "verse",
+      "speaker": "gabriel",
+      "speaker_note": null,
+      "text": "trocada en noche tétrica y oscura.",
+      "defaults": {
+        "speaker": "gabriel",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0014",
+      "kind": "verse",
+      "speaker": "gabriel",
+      "speaker_note": null,
+      "text": "Y el mar contra las rocas espumante",
+      "defaults": {
+        "speaker": "gabriel",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0015",
+      "kind": "verse",
+      "speaker": "gabriel",
+      "speaker_note": null,
+      "text": "estrella pertinaz sus aguas locas,",
+      "defaults": {
+        "speaker": "gabriel",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0016",
+      "kind": "verse",
+      "speaker": "gabriel",
+      "speaker_note": null,
+      "text": "y en el eterno círculo incesante",
+      "defaults": {
+        "speaker": "gabriel",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0017",
+      "kind": "verse",
+      "speaker": "gabriel",
+      "speaker_note": null,
+      "text": "rodando van al par aguas y rocas.",
+      "defaults": {
+        "speaker": "gabriel",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0018",
+      "kind": "verse",
+      "speaker": "michael",
+      "speaker_note": null,
+      "text": "Del mar la tempestad corre a la tierra,",
+      "defaults": {
+        "speaker": "michael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0019",
+      "kind": "verse",
+      "speaker": "michael",
+      "speaker_note": null,
+      "text": "y de la tierra al mar vuelve rugiendo;",
+      "defaults": {
+        "speaker": "michael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0020",
+      "kind": "verse",
+      "speaker": "michael",
+      "speaker_note": null,
+      "text": "y en órbita fatal al mundo encierra",
+      "defaults": {
+        "speaker": "michael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0021",
+      "kind": "verse",
+      "speaker": "michael",
+      "speaker_note": null,
+      "text": "con fiero afán y encadenado estruendo.",
+      "defaults": {
+        "speaker": "michael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0022",
+      "kind": "verse",
+      "speaker": "michael",
+      "speaker_note": null,
+      "text": "Luto y desolación, terror y espanto,",
+      "defaults": {
+        "speaker": "michael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0023",
+      "kind": "verse",
+      "speaker": "michael",
+      "speaker_note": null,
+      "text": "el rayo, al estallar, delante envía;",
+      "defaults": {
+        "speaker": "michael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0024",
+      "kind": "verse",
+      "speaker": "michael",
+      "speaker_note": null,
+      "text": "pero tus mensajeros, ¡oh Dios santo!,",
+      "defaults": {
+        "speaker": "michael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0025",
+      "kind": "verse",
+      "speaker": "michael",
+      "speaker_note": null,
+      "text": "el curso alaban de tu hermoso día.",
+      "defaults": {
+        "speaker": "michael",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0026",
+      "kind": "verse",
+      "speaker": "archangels",
+      "speaker_note": null,
+      "text": "Presta al Ángel vigor vuestra mirada,",
+      "defaults": {
+        "speaker": "archangels",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0027",
+      "kind": "verse",
+      "speaker": "archangels",
+      "speaker_note": null,
+      "text": "aunque él en vano sondearla intente;",
+      "defaults": {
+        "speaker": "archangels",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0028",
+      "kind": "verse",
+      "speaker": "archangels",
+      "speaker_note": null,
+      "text": "como al salir risueña de la nada,",
+      "defaults": {
+        "speaker": "archangels",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0029",
+      "kind": "verse",
+      "speaker": "archangels",
+      "speaker_note": null,
+      "text": "aún vuestra obra, Señor, brilla esplendente.",
+      "defaults": {
+        "speaker": "archangels",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    }
+  ],
+  "input_sha256": "e6f81a4e34c338d5e19b4d2be2901716b2416220890394ebcd269d6f0ca7467a"
+}

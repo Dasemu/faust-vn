@@ -8,6 +8,8 @@ subtitle = "Primera parte — Dedicatoria, prólogos y la noche de Fausto"
 author = "Johann Wolfgang von Goethe"
 translator = "Teodoro Llorente"
 language = "es"
+# Cast id used as speaker of verse that nobody speaks (the Dedicatoria).
+lyric_voice = "poet_voice"
 
 [source]
 gutenberg_id = 68566

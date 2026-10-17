@@ -1,0 +1,533 @@
+{
+  "chunk_id": "prologo_teatro_c04",
+  "prompt_version": "6a9d9f2af4141186e3e3dbe6cdb4a69b249a40c45bef50c9512b25c4a3d3add5",
+  "scene": {
+    "id": "prologo_teatro",
+    "heading": "PRÓLOGO EN EL TEATRO",
+    "location": "theatre",
+    "time_of_day": "day"
+  },
+  "allowed": {
+    "speakers": [
+      "narrator",
+      "poet_voice",
+      "director",
+      "poet",
+      "clown",
+      "raphael",
+      "gabriel",
+      "michael",
+      "archangels",
+      "lord",
+      "mephisto",
+      "faust",
+      "spirit"
+    ],
+    "characters": [
+      "director",
+      "poet",
+      "clown",
+      "raphael",
+      "gabriel",
+      "michael",
+      "archangels",
+      "lord",
+      "mephisto",
+      "faust",
+      "spirit"
+    ],
+    "locations": [
+      "dedication",
+      "theatre",
+      "heaven",
+      "study"
+    ],
+    "emotions": [
+      "neutral",
+      "joyful",
+      "melancholic",
+      "solemn",
+      "ironic",
+      "angry",
+      "fearful",
+      "ecstatic"
+    ],
+    "positions": [
+      "left",
+      "center",
+      "right"
+    ],
+    "music": [
+      "contemplative",
+      "comic",
+      "sacred",
+      "ominous",
+      "mystical",
+      "none"
+    ]
+  },
+  "context_before": [
+    {
+      "id": "prologo_teatro_0113",
+      "speaker": "director",
+      "text": "ese es todo el secreto de la escena."
+    },
+    {
+      "id": "prologo_teatro_0114",
+      "speaker": "director",
+      "text": "Satisfacer al auditorio es cosa"
+    },
+    {
+      "id": "prologo_teatro_0115",
+      "speaker": "director",
+      "text": "asaz dificultosa:"
+    },
+    {
+      "id": "prologo_teatro_0116",
+      "speaker": "director",
+      "text": "entretenedlo, divertidlo. Pero"
+    },
+    {
+      "id": "prologo_teatro_0117",
+      "speaker": "director",
+      "text": "¿qué tenéis? ¿Qué os acosa?"
+    },
+    {
+      "id": "prologo_teatro_0118",
+      "speaker": "director",
+      "text": "¿Es júbilo? ¿Es dolor?..."
+    }
+  ],
+  "lines": [
+    {
+      "id": "prologo_teatro_0119",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "¡Vete, profano!",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0120",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "¡Vete! Romper mi servidumbre quiero.",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0121",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "Por llenar tu gaveta,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0122",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "¿a conmover el corazón humano",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0123",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "renunciará el poeta?",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0124",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "Ese poder que el sentimiento excita,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0125",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "ese poder que irrita",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0126",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "los rudos elementos y los calma,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0127",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "es la armonía que en su ser palpita",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0128",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "y el mundo encierra en su alma.",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0129",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "Mientras Naturaleza indiferente",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0130",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "la hebra retuerce con dormida diestra",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0131",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "de la efímera vida renaciente;",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0132",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "mientras de opuestos modos,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0133",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "en confusión siniestra",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0134",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "se agitan sin cesar los seres todos,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0135",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "¿quién a la desacorde muchedumbre",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0136",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "el ser arranca, que distinto vive,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0137",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "y en él enciende, porque al mundo alumbre,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0138",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "la excelsa idea que inmortal concibe?",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0139",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "¿Quién de la audaz pasión fulmina el rayo?",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0140",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "¿Quién de sereno encanto el cielo viste",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0141",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "cuando en suave desmayo",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0142",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "halaga el sol poniente al ojo triste?",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0143",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "¿Quién deshoja tus flores, dulce mayo,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0144",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "de la adorada virgen en la falda?",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0145",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "¿Quién de las ramas, viento, que despojas,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0146",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "para todos los triunfos, en guirnalda",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0147",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "eterna teje las caducas hojas?",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0148",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "¿Quién el Olimpo crea",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0149",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "y convoca en su cima a las deidades?",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0150",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "La oculta fuerza de la humana idea",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0151",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "que revela el poeta a las edades.",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    }
+  ],
+  "input_sha256": "b06cbdaa9c8c39b70e9166cc867e801c8502821ae8e7ff5942b913f05d340a2f"
+}

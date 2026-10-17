@@ -1,0 +1,723 @@
+{
+  "chunk_id": "prologo_teatro_c01",
+  "prompt_version": "6a9d9f2af4141186e3e3dbe6cdb4a69b249a40c45bef50c9512b25c4a3d3add5",
+  "scene": {
+    "id": "prologo_teatro",
+    "heading": "PRÓLOGO EN EL TEATRO",
+    "location": "theatre",
+    "time_of_day": "day"
+  },
+  "allowed": {
+    "speakers": [
+      "narrator",
+      "poet_voice",
+      "director",
+      "poet",
+      "clown",
+      "raphael",
+      "gabriel",
+      "michael",
+      "archangels",
+      "lord",
+      "mephisto",
+      "faust",
+      "spirit"
+    ],
+    "characters": [
+      "director",
+      "poet",
+      "clown",
+      "raphael",
+      "gabriel",
+      "michael",
+      "archangels",
+      "lord",
+      "mephisto",
+      "faust",
+      "spirit"
+    ],
+    "locations": [
+      "dedication",
+      "theatre",
+      "heaven",
+      "study"
+    ],
+    "emotions": [
+      "neutral",
+      "joyful",
+      "melancholic",
+      "solemn",
+      "ironic",
+      "angry",
+      "fearful",
+      "ecstatic"
+    ],
+    "positions": [
+      "left",
+      "center",
+      "right"
+    ],
+    "music": [
+      "contemplative",
+      "comic",
+      "sacred",
+      "ominous",
+      "mystical",
+      "none"
+    ]
+  },
+  "context_before": [],
+  "lines": [
+    {
+      "id": "prologo_teatro_0001",
+      "kind": "cast",
+      "speaker": null,
+      "speaker_note": null,
+      "text": "EL DIRECTOR, EL POETA DRAMÁTICO, EL GRACIOSO",
+      "defaults": {
+        "speaker": "narrator",
+        "kind": "stage_direction",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0002",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "Decid, buenos amigos,",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0003",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "de mi afán camaradas y testigos,",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0004",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "de nuestra empresa, entre alemana gente,",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0005",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "¿qué pensáis? Es mi anhelo preferente",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0006",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "al público dar gusto:",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0007",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "pues que vivimos de él, nada más justo.",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0008",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "Con los postes y tablas bien dispuesta",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0009",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "está la sala: en apretadas filas",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0010",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "aguarda el auditorio una gran fiesta;",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0011",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "eleva el ceño, ensancha las pupilas",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0012",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "y mudo espera --¡gente bondadosa!-- que",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0013",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "venga a sorprenderle cualquier cosa.",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0014",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "En complacer al público soy ducho;",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0015",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "mas tranquilo no estoy, no estoy sereno:",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0016",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "es verdad que no ha visto nada bueno;",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0017",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "pero, en cambio, esa gente ha visto mucho.",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0018",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "¿Cómo lo dispondremos, de qué modo,",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0019",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "para que nuevo le parezca todo?",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0020",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "Porque me esponjo viendo que a torrentes,",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0021",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "cuando luce aún el sol y dan las cuatro,",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0022",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "la multitud, con gritos impacientes,",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0023",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "pugna en la angosta puerta del teatro;",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0024",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "y como en la tahona, en días de hambre,",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0025",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "pelea por un pan furioso enjambre,",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0026",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "en la taquilla así, por un asiento,",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0027",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "el puño esgrime el pueblo turbulento.",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0028",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "Tanto poder sobre la grey inquieta",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0029",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "no más lo tienes tú, feliz poeta:",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0030",
+      "kind": "verse",
+      "speaker": "director",
+      "speaker_note": null,
+      "text": "repite hoy, pues, el sin igual portento.",
+      "defaults": {
+        "speaker": "director",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0031",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "No me hables de esa, que la austera Musa",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0032",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "siempre huyó con horror, turba insensata;",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0033",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "¡lejos de mí la multitud confusa",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0034",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "que al abismo fatal nos arrebata!",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0035",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "Llévame allá do en limpios resplandores",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0036",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "nos brinda el cielo goce soberano;",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0037",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "do la dulce amistad y los amores",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0038",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "obran y crean con divina mano.",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0039",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "Lo que allí el labio trémulo murmura,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0040",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "lo que allí sueña el alma delirante,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0041",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "tal vez sublimidad, tal vez locura,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0042",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "lampo es quizás, que se apagó al instante.",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0043",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "Pero a veces también duerme el profundo",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0044",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "sueño, siglos y siglos, del olvido,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0045",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "y aparece después y asombra al mundo",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0046",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "del esplendor de la beldad ceñido.",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0047",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "Lo brillante, que viste oropel vano,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0048",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "fugaz momento dura; pero el sello",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0049",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "de la inmortalidad ostenta ufano",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0050",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "y para el porvenir vive lo bello.",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    }
+  ],
+  "input_sha256": "0e8bdfe77867e9250deb9a3ff33f3a1fb2375e9cc8baa2947b8492a3de1a1e71"
+}

@@ -1,0 +1,780 @@
+{
+  "chunk_id": "prologo_teatro_c05",
+  "prompt_version": "6a9d9f2af4141186e3e3dbe6cdb4a69b249a40c45bef50c9512b25c4a3d3add5",
+  "scene": {
+    "id": "prologo_teatro",
+    "heading": "PRÓLOGO EN EL TEATRO",
+    "location": "theatre",
+    "time_of_day": "day"
+  },
+  "allowed": {
+    "speakers": [
+      "narrator",
+      "poet_voice",
+      "director",
+      "poet",
+      "clown",
+      "raphael",
+      "gabriel",
+      "michael",
+      "archangels",
+      "lord",
+      "mephisto",
+      "faust",
+      "spirit"
+    ],
+    "characters": [
+      "director",
+      "poet",
+      "clown",
+      "raphael",
+      "gabriel",
+      "michael",
+      "archangels",
+      "lord",
+      "mephisto",
+      "faust",
+      "spirit"
+    ],
+    "locations": [
+      "dedication",
+      "theatre",
+      "heaven",
+      "study"
+    ],
+    "emotions": [
+      "neutral",
+      "joyful",
+      "melancholic",
+      "solemn",
+      "ironic",
+      "angry",
+      "fearful",
+      "ecstatic"
+    ],
+    "positions": [
+      "left",
+      "center",
+      "right"
+    ],
+    "music": [
+      "contemplative",
+      "comic",
+      "sacred",
+      "ominous",
+      "mystical",
+      "none"
+    ]
+  },
+  "context_before": [
+    {
+      "id": "prologo_teatro_0146",
+      "speaker": "poet",
+      "text": "para todos los triunfos, en guirnalda"
+    },
+    {
+      "id": "prologo_teatro_0147",
+      "speaker": "poet",
+      "text": "eterna teje las caducas hojas?"
+    },
+    {
+      "id": "prologo_teatro_0148",
+      "speaker": "poet",
+      "text": "¿Quién el Olimpo crea"
+    },
+    {
+      "id": "prologo_teatro_0149",
+      "speaker": "poet",
+      "text": "y convoca en su cima a las deidades?"
+    },
+    {
+      "id": "prologo_teatro_0150",
+      "speaker": "poet",
+      "text": "La oculta fuerza de la humana idea"
+    },
+    {
+      "id": "prologo_teatro_0151",
+      "speaker": "poet",
+      "text": "que revela el poeta a las edades."
+    }
+  ],
+  "lines": [
+    {
+      "id": "prologo_teatro_0152",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "Usad tan poderosas facultades;",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0153",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "la fábula forjad como querella",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0154",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "amorosa: se encuentran él y ella,",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0155",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "brota la chispa y vuelve de rechazo,",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0156",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "crece el sabroso anhelo,",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0157",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "se estrecha el tierno lazo,",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0158",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "insta el afán, y la razón el tino",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0159",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "pierde; sube el placer al quinto cielo;",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0160",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "y en esto, cuando nadie lo recela,",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0161",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "acude el desencanto repentino,",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0162",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "y acaba la novela.",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0163",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "Trazad por ese estilo un argumento.",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0164",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "Os da la humana vida larga tela;",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0165",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "cicatriz tienen todos escondida:",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0166",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "poned el dedo en la llagada herida,",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0167",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "y el ansioso interés surge al momento.",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0168",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "Muchos tropos, imágenes y flores;",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0169",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "de verdad una chispa, un mar de errores:",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0170",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "veréis cuán dulce sabe",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0171",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "al paladar del vulgo ese jarabe.",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0172",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "Veréis cómo devora vuestro cuento",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0173",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "el de la juventud crédulo coro,",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0174",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "a cada frase palpitando atento.",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0175",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "En vuestro verso fingirá sonoro",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0176",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "un eco cada tierno sentimiento,",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0177",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "y cada oyente, con feliz zozobra,",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0178",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "lo que hay en su alma lo verá en vuestra obra.",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0179",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "La sonrisa y el llanto",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0180",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "fáciles brotan a tan dulce encanto,",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0181",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "y ya el aplauso embriagador escucho.",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0182",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "Duro es de conmover el hombre ducho;",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0183",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "mas contad con el nuevo",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0184",
+      "kind": "verse",
+      "speaker": "clown",
+      "speaker_note": null,
+      "text": "corazón entusiasta del mancebo.",
+      "defaults": {
+        "speaker": "clown",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0185",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "Vuélveme, pues, al venturoso día",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0186",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "en que el futuro bien me sonreía;",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0187",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "cuando de nobles cantos la copiosa",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0188",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "fuente brotaba, y ocultaba pía",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0189",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "el mundo nube de zafiro y rosa.",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0190",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "Vuélveme al tiempo aquel en que las flores",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0191",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "brotaban a mi paso, siempre bellas;",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0192",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "y cada vez mejores,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0193",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "fragancias y matices y esplendores",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0194",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "mi no saciado afán hallaba en ellas.",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0195",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "Nada tenía, ni pedía al cielo;",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0196",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "para mí era bastante",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0197",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "de la verdad el generoso anhelo,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0198",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "la eterna sed de la ilusión brillante.",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0199",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "Vuélveme la pasión nunca vencida;",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0200",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "la dicha humana, que profunda gime;",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0201",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "la fuerza que hace, al despertar la vida,",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0202",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "sangriento el odio y el amor sublime:",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    },
+    {
+      "id": "prologo_teatro_0203",
+      "kind": "verse",
+      "speaker": "poet",
+      "speaker_note": null,
+      "text": "¡dame otra vez la juventud perdida!",
+      "defaults": {
+        "speaker": "poet",
+        "kind": "dialogue",
+        "location": "theatre",
+        "time_of_day": "day"
+      }
+    }
+  ],
+  "input_sha256": "3f5dcba380e73663c9b32333ee3c290a5a062abc5e5937d2093a85b8f35ecb03"
+}

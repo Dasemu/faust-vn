@@ -1,0 +1,819 @@
+{
+  "chunk_id": "prologo_cielo_c03",
+  "prompt_version": "6a9d9f2af4141186e3e3dbe6cdb4a69b249a40c45bef50c9512b25c4a3d3add5",
+  "scene": {
+    "id": "prologo_cielo",
+    "heading": "PRÓLOGO EN EL CIELO",
+    "location": "heaven",
+    "time_of_day": "timeless"
+  },
+  "allowed": {
+    "speakers": [
+      "narrator",
+      "poet_voice",
+      "director",
+      "poet",
+      "clown",
+      "raphael",
+      "gabriel",
+      "michael",
+      "archangels",
+      "lord",
+      "mephisto",
+      "faust",
+      "spirit"
+    ],
+    "characters": [
+      "director",
+      "poet",
+      "clown",
+      "raphael",
+      "gabriel",
+      "michael",
+      "archangels",
+      "lord",
+      "mephisto",
+      "faust",
+      "spirit"
+    ],
+    "locations": [
+      "dedication",
+      "theatre",
+      "heaven",
+      "study"
+    ],
+    "emotions": [
+      "neutral",
+      "joyful",
+      "melancholic",
+      "solemn",
+      "ironic",
+      "angry",
+      "fearful",
+      "ecstatic"
+    ],
+    "positions": [
+      "left",
+      "center",
+      "right"
+    ],
+    "music": [
+      "contemplative",
+      "comic",
+      "sacred",
+      "ominous",
+      "mystical",
+      "none"
+    ]
+  },
+  "context_before": [
+    {
+      "id": "prologo_cielo_0081",
+      "speaker": "mephisto",
+      "text": "y ya tentar me repugna,"
+    },
+    {
+      "id": "prologo_cielo_0082",
+      "speaker": "mephisto",
+      "text": "Señor, a esa pobre gente."
+    },
+    {
+      "id": "prologo_cielo_0083",
+      "speaker": "lord",
+      "text": "¿Conoces a Fausto?"
+    },
+    {
+      "id": "prologo_cielo_0084",
+      "speaker": "mephisto",
+      "text": "¿A Fausto"
+    },
+    {
+      "id": "prologo_cielo_0085",
+      "speaker": "mephisto",
+      "text": "el Doctor?"
+    },
+    {
+      "id": "prologo_cielo_0086",
+      "speaker": "lord",
+      "text": "¡Mi siervo!"
+    }
+  ],
+  "lines": [
+    {
+      "id": "prologo_cielo_0087",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "¡Ese!",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0088",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "¡Pues me place la manera",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0089",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "como os sirve el tal sirviente!",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0090",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "Manjares no hay en la tierra",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0091",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "que sus labios no desdeñen;",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0092",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "y al espacio imaginario",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0093",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "le arrastra su extraña fiebre.",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0094",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "De su insensata locura",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0095",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "a medias conciencia tiene;",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0096",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "al cielo le pide el astro",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0097",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "que más puro resplandece,",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0098",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "y al mundo la más intensa",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0099",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "sensación de sus placeres;",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0100",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "y ni el cielo ni la tierra",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0101",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "juntando todos sus bienes,",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0102",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "llenar podrán el vacío",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0103",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "de su corazón estéril.",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0104",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "Aún hoy, perdida la ruta,",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0105",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "me sirve. A sus ojos fieles",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0106",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "brillará la luz mañana.",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0107",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "Bien el hortelano entiende,",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0108",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "cuando el botón rompe el árbol,",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0109",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "qué fruto ha de prometerse.",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0110",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "Gran Señor, ¿apuestas algo",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0111",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "a que tu siervo te vende,",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0112",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "si llevarlo por mis sendas",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0113",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "me dejas?",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0114",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "Tentarlo puedes",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0115",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "mientras viva. Está en peligro",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0116",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "de errar quien busca y pretende",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0117",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "los aciertos.",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0118",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "Te doy gracias,",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0119",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "Señor, pues no me apetecen",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0120",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "los muertos. Carnes rollizas",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0121",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "y frescas son mi deleite.",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0122",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "Si se trata de un cadáver,",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0123",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "cargue otro con ese huésped:",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0124",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "soy cual los gatos, que solo",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0125",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "a las ratas vivas muerden.",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0126",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "Pues bien: te entrego mi siervo.",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0127",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "De la originaria fuente",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0128",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "desvía el alma piadosa",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0129",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "y el cauce, si sabes, tuerce;",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0130",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "mas confiesa tu derrota,",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0131",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "si un ser tan pobre y tan débil",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0132",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "el camino recto encuentra",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0133",
+      "kind": "verse",
+      "speaker": "lord",
+      "speaker_note": null,
+      "text": "entre tantas lobregueces.",
+      "defaults": {
+        "speaker": "lord",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0134",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "No ha de ser larga la prueba:",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0135",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "confío en mi buena suerte,",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0136",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "y si ella el triunfo me otorga,",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0137",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "los lauros no me cercenes.",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0138",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "El doctor morderá el polvo,",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0139",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "lo morderá relamiéndose,",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0140",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "como aquella del manzano",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    },
+    {
+      "id": "prologo_cielo_0141",
+      "kind": "verse",
+      "speaker": "mephisto",
+      "speaker_note": null,
+      "text": "mi buena tía la Sierpe.",
+      "defaults": {
+        "speaker": "mephisto",
+        "kind": "dialogue",
+        "location": "heaven",
+        "time_of_day": "timeless"
+      }
+    }
+  ],
+  "input_sha256": "90d798726dcdc0fd15356c8e98b9cc6b4b1c3749ce5175ed3a671707bc016455"
+}

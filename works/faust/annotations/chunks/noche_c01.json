@@ -1,0 +1,853 @@
+{
+  "chunk_id": "noche_c01",
+  "prompt_version": "6a9d9f2af4141186e3e3dbe6cdb4a69b249a40c45bef50c9512b25c4a3d3add5",
+  "scene": {
+    "id": "noche",
+    "heading": "DE NOCHE",
+    "location": "study",
+    "time_of_day": "night"
+  },
+  "allowed": {
+    "speakers": [
+      "narrator",
+      "poet_voice",
+      "director",
+      "poet",
+      "clown",
+      "raphael",
+      "gabriel",
+      "michael",
+      "archangels",
+      "lord",
+      "mephisto",
+      "faust",
+      "spirit"
+    ],
+    "characters": [
+      "director",
+      "poet",
+      "clown",
+      "raphael",
+      "gabriel",
+      "michael",
+      "archangels",
+      "lord",
+      "mephisto",
+      "faust",
+      "spirit"
+    ],
+    "locations": [
+      "dedication",
+      "theatre",
+      "heaven",
+      "study"
+    ],
+    "emotions": [
+      "neutral",
+      "joyful",
+      "melancholic",
+      "solemn",
+      "ironic",
+      "angry",
+      "fearful",
+      "ecstatic"
+    ],
+    "positions": [
+      "left",
+      "center",
+      "right"
+    ],
+    "music": [
+      "contemplative",
+      "comic",
+      "sacred",
+      "ominous",
+      "mystical",
+      "none"
+    ]
+  },
+  "context_before": [],
+  "lines": [
+    {
+      "id": "noche_0001",
+      "kind": "direction",
+      "speaker": null,
+      "speaker_note": null,
+      "text": "En un aposento gótico, estrecho, con elevada bóveda, FAUSTO intranquilo sentado a su pupitre.",
+      "defaults": {
+        "speaker": "narrator",
+        "kind": "stage_direction",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0002",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "Filosofía, ¡ay, Dios!, Jurisprudencia,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0003",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "Medicina además, y Teología,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0004",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "por desgracia también, lo estudié todo,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0005",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "todo lo escudriñé con ansia viva,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0006",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "y hoy, ¡pobre loco!, tras afanes tantos,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0007",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "¿qué es lo que sé? Lo mismo que sabía.",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0008",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "Doctor me llamo, dígome maestro,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0009",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "y hace diez años ya que abajo, arriba,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0010",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "acá y allá, y a diestra y a siniestra,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0011",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "a rastras llevo la escolar traílla.",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0012",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "¡Solo pude aprender que no sé nada,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0013",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "y el alma en la contienda está rendida!",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0014",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "Bachiller o doctor, seglar o preste,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0015",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "nadie su ciencia iguala con la mía;",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0016",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "ni escrúpulo ni duda me atormentan;",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0017",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "ni demonio ni infierno me intimidan;",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0018",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "y así, de sombras y de espantos libre,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0019",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "huyó todo el encanto de mi vida.",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0020",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "Al hombre inútil, para el bien estéril,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0021",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "nada puedo enseñar que de algo sirva,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0022",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "y sin caudal, ni crédito, ni honores,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0023",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "vida arrastro que un can despreciaría.",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0024",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "Doyme a la Magia, pues. ¡Oh, si pudiera",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0025",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "el vigor del Espíritu, que anima",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0026",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "al Verbo humano, la secreta clave",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0027",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "revelarme de todos los enigmas!",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0028",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "No con pálido afán sudara sangre",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0029",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "para hacer comprender lo que mi misma",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0030",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "razón no comprendió; y en las entrañas",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0031",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "penetrando del mundo, encontraría",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0032",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "del eterno Poder vivificante,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0033",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "allí dentro, las fuentes escondidas,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0034",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "y no hiciera, en insulsas peroratas,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0035",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "tráfago insustancial de charla ambigua.",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0036",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "A mi angustioso afán, ¡oh luna llena!,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0037",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "da por última vez tu luz amiga:",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0038",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "¡cuántas, a media noche, tus destellos",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0039",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "bebí ansioso, postrado en esta silla,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0040",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "cuando aquí, entre volúmenes y folios,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0041",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "tristes y misteriosos descendían!",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0042",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "¡Fuérame dado en tu viviente lumbre",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0043",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "feliz vagar sobre las altas cimas;",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0044",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "en los antros seguir los vagarosos",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0045",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "espíritus; flotar con tu indecisa",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0046",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "muriente claridad en las praderas,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0047",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "y olvidando las ásperas vigilias",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0048",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "del inútil saber, en tu rocío",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0049",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "bañar feliz la sien enardecida!",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0050",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "¿Hasta cuándo será mi calabozo",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0051",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "este tugurio, madriguera indigna,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0052",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "en donde hasta la pura luz del cielo",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0053",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "la pintada vidriera nubla y filtra?",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0054",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "Cíñeme en torno cúmulo de libros,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0055",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "que el polvo ensucia y muerde la polilla;",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0056",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "papelotes y viejos pergaminos",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0057",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "suben al techo en apretadas pilas.",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0058",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "Cóncavos vidrios, botes y redomas,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0059",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "extraños instrumentos hechos trizas",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    },
+    {
+      "id": "noche_0060",
+      "kind": "verse",
+      "speaker": "faust",
+      "speaker_note": null,
+      "text": "--¡única y triste herencia de mis padres!--,",
+      "defaults": {
+        "speaker": "faust",
+        "kind": "dialogue",
+        "location": "study",
+        "time_of_day": "night"
+      }
+    }
+  ],
+  "input_sha256": "d49c80bca4218901593f2874008c544adb4b009ae884334fe29abd4b344ba5a2"
+}
