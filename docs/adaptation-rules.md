@@ -45,6 +45,19 @@ sets the mood and the words carry the scene. So:
   around between boxes.
 - Characters with `sprite = false` are never drawn, even if annotated as on stage.
 
+## Human judgment layer
+
+The annotation is an LLM's first guess; `work.toml` can override it, generically:
+
+- `[staging.<scene>].cast = { <char> = "<pos>" }` pins characters (sprite = true) on stage
+  at fixed positions for the whole scene, overriding the annotation's `on_stage`.
+- A cue's `move = { <char> = "<pos>" }` slides a visible sprite to another position.
+- `[[overrides]] { from, to, emotion }` forces the emotion of an inclusive line range
+  (same scene) before expression mapping.
+
+Stage-direction lines never change who is on stage (they keep the previous box's
+`on_stage`). Unknown line ids, characters, positions or emotions are errors at generation.
+
 ## Transitions
 
 - `dissolve` between expressions and on sprite entry/exit, `fade` between scenes,

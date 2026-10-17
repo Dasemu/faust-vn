@@ -34,3 +34,5 @@ transform vn_shake:
 init python:
     config.font_replacement_map["fonts/RobotoSlab-Regular.ttf", True, False] = (
         "fonts/RobotoSlab-Bold.ttf", False, False)
+
+define vn_move = MoveTransition(0.8)

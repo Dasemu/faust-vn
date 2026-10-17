@@ -253,3 +253,82 @@ def test_renpy_lint(work, annotated, tmp_path):
     report = result.stdout + result.stderr
     assert result.returncode == 0, report
     assert "Traceback" not in report and "error" not in report.lower(), report
+
+
+def _with_cfg(work, **changes):
+    data = json.loads(json.dumps(work.data))
+    for key, value in changes.items():
+        data[key] = value
+    return type(work)(root=work.root, data=data)
+
+
+def test_pinned_cast(work, annotated):
+    data = json.loads(json.dumps(work.data))
+    data["staging"]["talk"]["cast"] = {"poet": "left", "director": "center"}
+    pinned = type(work)(root=work.root, data=data)
+    block = scene_block(renpy_gen.render_script(pinned, annotated, set()), "talk")
+    first_box = block.index("# talk_0002 .. talk_0005")
+    assert "show poet neutral at vn_left" in block[first_box:]
+    assert any(ln.startswith("show director") and ln.endswith("vn_center") for ln in block)
+    assert not any("vn_right" in ln for ln in block)  # annotation position overridden
+
+
+def test_stage_direction_keeps_on_stage(work, annotated):
+    ann = json.loads(json.dumps(annotated))
+    direction = next(ln for ln in ann["scenes"][1]["lines"] if ln["id"] == "talk_0010")
+    direction["ann"]["on_stage"] = []
+    block = scene_block(renpy_gen.render_script(work, ann, set()), "talk")
+    i = block.index('c_narrator "Se aleja."')
+    assert not any(ln.startswith("hide ") for ln in block[i - 3 : i])
+
+
+def test_cue_move(work, annotated):
+    data = json.loads(json.dumps(work.data))
+    data["cues"][0]["move"] = {"poet": "left"}
+    moved = type(work)(root=work.root, data=data)
+    block = scene_block(renpy_gen.render_script(moved, annotated, set()), "talk")
+    # sprites are hidden by that cue's hide_all, so nothing to slide; position is updated
+    assert "with vn_move" not in block
+    data["cues"][0].pop("hide_all")
+    data["cues"][0]["move"] = {"poet": "left"}
+    moved = type(work)(root=work.root, data=data)
+    block = scene_block(renpy_gen.render_script(moved, annotated, set()), "talk")
+    i = block.index("with vn_move")
+    assert block[i - 1].startswith("show poet ") and block[i - 1].endswith("vn_left")
+
+
+def test_overrides(work, annotated):
+    ov = [{"from": "talk_0011", "to": "talk_0013", "emotion": "angry"}]
+    block = scene_block(
+        renpy_gen.render_script(_with_cfg(work, overrides=ov), annotated, set()), "talk"
+    )
+    assert "show poet indignant at vn_right" in block[block.index("# talk_0011 .. talk_0013") :]
+
+
+@pytest.mark.parametrize(
+    "change, match",
+    [
+        ({"overrides": [{"from": "talk_0011", "to": "nope", "emotion": "angry"}]}, "unknown line"),
+        ({"overrides": [{"from": "talk_0011", "to": "talk_0012", "emotion": "mad"}]}, "emotion"),
+        ({"overrides": [{"from": "talk_0011", "to": "lyric_0001", "emotion": "angry"}]}, "range"),
+        ({"overrides": [{"from": "talk_0012", "to": "talk_0011", "emotion": "angry"}]}, "range"),
+    ],
+)
+def test_invalid_overrides(work, annotated, change, match):
+    with pytest.raises(ValueError, match=match):
+        renpy_gen.render_script(_with_cfg(work, **change), annotated, set())
+
+
+def test_invalid_staging_cast_and_move(work, annotated):
+    data = json.loads(json.dumps(work.data))
+    data["staging"]["talk"]["cast"] = {"ghost": "left"}
+    with pytest.raises(ValueError, match="ghost"):
+        renpy_gen.render_script(type(work)(root=work.root, data=data), annotated, set())
+    data = json.loads(json.dumps(work.data))
+    data["staging"]["talk"]["cast"] = {"poet": "up"}
+    with pytest.raises(ValueError, match="position"):
+        renpy_gen.render_script(type(work)(root=work.root, data=data), annotated, set())
+    data = json.loads(json.dumps(work.data))
+    data["cues"][0]["move"] = {"poet": "nowhere"}
+    with pytest.raises(ValueError, match="position"):
+        renpy_gen.render_script(type(work)(root=work.root, data=data), annotated, set())

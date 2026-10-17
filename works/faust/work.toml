@@ -146,6 +146,11 @@ sprite = false
 #   mode       adv | nvl
 #   hide_all   true -> remove all sprites
 #   shake      true -> short screen shake
+#   move       { <char> = "<pos>" } -> slide a visible sprite to left|center|right
+# A scene may also pin characters on stage for the whole scene, overriding the
+# annotation's on_stage/positions for them (sprite = true characters only):
+#   cast       { <char> = "left|center|right", ... }
+# [[overrides]] (end of file) force the emotion of a line range before expression mapping.
 [staging.dedicatoria]
 bg = "bg_dedication"
 mode = "nvl"
@@ -153,14 +158,17 @@ mode = "nvl"
 [staging.prologo_teatro]
 bg = "bg_theatre"
 mode = "adv"
+cast = { clown = "left", director = "center", poet = "right" }
 
 [staging.prologo_cielo]
 bg = "bg_heaven"
 mode = "nvl"
+cast = { mephisto = "left" }
 
 [staging.noche]
 bg = "bg_study"
 mode = "adv"
+cast = { faust = "center" }
 
 [[cues]]
 # The archangels' hymn ends; the Lord is addressed by Mephistopheles.
@@ -191,3 +199,15 @@ at = "noche_0145"
 bg = "bg_study_spirit"
 transition = "flash"
 shake = true
+move = { faust = "left" }  # keep the Spirit's flame (centre of the background) visible
+
+# Mephistopheles is annotated "ironic" throughout; force the register where the text changes.
+[[overrides]]
+from = "prologo_cielo_0030"
+to = "prologo_cielo_0043"
+emotion = "solemn"  # deferent bow before the Lord
+
+[[overrides]]
+from = "prologo_cielo_0048"
+to = "prologo_cielo_0061"
+emotion = "angry"  # scornful about mankind

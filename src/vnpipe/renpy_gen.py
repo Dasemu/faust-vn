@@ -30,6 +30,17 @@ SPLIT_INDENT = 6  # parsed `indent` at or above this marks a split verse line
 TITLE_PAUSE = 2.0
 END_PAUSE = 3.0
 
+VALID_POSITIONS = ("left", "center", "right")
+EMOTIONS = (
+    "neutral",
+    "joyful",
+    "melancholic",
+    "solemn",
+    "ironic",
+    "angry",
+    "fearful",
+    "ecstatic",
+)
 POSITIONS = ("left", "right", "center")  # order in which --from-parsed assigns positions
 TRANSITIONS = {
     "dissolve": "dissolve",
@@ -232,7 +243,9 @@ class SceneWriter:
         self.tint = "none"
         self.music_state = music_state  # {'playing': mood}, shared across scenes
         self.shown: dict[str, str] = {}  # character -> expression currently shown
-        self.positions: dict[str, str] = {}  # character -> stable position for this scene
+        self.pinned: dict[str, str] = dict(staging.get("cast", {}))  # always on stage in ADV
+        self.positions: dict[str, str] = dict(self.pinned)  # character -> position in this scene
+        self.last_on_stage: list[dict[str, str]] = []  # on_stage of the last non-direction box
         self.out: list[str] = []
         self.box: Box | None = None
 
@@ -274,6 +287,14 @@ class SceneWriter:
             self.emit(f"with {TRANSITIONS[transition]}")
         if cue.get("shake"):
             self.emit("show layer master at vn_shake")
+        moved = False
+        for cid, position in cue.get("move", {}).items():
+            self.positions[cid] = position
+            if cid in self.shown:
+                self.emit(f"show {cid} {self.shown[cid]} at vn_{position}")
+                moved = True
+        if moved:
+            self.emit("with vn_move")
 
     def hide_sprites(self, characters: list[str]) -> bool:
         for cid in characters:
@@ -344,14 +365,22 @@ class SceneWriter:
         first = box.lines[0]
         ann = first["ann"]
         desired: list[str] = []
-        for entry in ann["on_stage"]:
+        # stage directions never change who is on stage
+        on_stage = self.last_on_stage if box.is_direction else ann["on_stage"]
+        if not box.is_direction:
+            self.last_on_stage = on_stage
+        for cid in self.pinned:
+            if self.work.cast[cid].get("sprite"):
+                desired.append(cid)
+        for entry in on_stage:
             cid = entry["character"]
             if cid not in self.work.cast:
                 raise ValueError(f"{first['id']}: on_stage character {cid!r} is not in [cast]")
             if not self.work.cast[cid].get("sprite"):
                 continue
             self.positions.setdefault(cid, entry["position"])
-            desired.append(cid)
+            if cid not in desired:
+                desired.append(cid)
         changed = self.hide_sprites([c for c in list(self.shown) if c not in desired])
         for cid in desired:
             expressions = self.work.cast[cid].get("expressions", {})
@@ -392,7 +421,49 @@ class SceneWriter:
         return self.out
 
 
+def validate_staging(work: Work, annotated: dict[str, Any]) -> None:
+    """Check the human-judgment layer (staging.cast, cue move, overrides) against the data."""
+    cast = work.cast
+    scene_ids = [sc["id"] for sc in annotated["scenes"]]
+    for sid, cfg in work.data.get("staging", {}).items():
+        if sid not in scene_ids:
+            raise ValueError(f"[staging.{sid}]: unknown scene")
+        for cid, pos in cfg.get("cast", {}).items():
+            if cid not in cast:
+                raise ValueError(f"[staging.{sid}].cast: unknown character {cid!r}")
+            if pos not in VALID_POSITIONS:
+                raise ValueError(f"[staging.{sid}].cast: unknown position {pos!r}")
+    for cue in work.data.get("cues", []):
+        for cid, pos in cue.get("move", {}).items():
+            if cid not in cast:
+                raise ValueError(f"cue at {cue['at']}: move of unknown character {cid!r}")
+            if pos not in VALID_POSITIONS:
+                raise ValueError(f"cue at {cue['at']}: unknown position {pos!r}")
+
+
+def apply_overrides(work: Work, annotated: dict[str, Any]) -> dict[str, Any]:
+    """Return a copy of ``annotated`` with ``[[overrides]]`` emotions applied (inclusive ranges)."""
+    result = json.loads(json.dumps(annotated))
+    where = {ln["id"]: (sc, i) for sc in result["scenes"] for i, ln in enumerate(sc["lines"])}
+    for ov in work.data.get("overrides", []):
+        if ov["emotion"] not in EMOTIONS:
+            raise ValueError(
+                f"override {ov['from']}..{ov['to']}: unknown emotion {ov['emotion']!r}"
+            )
+        for key in ("from", "to"):
+            if ov[key] not in where:
+                raise ValueError(f"override: unknown line id {ov[key]!r}")
+        (scene, start), (scene_to, end) = where[ov["from"]], where[ov["to"]]
+        if scene is not scene_to or end < start:
+            raise ValueError(f"override {ov['from']}..{ov['to']}: not a range within one scene")
+        for line in scene["lines"][start : end + 1]:
+            line["ann"]["emotion"] = ov["emotion"]
+    return result
+
+
 def render_script(work: Work, annotated: dict[str, Any], moods: set[str]) -> str:
+    validate_staging(work, annotated)
+    annotated = apply_overrides(work, annotated)
     end_text = work.data["work"].get("end_text", DEFAULT_END_TEXT)
     out = [
         "## Generated by `vnpipe renpy`. Do not edit: regenerate instead.",
