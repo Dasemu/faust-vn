@@ -1,0 +1,606 @@
+{
+  "chunk_id": "noche_c01",
+  "input_sha256": "d49c80bca4218901593f2874008c544adb4b009ae884334fe29abd4b344ba5a2",
+  "annotations": [
+    {
+      "id": "noche_0001",
+      "speaker": "narrator",
+      "kind": "stage_direction",
+      "emotion": "neutral",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": "contemplative"
+    },
+    {
+      "id": "noche_0002",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0003",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0004",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0005",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0006",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0007",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0008",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0009",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0010",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0011",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0012",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0013",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0014",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0015",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0016",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0017",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0018",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0019",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0020",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0021",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0022",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0023",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0024",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0025",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0026",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0027",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0028",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0029",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0030",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0031",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0032",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0033",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0034",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0035",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0036",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0037",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0038",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0039",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0040",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0041",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0042",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0043",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0044",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0045",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0046",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0047",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0048",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0049",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0050",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "angry",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0051",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "angry",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0052",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "angry",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0053",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "angry",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0054",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0055",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0056",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0057",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0058",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0059",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0060",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    }
+  ]
+}

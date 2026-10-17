@@ -1,0 +1,702 @@
+{
+  "chunk_id": "prologo_teatro_c01",
+  "input_sha256": "0e8bdfe77867e9250deb9a3ff33f3a1fb2375e9cc8baa2947b8492a3de1a1e71",
+  "annotations": [
+    {
+      "id": "prologo_teatro_0001",
+      "speaker": "narrator",
+      "kind": "stage_direction",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0002",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": "comic"
+    },
+    {
+      "id": "prologo_teatro_0003",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0004",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0005",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0006",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0007",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "joyful",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0008",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0009",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0010",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0011",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0012",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0013",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0014",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "joyful",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0015",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0016",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0017",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "ironic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0018",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0019",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0020",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "joyful",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0021",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "joyful",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0022",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "joyful",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0023",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "joyful",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0024",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0025",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0026",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0027",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0028",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "joyful",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0029",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "joyful",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0030",
+      "speaker": "director",
+      "kind": "dialogue",
+      "emotion": "joyful",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0031",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "solemn",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": "contemplative"
+    },
+    {
+      "id": "prologo_teatro_0032",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0033",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "solemn",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0034",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "solemn",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0035",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0036",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0037",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0038",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0039",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0040",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0041",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0042",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0043",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "solemn",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0044",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0045",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0046",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0047",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0048",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "neutral",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0049",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "solemn",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    },
+    {
+      "id": "prologo_teatro_0050",
+      "speaker": "poet",
+      "kind": "dialogue",
+      "emotion": "solemn",
+      "location": "theatre",
+      "time_of_day": "day",
+      "on_stage": [
+        {"character": "director", "position": "center"},
+        {"character": "poet", "position": "right"},
+        {"character": "clown", "position": "left"}
+      ],
+      "music": null
+    }
+  ]
+}

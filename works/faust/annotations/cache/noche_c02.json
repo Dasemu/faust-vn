@@ -1,0 +1,226 @@
+{
+  "chunk_id": "noche_c02",
+  "input_sha256": "69204192a88b73db4e03e00a1f5c9b39f295f10d249c6c734fcadaa98946f2c5",
+  "annotations": [
+    {
+      "id": "noche_0061",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": "contemplative"
+    },
+    {
+      "id": "noche_0062",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0063",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0064",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0065",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0066",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0067",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0068",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0069",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "melancholic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0070",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "angry",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0071",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0072",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0073",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0074",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0075",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0076",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0077",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0078",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0079",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0080",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0081",
+      "speaker": "faust",
+      "kind": "dialogue",
+      "emotion": "ecstatic",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [{"character": "faust", "position": "center"}],
+      "music": null
+    },
+    {
+      "id": "noche_0082",
+      "speaker": "narrator",
+      "kind": "stage_direction",
+      "emotion": "neutral",
+      "location": "study",
+      "time_of_day": "night",
+      "on_stage": [],
+      "music": "mystical"
+    }
+  ]
+}
