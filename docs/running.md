@@ -59,6 +59,25 @@ HOME=$TMPDIR/renpy-home tools/renpy-sdk/renpy.sh vn/faust lint
 
 The expected result is a statistics block with no warnings above it.
 
+## 3b. End-to-end playthrough test
+
+Lint does not catch runtime errors (missing GUI images, display bugs). `--with-test` also
+writes `game/e2e_test.rpy`, a Ren'Py `testcase` that clicks "Start", advances through the
+whole game up to the final card (`label the_end`) and back to the main menu, failing on any
+exception (`traceback.txt`). Use a throw-away output directory so the test file never ends
+up in `vn/` or in a build:
+
+```sh
+uv run vnpipe renpy --with-test --out build/e2e
+HOME=$TMPDIR/renpy-home SDL_VIDEODRIVER=dummy SDL_AUDIODRIVER=dummy RENPY_RENDERER=sw \
+  tools/renpy-sdk/renpy.sh build/e2e test
+```
+
+The headless run needs the software renderer (`RENPY_RENDERER=sw`, no GL under the dummy
+video driver); matrix tints are therefore not rendered but all game logic is exercised.
+`tests/test_renpy_gen.py` runs this for the fixture and for Faust when the SDK exists
+(slow: about a minute). On a desktop with a display, drop the three variables.
+
 ## 4. Play
 
 ```sh

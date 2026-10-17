@@ -65,11 +65,12 @@ def test_escaping_in_script(script):
 
 def test_title_card_and_end(script):
     block = scene_block(script, "talk")
-    assert 'show text "{size=60}CONVERSACIÓN{/size}" as title_card at truecenter' in block
+    assert "show card_talk at truecenter" in block
+    assert "hide card_talk" in block
     assert "with fade" in block
     assert "scene bg theatre at tint_none" in block
     assert script.rstrip().endswith("return")
-    assert "Continuará…" in script
+    assert "show card_end at truecenter" in script and "label the_end:" in script
 
 
 def test_nvl_pages_per_stanza(script):
@@ -166,6 +167,12 @@ def test_characters_and_images(project):
     assert (project / "game/images/sprites/poet_indignant.webp").is_file()
     assert (project / "game/images/bg/theatre.webp").is_file()
     assert not (project / "game/images/sprites/lord_neutral.webp").exists()
+
+
+def test_title_card_images(project):
+    images = (project / "game/images.rpy").read_text(encoding="utf-8")
+    assert 'image card_talk = Text("CONVERSACIÓN", size=60, text_align=0.5)' in images
+    assert 'image card_end = Text("Continuará…"' in images
 
 
 def test_options_substitution(project):
@@ -332,3 +339,77 @@ def test_invalid_staging_cast_and_move(work, annotated):
     data["cues"][0]["move"] = {"poet": "nowhere"}
     with pytest.raises(ValueError, match="position"):
         renpy_gen.render_script(type(work)(root=work.root, data=data), annotated, set())
+
+
+def test_every_gui_image_exists(project):
+    """Every gui/... path the template screens reference resolves to a shipped file."""
+    import re
+
+    game = project / "game"
+    text = "".join((game / n).read_text(encoding="utf-8") for n in ("gui.rpy", "screens.rpy"))
+    text = "\n".join(ln for ln in text.split("\n") if not ln.lstrip().startswith("#"))
+    refs = set(re.findall(r'"(gui/[^"]+\.png)"', text))
+    assert len(refs) > 20
+    missing = []
+    for ref in sorted(refs):
+        # Ren'Py's prefix search ends with the un-prefixed name
+        candidates = [ref.replace("[prefix_]", "")]
+        if ref.endswith("confirm_frame.png"):
+            candidates.append("gui/frame.png")  # listed fallback in screens.rpy
+        if not any((game / c).is_file() for c in candidates):
+            missing.append(ref)
+    assert not missing
+    # button_properties() backgrounds fall back to gui/button/background.png
+    assert (game / "gui/button/background.png").is_file()
+    assert (game / "gui/phone/button/background.png").is_file()
+
+
+def test_with_test_flag(work, annotated, tmp_path):
+    plain, tested = tmp_path / "a", tmp_path / "b"
+    renpy_gen.generate(work, annotated, plain)
+    renpy_gen.generate(work, annotated, tested, with_test=True)
+    assert not (plain / "game/e2e_test.rpy").exists()
+    assert "testcase default" in (tested / "game/e2e_test.rpy").read_text(encoding="utf-8")
+    renpy_gen.generate(work, annotated, tested)  # flag off removes it again
+    assert not (tested / "game/e2e_test.rpy").exists()
+
+
+def run_e2e(project: Path, home: Path) -> str:
+    home.mkdir(exist_ok=True)
+    for name in ("traceback.txt", "errors.txt"):
+        (project / name).unlink(missing_ok=True)
+    env = {
+        **os.environ,
+        "HOME": str(home),
+        "SDL_VIDEODRIVER": "dummy",
+        "SDL_AUDIODRIVER": "dummy",
+        "RENPY_RENDERER": "sw",
+    }
+    result = subprocess.run(
+        [str(SDK), str(project), "test"], capture_output=True, text=True, env=env, timeout=900
+    )
+    report = result.stdout + result.stderr
+    for name in ("traceback.txt", "errors.txt"):
+        assert not (project / name).exists(), (project / name).read_text(encoding="utf-8")
+    assert result.returncode == 0, report
+    assert "Traceback" not in report and "FAIL" not in report, report
+    return report
+
+
+@pytest.mark.skipif(not SDK.exists(), reason="Ren'Py SDK not installed in tools/renpy-sdk")
+def test_e2e_playthrough_mini(work, annotated, tmp_path):
+    out = tmp_path / "mini"
+    renpy_gen.generate(work, annotated, out, with_test=True)
+    run_e2e(out, tmp_path / "home")
+
+
+@pytest.mark.skipif(not SDK.exists(), reason="Ren'Py SDK not installed in tools/renpy-sdk")
+@pytest.mark.skipif(
+    not (ROOT / "works/faust/data/annotated.json").is_file(), reason="no annotated.json"
+)
+def test_e2e_playthrough_faust(tmp_path):
+    faust = load_work(ROOT / "works/faust")
+    data = json.loads((ROOT / "works/faust/data/annotated.json").read_text(encoding="utf-8"))
+    out = tmp_path / "faust"
+    renpy_gen.generate(faust, data, out, with_test=True)
+    run_e2e(out, tmp_path / "home")
