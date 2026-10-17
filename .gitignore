@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+.env
+# Raw downloads are cached locally and re-fetched on demand
+works/*/data/raw/
+# Ren'Py runtime artifacts
+game/**/*.rpyc
+game/**/*.rpymc
+game/cache/
+game/saves/
+game/log.txt
+game/traceback.txt
+game/errors.txt
+# Local Ren'Py SDK and builds
+tools/
+build/
+# Local agent/sandbox state
+.claude/
+.mcp.json

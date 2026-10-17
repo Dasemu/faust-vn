@@ -1,0 +1,135 @@
+# Work configuration: everything specific to this text lives here.
+# The pipeline code in src/vnpipe must stay work-agnostic.
+
+[work]
+id = "faust"
+title = "Fausto"
+subtitle = "Primera parte — Dedicatoria, prólogos y la noche de Fausto"
+author = "Johann Wolfgang von Goethe"
+translator = "Teodoro Llorente"
+language = "es"
+
+[source]
+gutenberg_id = 68566
+url = "https://www.gutenberg.org/cache/epub/68566/pg68566.txt"
+raw_file = "data/raw/pg68566.txt"
+
+# Scope: the play starts at the first marker line and ends right before the
+# end marker (exclusive). Both are matched as whole stripped lines; `end_occurrence`
+# picks which occurrence (1-based) counts, searching after the start marker.
+[scope]
+start_marker = "DEDICATORIA"
+end_marker = "(_Llaman._)"
+end_occurrence = 1
+
+# Speaker headings as printed (upper case, before any comma/parenthesis) -> cast id.
+[speakers]
+"EL DIRECTOR" = "director"
+"EL POETA" = "poet"
+"EL GRACIOSO" = "clown"
+"RAFAEL" = "raphael"
+"GABRIEL" = "gabriel"
+"MIGUEL" = "michael"
+"LOS TRES ARCÁNGELES" = "archangels"
+"MEFISTÓFELES" = "mephisto"
+"EL SEÑOR" = "lord"
+"FAUSTO" = "faust"
+"EL ESPÍRITU" = "spirit"
+
+# Scene heading (as printed) -> scene id, location, time of day, default presentation.
+[[scenes]]
+heading = "DEDICATORIA"
+id = "dedicatoria"
+location = "dedication"
+time_of_day = "timeless"
+
+[[scenes]]
+heading = "PRÓLOGO EN EL TEATRO"
+id = "prologo_teatro"
+location = "theatre"
+time_of_day = "day"
+
+[[scenes]]
+heading = "PRÓLOGO EN EL CIELO"
+id = "prologo_cielo"
+location = "heaven"
+time_of_day = "timeless"
+
+[[scenes]]
+heading = "DE NOCHE"
+id = "noche"
+location = "study"
+time_of_day = "night"
+
+# Cast. `sprite = false` means the character is never drawn as a standing sprite
+# (see docs/adaptation-rules.md); `expressions` maps the annotation emotion
+# vocabulary to the sprite expressions that exist for that character.
+[cast.narrator]
+name = ""
+color = "#d8cfc0"
+
+[cast.poet_voice]
+# The Dedicatoria is spoken by the author-poet; rendered as full-screen text.
+name = ""
+color = "#e8dcc2"
+sprite = false
+
+[cast.director]
+name = "El Director"
+color = "#c9a25b"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", joyful = "pleased", ecstatic = "pleased", ironic = "pleased", melancholic = "worried", angry = "worried", fearful = "worried" }
+
+[cast.poet]
+name = "El Poeta"
+color = "#8fa8c8"
+sprite = true
+expressions = { neutral = "neutral", melancholic = "neutral", solemn = "inspired", joyful = "inspired", ecstatic = "inspired", ironic = "indignant", angry = "indignant", fearful = "indignant" }
+
+[cast.clown]
+name = "El Gracioso"
+color = "#c87a5a"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "neutral", joyful = "laughing", ecstatic = "laughing", ironic = "mocking", angry = "mocking", fearful = "neutral" }
+
+[cast.raphael]
+name = "Rafael"
+color = "#f0d890"
+sprite = false
+
+[cast.gabriel]
+name = "Gabriel"
+color = "#d8e4f0"
+sprite = false
+
+[cast.michael]
+name = "Miguel"
+color = "#e8a878"
+sprite = false
+
+[cast.archangels]
+name = "Los tres Arcángeles"
+color = "#f4ecd0"
+sprite = false
+
+[cast.lord]
+name = "El Señor"
+color = "#fff4c8"
+sprite = false
+
+[cast.mephisto]
+name = "Mefistófeles"
+color = "#b04a3a"
+sprite = true
+expressions = { neutral = "neutral", solemn = "deferent", melancholic = "neutral", joyful = "sly", ecstatic = "sly", ironic = "sly", angry = "scornful", fearful = "deferent" }
+
+[cast.faust]
+name = "Fausto"
+color = "#a8b890"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", ironic = "neutral", melancholic = "anguished", angry = "anguished", joyful = "ecstatic", ecstatic = "ecstatic", fearful = "fearful" }
+
+[cast.spirit]
+name = "El Espíritu"
+color = "#e85a3a"
+sprite = false
