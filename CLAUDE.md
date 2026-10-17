@@ -12,7 +12,10 @@ Pipeline (`vnpipe`) that turns a public-domain play into a Ren'Py visual novel; 
 ## Commands
 - `export UV_CACHE_DIR=$TMPDIR/uv-cache` first when running inside the sandbox.
 - `uv sync` — install. `uv run pytest` — tests. `uv run ruff check . && uv run ruff format --check .` — lint.
-- `uv run vnpipe --help` — pipeline CLI.
+- `uv run vnpipe --help` — pipeline CLI. Stages: `fetch`, `parse`, `annotate {chunk,status,prompt,merge}`,
+  `assets {prompt,import,process,status,placeholders,sheet}`, `renpy [--with-test]`.
+- Ren'Py SDK lives in `tools/renpy-sdk` (gitignored); prefix SDK commands with `HOME=$TMPDIR/renpy-home`.
+  Lint: `tools/renpy-sdk/renpy.sh vn/faust lint`. Playthrough test and builds: `docs/running.md`.
 
 ## Layout
 See `docs/plan.md`.
