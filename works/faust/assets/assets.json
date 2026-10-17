@@ -11,85 +11,91 @@
       "kind": "background",
       "prompt": "Twilight sky of drifting silver mist; faint translucent human figures half-formed in the clouds, like memories, with no recognisable faces; melancholic and dreamlike.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "4618cf00-6af8-4e45-be28-2e42d90158bd",
       "reference": null,
-      "raw_file": null,
+      "raw_file": "raw/bg_dedication.png",
       "file": "bg/dedication.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "749e798234e16e499f8559941edcabb611f9ab9e3f63fa9830b7f74079694583",
+      "status": "approved",
+      "notes": "painted, misty ghost figures, no text"
     },
     {
       "id": "bg_theatre",
       "kind": "background",
       "prompt": "The empty wooden stage of a small late-18th-century German theatre seen from the wings toward the stage: painted canvas flats, a heavy curtain partly drawn, a row of candle footlights, rehearsal daylight falling from high windows, dust in the air.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "9db60faf-f7ce-4092-81bc-2bde58c05dbc",
       "reference": null,
-      "raw_file": null,
+      "raw_file": "raw/bg_theatre.png",
       "file": "bg/theatre.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "43dac99335a6d0167ab059699831e3106c7c5e374c0420d0d3e127807560d262",
+      "status": "approved",
+      "notes": "painted, stage flats, footlights, a little glossy floor"
     },
     {
       "id": "bg_heaven",
       "kind": "background",
       "prompt": "The celestial realm high above luminous clouds, the sun blazing and stars visible in a deep blue sky; three robed, winged archangels in white and gold, small and distant in the middle ground, singing.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "badcc8f4-22d8-4535-9c61-8dc148ed8a6a",
       "reference": null,
-      "raw_file": null,
+      "raw_file": "raw/bg_heaven.png",
       "file": "bg/heaven.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "00c78942c3b6ff08ee671ecf50fe1eca563b088c7b46ca82dbce4b1aaa84681d",
+      "status": "approved",
+      "notes": "painted, three archangels, gold/pale blue"
     },
     {
       "id": "bg_heaven_lord",
       "kind": "background",
       "prompt": "The celestial realm above luminous clouds; at the centre a throne-shaped radiance of golden light with no visible figure inside it, rays spreading outward; the heavenly hosts as faint winged silhouettes on both sides.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "a2cd8061-f587-4cc2-af4d-1521ac7bb273",
       "reference": null,
-      "raw_file": null,
+      "raw_file": "raw/bg_heaven_lord.png",
       "file": "bg/heaven_lord.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "896c69c4158d76937a15e0518570519e740b7979c4306f9feadab4e287ef101d",
+      "status": "approved",
+      "notes": "painted, empty throne of light, winged hosts"
     },
     {
       "id": "bg_study",
       "kind": "background",
       "prompt": "A narrow, high-vaulted Gothic study at night: shelves crammed with old books and parchments, alembics and glass vessels, a skull, dusty instruments; an oil lamp burning on a heavy wooden desk with a great open book; cold moonlight through a tall leaded-glass window on the left mixing with the warm lamplight.",
       "source": "chatgpt-web",
-      "generation_id": "83bd1969-5831-405d-8f27-b1e813e87439",
+      "generation_id": "e2ae3833-7f0d-4905-a289-18ef106826db",
       "reference": null,
       "raw_file": "raw/bg_study.png",
       "file": "bg/study.webp",
-      "sha256": "ea42c3c2407d648496d251efa26c2e7f3007c6471455eb33a7c4cf56e4901d57",
-      "status": "rejected",
-      "notes": "Calibration image: composition good but too photorealistic; base prompt tightened."
+      "sha256": "61406d1fa69435440c49a909132b33308f842e9cd9d210c2ee3498104c6c7de0",
+      "status": "approved",
+      "notes": "attempt2 (corrective style sentence): painted, matte; good"
     },
     {
       "id": "bg_study_macrocosm",
       "kind": "background",
       "prompt": "Same Gothic study as the reference image, same viewpoint: above the great open book on the desk floats a glowing golden diagram of the macrocosm, concentric rings, stars and planets, casting soft golden light across the room.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "02c090d2-fdb9-47ab-8c89-30ccd6ad101e",
       "reference": "bg_study",
-      "raw_file": null,
+      "raw_file": "raw/bg_study_macrocosm.png",
       "file": "bg/study_macrocosm.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "b61dd1ccc9441daaaaf6326604223f5dc3c6d2b42e8dca87bc0414645bb4a2c8",
+      "status": "approved",
+      "notes": "same room as bg_study, glowing cosmic diagram"
     },
     {
       "id": "bg_study_spirit",
       "kind": "background",
       "prompt": "Same Gothic study as the reference image, same viewpoint, now flooded with trembling blood-red light; a towering, indistinct column of flame-like presence rises in the middle of the room, terrifying, with no clear face; long dark shadows.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "7e121029-9aaa-401e-944f-39af61e2fae3",
       "reference": "bg_study",
-      "raw_file": null,
+      "raw_file": "raw/bg_study_spirit.png",
       "file": "bg/study_spirit.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "aee08c767fdcf43a5fdbb282cbd3d00b1ec1aebe212a5e39a78cd00d34f97a85",
+      "status": "approved",
+      "notes": "same room, red flame column, no clear face"
     },
     {
       "id": "sprite_faust_neutral",
@@ -98,12 +104,13 @@
       "expression": "neutral",
       "prompt": "A scholar in his fifties, gaunt, deep-set tired eyes, greying shoulder-length hair and a short grey beard; dark umber academic gown with a fur collar over a black doublet; 16th-century German. Expression and pose: brooding, weary, neutral expression, hands loosely clasped.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "7133e214-fbff-4884-b3a0-10738e391205",
       "reference": null,
-      "raw_file": null,
+      "raw_file": "raw/sprite_faust_neutral.png",
       "file": "sprites/faust_neutral.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "b6f6b45824c49c9e7c33aa437547eeeb25c01bbb7d226e0c238018543e173741",
+      "status": "approved",
+      "notes": "clean cutout, on-model base"
     },
     {
       "id": "sprite_faust_anguished",
@@ -112,12 +119,13 @@
       "expression": "anguished",
       "prompt": "Expression and pose: anguished, brow furrowed, one hand pressed to his temple.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "c98cd286-2d7d-420d-adee-ece08db8f724",
       "reference": "sprite_faust_neutral",
-      "raw_file": null,
+      "raw_file": "raw/sprite_faust_anguished.png",
       "file": "sprites/faust_anguished.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "09c6deff61366ab2d97a1989b9737512c7f42cbedb441ab10221fc3e24be2dd9",
+      "status": "approved",
+      "notes": "attempt2: on-model, clean cutout"
     },
     {
       "id": "sprite_faust_ecstatic",
@@ -126,12 +134,13 @@
       "expression": "ecstatic",
       "prompt": "Expression and pose: awed and ecstatic, eyes raised, face lit from above, one hand lifted.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "03ad09dd-6250-480a-ad4e-7716a07029a4",
       "reference": "sprite_faust_neutral",
-      "raw_file": null,
+      "raw_file": "raw/sprite_faust_ecstatic.png",
       "file": "sprites/faust_ecstatic.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "41497d71f93e262b1af9c405dc7fa0dffb3ccf405bee67ad5068d8ebbf9fc627",
+      "status": "approved",
+      "notes": "attempt2: on-model, clean cutout"
     },
     {
       "id": "sprite_faust_fearful",
@@ -140,12 +149,13 @@
       "expression": "fearful",
       "prompt": "Expression and pose: terrified, recoiling, eyes wide, both hands raised defensively.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "d56098e8-72b8-4af4-8e8b-2a53dac1d38e",
       "reference": "sprite_faust_neutral",
-      "raw_file": null,
+      "raw_file": "raw/sprite_faust_fearful.png",
       "file": "sprites/faust_fearful.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "c37cd376347380d85affe93ff5653a947bca1936b63bbac9a52e54dcb1fa3605",
+      "status": "approved",
+      "notes": "on-model, clean cutout"
     },
     {
       "id": "sprite_mephisto_neutral",
@@ -154,12 +164,13 @@
       "expression": "neutral",
       "prompt": "A lean man of no clear age, sharp features, arched eyebrows, pointed black beard, sardonic mouth; dressed as a 16th-century nobleman in a deep crimson and black doublet, short black cape, black beret with a single red rooster feather. No horns, no tail. Expression and pose: composed, cool, slightly amused neutral expression, one hand on his hip.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "a7bb01fd-0aa1-416f-b774-88100fb3dd7f",
       "reference": null,
-      "raw_file": null,
+      "raw_file": "raw/sprite_mephisto_neutral.png",
       "file": "sprites/mephisto_neutral.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "ecb2572c0968a968dd232808b58c9839f5e52616c32eafd44d3653504a0b26d9",
+      "status": "approved",
+      "notes": "clean cutout, on-model base"
     },
     {
       "id": "sprite_mephisto_sly",
@@ -168,12 +179,13 @@
       "expression": "sly",
       "prompt": "Expression and pose: sly smirk, one eyebrow raised, finger lifted as if making a clever point.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "2119bdd5-526c-4513-b157-4d9245da7e8b",
       "reference": "sprite_mephisto_neutral",
-      "raw_file": null,
+      "raw_file": "raw/sprite_mephisto_sly.png",
       "file": "sprites/mephisto_sly.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "cde7b1637645046e45bada7f96c12c2512ec8f7887775754f38261101ea93890",
+      "status": "approved",
+      "notes": "on-model, clean cutout"
     },
     {
       "id": "sprite_mephisto_scornful",
@@ -182,12 +194,13 @@
       "expression": "scornful",
       "prompt": "Expression and pose: scornful sneer, chin raised, arms crossed.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "4decf579-0f87-46fa-b56d-f3e07fc4e89f",
       "reference": "sprite_mephisto_neutral",
-      "raw_file": null,
+      "raw_file": "raw/sprite_mephisto_scornful.png",
       "file": "sprites/mephisto_scornful.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "e008a094c02f84f78a7be96b21086d8d461f11e669eab7a41c961cb3b42a7293",
+      "status": "approved",
+      "notes": "on-model, clean cutout"
     },
     {
       "id": "sprite_mephisto_deferent",
@@ -196,26 +209,28 @@
       "expression": "deferent",
       "prompt": "Expression and pose: mock-humble, bowing slightly, hand on his chest, ironic smile.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "0f45b4c0-2bee-484b-9d18-fffb907d27b6",
       "reference": "sprite_mephisto_neutral",
-      "raw_file": null,
+      "raw_file": "raw/sprite_mephisto_deferent.png",
       "file": "sprites/mephisto_deferent.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "4a142fbb968d69de14e23a469ef54604e66b893febc04a6b13e237283f9e08a9",
+      "status": "approved",
+      "notes": "on-model, clean cutout"
     },
     {
       "id": "sprite_director_neutral",
       "kind": "sprite",
       "character": "director",
       "expression": "neutral",
-      "prompt": "A stout middle-aged theatre impresario of the late 18th century; brown frock coat, buff waistcoat, tied grey wig, holding a ledger under one arm. Expression and pose: businesslike neutral expression.",
+      "prompt": "A stout middle-aged theatre impresario of the late 18th century; brown frock coat, buff waistcoat, tied grey wig, holding a ledger under one arm. Expression and pose: businesslike neutral expression. Framing: cropped just below the knees; legs and feet are not visible.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "ee9422b5-e0c6-41c0-abd9-3a959b498bd0",
       "reference": null,
-      "raw_file": null,
+      "raw_file": "raw/sprite_director_neutral.png",
       "file": "sprites/director_neutral.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "7976bfc0d42a5f4fd9c19507278200ef56b6d61f2a7138dabac290098b746a09",
+      "status": "approved",
+      "notes": "attempt2 (framing correction): three-quarter length, clean cutout"
     },
     {
       "id": "sprite_director_pleased",
@@ -224,12 +239,13 @@
       "expression": "pleased",
       "prompt": "Expression and pose: pleased, broad smile, rubbing his hands.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "4afe8032-aa94-44f0-9a3f-740b2653e666",
       "reference": "sprite_director_neutral",
-      "raw_file": null,
+      "raw_file": "raw/sprite_director_pleased.png",
       "file": "sprites/director_pleased.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "2c9e65c6d24e78237321f36738adfceccb0754ff43f801522a08787d07eb10aa",
+      "status": "approved",
+      "notes": "on-model, clean cutout"
     },
     {
       "id": "sprite_director_worried",
@@ -238,12 +254,13 @@
       "expression": "worried",
       "prompt": "Expression and pose: worried, frowning, glancing at the open ledger.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "1f19afd0-30c1-466e-a567-ecee20955a97",
       "reference": "sprite_director_neutral",
-      "raw_file": null,
+      "raw_file": "raw/sprite_director_worried.png",
       "file": "sprites/director_worried.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "328aca90f12db4d030c6127ba6145c5679afc18a748ffd6ddcdfeacc1d6bd98b",
+      "status": "approved",
+      "notes": "on-model, clean cutout"
     },
     {
       "id": "sprite_poet_neutral",
@@ -252,12 +269,13 @@
       "expression": "neutral",
       "prompt": "A young pale man, long dark wavy hair, open white shirt collar, dark slate-blue coat; holding a quill pen. Expression and pose: dreamy, melancholic, gazing into the distance.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "2039b9ed-0e58-4ed3-8436-11ab95f44171",
       "reference": null,
-      "raw_file": null,
+      "raw_file": "raw/sprite_poet_neutral.png",
       "file": "sprites/poet_neutral.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "998507e4b3f7e144c9a6f16ee611f2dbffd5cf60198adcac71870e43cef43e8c",
+      "status": "approved",
+      "notes": "clean cutout, on-model base"
     },
     {
       "id": "sprite_poet_inspired",
@@ -266,12 +284,13 @@
       "expression": "inspired",
       "prompt": "Expression and pose: inspired, eyes shining, hand raised with the quill.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "ae403e52-c98a-47b2-815a-46aad26a407c",
       "reference": "sprite_poet_neutral",
-      "raw_file": null,
+      "raw_file": "raw/sprite_poet_inspired.png",
       "file": "sprites/poet_inspired.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "eb9d41d5ab68e9a7df26bb28499e4e052538de48b774020434a608d7793a35e6",
+      "status": "approved",
+      "notes": "on-model, clean cutout"
     },
     {
       "id": "sprite_poet_indignant",
@@ -280,26 +299,28 @@
       "expression": "indignant",
       "prompt": "Expression and pose: indignant, frowning, hand on his heart in protest.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "a2eefe49-2b2e-4c64-9450-720b2f7ae8ce",
       "reference": "sprite_poet_neutral",
-      "raw_file": null,
+      "raw_file": "raw/sprite_poet_indignant.png",
       "file": "sprites/poet_indignant.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "eaaeda353714510caf7b048fdb4febda0992cd09b3de06bd1fbb07aaf6058803",
+      "status": "approved",
+      "notes": "on-model, clean cutout"
     },
     {
       "id": "sprite_clown_neutral",
       "kind": "sprite",
       "character": "clown",
       "expression": "neutral",
-      "prompt": "A jovial comedian, round ruddy face, in a motley costume of red, ochre and slate-blue diamonds with a white ruff collar. Expression and pose: cheerful neutral expression.",
+      "prompt": "A jovial comedian, round ruddy face, in a motley costume of red, ochre and slate-blue diamonds with a white ruff collar. Expression and pose: cheerful neutral expression. Framing: cropped just below the knees; legs and feet are not visible.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "85e1bae9-a6c4-4132-a880-af41996c5d97",
       "reference": null,
-      "raw_file": null,
+      "raw_file": "raw/sprite_clown_neutral.png",
       "file": "sprites/clown_neutral.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "8d039498d39e0f9ca11de525a47fee16480a3c07c73722330e0a3473dafe2c87",
+      "status": "approved",
+      "notes": "attempt2 (framing correction): clean cutout; holds a small marotte puppet"
     },
     {
       "id": "sprite_clown_laughing",
@@ -308,12 +329,13 @@
       "expression": "laughing",
       "prompt": "Expression and pose: laughing heartily, head tilted back, hand on his belly.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "257a5eae-25b2-4fdc-afe4-ee9138d3c00f",
       "reference": "sprite_clown_neutral",
-      "raw_file": null,
+      "raw_file": "raw/sprite_clown_laughing.png",
       "file": "sprites/clown_laughing.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "0701e53692fdf1ecf7a1aa49da6268960d07807f313d90905a63f951d09b3b93",
+      "status": "approved",
+      "notes": "on-model, clean cutout"
     },
     {
       "id": "sprite_clown_mocking",
@@ -322,12 +344,13 @@
       "expression": "mocking",
       "prompt": "Expression and pose: mocking grin, winking, pointing.",
       "source": "chatgpt-web",
-      "generation_id": null,
+      "generation_id": "3284dea9-5b51-4888-9d70-fbe5911fb5ab",
       "reference": "sprite_clown_neutral",
-      "raw_file": null,
+      "raw_file": "raw/sprite_clown_mocking.png",
       "file": "sprites/clown_mocking.webp",
-      "sha256": null,
-      "status": "planned"
+      "sha256": "29781102c27ec28fe919a1342a59720d3110cbd11f627fc2cf87b6971fbfc832",
+      "status": "approved",
+      "notes": "attempt2: on-model, clean cutout"
     }
   ]
 }
