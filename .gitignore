@@ -8,13 +8,15 @@ dist/
 # Raw downloads are cached locally and re-fetched on demand
 works/*/data/raw/
 # Ren'Py runtime artifacts
-game/**/*.rpyc
-game/**/*.rpymc
-game/cache/
-game/saves/
-game/log.txt
-game/traceback.txt
-game/errors.txt
+vn/*/game/**/*.rpyc
+vn/*/game/**/*.rpymc
+vn/*/game/cache/
+vn/*/game/saves/
+vn/*/log.txt
+vn/*/game/log.txt
+vn/*/traceback.txt
+vn/*/errors.txt
+vn/*/lint.txt
 # Local Ren'Py SDK and builds
 tools/
 build/

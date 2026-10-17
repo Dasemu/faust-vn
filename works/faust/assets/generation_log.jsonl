@@ -1,0 +1,7 @@
+{"asset_id":"bg_study","generation_id":null,"queued_at":"2026-10-17T07:44:00Z","status":"REJECTED","attempt":0,"note":"calibration, made before this run"}
+{"asset_id":"bg_study","generation_id":"d18a9299-0044-4e3c-a5cb-b261f1e93784","queued_at":"2026-10-17T07:47:50Z","status":"QUEUED","attempt":1}
+{"asset_id":"bg_dedication","generation_id":"4618cf00-6af8-4e45-be28-2e42d90158bd","queued_at":"2026-10-17T07:47:50Z","status":"QUEUED","attempt":1}
+{"asset_id":"bg_theatre","generation_id":"9db60faf-f7ce-4092-81bc-2bde58c05dbc","queued_at":"2026-10-17T07:47:50Z","status":"QUEUED","attempt":1}
+{"asset_id":"bg_heaven","generation_id":"badcc8f4-22d8-4535-9c61-8dc148ed8a6a","queued_at":"2026-10-17T07:47:50Z","status":"QUEUED","attempt":1}
+{"asset_id":"bg_heaven_lord","generation_id":"a2cd8061-f587-4cc2-af4d-1521ac7bb273","queued_at":"2026-10-17T07:47:50Z","status":"QUEUED","attempt":1}
+{"asset_id":"sprite_faust_neutral","generation_id":"7133e214-fbff-4884-b3a0-10738e391205","queued_at":"2026-10-17T07:47:50Z","status":"QUEUED","attempt":1}

@@ -15,7 +15,7 @@ Gutenberg .txt ──fetch──▶ raw (cached, gitignored)
    LLM sub-agents ─────▶ annotations/cache/*.json    (one file per chunk, keyed by hash)
               ──merge──▶ annotated.json  (schema-validated, complete)
 art (MCP) ──▶ assets/assets.json + images (manifest, sha256, status)
-              ──renpy──▶ game/           (generated Ren'Py project)
+              ──renpy──▶ vn/faust/       (generated Ren'Py project)
 ```
 
 Every stage is a `vnpipe` CLI subcommand, deterministic given its inputs, and
@@ -33,7 +33,7 @@ hash, so they are resumable and never redone unless their input changes.
 | `works/faust/data/` | `play.txt`, `parsed.json`, `annotated.json` |
 | `works/faust/annotations/` | Chunk inputs and cached LLM outputs |
 | `works/faust/assets/` | `assets.json` manifest, generated/processed images |
-| `game/` | Generated Ren'Py project (committed so the repo is playable) |
+| `vn/<id>/` | Generated Ren'Py project (committed so the repo is playable) |
 | `docs/` | Design and process docs |
 
 ## Steps

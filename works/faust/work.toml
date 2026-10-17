@@ -133,3 +133,59 @@ expressions = { neutral = "neutral", solemn = "neutral", ironic = "neutral", mel
 name = "El Espíritu"
 color = "#e85a3a"
 sprite = false
+
+# Staging decisions (human judgment, see docs/adaptation-rules.md).
+# A scene's `bg` is shown after its title card; `mode` is the default text mode
+# ("adv" = dialogue box with sprites, "nvl" = full-screen text, no sprites).
+# A cue fires right before the line with id `at`. Keys:
+#   bg         background asset id to switch to
+#   transition dissolve | fade | flash (white/colour flash) | slow (long dissolve)
+#   tint       none | dark | red   (colour treatment of the current background)
+#   mode       adv | nvl
+#   hide_all   true -> remove all sprites
+#   shake      true -> short screen shake
+[staging.dedicatoria]
+bg = "bg_dedication"
+mode = "nvl"
+
+[staging.prologo_teatro]
+bg = "bg_theatre"
+mode = "adv"
+
+[staging.prologo_cielo]
+bg = "bg_heaven"
+mode = "nvl"
+
+[staging.noche]
+bg = "bg_study"
+mode = "adv"
+
+[[cues]]
+# The archangels' hymn ends; the Lord is addressed by Mephistopheles.
+at = "prologo_cielo_0030"
+bg = "bg_heaven_lord"
+transition = "slow"
+mode = "adv"
+
+[[cues]]
+at = "prologo_cielo_0161"
+bg = "bg_heaven"
+transition = "slow"
+tint = "dark"
+
+[[cues]]
+at = "noche_0082"
+bg = "bg_study_macrocosm"
+transition = "slow"
+
+[[cues]]
+at = "noche_0118"
+bg = "bg_study"
+transition = "dissolve"
+tint = "red"
+
+[[cues]]
+at = "noche_0145"
+bg = "bg_study_spirit"
+transition = "flash"
+shake = true
