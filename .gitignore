@@ -25,3 +25,4 @@ build/
 .mcp.json
 # Original generated images are large; final processed assets are committed instead
 works/*/assets/raw/
+vn/*/progressive_download.txt
