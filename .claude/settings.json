@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'No formatter/linter configured yet for this repo; skipping.'"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'No test runner or linter configured yet for this repo; nothing to check.'"
+          }
+        ]
+      }
+    ]
+  }
+}

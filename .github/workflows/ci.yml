@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [development]
+  push:
+    branches: [development, main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: No lint/test tooling configured yet
+        run: |
+          echo "This repository has no source code, package manager, linter, or test runner yet."
+          echo "Add real lint/test steps here once the stack is chosen."
