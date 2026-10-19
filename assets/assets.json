@@ -802,8 +802,11 @@
         "painterly": {
           "file": "sprites/painterly/margarita_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "8ab29469b96e1faf0dc11129fdff3152a94f29a440536908b3ef7eca1333e8d6"
+          "status": "approved",
+          "sha256": "c111f0eeb996a5dd0e56a36e2921554395689d66f05c68cb33790019b54f52e2",
+          "raw_file": "raw/painterly/sprite_margarita_neutral.png",
+          "generation_id": "b677c7b8-2522-4ab6-b688-23ce1ed050ae",
+          "notes": "gentle young townswoman, braids, painterly"
         },
         "anime": {
           "raw_file": "raw/anime/sprite_margarita_neutral.png",
@@ -827,8 +830,11 @@
         "painterly": {
           "file": "sprites/painterly/margarita_joyful.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "ac5f895eac9e630817674ab08b40f2dc9769340a0c2e24e36b15592ecbda8498"
+          "status": "approved",
+          "sha256": "ebea3ac1f7180e1c647388ff7f669e538b1c4f4dec5dfec48bef5dceb6bbb7f9",
+          "raw_file": "raw/painterly/sprite_margarita_joyful.png",
+          "generation_id": "74f8b58e-5220-4323-abb8-a575ea06ab54",
+          "notes": "same identity, smiling, hand to cheek"
         },
         "anime": {
           "raw_file": "raw/anime/sprite_margarita_joyful.png",
@@ -852,8 +858,11 @@
         "painterly": {
           "file": "sprites/painterly/margarita_sorrowful.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "a662d91d5e9e8246740a036d119eeeca79999c317cc59d20d09027b1dfbd7051"
+          "status": "approved",
+          "sha256": "ceaa4a4048cbb1b1cf291785aba9af677a35faae611c39ddc412a7326acefb00",
+          "raw_file": "raw/painterly/sprite_margarita_sorrowful.png",
+          "generation_id": "4fc1e2e7-e1a1-40f7-a482-1bb6af48bb63",
+          "notes": "same identity, tearful, hands to breast"
         },
         "anime": {
           "raw_file": "raw/anime/sprite_margarita_sorrowful.png",
@@ -877,8 +886,11 @@
         "painterly": {
           "file": "sprites/painterly/margarita_fearful.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "596b7eba0a2321791bd570ed98b1dd6c7f363c54165df167d9860da3c99a22c2"
+          "status": "approved",
+          "sha256": "c482f10d9b7a02aba15bb6db154aa30a85d136da7afa9f9be35b4b95384f9a8e",
+          "raw_file": "raw/painterly/sprite_margarita_fearful.png",
+          "generation_id": "87672ce4-f9e2-4e5b-9581-9aa954ac544d",
+          "notes": "same identity, terrified, hands to face"
         },
         "anime": {
           "raw_file": "raw/anime/sprite_margarita_fearful.png",
@@ -1188,8 +1200,11 @@
         "painterly": {
           "file": "sprites/painterly/valentin_dying.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "3e4f023420d986752290df31390100d44fec82869a05e9012865bb9b858ddc79"
+          "status": "approved",
+          "sha256": "0d8b1dbf687e21ae93e493c1f20b9b06926e6fda0ce2790585f45f9491a330bd",
+          "raw_file": "raw/painterly/sprite_valentin_dying.png",
+          "generation_id": "aa7a72db-4590-485e-ab18-a9a1e6363095",
+          "notes": "same soldier and costume, wounded"
         }
       }
     },
