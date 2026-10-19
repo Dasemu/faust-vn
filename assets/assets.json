@@ -1203,6 +1203,15 @@
           "raw_file": "raw/painterly/sprite_lisa_neutral.png",
           "generation_id": "51c59f5d-087d-4399-bc4a-937482181cd7",
           "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_lisa_neutral.png",
+          "file": "sprites/anime/lisa_neutral.webp",
+          "generation_id": "b911280f-93c2-4245-8926-797d4d2d26d5",
+          "sha256": "0c10c95d7a4062d04f53ddd73724e01e1693cbecaf0da5d0c7ddf34e78910bd1",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "matches painterly costume"
         }
       }
     },
@@ -1222,6 +1231,15 @@
           "raw_file": "raw/painterly/sprite_lisa_smug.png",
           "generation_id": "735599b3-f11d-4f5f-a4f4-36cdfdb8c14a",
           "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_lisa_smug.png",
+          "file": "sprites/anime/lisa_smug.webp",
+          "generation_id": "97413187-24f0-4b4f-b25c-f0ea46c0696b",
+          "sha256": "8f0e8d945ad90289aeb709a8bf2042b2fcc181e82e66449682b5c1b49e21593b",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, smug"
         }
       }
     },
