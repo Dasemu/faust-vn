@@ -4,14 +4,60 @@ image card_dedicatoria = Text("DEDICATORIA", size=60, text_align=0.5)
 image card_prologo_teatro = Text("PRÓLOGO EN EL TEATRO", size=60, text_align=0.5)
 image card_prologo_cielo = Text("PRÓLOGO EN EL CIELO", size=60, text_align=0.5)
 image card_noche = Text("DE NOCHE", size=60, text_align=0.5)
+image card_puertas_ciudad = Text("A LAS PUERTAS DE LA CIUDAD", size=60, text_align=0.5)
+image card_gabinete_1 = Text("GABINETE DE ESTUDIO", size=60, text_align=0.5)
+image card_gabinete_2 = Text("GABINETE DE ESTUDIO", size=60, text_align=0.5)
+image card_taberna_auerbach = Text("TABERNA DE AUERBACH EN LEIPZIG", size=60, text_align=0.5)
+image card_cocina_bruja = Text("COCINA DE LA BRUJA", size=60, text_align=0.5)
+image card_calle_1 = Text("CALLE", size=60, text_align=0.5)
+image card_cuartito = Text("AL CAER LA TARDE", size=60, text_align=0.5)
+image card_paseo = Text("PASEO", size=60, text_align=0.5)
+image card_casa_vecina = Text("CASA DE LA VECINA", size=60, text_align=0.5)
+image card_calle_2 = Text("CALLE", size=60, text_align=0.5)
+image card_jardin = Text("JARDÍN", size=60, text_align=0.5)
+image card_pabelloncito = Text("UN PABELLONCITO EN EL JARDÍN", size=60, text_align=0.5)
+image card_bosques_cavernas = Text("BOSQUES Y CAVERNAS", size=60, text_align=0.5)
+image card_aposento_margarita = Text("APOSENTO DE MARGARITA", size=60, text_align=0.5)
+image card_jardin_marta = Text("JARDÍN DE MARTA", size=60, text_align=0.5)
+image card_fuente = Text("EN LA FUENTE", size=60, text_align=0.5)
+image card_muros = Text("EN LOS MUROS DE LA CIUDAD", size=60, text_align=0.5)
+image card_calle_noche = Text("DE NOCHE", size=60, text_align=0.5)
+image card_catedral = Text("CATEDRAL", size=60, text_align=0.5)
+image card_valpurgis = Text("NOCHE DE SANTA VALPURGIS", size=60, text_align=0.5)
+image card_intermedio = Text("INTERMEDIO", size=60, text_align=0.5)
+image card_dia_nebuloso = Text("DÍA NEBULOSO", size=60, text_align=0.5)
+image card_noche_campo = Text("NOCHE", size=60, text_align=0.5)
+image card_carcel = Text("CÁRCEL", size=60, text_align=0.5)
 image card_end = Text("Continuará…", size=60, text_align=0.5)
+image bg cathedral = "images/bg/painterly/cathedral.webp"
+image bg city_gates = "images/bg/painterly/city_gates.webp"
+image bg city_walls = "images/bg/painterly/city_walls.webp"
 image bg dedication = "images/bg/painterly/dedication.webp"
+image bg field_day = "images/bg/painterly/field_day.webp"
+image bg field_night = "images/bg/painterly/field_night.webp"
+image bg forest_cave = "images/bg/painterly/forest_cave.webp"
+image bg fountain = "images/bg/painterly/fountain.webp"
+image bg garden = "images/bg/painterly/garden.webp"
+image bg garden_pavilion = "images/bg/painterly/garden_pavilion.webp"
+image bg harz = "images/bg/painterly/harz.webp"
+image bg harz_summit = "images/bg/painterly/harz_summit.webp"
 image bg heaven = "images/bg/painterly/heaven.webp"
 image bg heaven_lord = "images/bg/painterly/heaven_lord.webp"
+image bg intermezzo = "images/bg/painterly/intermezzo.webp"
+image bg margaret_room = "images/bg/painterly/margaret_room.webp"
+image bg neighbour_house = "images/bg/painterly/neighbour_house.webp"
+image bg prison = "images/bg/painterly/prison.webp"
+image bg prison_dawn = "images/bg/painterly/prison_dawn.webp"
+image bg promenade = "images/bg/painterly/promenade.webp"
+image bg street = "images/bg/painterly/street.webp"
+image bg street_night = "images/bg/painterly/street_night.webp"
 image bg study = "images/bg/painterly/study.webp"
+image bg study_day = "images/bg/painterly/study_day.webp"
 image bg study_macrocosm = "images/bg/painterly/study_macrocosm.webp"
 image bg study_spirit = "images/bg/painterly/study_spirit.webp"
+image bg tavern = "images/bg/painterly/tavern.webp"
 image bg theatre = "images/bg/painterly/theatre.webp"
+image bg witch_kitchen = "images/bg/painterly/witch_kitchen.webp"
 image clown laughing = "images/sprites/painterly/clown_laughing.webp"
 image clown mocking = "images/sprites/painterly/clown_mocking.webp"
 image clown neutral = "images/sprites/painterly/clown_neutral.webp"
@@ -22,6 +68,15 @@ image faust anguished = "images/sprites/painterly/faust_anguished.webp"
 image faust ecstatic = "images/sprites/painterly/faust_ecstatic.webp"
 image faust fearful = "images/sprites/painterly/faust_fearful.webp"
 image faust neutral = "images/sprites/painterly/faust_neutral.webp"
+image lisa neutral = "images/sprites/painterly/lisa_neutral.webp"
+image lisa smug = "images/sprites/painterly/lisa_smug.webp"
+image margarita fearful = "images/sprites/painterly/margarita_fearful.webp"
+image margarita joyful = "images/sprites/painterly/margarita_joyful.webp"
+image margarita neutral = "images/sprites/painterly/margarita_neutral.webp"
+image margarita sorrowful = "images/sprites/painterly/margarita_sorrowful.webp"
+image marta coy = "images/sprites/painterly/marta_coy.webp"
+image marta distressed = "images/sprites/painterly/marta_distressed.webp"
+image marta neutral = "images/sprites/painterly/marta_neutral.webp"
 image mephisto deferent = "images/sprites/painterly/mephisto_deferent.webp"
 image mephisto neutral = "images/sprites/painterly/mephisto_neutral.webp"
 image mephisto scornful = "images/sprites/painterly/mephisto_scornful.webp"
@@ -29,3 +84,15 @@ image mephisto sly = "images/sprites/painterly/mephisto_sly.webp"
 image poet indignant = "images/sprites/painterly/poet_indignant.webp"
 image poet inspired = "images/sprites/painterly/poet_inspired.webp"
 image poet neutral = "images/sprites/painterly/poet_neutral.webp"
+image student eager = "images/sprites/painterly/student_eager.webp"
+image student neutral = "images/sprites/painterly/student_neutral.webp"
+image student puzzled = "images/sprites/painterly/student_puzzled.webp"
+image valentin angry = "images/sprites/painterly/valentin_angry.webp"
+image valentin dying = "images/sprites/painterly/valentin_dying.webp"
+image valentin neutral = "images/sprites/painterly/valentin_neutral.webp"
+image wagner eager = "images/sprites/painterly/wagner_eager.webp"
+image wagner neutral = "images/sprites/painterly/wagner_neutral.webp"
+image wagner uneasy = "images/sprites/painterly/wagner_uneasy.webp"
+image witch cackling = "images/sprites/painterly/witch_cackling.webp"
+image witch furious = "images/sprites/painterly/witch_furious.webp"
+image witch neutral = "images/sprites/painterly/witch_neutral.webp"

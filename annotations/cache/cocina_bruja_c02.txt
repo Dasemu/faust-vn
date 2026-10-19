@@ -1,0 +1,15 @@
+# input=9c3deabf5f6465669d50afc8724d5d7f21a6d6a5b092c835707ee8647ca919f0 model=haiku
+M 0294 contemplative
+S 51 ironic
+L 0307 neutral
+S 52 ecstatic
+S 53 fearful
+S 54 solemn
+M 0331 ominous
+L 0333 ironic
+S 55 joyful
+S 56 neutral
+S 57 neutral
+S 58 neutral
+S 59 joyful
+S 60 ironic

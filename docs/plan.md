@@ -11,8 +11,8 @@ annotations, art and the generated game.
 Gutenberg .txt ──fetch──▶ raw (cached, gitignored)
               ──clean──▶ play.txt        (header/footer/intro stripped, scope cut)
               ──parse──▶ parsed.json     (scenes, speakers, verse lines, directions)
-              ──chunk──▶ annotations/chunks/*.json   (LLM work units)
-   LLM sub-agents ─────▶ annotations/cache/*.json    (one file per chunk, keyed by hash)
+              ──chunks──▶ rendered text           (LLM work units)
+   Haiku runner ───────▶ annotations/cache/*.txt     (records per chunk, keyed by hash)
               ──merge──▶ annotated.json  (schema-validated, complete)
 art (MCP) ──▶ assets/assets.json + images (manifest, sha256, status)
               ──renpy──▶ vn/             (generated Ren'Py project)
@@ -29,7 +29,7 @@ hash, so they are resumable and never redone unless their input changes.
 |---|---|
 | `work.toml` | Everything work-specific: source URL, scope markers, cast, colors, locations, expression maps, staging |
 | `data/` | `play.txt`, `parsed.json`, `annotated.json` (`raw/` is the gitignored download) |
-| `annotations/` | Chunk inputs and cached LLM outputs |
+| `annotations/` | Cached LLM outputs (`cache/`) and token usage (`usage.jsonl`) |
 | `assets/` | `assets.json` manifest, generated/processed images (`raw/` is gitignored) |
 | `vn/` | Generated Ren'Py project (committed so the repo is playable) |
 | `tests/` | Faust integration tests (real text, e2e playthrough) |
