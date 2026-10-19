@@ -1213,6 +1213,15 @@
           "raw_file": "raw/painterly/bg_promenade.png",
           "generation_id": "670efa0d-46d8-4a0e-9203-7358913bd7b0",
           "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_promenade.png",
+          "file": "bg/anime/promenade.webp",
+          "generation_id": "e910b0df-b642-46c0-ad8f-dcf70d2a3ae2",
+          "sha256": "43e4b7436463024d2c969c6c372c41b5a0bb7aec9e0ad41d60f3177dc7ff767f",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
@@ -1230,6 +1239,15 @@
           "raw_file": "raw/painterly/bg_neighbour_house.png",
           "generation_id": "e29c77b0-636e-44ed-a234-b4a9902ce4b2",
           "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_neighbour_house.png",
+          "file": "bg/anime/neighbour_house.webp",
+          "generation_id": "9d3e6c1f-35b8-47a7-973f-26e592eff5e0",
+          "sha256": "b94c7b6fa936c7c0f3031592a5657b6806dc34c16fe030978bec4db4c62dcccf",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
@@ -1331,6 +1349,15 @@
           "raw_file": "raw/painterly/bg_garden.png",
           "generation_id": "d906aafd-75cb-4e1e-898b-db2735724e7f",
           "notes": "ok, slightly glossy"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_garden.png",
+          "file": "bg/anime/garden.webp",
+          "generation_id": "a207bef5-892d-4d86-9282-c207cbc09c57",
+          "sha256": "d49f4c92ff2fb0dfd507fed87fe1320f03855d3c0cb80549f4f7a7464b3fbd51",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
@@ -1348,6 +1375,15 @@
           "raw_file": "raw/painterly/bg_garden_pavilion.png",
           "generation_id": "fb0878b8-9288-47f1-a576-6b3efc8afac8",
           "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_garden_pavilion.png",
+          "file": "bg/anime/garden_pavilion.webp",
+          "generation_id": "fe49f71c-fb72-4d3f-9d39-77750823d565",
+          "sha256": "0cd8374fa8759d1831bc5d2ba479c253a12bc29e6b94239c1043438ca26ef7e3",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
