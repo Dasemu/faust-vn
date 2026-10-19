@@ -300,11 +300,11 @@
         "anime": {
           "raw_file": "raw/anime/sprite_mephisto_sly.png",
           "file": "sprites/anime/mephisto_sly.webp",
-          "generation_id": "9dec589e-1b8a-4c3f-a1e2-6c24588c2ab8",
-          "sha256": "7b12ca5e0e2c7835490eeaf1a7fb62cba80e2e852236e0ebf688be438ef18599",
-          "status": "rejected",
+          "generation_id": "4a7453c0-1ec9-48d3-ae17-4519479b9e57",
+          "sha256": "3c33b92eef21cb8f0725cb770669000c1b4d0cf26643117119241e2135f78763",
+          "status": "approved",
           "source": "chatgpt-web",
-          "notes": "MCP echoed the reference image (identical to neutral) twice"
+          "notes": "generated without reference (MCP echoes refs); identity close to neutral"
         }
       }
     },
@@ -328,11 +328,11 @@
         "anime": {
           "raw_file": "raw/anime/sprite_mephisto_scornful.png",
           "file": "sprites/anime/mephisto_scornful.webp",
-          "generation_id": "0844bc67-a370-49ec-b052-d1fea3782a60",
-          "sha256": "7b12ca5e0e2c7835490eeaf1a7fb62cba80e2e852236e0ebf688be438ef18599",
-          "status": "rejected",
+          "generation_id": "94c68d80-e3bf-419b-937b-5cd9af60cf34",
+          "sha256": "2ffb111af2581fee7c7275a46cc3f600e00197dbda165b2a19604a6381ef7ba2",
+          "status": "approved",
           "source": "chatgpt-web",
-          "notes": "MCP returned reference byte-identical to neutral"
+          "notes": "no-reference generation; costume slightly varies, same character"
         }
       }
     },
@@ -356,11 +356,11 @@
         "anime": {
           "raw_file": "raw/anime/sprite_mephisto_deferent.png",
           "file": "sprites/anime/mephisto_deferent.webp",
-          "generation_id": "c81b6f7f-28fb-4442-98f2-b6ab8fee335c",
-          "sha256": "7b12ca5e0e2c7835490eeaf1a7fb62cba80e2e852236e0ebf688be438ef18599",
-          "status": "rejected",
+          "generation_id": "9733c54e-28d6-41e3-9f11-730412014d54",
+          "sha256": "53fe564b17658c5f80d9856b700c1545746fa7beded5a6caef821e9bf3760df5",
+          "status": "approved",
           "source": "chatgpt-web",
-          "notes": "MCP returned reference byte-identical to neutral"
+          "notes": "no-reference generation; same character"
         }
       }
     },
