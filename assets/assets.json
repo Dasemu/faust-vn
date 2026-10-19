@@ -669,6 +669,15 @@
           "raw_file": "raw/painterly/sprite_student_neutral.png",
           "generation_id": "5052317d-ad41-46cf-8358-d59c44e655d0",
           "notes": "on-style, clean"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_student_neutral.png",
+          "file": "sprites/anime/student_neutral.webp",
+          "generation_id": "1d25da78-7e15-44fd-aed4-9c74f08fe548",
+          "sha256": "d15425b8e02385eb52f82a92d42bba78131a4f45b5754c6e81d75b2b302bf4bc",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "matches painterly costume"
         }
       }
     },
@@ -688,6 +697,15 @@
           "raw_file": "raw/painterly/sprite_student_eager.png",
           "generation_id": "293e1713-dc85-476b-a1fe-f5247591ffd5",
           "notes": "no-reference; same character"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_student_eager.png",
+          "file": "sprites/anime/student_eager.webp",
+          "generation_id": "1b018624-0054-46d8-a677-40ba0375ce6e",
+          "sha256": "2a25bd6fabc7f80225fd4d4eae15a245351274acdb462a87056a88d0b81749bf",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, eager"
         }
       }
     },
@@ -707,6 +725,15 @@
           "raw_file": "raw/painterly/sprite_student_puzzled.png",
           "generation_id": "cbe4a0c8-f4b3-4255-b348-bbcce2cc1604",
           "notes": "no-reference; same character"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_student_puzzled.png",
+          "file": "sprites/anime/student_puzzled.webp",
+          "generation_id": "45e766a6-7695-45d0-9b5a-637d1b4fe52b",
+          "sha256": "85d250fe5bb40b4793cc13c39e8f56d9e6458f6b46da502b51a3ab891112340c",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, puzzled"
         }
       }
     },
