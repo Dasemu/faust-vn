@@ -1221,6 +1221,15 @@
           "raw_file": "raw/painterly/sprite_valentin_neutral.png",
           "generation_id": "7d18687c-ae53-4402-9891-c9f3bde02a1c",
           "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_valentin_neutral.png",
+          "file": "sprites/anime/valentin_neutral.webp",
+          "generation_id": "252368f2-6ac1-4d2d-8799-b28d992cb76e",
+          "sha256": "044a7ce601dcf131c36a6514c148c9d72c2ffe69e21d0996050acb281807897e",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "matches painterly costume"
         }
       }
     },
@@ -1240,6 +1249,15 @@
           "raw_file": "raw/painterly/sprite_valentin_angry.png",
           "generation_id": "750377a4-e3b7-493e-84af-3d0e21c1196a",
           "notes": "ok; sword tip touches right edge"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_valentin_angry.png",
+          "file": "sprites/anime/valentin_angry.webp",
+          "generation_id": "3f42d91f-a002-4bf1-95b9-a88fdabff8ee",
+          "sha256": "bdda5ae3386c9744cc9e5ffea998a4329b78fdc56d6d04d4d83afa54c5b646bc",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, sword drawn"
         }
       }
     },
@@ -1259,6 +1277,15 @@
           "raw_file": "raw/painterly/sprite_valentin_dying.png",
           "generation_id": "aa7a72db-4590-485e-ab18-a9a1e6363095",
           "notes": "same soldier and costume, wounded"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_valentin_dying.png",
+          "file": "sprites/anime/valentin_dying.webp",
+          "generation_id": "672cb284-6d74-4ee6-8fbe-13e46ca245cf",
+          "sha256": "f53e79af8c9ae0dbab1e91091cee2cc4c642ff6a8e6f69bd37e7e733c6710883",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, wounded"
         }
       }
     },
