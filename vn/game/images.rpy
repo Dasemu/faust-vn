@@ -65,20 +65,20 @@ image director neutral = "images/sprites/painterly/director_neutral.webp"
 image director pleased = "images/sprites/painterly/director_pleased.webp"
 image director worried = "images/sprites/painterly/director_worried.webp"
 image faust anguished = "images/sprites/painterly/faust_anguished.webp"
-image faust ecstatic = "images/sprites/painterly/faust_ecstatic.webp"
-image faust fearful = "images/sprites/painterly/faust_fearful.webp"
-image faust neutral = "images/sprites/painterly/faust_neutral.webp"
+image faust ecstatic = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_ecstatic.webp", "True", "images/sprites/painterly/faust_ecstatic.webp")
+image faust fearful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_fearful.webp", "True", "images/sprites/painterly/faust_fearful.webp")
+image faust neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_neutral.webp", "True", "images/sprites/painterly/faust_neutral.webp")
 image lisa neutral = "images/sprites/painterly/lisa_neutral.webp"
 image lisa smug = "images/sprites/painterly/lisa_smug.webp"
-image margarita fearful = "images/sprites/painterly/margarita_fearful.webp"
-image margarita joyful = "images/sprites/painterly/margarita_joyful.webp"
-image margarita neutral = "images/sprites/painterly/margarita_neutral.webp"
-image margarita sorrowful = "images/sprites/painterly/margarita_sorrowful.webp"
+image margarita fearful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/margarita_fearful.webp", "True", "images/sprites/painterly/margarita_fearful.webp")
+image margarita joyful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/margarita_joyful.webp", "True", "images/sprites/painterly/margarita_joyful.webp")
+image margarita neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/margarita_neutral.webp", "True", "images/sprites/painterly/margarita_neutral.webp")
+image margarita sorrowful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/margarita_sorrowful.webp", "True", "images/sprites/painterly/margarita_sorrowful.webp")
 image marta coy = "images/sprites/painterly/marta_coy.webp"
 image marta distressed = "images/sprites/painterly/marta_distressed.webp"
 image marta neutral = "images/sprites/painterly/marta_neutral.webp"
 image mephisto deferent = "images/sprites/painterly/mephisto_deferent.webp"
-image mephisto neutral = "images/sprites/painterly/mephisto_neutral.webp"
+image mephisto neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/mephisto_neutral.webp", "True", "images/sprites/painterly/mephisto_neutral.webp")
 image mephisto scornful = "images/sprites/painterly/mephisto_scornful.webp"
 image mephisto sly = "images/sprites/painterly/mephisto_sly.webp"
 image poet indignant = "images/sprites/painterly/poet_indignant.webp"
