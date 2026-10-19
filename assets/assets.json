@@ -1801,6 +1801,15 @@
           "raw_file": "raw/painterly/bg_prison.png",
           "generation_id": "c11eb214-b786-48f6-b2fb-add815402189",
           "notes": "dungeon cell, torch, barred window"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_prison.png",
+          "file": "bg/anime/prison.webp",
+          "generation_id": "3fb94f74-253a-4c14-af8a-1eccc64124e2",
+          "sha256": "83be88bce7ad9fbb7ed2e748ebfe20b21f62badb171f0eabe9bc551cf4b33e35",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
@@ -1818,6 +1827,15 @@
           "raw_file": "raw/painterly/bg_prison_dawn.png",
           "generation_id": "7c259c9a-e823-4350-9757-6abdb98e7a42",
           "notes": "same cell at dawn"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_prison_dawn.png",
+          "file": "bg/anime/prison_dawn.webp",
+          "generation_id": "b203b0d9-d8cb-46cc-9751-899b0113fd2d",
+          "sha256": "bad0082953d31b199be0c08fea20628b901bd812033820009cceccca02b69a21",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, dawn light, anime backdrop, no figures"
         }
       }
     }
