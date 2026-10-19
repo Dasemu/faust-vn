@@ -18,10 +18,11 @@ vn/*/traceback.txt
 vn/*/errors.txt
 vn/*/lint.txt
 # Local Ren'Py SDK and builds
-tools/
+/tools
 build/
-# Local agent/sandbox state
-.claude/
+# Local agent state (shared settings in .claude/settings.json are committed)
+.claude/settings.local.json
+.claude/worktrees/
 .mcp.json
 # Original generated images are large; final processed assets are committed instead
 works/*/assets/raw/

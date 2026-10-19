@@ -14,8 +14,16 @@ Pipeline (`vnpipe`) that turns a public-domain play into a Ren'Py visual novel; 
 - `uv sync` — install. `uv run pytest` — tests. `uv run ruff check . && uv run ruff format --check .` — lint.
 - `uv run vnpipe --help` — pipeline CLI. Stages: `fetch`, `parse`, `annotate {chunk,status,prompt,merge}`,
   `assets {prompt,import,process,status,placeholders,sheet}`, `renpy [--with-test]`.
-- Ren'Py SDK lives in `tools/renpy-sdk` (gitignored); prefix SDK commands with `HOME=$TMPDIR/renpy-home`.
+- Ren'Py SDK lives in `tools/renpy-sdk` (gitignored; may be a symlink shared between worktrees).
+  Inside the sandbox prefix SDK commands with `HOME=$TMPDIR/renpy-home`.
   Lint: `tools/renpy-sdk/renpy.sh vn/faust lint`. Playthrough test and builds: `docs/running.md`.
+
+## Branches and versions
+- `development` is the integration branch; `main` receives reviewed merges from it.
+  Feature work branches off `development` (`feat/...`, `fix/...`).
+- `VERSION` is bumped by `.github/workflows/version.yml` on push (patch on `development`,
+  minor on a `development` → `main` merge). Do not edit it by hand.
+- CI (`.github/workflows/ci.yml`) runs ruff and pytest.
 
 ## Layout
 See `docs/plan.md`.
