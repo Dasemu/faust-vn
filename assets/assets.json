@@ -520,6 +520,15 @@
           "sha256": "eaaeda353714510caf7b048fdb4febda0992cd09b3de06bd1fbb07aaf6058803",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_poet_indignant.png",
+          "file": "sprites/anime/poet_indignant.webp",
+          "generation_id": "ca2c5f7e-4e1a-4018-b4f6-ec09cd2ff6ad",
+          "sha256": "8ba8847b43038a905276ef98f0de51901e7fba95daa605d8d9157737f917bedc",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
         }
       }
     },
@@ -539,6 +548,15 @@
           "sha256": "8d039498d39e0f9ca11de525a47fee16480a3c07c73722330e0a3473dafe2c87",
           "status": "approved",
           "notes": "attempt2 (framing correction): clean cutout; holds a small marotte puppet"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_clown_neutral.png",
+          "file": "sprites/anime/clown_neutral.webp",
+          "generation_id": "c41f7a4b-f901-4d3f-92a5-2b7de48f3381",
+          "sha256": "716c072dc32ec4d012563b7721ee48b3da9da797ff195a265982154517e7c538",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, harlequin motley matches painterly"
         }
       }
     },
@@ -558,6 +576,15 @@
           "sha256": "0701e53692fdf1ecf7a1aa49da6268960d07807f313d90905a63f951d09b3b93",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_clown_laughing.png",
+          "file": "sprites/anime/clown_laughing.webp",
+          "generation_id": "25526f79-40c2-4dda-959a-7c4331845c00",
+          "sha256": "b6a84f957f18c8eaa4821116607e9d422c346176116ac4e781e6b7b4ab13ca67",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
         }
       }
     },
@@ -577,6 +604,15 @@
           "sha256": "29781102c27ec28fe919a1342a59720d3110cbd11f627fc2cf87b6971fbfc832",
           "status": "approved",
           "notes": "attempt2: on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_clown_mocking.png",
+          "file": "sprites/anime/clown_mocking.webp",
+          "generation_id": "5824fc14-130e-44a1-b3eb-7fc577375979",
+          "sha256": "a50f404168180ebdcad1019b7f3153e8b3a47a10270c1bd95c733f1dd3375c68",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
         }
       }
     },
