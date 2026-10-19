@@ -802,8 +802,11 @@
         "painterly": {
           "file": "sprites/painterly/margarita_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "8ab29469b96e1faf0dc11129fdff3152a94f29a440536908b3ef7eca1333e8d6"
+          "status": "approved",
+          "sha256": "c111f0eeb996a5dd0e56a36e2921554395689d66f05c68cb33790019b54f52e2",
+          "raw_file": "raw/painterly/sprite_margarita_neutral.png",
+          "generation_id": "b677c7b8-2522-4ab6-b688-23ce1ed050ae",
+          "notes": "gentle young townswoman, braids, painterly"
         },
         "anime": {
           "raw_file": "raw/anime/sprite_margarita_neutral.png",
@@ -827,8 +830,11 @@
         "painterly": {
           "file": "sprites/painterly/margarita_joyful.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "ac5f895eac9e630817674ab08b40f2dc9769340a0c2e24e36b15592ecbda8498"
+          "status": "approved",
+          "sha256": "ebea3ac1f7180e1c647388ff7f669e538b1c4f4dec5dfec48bef5dceb6bbb7f9",
+          "raw_file": "raw/painterly/sprite_margarita_joyful.png",
+          "generation_id": "74f8b58e-5220-4323-abb8-a575ea06ab54",
+          "notes": "same identity, smiling, hand to cheek"
         },
         "anime": {
           "raw_file": "raw/anime/sprite_margarita_joyful.png",
@@ -852,8 +858,11 @@
         "painterly": {
           "file": "sprites/painterly/margarita_sorrowful.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "a662d91d5e9e8246740a036d119eeeca79999c317cc59d20d09027b1dfbd7051"
+          "status": "approved",
+          "sha256": "ceaa4a4048cbb1b1cf291785aba9af677a35faae611c39ddc412a7326acefb00",
+          "raw_file": "raw/painterly/sprite_margarita_sorrowful.png",
+          "generation_id": "4fc1e2e7-e1a1-40f7-a482-1bb6af48bb63",
+          "notes": "same identity, tearful, hands to breast"
         },
         "anime": {
           "raw_file": "raw/anime/sprite_margarita_sorrowful.png",
@@ -877,8 +886,11 @@
         "painterly": {
           "file": "sprites/painterly/margarita_fearful.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "596b7eba0a2321791bd570ed98b1dd6c7f363c54165df167d9860da3c99a22c2"
+          "status": "approved",
+          "sha256": "c482f10d9b7a02aba15bb6db154aa30a85d136da7afa9f9be35b4b95384f9a8e",
+          "raw_file": "raw/painterly/sprite_margarita_fearful.png",
+          "generation_id": "87672ce4-f9e2-4e5b-9581-9aa954ac544d",
+          "notes": "same identity, terrified, hands to face"
         },
         "anime": {
           "raw_file": "raw/anime/sprite_margarita_fearful.png",
@@ -1188,8 +1200,11 @@
         "painterly": {
           "file": "sprites/painterly/valentin_dying.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "3e4f023420d986752290df31390100d44fec82869a05e9012865bb9b858ddc79"
+          "status": "approved",
+          "sha256": "0d8b1dbf687e21ae93e493c1f20b9b06926e6fda0ce2790585f45f9491a330bd",
+          "raw_file": "raw/painterly/sprite_valentin_dying.png",
+          "generation_id": "aa7a72db-4590-485e-ab18-a9a1e6363095",
+          "notes": "same soldier and costume, wounded"
         }
       }
     },
@@ -1202,8 +1217,11 @@
         "painterly": {
           "file": "bg/painterly/cathedral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "08dc19945bc4b7028dacaff2e62c366b60f48c0bba78ec8ce2fa3973a45b7e12"
+          "status": "approved",
+          "sha256": "e151cd8244ab650ef9a88b17136fe84dbfc9af8702629332a93f94ebe8fb919a",
+          "raw_file": "raw/painterly/bg_cathedral.png",
+          "generation_id": "01be4428-095c-4447-ac9d-2eb0991f12dd",
+          "notes": "gothic nave, painterly, consistent with set"
         }
       }
     },
@@ -1216,8 +1234,11 @@
         "painterly": {
           "file": "bg/painterly/harz.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "1e869e717fbf007004c91325df76fad19111e5a94040ba0f4cc9a9f8f393164a"
+          "status": "approved",
+          "sha256": "f51289e1b2bc9a8e8ee039d79a1cabe71518e5a87c22e47b786baf24b61832c4",
+          "raw_file": "raw/painterly/bg_harz.png",
+          "generation_id": "4faa63e3-e106-4594-9ba8-0355356e72ae",
+          "notes": "misty pine mountain, will-o-wisps, red glow"
         }
       }
     },
@@ -1230,8 +1251,11 @@
         "painterly": {
           "file": "bg/painterly/harz_summit.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "13e0a6ac0a2d502585e8ea0e6e480e46eb6edef1d3609d89ae4a87eac033f53d"
+          "status": "approved",
+          "sha256": "1d033b668433d3272b0457c36416097059e6c2a5d3eda0c1a011e18941127bb4",
+          "raw_file": "raw/painterly/bg_harz_summit.png",
+          "generation_id": "a31d1f82-95b8-4518-a6f6-3fa8b1693dba",
+          "notes": "brocken bonfires, witches, same landscape"
         }
       }
     },
@@ -1244,8 +1268,11 @@
         "painterly": {
           "file": "bg/painterly/intermezzo.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "81237fda1edb9fb885ab3fda1188e4f614ad1eed2ce08e327babe8c2644fb529"
+          "status": "approved",
+          "sha256": "deb2070b77b8b0d0c94bba63f2f4d6b119583b2a883fb0edecce7b75556de032",
+          "raw_file": "raw/painterly/bg_intermezzo.png",
+          "generation_id": "851ca982-a8bb-41b2-a3d4-29d6868ee959",
+          "notes": "moonlit clearing with miniature stage"
         }
       }
     },
@@ -1258,8 +1285,11 @@
         "painterly": {
           "file": "bg/painterly/field_day.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "09a057561302aa97ba2fa38e6355312bd0dc19688c29ac1a9d7498989e22acf9"
+          "status": "approved",
+          "sha256": "33c609a3aa05e9b13c8dcf9475554a003e85b5bd7120ab66531ede961a6afe92",
+          "raw_file": "raw/painterly/bg_field_day.png",
+          "generation_id": "9150840e-3cb1-4b7b-9505-376cb539853a",
+          "notes": "bleak muddy field, gallows"
         }
       }
     },
@@ -1272,8 +1302,11 @@
         "painterly": {
           "file": "bg/painterly/field_night.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "15114296eebd88badab637baeaf687df470aaaeb5e64227323f5dfa6ab05c29a"
+          "status": "approved",
+          "sha256": "a21c7a3f472d91cca3581cda50f2f7f9f92857642b0a7a4a3073b69f4f04d6c0",
+          "raw_file": "raw/painterly/bg_field_night.png",
+          "generation_id": "82fa36c1-b11f-40af-8c28-ab488c371eea",
+          "notes": "same plain by night, gallows lights"
         }
       }
     },
@@ -1286,8 +1319,11 @@
         "painterly": {
           "file": "bg/painterly/prison.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "1b133dca00647327d1b97a1d114084be9d320a244f2a5cec81a642fbe6a816a6"
+          "status": "approved",
+          "sha256": "9d27076e7584eb47b8839277d835adf1522dea8c324ebdddf30a4d3efa584079",
+          "raw_file": "raw/painterly/bg_prison.png",
+          "generation_id": "c11eb214-b786-48f6-b2fb-add815402189",
+          "notes": "dungeon cell, torch, barred window"
         }
       }
     },
@@ -1300,8 +1336,11 @@
         "painterly": {
           "file": "bg/painterly/prison_dawn.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "67d0e8e955bcebd8948a34398f816147b33929d9eb3ec4ef0fa07b3af93f916b"
+          "status": "approved",
+          "sha256": "6787436c2af5329497360d27c551bbfe15d6c865941e82b97350054fe305e0c4",
+          "raw_file": "raw/painterly/bg_prison_dawn.png",
+          "generation_id": "7c259c9a-e823-4350-9757-6abdb98e7a42",
+          "notes": "same cell at dawn"
         }
       }
     }
