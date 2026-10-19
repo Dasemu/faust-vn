@@ -324,6 +324,15 @@
           "sha256": "e008a094c02f84f78a7be96b21086d8d461f11e669eab7a41c961cb3b42a7293",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_mephisto_scornful.png",
+          "file": "sprites/anime/mephisto_scornful.webp",
+          "generation_id": "0844bc67-a370-49ec-b052-d1fea3782a60",
+          "sha256": "7b12ca5e0e2c7835490eeaf1a7fb62cba80e2e852236e0ebf688be438ef18599",
+          "status": "rejected",
+          "source": "chatgpt-web",
+          "notes": "MCP returned reference byte-identical to neutral"
         }
       }
     },
@@ -343,6 +352,15 @@
           "sha256": "4a142fbb968d69de14e23a469ef54604e66b893febc04a6b13e237283f9e08a9",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_mephisto_deferent.png",
+          "file": "sprites/anime/mephisto_deferent.webp",
+          "generation_id": "c81b6f7f-28fb-4442-98f2-b6ab8fee335c",
+          "sha256": "7b12ca5e0e2c7835490eeaf1a7fb62cba80e2e852236e0ebf688be438ef18599",
+          "status": "rejected",
+          "source": "chatgpt-web",
+          "notes": "MCP returned reference byte-identical to neutral"
         }
       }
     },
@@ -526,8 +544,11 @@
         "painterly": {
           "file": "bg/painterly/city_gates.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "a692a7087e2e606faa01661e98e7139b87258834561b311026d9c3c5a9381184"
+          "status": "approved",
+          "sha256": "e2e408f3cb3989726e56752b9982f7494bab503865ab233d1174a41e6cfb9c52",
+          "raw_file": "raw/painterly/bg_city_gates.png",
+          "generation_id": "6a192a05-1076-493d-81c0-121f3ad9473f",
+          "notes": "oil painting gate with blossom, good"
         }
       }
     },
