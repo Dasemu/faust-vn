@@ -184,6 +184,15 @@
           "sha256": "09c6deff61366ab2d97a1989b9737512c7f42cbedb441ab10221fc3e24be2dd9",
           "status": "approved",
           "notes": "attempt2: on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_faust_anguished.png",
+          "file": "sprites/anime/faust_anguished.webp",
+          "generation_id": "65cccac8-3df9-4b17-ad0a-e0371aed9357",
+          "sha256": "7560ee5ec5150b34492b9afad30ec67cbd22efa16c35ae4dc09aec51cb783c45",
+          "status": "rejected",
+          "source": "chatgpt-web",
+          "notes": "MCP returned reference byte-identical twice (sha c8a92e5b)"
         }
       }
     },
@@ -203,6 +212,15 @@
           "sha256": "41497d71f93e262b1af9c405dc7fa0dffb3ccf405bee67ad5068d8ebbf9fc627",
           "status": "approved",
           "notes": "attempt2: on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_faust_ecstatic.png",
+          "file": "sprites/anime/faust_ecstatic.webp",
+          "generation_id": "c682b469-c99f-4dfe-a802-4868acddb168",
+          "sha256": "6f997cbc04d2fa762b8771ce7cc7e7febe45b2881e94c61d0e6c4e6da28102e9",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, clear expression"
         }
       }
     },
@@ -222,6 +240,15 @@
           "sha256": "c37cd376347380d85affe93ff5653a947bca1936b63bbac9a52e54dcb1fa3605",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_faust_fearful.png",
+          "file": "sprites/anime/faust_fearful.webp",
+          "generation_id": "207b4c1e-0273-4a86-8a2d-e6b573179da7",
+          "sha256": "0fcc3efce8b00b062521de3fd945d252658039bf1a52e8b287d10e61eb213610",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, clear fearful expression"
         }
       }
     },
@@ -241,6 +268,15 @@
           "sha256": "ecb2572c0968a968dd232808b58c9839f5e52616c32eafd44d3653504a0b26d9",
           "status": "approved",
           "notes": "clean cutout, on-model base"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_mephisto_neutral.png",
+          "file": "sprites/anime/mephisto_neutral.webp",
+          "generation_id": "6eff91aa-f425-48e3-b779-79507d7a3231",
+          "sha256": "7b12ca5e0e2c7835490eeaf1a7fb62cba80e2e852236e0ebf688be438ef18599",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "on-model cel-shaded, clean"
         }
       }
     },
@@ -260,6 +296,15 @@
           "sha256": "cde7b1637645046e45bada7f96c12c2512ec8f7887775754f38261101ea93890",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_mephisto_sly.png",
+          "file": "sprites/anime/mephisto_sly.webp",
+          "generation_id": "9dec589e-1b8a-4c3f-a1e2-6c24588c2ab8",
+          "sha256": "7b12ca5e0e2c7835490eeaf1a7fb62cba80e2e852236e0ebf688be438ef18599",
+          "status": "rejected",
+          "source": "chatgpt-web",
+          "notes": "MCP echoed the reference image (identical to neutral) twice"
         }
       }
     },
@@ -699,6 +744,15 @@
           "source": "placeholder",
           "status": "placeholder",
           "sha256": "8ab29469b96e1faf0dc11129fdff3152a94f29a440536908b3ef7eca1333e8d6"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_margarita_neutral.png",
+          "file": "sprites/anime/margarita_neutral.webp",
+          "generation_id": "1b52f2f8-429f-471a-b408-33976dafe7cf",
+          "sha256": "2c2c3c24cac0e15ab4e38dc4b92203d18e8affb6e07b6fcacfdec5651e6c6659",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "on-model, clean cel shading; neckline slightly low but acceptable"
         }
       }
     },
