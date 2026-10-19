@@ -45,24 +45,14 @@ label scene_prologo_teatro:
     # prologo_teatro_0010 .. prologo_teatro_0013
     c_director "aguarda el auditorio una gran fiesta;\neleva el ceño, ensancha las pupilas\ny mudo espera --¡gente bondadosa!-- que\nvenga a sorprenderle cualquier cosa."
     # prologo_teatro_0014 .. prologo_teatro_0017
-    show director pleased at vn_center
-    with dissolve
     c_director "En complacer al público soy ducho;\nmas tranquilo no estoy, no estoy sereno:\nes verdad que no ha visto nada bueno;\npero, en cambio, esa gente ha visto mucho."
     # prologo_teatro_0018 .. prologo_teatro_0021
-    show director neutral at vn_center
-    with dissolve
     c_director "¿Cómo lo dispondremos, de qué modo,\npara que nuevo le parezca todo?\nPorque me esponjo viendo que a torrentes,\ncuando luce aún el sol y dan las cuatro,"
     # prologo_teatro_0022 .. prologo_teatro_0025
-    show director pleased at vn_center
-    with dissolve
     c_director "la multitud, con gritos impacientes,\npugna en la angosta puerta del teatro;\ny como en la tahona, en días de hambre,\npelea por un pan furioso enjambre,"
     # prologo_teatro_0026 .. prologo_teatro_0029
-    show director neutral at vn_center
-    with dissolve
     c_director "en la taquilla así, por un asiento,\nel puño esgrime el pueblo turbulento.\nTanto poder sobre la grey inquieta\nno más lo tienes tú, feliz poeta:"
     # prologo_teatro_0030
-    show director pleased at vn_center
-    with dissolve
     c_director "repite hoy, pues, el sin igual portento."
     # prologo_teatro_0031 .. prologo_teatro_0034
     show poet inspired at vn_right
@@ -71,16 +61,12 @@ label scene_prologo_teatro:
     # prologo_teatro_0035 .. prologo_teatro_0038
     c_poet "Llévame allá do en limpios resplandores\nnos brinda el cielo goce soberano;\ndo la dulce amistad y los amores\nobran y crean con divina mano."
     # prologo_teatro_0039 .. prologo_teatro_0042
-    show poet neutral at vn_right
-    with dissolve
     c_poet "Lo que allí el labio trémulo murmura,\nlo que allí sueña el alma delirante,\ntal vez sublimidad, tal vez locura,\nlampo es quizás, que se apagó al instante."
     # prologo_teatro_0043 .. prologo_teatro_0046
-    show poet inspired at vn_right
+    show poet neutral at vn_right
     with dissolve
     c_poet "Pero a veces también duerme el profundo\nsueño, siglos y siglos, del olvido,\ny aparece después y asombra al mundo\ndel esplendor de la beldad ceñido."
     # prologo_teatro_0047 .. prologo_teatro_0050
-    show poet neutral at vn_right
-    with dissolve
     c_poet "Lo brillante, que viste oropel vano,\nfugaz momento dura; pero el sello\nde la inmortalidad ostenta ufano\ny para el porvenir vive lo bello."
     # prologo_teatro_0051 .. prologo_teatro_0054
     show clown mocking at vn_left
@@ -91,13 +77,11 @@ label scene_prologo_teatro:
     with dissolve
     c_clown "Quieren reír, y con razón. Da gozo\nver salir a las tablas un buen mozo;\ny si sabe expresar su pensamiento,\n¿para qué otro recurso?"
     # prologo_teatro_0059 .. prologo_teatro_0062
-    show clown neutral at vn_left
-    with dissolve
     c_clown "Cuanto más numeroso es el concurso,\nlo conmueve mejor. Tomad aliento\ny obrad con energía.\nSuelta dad a la errante Fantasía;"
     # prologo_teatro_0063 .. prologo_teatro_0066
     c_clown "la Razón, la Agudeza, el Sentimiento\nvayan en seguimiento;\ny si queréis que la obra satisfaga,\nla loca Insensatez no quede en zaga."
     # prologo_teatro_0067 .. prologo_teatro_0070
-    show director neutral at vn_center
+    show director worried at vn_center
     with dissolve
     c_director "Procurad, ante todo,\nque la acción sea vasta y estupenda:\nel vulgo, a cuyo gusto me acomodo,\nquiere ver mucho, aun cuando no lo entienda."
     # prologo_teatro_0071 .. prologo_teatro_0074
@@ -107,42 +91,36 @@ label scene_prologo_teatro:
     # prologo_teatro_0079 .. prologo_teatro_0082
     c_director "encuentre alguna cosa que le guste.\nPensar en unidades es simpleza;\nservidnos bien trinchada vuestra pieza:\n¿por qué buscar armónico conjunto,"
     # prologo_teatro_0083
-    show director pleased at vn_center
-    with dissolve
     c_director "si cada cual os lo destroza al punto?"
     # prologo_teatro_0084 .. prologo_teatro_0087
     show poet indignant at vn_right
     with dissolve
     c_poet "¡Industria degradada\na la que nunca se doblega el Arte!\nLa de los charlatanes tropa osada\n¿ya os puso de su parte?"
     # prologo_teatro_0088 .. prologo_teatro_0091
+    show director neutral at vn_center
+    with dissolve
     c_director "Impropio es tal reproche:\n¿no ha de tomar el operario en cuenta\ncuál será la más útil herramienta?\n¿Para quién escribís? Aquí la noche"
     # prologo_teatro_0092 .. prologo_teatro_0095
     c_director "pasa el que sufre el tedio de la holganza,\nel que llenó, en hartazgos nada módicos,\nde pesado manjar la oronda panza,\no el menguado caletre de periódicos."
     # prologo_teatro_0096 .. prologo_teatro_0099
-    show director neutral at vn_center
-    with dissolve
     c_director "Vienen como al paseo,\nal circo o a las máscaras: la inquieta\ncuriosidad les guía, o la costumbre.\nLas bellas, con sus galas y su arreo,"
     # prologo_teatro_0100 .. prologo_teatro_0103
-    show director pleased at vn_center
-    with dissolve
     c_director "nos dan otro espectáculo. Poeta,\n¿qué es lo que sueñas en la excelsa cumbre?\n¿Te envanece quizás el teatro lleno?\nBaja y mira tu gente:"
     # prologo_teatro_0104 .. prologo_teatro_0107
     c_director "este se maravilla, al arte ajeno;\naquel, docto, bosteza indiferente.\nHay quien está soñando en los tesoros\nque le brindan las copas o los oros;"
     # prologo_teatro_0108 .. prologo_teatro_0111
-    show director neutral at vn_center
-    with dissolve
     c_director "hay quien pensando goza\nque le aguardan los brazos de su moza.\n¡Por ellos, vates, molestáis con grave\nansia a la Musa en su región serena!..."
     # prologo_teatro_0112 .. prologo_teatro_0115
     c_director "Dadnos mucho, y aún más, y aún más, si cabe:\nese es todo el secreto de la escena.\nSatisfacer al auditorio es cosa\nasaz dificultosa:"
     # prologo_teatro_0116 .. prologo_teatro_0118
     c_director "entretenedlo, divertidlo. Pero\n¿qué tenéis? ¿Qué os acosa?\n¿Es júbilo? ¿Es dolor?..."
     # prologo_teatro_0119
+    show poet inspired at vn_right
+    with dissolve
     c_poet "¡Vete, profano!"
     # prologo_teatro_0120 .. prologo_teatro_0123
     c_poet "¡Vete! Romper mi servidumbre quiero.\nPor llenar tu gaveta,\n¿a conmover el corazón humano\nrenunciará el poeta?"
     # prologo_teatro_0124 .. prologo_teatro_0127
-    show poet inspired at vn_right
-    with dissolve
     c_poet "Ese poder que el sentimiento excita,\nese poder que irrita\nlos rudos elementos y los calma,\nes la armonía que en su ser palpita"
     # prologo_teatro_0128 .. prologo_teatro_0131
     c_poet "y el mundo encierra en su alma.\nMientras Naturaleza indiferente\nla hebra retuerce con dormida diestra\nde la efímera vida renaciente;"
@@ -161,32 +139,20 @@ label scene_prologo_teatro:
     with dissolve
     c_clown "Usad tan poderosas facultades;\nla fábula forjad como querella\namorosa: se encuentran él y ella,\nbrota la chispa y vuelve de rechazo,"
     # prologo_teatro_0156 .. prologo_teatro_0159
-    show clown laughing at vn_left
-    with dissolve
     c_clown "crece el sabroso anhelo,\nse estrecha el tierno lazo,\ninsta el afán, y la razón el tino\npierde; sube el placer al quinto cielo;"
     # prologo_teatro_0160 .. prologo_teatro_0163
-    show clown neutral at vn_left
-    with dissolve
     c_clown "y en esto, cuando nadie lo recela,\nacude el desencanto repentino,\ny acaba la novela.\nTrazad por ese estilo un argumento."
     # prologo_teatro_0164 .. prologo_teatro_0167
     c_clown "Os da la humana vida larga tela;\ncicatriz tienen todos escondida:\nponed el dedo en la llagada herida,\ny el ansioso interés surge al momento."
     # prologo_teatro_0168 .. prologo_teatro_0171
-    show clown mocking at vn_left
-    with dissolve
     c_clown "Muchos tropos, imágenes y flores;\nde verdad una chispa, un mar de errores:\nveréis cuán dulce sabe\nal paladar del vulgo ese jarabe."
     # prologo_teatro_0172 .. prologo_teatro_0175
-    show clown neutral at vn_left
-    with dissolve
     c_clown "Veréis cómo devora vuestro cuento\nel de la juventud crédulo coro,\na cada frase palpitando atento.\nEn vuestro verso fingirá sonoro"
     # prologo_teatro_0176 .. prologo_teatro_0179
     c_clown "un eco cada tierno sentimiento,\ny cada oyente, con feliz zozobra,\nlo que hay en su alma lo verá en vuestra obra.\nLa sonrisa y el llanto"
     # prologo_teatro_0180 .. prologo_teatro_0183
-    show clown laughing at vn_left
-    with dissolve
     c_clown "fáciles brotan a tan dulce encanto,\ny ya el aplauso embriagador escucho.\nDuro es de conmover el hombre ducho;\nmas contad con el nuevo"
     # prologo_teatro_0184
-    show clown neutral at vn_left
-    with dissolve
     c_clown "corazón entusiasta del mancebo."
     # prologo_teatro_0185 .. prologo_teatro_0188
     show poet neutral at vn_right
@@ -201,30 +167,18 @@ label scene_prologo_teatro:
     # prologo_teatro_0201 .. prologo_teatro_0203
     c_poet "la fuerza que hace, al despertar la vida,\nsangriento el odio y el amor sublime:\n¡dame otra vez la juventud perdida!"
     # prologo_teatro_0204 .. prologo_teatro_0207
-    show clown mocking at vn_left
-    with dissolve
     c_clown "¡La juventud! ¿Y para qué la quieres?\nSi en dura lid acometido fueres;\nsi una mujer en torno de tu cuello\ntendiera el brazo bello;"
     # prologo_teatro_0208 .. prologo_teatro_0211
-    show clown laughing at vn_left
-    with dissolve
     c_clown "si allá en lejana meta\nla que audaz ambiciona\nel generoso atleta\nvieras brillar, olímpica corona;"
     # prologo_teatro_0212 .. prologo_teatro_0215
     c_clown "si tras la danza inquieta\nte brindara la copa loca orgía,\nllorar la juventud justo sería.\nPero en cítara de oro"
     # prologo_teatro_0216 .. prologo_teatro_0219
-    show clown mocking at vn_left
-    with dissolve
     c_clown "el vuelo de la libre fantasía\nseguir y el canto acompañar sonoro,\ntarea, ¡oh mis señores los ancianos!,\nes adecuada a vuestras flacas manos."
     # prologo_teatro_0220 .. prologo_teatro_0223
-    show clown neutral at vn_left
-    with dissolve
     c_clown "Leí en libros añejos\nque niños otra vez se hacen los viejos;\nmas yo diré, si a la verdad me ciño,\nque al hombre la vejez sorprende aún niño."
     # prologo_teatro_0224 .. prologo_teatro_0227
-    show director worried at vn_center
-    with dissolve
     c_director "Ya de cháchara inútil basta y sobra;\ncerrad el pico, y manos a la obra.\nMientras charlabais, algo de provecho\npudierais haber hecho."
     # prologo_teatro_0228 .. prologo_teatro_0231
-    show director neutral at vn_center
-    with dissolve
     c_director "¿De qué sirve la hueca teoría,\nsi, de valor desnuda,\nla incertidumbre duda?\n¿Poeta sois? Pues dadnos poesía."
     # prologo_teatro_0232 .. prologo_teatro_0235
     c_director "Qué gusta al vulgo ¿lo ignoráis acaso?\nPide su paladar licor hirviente;\nhasta los bordes, pues, llenadle el vaso;\nlo que hoy no hagáis, mañana os saldrá al paso,"
@@ -321,6 +275,8 @@ label scene_prologo_cielo:
     # prologo_cielo_0092 .. prologo_cielo_0095
     c_mephisto "y al espacio imaginario\nle arrastra su extraña fiebre.\nDe su insensata locura\na medias conciencia tiene;"
     # prologo_cielo_0096 .. prologo_cielo_0099
+    show mephisto neutral at vn_left
+    with dissolve
     c_mephisto "al cielo le pide el astro\nque más puro resplandece,\ny al mundo la más intensa\nsensación de sus placeres;"
     # prologo_cielo_0100 .. prologo_cielo_0103
     c_mephisto "y ni el cielo ni la tierra\njuntando todos sus bienes,\nllenar podrán el vacío\nde su corazón estéril."
@@ -329,6 +285,8 @@ label scene_prologo_cielo:
     # prologo_cielo_0108 .. prologo_cielo_0109
     c_lord "cuando el botón rompe el árbol,\nqué fruto ha de prometerse."
     # prologo_cielo_0110 .. prologo_cielo_0113
+    show mephisto sly at vn_left
+    with dissolve
     c_mephisto "Gran Señor, ¿apuestas algo\na que tu siervo te vende,\nsi llevarlo por mis sendas\nme dejas?"
     # prologo_cielo_0114
     c_lord "Tentarlo puedes"
@@ -394,6 +352,8 @@ label scene_noche:
     # noche_0022 .. noche_0025
     c_faust "y sin caudal, ni crédito, ni honores,\nvida arrastro que un can despreciaría.\nDoyme a la Magia, pues. ¡Oh, si pudiera\nel vigor del Espíritu, que anima"
     # noche_0026 .. noche_0029
+    show faust ecstatic at vn_center
+    with dissolve
     c_faust "al Verbo humano, la secreta clave\nrevelarme de todos los enigmas!\nNo con pálido afán sudara sangre\npara hacer comprender lo que mi misma"
     # noche_0030 .. noche_0033
     c_faust "razón no comprendió; y en las entrañas\npenetrando del mundo, encontraría\ndel eterno Poder vivificante,\nallí dentro, las fuentes escondidas,"
@@ -418,8 +378,6 @@ label scene_noche:
     # noche_0070 .. noche_0073
     c_faust "¡Fuera de aquí! ¡Luz! ¡Aire! ¡Campo abierto!\nEste libro me da segura guía:\npor la mano del docto Nostradamus\nfueron todas sus páginas escritas."
     # noche_0074 .. noche_0077
-    show faust ecstatic at vn_center
-    with dissolve
     c_faust "El curso aprenderé de las estrellas,\ny de nueva virtud mi alma provista,\nsabré cómo el Espíritu invocado\nal invocante Espíritu adoctrina."
     # noche_0078 .. noche_0081
     c_faust "Con las áridas reglas, nuestra mente\nlos signos misteriosos no descifra;\npues que vagáis, Espíritus, en torno,\noíd, y contestad a la voz mía."
@@ -444,8 +402,6 @@ label scene_noche:
     # noche_0106 .. noche_0109
     c_faust "pasan de mano en mano el áureo sello;\ny en el éter batiendo alas benditas,\nvan de la tierra al cielo, cielo y tierra\nllenando de inefables armonías."
     # noche_0110 .. noche_0113
-    show faust anguished at vn_center
-    with dissolve
     c_faust "¡Bella visión, pero visión al cabo!\n¡Cómo asir y estrechar a la infinita\nNaturaleza, y exprimir sus pechos!\nManantial ellos son de toda vida;"
     # noche_0114 .. noche_0117
     c_faust "de ellos penden los cielos y la tierra;\nsu fecundo raudal todo lo anima,\ny en vano pide mi sediento labio\nuna gota, no más, de esa ambrosía."
@@ -454,8 +410,6 @@ label scene_noche:
     # noche_0118
     c_narrator "Vuelve la hoja involuntariamente y ve el signo del Espíritu de la Tierra."
     # noche_0119 .. noche_0122
-    show faust ecstatic at vn_center
-    with dissolve
     c_faust "¡Cuánto es diversa, Genio de la Tierra,\ntu acción! Estás más cerca, y a tu vista\ncrecen mis bríos, cual si rojo mosto\ninundara mi ser: con frente erguida"
     # noche_0123 .. noche_0126
     c_faust "quiero lanzarme al mundo; afrontar quiero\nsus infortunios, afrontar sus dichas;\nprovocar la tormenta, y sin espanto\nver la nave a mis pies rota y hundida."
@@ -466,8 +420,6 @@ label scene_noche:
     # noche_0131 .. noche_0134
     c_faust "descienden y circundan\nmi sien descolorida.\nVertiginoso anhelo\ndentro de mí palpita,"
     # noche_0135 .. noche_0138
-    show faust ecstatic at vn_center
-    with dissolve
     c_faust "y siento que el Espíritu\nsiniestro se aproxima.\n¡Rasga el velo! ¡Aparece!\n¡Cuál sufre el alma mía!"
     # noche_0139 .. noche_0142
     c_faust "Por abrir nuevo cauce\nmis sentimientos lidian,\ny hacia ti, fatal Genio,\ntodos se precipitan."
@@ -476,15 +428,13 @@ label scene_noche:
     show bg study_spirit at tint_red
     with vn_flash
     show layer master at vn_shake
-    show faust ecstatic at vn_left
+    show faust fearful at vn_left
     with vn_move
     # noche_0145
     c_narrator "Toma el libro y pronuncia misteriosamente el nombre del Espíritu. Enciéndese una luz rojiza y trémula. El Espíritu aparece en ella."
     # noche_0146
     c_spirit "¿Quién me llama?"
     # noche_0147
-    show faust fearful at vn_left
-    with dissolve
     c_faust "¡Visión espantadora!"
     # noche_0148 .. noche_0149
     c_spirit "Audaz me evocas y a venir me obligas,\ny ahora..."
@@ -499,7 +449,7 @@ label scene_noche:
     # noche_0163 .. noche_0165
     c_spirit "¡Eres tú Fausto, y, ¡despreciable hormiga!,\nal soplo solo de mi voz, heladas\ntemblaron tus entrañas conmovidas!"
     # noche_0166 .. noche_0167
-    show faust ecstatic at vn_left
+    show faust anguished at vn_left
     with dissolve
     c_faust "¡Oh, no, roja visión, hijo del fuego!\nSoy Fausto, soy tu igual; no me intimidas."
     # noche_0168
@@ -511,17 +461,5477 @@ label scene_noche:
     # noche_0177 .. noche_0179
     c_spirit "de la muerte y la vida,\ntejiendo a Dios, en el telar eterno,\nla que viste inmortal túnica viva."
     # noche_0180 .. noche_0182
+    show faust ecstatic at vn_left
+    with dissolve
     c_faust "¡Cómo sintiendo voy que a ti me acerco,\nEspíritu que flotas y te agitas\nsobre el mundo!"
     # noche_0183
     c_spirit "Al Espíritu que sueñas"
     # noche_0184 .. noche_0185
     c_spirit "y tu mente concibe, te aproximas,\nno a mí."
     # noche_0186
-    show faust fearful at vn_left
+    show faust anguished at vn_left
     with dissolve
     c_faust "¿No a ti? Pues dime: ¿a quién? ¿Imagen"
     # noche_0187
     c_faust "soy de Dios, y ni a ti llegar podría?"
+    # noche_0188
+    c_narrator "Llaman."
+    # noche_0189 .. noche_0192
+    c_faust "¡Oh! ¡Mal haya!... Es mi fámulo. Destruye\nmi ventura y los éxtasis disipa.\nEn el pleno esplendor de mis visiones,\n¿para qué, impertinente, tu visita?"
+    # noche_0193
+    c_narrator "Entra WAGNER con bata y gorro de dormir. FAUSTO le vuelve la espalda malhumorado."
+    # noche_0194 .. noche_0197
+    show wagner eager at vn_left
+    with dissolve
+    c_wagner "¡Perdón! Tu voz, que a mí llega,\nes la que me trajo aquí:\nque recitabas creí\nalguna tragedia griega."
+    # noche_0198 .. noche_0201
+    c_wagner "Y hubiera, a fe, gran placer\nen saberlas declamar,\nque hoy ese arte, a no dudar,\nutilísimo ha de ser;"
+    # noche_0202 .. noche_0205
+    c_wagner "pues alguien dijo, señor,\nrecuérdolo en este instante,\nque dar puede un comediante\nlección a un predicador."
+    # noche_0206 .. noche_0209
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Dársela podrá muy bien,\nsi es el cura, por acaso,\notro comediante, caso\nque ocurrir suele también."
+    # noche_0210 .. noche_0213
+    show wagner neutral at vn_left
+    with dissolve
+    c_wagner "Quien en su estancia sombría\nvive en retiro profundo,\ny sale no más al mundo\nen algún solemne día;"
+    # noche_0214 .. noche_0217
+    c_wagner "quien, si llega a percibirlo,\nes por angosto agujero,\nmal puede, a lo que yo infiero,\nconmoverlo y dirigirlo."
+    # noche_0218 .. noche_0221
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "No ha de lograrlo jamás\nquien en su pecho no sienta\narder la llama violenta\ncon que abrase a los demás."
+    # noche_0222 .. noche_0225
+    c_faust "Pasa aquí todos tus ratos\nestudiando: mata el hambre\ncon esta merienda fiambre\nde las sobras de otros platos;"
+    # noche_0226 .. noche_0229
+    c_faust "y acumulando a montones\nlos textos, que has hecho trizas,\nsopla sobre sus cenizas\ncon enérgicos pulmones."
+    # noche_0230 .. noche_0233
+    c_faust "Brotará menguada llama,\ny es posible que a ese precio\nel niño, el simple y el necio\ntu nombre den a la fama;"
+    # noche_0234 .. noche_0237
+    c_faust "mas, si fuere tu ambición\nlos corazones mover,\nha de brotar tu saber\nde tu propio corazón."
+    # noche_0238 .. noche_0241
+    c_wagner "Lo que al vulgo halaga más\nes la pomposa elocuencia,\ny en esa difícil ciencia\naún me encuentro muy atrás."
+    # noche_0242 .. noche_0245
+    c_faust "Busca más dignos laureles\ny adelanta poco a poco...\n¿quieres hacer como el loco\nque agita los cascabeles?"
+    # noche_0246 .. noche_0249
+    c_faust "Afeite de todas clases\nes a la verdad ajeno;\nsi has de decir algo bueno,\nno vayas cazando frases;"
+    # noche_0250 .. noche_0253
+    c_faust "pues son las palabras huecas,\nque brillante oropel cubre,\nráfaga estéril de octubre\nque mueve las hojas secas."
+    # noche_0254 .. noche_0257
+    show wagner uneasy at vn_left
+    with dissolve
+    c_wagner "Incierta y breve es la vida,\nlargo el arte, y en tan alta\nempresa a veces nos falta\nla razón desvanecida."
+    # noche_0258 .. noche_0261
+    c_wagner "Quien llegar al fin intenta\nafán sufre luengo y rudo,\ny en el camino, a menudo\nel pobre diablo revienta."
+    # noche_0262 .. noche_0265
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "La sed del alma no calma\nun árido pergamino:\nese manantial divino\nlo lleva en su fondo el alma."
+    # noche_0266 .. noche_0269
+    show wagner neutral at vn_left
+    with dissolve
+    c_wagner "También la imaginación\ngoza cuando el vuelo tiende,\ny el espíritu comprende\nde otra edad y otra región."
+    # noche_0270 .. noche_0273
+    c_wagner "De antigua ciencia los rastros\ndescubre, y disfruta viendo\ncómo el hombre va subiendo\ny subiendo..."
+    # noche_0274
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡Hasta los astros!"
+    # noche_0275 .. noche_0278
+    c_faust "¿Qué es el pasado, en verdad?\nUn libro sellado: sombras\ny dudas. ¿Qué es lo que nombras\nespíritu de otra edad?"
+    # noche_0279 .. noche_0282
+    c_faust "La doctrina, nueva o vieja,\nde aqueste o aquel autor,\nque su propio resplandor\nsobre el pasado refleja."
+    # noche_0283 .. noche_0286
+    c_faust "Si bien lo miras, ¡qué enojos!\nsu luz es sombra no más;\ny de ella separarás\ndesencantado los ojos;"
+    # noche_0287 .. noche_0290
+    c_faust "pues su genio, que de lejos\nbrilla con rayos propicios,\nes costal de desperdicios,\nalmacén de trastos viejos,"
+    # noche_0291 .. noche_0294
+    c_faust "y escenario, en conclusión,\ndonde inconscientes se agitan\ny bellas frases recitan\nmonigotes de cartón."
+    # noche_0295 .. noche_0296
+    c_wagner "¿Y el universo? ¿Y el hombre?\n¿Saber su esencia no cabe?"
+    # noche_0297 .. noche_0300
+    c_faust "¿Saber? ¡Pensar que se sabe!\n¿Quién dar puede el propio nombre\na las cosas? Si en la tierra\nalguien descubre esa oculta"
+    # noche_0301 .. noche_0304
+    c_faust "ciencia, y en sí no sepulta\nlos arcanos que ella encierra,\nal derramar esa luz,\nque al hombre obcecado hiere,"
+    # noche_0305 .. noche_0308
+    c_faust "víctima infelice, muere\nen la hoguera o en la cruz.\nPero, adiós: la noche vuela;\nya es tarde; basta por hoy."
+    # noche_0309 .. noche_0312
+    show wagner eager at vn_left
+    with dissolve
+    c_wagner "Oyéndote, como estoy,\npasara la noche en vela.\nPero mañana son Pascuas,\ny, si molestarte no es,"
+    # noche_0313 .. noche_0316
+    c_wagner "dos preguntas te haré, o tres,\nque me tienen ahora en ascuas.\nAmo el saber de tal modo,\nque incesante por él lucho:"
+    # noche_0317 .. noche_0318
+    c_wagner "a tu lado aprendí mucho;\nmas saberlo quiero todo."
+    # noche_0319
+    c_narrator "Sale."
+    # noche_0320 .. noche_0323
+    hide wagner
+    with dissolve
+    c_faust "Nunca abandona la esperanza al loco\nsoñador de quimeras; áurea mina\nbusca en la tierra ansioso: ¡qué fortuna,\nsi al cabo da con una sabandija!"
+    # noche_0324 .. noche_0327
+    c_faust "Y en el propio lugar donde la excelsa\nlegión de los Espíritus me hostiga,\nla voz sonó de tan pueril querella.\n¡No importa! Tu presencia intempestiva,"
+    # noche_0328 .. noche_0331
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "hijo vulgar de la ralea humana,\nno habrá sido enojosa ni perdida,\npues me arrancó el afán desesperado\nque ya todo mi ser estremecía."
+    # noche_0332 .. noche_0335
+    c_faust "Fue la visión tan colosal, que halleme\npigmeo ante ella, y desmayé a su vista.\nHijo de Dios, al misterioso espejo\nde la eterna verdad llegar quería,"
+    # noche_0336 .. noche_0339
+    c_faust "y los terrenos lazos desatando,\naspiraba feliz la luz divina.\nSuperior al querub, en el regazo\ndel mundo derramé mi propia vida,"
+    # noche_0340 .. noche_0343
+    c_faust "y mezclando mi sangre con su savia,\naudaz soñé la Creación ya mía.\n¡Estéril presunción! Una palabra\nrayo fue que fulgura y me aniquila."
+    # noche_0344 .. noche_0347
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Medir no puedo mi poder contigo:\nmis tristes voces a venir te obligan;\npero no te aprisionan. A tu lado,\n¡cuán grande y cuán pequeño me sentía!"
+    # noche_0348 .. noche_0351
+    c_faust "Pero a la suerte incierta de la triste\nhumanidad arrójanme tus iras.\n¿Quién marcará mi norte y mi sendero?\n¿Seguiré los impulsos que me guían?"
+    # noche_0352 .. noche_0355
+    c_faust "Nuestras protestas, nuestros mismos actos\nno detienen la marcha de la vida.\nLa más sublime aspiración del alma\nsiempre grosera escoria impurifica,"
+    # noche_0356 .. noche_0359
+    c_faust "y al conquistar los bienes de la tierra,\njuzgamos ilusión, sueño y mentira\nel bien mayor. Si generoso arranque\nal noble corazón da fuego y vida,"
+    # noche_0360 .. noche_0363
+    c_faust "vertiginoso el torbellino humano\nese sagrado afán seca y marchita.\nLa eternidad a su ambición no basta\ncuando rompe a volar la fantasía,"
+    # noche_0364 .. noche_0367
+    c_faust "y el rincón más angosto es suficiente\npara encerrar, al cabo, nuestras dichas.\nLa ingratitud el corazón taladra,\nrobándonos la paz y la alegría,"
+    # noche_0368 .. noche_0371
+    c_faust "y el secreto pesar en él engendra.\nLa zozobra, con máscaras distintas,\nse disfraza, y sin tregua nos persigue,\ncasa o corte, mujer, hijos, familia,"
+    # noche_0372 .. noche_0375
+    c_faust "agua, fuego, puñal o bebedizo.\nY así el mortal, en ansiedad continua,\nteme el peligro cuando no le amaga,\no llora el bien que disfrutar podría."
+    # noche_0376 .. noche_0379
+    c_faust "¿Semejante yo a Dios? ¡Vana quimera!\nSemejante al gusano, que se abriga\nen el polvo, y de polvo alimentado,\nmuerte le da y sepulcro quien lo pisa."
+    # noche_0380 .. noche_0383
+    c_faust "¿Polvo no son los viejos cachivaches\nque llenan esa negra estantería,\ny cuyo sucio fárrago en un mundo\nde podredumbre y aridez me abisma?"
+    # noche_0384 .. noche_0387
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¿Daranme lo que anhelo? Devorando\nvolumen tras volumen, ¿qué hallaría?\nQue si algún hombre se creyó dichoso,\na sí mismos los más se martirizan."
+    # noche_0388 .. noche_0391
+    c_faust "¿Y tú, por qué, burlona calavera,\npor esas huecas órbitas me miras?\n¿Para decirme que, cual lucho y sufro,\ntu espíritu pugnaba y padecía,"
+    # noche_0392 .. noche_0395
+    c_faust "y sediento de luz, por senda errada\nfue a sumergirse en las tinieblas frías?\n¿Qué me decís, retortas y alambiques?\nMofa callada en la pared sombría"
+    # noche_0396 .. noche_0399
+    c_faust "hacéis quizás a mi insensato duelo,\nruedas y tubos, frascos y vasijas.\nA la puerta llegué: la vi cerrada;\nla llave me faltaba, os la pedía;"
+    # noche_0400 .. noche_0403
+    c_faust "y aún aquí, pavorosos instrumentos,\nme tenéis a la puerta sin abrirla.\nNaturaleza sus secretos guarda\nmisteriosa, velada en pleno día,"
+    # noche_0404 .. noche_0407
+    c_faust "y no abrirán palancas ni ganzúas\nlo que cerró implacable a nuestra vista.\n¡Armatostes inútiles! ¡Legado\nde mi padre y sus pálidas vigilias!"
+    # noche_0408 .. noche_0411
+    c_faust "Pended ociosos del siniestro muro\nque la lámpara ahumó, siempre encendida.\nMás me valiera mi caudal escaso\ngastar, que conservarlo con fatiga."
+    # noche_0412 .. noche_0415
+    c_faust "¿Para qué quieres la paterna herencia,\nsi no la gozas? Al presente aplica\nlas riquezas: es carga agobiadora\nel oro, cuando no lo necesitas."
+    # noche_0416 .. noche_0419
+    c_faust "Mas ¿por qué allí claváronse mis ojos?\n¿Es aquel frasco imán de mis pupilas?\n¿Por qué me halagas, como en selva oscura\nluna apacible que de pronto brilla?"
+    # noche_0420 .. noche_0423
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "Yo te saludo, mágica redoma,\ny llego a ti con mano estremecida,\nreverenciando en tu licor precioso\ndel humano saber las maravillas."
+    # noche_0424 .. noche_0427
+    c_faust "Esencia de los jugos que adormecen,\nmezcla de las ponzoñas que asesinan,\nmuestra a tu dueño tu virtud suprema.\nAl mirarte, mi afán se tranquiliza;"
+    # noche_0428 .. noche_0431
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "al asirte, mi angustia se modera,\ny la interior tormenta se apacigua.\nEn alta mar mi espíritu navega;\nsu brillante cristal el aura riza,"
+    # noche_0432 .. noche_0435
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "y me llama el fulgor de nueva aurora\na nuevo puerto en encantada orilla.\nCarro de fuego, que veloces alas\nconducen por los aires, se aproxima:"
+    # noche_0436 .. noche_0439
+    c_faust "nuevo camino me abrirá en los cielos\nde donde mana la perpetua vida.\n¿Podré gozar, gusano de la tierra,\nel bien excelso, la inmortal delicia?"
+    # noche_0440 .. noche_0443
+    c_faust "¡Podré, sí! ¿Qué me falta? Las espaldas\nvolver al sol que aquí nos ilumina;\nabrir audaz la puerta misteriosa,\ncuyo umbral nuestro pie temblando pisa."
+    # noche_0444 .. noche_0447
+    c_faust "Hora es ya de probar que emular puede\ncon la ensalzada majestad divina\nla humana condición. No más espantos\nal borde de esa inescrutable sima,"
+    # noche_0448 .. noche_0451
+    c_faust "do la imaginación tiembla azorada\ncon los espectros que forjó ella misma,\ny en cuya boca ante nosotros arden\nlas llamas del infierno maldecidas."
+    # noche_0452 .. noche_0455
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "Voy a tentar el salto pavoroso,\naunque la oscura nada me reciba.\nSal otra vez del protector estuche,\nsal, olvidada copa cristalina,"
+    # noche_0456 .. noche_0459
+    c_faust "que un tiempo, en el festín de mis abuelos,\nserenabas las frentes pensativas.\nDe mano en mano sin cesar pasabas,\ny al pasar, cada cual, por ley antigua,"
+    # noche_0460 .. noche_0463
+    c_faust "agotaba de un sorbo el hondo seno,\ny las viejas historias esculpidas\nen tu metal precioso relataba.\n¡Cuántas veladas, al placer propicias,"
+    # noche_0464 .. noche_0467
+    c_faust "de mi dichosa edad, tú me recuerdas!\nHoy no puedo ofrecerte, copa amiga,\na feliz comensal, ni en tu alabanza\naguzaré el ingenio, cual solía."
+    # noche_0468 .. noche_0471
+    c_faust "Pócima embriagadora el cáliz llena,\npreparada por mí, por mí escogida.\n¡Última libación, con toda el alma\nte consagro a la aurora, al nuevo día!"
+    # noche_0472
+    c_narrator "Lleva la copa a los labios."
+    # noche_0473
+    c_narrator "Vuelo de campanas y coros"
+    # noche_0474 .. noche_0477
+    c_angels_chorus "¡Cristo ha resucitado!\n¡Júbilo al hombre y paz!\n¡Al hombre aprisionado\npor el fatal pecado,"
+    # noche_0478 .. noche_0479
+    c_angels_chorus "que al corazón llagado\nenróscase tenaz!"
+    # noche_0480 .. noche_0483
+    c_faust "¿Qué lejano clamor, qué voces puras\nmi labio apartan de la copa impía?\n¿Celebra ya, sonora, la campana\ntu alborada feliz, Pascua bendita?"
+    # noche_0484 .. noche_0487
+    c_faust "¿Cantáis vosotros, apacibles coros,\nlas palabras que el Ángel repetía,\ny que en la negra noche del sepulcro\nnuncian la nueva Ley y la publican?"
+    # noche_0488 .. noche_0491
+    c_women_chorus "Sus miembros con hierbas\ny aromas ungimos;\nnosotras, sus siervas,\nsepulcro le dimos."
+    # noche_0492 .. noche_0495
+    c_women_chorus "A nuestra ternura\ndebió la envoltura;\nmas ¡ay!, ¿qué será?\nYa en la sepultura"
+    # noche_0496
+    c_women_chorus "el Cristo no está."
+    # noche_0497 .. noche_0500
+    c_angels_chorus "¡Cristo ha resucitado!\n¡Dichoso el hombre fiel\nque, amante y resignado,\ndel infortunio airado"
+    # noche_0501
+    c_angels_chorus "sufrió la prueba cruel!"
+    # noche_0502 .. noche_0505
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¿Por qué hasta el polvo, en que rendido yazgo,\ndescienden las celestes armonías?\nA otro más blando corazón halaguen:\nyo comprendo el mensaje que me envían;"
+    # noche_0506 .. noche_0509
+    c_faust "mas falta al alma fe, y es el prodigio\nhijo querido de la fe sumisa.\nVolar no puedo a las esferas donde\nnuncia la Buena Nueva voz divina;"
+    # noche_0510 .. noche_0513
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "pero, a ese acento encariñada el alma,\na sus lejanos ecos se reanima.\nHubo un tiempo en que un ósculo del cielo\nel domingo a mis sienes descendía;"
+    # noche_0514 .. noche_0517
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "goces mil anunciaba la campana,\ny era santa oración mi mayor dicha.\nHondo, sereno, irresistible impulso\nllevábame a los bosques y campiñas,"
+    # noche_0518 .. noche_0521
+    c_faust "y allí, entre dulces lágrimas, un mundo\ndentro del joven corazón nacía.\nLa voz, que hoy suena, del sagrado bronce\nseñaló a mi niñez sus alegrías,"
+    # noche_0522 .. noche_0525
+    c_faust "y las serenas fiestas de los campos\nque el esplendor primaveral nos brindan.\nEse recuerdo de infantil ventura\nmi pie detiene en la fatal orilla:"
+    # noche_0526 .. noche_0527
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "¡Sonad, dulces sonad, himnos celestes!\nPues el llanto brotó, volví a la vida."
+    # noche_0528 .. noche_0531
+    c_disciples_chorus "Glorioso alzó el vuelo,\ny rápido al cielo\nsubió el Inmortal;\nglorioso, potente,"
+    # noche_0532 .. noche_0535
+    c_disciples_chorus "ya reina esplendente,\nbebiendo en la fuente\nla esencia vital.\nNosotros, en tanto,"
+    # noche_0536 .. noche_0539
+    c_disciples_chorus "bañados en llanto,\nquedamos sin ti.\nEspanto siniestro\nnubló el gozo nuestro,"
+    # noche_0540 .. noche_0541
+    c_disciples_chorus "pues solos, maestro,\nnos dejas aquí."
+    # noche_0542 .. noche_0545
+    c_angels_chorus "¡Cristo ha resucitado!\nLa voz triunfal retumba.\nDejad el lecho helado,\nmuertos, y abrid la tumba."
+    # noche_0546 .. noche_0549
+    c_angels_chorus "Vosotros, hijos de Eva,\nlos que decís su Nueva,\nlos que esperáis su cielo,\nlos que coméis su pan,"
+    # noche_0550 .. noche_0553
+    c_angels_chorus "cesad en vuestro duelo:\naunque el Señor se eleva,\npresente a vuestro anhelo\nestá y a vuestro afán."
+
+label scene_puertas_ciudad:
+    scene black
+    show card_puertas_ciudad at truecenter
+    with fade
+    pause 2.0
+    hide card_puertas_ciudad
+    scene bg city_gates at tint_none
+    with fade
+    # puertas_ciudad_0002 .. puertas_ciudad_0003
+    c_artisans "¿Vais a tomar el camino\nde los cazadores?"
+    # puertas_ciudad_0004
+    c_artisans "Sí."
+    # puertas_ciudad_0005 .. puertas_ciudad_0006
+    c_artisans "Pues nosotros, por aquí\nnos vamos hacia el molino."
+    # puertas_ciudad_0007 .. puertas_ciudad_0008
+    c_artisans "A mí me divierte más\nver el río."
+    # puertas_ciudad_0009
+    c_artisans "Yo no estoy"
+    # puertas_ciudad_0010
+    c_artisans "por esa vista."
+    # puertas_ciudad_0011
+    c_artisans "¿Y tú?"
+    # puertas_ciudad_0012
+    c_artisans "Voy"
+    # puertas_ciudad_0013
+    c_artisans "adonde van los demás."
+    # puertas_ciudad_0014 .. puertas_ciudad_0017
+    c_artisans "Ven y llega a las alturas\nde Burgdorf, si encontrar quieres\nbuena cerveza, mujeres\ndeliciosas, y aventuras."
+    # puertas_ciudad_0018 .. puertas_ciudad_0021
+    c_artisans "¿No te escuecen las espaldas?\nEvitaré la ocasión.\nSube tú, si quieres: son\npeligrosas esas faldas."
+    # puertas_ciudad_0022 .. puertas_ciudad_0023
+    c_servant_girls "No, no: doy la vuelta ya\na la ciudad."
+    # puertas_ciudad_0024
+    c_servant_girls "¡Tonta! ¿Ves"
+    # puertas_ciudad_0025 .. puertas_ciudad_0026
+    c_servant_girls "aquellos chopos? Allí es\ndonde esperando él está."
+    # puertas_ciudad_0027 .. puertas_ciudad_0030
+    c_servant_girls "Y a mí ¿qué? ¡Que espere! ¡Digo!\n¡Pues me divierte el bromazo!...\nA ti sola te da el brazo,\ny baila, no más, contigo."
+    # puertas_ciudad_0031 .. puertas_ciudad_0032
+    c_servant_girls "Hoy con él encontrarás\nal de las rubias patillas."
+    # puertas_ciudad_0033 .. puertas_ciudad_0036
+    c_students "¡Mira qué alegres chiquillas!\n¡Vamos corriendo detrás!\nPara mi gusto no hay nada\ncomo estas tres cosas: buena"
+    # puertas_ciudad_0037 .. puertas_ciudad_0038
+    c_students "cerveza, una pipa llena,\ny una moza endomingada."
+    # puertas_ciudad_0039 .. puertas_ciudad_0042
+    c_citizens "¡Es una vergüenza! ¡Están\nlocos!... Pudiendo, a fe mía,\ntener buena compañía,\ntras esas mozuelas van."
+    # puertas_ciudad_0043 .. puertas_ciudad_0046
+    c_students "No corras, no te adelantes;\nahí detrás vienen dos bellas:\nmíralas. Es una de ellas\nmi vecina: ¡qué elegantes!"
+    # puertas_ciudad_0047 .. puertas_ciudad_0050
+    c_students "Ven, ven: por ella estoy loco.\nAunque van pasito a paso,\nverás cómo así, al acaso,\nnos alcanzan, poco a poco."
+    # puertas_ciudad_0051 .. puertas_ciudad_0054
+    c_students "Gozar a mis anchas quiero.\n¿Ves? La caza se nos vuela:\ncorre tú a la damisela;\nyo las fámulas prefiero."
+    # puertas_ciudad_0055 .. puertas_ciudad_0058
+    c_students "La muchacha que, hecha un pingo,\nbarre el sábado mejor,\nes la que con más primor\nte acariciará el domingo."
+    # puertas_ciudad_0059 .. puertas_ciudad_0062
+    c_citizens "El nuevo alcalde no en balde\nme irrita: está cada día\nmás tieso su Señoría,\nmás orondo, y más... ¡alcalde!"
+    # puertas_ciudad_0063 .. puertas_ciudad_0066
+    c_citizens "¿Qué hace digno de loar\npor el común? En creciente\nvan juntos constantemente\nobedecer y pagar."
+    # puertas_ciudad_0067 .. puertas_ciudad_0070
+    c_citizens "Buen caballero, bellas señoras,\nde ojos alegres, de rostro en flor,\ncompadeceos de quien implora\nmísero y triste vuestro favor."
+    # puertas_ciudad_0071 .. puertas_ciudad_0074
+    c_citizens "Nunca a los buenos mi voz molesta,\ny el que la atiende dichoso es:\nhoy para todos día es de fiesta;\npara mí sea de rica mies."
+    # puertas_ciudad_0075 .. puertas_ciudad_0078
+    c_citizens "Placer no encuentro en la tierra\ncomo en las tardes de holganza\ncomentar, llena la panza,\nlas noticias de la guerra."
+    # puertas_ciudad_0079 .. puertas_ciudad_0082
+    c_citizens "Batan el cobre en Turquía\nel ruso y el otomano;\nsentado yo, copa en mano,\nallá en la cervecería,"
+    # puertas_ciudad_0083 .. puertas_ciudad_0086
+    c_citizens "contemplo sin sinsabores\ncruzar, entre ambas riberas,\nembarcaciones ligeras\nde diferentes colores;"
+    # puertas_ciudad_0087 .. puertas_ciudad_0090
+    c_citizens "y cuando en grato solaz\nla tranquila tarde pasa,\nvuelvo bendiciendo a casa,\nlas delicias de la paz."
+    # puertas_ciudad_0091 .. puertas_ciudad_0094
+    c_citizens "Soy de la misma opinión:\ntengamos orden profundo\nen casa, y húndase el mundo\nen fatal conflagración."
+    # puertas_ciudad_0095
+    c_narrator "Dirigiéndose a las señoritas que hablaron antes."
+    # puertas_ciudad_0096 .. puertas_ciudad_0099
+    c_citizens "¡Qué preciosas señoritas!\n¡Qué elegancia y qué embeleso!\n¡Cuántos perderán el seso\npor doncellas tan bonitas!"
+    # puertas_ciudad_0100 .. puertas_ciudad_0101
+    c_citizens "Si tienen confianza en mí,\nles daré lo que desean."
+    # puertas_ciudad_0102 .. puertas_ciudad_0105
+    c_citizens "Ven, Águeda: no nos vean\ncon tales brujas aquí.\nEsa es la que me mostró\na mi futuro galán"
+    # puertas_ciudad_0106
+    c_citizens "la noche del buen San Juan."
+    # puertas_ciudad_0107 .. puertas_ciudad_0110
+    c_citizens "También el mío vi yo.\nEra militar, y dentro\nde un cristal aparecía\ngallardo. Desde aquel día"
+    # puertas_ciudad_0111
+    c_citizens "lo busco y nunca lo encuentro."
+    # puertas_ciudad_0112 .. puertas_ciudad_0115
+    c_soldiers "Ciudadelas arrogantes,\ncastillos de alta muralla,\ny muchachas rozagantes\nasalto sin compasión."
+    # puertas_ciudad_0116 .. puertas_ciudad_0119
+    c_soldiers "Peligrosa es la batalla;\npero es dulce el galardón.\nCon igual voz el combate,\nque la zambra y el festín,"
+    # puertas_ciudad_0120 .. puertas_ciudad_0123
+    c_soldiers "al pecho que altivo late\nnuncia el bélico clarín.\n¡Lid sangrienta y dulce juego!\n¡Baile y risas! ¡Sangre y fuego!"
+    # puertas_ciudad_0124 .. puertas_ciudad_0127
+    c_soldiers "La ciudadela y la hermosa\nse rinden a discreción.\nLa batalla es peligrosa;\npero es grato el galardón."
+    # puertas_ciudad_0128
+    c_soldiers "¡Marche, marche el batallón!"
+    # puertas_ciudad_0129
+    c_narrator "Salen FAUSTO y WAGNER."
+    # puertas_ciudad_0130 .. puertas_ciudad_0133
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "La cárcel de cristal frío\nrompió ya la primavera,\ny corren por la pradera\nmanantial, arroyo y río."
+    # puertas_ciudad_0134 .. puertas_ciudad_0137
+    c_faust "Los alegres horizontes\nla verde esperanza viste;\nya torna el invierno triste\na las crestas de los montes,"
+    # puertas_ciudad_0138 .. puertas_ciudad_0141
+    c_faust "y en su fugitiva marcha\ndetiene el pie, y nos arroja,\ndando un diamante a cada hoja,\nlos flechazos de la escarcha."
+    # puertas_ciudad_0142 .. puertas_ciudad_0145
+    c_faust "Pero no consiente el sol\nblancas galas, y doquier\ncolores hace nacer\nsu luminoso arrebol."
+    # puertas_ciudad_0146 .. puertas_ciudad_0149
+    c_faust "Aún no brotaron las flores;\nmas brillan, a falta de ellas,\nlos mancebos y las bellas\nvestidos con mil primores."
+    # puertas_ciudad_0150 .. puertas_ciudad_0153
+    c_faust "Contempla desde esta cumbre\nla oscura ciudad: abiertas,\nvomitan las negras puertas\nturbulenta muchedumbre."
+    # puertas_ciudad_0154 .. puertas_ciudad_0157
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "La Resurrección triunfal\ndel Señor solemnizando,\nrespira el aliento blando\ndel aura primaveral,"
+    # puertas_ciudad_0158 .. puertas_ciudad_0161
+    c_faust "y con la misma emoción\ngozan de distintos modos;\ny es que al par celebran todos\nsu propia resurrección."
+    # puertas_ciudad_0162 .. puertas_ciudad_0165
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Del triste hogar, escondido\nentre abrumadores muros,\nde los talleres oscuros,\ndel sótano humedecido,"
+    # puertas_ciudad_0166 .. puertas_ciudad_0169
+    c_faust "de la catedral sombría,\nde la plazuela fangosa,\nsale esa turba afanosa\na beber la luz del día."
+    # puertas_ciudad_0170 .. puertas_ciudad_0173
+    c_faust "¡Cómo por huertos y prados\ntrisca alegre ese gentío!\n¡Cuántos lleva el ancho río,\nesquifes empavesados!"
+    # puertas_ciudad_0174 .. puertas_ciudad_0177
+    c_faust "Mira cuán cargado va\naquel que lento se mece\njunto a la orilla, y parece\nque esté zozobrando ya."
+    # puertas_ciudad_0178 .. puertas_ciudad_0181
+    c_faust "Hasta allá en los retorcidos\nsenderos de las montañas\nbrillan las tintas extrañas\nde los grupos esparcidos."
+    # puertas_ciudad_0182 .. puertas_ciudad_0185
+    c_faust "Ya escucho la voz festiva\ndel campesino lugar,\nEdén que anhela gozar\nla muchedumbre cautiva."
+    # puertas_ciudad_0186 .. puertas_ciudad_0189
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "¿No ves cómo igual placer\ngrande y chico gozan hoy?\nAquí siento que hombre soy,\ny hombre aquí me atrevo a ser."
+    # puertas_ciudad_0190 .. puertas_ciudad_0193
+    show wagner eager at vn_center
+    with dissolve
+    c_wagner "Provecho, a la vez que honor,\npréstame tu compañía:\nsolo, no visitaría\nestas campiñas, doctor."
+    # puertas_ciudad_0194 .. puertas_ciudad_0197
+    c_wagner "Enemigo soy de toda\nrusticidad. Ni me agrada\nesa gente alborozada,\nni su estruendo me acomoda."
+    # puertas_ciudad_0198 .. puertas_ciudad_0201
+    c_wagner "Cual si de infernal encanto\nestuvieran poseídos,\ndan brincos, voces y aullidos,\ny a eso llaman danza y canto."
+    # puertas_ciudad_0202
+    c_narrator "CAMPESINOS BAJO LOS TILOS"
+    # puertas_ciudad_0203
+    c_narrator "Canto y baile"
+    # puertas_ciudad_0204 .. puertas_ciudad_0207
+    c_wagner "Las zagalas, los pastores,\nllenos de cintas y flores,\nya descienden hacia aquí.\n¡Cuántos gritos! ¡Cuánta gente!"
+    # puertas_ciudad_0208 .. puertas_ciudad_0209
+    c_wagner "Todos bailan locamente,\ny la gaita dice así:"
+    # puertas_ciudad_0210
+    c_wagner "Ta-la-rí,"
+    # puertas_ciudad_0211
+    c_wagner "Ta-la-la-rí."
+    # puertas_ciudad_0212 .. puertas_ciudad_0215
+    c_wagner "El pastor, cuando resbala,\nda un abrazo a la zagala\nque más cerca tiene allí;\ny la vieja, que lo ha visto,"
+    # puertas_ciudad_0216 .. puertas_ciudad_0217
+    c_wagner "refunfuña: «¡Vive Cristo!\n¡Ya te acordarás de mí!»"
+    # puertas_ciudad_0218
+    c_wagner "Ta-la-rí,"
+    # puertas_ciudad_0219
+    c_wagner "Ta-la-la-rí."
+    # puertas_ciudad_0220 .. puertas_ciudad_0223
+    c_wagner "Rueda el coro y con donaire\nvan las faldas por el aire:\n¡Qué furor! ¡Qué frenesí!\nForman armoniosos lazos"
+    # puertas_ciudad_0224 .. puertas_ciudad_0225
+    c_wagner "los encadenados brazos\nque se buscan entre sí."
+    # puertas_ciudad_0226
+    c_wagner "Ta-la-rí,"
+    # puertas_ciudad_0227
+    c_wagner "Ta-la-la-rí."
+    # puertas_ciudad_0228 .. puertas_ciudad_0231
+    c_wagner "Dice al zagal la pastora:\n«Calla, lengua engañadora»;\ny él, llevándola tras sí,\nla conduce a un sitio, donde"
+    # puertas_ciudad_0232 .. puertas_ciudad_0233
+    c_wagner "verde follaje la esconde,\ny la gaita sigue así:"
+    # puertas_ciudad_0234
+    c_wagner "Ta-la-rí,"
+    # puertas_ciudad_0235
+    c_wagner "Ta-la-la-rí."
+    # puertas_ciudad_0236 .. puertas_ciudad_0239
+    c_peasants "Pues que nos honráis, señor,\nfavoreciendo benigno\nun espectáculo indigno\nde tan docto profesor,"
+    # puertas_ciudad_0240 .. puertas_ciudad_0243
+    c_peasants "acercaos y bebed\nde esta jarra, sin reparo,\ny haga el licor fresco y claro,\nal apagar vuestra sed,"
+    # puertas_ciudad_0244 .. puertas_ciudad_0246
+    c_peasants "que dichoso, alegre y nuevo,\npor cada gota bebida,\ngocéis un año de vida."
+    # puertas_ciudad_0247
+    c_faust "¡A vuestra salud la bebo!"
+    # puertas_ciudad_0248
+    c_narrator "El pueblo forma corro alrededor de FAUSTO."
+    # puertas_ciudad_0249 .. puertas_ciudad_0252
+    c_peasants "Justo es que en esta ocasión\nrecordéis, entre alegrías,\nlas visitas de otros días\nde luto y desolación."
+    # puertas_ciudad_0253 .. puertas_ciudad_0256
+    c_peasants "¿Os acordáis? ¡Qué momentos!\nLa peste devoradora\namontonaba traidora\nlos cadáveres a cientos,"
+    # puertas_ciudad_0257 .. puertas_ciudad_0260
+    c_peasants "y aún bendicen hoy su suerte\nmuchos que la ciencia rara\nde vuestro padre arrancara\na las garras de la muerte."
+    # puertas_ciudad_0261 .. puertas_ciudad_0264
+    c_peasants "Do más su rigor fatal\nextremaba, vos, aún mozo,\nentrabais, lleno de gozo,\npara luchar con el mal."
+    # puertas_ciudad_0265 .. puertas_ciudad_0268
+    c_peasants "Nuestro salvador, señor,\nfuisteis; por eso en el cielo,\npara alentar vuestro celo,\nhabía otro Salvador."
+    # puertas_ciudad_0269 .. puertas_ciudad_0270
+    c_everyone "¡Al doctor gloria y ventura!\n¡Viva luengos años! ¡Viva!"
+    # puertas_ciudad_0271 .. puertas_ciudad_0272
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¡Gloria, no más, al de arriba!\nSolo Él sabe; solo Él cura."
+    # puertas_ciudad_0273
+    c_narrator "Pasan adelante FAUSTO y WAGNER."
+    # puertas_ciudad_0274 .. puertas_ciudad_0277
+    c_wagner "¡Cuán dulce la gratitud\ndebe ser, oh ilustre sabio,\nque así expresa el rudo labio\nde esa franca multitud!"
+    # puertas_ciudad_0278 .. puertas_ciudad_0281
+    c_wagner "¡Dichoso quien de esa suerte\nve premiado su saber!\nVienen a todo correr\nchicos y grandes por verte:"
+    # puertas_ciudad_0282 .. puertas_ciudad_0285
+    c_wagner "el padre, allá en lontananza,\nte señala al tierno infante;\nte aproximas, y al instante\ncesan la música y danza;"
+    # puertas_ciudad_0286 .. puertas_ciudad_0289
+    c_wagner "se abre el corro turbulento\nen dos filas apretadas;\nentre aplausos y palmadas,\nvuelan las gorras al viento;"
+    # puertas_ciudad_0290 .. puertas_ciudad_0293
+    c_wagner "y poco falta, doctor,\npara que esa grey sencilla\ndoble ante ti la rodilla,\ncual si pasara el Señor."
+    # puertas_ciudad_0294 .. puertas_ciudad_0297
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Lleguemos a esas alturas;\ndescansaremos allí.\n¡Cuántas veces, ay de mí,\nsentado en sus rocas duras,"
+    # puertas_ciudad_0298 .. puertas_ciudad_0301
+    c_faust "rico de esperanza y fe,\ntras largas preparaciones\nde lágrimas y oraciones,\nlos ojos a Dios alcé,"
+    # puertas_ciudad_0302 .. puertas_ciudad_0305
+    c_faust "y pensando en la orfandad\nde mis dolientes hermanos,\njuntaba ansiosas las manos,\nimplorando su piedad!"
+    # puertas_ciudad_0306 .. puertas_ciudad_0309
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Hoy esa injusta ovación\nes para mí burla fiera:\n¡Pobre pueblo! ¡Si él pudiera\nleer en mi corazón!"
+    # puertas_ciudad_0310 .. puertas_ciudad_0313
+    c_faust "No guardara en su memoria\nnuestro recuerdo tan fijo:\nni fue el padre, ni es el hijo\nmerecedor de tal gloria."
+    # puertas_ciudad_0314 .. puertas_ciudad_0317
+    c_faust "Era mi padre hombre honrado\nque, oscurecido en el mundo,\nvivió estudiando el profundo\nmisterio de lo creado."
+    # puertas_ciudad_0318 .. puertas_ciudad_0321
+    c_faust "Su espíritu independiente\nevocaba a su manera\nla naturaleza entera\ncon voz osada y creyente;"
+    # puertas_ciudad_0322 .. puertas_ciudad_0325
+    c_faust "y sin ver cielo ni sol,\ncon signos extraordinarios\ncombinaba los contrarios\nen el oscuro crisol."
+    # puertas_ciudad_0326 .. puertas_ciudad_0329
+    c_faust "León de roja melena\nunía, galán salvaje,\nen extraño maridaje\ncon la pálida azucena,"
+    # puertas_ciudad_0330 .. puertas_ciudad_0333
+    c_faust "y sin que nadie lo explique,\nenvueltos en humo y fuego,\npasaban casados luego\nde alambique en alambique,"
+    # puertas_ciudad_0334 .. puertas_ciudad_0337
+    c_faust "hasta aparecer brillante\ndama de porte real,\nen el fondo de cristal\nde la redoma radiante."
+    # puertas_ciudad_0338 .. puertas_ciudad_0341
+    c_faust "Así tenaz preparaba\nsu negra pócima impía:\nel pobre enfermo moría;\nel ciego vulgo callaba;"
+    # puertas_ciudad_0342 .. puertas_ciudad_0345
+    c_faust "y con la infernal mixtura\nmatamos quizá más gente\nque el hálito pestilente\nde aquella epidemia impura."
+    # puertas_ciudad_0346 .. puertas_ciudad_0349
+    c_faust "Yo, que a mil di aquel licor,\nsobreviví a la matanza,\npara oír esa alabanza\ndel loco emponzoñador."
+    # puertas_ciudad_0350 .. puertas_ciudad_0353
+    show wagner neutral at vn_center
+    with dissolve
+    c_wagner "Desechad esa quimera,\nque incesante os mortifica:\n¿quién culpa al que honrado aplica\nel arte cual lo entendiera?"
+    # puertas_ciudad_0354 .. puertas_ciudad_0357
+    c_wagner "Quien a su padre, mancebo,\nhonra, del pasado adquiere\nla ciencia, y si consiguiere\ndar en ella un paso nuevo,"
+    # puertas_ciudad_0358 .. puertas_ciudad_0361
+    c_wagner "sus hijos le seguirán\ncon dulce empeño, y acaso\ndespués de él un nuevo paso\nen su camino darán."
+    # puertas_ciudad_0362 .. puertas_ciudad_0365
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¡Feliz quien logre valiente\nflotar sobre la profunda\nmar de tinieblas, que inunda\nnuestra aletargada mente!"
+    # puertas_ciudad_0366 .. puertas_ciudad_0369
+    c_faust "¡Ley del hombre, triste y grave!\nIndaga, lucha, se agita,\ny lo que más necesita\n¡siempre es lo que menos sabe!"
+    # puertas_ciudad_0370 .. puertas_ciudad_0373
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Mas tan negros pensamientos\nno empañen, nublando el alma,\nla melancólica calma\nde estos tranquilos momentos."
+    # puertas_ciudad_0374
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "Mira cómo, al resplandor"
+    show bg city_gates at tint_dark
+    with vn_slow
+    # puertas_ciudad_0375 .. puertas_ciudad_0378
+    c_faust "del ocaso, en las colinas\nlas cabañas campesinas\nresaltan entre el verdor.\nSus destellos moribundos"
+    # puertas_ciudad_0379 .. puertas_ciudad_0382
+    c_faust "el sol tras la sierra esconde,\ny vuela a otros cielos, donde\nvida presta a nuevos mundos.\n¡Ah! ¡Si con audaces alas"
+    # puertas_ciudad_0383 .. puertas_ciudad_0386
+    c_faust "seguir su curso pudiera,\nviendo en continua carrera\nbrillar eternas sus galas!\nContemplara, a la luz pura"
+    # puertas_ciudad_0387 .. puertas_ciudad_0390
+    c_faust "del crepúsculo, doquier\nlos montes resplandecer,\nenlutarse la llanura;\nbrillar arroyos y ríos"
+    # puertas_ciudad_0391 .. puertas_ciudad_0394
+    c_faust "con las reflejadas lumbres:\nni las más altivas cumbres\nvalla fueran a mis bríos.\nSus vastas sirtes después,"
+    # puertas_ciudad_0395 .. puertas_ciudad_0398
+    c_faust "resplandeciente o sombría,\nclamorosa extendería\nla mar inmensa a mis pies,\ny si en su seno a morir"
+    # puertas_ciudad_0399 .. puertas_ciudad_0402
+    c_faust "iba el lumínico Dios,\nvolando, volando en pos\nviéralo otra vez surgir.\nAnte mis ojos brillar"
+    # puertas_ciudad_0403 .. puertas_ciudad_0406
+    c_faust "el día en eterno oriente,\nel cielo sobre mi frente,\nbajo mis plantas el mar...\n¡Noble y engañoso anhelo!"
+    # puertas_ciudad_0407 .. puertas_ciudad_0410
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Al cuerpo suerte enemiga\nalas negó, con que siga\ndel alma el sublime vuelo;\ny agitándose impotente,"
+    # puertas_ciudad_0411 .. puertas_ciudad_0414
+    c_faust "imposible aspiración\nde volar a otra región\nel ansioso mortal siente,\ncuando su agudo silbido,"
+    # puertas_ciudad_0415 .. puertas_ciudad_0418
+    c_faust "perdida en el firmamento,\nlanza la alondra, o el viento\ncortan con vuelo atrevido\nel águila de los montes"
+    # puertas_ciudad_0419 .. puertas_ciudad_0421
+    c_faust "que sus cúspides domina,\no la grulla peregrina\nque busca otros horizontes."
+    # puertas_ciudad_0422 .. puertas_ciudad_0425
+    c_wagner "También tengo yo mis días\nde caprichosos desvelos;\npero jamás esos vuelos\ntomaron mis fantasías."
+    # puertas_ciudad_0426 .. puertas_ciudad_0429
+    c_wagner "Sus alas guarde el halcón:\nmonte y campo me empalagan;\n¡cuánto más el alma halagan\nlos goces de la razón!"
+    # puertas_ciudad_0430 .. puertas_ciudad_0433
+    c_wagner "¿Hay algo en el mundo como\nir sin afán ni congoja\ndevorando, hoja por hoja,\nun tomo tras otro tomo?"
+    # puertas_ciudad_0434 .. puertas_ciudad_0437
+    c_wagner "Al calor de fuego interno\nque vivo fluye en las venas,\ntranquilas gozo y serenas\nlas largas noches de invierno,"
+    # puertas_ciudad_0438 .. puertas_ciudad_0441
+    c_wagner "y cuando mi mano extiende\narrollado pergamino,\nsiento un hálito divino\ny el cielo hasta mí desciende."
+    # puertas_ciudad_0442 .. puertas_ciudad_0445
+    c_faust "Vas de un bien único en pos:\n¡él solo turbe tu calma!\nTú no más tienes un alma,\ny en mi pecho laten dos."
+    # puertas_ciudad_0446 .. puertas_ciudad_0449
+    c_faust "Por separarse, entre sí\ntrabaron lucha reñida:\nla una, que de ardiente vida\nsiente el loco frenesí,"
+    # puertas_ciudad_0450 .. puertas_ciudad_0453
+    c_faust "desesperada, al placer,\nse aferra con vivo anhelo;\nla otra, rasgado ya el velo,\nquiere a su patria volver."
+    # puertas_ciudad_0454 .. puertas_ciudad_0457
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Espíritus, si es verdad\nque en las alas del ambiente\ntranquila y calladamente\nreináis en la inmensidad,"
+    # puertas_ciudad_0458 .. puertas_ciudad_0461
+    c_faust "de las tenues nubes de oro\nque os dan callada guarida\nbajad, y la nueva vida\ndadme, que anhelante imploro."
+    # puertas_ciudad_0462 .. puertas_ciudad_0465
+    c_faust "¡Ah! Si pudiera yo asir\naquel prodigioso manto\nque en las alas del encanto\nnos lleva do ansiamos ir,"
+    # puertas_ciudad_0466 .. puertas_ciudad_0469
+    c_faust "avaro de tal favor,\nno lo trocara, siquiera\nsu púrpura me ofreciera\nen cambio el emperador."
+    # puertas_ciudad_0470 .. puertas_ciudad_0473
+    show wagner uneasy at vn_center
+    with dissolve
+    c_wagner "No evoque tu labio audaz\nel mudo enjambre que puebla\nviento y nubes, bruma y niebla,\npara turbar nuestra paz."
+    # puertas_ciudad_0474 .. puertas_ciudad_0477
+    c_wagner "Como dardo agudo son\nla lengua y uñas de acero\ncon que asaltan al viajero\nlos genios del septentrión."
+    # puertas_ciudad_0478 .. puertas_ciudad_0481
+    c_wagner "Los que vienen del oriente\nexhalan abrasadores\nsoplos, y clavan traidores\nen las entrañas el diente."
+    # puertas_ciudad_0482 .. puertas_ciudad_0485
+    c_wagner "De fuego nubes impuras\namontonan los que envía\nel árido mediodía\nde las líbicas llanuras;"
+    # puertas_ciudad_0486 .. puertas_ciudad_0489
+    c_wagner "y los que arroja el ocaso,\nsi amortiguan ese fuego,\nanegan e inundan luego\ncuanto encuentran a su paso."
+    # puertas_ciudad_0490 .. puertas_ciudad_0493
+    c_wagner "Con sus ardides eternos\ndispuestos siempre a escucharnos,\npara mejor engañarnos\nsimulan obedecernos,"
+    # puertas_ciudad_0494 .. puertas_ciudad_0497
+    c_wagner "y con labio seductor\nnos arrastran al abismo,\nfingiéndose entonces mismo\nmensajeros del Señor."
+    # puertas_ciudad_0498 .. puertas_ciudad_0501
+    show wagner neutral at vn_center
+    with dissolve
+    c_wagner "Mas volvamos: las tinieblas\nenlutan el firmamento;\nsopla más frío ya el viento,\ny al valle bajan las nieblas."
+    # puertas_ciudad_0502 .. puertas_ciudad_0504
+    c_wagner "Ahora a ser grato el hogar\ncomienza. Mas ¿qué te asombra?\n¿Qué miras fijo en la sombra?"
+    # puertas_ciudad_0505 .. puertas_ciudad_0507
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¿Ves allá bajo saltar\nnegro can, que loco gira\npor los sembrados?"
+    # puertas_ciudad_0508
+    c_wagner "¿Aquel?"
+    # puertas_ciudad_0509 .. puertas_ciudad_0510
+    c_wagner "Lo veo; mas nada en él\nencuentro de extraño."
+    # puertas_ciudad_0511
+    c_faust "Mira,"
+    # puertas_ciudad_0512
+    c_faust "míralo: ¿por quién le tomas?"
+    # puertas_ciudad_0513 .. puertas_ciudad_0515
+    c_wagner "Por un perro que perdiera\nal amo, y a su manera\nlo busca por estas lomas."
+    # puertas_ciudad_0516 .. puertas_ciudad_0519
+    c_faust "¿No ves que en ancha espiral\nva acercándose? ¿No ves\nque al correr dejan sus pies\nuna encendida señal?"
+    # puertas_ciudad_0520
+    show wagner eager at vn_center
+    with dissolve
+    c_wagner "¡Ilusiones!"
+    # puertas_ciudad_0521
+    c_faust "¿No estás viendo"
+    # puertas_ciudad_0522 .. puertas_ciudad_0524
+    c_faust "que así, corriendo y saltando,\nva negra trama enlazando\ny en ella nos va envolviendo?"
+    # puertas_ciudad_0525 .. puertas_ciudad_0528
+    show wagner neutral at vn_center
+    with dissolve
+    c_wagner "Yo veo que alrededor\ngira cautelosamente,\nporque encuentra extraña gente\nen vez de su amo y señor."
+    # puertas_ciudad_0529 .. puertas_ciudad_0530
+    c_faust "¿No ves? Los círculos van\nestrechándose."
+    # puertas_ciudad_0531
+    show wagner eager at vn_center
+    with dissolve
+    c_wagner "Me pasma"
+    # puertas_ciudad_0532 .. puertas_ciudad_0535
+    c_wagner "que halles terrible fantasma\nen ese inocente can.\nGruñe, corre vagabundo,\nse echa al suelo, encorva el lomo"
+    # puertas_ciudad_0536 .. puertas_ciudad_0537
+    c_wagner "y mueve la cola, como\ntodos los perros del mundo."
+    # puertas_ciudad_0538
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "¡Ven, ven, síguenos! (Al perro.) Ya viene."
+    # puertas_ciudad_0539 .. puertas_ciudad_0542
+    c_wagner "¡Buen cachorro! Ahora verás:\nsi marchas, sigue detrás;\nsi te paras, se detiene.\nSi algo pierdes, sin reposo"
+    # puertas_ciudad_0543 .. puertas_ciudad_0545
+    c_wagner "lo busca, hasta que lo encuentra;\nsi el bastón le arrojas, entra\nal agua, y lo trae gozoso."
+    # puertas_ciudad_0546 .. puertas_ciudad_0549
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "No hay en él, tienes razón,\nnada sobrenatural:\ntodo es en este animal\ncostumbre y educación."
+    # puertas_ciudad_0550 .. puertas_ciudad_0553
+    show wagner neutral at vn_center
+    with dissolve
+    c_wagner "No lo tomes por agravio,\npero un perro manso y fiel\nmerece que fije en él\nsu atención y afecto un sabio."
+    # puertas_ciudad_0554 .. puertas_ciudad_0557
+    c_wagner "Si a este dieres tu favor,\ny a tu casa le llevares,\nde todos tus escolares\nserá el escolar mejor."
+    # puertas_ciudad_0558
+    c_narrator "Entran en la ciudad."
+
+label scene_gabinete_1:
+    scene black
+    show card_gabinete_1 at truecenter
+    with fade
+    pause 2.0
+    hide card_gabinete_1
+    scene bg study at tint_none
+    with fade
+    # gabinete_1_0001 .. gabinete_1_0004
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Dejé cubiertos por oscura noche\nmonte y campiña, y otra vez despierta\ncon zozobra fatídica en mi pecho\nel alma superior. Ya la materia"
+    # gabinete_1_0005 .. gabinete_1_0008
+    c_faust "cede cansada; el natural instinto,\nlos borrascosos ímpetus, con ella\nceden al fin también; y el amor santo\na Dios y al hombre, me domina y llena."
+    # gabinete_1_0009 .. gabinete_1_0012
+    c_faust "¿Qué tienes, can indócil?\n¿Por qué das tantas vueltas?\n¿Qué estás olfateando\ndebajo de la puerta?"
+    # gabinete_1_0013 .. gabinete_1_0016
+    c_faust "Blando cojín te puse\njunto a la chimenea;\nasaz nos divertiste\nbrincando por las breñas:"
+    # gabinete_1_0017 .. gabinete_1_0018
+    c_faust "ya, pues te di posada,\ngoza tranquilo de ella."
+    # gabinete_1_0019 .. gabinete_1_0022
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Cuando la amiga lámpara disipa\nla lobreguez en nuestra angosta celda,\nhasta el fondo del alma reflexiva\notro rayo de luz también penetra."
+    # gabinete_1_0023 .. gabinete_1_0026
+    c_faust "La callada razón la voz recobra,\nla esperanza florece lisonjera,\ny al manantial fecundo de la vida\nnuestros suspiros anhelantes vuelan."
+    # gabinete_1_0027 .. gabinete_1_0030
+    c_faust "¿Por qué impaciente gruñes?\n¿Por qué sin paz te quejas?\nCon las celestes voces\nque en mi interior resuenan,"
+    # gabinete_1_0031 .. gabinete_1_0034
+    c_faust "muy mal tus alaridos\nselváticos concuerdan.\n¿Como los hombres haces,\ncuando en su mofa ciega,"
+    # gabinete_1_0035 .. gabinete_1_0036
+    c_faust "sin comprenderlos, ladran\nal Bien y a la Belleza?"
+    # gabinete_1_0037 .. gabinete_1_0040
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡Ah!, ya no viene a mitigar mis ansias\nel bien ignoto que mi pecho anhela;\n¿por qué tan pronto el manantial se agota,\ny al pobre corazón sediento deja?"
+    # gabinete_1_0041 .. gabinete_1_0044
+    c_faust "¡Cuántas veces, ¡ay!, cuántas vi burlado\neste imposible afán! Solo me resta\nvolver a ti los ojos, soberana\nverdad, que brillas en las Santas Letras,"
+    # gabinete_1_0045 .. gabinete_1_0048
+    c_faust "y más pura en el Nuevo Testamento,\nmás hermosa, a los hombres te revelas.\nLas misteriosas páginas me llaman,\ny en ellas fija mi razón, se esfuerza"
+    # gabinete_1_0049 .. gabinete_1_0050
+    c_faust "por traducir el texto sacrosanto\ncon fe sencilla en nuestra patria lengua."
+    # gabinete_1_0051
+    c_narrator "Abre un libro y se pone a trabajar."
+    # gabinete_1_0052 .. gabinete_1_0055
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "«Era al principio la palabra», dice.\n¿Dice así? Ya vacilo. ¿Quién mi senda\nalumbrará? No puedo a la palabra\ndar tal sentido. No. De otra manera"
+    # gabinete_1_0056 .. gabinete_1_0059
+    c_faust "lo expresaré, si el cielo me ilumina.\n«Era al principio la Razón.» ¡Oh, piensa,\nmedita bien este renglón primero,\ny tú, pluma, no corras tan ligera!"
+    # gabinete_1_0060 .. gabinete_1_0063
+    c_faust "La Razón es la que lo ordena todo...\nDebe ser: «Al principio era la Fuerza.»\nEmpero, al escribir esta palabra,\naún dudosa detiénese la diestra."
+    # gabinete_1_0064 .. gabinete_1_0065
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "¡Inspírame, oh Verdad! Ya veo claro,\nveo claro: «Al principio la Acción era.»"
+    # gabinete_1_0066 .. gabinete_1_0069
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Contigo, can maldito,\ncomparto mi vivienda;\ncesa, pues, en tus roncas\ny en tus ladridos cesa."
+    # gabinete_1_0070 .. gabinete_1_0073
+    c_faust "Tan turbulento huésped\nno puedo sufrir cerca,\ny aquí, de entrambos, uno\nha de salir afuera."
+    # gabinete_1_0074 .. gabinete_1_0077
+    c_faust "Con repugnancia rompo\nla hospitalaria regla;\nya tienes libre el paso,\nya está franca la puerta."
+    # gabinete_1_0078 .. gabinete_1_0081
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "Pero ¿qué es lo que veo?\n¿Verdad es o quimera?\n¡Cómo se ensancha y crece!\n¡Cómo se abulta y medra!"
+    # gabinete_1_0082 .. gabinete_1_0085
+    c_faust "¿Traje un espectro a casa?\n¡Ser, vida y forma trueca!\nColosal hipopótamo,\nno perro, ya semeja,"
+    # gabinete_1_0086 .. gabinete_1_0089
+    c_faust "con el ojo encendido\ny las fauces sangrientas.\n¡Espectro, serás mío!\nPara atrapar tal presa"
+    # gabinete_1_0090 .. gabinete_1_0091
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "la clave salomónica\nes la mejor cadena."
+    # gabinete_1_0092
+    c_spirits "Allí dentro un compañero"
+    # gabinete_1_0093 .. gabinete_1_0096
+    c_spirits "cayó el pobre prisionero:\n¡respetad ese dintel!\nComo en la trampa el raposo,\nse revuelve tembloroso:"
+    # gabinete_1_0097
+    c_spirits "¡no caigáis también con él!"
+    # gabinete_1_0098
+    c_spirits "¡Atención!"
+    # gabinete_1_0099
+    c_spirits "¡Atención!"
+    # gabinete_1_0100 .. gabinete_1_0103
+    c_spirits "Volemos, volemos con ala furtiva,\na diestra y siniestra, y abajo y arriba,\ny así romperemos su triste prisión.\nAuxilio prestemos al fiel camarada,"
+    # gabinete_1_0104
+    c_spirits "que bien nuestra ayuda la tiene ganada."
+    # gabinete_1_0105 .. gabinete_1_0108
+    c_faust "Para amansar, primero,\ny acercarme a esa fiera,\ndel cuádruple conjuro\ntendré que hacer la prueba."
+    # gabinete_1_0109 .. gabinete_1_0112
+    c_faust "Salamandra, resplandece;\nondina, flota en el mar;\nsilfo, vuela y desparece;\nduende, ven a trabajar."
+    # gabinete_1_0113 .. gabinete_1_0116
+    c_faust "Quien de los elementos\nla condición no sepa,\nno podrá los espíritus\nrendir a su obediencia."
+    # gabinete_1_0117 .. gabinete_1_0120
+    c_faust "Abrásate en fuego hirviente,\nsalamandra peregrina;\nen el cristal de la fuente\ndisuélvete, blanca ondina;"
+    # gabinete_1_0121 .. gabinete_1_0124
+    c_faust "en la luz del sol brillante\ndifunde, silfo, tu ser;\nven, duende, siervo constante,\na ayudar y obedecer."
+    # gabinete_1_0125 .. gabinete_1_0128
+    c_faust "De aquestos cuatro espíritus\nninguno el monstruo encierra;\npermanece impasible,\nmofador me contempla."
+    # gabinete_1_0129 .. gabinete_1_0132
+    c_faust "Pues el común conjuro\nno pudo hacerle mella,\napelaré a otro hechizo\nde superior potencia."
+    # gabinete_1_0133
+    c_faust "Si del profundo abismo vienes, ¡oh camarada!,"
+    # gabinete_1_0134
+    c_faust "contempla el talismán"
+    # gabinete_1_0135
+    c_faust "al que se humilla siempre, vencida y aterrada,"
+    # gabinete_1_0136
+    c_faust "la hueste de Satán."
+    # gabinete_1_0137 .. gabinete_1_0138
+    c_faust "Ya más y más se abulta;\nya eriza la crin negra."
+    # gabinete_1_0139 .. gabinete_1_0142
+    c_faust "Aquí tienes, ser maldito,\nal Increado, al Infinito,\nen los cielos adorado,\npor los hombres traspasado."
+    show bg study at tint_red
+    with vn_slow
+    # gabinete_1_0143 .. gabinete_1_0146
+    c_faust "Inmóvil y agrandándose,\njunto a la chimenea,\ngigantesco elefante\nes ya, que al techo llega,"
+    # gabinete_1_0147 .. gabinete_1_0150
+    c_faust "y nubarrón parece\nque estalla y que revienta.\nNo altivo te remontes;\npostrado a mis pies queda:"
+    # gabinete_1_0151 .. gabinete_1_0154
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "bien sabes que no en vano\namenazó mi diestra.\nCon las divinas ascuas\nte chamusca y te quema;"
+    # gabinete_1_0155 .. gabinete_1_0158
+    c_faust "no aguardes de mis armas\nel arma de más fuerza:\nel concentrado fuego\nde triple candescencia."
+    show bg study at tint_none
+    with vn_flash
+    show layer master at vn_shake
+    # gabinete_1_0159
+    c_narrator "La nube se deshace y MEFISTÓFELES aparece junto a la chimenea, en traje de estudiante viajero."
+    # gabinete_1_0160 .. gabinete_1_0161
+    show mephisto sly at vn_center
+    with dissolve
+    c_mephisto "¡Algazara inoportuna!\n¿Qué manda vuesa mercé?"
+    # gabinete_1_0162 .. gabinete_1_0165
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¡Solemne el bromazo fue!\n¡Un escolar de la tuna!\n¿En esto vino a parar\nel can preñado de horror?..."
+    # gabinete_1_0166 .. gabinete_1_0167
+    c_mephisto "¡Saludo al digno doctor!\n¡Bien me has hecho trasudar!"
+    # gabinete_1_0168
+    c_faust "¿Cómo te llamas?"
+    # gabinete_1_0169
+    c_mephisto "Pequeña"
+    # gabinete_1_0170 .. gabinete_1_0173
+    c_mephisto "cuestión, perdona el agravio,\npara un filósofo, un sabio,\nque nombres vanos desdeña,\ny huyendo con discreción"
+    # gabinete_1_0174 .. gabinete_1_0176
+    c_mephisto "apariencias engañosas,\nen el fondo de las cosas\nfija solo su atención."
+    # gabinete_1_0177 .. gabinete_1_0180
+    c_faust "En vosotros, a mi ver,\nel nombre, si se repara,\nexpresión exacta y clara\nes de la índole del ser;"
+    # gabinete_1_0181 .. gabinete_1_0184
+    c_faust "y por eso, a lo que infiero,\nllaman a uno el Burlador,\ny al otro el Blasfemador,\ny el Mentiroso a un tercero."
+    # gabinete_1_0185
+    c_faust "Dime, pues, quién eres."
+    # gabinete_1_0186
+    c_mephisto "¿Quién?"
+    # gabinete_1_0187 .. gabinete_1_0190
+    c_mephisto "De aquella fuerza fatal\nque queriendo hacer el mal,\nlogra solo hacer el bien,\nformo parte."
+    # gabinete_1_0191
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¡Extraño modo"
+    # gabinete_1_0192
+    c_faust "de hablar!"
+    # gabinete_1_0193
+    c_mephisto "A explicarme voy:"
+    # gabinete_1_0194 .. gabinete_1_0195
+    c_mephisto "aquel Espíritu soy\nque duda y lo niega todo."
+    # gabinete_1_0196
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¿Todo?"
+    # gabinete_1_0197
+    c_mephisto "Y para ello me fundo;"
+    # gabinete_1_0198 .. gabinete_1_0201
+    c_mephisto "pues si todo, a su manera,\nha de morir, mejor fuera\nque nada hubiese en el mundo.\nAsí, pues --óyeme atento--,"
+    # gabinete_1_0202 .. gabinete_1_0204
+    c_mephisto "lo que medroso el mortal\nllama el pecado o el mal,\nese es mi propio elemento."
+    # gabinete_1_0205 .. gabinete_1_0207
+    c_faust "Dices que eres una parte,\ny un todo completo ven\nmis ojos en ti."
+    # gabinete_1_0208
+    c_mephisto "Está bien;"
+    # gabinete_1_0209 .. gabinete_1_0212
+    c_mephisto "mas no traté de engañarte.\nEl hombre, insondable abismo\nde extravagancia y locura,\nes quien fatuo se figura"
+    # gabinete_1_0213 .. gabinete_1_0216
+    c_mephisto "ser un todo por sí mismo.\nYo a ser parte me acomodo,\nparte de la parte aquella\nque al nacer la lumbre bella"
+    # gabinete_1_0217 .. gabinete_1_0220
+    c_mephisto "no era parte, sino todo.\nHablo de la sombra opaca,\nmadre de la luz, que impía\npor usurparle porfía"
+    # gabinete_1_0221 .. gabinete_1_0224
+    c_mephisto "su imperio, y audaz la ataca;\npero en vano sus destellos\ndominarlo todo quieren,\nporque, si los cuerpos hieren,"
+    # gabinete_1_0225 .. gabinete_1_0228
+    c_mephisto "resbalan también sobre ellos.\nDe cualquiera cosa, hermosa\nbrota con vivos colores\nla luz; mas sus resplandores"
+    # gabinete_1_0229 .. gabinete_1_0232
+    c_mephisto "los detiene cualquier cosa;\ny así, juzgo natural\nque la luz también fenezca\napenas desaparezca"
+    # gabinete_1_0233
+    c_mephisto "todo objeto corporal."
+    # gabinete_1_0234 .. gabinete_1_0237
+    c_faust "Tu digna misión comprendo:\nen grande no puedes nada\naniquilar, y te agrada\nir por menor destruyendo."
+    # gabinete_1_0238 .. gabinete_1_0241
+    show mephisto neutral at vn_center
+    with dissolve
+    c_mephisto "Y a decirte la verdad,\npoco adelanto, a fe mía.\nLo que a la nada vacía\nse opone, la realidad,"
+    # gabinete_1_0242 .. gabinete_1_0245
+    c_mephisto "la materia, aunque con ella\nlucho, me rechaza al cabo;\ny por más que el diente clavo,\nno consigo hacerle mella."
+    # gabinete_1_0246 .. gabinete_1_0249
+    c_mephisto "Revueltas olas del mar,\ndesatados huracanes,\nterremotos y volcanes\nacumulo sin cesar,"
+    # gabinete_1_0250 .. gabinete_1_0253
+    c_mephisto "y después de tanto anhelo,\nen sus lindes prefijados,\ntranquilos y sosegados\nquedan tierra, mar y cielo."
+    # gabinete_1_0254 .. gabinete_1_0257
+    c_mephisto "Y la maldecida y ruin\nsemilla, que origen diera\nal hombre, al ave y la fiera,\nno tiene tampoco fin."
+    # gabinete_1_0258 .. gabinete_1_0261
+    c_mephisto "¡A cuántos abrí la fosa!\nPero siempre, a pesar mío,\nbrota y fluye en ancho río\nsangre nueva y vigorosa."
+    # gabinete_1_0262 .. gabinete_1_0265
+    c_mephisto "¡Todo mi desdicha fragua!\nMisteriosos y sutiles,\nguardan gérmenes a miles\nla tierra, el aire y el agua,"
+    # gabinete_1_0266 .. gabinete_1_0269
+    c_mephisto "y con idéntico amor\nlos fecundan, a su vez,\nla humedad y la aridez,\nla frialdad y el calor:"
+    # gabinete_1_0270 .. gabinete_1_0273
+    c_mephisto "de modo que, a no guardar\nfuego y llamas para mí,\ncon ningún recurso aquí\npudiera el Diablo contar."
+    # gabinete_1_0274 .. gabinete_1_0277
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Contra la fuerza viviente,\ncontra la acción creadora,\nla helada garra traidora\nesgrimirás impotente."
+    # gabinete_1_0278 .. gabinete_1_0279
+    c_faust "¡Hijo del caos insensato!,\nbusca más fácil empresa."
+    # gabinete_1_0280 .. gabinete_1_0283
+    show mephisto sly at vn_center
+    with dissolve
+    c_mephisto "Cuestión embrollada es esa:\nhablaremos otro rato.\nPero asaz pesado fui;\nme voy si me das permiso."
+    # gabinete_1_0284 .. gabinete_1_0287
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Otorgarlo no es preciso;\ny pues ya te conocí,\ncuando más grato te sea,\nvuelve. Abiertas hallarás"
+    # gabinete_1_0288 .. gabinete_1_0289
+    c_faust "puerta y ventana, y a más,\nestá allí la chimenea."
+    # gabinete_1_0290 .. gabinete_1_0293
+    c_mephisto "Confesarlo necesito...:\npara que salga y me ausente,\nhay... un leve inconveniente:\n¡el pie de bruja maldito!"
+    # gabinete_1_0294 .. gabinete_1_0297
+    c_faust "¿El pentagrama te aterra\nque está en el umbral trazado?\nPues ¿cómo, dime, has entrado,\nsi el paso, al salir, te cierra?"
+    # gabinete_1_0298 .. gabinete_1_0299
+    c_faust "¿Cómo incurrió en tal error\nespíritu tan experto?"
+    # gabinete_1_0300 .. gabinete_1_0301
+    c_mephisto "¿No ves? El signo está abierto\npor el ángulo exterior."
+    # gabinete_1_0302 .. gabinete_1_0305
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "¡Extraño caso! El azar\nmás feliz no pudo ser;\nestás preso; a mi poder\nhas venido sin pensar."
+    # gabinete_1_0306 .. gabinete_1_0309
+    c_mephisto "Saltó el perro, y cual venablo,\nentró loco en este encierro;\nmas por donde ha entrado el perro\nno puede salir el Diablo."
+    # gabinete_1_0310 .. gabinete_1_0311
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Aún te queda para huir\nla ventana."
+    # gabinete_1_0312
+    show mephisto deferent at vn_center
+    with dissolve
+    c_mephisto "No, pues ley"
+    # gabinete_1_0313 .. gabinete_1_0316
+    c_mephisto "es de toda nuestra grey,\npor donde entramos salir.\nHay en lo uno libertad,\ny en lo otro gran sujeción."
+    # gabinete_1_0317 .. gabinete_1_0320
+    c_faust "¡Hasta en la negra mansión\nhay regla y autoridad!\nNo está mal, pues de ese modo\nel que os proponga algún pacto,"
+    # gabinete_1_0321 .. gabinete_1_0322
+    c_faust "puede fiar en su exacto\ncumplimiento."
+    # gabinete_1_0323
+    show mephisto sly at vn_center
+    with dissolve
+    c_mephisto "¡Oh, sí, en un todo!"
+    # gabinete_1_0324 .. gabinete_1_0327
+    c_mephisto "Cumplimos cuanto ofrecemos,\nsin quitar coma ni punto;\npero grave es este asunto:\nya hablaremos, ya hablaremos."
+    # gabinete_1_0328 .. gabinete_1_0329
+    c_mephisto "Ahora, otra vez y otra más,\nte ruego que el paso me abras."
+    # gabinete_1_0330 .. gabinete_1_0331
+    c_faust "Tente, y en breves palabras\nmi horóscopo me dirás."
+    # gabinete_1_0332 .. gabinete_1_0333
+    show mephisto neutral at vn_center
+    with dissolve
+    c_mephisto "Volveré obediente y fiel,\ny entonces dispón de mí."
+    # gabinete_1_0334 .. gabinete_1_0337
+    c_faust "Este lazo no tendí;\ncúlpate, si diste en él.\nDice un adagio, y se funda:\n«Si la cola le cogieres"
+    # gabinete_1_0338 .. gabinete_1_0339
+    c_faust "al Diablo, tira, y no esperes\ncogerla por vez segunda.»"
+    # gabinete_1_0340 .. gabinete_1_0341
+    c_mephisto "Contigo quedo, si un trato\naceptas."
+    # gabinete_1_0342
+    c_faust "¿Cuál?"
+    # gabinete_1_0343
+    c_mephisto "El de hacer"
+    # gabinete_1_0344 .. gabinete_1_0345
+    c_mephisto "cuanto quepa en mi poder\nporque pases bien el rato."
+    # gabinete_1_0346 .. gabinete_1_0347
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "Si la cosa es divertida,\ncomienza ya."
+    # gabinete_1_0348
+    show mephisto sly at vn_center
+    with dissolve
+    c_mephisto "Gozarás"
+    # gabinete_1_0349 .. gabinete_1_0352
+    c_mephisto "en breves minutos más\nque en todo un año de vida.\nLos dulces coros que embriagan\ntu espíritu cuando sueñas;"
+    # gabinete_1_0353 .. gabinete_1_0356
+    c_mephisto "las imágenes risueñas\nque te circundan y halagan,\nno son vana creación\nde un artificioso encanto:"
+    # gabinete_1_0357 .. gabinete_1_0360
+    c_mephisto "vas a escuchar ese canto\ny admirar esa visión;\ne igualmente embebecidos\ntacto, olfato y paladar,"
+    # gabinete_1_0361 .. gabinete_1_0364
+    c_mephisto "disfrutarán a la par\ntodos tus cinco sentidos.\nNo hacen falta --ya lo ves--\npreparativos ni aprestos:"
+    # gabinete_1_0365 .. gabinete_1_0366
+    c_mephisto "estamos todos dispuestos;\ncomenzad al punto, pues."
+    show bg study at tint_dark
+    with vn_slow
+    # gabinete_1_0367 .. gabinete_1_0370
+    c_spirits "¡Caed y apartaos, oh lóbregos muros;\ndejad que penetren el aire y la luz!\n¡Rasgad, densas nubes, los velos oscuros!\n¡Oh estrellas y soles, los rayos más puros"
+    # gabinete_1_0371
+    c_spirits "verted en las olas del éter azul!"
+    # gabinete_1_0372 .. gabinete_1_0375
+    c_spirits "¡Imágenes bellas, que en grupos flotantes\ndel cielo, do cuna tuvisteis, venís;\ncon mantos etéreos, de gasas brillantes,\nla selva que nido les da a los amantes"
+    # gabinete_1_0376
+    c_spirits "velando sus goces, piadosas cubrid!"
+    # gabinete_1_0377 .. gabinete_1_0380
+    c_spirits "Florecen los valles y el bosque frondoso.\nYa el negro racimo cayó en el lagar,\ny en ondas purpúreas el jugo espumoso,\ncorriendo entre flores sin paz ni reposo,"
+    # gabinete_1_0381
+    c_spirits "ya es rápido río, ya es fúlgido mar."
+    # gabinete_1_0382 .. gabinete_1_0385
+    c_spirits "Las greyes aladas con plácido anhelo\naspiran sedientas los rayos del sol,\ny a la isla encantada dirigen su vuelo,\na la isla dichosa que encumbra hasta el cielo"
+    # gabinete_1_0386
+    c_spirits "la frente ceñida de eterno verdor."
+    # gabinete_1_0387 .. gabinete_1_0390
+    c_spirits "Osadas escalan la cumbre distante,\nintrépidas surcan las olas del mar,\ny audaces volando, con pecho anhelante,\nsiguiendo van todas la luz fulgurante"
+    # gabinete_1_0391
+    c_spirits "del astro de amores que brilla triunfal."
+    # gabinete_1_0392 .. gabinete_1_0395
+    c_mephisto "Ya duerme. Os doy gracias mil\npor tan magistral concierto.\n¡Bien lo hechizasteis, por cierto,\nhijos del aire sutil!"
+    # gabinete_1_0396 .. gabinete_1_0399
+    c_mephisto "Dadle, en falaz testimonio,\nvisión que bella le asombre;\nduerma y delire: ¡aún no es hombre\npara atreverse al Demonio!"
+    # gabinete_1_0400 .. gabinete_1_0403
+    show mephisto neutral at vn_center
+    with dissolve
+    c_mephisto "Romperé de esta prisión\nel sortilegio inclemente.\n¿Qué me falta? Solamente\nun colmillo de ratón."
+    # gabinete_1_0404 .. gabinete_1_0407
+    c_mephisto "¿Un ratón? Asoma ya\nel negro hocico. Al conjuro\napelaré, y es seguro\nque al momento acudirá."
+    # gabinete_1_0408 .. gabinete_1_0411
+    c_mephisto "El gran Señor de ratas y ratones,\nde moscas, y mosquitos y moscones,\nte previene que vengas obediente,\ny en el umbral aquel hinques el diente."
+    # gabinete_1_0412 .. gabinete_1_0415
+    show mephisto sly at vn_center
+    with dissolve
+    c_mephisto "Ya viene: ¡al trabajo! ¡Así!\nDel signo avasallador\nes el ángulo exterior\nel que me retiene aquí."
+    # gabinete_1_0416 .. gabinete_1_0419
+    c_mephisto "Muerde y roe a tu placer:\npoco falta; ya está hecho.\nDuerme y sueña satisfecho\nFausto: adiós, ¡hasta más ver!"
+    # gabinete_1_0420 .. gabinete_1_0423
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡Todo fue mera ilusión!\n¡Todo se ha desvanecido!\n¿Qué te hiciste? ¿Dónde has ido,\nencantadora visión?"
+    # gabinete_1_0424 .. gabinete_1_0427
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "Pero, loco estoy: ¿qué hablo?\nNada pasó en este encierro.\n¡Nada! Se ha escapado el perro,\ny he visto en sueños al Diablo."
+
+label scene_gabinete_2:
+    scene black
+    show card_gabinete_2 at truecenter
+    with fade
+    pause 2.0
+    hide card_gabinete_2
+    scene bg study_day at tint_none
+    with fade
+    # gabinete_2_0002 .. gabinete_2_0003
+    show mephisto neutral at vn_right
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¿Llaman? Entrad. ¿Qué importuno\nme busca?"
+    # gabinete_2_0004
+    c_mephisto "Yo soy quien llamo."
+    # gabinete_2_0005
+    c_faust "Entrad, pues."
+    # gabinete_2_0006
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Dilo tres veces."
+    # gabinete_2_0007
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡Entrad al fin, voto al Diablo!"
+    # gabinete_2_0008 .. gabinete_2_0011
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Así me gustas, y entiendo\nque ya entendiéndonos vamos.\nPor disipar tus quimeras,\naquí estoy, hecho un hidalgo,"
+    # gabinete_2_0012 .. gabinete_2_0015
+    c_mephisto "con rico traje de grana,\nde oro fino recamado,\nla breve capa de seda,\nla suelta pluma de gallo,"
+    # gabinete_2_0016 .. gabinete_2_0019
+    c_mephisto "y el luengo, tajante acero\npendiente al izquierdo flanco.\nViste tú las mismas galas,\nsin detenerte a pensarlo,"
+    # gabinete_2_0020 .. gabinete_2_0021
+    c_mephisto "y ven a correr el mundo,\nlibre, contento y ufano."
+    # gabinete_2_0022 .. gabinete_2_0025
+    c_faust "¿Qué importa cambiar las ropas,\nsi están dentro los cuidados?\nTan mozo no soy que pueda\ncorrer tras goces livianos,"
+    # gabinete_2_0026 .. gabinete_2_0029
+    c_faust "ni tan viejo todavía\nque mi pecho esté ya exhausto.\n¿Qué puede darme la vida?\n«Abstente, abstente; sé cauto,»"
+    # gabinete_2_0030 .. gabinete_2_0033
+    c_faust "es el odioso estribillo\nque eternamente escuchamos,\ny que cada hora repite\ncon retintín más amargo."
+    # gabinete_2_0034 .. gabinete_2_0037
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "Rompe el día, y con el día\nviene a mis ojos el llanto,\nal ver que en sus largas horas\nninguna ventura aguardo;"
+    # gabinete_2_0038 .. gabinete_2_0041
+    c_faust "al ver que el placer posible\nlo destruyo analizándolo,\ny las hermosas imágenes\nque mis ansias engendraron,"
+    # gabinete_2_0042 .. gabinete_2_0045
+    c_faust "malas artes las convierten\nen solemnes mamarrachos.\nViene la lúgubre noche;\nrendido en el lecho caigo,"
+    # gabinete_2_0046 .. gabinete_2_0049
+    c_faust "y al buscar paz y reposo,\npesadillas no más hallo.\nEl espíritu que enciende\nel volcán en que me abraso,"
+    # gabinete_2_0050 .. gabinete_2_0053
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "en el corazón encierra\nsus tempestades y estragos.\nDentro, fuego; fuera, nieve:\ndi si en tan mísero estado"
+    # gabinete_2_0054 .. gabinete_2_0055
+    c_faust "odio con razón la vida\ny pronta muerte reclamo."
+    # gabinete_2_0056 .. gabinete_2_0057
+    c_mephisto "Huésped importuno, empero,\nes la muerte en todos casos."
+    # gabinete_2_0058 .. gabinete_2_0061
+    c_faust "¡Feliz aquel a quien ciñe\nla sien de sangrientos lauros!\n¡Feliz aquel a quien hiere\ntras ardiente danza, cuando"
+    # gabinete_2_0062 .. gabinete_2_0065
+    c_faust "la hermosa de sus amores\nabriole los dulces brazos!\n¡Feliz yo, si el alma mía,\nen sus celestiales raptos,"
+    # gabinete_2_0066 .. gabinete_2_0067
+    c_faust "al ver al sublime Espíritu,\nse hubiera en él abismado!"
+    # gabinete_2_0068 .. gabinete_2_0069
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¿Y por qué, anoche, de cierto\nnegro licor huyó el labio?"
+    # gabinete_2_0070
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¿Vas al acecho?"
+    # gabinete_2_0071
+    c_mephisto "No todo"
+    # gabinete_2_0072
+    c_mephisto "lo sé; pero siempre sé algo."
+    # gabinete_2_0073 .. gabinete_2_0076
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Pues bien: si mi horrible angustia\nson calmó tranquilo y grato,\nque de mi niñez gozosa\nlos dulces recuerdos trajo,"
+    # gabinete_2_0077 .. gabinete_2_0080
+    c_faust "¡mal hayan las ilusiones\nque el corazón trastornando,\na engañadores abismos\nllevan así nuestros pasos!"
+    # gabinete_2_0081 .. gabinete_2_0084
+    c_faust "¡Mal hayan las fantasías\nque a nuestros sueños dan pábulo!\n¡Mal hayan las apariencias\nque al sentido tienden lazos!"
+    # gabinete_2_0085 .. gabinete_2_0088
+    c_faust "¡Mal hayan gloria y renombre!\n¡Mal hayan pompas y aplausos,\ny cuanto al mundo nos liga,\nhogar, familia o arado!"
+    # gabinete_2_0089 .. gabinete_2_0092
+    c_faust "¡Mal hayan Mammón y el oro\ncon que pretende pagarnos,\ny los cojines que brinda\na nuestro muelle regalo,"
+    # gabinete_2_0093 .. gabinete_2_0096
+    c_faust "y la vid y sus racimos,\ny el amor y sus halagos!\n¡Mal hayan fe y esperanza,\ny sobre todo ese engaño,"
+    # gabinete_2_0097 .. gabinete_2_0098
+    c_faust "mal haya la pacientísima\nresignación de nuestro ánimo!"
+    # gabinete_2_0099 .. gabinete_2_0102
+    c_spirits "¿Qué has hecho del mundo,\ndel mundo esplendente?\nTu puño iracundo\nlo aplasta inclemente,"
+    # gabinete_2_0103 .. gabinete_2_0106
+    c_spirits "triunfal semidiós.\nLa hermosa y querida\nvisión de la vida\ncayó destrozada,"
+    # gabinete_2_0107 .. gabinete_2_0110
+    c_spirits "cayó ya en la nada;\nde aquella hermosura\ntan cándida y pura\nnuestra alma va en pos;"
+    # gabinete_2_0111 .. gabinete_2_0114
+    c_spirits "y mísero llanto\nvertemos, al ver\nhoy roto el encanto\ntan plácido ayer."
+    # gabinete_2_0115 .. gabinete_2_0118
+    c_spirits "¡Oh tú, soberano\ndel género humano!\n¡Soberbio titán!\nEngendra en el seno"
+    # gabinete_2_0119 .. gabinete_2_0122
+    c_spirits "del alma profundo,\nmás puro y sereno,\nmás grande, otro mundo;\nda vida a tu afán:"
+    # gabinete_2_0123 .. gabinete_2_0125
+    c_spirits "y en plectros sonoros\nespléndidos coros\ntus glorias dirán."
+    # gabinete_2_0126 .. gabinete_2_0129
+    c_mephisto "Ya vino en tu ayuda\nmi gente menuda,\nque en sabios consejos\nte muestra a lo lejos"
+    # gabinete_2_0130 .. gabinete_2_0133
+    c_mephisto "placer y emoción.\nEn pos de ellos vuela,\nhuyendo estos muros,\ndo en antros oscuros"
+    # gabinete_2_0134 .. gabinete_2_0135
+    c_mephisto "se extingue y se hiela\ntu audaz corazón."
+    # gabinete_2_0136 .. gabinete_2_0139
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "No el propio dolor avives,\nnegro buitre en ti cebado;\nven, y en la pobre compaña\nde este miserable diablo,"
+    # gabinete_2_0140 .. gabinete_2_0143
+    c_mephisto "serás hombre, por lo menos,\ncual lo son tantos y tantos.\nY no imagines, por ende,\nque te arrojo al vulgo sandio:"
+    # gabinete_2_0144 .. gabinete_2_0147
+    c_mephisto "nunca fui de los primeros;\npero, si aceptas mi amparo,\ntuyo soy desde ese instante,\ny en mí encuentras en el acto"
+    # gabinete_2_0148 .. gabinete_2_0149
+    c_mephisto "compañero, y si más quieres,\nservidor, y hasta lacayo."
+    # gabinete_2_0150
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¿Y a qué me obliga ese obsequio?"
+    # gabinete_2_0151
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Oh, calla! No apremia el pago."
+    # gabinete_2_0152 .. gabinete_2_0155
+    c_faust "Diz que el diablo es egoísta,\ny si nos ayuda en algo,\nno hace jamás por el mero\namor de Dios el milagro."
+    # gabinete_2_0156 .. gabinete_2_0159
+    c_faust "Temibles son tus ofertas:\ndi qué pides; habla claro.\nNo es bueno tener en casa\nun servidor de tu rango."
+    # gabinete_2_0160 .. gabinete_2_0163
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Pues bien: aquí he de servirte\nsin pereza y sin descanso,\ny tú harás por mí lo mismo\ncuando estemos allá abajo."
+    # gabinete_2_0164 .. gabinete_2_0167
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Allá abajo, poco importa.\nSi este mundo haces pedazos,\ndel mundo que después venga\nno he de hacer el menor caso."
+    # gabinete_2_0168 .. gabinete_2_0171
+    c_faust "Del suelo que mis pies huellan\ntodas mis dichas brotaron;\nel sol que mi frente baña\ncorrer vio todos mis llantos:"
+    # gabinete_2_0172 .. gabinete_2_0175
+    c_faust "si el sol cae y se hunde el suelo,\nya por nada más me afano.\nMe es igual, si hay otra vida,\nque odio impere o amor santo,"
+    # gabinete_2_0176 .. gabinete_2_0177
+    c_faust "y que esa morada póstuma\nsea el Empíreo o el Tártaro."
+    # gabinete_2_0178 .. gabinete_2_0181
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Entonces, ¿en qué reparas?\nDecídete: acepta el pacto,\ny verás, al punto mismo,\nadónde llego y alcanzo."
+    # gabinete_2_0182 .. gabinete_2_0183
+    c_mephisto "Vas a gozar lo que nadie\ngozar pudo, ni aun soñándolo."
+    # gabinete_2_0184 .. gabinete_2_0187
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¿Qué podrás, qué podrás darme?\n¿Qué entiendes tú, pobre diablo,\nqué entiendes de la insaciable\nsed del espíritu humano?"
+    # gabinete_2_0188 .. gabinete_2_0191
+    c_faust "¿Qué podrás darme? Manjares,\nque pronto cansan al labio;\noro, que cual vivo azogue\nescapa de nuestras manos;"
+    # gabinete_2_0192 .. gabinete_2_0195
+    c_faust "lucha en que jamás vencemos,\njuego en que nunca ganamos;\nhermosuras, que al vecino\nsonríen en nuestros brazos;"
+    # gabinete_2_0196 .. gabinete_2_0199
+    c_faust "gloria, placer de los dioses,\nque pasa como un relámpago.\nMuéstrame un árbol que vista\ncada día nuevos ramos,"
+    # gabinete_2_0200 .. gabinete_2_0201
+    c_faust "y un fruto que no se pudra\nen él antes de tocarlo."
+    # gabinete_2_0202 .. gabinete_2_0205
+    c_mephisto "Te daré cuanto apetezcas:\nel empeño no es tan arduo.\nYa es hora; ven; el banquete\nestá servido: ¡a saciarnos!"
+    # gabinete_2_0206 .. gabinete_2_0209
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Si en el lecho deleitoso\nlogro un punto de descanso,\ntuyo soy. Si satisfecho\nde mí mismo un día me hallo,"
+    # gabinete_2_0210 .. gabinete_2_0213
+    c_faust "y complacido me rindo\na tus deleites y engaños,\nsea aquel mi último instante.\nDime, ¿aceptas ese trato?"
+    # gabinete_2_0214
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Aceptado: aprieta."
+    # gabinete_2_0215
+    c_faust "Aprieta."
+    # gabinete_2_0216 .. gabinete_2_0219
+    c_faust "Si algún día, embelesado,\nal momento fugitivo\ndigo: «Ten el vuelo raudo»,\néchame al cuello la soga,"
+    # gabinete_2_0220 .. gabinete_2_0223
+    c_faust "abre el abismo a mi paso,\ndoble a muerto la campana,\npárese el vital horario,\ntodo para mí concluya,"
+    # gabinete_2_0224
+    c_faust "y comience tu reinado."
+    # gabinete_2_0225 .. gabinete_2_0226
+    c_mephisto "Piénsalo bien: algún día\npodré quizás recordártelo."
+    # gabinete_2_0227 .. gabinete_2_0230
+    c_faust "Recuérdalo cuando gustes:\nlo que prometo, lo pago.\nSer esclavo tuyo, o de otro,\n¿qué importa, si siempre esclavo"
+    # gabinete_2_0231
+    c_faust "he de ser?"
+    # gabinete_2_0232
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Pues da comienzo"
+    # gabinete_2_0233 .. gabinete_2_0236
+    c_mephisto "el festín del Doctor Fausto,\ny el mismo Diablo en persona\na servirle va los platos.\nMas... por la vida o la muerte,"
+    # gabinete_2_0237 .. gabinete_2_0238
+    c_mephisto "no estorbarán tres o cuatro\nrenglones."
+    # gabinete_2_0239
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¿Juzgas, pedante,"
+    # gabinete_2_0240 .. gabinete_2_0243
+    c_faust "firma y sello necesarios?\nNi de caballero entiendes,\nni de palabras y tratos.\nUna dije, y para siempre"
+    # gabinete_2_0244 .. gabinete_2_0247
+    c_faust "quedé por ella obligado.\n¿Piensas tú que cuando todo\nvuela a merced de los hados,\nsujetarán mi albedrío"
+    # gabinete_2_0248 .. gabinete_2_0251
+    c_faust "tus tres renglones o cuatro?\n¡Pueril y vana quimera!\n¿Por qué impresionas a tantos?\n¡Feliz quien de su firmeza"
+    # gabinete_2_0252 .. gabinete_2_0255
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "hace al alma tabernáculo!\nEncontrará en su camino\nlo más escabroso llano.\nFantasma es que al mundo aterra"
+    # gabinete_2_0256 .. gabinete_2_0259
+    c_faust "un papel emborronado:\napenas la pluma leve\ntrazó los fatales rasgos,\ntienen ya el lacre y la tinta"
+    # gabinete_2_0260 .. gabinete_2_0263
+    c_faust "fuerza y poder soberano.\nPide, Espíritu maligno,\n¿quieres papel, bronce o mármol?\n¿Tomo el buril o la pluma?"
+    # gabinete_2_0264
+    c_faust "Escoge: eres dueño y árbitro."
+    # gabinete_2_0265 .. gabinete_2_0267
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "¿Qué tienes? ¿Por qué te exaltas?\nCualquier papel, un retazo\nbasta, y una sola gota"
+    show bg study_day at tint_red
+    with dissolve
+    # gabinete_2_0268
+    c_mephisto "de sangre para firmarlo."
+    # gabinete_2_0269
+    c_faust "Si quieres, sea."
+    # gabinete_2_0270
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Es la sangre"
+    # gabinete_2_0271
+    c_mephisto "jugo precioso y extraño."
+    # gabinete_2_0272 .. gabinete_2_0275
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "No temas que el pacto rompa:\ntodas las fuerzas del ánimo\nrindo, entrego y comprometo,\nal admitirlo y firmarlo."
+    # gabinete_2_0276 .. gabinete_2_0277
+    c_faust "Tanto voló mi arrogancia,\nque ya entre los tuyos me hallo."
+    show bg study_day at tint_none
+    with dissolve
+    # gabinete_2_0278 .. gabinete_2_0281
+    c_faust "Burlome el excelso Espíritu,\ne insensible a mis halagos,\nla esquiva Naturaleza\narrebujose en su manto;"
+    # gabinete_2_0282 .. gabinete_2_0285
+    c_faust "la hebra del pensar se ha roto,\ny estoy del saber cansado.\nTemplen los dulces deleites\nlas vivas llamas en que ardo,"
+    # gabinete_2_0286 .. gabinete_2_0289
+    c_faust "y envueltos en gasas de oro\nvengan, Magia, tus encantos.\nAl torrente de la vida\nlanzareme, y al acaso"
+    # gabinete_2_0290 .. gabinete_2_0293
+    c_faust "en su raudal de aventuras\niré corriendo y rodando.\nBienandanzas y desastres,\npena y gozo, risa y llanto,"
+    # gabinete_2_0294 .. gabinete_2_0297
+    c_faust "encadenen de mis días\nlos eslabones variados:\nson acción y movimiento\nley del espíritu humano."
+    # gabinete_2_0298 .. gabinete_2_0301
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Meta no pongo ni valla:\nsi, fugaz revoloteando,\ndesflorarlo quieres todo,\ntodo puedes desflorarlo."
+    # gabinete_2_0302
+    c_mephisto "Conmigo ven, y no temas."
+    # gabinete_2_0303 .. gabinete_2_0306
+    c_faust "De felicidad no te hablo:\nlo que yo quiero es el vértigo,\nel goce inquieto y amargo,\nel avivador despecho,"
+    # gabinete_2_0307 .. gabinete_2_0310
+    c_faust "el amor que crece odiando.\nEl alma, al saber cerrada,\na otras emociones abro;\ncuanto el hombre goza y sufre"
+    # gabinete_2_0311 .. gabinete_2_0314
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "quiero sufrirlo y gozarlo.\nSentir quiero en mis entrañas\ntodo lo bueno y lo malo,\ny en la esencia de mi vida"
+    # gabinete_2_0315 .. gabinete_2_0318
+    c_faust "convertirlo y apropiármelo.\n¡Venturoso yo, si toda\nla Humanidad en mí abarco,\ny al fin y al postre, como ella,"
+    # gabinete_2_0319
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "choco, reviento y estallo!"
+    # gabinete_2_0320 .. gabinete_2_0323
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "¡Ay, en verdad te lo digo,\nyo que centenares de años\nestoy royendo y royendo\nel fruto indigesto y áspero!"
+    # gabinete_2_0324 .. gabinete_2_0327
+    c_mephisto "¡Ay, en verdad te lo digo!\nDe la cuna al campo santo\ndigerir no puede el hombre\nla levadura de antaño."
+    # gabinete_2_0328 .. gabinete_2_0331
+    c_mephisto "Ese todo, que ambicionas,\nsolo es a un Dios adecuado:\npara él, fulgores eternos;\npara mí, noche y espanto;"
+    # gabinete_2_0332 .. gabinete_2_0333
+    c_mephisto "para vosotros, tinieblas\ny luces, sombras y rayos."
+    # gabinete_2_0334
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Quiérolo todo."
+    # gabinete_2_0335
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Bien; sea."
+    # gabinete_2_0336 .. gabinete_2_0339
+    c_mephisto "No más encuentro un obstáculo,\nuno solamente: es corto\nel tiempo y el arte es largo.\nParéceme que debieras"
+    # gabinete_2_0340 .. gabinete_2_0343
+    c_mephisto "prepararte, aprender algo.\nAsóciate a un buen poeta:\neste, lleno de entusiasmo,\ncon soñadas perfecciones"
+    # gabinete_2_0344 .. gabinete_2_0347
+    c_mephisto "coronará tu retrato;\ndel león con la arrogancia,\ncon la agilidad del gamo,\ncon la viveza italiana"
+    # gabinete_2_0348 .. gabinete_2_0351
+    c_mephisto "y con el tesón germánico.\nUnirá en tu noble pecho\ncon maravilloso lazo\nmagnanimidad y astucia,"
+    # gabinete_2_0352 .. gabinete_2_0355
+    c_mephisto "y con arte soberano\nte ha de hacer galán fogoso\ny gentil enamorado.\nTal ejemplar y arquetipo"
+    # gabinete_2_0356 .. gabinete_2_0358
+    c_mephisto "voy hace tiempo buscando;\nsi con él doy algún día,\ndon Microcosmos le llamo."
+    # gabinete_2_0359 .. gabinete_2_0362
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¿Quién soy, pues, si esa corona\nde la Humanidad no alcanzo,\nesa perfección, que enciende\nmis ansias?"
+    # gabinete_2_0363
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Al fin y al cabo,"
+    # gabinete_2_0364 .. gabinete_2_0367
+    c_mephisto "eres quien eres. Encúmbrate\nsobre coturnos o zancos,\ny con pelucón disforme\nciñe y abulta los cascos,"
+    # gabinete_2_0368 .. gabinete_2_0369
+    c_mephisto "¿quién serás? El mismo que eres,\nni más gordo ni más flaco."
+    # gabinete_2_0370 .. gabinete_2_0373
+    c_faust "¡Ay!, acumulé el tesoro\nde la humana ciencia en vano:\ncuando en mi interior penetro,\nallí nuevas fuerzas no hallo;"
+    # gabinete_2_0374 .. gabinete_2_0375
+    c_faust "ni me acerco al Infinito,\nni una línea me levanto."
+    # gabinete_2_0376 .. gabinete_2_0379
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Miras las cosas de un modo\nvulgar; hay que ser más cauto,\ny antes que vuelen los goces,\ndiscretamente apurarlos."
+    # gabinete_2_0380 .. gabinete_2_0383
+    c_mephisto "¿Es tuya, di, tu cabeza?\n¿Tuyos son tus pies y manos?\nPues del mismo modo es tuyo\nlo que te sirve de algo."
+    # gabinete_2_0384 .. gabinete_2_0387
+    c_mephisto "Si tienes seis buenos potros,\ny los unces a tu carro,\nen vez de tener dos piernas,\n¿cuántas tienes? Veinticuatro."
+    # gabinete_2_0388 .. gabinete_2_0391
+    c_mephisto "Basta de filosofías;\nlánzate conmigo al campo:\nquien se devana los sesos\nme parece el pobre jaco,"
+    # gabinete_2_0392 .. gabinete_2_0395
+    c_mephisto "que por negro maleficio\nestá en un yermo trotando,\nsin ver que en torno se extienden\nfrescos y sabrosos pastos."
+    # gabinete_2_0396
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¿Cuándo partimos?"
+    # gabinete_2_0397
+    c_mephisto "Al punto."
+    # gabinete_2_0398 .. gabinete_2_0401
+    c_mephisto "De este calabozo huyamos.\n¿Qué haces en él? Aburrirte\ny aburrir a los muchachos.\nDeja ese oficio indigesto"
+    # gabinete_2_0402 .. gabinete_2_0405
+    c_mephisto "al vecino don Gaznápiro;\nno te afanes en la trilla\nde paja en la que no hay grano.\nLo poco bueno que aprendes"
+    # gabinete_2_0406 .. gabinete_2_0409
+    c_mephisto "no te atreves a enseñárselo\na tus discípulos. Uno\nte espera. ¿No oyes sus pasos\nen el corredor?"
+    # gabinete_2_0410
+    c_faust "No puedo"
+    # gabinete_2_0411
+    c_faust "recibirle."
+    # gabinete_2_0412
+    c_mephisto "Luengo rato"
+    # gabinete_2_0413 .. gabinete_2_0415
+    c_mephisto "aguarda: si no le admites,\ncorre el pobre buen bromazo.\nDéjame el gorro y la bata;"
+    # gabinete_2_0416
+    c_narrator "Se los pone."
+    # gabinete_2_0417 .. gabinete_2_0420
+    c_mephisto "me sientan como pintados.\nEn mi agudeza confía;\nquince minutos reclamo.\nTú, para el famoso viaje,"
+    # gabinete_2_0421
+    c_mephisto "prepárate mientras tanto."
+    # gabinete_2_0422
+    c_narrator "Vase FAUSTO."
+    # gabinete_2_0423 .. gabinete_2_0426
+    hide faust
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Razón y saber desdeña,\nlas dos alas que te han dado;\ndeja que en sus obras vanas\nde ilusiones y de encantos"
+    # gabinete_2_0427 .. gabinete_2_0430
+    c_mephisto "te afirme y envuelva el suave\nEspíritu del engaño;\ny así, Doctor, serás mío,\nsin condiciones ni obstáculos."
+    # gabinete_2_0431 .. gabinete_2_0434
+    c_mephisto "Dio el sino a su mente indócil\nimpulso desenfrenado,\ny ese escape, no es posible\ndetenerlo ni pararlo."
+    # gabinete_2_0435 .. gabinete_2_0438
+    c_mephisto "Sobre los terrenos goces\nsalta aturdido, y lo arrastro\nde mediocridad insípida\npor los derroteros áridos."
+    # gabinete_2_0439 .. gabinete_2_0442
+    c_mephisto "Luchará con sus afanes\ncuerpo a cuerpo y brazo a brazo;\nlos manjares tentadores\nescaparán de su labio,"
+    # gabinete_2_0443 .. gabinete_2_0446
+    c_mephisto "y en balde misericordia\npedirá, porque ese fatuo\nse ha de hundir de todos modos,\naunque no se entregue al Diablo."
+    # gabinete_2_0447
+    c_narrator "ENTRA UN ESTUDIANTE"
+    # gabinete_2_0448 .. gabinete_2_0451
+    show student neutral at vn_center
+    with dissolve
+    c_student "Ha poco que estoy aquí,\ny ansío conocer al hombre\neminente, cuyo nombre\ncon elogio siempre oí."
+    # gabinete_2_0452 .. gabinete_2_0454
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Sois galante. En mí veréis\nun hombre a todos igual.\n¿Maestro hubisteis?"
+    # gabinete_2_0455
+    c_student "No tal,"
+    # gabinete_2_0456 .. gabinete_2_0459
+    c_student "y si serlo vos queréis...\nTengo voluntad no escasa,\njuventud, algún dinero;\nmi madre --¡siempre hay un pero!--"
+    # gabinete_2_0460 .. gabinete_2_0462
+    c_student "quería tenerme en casa;\nmas tras la ciencia, señor,\ntodos mis anhelos van."
+    # gabinete_2_0463 .. gabinete_2_0464
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Para lograr vuestro afán\nno hallarais sitio mejor."
+    # gabinete_2_0465 .. gabinete_2_0468
+    show student puzzled at vn_center
+    with dissolve
+    c_student "¡Ay! Lejos de él encontrarme\nquisiera, si hablamos francos:\na estas aulas y estos bancos\nnunca podré acostumbrarme."
+    # gabinete_2_0469 .. gabinete_2_0472
+    c_student "En este oscuro rincón\nno se ven cielo ni verde;\ny aquí el pobre alumno pierde\nel sentido y la razón."
+    # gabinete_2_0473 .. gabinete_2_0476
+    c_mephisto "El hábito hará que os cuadre\nlo que amargo al pronto ha sido.\nEl niño recién nacido\nhuye el pecho de su madre;"
+    # gabinete_2_0477 .. gabinete_2_0480
+    c_mephisto "luego con vivo placer\nhalla en él grato sustento:\nhabréis tal contentamiento\nen las ubres del saber."
+    # gabinete_2_0481 .. gabinete_2_0482
+    show student neutral at vn_center
+    with dissolve
+    c_student "En ellas nutrirme ansío:\n¿cómo hacerlo?"
+    # gabinete_2_0483
+    c_mephisto "Meditad,"
+    # gabinete_2_0484 .. gabinete_2_0485
+    c_mephisto "primero, a qué facultad\nse inclina vuestro albedrío."
+    # gabinete_2_0486 .. gabinete_2_0489
+    c_student "En saber mi afán se encierra:\nasimilarme querría\nNatura y Filosofía,\ncuanto abarcan cielo y tierra."
+    # gabinete_2_0490 .. gabinete_2_0492
+    c_mephisto "Para alcanzar esa palma\nestáis en buenos senderos:\nprocurad no distraeros."
+    # gabinete_2_0493 .. gabinete_2_0496
+    c_student "Pondré en ello toda el alma.\nBástame una concesión:\ntener, los festivos días,\nunas cuantas horas mías"
+    # gabinete_2_0497
+    c_student "en la florida estación."
+    # gabinete_2_0498 .. gabinete_2_0501
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "El tiempo es un torbellino\nque huyendo va sin cesar;\nmas se puede adelantar\nmucho con orden y tino."
+    # gabinete_2_0502 .. gabinete_2_0505
+    c_mephisto "Estudiad primeramente\nun curso preparador\nde Lógica: es la mejor\ndisciplina de la mente."
+    # gabinete_2_0506 .. gabinete_2_0509
+    c_mephisto "Ajustados borceguís\nella os calza, y con su ayuda\nligero la senda ruda\ndel pensamiento seguís,"
+    # gabinete_2_0510 .. gabinete_2_0513
+    c_mephisto "sin perder la dirección\nyendo de atrás adelante,\ncomo la ráfaga errante\nde la inquieta exhalación."
+    # gabinete_2_0514 .. gabinete_2_0517
+    c_mephisto "Después de esto, en repetidas\nlecciones dificultosas,\naprenderéis que las cosas\nmás fáciles y sabidas,"
+    # gabinete_2_0518 .. gabinete_2_0521
+    c_mephisto "cual comer o respirar,\ncon minucioso interés\npor uno, por dos y tres\nse tienen que analizar."
+    # gabinete_2_0522 .. gabinete_2_0525
+    c_mephisto "El telar del pensamiento\nes como el del tejedor:\nhilos de vario color\npone un golpe en movimiento;"
+    # gabinete_2_0526 .. gabinete_2_0529
+    c_mephisto "viene y va la lanzadera\ncon extraña rapidez,\ny se ejecuta a la vez\nla combinación entera."
+    # gabinete_2_0530 .. gabinete_2_0533
+    c_mephisto "El sabio, lleno de sí,\nllega, y en lección no breve\nprueba que es y que ser debe\nnecesariamente así."
+    # gabinete_2_0534 .. gabinete_2_0537
+    c_mephisto "Esto, primero; después\neso, segundo, va en pos;\ny a seguida de los dos\nviene, en fin, lo que hace tres."
+    # gabinete_2_0538 .. gabinete_2_0541
+    c_mephisto "Y os demostrará profundo,\ncon raciocinio severo,\nque no puede haber tercero\nsin primero y sin segundo."
+    # gabinete_2_0542 .. gabinete_2_0545
+    c_mephisto "Esto, a fuerza de atender,\nel alumno lo comprende;\nlo que con esto no aprende\nel alumno es a tejer."
+    # gabinete_2_0546 .. gabinete_2_0549
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Si quiere el docto estudiar\nalgo viviente, animado,\nsu alma, su espíritu a un lado\naparta, en primer lugar;"
+    # gabinete_2_0550 .. gabinete_2_0553
+    c_mephisto "y cuando al fin sujetó\nsus elementos a examen,\nsolo le falta el ligamen\nque inmaterial los unió."
+    # gabinete_2_0554 .. gabinete_2_0557
+    c_mephisto "La química a ese poder\nNaturæ encheiresin llama,\ny sin quererlo proclama\nla nada de su saber."
+    # gabinete_2_0558
+    show student puzzled at vn_center
+    with dissolve
+    c_student "Ni una palabra comprendo."
+    # gabinete_2_0559 .. gabinete_2_0562
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Ya lo veréis de otro modo.\nClasificándolo todo,\nordenando y dividiendo,\nvencerlo podréis al fin."
+    # gabinete_2_0563 .. gabinete_2_0565
+    c_student "Mientras tanto, pierdo el tino.\nUna rueda de molino\nda vueltas en mi magín."
+    # gabinete_2_0566 .. gabinete_2_0569
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Luego, en segundo lugar,\ndebéis, con ansia afanosa,\nla profunda y provechosa\nMetafísica estudiar."
+    # gabinete_2_0570 .. gabinete_2_0573
+    c_mephisto "Esa ciencia omnipotente,\nque a la razón pone el sello,\nnos habla de todo aquello\nque no alcanza nuestra mente;"
+    # gabinete_2_0574 .. gabinete_2_0577
+    c_mephisto "y si queda aún más oscuro,\nno temáis, porque al instante\ncon un nombre rimbombante\nos sacará del apuro."
+    # gabinete_2_0578 .. gabinete_2_0581
+    c_mephisto "Quieren tenaces porfías\nesos estudios. Tendréis\ncuatro o cinco, o quizás seis\nlecciones todos los días."
+    # gabinete_2_0582 .. gabinete_2_0585
+    c_mephisto "Al toque de la campana\nvendréis, exacto y cumplido,\ncon el cuaderno aprendido,\nde buena o de mala gana;"
+    # gabinete_2_0586 .. gabinete_2_0589
+    c_mephisto "y aunque diga el libro tanto\ncomo el profesor en clase,\nescribid, cual si os dictase\nel mismo Espíritu Santo."
+    # gabinete_2_0590 .. gabinete_2_0593
+    show student eager at vn_center
+    with dissolve
+    c_student "Ya sé que es de gran provecho.\nEscolar que con congojas\nemborrona muchas hojas,\nvuelve a casa satisfecho."
+    # gabinete_2_0594 .. gabinete_2_0595
+    c_mephisto "Pero elegir facultad\ndebéis."
+    # gabinete_2_0596
+    show student neutral at vn_center
+    with dissolve
+    c_student "La Jurisprudencia"
+    # gabinete_2_0597
+    c_student "no excita mi preferencia."
+    # gabinete_2_0598 .. gabinete_2_0601
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "No me sorprende, en verdad.\nConozco esa ciencia ruin.\nLas leyes, cambiando nombres,\nsucédense entre los hombres"
+    # gabinete_2_0602 .. gabinete_2_0605
+    c_mephisto "como epidemia sin fin;\ny en su curso desigual\ncambian: la razón más fuerte\nen sinrazón se convierte;"
+    # gabinete_2_0606 .. gabinete_2_0609
+    c_mephisto "acá es bien lo que allí es mal.\nHijo del hombre, ¡ay de ti!\nDe aquel derecho sagrado\nque contigo se ha engendrado,"
+    # gabinete_2_0610
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "no se acuerda nadie aquí."
+    # gabinete_2_0611 .. gabinete_2_0614
+    show student eager at vn_center
+    with dissolve
+    c_student "¡Feliz quien por vos se guía!\nAl escucharos, más crece\nmi prevención. ¿Qué os parece?\n¿Estudiaré Teología?"
+    # gabinete_2_0615 .. gabinete_2_0618
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Quisiera con hábil tino\naconsejaros. En esa\nciencia es difícil empresa\nseguir siempre el buen camino."
+    # gabinete_2_0619 .. gabinete_2_0622
+    c_mephisto "Aunque estudiéis con afán,\nde distinguir no halláis medio\nla ponzoña y el remedio,\nque en ella mezclados van;"
+    # gabinete_2_0623 .. gabinete_2_0626
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "y así juzgo lo mejor\ntener tan solo presente\nun texto, y seguir fielmente\nlas máximas del autor."
+    # gabinete_2_0627 .. gabinete_2_0630
+    c_mephisto "Ateneos, sin temer,\na las palabras, y abierta\nveréis la más fácil puerta\nen el templo del saber."
+    # gabinete_2_0631 .. gabinete_2_0633
+    show student neutral at vn_center
+    with dissolve
+    c_student "Mi inexperiencia confieso:\nuna idea hallar creí\nen cada palabra."
+    # gabinete_2_0634
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "¡Oh, sí!.."
+    # gabinete_2_0635 .. gabinete_2_0638
+    c_mephisto "Mas no os apuréis por eso.\nA lo mejor del pensar\nfalta la idea en mal hora,\ny una palabra sonora"
+    # gabinete_2_0639 .. gabinete_2_0642
+    c_mephisto "llena muy bien su lugar.\nCon palabras cada día\ndoctamente discutís;\ncon palabras erigís"
+    # gabinete_2_0643 .. gabinete_2_0646
+    c_mephisto "la más hermosa teoría.\nA las palabras fe humilde\nprestad: es tal su valer\nque no les podéis poner"
+    # gabinete_2_0647
+    c_mephisto "ni quitar punto ni tilde."
+    # gabinete_2_0648 .. gabinete_2_0651
+    c_student "Perdonad, si a otro terreno\nvoy, y del presente salgo:\n¿no me podéis decir algo\nde la ciencia de Galeno?"
+    # gabinete_2_0652 .. gabinete_2_0655
+    c_student "Tres años bien poco son,\ny hay largo trecho que andar;\npero es un gran auxiliar\nvuestra docta dirección."
+    # gabinete_2_0656 .. gabinete_2_0659
+    show mephisto scornful at vn_right
+    with dissolve
+    c_mephisto "Con tal gravedad le hablo\nque me aburro yo a mí mismo:\n¡basta ya de dogmatismo!\nVuelvo a mi papel de diablo."
+    # gabinete_2_0660
+    c_narrator "En voz alta."
+    # gabinete_2_0661 .. gabinete_2_0664
+    c_mephisto "¡Medicina! ¡Luminar\ndigno del mayor respeto!\n¡Gran ciencia!... Mas su secreto\nfácil es de penetrar,"
+    # gabinete_2_0665 .. gabinete_2_0668
+    c_mephisto "y en un momento os lo explico.\nEscuchadme. Con profundo\nsentido escrutad el mundo\nde lo grande y de lo chico."
+    # gabinete_2_0669 .. gabinete_2_0672
+    c_mephisto "Y analizados los dos\ndoctamente, dejad que ande\nlo chico, y también lo grande,\ncomo lo dispuso Dios."
+    # gabinete_2_0673 .. gabinete_2_0676
+    c_mephisto "Os lo diré, aunque os asombre:\ncavilar es necedad;\nla ocasión aprovechad,\npues la ocasión hace al hombre."
+    # gabinete_2_0677 .. gabinete_2_0680
+    c_mephisto "Sois bien formado y galán,\nemprendedor y dispuesto;\nfiad en vos mismo, y presto\ntodos en vos confiarán."
+    # gabinete_2_0681 .. gabinete_2_0684
+    c_mephisto "De la mujer, sobre todo,\nocupaos: sus lamentos,\nsus ayes, sus aspavientos,\ntodos se curan de un modo."
+    # gabinete_2_0685 .. gabinete_2_0688
+    c_mephisto "Buscad término prudente\nentre el respeto y la audacia\ny con esa diplomacia\nes vuestra la hermosa cliente."
+    # gabinete_2_0689 .. gabinete_2_0692
+    c_mephisto "Título habéis de tener\nque os inicie en su favor,\nprobando que es superior\na todos vuestro saber;"
+    # gabinete_2_0693 .. gabinete_2_0696
+    c_mephisto "y ya podéis intentar\nsabrosas galanterías,\nque otros, tras largas porfías,\nno se atreven ni a soñar."
+    # gabinete_2_0697 .. gabinete_2_0700
+    c_mephisto "Sin temor a sus enojos,\ncuando la pulséis, resuelto\noprimid el brazo esbelto,\nflechándole bien los ojos;"
+    # gabinete_2_0701 .. gabinete_2_0704
+    c_mephisto "y sin mengua de su honor,\npalpad, con mano ligera\nsi a la mórbida cadera\nle molesta el ceñidor."
+    # gabinete_2_0705 .. gabinete_2_0708
+    show student eager at vn_center
+    with dissolve
+    c_student "Eso lo entiende el más romo:\n¡promete la facultad!\nAl menos con claridad\nse comprende el qué y el cómo."
+    # gabinete_2_0709 .. gabinete_2_0712
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "La ciencia es árida: en vano\ncon su sombra nos convida;\npero el árbol de la vida\nsiempre está verde y lozano."
+    # gabinete_2_0713 .. gabinete_2_0716
+    show student puzzled at vn_center
+    with dissolve
+    c_student "¡Paréceme todo un sueño!\n¿Podré, en otras ocasiones,\nvuestras útiles lecciones\naprovechar?"
+    # gabinete_2_0717
+    c_mephisto "Sois muy dueño."
+    # gabinete_2_0718 .. gabinete_2_0721
+    show student neutral at vn_center
+    with dissolve
+    c_student "Cuéstame esfuerzo partir,\ny completarais mis glorias\nsi en mi libro de memorias\nquisierais algo escribir."
+    # gabinete_2_0722
+    c_narrator "MEFISTÓFELES escribe en el libro de memorias del ESTUDIANTE, y se lo devuelve."
+    # gabinete_2_0723
+    c_student "Eritis sicut Deus, scientes bonum et malum."
+    # gabinete_2_0724
+    c_narrator "Cierra el libro respetuosamente y se retira."
+    # gabinete_2_0725 .. gabinete_2_0728
+    hide student
+    with dissolve
+    c_mephisto "Busca, del saber en pos,\nlo que la Sierpe ofrecía:\nha de pesarte algún día\ntu similitud con Dios."
+    # gabinete_2_0729
+    c_narrator "ENTRA FAUSTO"
+    # gabinete_2_0730
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¿Dónde vamos?"
+    # gabinete_2_0731
+    c_mephisto "Me es igual."
+    # gabinete_2_0732 .. gabinete_2_0735
+    c_mephisto "Si no te parece mal,\nvisitarás, con mi ayuda,\nahora a la gente menuda,\ndespués a la principal."
+    # gabinete_2_0736 .. gabinete_2_0737
+    c_mephisto "Provecho hallarás y agrado\nen el curso inesperado."
+    # gabinete_2_0738 .. gabinete_2_0741
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Para hacerlo más fecundo,\naunque soy hombre barbado,\nfáltame una cosa, mundo.\nCorto soy como el que más;"
+    # gabinete_2_0742 .. gabinete_2_0743
+    c_faust "siempre me juzgué y me vi\npequeño entre los demás."
+    # gabinete_2_0744 .. gabinete_2_0745
+    c_mephisto "Si tienes confianza en ti,\npronto paso te abrirás."
+    # gabinete_2_0746 .. gabinete_2_0748
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "¡En marcha! ¡Manos a la obra!\nPero, coche no has traído,\nni caballos..."
+    # gabinete_2_0749
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Qué zozobra!..."
+    # gabinete_2_0750 .. gabinete_2_0753
+    c_mephisto "Basta este manto extendido\npara nuestra empresa, y sobra.\nCon tal de que para el viaje\nno traigas mucho equipaje,"
+    # gabinete_2_0754 .. gabinete_2_0757
+    c_mephisto "un soplo de aire caliente\npreparo, y está corriente\nel fantástico carruaje.\nSi en el coche volador"
+    # gabinete_2_0758 .. gabinete_2_0761
+    c_mephisto "pesamos poco, mejor;\nmás presto haremos la vía.\nYa por la audaz correría\nte felicito, Doctor."
+
+label scene_taberna_auerbach:
+    scene black
+    show card_taberna_auerbach at truecenter
+    with fade
+    pause 2.0
+    hide card_taberna_auerbach
+    scene bg tavern at tint_none
+    with fade
+    # taberna_auerbach_0002 .. taberna_auerbach_0005
+    c_frosch "¿No hay quién beba? ¿No hay quién ría?\nYo os haré cambiar la mueca.\n¿Quién en paja húmeda trueca\nvuestra inflamable alegría?"
+    # taberna_auerbach_0006 .. taberna_auerbach_0008
+    c_brander "¡Tuya es la culpa, pardiez!\nHaz alguna señalada\ntontería o marranada."
+    # taberna_auerbach_0009
+    c_frosch "Ahí las tienes, a la vez."
+    # taberna_auerbach_0010
+    c_narrator "Le vierte un vaso de vino en la cabeza."
+    # taberna_auerbach_0011
+    c_brander "¡Puerco!"
+    # taberna_auerbach_0012
+    c_frosch "Quisístelo así."
+    # taberna_auerbach_0013 .. taberna_auerbach_0015
+    c_siebel "¡Basta ya! ¡Fuera gritones!\n¡Preparad bien los pulmones,\ny en coro! ¡Seguidme a mí!"
+    # taberna_auerbach_0016
+    c_narrator "Tararea estrepitosamente"
+    # taberna_auerbach_0017 .. taberna_auerbach_0018
+    c_altmayer "¡La casa se viene abajo!\n¡El tímpano estalla y zumba!"
+    # taberna_auerbach_0019 .. taberna_auerbach_0020
+    c_siebel "Si la bóveda retumba,\nseñal de que es bueno el bajo."
+    # taberna_auerbach_0021 .. taberna_auerbach_0022
+    c_frosch "Cierto. ¡Afuera el que no esté\nconforme!... ¡Ya va!... Esto es serio."
+    # taberna_auerbach_0023
+    c_narrator "Canta"
+    # taberna_auerbach_0024 .. taberna_auerbach_0025
+    c_frosch "«El Sacro Romano Imperio,\n¿cómo se mantiene en pie?»"
+    # taberna_auerbach_0026 .. taberna_auerbach_0029
+    c_brander "¡Qué canción! ¡Solemne y crítica!\n¡Política, en conclusión!\nEmpalagosa canción\nes toda canción política."
+    # taberna_auerbach_0030 .. taberna_auerbach_0033
+    c_brander "Bendice a Dios soberano\ncada día, al levantarte,\npor no tener que ocuparte\ndel Sacro Imperio Romano."
+    # taberna_auerbach_0034 .. taberna_auerbach_0037
+    c_brander "Por mí, tengo a mucho honor\ny a gran ventura no ser\nChambelán ni Canciller,\nPríncipe ni Emperador."
+    # taberna_auerbach_0038 .. taberna_auerbach_0041
+    c_brander "Mas si os interesa tanto\ntener caudillo notorio,\nformemos el Consistorio\ny elijamos Padre Santo."
+    # taberna_auerbach_0042 .. taberna_auerbach_0044
+    c_brander "Ya sabéis que la elección,\nhasta a quien no la merece,\ndignifica y engrandece."
+    # taberna_auerbach_0045
+    c_altmayer "¡A otra cosa! ¡Otra canción!"
+    # taberna_auerbach_0046 .. taberna_auerbach_0049
+    c_frosch "Ve de rama en rama,\nruiseñor de abril,\nsaluda a mi dama,\nruiseñor gentil."
+    # taberna_auerbach_0050 .. taberna_auerbach_0051
+    c_siebel "¿A tu dama? ¡Ja, ja, ja!\n¡Buenos saludos son esos!..."
+    # taberna_auerbach_0052 .. taberna_auerbach_0053
+    c_frosch "¡Saludo, abrazos y besos!\nNadie me lo impedirá."
+    # taberna_auerbach_0054
+    c_narrator "Canta."
+    # taberna_auerbach_0055 .. taberna_auerbach_0058
+    c_frosch "Ten la puerta abierta,\nniña de mi amor;\nla noche su velo\ntiende protector."
+    # taberna_auerbach_0059 .. taberna_auerbach_0062
+    c_frosch "Cierra bien la puerta,\nciérrala bien ya;\nla aurora en el cielo\ndespuntando está."
+    # taberna_auerbach_0063 .. taberna_auerbach_0066
+    c_siebel "Requiébrala a tu placer:\nal freír será el reír;\nlo que me hizo a mí sufrir,\na ti te hará padecer."
+    # taberna_auerbach_0067 .. taberna_auerbach_0070
+    c_siebel "Dele el diablo en galardón\nun extravagante enano,\nque con ella, mano a mano,\nse deleite en un rincón;"
+    # taberna_auerbach_0071 .. taberna_auerbach_0074
+    c_siebel "y con burlescos reproches,\nal volver del aquelarre,\nun chivo me los agarre\ny les dé las buenas noches."
+    # taberna_auerbach_0075 .. taberna_auerbach_0078
+    c_siebel "Pero un mancebo jovial,\nun mozo de carne y hueso,\nrobusto y gallardo, es eso\nmucho honor para hembra tal."
+    # taberna_auerbach_0079 .. taberna_auerbach_0080
+    c_siebel "¿Saludos? ¡De buena gana\ny con excelentes modos!..."
+    # taberna_auerbach_0081
+    c_frosch "¿Cómo?"
+    # taberna_auerbach_0082
+    c_siebel "Rompiéndole todos"
+    # taberna_auerbach_0083
+    c_siebel "los vidrios de la ventana."
+    # taberna_auerbach_0084 .. taberna_auerbach_0087
+    c_brander "¡Caballeros, atención!\nEs preciso ser galantes,\ny pues hay muchos amantes\nen aquesta reunión,"
+    # taberna_auerbach_0088 .. taberna_auerbach_0091
+    c_brander "voy a seguir yo también\nla costumbre establecida,\ndándoles, por despedida,\nalgo que les sepa bien."
+    # taberna_auerbach_0092 .. taberna_auerbach_0095
+    c_brander "Será un cantar a la moda,\nmuy gracioso y muy sencillo:\nrepetid el estribillo\ncon el alma y la voz toda."
+    # taberna_auerbach_0096
+    c_narrator "Canta."
+    # taberna_auerbach_0097 .. taberna_auerbach_0100
+    c_brander "En la despensa una rata\nlogró el hocico meter;\nde jamón, manteca y nata\nhartábase a su placer."
+    # taberna_auerbach_0101 .. taberna_auerbach_0104
+    c_brander "Como Lutero, echó panza,\nviviendo allí sin afán.\nLa cocinera en venganza\ndiole un día solimán."
+    # taberna_auerbach_0105 .. taberna_auerbach_0108
+    c_brander "Al momento saltó fuera\ncon frenético furor,\ncual si la pobre tuviera\ndentro del cuerpo al Amor."
+    # taberna_auerbach_0109 .. taberna_auerbach_0110
+    c_chorus "Cual si la pobre tuviera\ndentro del cuerpo al Amor."
+    # taberna_auerbach_0111 .. taberna_auerbach_0114
+    c_brander "Salta y brinca, sale y entra,\ncorre de acá para allá,\ny en todo cazo que encuentra\na beber sedienta va."
+    # taberna_auerbach_0115 .. taberna_auerbach_0118
+    c_brander "Todo lo muerde, desgarra\ny rompe, fuera de sí,\ny ni el diente ni la garra\nmitigan su frenesí;"
+    # taberna_auerbach_0119 .. taberna_auerbach_0122
+    c_brander "hasta que la angustia fiera\nvence y postra su vigor,\ncual si la pobre tuviera\ndentro del cuerpo al Amor."
+    # taberna_auerbach_0123 .. taberna_auerbach_0124
+    c_chorus "Cual si la pobre tuviera\ndentro del cuerpo al Amor."
+    # taberna_auerbach_0125 .. taberna_auerbach_0128
+    c_brander "Salvación del cielo impetra,\ncorre y corre sin cesar;\nen la cocina penetra\ny se arroja en el hogar."
+    # taberna_auerbach_0129 .. taberna_auerbach_0132
+    c_brander "Entre ascuas y llamaradas\nhalla sepultura en él,\nmientras ríe a carcajadas\nla envenenadora cruel."
+    # taberna_auerbach_0133 .. taberna_auerbach_0136
+    c_brander "Exhaló de esa manera\nel postrimer estertor,\ncual si la pobre tuviera\ndentro del cuerpo al Amor."
+    # taberna_auerbach_0137 .. taberna_auerbach_0138
+    c_chorus "Cual si la pobre tuviera\ndentro del cuerpo al Amor."
+    # taberna_auerbach_0139 .. taberna_auerbach_0142
+    c_siebel "¡Cómo ríen, en sus glorias,\ncon la canción insensata!\n¡Emponzoñar a una rata!...\n¡Qué interesantes historias!"
+    # taberna_auerbach_0143 .. taberna_auerbach_0146
+    c_brander "¡Panzudo sentimental!\nSe apiada, y bien sé por qué:\nporque su retrato ve\nen el hinchado animal."
+    # taberna_auerbach_0147
+    c_narrator "ENTRAN FAUSTO Y MEFISTÓFELES"
+    # taberna_auerbach_0148 .. taberna_auerbach_0151
+    show mephisto neutral at vn_left
+    with dissolve
+    c_mephisto "Entre gente divertida\nhe de llevarte, ante todo,\ny verás tú de qué modo\ngoza esa gente la vida."
+    # taberna_auerbach_0152 .. taberna_auerbach_0155
+    c_mephisto "Para ella el tiempo mejor\nen continua fiesta pasa,\npues es, si en ingenio escasa,\nriquísima en buen humor;"
+    # taberna_auerbach_0156 .. taberna_auerbach_0159
+    c_mephisto "y contenta con su suerte,\ngira en un círculo estrecho,\ncual gato que satisfecho\ncon su cola se divierte."
+    # taberna_auerbach_0160 .. taberna_auerbach_0163
+    c_mephisto "Mientras dura la salud,\nmientras el patrón le fía,\ncome el pan de cada día\nsin cuidados ni inquietud."
+    # taberna_auerbach_0164 .. taberna_auerbach_0167
+    c_brander "Forasteros son, mirad,\ndícenlo porte y semblante;\nparece que en este instante\narriben a la ciudad."
+    # taberna_auerbach_0168 .. taberna_auerbach_0171
+    c_frosch "Es tu sospecha fundada;\nhijos son de otro país.\nEs, en pequeño, un París\nLeipzig; por eso me agrada."
+    # taberna_auerbach_0172
+    c_siebel "¿Quiénes serán? No imagino..."
+    # taberna_auerbach_0173 .. taberna_auerbach_0176
+    c_frosch "Dejadme: tan fácilmente\ncual se arranca a un niño un diente,\ncon este vaso de vino\nsonsacaré quiénes son."
+    # taberna_auerbach_0177 .. taberna_auerbach_0179
+    c_frosch "Por sus modos altaneros\nparécenme caballeros\nde elevada condición."
+    # taberna_auerbach_0180 .. taberna_auerbach_0181
+    c_brander "Charlatanes de lugar\nson quizás."
+    # taberna_auerbach_0182
+    c_altmayer "Pudiera..."
+    # taberna_auerbach_0183
+    c_frosch "¡Calla!"
+    # taberna_auerbach_0184 .. taberna_auerbach_0185
+    c_frosch "Comienzo da la batalla.\n¡Oh, los voy a anonadar!"
+    # taberna_auerbach_0186 .. taberna_auerbach_0189
+    show mephisto sly at vn_left
+    with dissolve
+    c_mephisto "Es gente que tanto sabe,\nesta gente de que te hablo,\nque no ve llegar al diablo,\naunque la garra le clave."
+    # taberna_auerbach_0190
+    show faust neutral at vn_center
+    with dissolve
+    c_faust "¡Caballeros, guárdeos Dios!"
+    # taberna_auerbach_0191
+    c_siebel "¡Él guarde a Vuesa Mercé!"
+    # taberna_auerbach_0192
+    c_narrator "En voz baja, mirando de reojo a MEFISTÓFELES."
+    # taberna_auerbach_0193
+    c_siebel "¿Por qué arrastrará este el pie?"
+    # taberna_auerbach_0194 .. taberna_auerbach_0197
+    show mephisto neutral at vn_left
+    with dissolve
+    c_mephisto "¿Habrá sitio para dos?\nNo intentaré aquí pedir\nbuen vino, que no se cría;\nmas la buena compañía"
+    # taberna_auerbach_0198
+    c_mephisto "puede esa falta suplir."
+    # taberna_auerbach_0199
+    c_altmayer "Parecéis hombre corrido."
+    # taberna_auerbach_0200 .. taberna_auerbach_0202
+    c_frosch "Sin duda venís de lejos,\ny en casa de Juan Conejos\nhabréis cenado y dormido."
+    # taberna_auerbach_0203 .. taberna_auerbach_0206
+    c_mephisto "Ayer pasamos de largo;\npero en casos diferentes\nde expresar a sus parientes\nsu afecto, nos dio el encargo."
+    # taberna_auerbach_0207
+    c_narrator "Saludando a FROSCH."
+    # taberna_auerbach_0208
+    c_altmayer "¡Qué pez! ¿Te ha clavado?"
+    # taberna_auerbach_0209
+    c_frosch "¿A mí?"
+    # taberna_auerbach_0210
+    c_frosch "Deja que revancha tome."
+    # taberna_auerbach_0211 .. taberna_auerbach_0214
+    c_mephisto "Buenas voces pareciome\noír al llegar aquí.\n¡Lugar propio para el canto!\nDebe retumbar sonoro"
+    # taberna_auerbach_0215
+    c_mephisto "bajo esta bóveda el coro."
+    # taberna_auerbach_0216
+    c_frosch "¿Sois filarmónico?"
+    # taberna_auerbach_0217
+    show mephisto sly at vn_left
+    with dissolve
+    c_mephisto "Un tanto."
+    # taberna_auerbach_0218 .. taberna_auerbach_0219
+    c_mephisto "¡Afición, mucha afición!\nPero, escasa facultad..."
+    # taberna_auerbach_0220
+    c_altmayer "Un romance, pues, cantad."
+    # taberna_auerbach_0221
+    c_mephisto "Uno, y ciento, y un millón."
+    # taberna_auerbach_0222
+    c_siebel "Basta uno, de nuevos lances."
+    # taberna_auerbach_0223 .. taberna_auerbach_0225
+    c_mephisto "Venimos, precisamente,\nde España, patria excelente\ndel buen vino y los romances."
+    # taberna_auerbach_0226
+    c_narrator "Canta."
+    # taberna_auerbach_0227 .. taberna_auerbach_0228
+    c_mephisto "«Era un gran rey, y tenía\nuna pulga...»"
+    # taberna_auerbach_0229
+    c_frosch "¡Voto a Cristo!"
+    # taberna_auerbach_0230 .. taberna_auerbach_0231
+    c_frosch "¡Una pulga!... No se ha visto\nmás gustosa compañía."
+    # taberna_auerbach_0232 .. taberna_auerbach_0235
+    c_mephisto "Era un gran rey y tenía\nuna pulga colosal;\nmás que al propio hijo quería\nal estupendo animal."
+    # taberna_auerbach_0236 .. taberna_auerbach_0239
+    c_mephisto "Llama al sastre de la corte,\nviene el artífice fiel;\nmándale que al punto corte\nun traje para el doncel."
+    # taberna_auerbach_0240 .. taberna_auerbach_0243
+    c_brander "¡Oh sastre, pon atención!\nMide exacta cada pieza,\ny si estimas la cabeza,\nque no haga un pliegue el calzón."
+    # taberna_auerbach_0244 .. taberna_auerbach_0247
+    c_mephisto "Cubierto de seda y oro\nva, de los pies al testuz,\ny para mayor decoro,\nlleva al pecho una gran cruz."
+    # taberna_auerbach_0248 .. taberna_auerbach_0251
+    c_mephisto "Primer ministro es nombrado\npor su insigne protector;\nsus parientes, a su lado,\ngozan el regio favor."
+    # taberna_auerbach_0252 .. taberna_auerbach_0255
+    c_mephisto "A los grandes y las bellas\ntodo es picar y morder;\nya la Reina y sus doncellas\nno se pueden contener."
+    # taberna_auerbach_0256 .. taberna_auerbach_0259
+    c_mephisto "Mas calla y se mortifica\ntoda la gente de pro:\nnosotros, si alguien nos pica,\ncruje la uña, y se acabó."
+    # taberna_auerbach_0260 .. taberna_auerbach_0261
+    c_everyone "Nosotros, si alguien nos pica,\ncruje la uña, y se acabó."
+    # taberna_auerbach_0262
+    c_frosch "¡Bravo! ¡Soberbio!"
+    # taberna_auerbach_0263
+    c_siebel "Acabad"
+    # taberna_auerbach_0264
+    c_siebel "con las pulgas."
+    # taberna_auerbach_0265
+    c_brander "¡Mucho tino"
+    # taberna_auerbach_0266
+    c_brander "al cogerlas!"
+    # taberna_auerbach_0267
+    c_altmayer "¡Viva el vino!"
+    # taberna_auerbach_0268
+    c_altmayer "¡Y viva la libertad!"
+    # taberna_auerbach_0269 .. taberna_auerbach_0270
+    c_mephisto "Por la libertad brindara\nsi mejor el vino fuera."
+    # taberna_auerbach_0271
+    c_siebel "¿Malo el vino?... ¡Afuera!"
+    # taberna_auerbach_0272
+    c_frosch "¡Afuera!"
+    # taberna_auerbach_0273 .. taberna_auerbach_0274
+    show mephisto neutral at vn_left
+    with dissolve
+    c_mephisto "Si el patrón no se enojara,\nos diera a probar el mío."
+    # taberna_auerbach_0275
+    c_siebel "No se ofende el hostelero."
+    # taberna_auerbach_0276 .. taberna_auerbach_0279
+    c_frosch "Aceptamos todos; pero\nque corra abundante el río.\nSi es el vino bueno o ruin\nconócelo el paladar"
+    # taberna_auerbach_0280 .. taberna_auerbach_0281
+    c_frosch "repitiendo sin cesar\nlos tragos."
+    # taberna_auerbach_0282
+    c_altmayer "Serán del Rin."
+    # taberna_auerbach_0283
+    c_mephisto "Dadme un taladro."
+    # taberna_auerbach_0284
+    c_brander "¿Qué hacéis?"
+    # taberna_auerbach_0285 .. taberna_auerbach_0286
+    c_brander "¿Acaso tenéis aquí\nlos toneles?"
+    # taberna_auerbach_0287
+    c_altmayer "Ved allí"
+    # taberna_auerbach_0288
+    c_altmayer "herramientas, si queréis."
+    # taberna_auerbach_0289 .. taberna_auerbach_0290
+    c_mephisto "Está bien: a voluntad\npedid, y seréis servido."
+    # taberna_auerbach_0291
+    c_frosch "Pues qué, ¿tenéis gran surtido?"
+    # taberna_auerbach_0292
+    c_mephisto "Cuanto os plazca demandad."
+    # taberna_auerbach_0293
+    c_altmayer "Ya te relames el labio."
+    # taberna_auerbach_0294 .. taberna_auerbach_0296
+    c_frosch "Venga Rin; para escoger\nun buen vino, no hay que hacer\nal suelo natal agravio."
+    # taberna_auerbach_0297 .. taberna_auerbach_0298
+    c_mephisto "Dadme cera, y un tapón\nharemos; dádmela al punto."
+    # taberna_auerbach_0299 .. taberna_auerbach_0300
+    c_altmayer "Entendido está el asunto:\nes prestidigitación."
+    # taberna_auerbach_0301
+    c_mephisto "¿Y vos? ¿Qué queréis?"
+    # taberna_auerbach_0302
+    c_brander "Yo quiero"
+    # taberna_auerbach_0303
+    c_brander "Champaña, y con mucha espuma."
+    # taberna_auerbach_0304
+    c_narrator "MEFISTÓFELES taladra. Uno de los camaradas hace los tapones y tapa los agujeros."
+    # taberna_auerbach_0305 .. taberna_auerbach_0308
+    c_brander "No puede, el que más presuma,\nprescindir de lo extranjero.\nLo bueno, siempre lo es;\ny aunque el germano odie al galo,"
+    # taberna_auerbach_0309 .. taberna_auerbach_0310
+    c_brander "no por eso encuentra malo\nel rico vino francés."
+    # taberna_auerbach_0311 .. taberna_auerbach_0313
+    c_siebel "Bueno para mí no le hay\ncuando a vinagrillo sabe:\ndadme vino dulce y suave."
+    # taberna_auerbach_0314
+    c_mephisto "Voy a serviros Tockay."
+    # taberna_auerbach_0315 .. taberna_auerbach_0317
+    c_altmayer "¡Caballeros, poco a poco!\nMirémonos frente a frente,\nnadie aquí burlas consiente."
+    # taberna_auerbach_0318 .. taberna_auerbach_0321
+    c_mephisto "Ni las intenta tampoco\ncon personas de tal pro.\nDecid, sin temor, los seis\nqué vinos beber queréis."
+    # taberna_auerbach_0322
+    c_altmayer "¡De todos, y se acabó!"
+    # taberna_auerbach_0323
+    c_narrator "Después que están hechos y tapados todos los agujeros."
+    # taberna_auerbach_0324 .. taberna_auerbach_0327
+    show mephisto sly at vn_left
+    with dissolve
+    c_mephisto "Produce la cepa racimos sin cuento,\ny cuernos a pares el bravo cabrón.\nEs néctar el vino, y es leño el sarmiento;\n¿por qué de esa tabla no salta al momento"
+    # taberna_auerbach_0328
+    c_mephisto "el jugo que aliento"
+    # taberna_auerbach_0329
+    c_mephisto "le da al corazón?"
+    # taberna_auerbach_0330
+    c_mephisto "En el regazo profundo"
+    # taberna_auerbach_0331
+    c_mephisto "de la Natura y del Mundo"
+    # taberna_auerbach_0332
+    c_mephisto "con fe los ojos clavad;"
+    # taberna_auerbach_0333
+    c_mephisto "y la mayor maravilla,"
+    # taberna_auerbach_0334
+    c_mephisto "cual la cosa más sencilla,"
+    # taberna_auerbach_0335
+    c_mephisto "emprended y ejecutad."
+    # taberna_auerbach_0336
+    c_mephisto "Ahora, abrid, y sin temor"
+    # taberna_auerbach_0337
+    c_mephisto "bebed."
+    # taberna_auerbach_0338
+    c_narrator "Quitan los tapones y cada cual recibe en el vaso el vino que pidió."
+    # taberna_auerbach_0339
+    c_everyone "¡Manantial sagrado!"
+    # taberna_auerbach_0340
+    c_everyone "¡Fuente divina!"
+    # taberna_auerbach_0341
+    c_mephisto "¡Cuidado!"
+    # taberna_auerbach_0342
+    c_mephisto "¡No se derrame el licor!"
+    # taberna_auerbach_0343 .. taberna_auerbach_0344
+    c_everyone "¡Bebamos, bebamos de todos los vinos!\n¡Bebamos cual beben quinientos cochinos!"
+    # taberna_auerbach_0345 .. taberna_auerbach_0346
+    c_mephisto "¡Ya es libre y feliz mi gente!\nMira: en sus glorias está."
+    # taberna_auerbach_0347
+    show faust anguished at vn_center
+    with dissolve
+    c_faust "Vámonos: cánsome ya."
+    # taberna_auerbach_0348 .. taberna_auerbach_0350
+    c_mephisto "Dos minutos solamente,\ny verás la estupidez\nen su cumbre y su cenit."
+    show bg tavern at tint_red
+    with vn_flash
+    show layer master at vn_shake
+    # taberna_auerbach_0351
+    c_narrator "Bebe sin precaución; el vino cae al suelo y brota una llama."
+    # taberna_auerbach_0352 .. taberna_auerbach_0353
+    c_siebel "¡Socorro!... ¡Fuego! ¡Acudid!\n¡Infierno es esto!"
+    # taberna_auerbach_0354
+    c_mephisto "Esta vez"
+    # taberna_auerbach_0355 .. taberna_auerbach_0358
+    c_mephisto "solo fue chispa ligera\ndel purgatorio sombrío.\nRojo fuego, amigo mío,\nbasta ya; tu ardor modera."
+    # taberna_auerbach_0359 .. taberna_auerbach_0360
+    c_siebel "¿Qué es lo que ha pasado aquí?\nNos burló: ¿por quién nos toma?"
+    # taberna_auerbach_0361
+    c_frosch "No repetiréis la broma."
+    # taberna_auerbach_0362
+    c_altmayer "Echémosle."
+    # taberna_auerbach_0363
+    c_everyone "¡Echarle! Sí."
+    # taberna_auerbach_0364 .. taberna_auerbach_0365
+    c_siebel "¿Piensa hacer este bergante\nsu hocúspoco engañador?"
+    # taberna_auerbach_0366
+    show mephisto scornful at vn_left
+    with dissolve
+    c_mephisto "¡Calle el borracho hablador!"
+    # taberna_auerbach_0367
+    c_siebel "¡Calle el zafio nigromante!"
+    # taberna_auerbach_0368
+    c_brander "Comenzó el chubasco ya."
+    # taberna_auerbach_0369
+    c_narrator "Quita uno de los tapones de la mesa, sale un chorro de fuego, y le quema."
+    # taberna_auerbach_0370
+    c_altmayer "¡Me abraso!"
+    # taberna_auerbach_0371
+    c_siebel "¡Maligno influjo!"
+    # taberna_auerbach_0372
+    c_siebel "¡Firme con él; es un brujo!"
+    # taberna_auerbach_0373
+    c_frosch "¡Dadle: condenado está!"
+    # taberna_auerbach_0374
+    c_narrator "Toman los cuchillos y acometen a MEFISTÓFELES."
+    # taberna_auerbach_0375 .. taberna_auerbach_0376
+    show mephisto deferent at vn_left
+    with dissolve
+    c_mephisto "Venid, Apariencias; venid, y engañosas\ntrocad a sus ojos lugares y cosas."
+    # taberna_auerbach_0377
+    c_narrator "Los camaradas detiénense asombrados, mirándose unos a otros."
+    # taberna_auerbach_0378
+    c_altmayer "¡Qué campos tan pintorescos!"
+    # taberna_auerbach_0379 .. taberna_auerbach_0380
+    c_frosch "¿Es verdad o es ilusión?\n¡Cuán verdes las viñas son!"
+    # taberna_auerbach_0381
+    c_siebel "Y los racimos ¡cuán frescos!"
+    # taberna_auerbach_0382 .. taberna_auerbach_0385
+    c_brander "Al pie de un árbol lozano\ncrece esta vid opulenta;\nmirad las uvas que ostenta\nal alcance de la mano."
+    # taberna_auerbach_0386
+    c_narrator "Coge a SIEBEL por la nariz. Los demás cogen también las narices de sus compañeros, y levantan los cuchillos."
+    # taberna_auerbach_0387 .. taberna_auerbach_0388
+    show mephisto sly at vn_left
+    with dissolve
+    c_mephisto "Error, a sus ojos arranca la venda,\ny palpen, corridos, la burla tremenda."
+    hide mephisto
+    hide faust
+    show bg tavern at tint_none
+    with dissolve
+    # taberna_auerbach_0389
+    show mephisto neutral at vn_left
+    show faust neutral at vn_center
+    with dissolve
+    c_narrator "Desaparece con FAUSTO. Los camaradas sueltan presa."
+    # taberna_auerbach_0390
+    hide mephisto
+    hide faust
+    with dissolve
+    c_siebel "¿Qué es esto?"
+    # taberna_auerbach_0391
+    c_altmayer "¿Qué?"
+    # taberna_auerbach_0392
+    c_frosch "¡Tu nariz!"
+    # taberna_auerbach_0393 .. taberna_auerbach_0394
+    c_brander "La tuya en mis manos tiento.\n¡Ja, ja!"
+    # taberna_auerbach_0395
+    c_altmayer "Molido me siento"
+    # taberna_auerbach_0396 .. taberna_auerbach_0397
+    c_altmayer "de los pies a la cerviz.\nNo puedo más: ¡una silla!"
+    # taberna_auerbach_0398
+    c_frosch "Pero ¿qué ha pasado aquí?"
+    # taberna_auerbach_0399 .. taberna_auerbach_0401
+    c_siebel "¿Dó estás, bribón? ¡Ay de ti,\nsi te atrapa esta cuadrilla!\n¿Dónde estás?"
+    # taberna_auerbach_0402
+    c_altmayer "Largose."
+    # taberna_auerbach_0403
+    c_siebel "¿Cómo?"
+    # taberna_auerbach_0404 .. taberna_auerbach_0406
+    c_altmayer "Caballero en un tonel.\nPor allá escapó. Tras él\nvoy... ¡Mas los pies son de plomo!"
+    # taberna_auerbach_0407
+    c_narrator "Apoyándose en la mesa."
+    # taberna_auerbach_0408
+    c_altmayer "¡Oh manantial, si aún corrieras!"
+    # taberna_auerbach_0409
+    c_siebel "Fue apariencia y fantasía."
+    # taberna_auerbach_0410 .. taberna_auerbach_0411
+    c_frosch "Tal vez; pero yo bebía,\nfuese de burlas o veras."
+    # taberna_auerbach_0412
+    c_brander "¿Y dónde están los racimos?"
+    # taberna_auerbach_0413
+    c_siebel "¿Qué sé yo?"
+    # taberna_auerbach_0414
+    c_altmayer "¡Dirán después"
+    # taberna_auerbach_0415 .. taberna_auerbach_0416
+    c_altmayer "que edad de milagros no es\nesta edad en que vivimos!"
+
+label scene_cocina_bruja:
+    scene black
+    show card_cocina_bruja at truecenter
+    with fade
+    pause 2.0
+    hide card_cocina_bruja
+    scene bg witch_kitchen at tint_none
+    with fade
+    # cocina_bruja_0001
+    show faust neutral at vn_left
+    show mephisto neutral at vn_right
+    with dissolve
+    c_narrator "En un fogón muy bajo hay una gran olla al fuego. En el humo que se eleva hacia el techo vense varias imágenes. UNA MONA, sentada junto al fogón, espuma la olla. EL MICO y la cría se calientan al fuego. El techo y las paredes están cubiertos de estrambóticos utensilios de LA BRUJA."
+    # cocina_bruja_0003 .. cocina_bruja_0006
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Apéstame toda aquesta\nbrujería extravagante.\n¿Me darás salud y vida\ncon tan sucios cachivaches?"
+    # cocina_bruja_0007 .. cocina_bruja_0010
+    c_faust "¡Pedir consejo a una vieja!\n¡Pretender que en un santiamen\nnos quite veinte o treinta años\ncon sus menjurjes y enjuagues!..."
+    # cocina_bruja_0011 .. cocina_bruja_0014
+    c_faust "Pierdo ya toda esperanza,\nsi otro remedio no sabes:\n¿no dan elixir más puro\no Naturaleza o Arte?"
+    # cocina_bruja_0015 .. cocina_bruja_0018
+    c_mephisto "¡Otra vez racionalmente\nhablas!... Medios naturales\nhay de prolongar la vida;\npero... están en libro aparte,"
+    # cocina_bruja_0019 .. cocina_bruja_0020
+    c_mephisto "y es, a fe, el que trata de ellos\ncapítulo interesante."
+    # cocina_bruja_0021
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¿Puedo saberlos?"
+    # cocina_bruja_0022
+    c_mephisto "No exigen"
+    # cocina_bruja_0023 .. cocina_bruja_0026
+    c_mephisto "oro, filtros ni jarabes.\nVe al campo, y con fuerte pico\nsus duras entrañas abre;\nencierra en círculo estrecho"
+    # cocina_bruja_0027 .. cocina_bruja_0030
+    c_mephisto "tus pensamientos y afanes;\nentre las dóciles bestias\nvive sobrio, y no repares\nen abonar por ti mismo"
+    # cocina_bruja_0031 .. cocina_bruja_0033
+    c_mephisto "surcos que han de alimentarte,\ny a la edad octogenaria\nllegarán tus mocedades."
+    # cocina_bruja_0034 .. cocina_bruja_0037
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "El pico, para mi diestra,\nsería peso muy grave.\nHecho no estoy a esa vida,\nni conviene a mi carácter."
+    # cocina_bruja_0038
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Recurre, pues, a la Bruja!..."
+    # cocina_bruja_0039 .. cocina_bruja_0041
+    c_faust "¿Y por qué a esa vieja infame\nprecisamente? ¿No puedes\naderezar tú el brebaje?"
+    # cocina_bruja_0042 .. cocina_bruja_0045
+    c_mephisto "¡Bravo pasatiempo fuera!\nHaría cien puentes antes.\nCiencia y práctica no bastan;\ncachaza es indispensable."
+    # cocina_bruja_0046 .. cocina_bruja_0049
+    c_mephisto "Al misterioso fermento\nsu virtud los años danle,\ny en esa extraña mixtura\ntodo son dificultades."
+    # cocina_bruja_0050 .. cocina_bruja_0051
+    c_mephisto "El Diablo dio la receta;\npero aplicarla no sabe."
+    # cocina_bruja_0052
+    c_narrator "Reparando en los MONOS."
+    # cocina_bruja_0053 .. cocina_bruja_0054
+    c_mephisto "Mira, ¡qué hermosa familia!\nEsta es la dueña; ese el paje."
+    # cocina_bruja_0055
+    c_narrator "A los animales."
+    # cocina_bruja_0056
+    c_mephisto "¿Adónde fue la señora?"
+    # cocina_bruja_0057 .. cocina_bruja_0059
+    c_apes "A comer y solazarse:\ntomó, por la chimenea,\nel camino de los aires."
+    # cocina_bruja_0060
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "¿Tarda mucho en esos vuelos?"
+    # cocina_bruja_0061 .. cocina_bruja_0062
+    c_apes "Lo que tardo en calentarme\nlas patas."
+    # cocina_bruja_0063
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¿Qué te parece"
+    # cocina_bruja_0064
+    c_mephisto "la pareja?"
+    # cocina_bruja_0065
+    c_faust "¡Insoportable!"
+    # cocina_bruja_0066 .. cocina_bruja_0067
+    c_mephisto "A mí me deleita mucho\nsu coloquio extravagante."
+    # cocina_bruja_0068
+    c_narrator "A los MONOS."
+    # cocina_bruja_0069 .. cocina_bruja_0070
+    c_mephisto "¿Para quién, pinches malditos,\npreparáis ese brebaje?"
+    # cocina_bruja_0071
+    c_apes "Esta es la sopa del pobre."
+    # cocina_bruja_0072
+    c_mephisto "No faltarán comensales."
+    # cocina_bruja_0073 .. cocina_bruja_0076
+    c_apes "Echa los dados: quiero\nser rico pronto.\nPor falta de dinero\nllámanme tonto."
+    # cocina_bruja_0077 .. cocina_bruja_0079
+    c_apes "¡Venga un millón!\nEn teniendo yo el Din,\ndaranme el Don."
+    # cocina_bruja_0080 .. cocina_bruja_0081
+    c_mephisto "¡Cuán feliz este sería\njugando a la lotería!"
+    # cocina_bruja_0082
+    c_narrator "LOS MONOS de cría se han apoderado de una bola grande y juegan con ella haciéndola rodar."
+    # cocina_bruja_0083 .. cocina_bruja_0086
+    c_apes "Este mundo es una bola,\nque da vueltas sin cesar,\ny en continua batahola\ntendrá al fin que reventar."
+    # cocina_bruja_0087 .. cocina_bruja_0090
+    c_apes "Es vistosa y deslumbrante;\nmucha luz, mucho esplendor;\nmas, cual redoma brillante,\nhueco y vano el interior."
+    # cocina_bruja_0091 .. cocina_bruja_0094
+    c_apes "Apartad, hijos: si os pilla\ndebajo, os aplastará.\nEs de deleznable arcilla,\ny mil añicos se hará."
+    # cocina_bruja_0095
+    c_mephisto "Di: ¿qué criba es aquella?"
+    # cocina_bruja_0096 .. cocina_bruja_0098
+    c_apes "Si eres ladrón,\nconoceré con ella\ntu condición."
+    # cocina_bruja_0099
+    c_narrator "Corre a la MONA, y la hace mirar por la criba."
+    # cocina_bruja_0100 .. cocina_bruja_0102
+    c_apes "Mira al bellaco,\ny dime, mala pécora,\nsi es algún caco."
+    # cocina_bruja_0103
+    c_mephisto "¿Y este cazo tan sucio?..."
+    # cocina_bruja_0104 .. cocina_bruja_0106
+    c_apes "¡Cuán majadero!\nYa no se acuerda, el rucio,\nde este puchero."
+    # cocina_bruja_0107 .. cocina_bruja_0109
+    c_mephisto "¡Vaya unos dichos!\n¡Qué inciviles y toscos\nson estos bichos!"
+    # cocina_bruja_0110 .. cocina_bruja_0113
+    c_apes "Toma la escobilla,\ntoma el escobón,\ny en aquesta silla\nsiéntate, bribón."
+    # cocina_bruja_0114
+    c_narrator "Obliga a MEFISTÓFELES a sentarse."
+    # cocina_bruja_0115
+    c_narrator "que mientras hablaban así, estaba contemplando un espejo, acercándose unas veces y alejándose otras."
+    # cocina_bruja_0116 .. cocina_bruja_0119
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "¿Qué miro, Dios soberano?\n¿Cuál es esa pura imagen,\nque en aquel mágico espejo\naparece tan brillante?"
+    # cocina_bruja_0120 .. cocina_bruja_0123
+    c_faust "Para volar a su lado,\ndulce amor, tus alas dame.\n¡Ay!, me acerco y entre nubes\nva escondiéndose y borrándose..."
+    # cocina_bruja_0124 .. cocina_bruja_0127
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡Mujer no vi más perfecta\nni más seductora!... ¿Cabe\ntanto hechizo en ser humano,\no es su encanto incomparable"
+    # cocina_bruja_0128 .. cocina_bruja_0131
+    c_faust "imaginario trasunto\nde las celestes beldades?\n¿Puede encontrarse en la tierra\nhermosura semejante?"
+    # cocina_bruja_0132 .. cocina_bruja_0135
+    c_mephisto "¿Por qué no? Si un Dios estuvo\nseis días, dale que dale,\ny al final de la semana\nvio su obra, y dijo: «Me place»,"
+    # cocina_bruja_0136 .. cocina_bruja_0139
+    c_mephisto "¿es extraño que saliera\nalgo de bueno o pasable?\nDevórala con los ojos;\npor hoy, mírala bien, sáciate:"
+    # cocina_bruja_0140 .. cocina_bruja_0143
+    c_mephisto "ya te buscaré una joya,\nuna beldad semejante:\n¡dichoso aquel que a su casa\ncomo esposa la llevase!"
+    # cocina_bruja_0144
+    c_narrator "FAUSTO continúa contemplando el espejo embebecido. MEFISTÓFELES, reclinándose en el sillón y jugando con la escobilla, prosigue así:"
+    # cocina_bruja_0145 .. cocina_bruja_0148
+    c_mephisto "Cual monarca en regio trono\naquí puedo arrellanarme;\ncetro empuña ya mi diestra;\ncorona tan solo fáltame."
+    # cocina_bruja_0149
+    c_narrator "que han estado haciendo toda clase de movimientos y contorsiones, llevan una corona a MEFISTÓFELES, chillando."
+    # cocina_bruja_0150 .. cocina_bruja_0151
+    c_apes "Pues sois tan amable, tan bueno, Señor,\nceñid la corona con sangre y sudor."
+    # cocina_bruja_0152
+    c_narrator "Dan saltos desgarbados con la corona; la rompen en dos trozos, rodando y danzando con ellos."
+    # cocina_bruja_0153 .. cocina_bruja_0154
+    c_apes "Es cosa resuelta: ya somos los amos;\ny vemos y oímos y versificamos."
+    # cocina_bruja_0155 .. cocina_bruja_0156
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¡Pobre de mí! La cabeza\nse me va. Las sienes me arden."
+    # cocina_bruja_0157 .. cocina_bruja_0158
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Yo no puedo más: los cascos\nparece que se me abren."
+    # cocina_bruja_0159 .. cocina_bruja_0160
+    c_apes "Si el verso atinamos, verás que al momento\nel metro y la rima serán pensamiento."
+    # cocina_bruja_0161
+    c_faust "Partiré: mi pecho estalla."
+    # cocina_bruja_0162 .. cocina_bruja_0164
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Cuán grotescos animales!\nPero confesar es justo\nque son excelentes vates."
+    show bg witch_kitchen at tint_red
+    with vn_flash
+    show layer master at vn_shake
+    # cocina_bruja_0165
+    c_narrator "La olla que la MONA ha descuidado, comienza a desbordar, y se levanta una llamarada, que sube a la chimenea. LA BRUJA aparece entre las llamas, dando gritos espantosos."
+    # cocina_bruja_0166 .. cocina_bruja_0169
+    show witch furious at vn_center
+    with dissolve
+    c_witch "¡Hola! ¡Canalla impura!\n¡Raza maldita!\n¿Así tuvisteis cura\nde la marmita?"
+    # cocina_bruja_0170
+    c_witch "Saltó la llama,"
+    # cocina_bruja_0171
+    c_witch "¡y a mí, a mí me chamusca,"
+    # cocina_bruja_0172
+    c_witch "que soy el ama!"
+    # cocina_bruja_0173
+    c_narrator "Viendo a FAUSTO y MEFISTÓFELES."
+    # cocina_bruja_0174 .. cocina_bruja_0177
+    c_witch "¿Quién es el atrevido\nque está allá abajo?\n¿Por dónde habéis venido?\n¿Quién aquí os trajo?"
+    # cocina_bruja_0178
+    c_witch "Sobre los cuernos"
+    # cocina_bruja_0179 .. cocina_bruja_0180
+    c_witch "tomad las llamaradas\nde los infiernos."
+    # cocina_bruja_0181
+    c_narrator "Mete el cucharón en la olla, y derrama fuego vivo sobre FAUSTO, MEFISTÓFELES y los animales. Estos aúllan."
+    # cocina_bruja_0182
+    c_narrator "dando golpes a diestro y siniestro, sobre los cazos y botijos, con el escobón que tiene en la mano."
+    show bg witch_kitchen at tint_none
+    with dissolve
+    # cocina_bruja_0183 .. cocina_bruja_0186
+    c_mephisto "¡Bravo, bruja ramera!\n¡Siga la broma!\n¡Caigan olla y caldera,\ncazo y redoma!"
+    # cocina_bruja_0187
+    c_mephisto "Yo no hago más"
+    # cocina_bruja_0188 .. cocina_bruja_0189
+    c_mephisto "que seguir la cadencia\nde tu compás."
+    # cocina_bruja_0190
+    c_narrator "LA BRUJA retrocede colérica y asustada."
+    # cocina_bruja_0191 .. cocina_bruja_0194
+    show mephisto scornful at vn_right
+    with dissolve
+    c_mephisto "¿No sabes quién soy, arpía?\nMarimacho, ¿no lo sabes?\nNo sé quién tiene mis manos\nporque no te despedacen,"
+    # cocina_bruja_0195 .. cocina_bruja_0198
+    c_mephisto "y contigo a esos horribles\nmacacos u orangutanes.\n¿Es que ya no reconoces\nmi jubón color de sangre?"
+    # cocina_bruja_0199 .. cocina_bruja_0202
+    c_mephisto "¿Es que la pluma de gallo\nnada significa y vale?\nCon faz descubierta vine:\n¿no basta? ¿Habré de nombrarme?"
+    # cocina_bruja_0203 .. cocina_bruja_0206
+    show witch neutral at vn_center
+    with dissolve
+    c_witch "¡Ah, gran Señor!, el saludo\npoco grato perdonadme.\nNo vi la pata de cabra,\nni los dos cuernos..."
+    # cocina_bruja_0207
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Bien! Pase"
+    # cocina_bruja_0208 .. cocina_bruja_0211
+    c_mephisto "por esta vez. Es lo cierto\nque no vine a visitarte\nen mucho tiempo. El progreso,\nque todo lo pule y lame,"
+    # cocina_bruja_0212 .. cocina_bruja_0215
+    c_mephisto "llegó hasta el Diablo. Aquel monstruo\ndel septentrión, presentable\nno está ya. Garras y cuernos\nmodas son de otras edades;"
+    # cocina_bruja_0216 .. cocina_bruja_0219
+    c_mephisto "y si es la pata de cabra\nrequisito indispensable,\nhay también, para ocultarla,\nremedio barato y fácil:"
+    # cocina_bruja_0220 .. cocina_bruja_0221
+    c_mephisto "pantorrillas gasto al uso\ncomo otros muchos galanes."
+    # cocina_bruja_0222 .. cocina_bruja_0223
+    show witch cackling at vn_center
+    with dissolve
+    c_witch "De gozo las carnes temblándome están:\n¡ha honrado mi casa monseñor Satán!"
+    # cocina_bruja_0224 .. cocina_bruja_0225
+    c_mephisto "¡Calla, vestiglo! Te vedo\nque de ese modo me llames."
+    # cocina_bruja_0226
+    show witch neutral at vn_center
+    with dissolve
+    c_witch "¿Por qué? Di."
+    # cocina_bruja_0227
+    c_mephisto "Porque ese nombre"
+    # cocina_bruja_0228 .. cocina_bruja_0231
+    c_mephisto "figura ya en todas partes\nentre mitos. No por eso\nmejores son los mortales;\nfaltó el Malo, mas no esperes"
+    # cocina_bruja_0232 .. cocina_bruja_0235
+    c_mephisto "que jamás los malos falten.\nLlámame, si a bien lo tomas,\nSeñor Barón. Mi linaje\nes muy noble, y aquí tienes"
+    # cocina_bruja_0236
+    c_mephisto "el blasón, si lo dudares."
+    # cocina_bruja_0237
+    c_narrator "Hace un ademán licencioso."
+    # cocina_bruja_0238 .. cocina_bruja_0239
+    c_witch "¡Os conozco! Siempre fuisteis\nlicenciado en malas artes."
+    # cocina_bruja_0240 .. cocina_bruja_0241
+    c_mephisto "Aprende tú: así se trata\na estas brujas."
+    # cocina_bruja_0242
+    c_witch "¿Y qué os place"
+    # cocina_bruja_0243
+    c_witch "pedirme?"
+    # cocina_bruja_0244
+    c_mephisto "No más un vaso"
+    # cocina_bruja_0245 .. cocina_bruja_0247
+    c_mephisto "de tu elixir. Pero, dame\ndel más añejo. Su fuerza\ndobla el tiempo."
+    # cocina_bruja_0248
+    c_witch "Guardo aparte"
+    # cocina_bruja_0249 .. cocina_bruja_0252
+    c_witch "una redoma, y con ella\nacostumbro regalarme.\nProbadlo, señor, vos mismo:\nni está rancio, ni mal sabe."
+    # cocina_bruja_0253
+    c_narrator "Aparte a MEFISTÓFELES."
+    # cocina_bruja_0254 .. cocina_bruja_0256
+    c_witch "Mas, si lo bebe el amigo,\nsin estar dispuesto de antes,\ndentro de una hora revienta."
+    # cocina_bruja_0257 .. cocina_bruja_0260
+    c_mephisto "No temas; es un compadre\ny le hará bien. Las mejores\nde tus drogas has de darle.\nTraza tu círculo mágico,"
+    # cocina_bruja_0261 .. cocina_bruja_0263
+    c_mephisto "di las misteriosas frases,\ny sírvele, sin recelo,\nuna taza del brebaje."
+    # cocina_bruja_0264
+    c_narrator "LA BRUJA, haciendo ademanes estrambóticos, traza un círculo en el suelo, y coloca en él varios objetos raros; mientras tanto, los vasos suenan y las ollas también, haciendo una especie de música. Toma después la BRUJA un grueso librote, pone dentro del círculo a los MICOS, que le sirven de pupitre para el libro, y le sostienen las luces. Hace seña a FAUSTO de que se acerque."
+    # cocina_bruja_0265 .. cocina_bruja_0268
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¿De qué sirve todo aquesto?\nEstos gestos y ademanes,\nestos bichos, estas farsas,\ntodo es viejo y repugnante."
+    # cocina_bruja_0269 .. cocina_bruja_0272
+    c_mephisto "Tómalo a risa y chacota.\n¿Por qué has de formalizarte?\nPara que surta la pócima\ntodos sus efectos, hace"
+    # cocina_bruja_0273 .. cocina_bruja_0274
+    c_mephisto "la Bruja, como buen médico,\nlas pantomimas de su arte."
+    # cocina_bruja_0275
+    c_narrator "Hace entrar a FAUSTO en el círculo."
+    # cocina_bruja_0276
+    c_narrator "Lee en el libro, declamando con mucho énfasis."
+    # cocina_bruja_0277 .. cocina_bruja_0280
+    c_witch "El uno truecas en diez,\ncon la mayor sencillez;\nrestas el dos y el tres luego,\ny ya vas ganando el juego;"
+    # cocina_bruja_0281
+    c_witch "sumas el cuatro al instante;"
+    # cocina_bruja_0282
+    c_witch "das un brinco,"
+    # cocina_bruja_0283
+    c_witch "y divides lo restante"
+    # cocina_bruja_0284
+    c_witch "por el cinco;"
+    # cocina_bruja_0285 .. cocina_bruja_0288
+    c_witch "el seis, en un periquete,\nqueda convertido en siete;\npero va el ocho delante,\ny trocando el nueve en uno,"
+    # cocina_bruja_0289 .. cocina_bruja_0291
+    c_witch "queda el diez hecho ninguno.\nY esta es la peregrina\ncábala de la Madre Celestina."
+    # cocina_bruja_0292 .. cocina_bruja_0293
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Delirar le hizo la fiebre\nquizás."
+    # cocina_bruja_0294
+    c_mephisto "No es que ella desbarre:"
+    # cocina_bruja_0295 .. cocina_bruja_0298
+    c_mephisto "así reza el libro; todas\nsus páginas son iguales.\nBien me quebré la cabeza\nestudiándolo; fue en balde:"
+    # cocina_bruja_0299 .. cocina_bruja_0302
+    c_mephisto "para discretos y tontos\nlo absurdo es impenetrable.\nEl sistema es viejo y nuevo;\nhubo en todas las edades"
+    # cocina_bruja_0303 .. cocina_bruja_0306
+    c_mephisto "quien, haciendo de tres uno\ny uno de tres, diera pase,\ncomo misterios sublimes,\na solemnes necedades."
+    # cocina_bruja_0307 .. cocina_bruja_0310
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "¿Quién adelgaza las mientes\ndiscutiéndolas? Más vale\ncreerlo que averiguarlo;\npues pocos dudan, o nadie,"
+    # cocina_bruja_0311 .. cocina_bruja_0312
+    c_mephisto "que se encierra un pensamiento\ndebajo de cada frase."
+    # cocina_bruja_0313 .. cocina_bruja_0316
+    show witch cackling at vn_center
+    with dissolve
+    c_witch "La Verdad caprichosa\nva fugitiva;\npara aquel que la acosa\nsiempre es esquiva."
+    # cocina_bruja_0317
+    c_witch "Desnuda y bella,"
+    # cocina_bruja_0318 .. cocina_bruja_0319
+    c_witch "entrégase al que nunca\npensara en ella."
+    # cocina_bruja_0320 .. cocina_bruja_0323
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¿Qué despropósitos habla?\nLa cabeza se me parte,\ncomo si tuviera en ella\ntoda una casa de orates."
+    # cocina_bruja_0324 .. cocina_bruja_0327
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "¡Basta, inspirada Sibila!\nSirve el mejunje al instante,\ny hasta el borde llena el vaso.\nLos efectos no te alarmen:"
+    # cocina_bruja_0328 .. cocina_bruja_0329
+    c_mephisto "hecho está ya el camarada\na esos tragos y estos lances."
+    # cocina_bruja_0330
+    c_narrator "LA BRUJA, con muchos aspavientos, vierte la pócima en la taza, y cuando la lleva FAUSTO a los labios, enciéndese una ligera llama en el líquido."
+    # cocina_bruja_0331 .. cocina_bruja_0334
+    c_mephisto "Bebe, y sentirás al punto\nel corazón transformarse.\n¿Temes al fuego, teniendo\nal demonio de tu parte?"
+    # cocina_bruja_0335
+    c_narrator "LA BRUJA rompe el círculo; FAUSTO sale de él."
+    # cocina_bruja_0336
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Ahora, ¡en marcha!"
+    # cocina_bruja_0337
+    c_witch "¡Y buen provecho!"
+    # cocina_bruja_0338 .. cocina_bruja_0340
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Si en algo puedo ayudarte,\nme tendrás en la Walpurga\npara aquello que me mandes."
+    # cocina_bruja_0341 .. cocina_bruja_0344
+    show witch neutral at vn_center
+    with dissolve
+    c_witch "Una canción he de daros;\nsi alguna vez la cantareis,\nprobaréis, al punto mismo,\nsus efectos singulares."
+    # cocina_bruja_0345 .. cocina_bruja_0348
+    c_mephisto "Tú, ven, y sigue mis pasos.\nÚtil es, indispensable\nque transpires: así, el filtro\npor dentro y fuera se esparce."
+    # cocina_bruja_0349 .. cocina_bruja_0352
+    c_mephisto "Después, en noble indolencia\nharé que ocioso descanses,\ny en tan sabrosa molicie,\nverás, sin otros afanes,"
+    # cocina_bruja_0353 .. cocina_bruja_0354
+    c_mephisto "cuál las ansias de Cupido\nbrotarán por todas partes."
+    # cocina_bruja_0355 .. cocina_bruja_0358
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "Déjame aún que en ese espejo\nlos ávidos ojos clave...\nDe mujer hermosa y pura\nnunca vi mejor imagen."
+    # cocina_bruja_0359 .. cocina_bruja_0362
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Ven, y brillará a tu vista,\nvivo, fresco y palpitante,\nel acabado modelo\nde las humanas beldades."
+    # cocina_bruja_0363
+    c_narrator "Aparte."
+    # cocina_bruja_0364 .. cocina_bruja_0367
+    c_mephisto "Con ese trago en el vientre,\ncon esa fiebre en la sangre,\nElena será a sus ojos\nla primera mujer que halle."
+
+label scene_calle_1:
+    scene black
+    show card_calle_1 at truecenter
+    with fade
+    pause 2.0
+    hide card_calle_1
+    scene bg street at tint_none
+    with fade
+    # calle_1_0002 .. calle_1_0003
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Hermosa señorita, bondadosa,\n¿aceptaréis mi brazo y compañía?"
+    # calle_1_0004 .. calle_1_0005
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "Ni señorita soy, ni soy hermosa,\ny sé ir a casa sin sostén ni guía."
+    # calle_1_0006
+    c_narrator "Se suelta y se va."
+    # calle_1_0007 .. calle_1_0010
+    hide margarita
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "Es preciosa, ¡vive Cristo!,\nesa doncella. En mi vida\nhermosura más cumplida\nni más recatada he visto."
+    # calle_1_0011 .. calle_1_0014
+    c_faust "Y hay algo de incitador\nen esa faz candorosa...\n¡Labios de encendida rosa!\n¡Frescas mejillas en flor!"
+    # calle_1_0015 .. calle_1_0018
+    c_faust "Bajó los ojos, y enojos\ntales causaron al alma,\nque me tiene ya sin calma\naquel bajar de sus ojos."
+    # calle_1_0019 .. calle_1_0022
+    c_faust "Con su réplica vivaz,\ncon su gracioso desdén,\na cualquier hombre de bien\nha de robarle la paz."
+    # calle_1_0023
+    c_narrator "Entra MEFISTÓFELES."
+    # calle_1_0024 .. calle_1_0025
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Oye: ¿ves esa doncella?\nProcúramela al instante."
+    # calle_1_0026
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "¿Cuál dices?"
+    # calle_1_0027
+    c_faust "La que delante"
+    # calle_1_0028
+    c_faust "de ti caminaba."
+    # calle_1_0029
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¿Aquella?"
+    # calle_1_0030 .. calle_1_0033
+    c_mephisto "Ha un momento que le ha dado\nel cura la absolución:\nescuché su confesión,\ndetrás de ella agazapado."
+    # calle_1_0034 .. calle_1_0035
+    show mephisto scornful at vn_right
+    with dissolve
+    c_mephisto "¡Nada! ¡Escrúpulos monjiles!\nNo tengo en ella poder."
+    # calle_1_0036 .. calle_1_0037
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¿Cómo no, siendo mujer\ny contando quince abriles?"
+    # calle_1_0038 .. calle_1_0041
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Presumes como Don Juan.\nImaginas que las flores\nmás brillantes y mejores\npara ti son y serán;"
+    # calle_1_0042 .. calle_1_0045
+    c_mephisto "que todo a tu devaneo\ncederá del mejor modo:\nmas no sale, amigo, todo\na medida del deseo."
+    # calle_1_0046 .. calle_1_0049
+    c_faust "Señor Maestro, no arguyo;\nmas te digo, sin reproche,\nque es ella mía esta noche,\no dejo yo de ser tuyo."
+    # calle_1_0050 .. calle_1_0053
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "¿Cómo lograrlo? ¡Estás loco!\nNecesito, en conclusión,\npara atisbar la ocasión\nquince días, y aún es poco."
+    # calle_1_0054 .. calle_1_0057
+    c_faust "¡Quince días! ¿Con quién hablo?\nSi uno tuviera por mío,\npara lograr lo que ansío\nno necesitara al diablo."
+    # calle_1_0058 .. calle_1_0061
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Más no dijera un francés!\nContén tus ansias veloces:\nandar de prisa en los goces\nestrategia inhábil es."
+    # calle_1_0062 .. calle_1_0065
+    c_mephisto "Si alcanzar quieres la gloria\nde los placeres más vivos,\ncon luengos preparativos\napréstate a la victoria;"
+    # calle_1_0066 .. calle_1_0069
+    c_mephisto "y con tenaz frenesí,\ncual dice un cuento italiano,\nconstruya tu propia mano\ntu amoroso maniquí."
+    # calle_1_0070 .. calle_1_0071
+    c_faust "Sin el socorro de ese arte\nardiendo está mi deseo."
+    # calle_1_0072 .. calle_1_0075
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Basta, pues, de tiroteo;\ndejemos bromas aparte;\ny entiende que en esta lid\ncontra tan débil criatura,"
+    # calle_1_0076 .. calle_1_0077
+    c_mephisto "no es la audacia quien procura\nel triunfo, sino el ardid."
+    # calle_1_0078 .. calle_1_0081
+    c_faust "Por fuerza, pues, o artificio,\nsi no todo el bien que imploro,\ndame algo de ese tesoro\nque me ha trastornado el juicio."
+    # calle_1_0082 .. calle_1_0085
+    c_faust "Dame su humilde collar,\ndame su ajustada liga,\nalgo con lo cual consiga\nmi ardiente fiebre calmar."
+    # calle_1_0086 .. calle_1_0088
+    c_mephisto "Ya tu impaciencia comparto,\ny para darte consuelo,\nvoy a llevarte en un vuelo..."
+    # calle_1_0089
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¿Adónde?"
+    # calle_1_0090
+    c_mephisto "A su propio cuarto."
+    # calle_1_0091 .. calle_1_0092
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "¿Veré a mi beldad divina?\n¿Mía será?"
+    # calle_1_0093
+    c_mephisto "¡Poco a poco!"
+    # calle_1_0094 .. calle_1_0097
+    c_mephisto "Está, si no me equivoco,\nen casa de una vecina;\npero, en dulce bienandanza\nrespirando allí su ambiente,"
+    # calle_1_0098 .. calle_1_0099
+    c_mephisto "podrás soñar ya presente\ncuanto anheló tu esperanza."
+    # calle_1_0100
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Vamos."
+    # calle_1_0101
+    c_mephisto "Es pronto quizá..."
+    # calle_1_0102 .. calle_1_0103
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Tráeme, pues, para mi bella,\nun regalo, digno de ella."
+    # calle_1_0104
+    c_narrator "Vase."
+    # calle_1_0105 .. calle_1_0108
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Un regalo! Triunfará.\nConozco más de un rincón\ndonde hay tesoros sin cuento:\nvoy a hacer en un momento"
+    # calle_1_0109
+    c_mephisto "la visita de inspección."
+    # calle_1_0110
+    c_narrator "Vase."
+
+label scene_cuartito:
+    scene black
+    show card_cuartito at truecenter
+    with fade
+    pause 2.0
+    hide card_cuartito
+    scene bg margaret_room at tint_none
+    with fade
+    # cuartito_0002 .. cuartito_0005
+    show margarita sorrowful at vn_left
+    with dissolve
+    c_margarita "El deseo ya me abrasa\nde conocer al galán:\npor su porte y ademán\nparece de buena casa."
+    # cuartito_0006 .. cuartito_0009
+    show margarita neutral at vn_left
+    with dissolve
+    c_margarita "Eso no se oculta, no:\nen el rostro va estampado.\nY no fuera tan osado,\na no ser hombre de pro."
+    # cuartito_0010
+    c_narrator "Vase."
+    # cuartito_0011
+    c_narrator "MEFISTÓFELES, FAUSTO"
+    # cuartito_0012
+    show mephisto neutral at vn_center
+    with dissolve
+    c_mephisto "Entra despacio."
+    # cuartito_0013
+    show faust fearful at vn_right
+    with dissolve
+    c_faust "Deseo"
+    # cuartito_0014
+    c_faust "estar solo."
+    # cuartito_0015
+    show mephisto sly at vn_center
+    with dissolve
+    c_mephisto "Para ser"
+    # cuartito_0016 .. cuartito_0017
+    c_mephisto "aposento de mujer,\nhay en él bastante aseo."
+    # cuartito_0018
+    c_narrator "Vase."
+    # cuartito_0019 .. cuartito_0022
+    hide mephisto
+    show faust ecstatic at vn_right
+    with dissolve
+    c_faust "Grata penumbra, que con tenue velo\nel templo del amor cubres sombría,\ninfunde al corazón el vivo anhelo\nque la esperanza del placer rocía."
+    # cuartito_0023 .. cuartito_0026
+    c_faust "De dicha y paz purísima fragancia\nrespiro aquí con inefable gozo.\nEn esta desnudez ¡cuánta abundancia!\n¡Cuánta ventura en este calabozo!"
+    # cuartito_0027
+    c_narrator "Déjase caer en el sillón de cuero, que está al lado de la cama."
+    # cuartito_0028 .. cuartito_0031
+    c_faust "Recíbeme en tu seno, trono santo,\ndo el anciano reinó, gozoso o triste.\n¡Ah! ¡Cuántos niños, con alegre encanto,\npor tus robustos brazos trepar viste!"
+    # cuartito_0032 .. cuartito_0035
+    c_faust "Aquí tal vez, agradecida al cielo,\nla que mi dueño es hoy, niña inocente,\nla enjuta mano del caduco abuelo\nvino a besar con labio floreciente."
+    # cuartito_0036 .. cuartito_0039
+    c_faust "Aquí respiro, hermosa, el que te alienta\ngenio de orden, trabajo y armonía,\ncuya materna voz, que oyes atenta,\nte dicta tu deber de cada día."
+    # cuartito_0040 .. cuartito_0043
+    c_faust "Él te enseña a extender el blanco lino\nsobre la mesa del frugal banquete,\ny a tu mano, que rige mi destino,\nda el estropajo humilde por juguete."
+    # cuartito_0044 .. cuartito_0047
+    c_faust "¡Mano querida! Cual de Dios la diestra,\neres creadora, y el que audaz contemplo\nmísero hogar, de lobreguez siniestra,\ntrocar supiste en luminoso templo."
+    # cuartito_0048
+    c_narrator "Separa una cortina del lecho."
+    # cuartito_0049 .. cuartito_0052
+    c_faust "¡Qué celestial transporte me extasía!\n¡Cuál late ansioso el pecho conmovido!\n¡Cuán feliz en tu seno olvidaría\nel volar de las horas, dulce nido!"
+    # cuartito_0053 .. cuartito_0056
+    c_faust "Aquí en sueños de amor, Naturaleza,\nmodelaste esa angélica criatura;\naquí, cuando a latir el pecho empieza,\nla niña descansó cándida y pura."
+    # cuartito_0057 .. cuartito_0060
+    c_faust "Aquí, la actividad viva y sagrada,\nporque a mi afán su perfección conteste,\ncompletó esa hermosura consumada,\nque imagen es de la beldad celeste."
+    # cuartito_0061 .. cuartito_0064
+    show faust fearful at vn_right
+    with dissolve
+    c_faust "¿Y tú, qué buscas, qué ansías, alma mía?\nGoce interior inunda el pecho exhausto...\n¿Por qué tiemblo, y mi mente se extravía?\n¡Te desconozco, desdichado Fausto!"
+    # cuartito_0065 .. cuartito_0068
+    show faust anguished at vn_right
+    with dissolve
+    c_faust "Mi ser penetra enervadora calma:\nbuscaba el choque del placer violento,\n¡y en dulces sueños se evapora el alma!\n¿Juguete somos del fugaz momento?"
+    # cuartito_0069 .. cuartito_0072
+    c_faust "¡Ay! Si aquí apareciese, pura y bella,\nla pobre niña que burlar ansías,\n¡cuán pequeño, Don Juan, turbado ante ella,\na sus pies mudo y trémulo caerías!"
+    # cuartito_0073
+    show mephisto neutral at vn_center
+    with dissolve
+    c_mephisto "Viene: huyamos al instante."
+    # cuartito_0074
+    c_faust "¡Huyamos! No volveré."
+    # cuartito_0075 .. cuartito_0078
+    show mephisto sly at vn_center
+    with dissolve
+    c_mephisto "Esta cajita encontré;\nmírala: pesa bastante.\nDejémosla en este armario,\ny por quien soy te aseguro"
+    # cuartito_0079 .. cuartito_0082
+    c_mephisto "que producirá el conjuro\nel efecto necesario.\nBaratijas son el don,\npara obtener otras luego:"
+    # cuartito_0083 .. cuartito_0084
+    c_mephisto "el juego, al fin, siempre es juego,\ny las niñas, niñas son."
+    # cuartito_0085
+    show faust fearful at vn_right
+    with dissolve
+    c_faust "No me atrevo..."
+    # cuartito_0086
+    show mephisto scornful at vn_center
+    with dissolve
+    c_mephisto "¡Belcebú"
+    # cuartito_0087 .. cuartito_0090
+    c_mephisto "te confunda! ¿Que la engaño\npiensas, o quieres, tacaño,\nquedarte las joyas tú?\nRenuncia, pues, al placer"
+    # cuartito_0091 .. cuartito_0094
+    c_mephisto "con que tu ilusión halagas,\ny de este modo no me hagas\ntiempo y trabajo perder.\nMas no da tu gentileza"
+    # cuartito_0095 .. cuartito_0097
+    show mephisto sly at vn_center
+    with dissolve
+    c_mephisto "en extremos tan villanos.\nPor mí, lávome las manos\ny me rasco la cabeza."
+    # cuartito_0098
+    c_narrator "Pone el estuche en el armario y rueda la llave."
+    # cuartito_0099 .. cuartito_0102
+    c_mephisto "Ahora, salgamos de aquí.\nConviene ver si la niña\npor sí misma se encariña\ny se enamora de ti."
+    # cuartito_0103 .. cuartito_0106
+    c_mephisto "¡Vamos! ¡Pronto! Va a llegar...\nPareces, tan grave y serio,\nque hayas vuelto al ministerio\nde tu cátedra escolar,"
+    # cuartito_0107 .. cuartito_0110
+    c_mephisto "y que en su negro ropón\nenvuelta, pálida y tísica,\nesté Doña Metafísica\ndictándote la lección."
+    # cuartito_0111
+    c_mephisto "Ven."
+    # cuartito_0112
+    c_narrator "Vanse."
+    # cuartito_0113 .. cuartito_0114
+    hide faust
+    hide mephisto
+    show margarita fearful at vn_left
+    with dissolve
+    c_margarita "¡Qué calor! ¡Qué bochorno!\nAbriré."
+    # cuartito_0115
+    c_narrator "Abriendo la ventana."
+    # cuartito_0116
+    c_margarita "Me parecía"
+    # cuartito_0117 .. cuartito_0120
+    c_margarita "que la noche estaba fría,\ny esto abrasa como un horno.\nMas ¿qué tengo? ¿Qué me pasa?\nSiento un hondo escalofrío..."
+    # cuartito_0121 .. cuartito_0124
+    c_margarita "¡Quisiera que ya, Dios mío,\nmi madre estuviera en casa!\n¡Ay! La angustia me sofoca;\ninquieta, turbada estoy."
+    # cuartito_0125 .. cuartito_0126
+    show margarita neutral at vn_left
+    with dissolve
+    c_margarita "¡Bah! ¡Cuán aprensiva soy!\n¡Cuán aprensiva y cuán loca!"
+    # cuartito_0127
+    c_narrator "Comienza a desnudarse y a cantar."
+    hide margarita
+    with dissolve
+    # cuartito_0128 .. cuartito_0135
+    c_margarita_nvl "Hubo en Thule un rey amante,\nque a su amada fue constante,\nhasta el día que murió;\nella, en el último instante,\nsu copa de oro le dio.\nEl buen rey, desde aquel día,\nsolo en la copa bebía,\nfiel al recuerdo tenaz,"
+    nvl clear
+    # cuartito_0136 .. cuartito_0143
+    c_margarita_nvl "y al beber humedecía\nuna lágrima su faz.\nLlegó el momento postrero,\ny al hijo su reino entero\ncediole, como era ley:\nsolo negó al heredero\nla copa el constante rey.\nEn la torre que el mar besa,"
+    nvl clear
+    # cuartito_0144 .. cuartito_0151
+    c_margarita_nvl "por orden del rey expresa\n--tan próximo ve su fin--\nla Corte en la regia mesa\ngozó el último festín.\nEl postrer sorbo el anciano\nmoribundo soberano\napuró sin vacilar,\ny con enérgica mano"
+    nvl clear
+    # cuartito_0152 .. cuartito_0157
+    c_margarita_nvl "arrojó la copa al mar.\nCon mirada de agonía,\nla copa que al mar caía,\nfijo y ávido, siguió;\nvio como el mar la sorbía,\ny los párpados cerró."
+    nvl clear
+    nvl hide dissolve
+    # cuartito_0158
+    show margarita neutral at vn_left
+    with dissolve
+    c_narrator "Abre el armario para guardar los vestidos, y ve el estuche."
+    # cuartito_0159 .. cuartito_0162
+    show margarita joyful at vn_left
+    with dissolve
+    c_margarita "¿Quién ha puesto en el armario\neste cofrecillo? Abierta\nno he dejado yo la puerta...\n¡Vaya! ¡Es lance extraordinario!"
+    # cuartito_0163 .. cuartito_0166
+    c_margarita "¿Qué contendrá? No lo sé;\na mi madre alguien lo dio\nquizás en prenda. ¡Si yo\npudiera abrir!... Probaré."
+    # cuartito_0167 .. cuartito_0170
+    c_margarita "Cuelga aquí una llave de oro\nde una cintita de seda...\n¿Me atrevo?... Entra bien; ya rueda;\nya está abierto. ¡Qué tesoro!"
+    # cuartito_0171 .. cuartito_0174
+    c_margarita "¡Joyas son!... Riqueza igual\nno vi: lucirlas podría\nen el más solemne día\nla dama más principal."
+    # cuartito_0175 .. cuartito_0178
+    show margarita fearful at vn_left
+    with dissolve
+    c_margarita "Turbada, aturdida estoy:\n¿quién será su dueño, quién?\nVeré si me sienta bien\nel collar."
+    # cuartito_0179
+    c_narrator "Poniéndoselo al espejo."
+    # cuartito_0180
+    c_margarita "¡Otra ya soy!"
+    # cuartito_0181 .. cuartito_0184
+    c_margarita "Si, a lo menos, fueran míos\nlos zarcillos... Porque es cosa\nbien pobre un rostro de rosa\nsin ajenos atavíos."
+    # cuartito_0185 .. cuartito_0188
+    show margarita neutral at vn_left
+    with dissolve
+    c_margarita "De juventud y beldad\nlos hombres ya no hacen caso;\nsi te echan flores al paso,\nes por lástima y piedad."
+    # cuartito_0189 .. cuartito_0192
+    c_margarita "¿Para qué ser bella quieres?\nHoy solo existe un tesoro,\ny ese tesoro es el oro:\n¡el oro!... ¡Pobres mujeres!"
+
+label scene_paseo:
+    scene black
+    show card_paseo at truecenter
+    with fade
+    pause 2.0
+    hide card_paseo
+    scene bg promenade at tint_none
+    with fade
+    # paseo_0002 .. paseo_0005
+    show mephisto scornful at vn_right
+    with dissolve
+    c_mephisto "¡Por las llamas del Averno!...\n¡Por las burlas del amor!...\nSi algo hay más malo, por ello\nquiero jurar, ¡voto a bríos!"
+    # paseo_0006 .. paseo_0009
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¿Qué tienes? ¿Qué te acongoja?\n¿Has perdido la razón?\nUn gesto como ese gesto\nno vi nunca."
+    # paseo_0010
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Tal estoy,"
+    # paseo_0011 .. paseo_0012
+    c_mephisto "que me diera hoy mismo al Diablo,\nsi el Diablo no fuese yo."
+    # paseo_0013
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¿Qué te pasa?"
+    # paseo_0014
+    show mephisto scornful at vn_right
+    with dissolve
+    c_mephisto "¿Qué me pasa?"
+    # paseo_0015 .. paseo_0018
+    c_mephisto "El petardo más atroz...\nEl regalo de tu niña\nun cura me lo birló.\nApenas lo vio la madre,"
+    # paseo_0019 .. paseo_0022
+    c_mephisto "entrole pasmo y temblor:\ntiene el olfato muy fino\nla buena sierva de Dios;\nescudriñándolo todo"
+    # paseo_0023 .. paseo_0026
+    c_mephisto "anda, con ojo avizor,\npara indagar si las cosas\nsantas o profanas son,\ny que no era don divino"
+    # paseo_0027 .. paseo_0030
+    c_mephisto "el presente adivinó.\n«Bienes mal ganados, dijo,\ncorrompen el corazón:\nllevemos, hija, estas joyas"
+    # paseo_0031 .. paseo_0034
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "a la Madre del Señor,\npara conseguir la gracia\npor su santa intercesión.»\nLa pobre Margaritica"
+    # paseo_0035 .. paseo_0038
+    c_mephisto "torció el gesto y observó\nque a caballo dado..., y luego\nun hombre sin religión\nno ha de ser quien tan amable"
+    # paseo_0039 .. paseo_0042
+    c_mephisto "se presenta. Al confesor\nllama la madre, y el lance\nle cuentan entre las dos.\nTodo jubiloso el cura"
+    # paseo_0043 .. paseo_0046
+    c_mephisto "exclama: «Tenéis razón:\nquien renuncia humanos bienes,\notros logra de más pro.\nLa Iglesia tiene buen vientre:"
+    # paseo_0047 .. paseo_0050
+    c_mephisto "ella acepta cualquier don;\ny a veces reinos enteros,\npor mayor gloria de Dios,\ntragó, sin sentir por ende"
+    # paseo_0051 .. paseo_0053
+    c_mephisto "empacho ni indigestión.\nSolo a la Iglesia, señora,\ntal privilegio se dio.»"
+    # paseo_0054 .. paseo_0055
+    c_faust "Los reyes y los judíos\ngozan de igual distinción."
+    # paseo_0056 .. paseo_0059
+    c_mephisto "Y así, diciendo y haciendo,\ncon la frescura mayor,\nel cura, collar, zarcillos\ny sortijas se embolsó;"
+    # paseo_0060 .. paseo_0063
+    c_mephisto "y cual si fueran un cesto\nde nueces, sin más adiós\nni más gracias, me las deja,\ndándoles la bendición."
+    # paseo_0064
+    c_faust "¿Y Margarita?"
+    # paseo_0065
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Mohína,"
+    # paseo_0066 .. paseo_0069
+    c_mephisto "recelosa, y... ¿qué sé yo?\n¡Si ella misma no comprende\nlo que pasa en su interior!\nPero asegurarte puedo"
+    # paseo_0070 .. paseo_0072
+    c_mephisto "que, dándose cuenta o no,\npiensa mucho en el obsequio\ny en el fino obsequiador."
+    # paseo_0073 .. paseo_0076
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡Pobre niña! Sus congojas\nme llegan al corazón.\nVenga otro estuche, que al cabo\nno era aquel de gran valor."
+    # paseo_0077 .. paseo_0078
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Para Vuestra Señoría\nbaratijas todo son..."
+    # paseo_0079 .. paseo_0082
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Haz lo que te digo, y toma\nel consejo que te doy:\naplícate a la vecina.\nA diablo predicador"
+    # paseo_0083 .. paseo_0084
+    c_faust "no te metas. ¿Faltan joyas?\nTráelas, pues."
+    # paseo_0085
+    c_mephisto "Por ellas voy."
+    # paseo_0086
+    c_narrator "FAUSTO se va."
+    # paseo_0087 .. paseo_0090
+    hide faust
+    with dissolve
+    c_mephisto "Capaz sería este loco,\npor divertir a su amor,\nde hacer fuegos de artificio\ncon estrellas, luna y sol."
+
+label scene_casa_vecina:
+    scene black
+    show card_casa_vecina at truecenter
+    with fade
+    pause 2.0
+    hide card_casa_vecina
+    scene bg neighbour_house at tint_none
+    with fade
+    # casa_vecina_0001 .. casa_vecina_0004
+    show marta distressed at vn_left
+    with dissolve
+    c_marta "¡Dios perdone a mi marido!\n¡Cuán mal conmigo se porta!\nIr siempre de Zeca en Meca,\ndejándome pobre y sola..."
+    # casa_vecina_0005 .. casa_vecina_0008
+    c_marta "Y jamás le di motivo:\nDios sabe cuán cariñosa\nhe sido con él. (Llorando.) Acaso\nhabrá muerto: ¡qué congoja!"
+    # casa_vecina_0009 .. casa_vecina_0010
+    c_marta "¡Provista hallárame, al menos,\nde su partida mortuoria!"
+    # casa_vecina_0011
+    show margarita neutral at vn_center
+    with dissolve
+    c_margarita "Señora Marta..."
+    # casa_vecina_0012
+    show marta neutral at vn_left
+    with dissolve
+    c_marta "¿Qué quieres,"
+    # casa_vecina_0013
+    c_marta "Margarita?"
+    # casa_vecina_0014
+    show margarita joyful at vn_center
+    with dissolve
+    c_margarita "Se me doblan"
+    # casa_vecina_0015 .. casa_vecina_0018
+    c_margarita "las rodillas. ¡Otro hallazgo\nen mi armario! Una preciosa\ncajita de ébano, y dentro\nlas más espléndidas joyas."
+    # casa_vecina_0019 .. casa_vecina_0020
+    c_margarita "¡Un gran tesoro! No pueden\ncomparárseles las otras."
+    # casa_vecina_0021 .. casa_vecina_0022
+    c_marta "¡No lo digas a tu madre;\nno las lleve a la parroquia!"
+    # casa_vecina_0023
+    c_margarita "¡Mirad, cómo resplandecen!"
+    # casa_vecina_0024
+    show marta coy at vn_left
+    with dissolve
+    c_marta "Ven aquí; ¡mujer dichosa!"
+    # casa_vecina_0025
+    c_narrator "Le pone las joyas."
+    # casa_vecina_0026 .. casa_vecina_0028
+    c_margarita "¡Qué lástima no lucirlas\nen la calle a cualquier hora,\no en la iglesia!..."
+    # casa_vecina_0029
+    show marta neutral at vn_left
+    with dissolve
+    c_marta "Ven a verme,"
+    # casa_vecina_0030 .. casa_vecina_0033
+    c_marta "y ante el espejo, a tus solas,\nte engalanas y deleitas.\nLuego, ocasiones de sobra\nvendrán, en que poco a poco"
+    # casa_vecina_0034 .. casa_vecina_0037
+    c_marta "vayas sacándolas todas.\nHoy la cadena; mañana\nlos zarcillos... Si lo nota\ntu madre, nada más fácil"
+    # casa_vecina_0038
+    c_marta "que inventar cualquier historia."
+    # casa_vecina_0039 .. casa_vecina_0040
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "¿De qué mano estos presentes\nprovendrán? ¡Es sospechosa!..."
+    # casa_vecina_0041
+    c_narrator "Llaman a la puerta."
+    # casa_vecina_0042
+    c_margarita "¡Cielos! ¡Si fuera mi madre!..."
+    # casa_vecina_0043 .. casa_vecina_0044
+    c_marta "Es un hidalgo: persona\ndesconocida... ¡Adelante!"
+    # casa_vecina_0045 .. casa_vecina_0048
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Perdonad: sin ceremonia\nme presento. Mi propósito\nes hablar con la señora\nMarta Espadilla."
+    # casa_vecina_0049
+    c_marta "¿En qué puedo"
+    # casa_vecina_0050
+    c_marta "serviros? Yo soy."
+    # casa_vecina_0051
+    c_mephisto "La honra"
+    # casa_vecina_0052 .. casa_vecina_0055
+    c_mephisto "me basta, de conoceros.\nVolveré: tenéis ahora\nvisita de alto copete.\nVendré a la tarde."
+    # casa_vecina_0056
+    show marta coy at vn_left
+    with dissolve
+    c_marta "Te toma"
+    # casa_vecina_0057 .. casa_vecina_0058
+    c_marta "por una dama, ¡Dios santo!\n¿Lo escuchaste?"
+    # casa_vecina_0059
+    show margarita neutral at vn_center
+    with dissolve
+    c_margarita "La lisonja"
+    # casa_vecina_0060 .. casa_vecina_0062
+    c_margarita "agradezco. Soy doncella\nhumilde y pobre. Estas joyas\nno son mías."
+    # casa_vecina_0063
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Oh, no es eso!"
+    # casa_vecina_0064 .. casa_vecina_0066
+    c_mephisto "El ademán, la imperiosa\nmirada... Mucho me place\nel encuentro."
+    # casa_vecina_0067
+    show marta neutral at vn_left
+    with dissolve
+    c_marta "¿Qué ocasiona"
+    # casa_vecina_0068
+    c_marta "vuestra visita?"
+    # casa_vecina_0069
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Quisiera"
+    # casa_vecina_0070 .. casa_vecina_0073
+    c_mephisto "nuevas más satisfactorias\ncomunicaros, y os ruego\nque no estalle vuestra cólera\nsobre el portador. Ha muerto"
+    # casa_vecina_0074 .. casa_vecina_0075
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "vuestro esposo, y por mi boca\nos saluda."
+    # casa_vecina_0076
+    show marta distressed at vn_left
+    with dissolve
+    c_marta "¡Mi marido"
+    # casa_vecina_0077 .. casa_vecina_0078
+    c_marta "ha muerto! ¡Misericordia!\n¡Pobre de mí!... Yo fallezco..."
+    # casa_vecina_0079 .. casa_vecina_0080
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "No os entreguéis a esa loca\ndesesperación..."
+    # casa_vecina_0081
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Oídme,"
+    # casa_vecina_0082
+    c_mephisto "si queréis saber la historia."
+    # casa_vecina_0083 .. casa_vecina_0085
+    c_margarita "Por estos trances, quisiera\nno amar nunca. ¿Quién soporta\ntal pérdida?"
+    # casa_vecina_0086
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Todo tiene"
+    # casa_vecina_0087 .. casa_vecina_0088
+    c_mephisto "compensación. Sin zozobras\nno hay placeres."
+    # casa_vecina_0089
+    show marta neutral at vn_left
+    with dissolve
+    c_marta "Referidme,"
+    # casa_vecina_0090
+    c_marta "señor, sus últimas horas."
+    # casa_vecina_0091 .. casa_vecina_0094
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "En Padua, junto a la iglesia\nde San Antonio famosa,\nen terreno bendecido,\nel eterno sueño goza."
+    # casa_vecina_0095
+    c_marta "¿Y os dio para mí?"
+    # casa_vecina_0096
+    c_mephisto "Un encargo"
+    # casa_vecina_0097 .. casa_vecina_0100
+    c_mephisto "importante: su memoria\nhabéis de honrar, consagrándole\ntrescientas misas. Mi bolsa,\npor lo demás, está huera."
+    # casa_vecina_0101 .. casa_vecina_0104
+    show marta distressed at vn_left
+    with dissolve
+    c_marta "¿Qué decís? ¿Ni una bicoca\npor recuerdo? ¿Ni un humilde\njoyel, que para su esposa\nel ganapán más ingrato"
+    # casa_vecina_0105 .. casa_vecina_0107
+    c_marta "guarda en sus pobres alforjas,\naunque haya de pasar hambre\ny haya de pedir limosna?"
+    # casa_vecina_0108 .. casa_vecina_0111
+    c_mephisto "Señora, lo siento mucho;\nmas debo decir, en honra\ndel difunto, que el dinero\nno derrochó. Con devota"
+    # casa_vecina_0112 .. casa_vecina_0113
+    c_mephisto "contrición lloró sus culpas\ny su suerte poco próspera."
+    # casa_vecina_0114 .. casa_vecina_0115
+    c_margarita "¡Desdichado! Más de un requiem\nle prometo."
+    # casa_vecina_0116
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Encantadora"
+    # casa_vecina_0117 .. casa_vecina_0118
+    c_mephisto "muchacha! ¡Y esos abriles\nestán ya pidiendo bodas!"
+    # casa_vecina_0119
+    show margarita neutral at vn_center
+    with dissolve
+    c_margarita "Es pronto."
+    # casa_vecina_0120
+    c_mephisto "Si aún no marido,"
+    # casa_vecina_0121 .. casa_vecina_0123
+    c_mephisto "cortejo. ¡Qué mayor gloria\nque ser posesor y dueño\nde un tesoro de tal monta!"
+    # casa_vecina_0124 .. casa_vecina_0125
+    c_margarita "Cortejos no se acostumbran\nen esta tierra."
+    # casa_vecina_0126
+    c_mephisto "Y ¿qué importa?"
+    # casa_vecina_0127
+    c_mephisto "Nada más fácil..."
+    # casa_vecina_0128
+    show marta neutral at vn_left
+    with dissolve
+    c_marta "El hilo"
+    # casa_vecina_0129
+    c_marta "seguid de la infausta crónica."
+    # casa_vecina_0130 .. casa_vecina_0133
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Vi expirar al triste enfermo.\nNo era su cama mortuoria\nde estiércol; mas sí de paja\npodrida, sucia y hedionda."
+    # casa_vecina_0134 .. casa_vecina_0137
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Pero ejemplar, cristianísimo,\nfue su tránsito. «¡Aún es floja\nla penitencia!, exclamaba.\n¡Me abomino! ¡Me abochornan"
+    # casa_vecina_0138 .. casa_vecina_0141
+    c_mephisto "mis culpas! ¡Mujer, oficio\ndejar!... ¡Cuánto me trastorna\nesa idea!... ¡Si supiese\nque ella, al menos, me perdona!»"
+    # casa_vecina_0142
+    c_marta "¡Ya le perdoné!"
+    # casa_vecina_0143
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Y seguía:"
+    # casa_vecina_0144 .. casa_vecina_0145
+    c_mephisto "«Aun cuando culpa, y no poca,\nella tuvo.»"
+    # casa_vecina_0146
+    show marta distressed at vn_left
+    with dissolve
+    c_marta "Mintió en eso."
+    # casa_vecina_0147 .. casa_vecina_0148
+    c_marta "¡A los bordes de la fosa\ntal calumnia!..."
+    # casa_vecina_0149
+    c_mephisto "El pobrecillo"
+    # casa_vecina_0150 .. casa_vecina_0153
+    c_mephisto "deliraba, pues: «¡Cuán pronta\nhuyó la paz!, exclamaba:\n¡qué vida!, ¡qué batahola!\nDarle cada año un infante;"
+    # casa_vecina_0154 .. casa_vecina_0157
+    c_mephisto "buscar, para tantas bocas,\ndespués el pan, el pan, digo,\nen su acepción llana y propia;\ny jamás comer tranquilo"
+    # casa_vecina_0158
+    c_mephisto "mi porción.»"
+    # casa_vecina_0159
+    c_marta "¿Y de su esposa"
+    # casa_vecina_0160 .. casa_vecina_0161
+    c_marta "olvidó así la ternura,\nla constancia, las congojas?..."
+    # casa_vecina_0162 .. casa_vecina_0165
+    c_mephisto "¡Oh, no! Guardaba en el fondo\ndel alma vuestra memoria.\n«Cuando partí, me decía,\nde Malta, oración ansiosa"
+    # casa_vecina_0166 .. casa_vecina_0169
+    c_mephisto "recé por ella y mis hijos:\nla oyó Dios, y nuestra flota\na una galera otomana\ndio caza al punto; apresola:"
+    # casa_vecina_0170 .. casa_vecina_0173
+    c_mephisto "tesoros para el Gran Turco\nllevaba. Diose a la tropa\nla recompensa debida,\ny mi parte no fue corta.»"
+    # casa_vecina_0174 .. casa_vecina_0175
+    c_marta "¿Dónde están esas riquezas?\nQuizá las guardó recónditas..."
+    # casa_vecina_0176 .. casa_vecina_0179
+    c_mephisto "¿Quién sabe, quién sabe adónde\nlas llevaron a estas horas\nlos cuatro vientos?... En Nápoles\nprendose de su persona"
+    # casa_vecina_0180 .. casa_vecina_0183
+    c_mephisto "una gentil damisela,\ny pruebas diole tan hondas\nde fino amor, que el pobrete\nhasta la muerte sintiolas."
+    # casa_vecina_0184 .. casa_vecina_0187
+    c_marta "¡Ladrón de sus propios hijos!\n¿No pudieron la deshonra\nni la miseria apartarle\nde esa vida ignominiosa?"
+    # casa_vecina_0188 .. casa_vecina_0191
+    c_mephisto "Pero, al fin, murió. ¡Si fuera\nyo su viuda!... Negras tocas\nun año, y después en busca\nde otros goces y otras glorias."
+    # casa_vecina_0192 .. casa_vecina_0195
+    c_marta "Otro como mi primero\nno hallaré. Cabeza loca,\npero ¡un corazón!... Más falta\nno tenía, ni más sobras,"
+    # casa_vecina_0196 .. casa_vecina_0197
+    c_marta "que gustar sobradamente\ndel vino, el juego y las mozas."
+    # casa_vecina_0198 .. casa_vecina_0201
+    c_mephisto "Menos malo, si gozabais\nlibertad para las tornas.\nA trocar estoy dispuesto,\nsi ese trato os acomoda,"
+    # casa_vecina_0202
+    c_mephisto "nuestro anillo."
+    # casa_vecina_0203
+    show marta neutral at vn_left
+    with dissolve
+    c_marta "El buen hidalgo"
+    # casa_vecina_0204
+    c_marta "es dado a chanzas y bromas."
+    # casa_vecina_0205 .. casa_vecina_0207
+    c_mephisto "¡Paso atrás! Al mismo diablo\ntal vez la palabra coja\nla viuda."
+    # casa_vecina_0208
+    c_narrator "Dirigiéndose a MARGARITA."
+    # casa_vecina_0209
+    c_mephisto "¿Qué tal se encuentra"
+    # casa_vecina_0210
+    c_mephisto "el corazoncito, hermosa?"
+    # casa_vecina_0211
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "No os comprendo."
+    # casa_vecina_0212
+    c_narrator "Aparte.) ¡Qué inocencia! El cielo os guarde. (Despidiéndose."
+    # casa_vecina_0213
+    show margarita neutral at vn_center
+    with dissolve
+    c_margarita "Él os oiga."
+    # casa_vecina_0214 .. casa_vecina_0217
+    c_marta "Escuchad: ¿fuera posible\nlograr documento en forma,\nque acredite cuándo el pobre\nmurió y en dónde reposa?"
+    # casa_vecina_0218 .. casa_vecina_0221
+    c_marta "Gústame tener en orden\nmis asuntos y mis cosas...\nSi publicase su muerte\nla Gaceta..."
+    # casa_vecina_0222
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Lo que otorgan"
+    # casa_vecina_0223 .. casa_vecina_0226
+    c_mephisto "y declaran dos testigos,\nverdad, que no admite contra,\nsiempre ha sido. Un camarada\nva conmigo, que la historia"
+    # casa_vecina_0227 .. casa_vecina_0228
+    c_mephisto "conoce, y dará fe de ella.\nLo traeré."
+    # casa_vecina_0229
+    c_marta "Venga en buen hora."
+    # casa_vecina_0230 .. casa_vecina_0233
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¿También estará la niña?\nMozo es de rango y de nota;\nha corrido mucho, y sabe\ntratar a las damas."
+    # casa_vecina_0234
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "Toda"
+    # casa_vecina_0235
+    c_margarita "turbada estaré."
+    # casa_vecina_0236
+    c_mephisto "¿Turbada?"
+    # casa_vecina_0237
+    c_mephisto "¡Ni ante el mayor rey de Europa!"
+    # casa_vecina_0238 .. casa_vecina_0240
+    c_marta "A la tarde os aguardamos.\nEstaremos a la sombra\ndel jardín, tras de la casa."
+    # casa_vecina_0241
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Hasta la tarde, señora."
+
+label scene_calle_2:
+    scene black
+    show card_calle_2 at truecenter
+    with fade
+    pause 2.0
+    hide card_calle_2
+    scene bg street at tint_none
+    with fade
+    # calle_2_0002
+    show faust neutral at vn_left
+    show mephisto neutral at vn_right
+    with dissolve
+    c_faust "¿Cómo va? ¿Qué adelantamos?"
+    # calle_2_0003 .. calle_2_0006
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Te abrasa ya la impaciencia!\nMargarita será tuya\npronto. Esta tarde has de verla\nen casa de una vecina,"
+    # calle_2_0007 .. calle_2_0009
+    c_mephisto "tal que mejor no se encuentra\npara el papel honrosísimo\nde buscona y de tercera."
+    # calle_2_0010
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "¡Muy bien! ¡Soberbio!"
+    # calle_2_0011
+    c_mephisto "Pero algo"
+    # calle_2_0012
+    c_mephisto "me piden en recompensa."
+    # calle_2_0013
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Amor con amor se paga."
+    # calle_2_0014 .. calle_2_0017
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Hay que dar en toda regla\njurídico testimonio\nde que allá, en Padua la bella,\nal cuerpo de su marido"
+    # calle_2_0018
+    c_mephisto "echaron sagrada tierra."
+    # calle_2_0019
+    c_faust "Bien: emprendamos el viaje."
+    # calle_2_0020 .. calle_2_0022
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Oh simplicitas! ¿Quién piensa\ncosa tal? Sin más pesquisas,\natestigua cuanto quieran."
+    # calle_2_0023 .. calle_2_0024
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Si otro plan mejor no tienes,\naquí dio fin nuestra empresa."
+    # calle_2_0025 .. calle_2_0028
+    c_mephisto "¡Oh santo varón! ¡Oh insigne\nvirtud! ¿Será la primera\ny última vez que atestigües\nen falso? Di: ¿no recuerdas"
+    # calle_2_0029 .. calle_2_0032
+    c_mephisto "cuando con labio imperioso,\ncuando con frente altanera,\nde Dios, del hombre y el mundo,\ndel alma y la inteligencia,"
+    # calle_2_0033 .. calle_2_0036
+    c_mephisto "dabas, a diestro y siniestro,\ndefiniciones quiméricas?\n¿Sabías tú más de aquello\nque de las horas postreras"
+    # calle_2_0037 .. calle_2_0038
+    c_mephisto "del buen señor de Espadilla,\nque in sancta pace requiescat?"
+    # calle_2_0039
+    c_faust "¡Siempre embustero y sofista!..."
+    # calle_2_0040 .. calle_2_0043
+    c_mephisto "Es que mi vista penetra\nmás hondo, y sé que mañana\nirás, limpia la conciencia,\na seducir a la pobre"
+    # calle_2_0044 .. calle_2_0045
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Margarita, y mil protestas\nle harás de amor, de amor puro..."
+    # calle_2_0046
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "¡Con toda el alma!"
+    # calle_2_0047
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¿De veras?"
+    # calle_2_0048 .. calle_2_0051
+    c_mephisto "Luego, con el alma toda,\nle dirás que es tu primera\npasión, y con toda el alma\nle prometerás perpetuas"
+    # calle_2_0052
+    c_mephisto "fidelidad y constancia..."
+    # calle_2_0053 .. calle_2_0056
+    c_faust "¡Y le diré lo que sienta!\nCuando en mi ardiente deliquio,\ncuando en mi dicha suprema,\npara expresar mis afanes"
+    # calle_2_0057 .. calle_2_0060
+    c_faust "frases mis labios no encuentran,\ny cruzando el universo\nrevolviendo cielo y tierra,\nde las palabras más nobles"
+    # calle_2_0061 .. calle_2_0064
+    c_faust "mi frenesí se apodera,\ny a la fiebre en que me abraso\nla llamo infinita, eterna,\n¿es eso ilusión diabólica?"
+    # calle_2_0065
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¿Es mentira y apariencia?"
+    # calle_2_0066
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Tengo, pues, razón."
+    # calle_2_0067
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Escucha,"
+    # calle_2_0068 .. calle_2_0071
+    c_faust "y déjame en paz la lengua.\nA aquel que callar no quiere\ndarle la razón es fuerza...\nTu implacable taravilla"
+    # calle_2_0072 .. calle_2_0074
+    c_faust "me cansa, aturde y marea:\n¡tienes razón! Sobre todo,\nporque he de hacer lo que quieras."
+
+label scene_jardin:
+    scene black
+    show card_jardin at truecenter
+    with fade
+    pause 2.0
+    hide card_jardin
+    scene bg garden at tint_none
+    with fade
+    # jardin_0002 .. jardin_0005
+    show margarita joyful at vn_left
+    with dissolve
+    c_margarita "Sois conmigo tan galán,\nque abochornada os escucho.\nLos que viajan y ven mucho,\nbuscan, allá donde van,"
+    # jardin_0006 .. jardin_0009
+    c_margarita "momentánea distracción;\npues poco, de otra manera,\ninteresaros pudiera\nmi pobre conversación."
+    # jardin_0010 .. jardin_0013
+    show faust ecstatic at vn_center
+    with dissolve
+    c_faust "Un acento de tus labios,\nde tus ojos un destello,\nvalen más que todo aquello\nque nos enseñan los sabios."
+    # jardin_0014
+    c_narrator "Le besa la mano."
+    # jardin_0015 .. jardin_0018
+    show margarita neutral at vn_left
+    with dissolve
+    c_margarita "¿Qué hacéis? ¿Os dignáis besar\nmano tan áspera y ruda?\nPreciso es que a todo acuda\ny trabaje sin cesar."
+    # jardin_0019 .. jardin_0020
+    c_margarita "Mi madre es tan hacendosa\ny exigente..."
+    # jardin_0021
+    c_narrator "Pasan."
+    # jardin_0022
+    show marta neutral at vn_right
+    with dissolve
+    c_marta "¿Y vais así,"
+    # jardin_0023
+    c_marta "siempre en movimiento?"
+    # jardin_0024
+    show mephisto sly at vn_left
+    with dissolve
+    c_mephisto "Oh, sí:"
+    # jardin_0025 .. jardin_0028
+    c_mephisto "la necesidad acosa,\nurge el negocio; y a fe\nque es triste, siempre intranquilo,\ndejar más pronto el asilo"
+    # jardin_0029 .. jardin_0030
+    c_mephisto "que más grato al alma fue.\nPero, el deber..."
+    # jardin_0031
+    c_marta "Mientras dura"
+    # jardin_0032 .. jardin_0035
+    c_marta "la juventud divertida,\nno es malo pasar la vida\nyendo siempre a la ventura.\nMas los años breves son,"
+    # jardin_0036 .. jardin_0038
+    c_marta "y al acercarse a la muerte\ninsoportable es la suerte\ndel infeliz solterón."
+    # jardin_0039 .. jardin_0040
+    show mephisto neutral at vn_left
+    with dissolve
+    c_mephisto "Esa vejez, triste y fría,\nmiro con horror también."
+    # jardin_0041 .. jardin_0042
+    c_marta "Pues, señor, pensadlo bien,\nhoy que es tiempo todavía."
+    # jardin_0043
+    c_narrator "Pasan."
+    # jardin_0044 .. jardin_0047
+    show margarita sorrowful at vn_left
+    with dissolve
+    c_margarita "Quien marchó, pronto olvidó,\ny aunque en vos así no fuera,\namigos tendréis doquiera\nque sepan más que sé yo."
+    # jardin_0048 .. jardin_0051
+    show faust neutral at vn_center
+    with dissolve
+    c_faust "¿Qué es el saber? ¡Vanidad!\n¿Por qué, mereciendo tanto,\nno aprecia su valor santo\nla inocente ingenuidad?"
+    # jardin_0052 .. jardin_0055
+    show faust ecstatic at vn_center
+    with dissolve
+    c_faust "La sencillez sin recelo\nque goza el grato reposo:\neste es el don más precioso\nque nos puede dar el cielo."
+    # jardin_0056 .. jardin_0059
+    c_margarita "Pues, si os lleva lejos Dios,\npensad algún rato en mí:\n¡yo tendré tantos aquí\npara acordarme de vos!..."
+    # jardin_0060
+    show faust neutral at vn_center
+    with dissolve
+    c_faust "¿Tan sola estás?..."
+    # jardin_0061
+    show margarita neutral at vn_left
+    with dissolve
+    c_margarita "¿Qué he de hacer?"
+    # jardin_0062 .. jardin_0065
+    c_margarita "La labor nunca es escasa,\npues, aunque es chica la casa,\nsiempre hay algo a qué atender.\nNo queremos admitir"
+    # jardin_0066 .. jardin_0069
+    c_margarita "sirvienta, y hay que lavar\ny coser y cocinar,\nhay que entrar, hay que salir.\nMi madre, ¡es tan pulcra en todo,"
+    # jardin_0070 .. jardin_0073
+    c_margarita "tan exacta!... Y a fe mía,\nsi otra fuera, no tendría\nque afanarse de ese modo.\nMuchos gastan, bien lo advierto,"
+    # jardin_0074 .. jardin_0077
+    c_margarita "aunque a su estado no cuadre...\nHacienda nos dejó el padre,\nnuestra casita y el huerto.\nY ahora no me quejo, no;"
+    # jardin_0078 .. jardin_0081
+    c_margarita "tengo un vivir sosegado:\nmi único hermano es soldado,\ny mi hermanita murió.\n¡Mucho me hizo padecer!"
+    # jardin_0082 .. jardin_0084
+    show margarita sorrowful at vn_left
+    with dissolve
+    c_margarita "Pero de nuevo por ella\npasara la angustia aquella:\n¡tanto se hacía querer!"
+    # jardin_0085 .. jardin_0086
+    c_faust "Si era semejante a ti,\nángel del cielo sería."
+    # jardin_0087 .. jardin_0090
+    c_margarita "Cura de ella yo tenía,\ny estaba loca por mí.\nNació --¡desgraciada suerte!--\ndespués de morir el padre,"
+    # jardin_0091 .. jardin_0094
+    c_margarita "y estuvo entonces mi madre\na las puertas de la muerte.\nCuando, tras larga amargura,\npudo, al fin, dejar el lecho,"
+    # jardin_0095 .. jardin_0098
+    c_margarita "estaba exhausto su pecho\npara la infeliz criatura.\nYo un día tras otro día,\nsin detenerme por nada,"
+    # jardin_0099 .. jardin_0102
+    show margarita joyful at vn_left
+    with dissolve
+    c_margarita "de agua y leche azucarada\nla alimentaba y nutría.\nY de esa dulce manera,\ncontemplándome y sonriendo,"
+    # jardin_0103 .. jardin_0104
+    c_margarita "iba en mis brazos creciendo,\ncual si mi propia hija fuera."
+    # jardin_0105 .. jardin_0106
+    c_faust "Y entonces, di, ¿no es verdad?,\n¿gozaste el más puro bien?"
+    # jardin_0107 .. jardin_0110
+    show margarita sorrowful at vn_left
+    with dissolve
+    c_margarita "Sí; pero había también\nhoras de amarga ansiedad.\nComo estaba colocada\njunto a mi cama su cuna,"
+    # jardin_0111 .. jardin_0114
+    c_margarita "no pasaba noche alguna\nsin despertar azorada;\npues, apenas se movía,\npara procurarle abrigo,"
+    # jardin_0115 .. jardin_0118
+    c_margarita "acostábala conmigo,\no en mis brazos la mecía.\nOra le daba alimento;\nora, con impulso blando,"
+    # jardin_0119 .. jardin_0122
+    show margarita neutral at vn_left
+    with dissolve
+    c_margarita "paseábala cantando\npor el oscuro aposento.\nY había que madrugar\na la mañana siguiente,"
+    # jardin_0123 .. jardin_0126
+    c_margarita "ir al mercado, a la fuente,\ny afanarse sin cesar;\ny así, no siempre, señor,\nestá el ánimo contento;"
+    # jardin_0127 .. jardin_0128
+    c_margarita "mas, con tanto movimiento,\nse come y duerme mejor."
+    # jardin_0129
+    c_narrator "Pasan."
+    # jardin_0130 .. jardin_0133
+    show marta coy at vn_right
+    with dissolve
+    c_marta "¡Pobres mujeres! Gastamos\nen balde nuestras razones;\nson para los solterones\ninútiles los reclamos."
+    # jardin_0134 .. jardin_0135
+    show mephisto sly at vn_left
+    with dissolve
+    c_mephisto "Solo una mujer cual vos\ncatequizarme podría."
+    # jardin_0136 .. jardin_0137
+    c_marta "¿Tenéis el alma aún vacía?\nSed franco, aquí entre los dos."
+    # jardin_0138 .. jardin_0141
+    c_mephisto "Dice un adagio profundo:\n«Buen hogar y esposa honrada,\ndicha es que no está pagada\ncon todo el oro del mundo.»"
+    # jardin_0142 .. jardin_0143
+    c_marta "Digo si guardáis presente\nalgún recuerdo..."
+    # jardin_0144
+    c_mephisto "Hasta ahora"
+    # jardin_0145 .. jardin_0146
+    c_mephisto "en todas partes, señora,\nfui acogido cordialmente."
+    # jardin_0147 .. jardin_0148
+    c_marta "¿Nunca sentisteis arder\nvuestro corazón herido?..."
+    # jardin_0149 .. jardin_0150
+    show mephisto neutral at vn_left
+    with dissolve
+    c_mephisto "Siempre mal me ha parecido\nel jugar con la mujer."
+    # jardin_0151 .. jardin_0152
+    show marta distressed at vn_right
+    with dissolve
+    c_marta "Inútil será que os hable...\nNo me explico."
+    # jardin_0153
+    c_mephisto "O no os entiendo;"
+    # jardin_0154 .. jardin_0155
+    c_mephisto "pero ya voy comprendiendo\nque sois muy buena y amable."
+    # jardin_0156
+    c_narrator "Pasan."
+    # jardin_0157 .. jardin_0158
+    show faust fearful at vn_center
+    with dissolve
+    c_faust "Apenas puse aquí el pie,\n¿me reconociste, oh cielo?"
+    # jardin_0159 .. jardin_0160
+    show margarita fearful at vn_left
+    with dissolve
+    c_margarita "Los ojos, turbada, al suelo,\n¿no visteis cómo bajé?"
+    # jardin_0161 .. jardin_0164
+    show faust neutral at vn_center
+    with dissolve
+    c_faust "Y dispensando osadías,\nque amor inspira y dirige,\n¿perdonas lo que te dije\ncuando del templo salías?"
+    # jardin_0165 .. jardin_0168
+    c_margarita "¡Corrida quedé y cortada!\nNunca estuve en caso igual:\nde mí nadie piensa mal,\nni he sido en lenguas llevada."
+    # jardin_0169 .. jardin_0172
+    c_margarita "¿Qué, decía, habrá encontrado\nde provocador en mí,\npara acercárseme así,\ncon tan libre desenfado?"
+    # jardin_0173 .. jardin_0176
+    c_margarita "¿Por quién me toma? ¿Qué piensa?\nGritaba así mi despecho;\npero algo había en mi pecho\nque hablaba en vuestra defensa;"
+    # jardin_0177 .. jardin_0180
+    show margarita joyful at vn_left
+    with dissolve
+    c_margarita "y entonces --sábelo Dios--\ncontra mí me revolvía,\nal ver que, como debía,\nno me indignaba con vos."
+    # jardin_0181
+    show faust ecstatic at vn_center
+    with dissolve
+    c_faust "¡Dulce amor!"
+    # jardin_0182
+    c_margarita "Voy a probar..."
+    # jardin_0183
+    c_margarita "Permitid... (Coge una margarita.)"
+    # jardin_0184
+    c_faust "¿Qué haces? ¿Un ramo?"
+    # jardin_0185
+    c_margarita "Es un juego."
+    # jardin_0186
+    c_faust "En él reclamo"
+    # jardin_0187
+    c_faust "mi parte."
+    # jardin_0188
+    c_margarita "Os vais a burlar."
+    # jardin_0189
+    c_narrator "Deshoja la flor pronunciando algunas palabras."
+    # jardin_0190
+    c_margarita "Me quiere... (A media voz.)"
+    # jardin_0191
+    c_faust "Mi anhelo calma."
+    # jardin_0192
+    show margarita neutral at vn_left
+    with dissolve
+    c_margarita "No me quiere; sí, no, sí..."
+    # jardin_0193
+    show faust fearful at vn_center
+    with dissolve
+    c_faust "¿Qué dices?..."
+    # jardin_0194
+    show margarita joyful at vn_left
+    with dissolve
+    c_margarita "Sí, no... ¡Ay de mí!"
+    # jardin_0195
+    c_margarita "¡Me quiere!"
+    # jardin_0196
+    c_narrator "Arrancando la última hoja con sereno júbilo."
+    # jardin_0197
+    show faust ecstatic at vn_center
+    with dissolve
+    c_faust "¡Con toda el alma!"
+    # jardin_0198 .. jardin_0201
+    c_faust "Deja a una inocente flor\ndivino oráculo ser...\n¡Te amo! ¿Sabes comprender\nde esa palabra el valor?"
+    # jardin_0202
+    c_narrator "Asiendo sus dos manos."
+    # jardin_0203
+    show margarita fearful at vn_left
+    with dissolve
+    c_margarita "Tiemblo..."
+    # jardin_0204
+    show faust neutral at vn_center
+    with dissolve
+    c_faust "No tiembles, paloma,"
+    # jardin_0205 .. jardin_0208
+    c_faust "no temas: estas miradas,\nestas manos enlazadas,\nte explican lo que otro idioma\nno te pudiera explicar:"
+    # jardin_0209 .. jardin_0212
+    show faust ecstatic at vn_center
+    with dissolve
+    c_faust "entregarse sin recelo,\ny las delicias de un cielo\ninterminable gozar.\n¡Interminable!... El mayor"
+    # jardin_0213 .. jardin_0215
+    c_faust "suplicio su fin sería:\nno temas, no, vida mía;\n¡eterno será este amor!"
+    # jardin_0216
+    c_narrator "MARGARITA estrecha las manos de FAUSTO; después se desprende de él y huye. Él queda un instante pensativo, y luego echa a correr tras de ella."
+    # jardin_0217
+    hide margarita
+    hide faust
+    show marta neutral at vn_right
+    with dissolve
+    c_marta "Anochece."
+    # jardin_0218
+    c_mephisto "Os dejo en paz."
+    # jardin_0219 .. jardin_0222
+    show marta coy at vn_right
+    with dissolve
+    c_marta "No os detengo, francamente,\nporque, ¡ay, amigo!, ¡la gente\nes aquí tan suspicaz!\nNo tiene otra ocupación"
+    # jardin_0223 .. jardin_0225
+    c_marta "que ir atisbándolo todo,\ny obréis de este o de otro modo,\nhay chisme y murmuración."
+    # jardin_0226
+    c_mephisto "¿Y la pareja?"
+    # jardin_0227
+    show marta neutral at vn_right
+    with dissolve
+    c_marta "Perdida"
+    # jardin_0228
+    c_marta "entre los árboles."
+    # jardin_0229
+    show mephisto sly at vn_left
+    with dissolve
+    c_mephisto "¡Bien!"
+    # jardin_0230
+    c_mephisto "¡Tierna es la dama!"
+    # jardin_0231
+    show marta coy at vn_right
+    with dissolve
+    c_marta "¡Y también"
+    # jardin_0232
+    c_marta "el galán!"
+    # jardin_0233
+    c_mephisto "¡Esa es la vida!"
+
+label scene_pabelloncito:
+    scene black
+    show card_pabelloncito at truecenter
+    with fade
+    pause 2.0
+    hide card_pabelloncito
+    scene bg garden_pavilion at tint_none
+    with fade
+    # pabelloncito_0002
+    show margarita joyful at vn_left
+    with dissolve
+    c_margarita "¡Ya viene!"
+    # pabelloncito_0003
+    show faust neutral at vn_center
+    with dissolve
+    c_faust "¿Piensas de mí"
+    # pabelloncito_0004
+    c_faust "burlarte? ¡Toma!"
+    # pabelloncito_0005
+    c_narrator "La besa."
+    # pabelloncito_0006
+    c_margarita "¡El mejor"
+    # pabelloncito_0007 .. pabelloncito_0008
+    c_margarita "de los hombres! Es mi amor\ntuyo todo..."
+    # pabelloncito_0009
+    c_narrator "MEFISTÓFELES llama a la puerta."
+    # pabelloncito_0010
+    show faust fearful at vn_center
+    with dissolve
+    c_faust "¿Quién va ahí?"
+    # pabelloncito_0011
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Un amigo."
+    # pabelloncito_0012
+    show faust anguished at vn_center
+    with dissolve
+    c_faust "¡Un animal!"
+    # pabelloncito_0013
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Vengo a llamaros: ya es hora."
+    # pabelloncito_0014
+    show faust fearful at vn_center
+    with dissolve
+    c_faust "¿Podré acompañarte ahora?..."
+    # pabelloncito_0015 .. pabelloncito_0016
+    show margarita sorrowful at vn_left
+    with dissolve
+    c_margarita "Mi madre... Parece mal.\n¡Adiós, adiós!"
+    # pabelloncito_0017
+    show faust anguished at vn_center
+    with dissolve
+    c_faust "Si ha de ser,"
+    # pabelloncito_0018
+    c_faust "¡adiós!"
+    # pabelloncito_0019
+    show marta neutral at vn_left
+    with dissolve
+    c_marta "¡Adiós, que ya es tarde!"
+    # pabelloncito_0020
+    c_mephisto "¡Guárdeos el cielo!"
+    # pabelloncito_0021
+    c_marta "¡Él os guarde!"
+    # pabelloncito_0022
+    show margarita joyful at vn_left
+    with dissolve
+    c_margarita "Pronto nos hemos de ver."
+    # pabelloncito_0023
+    c_narrator "Vanse FAUSTO y MEFISTÓFELES."
+    # pabelloncito_0024 .. pabelloncito_0027
+    hide faust
+    hide mephisto
+    show margarita sorrowful at vn_left
+    with dissolve
+    c_margarita "¡Gran Dios! ¿Qué dirá de mí?\nEn su presencia, turbada\nme encuentro, y avergonzada;\ny digo a todo que sí."
+    # pabelloncito_0028 .. pabelloncito_0031
+    c_margarita "En esta pobre mujer,\nsin talento y sin encanto,\nun hombre que vale tanto\n¿qué mérito pudo ver?"
+
+label scene_bosques_cavernas:
+    scene black
+    show card_bosques_cavernas at truecenter
+    with fade
+    pause 2.0
+    hide card_bosques_cavernas
+    scene bg forest_cave at tint_none
+    with fade
+    # bosques_cavernas_0001 .. bosques_cavernas_0004
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "Me has otorgado, Espíritu sublime,\ntodo cuanto pedí. No en vano has vuelto\na mí los ojos en tu ardiente llama.\nTú, la Naturaleza, el mundo entero"
+    # bosques_cavernas_0005 .. bosques_cavernas_0008
+    c_faust "por imperio me das, y al alma mía\nvigor para admirarlo y comprenderlo.\nNo en estéril asombro me extasío\nante sus maravillas: como el pecho"
+    # bosques_cavernas_0009 .. bosques_cavernas_0012
+    c_faust "de un amigo, penetra mi pupila\nsus profundos arcanos y misterios.\nEn prolongada tropa, ante mis ojos\nhaces tú desfilar, allá a lo lejos,"
+    # bosques_cavernas_0013 .. bosques_cavernas_0016
+    c_faust "la viviente legión, y mis hermanos\nen el bosque y el aire y el mar veo.\nY cuando airada la tormenta ruge,\ndestrozando los pinos gigantescos,"
+    # bosques_cavernas_0017 .. bosques_cavernas_0020
+    c_faust "y la frondosa mole derrumbada\nretumbar hace los lejanos ecos,\na la oculta caverna me conduces,\ndonde, solo, a mí mismo me contemplo,"
+    # bosques_cavernas_0021 .. bosques_cavernas_0024
+    c_faust "y en mi propia conciencia miro absorto\nmayores maravillas y portentos.\nBrilla entonces purísima la luna,\nendulzándolo todo, y de los negros"
+    # bosques_cavernas_0025 .. bosques_cavernas_0028
+    c_faust "peñascos y del húmedo follaje\nlas sombras surgen de pasados tiempos,\ntemplando el que fatídico me abruma\nde la contemplación goce siniestro."
+    # bosques_cavernas_0029 .. bosques_cavernas_0032
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Mas nunca humana dicha fue completa:\npara gozar este placer supremo,\nque a los dioses me eleva y me aproxima,\nme das, Genio fatal, un compañero"
+    # bosques_cavernas_0033 .. bosques_cavernas_0036
+    c_faust "frío, impudente, que a mis propios ojos\nme humilla y me envilece, y con un gesto\no una palabra tus celestes dones\ndestruye y anonada. Él en mi pecho"
+    # bosques_cavernas_0037 .. bosques_cavernas_0040
+    c_faust "hizo brotar la hoguera abrasadora\nde esta pasión, y vacilante y ebrio\nvoy del afán devorador al goce,\ny otra vez en el goce ansío el deseo."
+    # bosques_cavernas_0041 .. bosques_cavernas_0044
+    show mephisto deferent at vn_center
+    with dissolve
+    c_mephisto "¿Aún no te cansa esta vida?\n¡Siempre igual! ¡Qué aburrimiento!\nNo es malo probarlo todo;\npero cambiando de objetos."
+    # bosques_cavernas_0045 .. bosques_cavernas_0046
+    c_faust "¿No tienes otra faena\nque turbar mis gratos sueños?"
+    # bosques_cavernas_0047 .. bosques_cavernas_0050
+    show mephisto sly at vn_center
+    with dissolve
+    c_mephisto "¿Quieres que te deje solo?\n¡Bah! ¿Te creo o no te creo?\nNo perdiera yo gran cosa:\ncaprichoso, huraño, terco,"
+    # bosques_cavernas_0051 .. bosques_cavernas_0054
+    c_mephisto "harto de tal camarada\nquedara cualquiera presto,\npues lo que quiere o no quiere\nnadie le saca del cuerpo."
+    # bosques_cavernas_0055 .. bosques_cavernas_0056
+    c_faust "¡Está bien! ¡Tras aburrirme,\naún tendré que agradecértelo!"
+    # bosques_cavernas_0057 .. bosques_cavernas_0060
+    show mephisto scornful at vn_center
+    with dissolve
+    c_mephisto "Y sin mí, pobre insensato,\nsin mí, ¿qué te hubieras hecho?\nUn nido de musarañas\ntenías en el cerebro;"
+    # bosques_cavernas_0061 .. bosques_cavernas_0064
+    c_mephisto "y si en tu auxilio no acudo\ny tus ímpetus contengo,\nlejos del globo terráqueo\nestuvieras hace tiempo."
+    # bosques_cavernas_0065 .. bosques_cavernas_0068
+    c_mephisto "¿Por qué en estos peñascales\nhaciendo estás el mochuelo?\n¿Por qué entre sucios guijarros,\nentre céspedes mugrientos,"
+    # bosques_cavernas_0069 .. bosques_cavernas_0072
+    c_mephisto "como los sapos, te arrastras,\nque se nutren de ese cieno?\n¡La diversión es brillante!\n¡Delicioso el pasatiempo!"
+    # bosques_cavernas_0073 .. bosques_cavernas_0074
+    c_mephisto "¡Infelice Fausto! ¡Aún tienes,\naún tienes al Doctor dentro!"
+    # bosques_cavernas_0075 .. bosques_cavernas_0078
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¡No sabes tú cómo el alma\ncobra espíritu y aliento\nen aquestas soledades!\nSi pudieras comprenderlo,"
+    # bosques_cavernas_0079 .. bosques_cavernas_0082
+    c_faust "eres demasiado diablo\npara que, henchido de celos,\nno me privaras al punto\ndel deleite que aquí siento."
+    # bosques_cavernas_0083 .. bosques_cavernas_0086
+    show mephisto sly at vn_center
+    with dissolve
+    c_mephisto "¡Sobrenatural deleite!\n¡Yacer en el dulce seno\nde la maternal Natura,\ntomando el aire y el fresco!"
+    # bosques_cavernas_0087 .. bosques_cavernas_0090
+    c_mephisto "¡Tender ansioso los brazos\na la tierra y a los cielos,\ny remontarnos ufanos,\ny dioses quizás creernos!"
+    # bosques_cavernas_0091 .. bosques_cavernas_0094
+    c_mephisto "¡Profundizar todo abismo\ncon vagos presentimientos,\nhasta que, al fin, a este mundo\nla médula le encontremos,"
+    # bosques_cavernas_0095 .. bosques_cavernas_0098
+    c_mephisto "y la obra de los seis días\nsintamos dentro del pecho!;\nun no sé qué misterioso\ngozar con altivo anhelo;"
+    # bosques_cavernas_0099 .. bosques_cavernas_0102
+    c_mephisto "derramar el alma extática\nsobre todo el universo,\nen nuestro ser sofocando\nel material elemento,"
+    # bosques_cavernas_0103 .. bosques_cavernas_0105
+    c_mephisto "y ponerles fin entonces\na tan sublimados sueños\nde tal manera y tal modo..."
+    # bosques_cavernas_0106
+    c_narrator "Haciendo un gesto expresivo."
+    # bosques_cavernas_0107
+    c_mephisto "¡que a decirlo no me atrevo!"
+    # bosques_cavernas_0108
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡Calla!"
+    # bosques_cavernas_0109
+    c_mephisto "Callo, si te ofende;"
+    # bosques_cavernas_0110 .. bosques_cavernas_0113
+    c_mephisto "callo, y la moral respeto,\nya que a los castos oídos\nes crimen decir aquello\nque los corazones castos"
+    # bosques_cavernas_0114 .. bosques_cavernas_0117
+    c_mephisto "están a gritos pidiendo.\nPues que te place engañarte\na ti propio, buen provecho:\nno he de quitarte ese gusto,"
+    # bosques_cavernas_0118 .. bosques_cavernas_0121
+    show mephisto neutral at vn_center
+    with dissolve
+    c_mephisto "que tampoco será eterno.\nPor de pronto, ya te miro\naprisionado de nuevo,\ny en torno tuyo, delirios"
+    # bosques_cavernas_0122 .. bosques_cavernas_0125
+    c_mephisto "y terrores en acecho.\n¡Y entre tanto, aquella niña\nsuspirando está y gimiendo,\ncon tu imagen venturosa"
+    # bosques_cavernas_0126 .. bosques_cavernas_0129
+    c_mephisto "clavada en su pensamiento,\ny tanto amor en el alma\nque ya no cabe allí dentro!\nComo las ondas copiosas"
+    # bosques_cavernas_0130 .. bosques_cavernas_0133
+    c_mephisto "de los derretidos hielos,\ninundó tu pasión loca\ne hizo desbordar su pecho;\nhoy el raudal --¡pobre amante!--"
+    # bosques_cavernas_0134 .. bosques_cavernas_0137
+    c_mephisto "está agotado, está seco.\nEn vez de reinar adusto\nen bosques, valles y cerros,\n¿no fuera, señor, más propio"
+    # bosques_cavernas_0138 .. bosques_cavernas_0141
+    c_mephisto "de un cumplido caballero\npremiar de alguna manera\ntan apasionado afecto?\n¡Cuán largo, a la triste niña,"
+    # bosques_cavernas_0142 .. bosques_cavernas_0145
+    c_mephisto "ha de antojársele el tiempo!\nDe bruces a la ventana\npasa las horas, y el vuelo\nsigue de las pardas nubes"
+    # bosques_cavernas_0146 .. bosques_cavernas_0149
+    c_mephisto "que cruzan el firmamento.\n«¡Si fuera avecilla!» canta,\ny esta canción repitiendo,\npasa las noches a medias"
+    # bosques_cavernas_0150 .. bosques_cavernas_0153
+    c_mephisto "y los días por completo.\nUnas veces triste y grave,\ngozosa en otros momentos,\nya prorrumpe en largos lloros,"
+    # bosques_cavernas_0154 .. bosques_cavernas_0156
+    c_mephisto "ya brilla el rostro sereno;\npero siempre, alegre o triste,\nloca de amor la contemplo."
+    # bosques_cavernas_0157
+    c_faust "¡Sierpe maldita!"
+    # bosques_cavernas_0158
+    show mephisto sly at vn_center
+    with dissolve
+    c_mephisto "Sí, sierpe"
+    # bosques_cavernas_0159
+    c_mephisto "que ya se te enrosca al cuello."
+    # bosques_cavernas_0160 .. bosques_cavernas_0163
+    c_faust "¡Calla, infame, y jamás nombres\na ese ser tan puro y tierno;\njamás su hechicera imagen,\ncuando miras que enloquezco,"
+    # bosques_cavernas_0164 .. bosques_cavernas_0165
+    c_faust "la presentes tentadora\nal furor de mi deseo!"
+    # bosques_cavernas_0166 .. bosques_cavernas_0169
+    c_mephisto "¿Y qué te importa? Entre tanto,\nla hermosa de nuestro cuento\nse imagina abandonada,\ny casi lo está, en efecto."
+    # bosques_cavernas_0170 .. bosques_cavernas_0173
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "No lo está; cerca estoy de ella;\npero supón que esté lejos:\nno por eso la abandono,\nni la olvido, ni la pierdo."
+    # bosques_cavernas_0174 .. bosques_cavernas_0177
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "¡Si la amo con toda el alma!\n¡Si envidio hasta el mismo cuerpo\ndel Señor, cuando la hostia\npasa entre sus labios trémulos!"
+    # bosques_cavernas_0178 .. bosques_cavernas_0181
+    c_mephisto "¡Y yo también muchas veces\nos envidio cuando os veo\nen vuestro nido de rosas,\nparejita de gemelos!"
+    # bosques_cavernas_0182
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡Rufián! ¡Rufián!..."
+    # bosques_cavernas_0183
+    c_mephisto "Me calumnias,"
+    # bosques_cavernas_0184 .. bosques_cavernas_0187
+    c_mephisto "y la carcajada suelto.\n¡Rufián!... El Dios que ha creado\na doncellas y mancebos,\nconsagró el ilustre oficio"
+    # bosques_cavernas_0188 .. bosques_cavernas_0191
+    c_mephisto "de darles, con mil rodeos,\nla circunstancia oportuna\ny la ocasión y el momento.\n¡Ea! ¡En marcha! ¿Por qué tiemblas?"
+    # bosques_cavernas_0192 .. bosques_cavernas_0194
+    c_mephisto "Porque vas --¡destino adverso!--\na la cámara --¡oh desgracia!--\nde tu amor --¡rayos y truenos!--"
+    # bosques_cavernas_0195 .. bosques_cavernas_0198
+    c_faust "¿Qué importa hallar en sus brazos\ntodas las glorias del cielo,\nsi su desdicha y flaqueza\nestaré palpando en ellos?"
+    # bosques_cavernas_0199 .. bosques_cavernas_0202
+    c_faust "Aunque yazga en su regazo,\n¿dejaré de ser, por eso,\nel errante peregrino,\nel proscrito, el monstruo fiero,"
+    # bosques_cavernas_0203 .. bosques_cavernas_0206
+    c_faust "el devastador torrente,\nque valla y dique rompiendo,\nde roca en roca, al abismo\ncorre a despeñarse ciego?"
+    # bosques_cavernas_0207 .. bosques_cavernas_0210
+    c_faust "¿Y ella, la cándida niña\nde dormidos pensamientos,\nla que soñó en la montaña\nuna casita y un huerto,"
+    # bosques_cavernas_0211 .. bosques_cavernas_0214
+    c_faust "y en aquel mundo inocente\nencerró todo su anhelo?\n¡Yo, loco y de Dios maldito,\ndesbaratando su ensueño,"
+    # bosques_cavernas_0215 .. bosques_cavernas_0218
+    c_faust "sobre esa choza derrumbo\nlos peñascos gigantescos,\ny sus castas alegrías\npara siempre desvanezco!"
+    # bosques_cavernas_0219 .. bosques_cavernas_0222
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¿Es que también reclamaba\nesta víctima el Infierno?\nSi es así, que acorte el Diablo\nlos angustiosos momentos."
+    # bosques_cavernas_0223 .. bosques_cavernas_0226
+    c_faust "Lo que ha de ser, sea pronto.\n¡Caiga sobre mí su horrendo\ndestino, y juntos al hondo\nabismo precipitémonos!"
+    # bosques_cavernas_0227 .. bosques_cavernas_0230
+    c_mephisto "¡Qué calor! ¡Qué llamaradas!\nVen a consolarla, necio.\nPorque luz no ven tus ojos,\n¿piensas que todo está negro?"
+    # bosques_cavernas_0231 .. bosques_cavernas_0234
+    c_mephisto "Te juzgué más endiablado.\n¡Ánimo y atrevimiento!\n¡Bien haya quien nunca ceja!\nNo hay en todo el universo"
+    # bosques_cavernas_0235 .. bosques_cavernas_0236
+    c_mephisto "cosa más triste que un diablo\ndesesperado y perplejo."
+
+label scene_aposento_margarita:
+    scene black
+    show card_aposento_margarita at truecenter
+    with fade
+    pause 2.0
+    hide card_aposento_margarita
+    scene bg margaret_room at tint_none
+    with fade
+    # aposento_margarita_0001 .. aposento_margarita_0008
+    c_margarita_nvl "Huyeron del alma\nla dicha y la paz,\nhuyeron por siempre,\n¡por siempre jamás!\nLa tumba contemplo\nallí do él no está;\nel mundo emponzoña\nmi amargo penar."
+    nvl clear
+    # aposento_margarita_0009 .. aposento_margarita_0016
+    c_margarita_nvl "Mi pobre cabeza\nconfúndese ya;\nmis pobres sentidos\nno pueden ya más.\nHuyeron del alma\nla dicha y la paz,\nhuyeron por siempre,\n¡por siempre jamás!"
+    nvl clear
+    # aposento_margarita_0017 .. aposento_margarita_0024
+    c_margarita_nvl "Por él mis ventanas\nabiertas están;\npor él atravieso\ncien veces mi umbral.\nSu altiva presencia,\nsu noble ademán,\nsu tierna sonrisa,\nsu ardiente mirar,"
+    nvl clear
+    # aposento_margarita_0025 .. aposento_margarita_0032
+    c_margarita_nvl "su dulce palabra\nde grato raudal,\nsu apretón de mano,\ny sus besos, ¡ay!...\nHuyeron del alma\nla dicha y la paz,\nhuyeron por siempre,\n¡por siempre jamás!"
+    nvl clear
+    # aposento_margarita_0033 .. aposento_margarita_0040
+    c_margarita_nvl "Al verle me oprime\nterrible ansiedad,\ny verle y tenerle\nes mi único afán.\n¡Y dándole besos,\na no poder más,\nmorir en sus brazos\nde tanto besar!"
+    nvl clear
+    nvl hide dissolve
+
+label scene_jardin_marta:
+    scene black
+    show card_jardin_marta at truecenter
+    with fade
+    pause 2.0
+    hide card_jardin_marta
+    scene bg garden at tint_none
+    with fade
+    # jardin_marta_0002 .. jardin_marta_0003
+    show faust neutral at vn_left
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "Promete, Enrique, una cosa\ndecirme."
+    # jardin_marta_0004
+    c_faust "Como en mí esté,"
+    # jardin_marta_0005
+    c_faust "prometo."
+    # jardin_marta_0006
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "Cuál es tu fe,"
+    # jardin_marta_0007 .. jardin_marta_0010
+    c_margarita "es la duda que me acosa.\nTú tienes buen corazón,\ntu conciencia es recta y pura;\npero, ¡ay, Dios!, se me figura"
+    # jardin_marta_0011
+    c_margarita "que te falta religión."
+    # jardin_marta_0012 .. jardin_marta_0015
+    c_faust "Déjate de eso, querida;\nte amo con el alma entera\ny por ti --lo sabes-- diera\ntoda la sangre y la vida."
+    # jardin_marta_0016 .. jardin_marta_0018
+    c_faust "No quiero el triste placer\nde robar la fe y la calma\na nadie..."
+    # jardin_marta_0019
+    show margarita neutral at vn_center
+    with dissolve
+    c_margarita "Requiere el alma"
+    # jardin_marta_0020
+    c_margarita "algo más."
+    # jardin_marta_0021
+    c_faust "¿Qué más?"
+    # jardin_marta_0022
+    c_margarita "Creer."
+    # jardin_marta_0023 .. jardin_marta_0026
+    c_margarita "Si valieran para ti\nmis cariñosos acentos...\nTú los Santos Sacramentos\nno veneras y honras."
+    # jardin_marta_0027
+    c_faust "Sí."
+    # jardin_marta_0028 .. jardin_marta_0031
+    c_margarita "Mas sin ir de ellos en pos.\nNi te confiesas jamás,\nni a misa siquiera vas:\ndi, Enrique: ¿crees en Dios?"
+    # jardin_marta_0032 .. jardin_marta_0035
+    c_faust "¿Quién podrá decirte, quién,\n«creo en Dios» con veraz labio?\nAl sacerdote y al sabio\npregúntalo tú también."
+    # jardin_marta_0036 .. jardin_marta_0039
+    c_faust "Y hallarás en el tenor\nde su estudiada respuesta,\nuna burla manifiesta\ndel audaz preguntador."
+    # jardin_marta_0040
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "¿A Dios niegas?..."
+    # jardin_marta_0041
+    c_faust "¡Poco a poco!"
+    # jardin_marta_0042 .. jardin_marta_0045
+    c_faust "No lo niego, niña hermosa;\npero, dime, a Dios, ¿quién osa\nnombrarle, sin estar loco?\n¿Quién, a su conciencia fiel,"
+    # jardin_marta_0046 .. jardin_marta_0049
+    c_faust "puede decir «en Dios creo?»\n¿Quién, sin audaz devaneo,\ndirá «yo no creo en Él»?\nSi Dios todo lo creó,"
+    # jardin_marta_0050 .. jardin_marta_0053
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "si es quien lo mantiene todo,\n¿no estamos, en cierto modo,\nen Él Él mismo, tú y yo?\n¿Ves el azul firmamento"
+    # jardin_marta_0054 .. jardin_marta_0057
+    c_faust "doblar su bóveda? ¿Ves\ncuál se extiende a nuestros pies\nla tierra, firme en su asiento?\n¿Ves las brillantes estrellas"
+    # jardin_marta_0058 .. jardin_marta_0061
+    c_faust "cuál siguen eternamente\nsu carrera, en nuestra frente\nvertiendo sus luces bellas?\n¿Sientes mis ojos clavados"
+    # jardin_marta_0062 .. jardin_marta_0065
+    c_faust "en tus ojos soñolientos,\ny todos los elementos\nen tu ser reconcentrados;\ny en círculo halagador,"
+    # jardin_marta_0066 .. jardin_marta_0069
+    c_faust "con misterio indefinible,\nlo visible y lo invisible\ngirando a tu alrededor?\nPues bien: del alma afanosa"
+    # jardin_marta_0070 .. jardin_marta_0073
+    c_faust "sacia el hidrópico anhelo\nen ese raudal del cielo,\ny cuando sientas, dichosa,\nque se calma tu ansiedad"
+    # jardin_marta_0074 .. jardin_marta_0077
+    c_faust "en deleite sin medida,\nllámale ventura y vida\ny amor y divinidad.\nA ese bien, de ningún modo"
+    # jardin_marta_0078 .. jardin_marta_0081
+    c_faust "hallo palabra adecuada:\nel nombre no importa nada;\nel sentimiento es el todo:\npues la palabra mejor"
+    # jardin_marta_0082 .. jardin_marta_0084
+    c_faust "humo es, que empaña y altera,\ncual pábilo de una hoguera,\nsu celestial resplandor."
+    # jardin_marta_0085 .. jardin_marta_0088
+    show margarita joyful at vn_center
+    with dissolve
+    c_margarita "¡Hermoso lenguaje! Labras,\nhablando así, mi ventura.\nEso mismo dice el cura,\naunque con otras palabras."
+    # jardin_marta_0089 .. jardin_marta_0092
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Bajo la celeste esfera\ncada corazón su fe\ndice a su modo: ¿por qué\nno he de hablar yo a mi manera?"
+    # jardin_marta_0093 .. jardin_marta_0096
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "¡Ay! Cuando te escucho, en vano\nse resiste mi razón;\npero, aún tengo una aprensión;\nno eres tú muy buen cristiano."
+    # jardin_marta_0097
+    c_faust "¡Dulce dueño!"
+    # jardin_marta_0098
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "Y además"
+    # jardin_marta_0099 .. jardin_marta_0100
+    c_margarita "me disgusta en compañía\nverte..."
+    # jardin_marta_0101
+    c_faust "¿De quién, alma mía?"
+    # jardin_marta_0102 .. jardin_marta_0105
+    c_margarita "De ese con quien siempre vas.\nLe odio con el alma entera:\nen toda mi vida vi\nrostro ni expresión que así"
+    # jardin_marta_0106
+    c_margarita "me impresionara y me hiriera."
+    # jardin_marta_0107
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡Pueriles recelos son!"
+    # jardin_marta_0108 .. jardin_marta_0111
+    c_margarita "Con todos soy indulgente;\npero al ver ese hombre enfrente,\nme da un vuelco el corazón.\nTan vivos como el placer"
+    # jardin_marta_0112 .. jardin_marta_0115
+    c_margarita "que me inspira tu presencia,\nson el temor y la violencia\nque al verle siento nacer.\nY una idea de otra en pos,"
+    # jardin_marta_0116 .. jardin_marta_0118
+    c_margarita "le juzgué infame y malvado:\nsi acaso le he calumniado,\nque me lo perdone Dios."
+    # jardin_marta_0119 .. jardin_marta_0120
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Toda especie de alimaña\nha de haber."
+    # jardin_marta_0121
+    c_margarita "No, no quisiera"
+    # jardin_marta_0122 .. jardin_marta_0125
+    c_margarita "servir yo de compañera\na un ser de esa raza extraña.\nCuando aquí los pasos guía\nmuestra, para darme enojos,"
+    # jardin_marta_0126 .. jardin_marta_0129
+    c_margarita "siempre el rencor en los ojos\ny en los labios la ironía.\nA cuanto pasa alredor\npermanece indiferente,"
+    # jardin_marta_0130 .. jardin_marta_0133
+    c_margarita "y escrito lleva en su frente\nque es su alma incapaz de amor.\n¡A tu lado, gozo tanto!\nFeliz, tranquila, contenta"
+    # jardin_marta_0134 .. jardin_marta_0135
+    c_margarita "estoy; mas, si él se presenta,\nme siento morir de espanto."
+    # jardin_marta_0136
+    c_faust "¡Ángel présago quizá!"
+    # jardin_marta_0137 .. jardin_marta_0140
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "Y tal imperio en mí tiene\neste horror, que cuando él viene\npienso que no te amo ya.\nAnte él, sin que me lo explique,"
+    # jardin_marta_0141 .. jardin_marta_0143
+    c_margarita "rezar no sé, y me devora\nangustia desgarradora.\n¿No te pasa a ti eso, Enrique?"
+    # jardin_marta_0144 .. jardin_marta_0145
+    c_faust "Antipática manía\nes tal temor..."
+    # jardin_marta_0146
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "¡Oh, no!... Mas"
+    # jardin_marta_0147
+    c_margarita "ya es tarde. Me voy."
+    # jardin_marta_0148
+    c_faust "¿Te vas?"
+    # jardin_marta_0149 .. jardin_marta_0152
+    c_faust "¿Cuándo podré, vida mía,\nuna hora de dulce calma\ndisfrutar en tu regazo,\nfundiendo en estrecho abrazo"
+    # jardin_marta_0153
+    c_faust "el alma mía con tu alma?"
+    # jardin_marta_0154 .. jardin_marta_0157
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "Dejaría, para ti,\nsi durmiera sola, abierta\nla cerraja de mi puerta;\npero mi madre está allí,"
+    # jardin_marta_0158 .. jardin_marta_0160
+    c_margarita "y es muy ligero su sueño.\n¡Ay! Si despierta y nos ve,\nal suelo muerta caeré."
+    # jardin_marta_0161 .. jardin_marta_0164
+    c_faust "No temas, celeste dueño.\nToma al punto este licor;\ntres gotas en su bebida\npon, y quedará dormida"
+    # jardin_marta_0165
+    c_faust "en letargo embriagador."
+    # jardin_marta_0166 .. jardin_marta_0168
+    c_margarita "Por tu amor me avengo a todo.\nMas dime primeramente\nque este filtro es inocente..."
+    # jardin_marta_0169
+    c_faust "¿Te lo diera, de otro modo?"
+    # jardin_marta_0170 .. jardin_marta_0173
+    c_margarita "¡Ay! Cuando me hablas así,\nrendida a tu arbitrio quedo:\n¿qué es lo que negarte puedo,\nsi tanto te concedí?"
+    # jardin_marta_0174
+    c_narrator "Vase."
+    # jardin_marta_0175
+    c_narrator "ENTRA MEFISTÓFELES"
+    # jardin_marta_0176
+    hide margarita
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¿Voló el pájaro?"
+    # jardin_marta_0177
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¿En acecho"
+    # jardin_marta_0178
+    c_faust "estabas?"
+    # jardin_marta_0179
+    c_mephisto "No; mas a fe"
+    # jardin_marta_0180 .. jardin_marta_0183
+    c_mephisto "de Diablo, todo lo sé.\n¡Doctor, buen sermón te han hecho!\n¡Que aproveche la enseñanza!\nLa mujer quiere, y no en vano,"
+    # jardin_marta_0184 .. jardin_marta_0187
+    c_mephisto "al hombre devoto y llano,\ny según la antigua usanza.\n«Así, dice, así se empieza,\ny si este yugo consiente,"
+    # jardin_marta_0188 .. jardin_marta_0189
+    c_mephisto "a otros, insensiblemente,\ndoblando irá la cabeza.»"
+    # jardin_marta_0190 .. jardin_marta_0193
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Monstruo, ¿no piensas, no ves,\nque esa alma sencilla y casta,\nllena de la fe entusiasta\nque su amor y su bien es,"
+    # jardin_marta_0194 .. jardin_marta_0197
+    c_faust "padece duelo profundo\nal mirar, en su ilusión,\nperdido sin remisión\na quien más ama en el mundo?"
+    # jardin_marta_0198
+    c_mephisto "¡Galán sensible y feliz!"
+    # jardin_marta_0199
+    c_faust "¡Aborto de horrible escoria!"
+    # jardin_marta_0200 .. jardin_marta_0203
+    c_mephisto "Una chiquilla --¡qué gloria!-- te\nlleva de la nariz.\n¡Y es sagaz fisonomista!\nAl verme, no sé qué siente;"
+    # jardin_marta_0204 .. jardin_marta_0207
+    c_mephisto "pero vislumbró en mi frente\nalgo escondido a la vista,\ny penetrando el abismo\nde mi ser, comprendió presto"
+    # jardin_marta_0208 .. jardin_marta_0211
+    c_mephisto "que soy un genio funesto,\no quizás el Diablo mismo.\nConque, esta noche... ¡Ya tarda!\nEsta noche..."
+    # jardin_marta_0212
+    c_faust "¿Y qué te importa?"
+    # jardin_marta_0213 .. jardin_marta_0214
+    c_mephisto "Tengo yo parte, y no es corta,\nen la dicha que te aguarda."
+
+label scene_fuente:
+    scene black
+    show card_fuente at truecenter
+    with fade
+    pause 2.0
+    hide card_fuente
+    scene bg fountain at tint_none
+    with fade
+    # fuente_0002 .. fuente_0003
+    show margarita neutral at vn_right
+    show lisa neutral at vn_left
+    with dissolve
+    c_lisa "¿Nada has sabido de Bárbara,\nMargarita?"
+    # fuente_0004
+    c_margarita "Nada sé."
+    # fuente_0005
+    c_margarita "Salgo tan poco..."
+    # fuente_0006
+    show lisa smug at vn_left
+    with dissolve
+    c_lisa "Sibila"
+    # fuente_0007 .. fuente_0009
+    c_lisa "me lo explicó todo bien.\nAl fin y al cabo, burlada:\n¡la orgullosa!..."
+    # fuente_0010
+    show margarita fearful at vn_right
+    with dissolve
+    c_margarita "¿Puede ser?"
+    # fuente_0011 .. fuente_0012
+    c_lisa "¡Vaya! Cuando come y bebe,\npara ella sola ya no es."
+    # fuente_0013
+    c_margarita "¡Dios!..."
+    # fuente_0014
+    c_lisa "Llevó su merecido:"
+    # fuente_0015 .. fuente_0018
+    c_lisa "¡si había de suceder!...\n¿Te acuerdas? A todas horas\ncolgadita del doncel;\na paseo, al campo, al baile"
+    # fuente_0019 .. fuente_0022
+    c_lisa "de la plaza... sin perder\nfiesta ni broma... Y obsequios,\ngolosinas... ¡Le está bien!\n¡Tan pagada de bonita!"
+    # fuente_0023 .. fuente_0026
+    c_lisa "¡Tan vana!... Y a dos por tres\naceptando regalillos\nla que afectaba desdén.\nDe este modo, ahora un halago"
+    # fuente_0027 .. fuente_0029
+    c_lisa "y una caricia después,\nentre halagos y caricias\nvoló, al fin, su doncellez."
+    # fuente_0030
+    show margarita sorrowful at vn_right
+    with dissolve
+    c_margarita "¡Infeliz!"
+    # fuente_0031
+    c_lisa "¿La compadeces?"
+    # fuente_0032 .. fuente_0035
+    c_lisa "Recuerda, recuerda, pues,\ncuando, aplicadas al torno,\nuna noche y otra y cien,\nno nos dejaba la madre"
+    # fuente_0036 .. fuente_0039
+    c_lisa "poner en la calle el pie;\ny en el banco de la puerta,\nella, a la sombra, con él,\nmiraba las largas horas"
+    # fuente_0040 .. fuente_0043
+    c_lisa "dulces y breves correr.\nPague aquellas alegrías,\ny vistiendo su merced\nel sayal de penitente,"
+    # fuente_0044
+    show lisa neutral at vn_left
+    with dissolve
+    c_lisa "díganos el yo pequé."
+    # fuente_0045
+    show margarita fearful at vn_right
+    with dissolve
+    c_margarita "Mas, se casará con ella..."
+    # fuente_0046 .. fuente_0049
+    show lisa smug at vn_left
+    with dissolve
+    c_lisa "Tonto fuera... ¡y es un pez!\nAire encuentra en todas partes\nun pajarraco como él,\ny ya voló."
+    # fuente_0050
+    c_margarita "¡Es una infamia!"
+    # fuente_0051 .. fuente_0054
+    c_lisa "Que corra y lo atrape, pues.\nLa corona de la boda\nlos mozos han de romper,\ny echaremos las doncellas"
+    # fuente_0055
+    c_lisa "paja picada a sus pies."
+    # fuente_0056
+    c_narrator "Vase."
+    # fuente_0057 .. fuente_0060
+    hide lisa
+    show margarita sorrowful at vn_right
+    with dissolve
+    c_margarita "¿Cómo, ¡ay, Dios!, tan altanera\notras veces me indigné\ncuando a una pobre muchacha\nvi tropezar y caer?"
+    # fuente_0061 .. fuente_0064
+    c_margarita "¿Cómo, para ajenas faltas\nhecha inexorable juez,\njamás encontró mi lengua\npalabra bastante cruel?"
+    # fuente_0065 .. fuente_0068
+    show margarita neutral at vn_right
+    with dissolve
+    c_margarita "Pintábame yo la culpa\naún más negra de lo que es,\ny a pesar de ser tan negra,\nla quería ennegrecer,"
+    # fuente_0069 .. fuente_0072
+    c_margarita "y jamás, ennegreciéndola,\nbastante negra la hallé.\nY ahora ¿qué soy? ¡Desdichada!\n¡Pecado y culpa también!"
+    # fuente_0073 .. fuente_0076
+    show margarita sorrowful at vn_right
+    with dissolve
+    c_margarita "Y todo aquello --¡Dios mío!-- que\nme impulsó, sin saber,\na estos abismos, ¡cuán grato,\ncuán grato y cuán dulce fue!"
+
+label scene_muros:
+    scene black
+    show card_muros at truecenter
+    with fade
+    pause 2.0
+    hide card_muros
+    scene bg city_walls at tint_none
+    with fade
+    # muros_0001
+    c_narrator_nvl "Una imagen de Nuestra Señora de los Dolores en un nicho de la muralla. Delante de ella vasos con flores"
+    nvl clear
+    # muros_0002 .. muros_0005
+    c_margarita_nvl "¡Oh Madre afligida! ¡Oh Madre angustiada!\nLos ojos inclina piadosa hacia mí.\nHundida en el pecho durísima espada,\nllorando la muerte del Hijo, te vi."
+    nvl clear
+    # muros_0006 .. muros_0009
+    c_margarita_nvl "Llorando sin treguas el suyo y tu duelo,\nlas quejas exhalas de aquel doble afán;\nlos húmedos ojos levantas al cielo;\ntus hondos suspiros también allá van."
+    nvl clear
+    # muros_0010 .. muros_0013
+    c_margarita_nvl "Tormento cual este, que fiero me oprime,\n¿quién puede en el mundo, quién puede sentir?\n¡Tú, Virgen piadosa, tú, Madre sublime,\ntú sola, que sabes de amar y sufrir!"
+    nvl clear
+    # muros_0014 .. muros_0017
+    c_margarita_nvl "Doquiera que vaya, mi afán va conmigo;\ndoquiera lo esconda, lo arrastro detrás;\nllorando y llorando mi mal no mitigo;\nllorando y llorando no puedo ya más."
+    nvl clear
+    # muros_0018 .. muros_0021
+    c_margarita_nvl "Los tiestos que alegran mi pobre ventana\nregaba con llanto de acerbo dolor,\ncuando, amaneciendo, cogí esta mañana\nsus flores que siempre te guarda mi amor."
+    nvl clear
+    # muros_0022 .. muros_0025
+    c_margarita_nvl "El sol inundaba, risueño y brillante,\nmi humilde aposento con vívida luz,\ny el rayo primero me halló vigilante,\nsentada en mi lecho, llorando mi cruz."
+    nvl clear
+    # muros_0026 .. muros_0029
+    c_margarita_nvl "¡Oh Madre afligida! ¡Oh Madre angustiada!\nLos ojos inclina piadosa hacia mí;\nde horrible deshonra, de muerte ultrajada\nliberta a quien siempre buscó amparo en ti."
+    nvl clear
+    nvl hide dissolve
+
+label scene_calle_noche:
+    scene black
+    show card_calle_noche at truecenter
+    with fade
+    pause 2.0
+    hide card_calle_noche
+    scene bg street_night at tint_none
+    with fade
+    # calle_noche_0001
+    c_narrator "Calle delante de la puerta de MARGARITA"
+    # calle_noche_0002 .. calle_noche_0005
+    show valentin angry at vn_left
+    with dissolve
+    c_valentin "Cuando, al son de las botellas,\nnuestra bulliciosa tropa\nhacía, entre copa y copa,\nel elogio de las bellas,"
+    # calle_noche_0006 .. calle_noche_0009
+    c_valentin "yo, en la mesa entrambos codos,\nescuchaba sin empacho;\ny atusándome el mostacho,\ndespués que acababan todos,"
+    # calle_noche_0010 .. calle_noche_0013
+    c_valentin "ajeno a temor y cuita,\nel vaso, bien lleno, alzaba,\ny «en el mundo no hay, gritaba,\notra como Margarita."
+    # calle_noche_0014 .. calle_noche_0017
+    c_valentin "De ofender a nadie trato;\nmas sostengo mi fortuna:\n¡no le llega, no, ninguna\na la suela del zapato!»"
+    # calle_noche_0018 .. calle_noche_0021
+    c_valentin "Todos, chocando a la vez\nlos vasos en confusión,\ngritaban: «Tiene razón;\nes de su sexo honra y prez.»"
+    # calle_noche_0022 .. calle_noche_0025
+    c_valentin "Y a la común alegría\ndando tributo forzoso,\nhasta el más vanaglorioso\ncallaba, si no aplaudía."
+    # calle_noche_0026 .. calle_noche_0029
+    c_valentin "Y ahora, cualquier insolente\npuede mofarse de mí:\nhay para estrellarse, sí,\ncontra una esquina la frente."
+    # calle_noche_0030 .. calle_noche_0033
+    show valentin dying at vn_left
+    with dissolve
+    c_valentin "¡Cuán horribles sinsabores!\nComo deudor criminal,\na cada frase casual\nsiento angustias y sudores,"
+    # calle_noche_0034 .. calle_noche_0037
+    c_valentin "y en vano al que murmuró\nprovoco, si a la ira cedo;\npues estrangularlo puedo,\npero desmentirlo, no."
+    # calle_noche_0038 .. calle_noche_0041
+    c_valentin "Alguien viene: son dos, sí.\n¡Si uno de ellos fuera mi hombre!\n¡Oh! ¡Si es él --¡voto a mi nombre!--,\nno saldrá vivo de aquí!"
+    # calle_noche_0042
+    c_narrator "FAUSTO, MEFISTÓFELES"
+    # calle_noche_0043 .. calle_noche_0046
+    show faust anguished at vn_center
+    with dissolve
+    c_faust "¿Ves por la ventana aquella\nque a la sacristía da,\nuna lámpara que ya\nmoribunda luz destella,"
+    # calle_noche_0047 .. calle_noche_0050
+    c_faust "y más triste cada vez\nbrilla, con turbio desmayo,\ny al lanzar su último rayo,\ntodo es sombra y lobreguez?"
+    # calle_noche_0051 .. calle_noche_0052
+    c_faust "¡Así, negra oscuridad\nmi corazón hoy inunda!"
+    # calle_noche_0053 .. calle_noche_0056
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Pues yo siento la profunda\ny viva felicidad\ndel gato escuálido y viejo\nque los tejados pasea,"
+    # calle_noche_0057 .. calle_noche_0060
+    c_mephisto "y en la tibia chimenea\nfrota el áspero pellejo.\nEn mi honrada condición\nhay, o mucho me equivoco,"
+    # calle_noche_0061 .. calle_noche_0064
+    c_mephisto "de libidinoso un poco\ny otro poco de ladrón;\ny así aguardo ansioso ya,\nSanta Valpurgis, tu noche,"
+    # calle_noche_0065 .. calle_noche_0066
+    c_mephisto "porque en ella quien trasnoche\nno en balde trasnochará."
+    # calle_noche_0067 .. calle_noche_0069
+    show faust neutral at vn_center
+    with dissolve
+    c_faust "¿Lograré en ella el tesoro\nque allá en las entrañas vi\nde la tierra?"
+    # calle_noche_0070
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Para ti"
+    # calle_noche_0071 .. calle_noche_0073
+    c_mephisto "será el cofrecillo de oro.\nLos ojos eché ya en él:\nde doblas está repleto."
+    # calle_noche_0074 .. calle_noche_0076
+    c_faust "¿Y no viste algún objeto\nde adorno, anillo o joyel\npara mi adorada?..."
+    # calle_noche_0077
+    c_mephisto "Verlas"
+    # calle_noche_0078 .. calle_noche_0080
+    c_mephisto "no pude bien; mas respondo\nde que había allí en el fondo\nalgo cual sarta de perlas."
+    # calle_noche_0081 .. calle_noche_0083
+    show faust ecstatic at vn_center
+    with dissolve
+    c_faust "Pláceme, porque me enfada\nir con las manos vacías\na verla."
+    # calle_noche_0084
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Y pues siempre ansías"
+    # calle_noche_0085 .. calle_noche_0088
+    c_mephisto "gozar dicha no lograda,\nahora que el cielo nos muestra\ntodas sus luces brillantes,\npodrás en breves instantes"
+    # calle_noche_0089 .. calle_noche_0092
+    c_mephisto "escuchar una obra maestra.\nSe trata de una canción,\npero una canción moral,\nque a tu niña celestial"
+    # calle_noche_0093
+    c_mephisto "ha de hacer viva impresión."
+    # calle_noche_0094
+    c_narrator "Canta acompañándose con la mandolina."
+    # calle_noche_0095 .. calle_noche_0098
+    c_mephisto "Aún el alba matutina\nvierte incierto resplandor;\n¿qué buscas tú, Catalina,\na la puerta de tu amor?"
+    # calle_noche_0099 .. calle_noche_0102
+    c_mephisto "¡Cuidadito, niña bella!\nmira, mira adónde vas:\n¡sabe Dios, si entras doncella,\nsabe Dios cómo saldrás!"
+    # calle_noche_0103 .. calle_noche_0106
+    c_mephisto "No vengas, no, con reproches,\ncuando te dejes querer:\n¿ya cediste? ¡Buenas noches!\n¡Siempre así, pobre mujer!"
+    # calle_noche_0107 .. calle_noche_0110
+    c_mephisto "Cuando el galán pida y ruegue,\nno te dejes ablandar,\nhasta que, al cabo, te entregue\nel anillo en el altar."
+    # calle_noche_0111 .. calle_noche_0114
+    hide faust
+    show valentin angry at vn_left
+    with dissolve
+    c_valentin "¿A quién llamas, cazador\nratonil? ¡Se acabó el cuento!\n¡Vaya al diablo el instrumento,\ny vaya al diablo el cantor!"
+    # calle_noche_0115 .. calle_noche_0116
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Dio fin la cítara ya,\nen dos partida."
+    # calle_noche_0117
+    c_valentin "¡Está bien!"
+    # calle_noche_0118 .. calle_noche_0119
+    c_valentin "Veamos ahora quién a quién\nla crisma le romperá."
+    # calle_noche_0120 .. calle_noche_0123
+    c_mephisto "¡Doctor, firme! Al punto saca\nla tizona. ¡Así! A mi lado\nmantente siempre pegado;\nyo paro el golpe; tú, ataca."
+    # calle_noche_0124
+    show valentin neutral at vn_left
+    with dissolve
+    c_valentin "Parad esa."
+    # calle_noche_0125
+    c_mephisto "¿Por qué no?"
+    # calle_noche_0126
+    c_valentin "Y esa también."
+    # calle_noche_0127
+    c_mephisto "Ya lo ves."
+    # calle_noche_0128 .. calle_noche_0129
+    show valentin dying at vn_left
+    with dissolve
+    c_valentin "Si no es el diablo, ¿quién es?\nMi puño se entumeció."
+    # calle_noche_0130
+    c_mephisto "¡Tírale a fondo!"
+    # calle_noche_0131
+    hide mephisto
+    with dissolve
+    c_valentin "¡Ay de mí!"
+    # calle_noche_0132 .. calle_noche_0135
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "¡Cayó el bravucón! Veloces\ncorramos, que ya las voces\nde los vecinos oí.\nAvéngome muchas veces"
+    # calle_noche_0136 .. calle_noche_0138
+    c_mephisto "con la policía; pero\nni tratar ni entender quiero\ncon escribanos y jueces."
+    # calle_noche_0139
+    show marta distressed at vn_center
+    with dissolve
+    c_marta "¡Socorro, socorro!"
+    # calle_noche_0140
+    show margarita neutral at vn_center
+    with dissolve
+    c_margarita "Al punto"
+    # calle_noche_0141
+    c_margarita "sacad luz."
+    # calle_noche_0142
+    c_marta "Riñendo están;"
+    # calle_noche_0143
+    c_marta "venid, que a matarse van."
+    # calle_noche_0144
+    c_crowd "Uno hay aquí: ¡ya es difunto!"
+    # calle_noche_0145 .. calle_noche_0146
+    show marta neutral at vn_center
+    with dissolve
+    c_marta "Los matadores, en tanto,\nhuyen y escapan de fijo..."
+    # calle_noche_0147
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "¿Quién es el muerto?"
+    # calle_noche_0148
+    c_crowd "Es el hijo"
+    # calle_noche_0149
+    c_crowd "de tu madre."
+    # calle_noche_0150
+    c_margarita "¡Cielo santo!"
+    # calle_noche_0151
+    c_margarita "¡Qué desgracia!"
+    # calle_noche_0152
+    show valentin neutral at vn_left
+    with dissolve
+    c_valentin "Muero, sí;"
+    # calle_noche_0153 .. calle_noche_0156
+    c_valentin "pronto está dicho, y también\nestará hecho pronto. ¡Y bien!\n¿Qué hacéis sollozando ahí?\nEscuchadme."
+    # calle_noche_0157
+    c_narrator "Todos le rodean."
+    # calle_noche_0158
+    show valentin angry at vn_left
+    with dissolve
+    c_valentin "Margarita,"
+    # calle_noche_0159 .. calle_noche_0162
+    c_valentin "eres moza y descuidada;\ntu carrera aprovechada\nmás cautela necesita.\nTe diré en secreto el modo,"
+    # calle_noche_0163 .. calle_noche_0165
+    c_valentin "te enseñaré la manera:\nya que eres una ramera,\nsé una ramera del todo."
+    # calle_noche_0166
+    c_margarita "¡Por Dios, por Dios santo, hermano!"
+    # calle_noche_0167 .. calle_noche_0170
+    show valentin neutral at vn_left
+    with dissolve
+    c_valentin "Dios no tiene arte ni parte\nen esto: déjale aparte\ny oye: nada pasa en vano.\nPor uno comenzarás"
+    # calle_noche_0171 .. calle_noche_0174
+    c_valentin "secretamente; después\notro vendrá, y dos y tres,\n¡y quién sabe cuántos más!\nY así, bajando al profundo,"
+    # calle_noche_0175 .. calle_noche_0178
+    c_valentin "cuando, en infame cadena,\nte hayas dado a una docena,\nserás ya de todo el mundo.\nNace oculto el deshonor,"
+    # calle_noche_0179 .. calle_noche_0182
+    show valentin dying at vn_left
+    with dissolve
+    c_valentin "y arroja con vivo anhelo\nsobre él la vergüenza el velo\ndel misterio y del rubor;\npero va creciendo y va"
+    # calle_noche_0183 .. calle_noche_0186
+    c_valentin "ese velo desnudando,\ny a la luz del día, cuando\nes grande, muéstrase ya.\nNo es que embellecerse pudo"
+    # calle_noche_0187 .. calle_noche_0190
+    c_valentin "al desechar ese arreo;\nes que conforme es más feo,\nmás apetece ir desnudo.\nYa el día miro presente"
+    # calle_noche_0191 .. calle_noche_0194
+    show valentin neutral at vn_left
+    with dissolve
+    c_valentin "en que de ti, al encontrarte,\nvil prostituta, se aparte,\ncual de un cadáver, la gente.\nA tu rostro abochornado"
+    # calle_noche_0195 .. calle_noche_0198
+    c_valentin "darán sangrientos sonrojos,\nal clavar en él los ojos,\nlos que pasen por tu lado.\n¡No más gorgueras de encajes!"
+    # calle_noche_0199 .. calle_noche_0202
+    c_valentin "¡No más cadenas doradas!\n¡Adiós, fiestas anheladas\npor lucir galas y trajes!\n¡Adiós tu sitio en el templo"
+    # calle_noche_0203 .. calle_noche_0206
+    c_valentin "a los pies del mismo altar!\nEn mísero lupanar\nmoribunda te contemplo;\ny al perder allí honra y vida,"
+    # calle_noche_0207 .. calle_noche_0209
+    c_valentin "serás, ¡oh desventurada!,\nsi en el cielo perdonada,\nen la tierra maldecida."
+    # calle_noche_0210 .. calle_noche_0213
+    c_marta "Encomiéndate al Señor:\n¿aún le irrita de esa suerte,\nen el trance de la muerte,\ntu labio blasfemador?"
+    # calle_noche_0214 .. calle_noche_0217
+    show valentin angry at vn_left
+    with dissolve
+    c_valentin "¡Celestina desalmada!\nSi pudiera yo atraparte,\nfuérame la mayor parte\nde mis culpas perdonada."
+    # calle_noche_0218
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "¡Hermano!... ¡Angustia infernal!"
+    # calle_noche_0219 .. calle_noche_0222
+    show valentin neutral at vn_left
+    with dissolve
+    c_valentin "¡Enjuga, enjuga ese lloro!\nCuando olvidaste el decoro,\nme diste el golpe fatal.\nLa muerte me lleva en pos..."
+    # calle_noche_0223 .. calle_noche_0225
+    c_valentin "y a la consigna obediente,\ncual soldado y cual valiente,\nvoy a presentarme a Dios."
+    show bg street_night at tint_dark
+    with vn_slow
+    # calle_noche_0226
+    c_narrator "Muere."
+
+label scene_catedral:
+    scene black
+    show card_catedral at truecenter
+    with fade
+    pause 2.0
+    hide card_catedral
+    scene bg cathedral at tint_none
+    with fade
+    # catedral_0001
+    show margarita neutral at vn_center
+    with dissolve
+    c_narrator "Misa cantada, con órgano. MARGARITA entre la gente. EL ESPÍRITU MALO detrás de MARGARITA"
+    # catedral_0002 .. catedral_0005
+    c_evil_spirit "¡Cuán otra, Margarita desdichada,\nen venturosos días,\ninocente, serena, inmaculada,\nal sacro altar venías!"
+    # catedral_0006 .. catedral_0009
+    c_evil_spirit "En ese libro, profanado luego,\norabas balbuciente,\ncompartiendo entre Dios y el pueril juego\ntu espíritu inocente."
+    # catedral_0010 .. catedral_0013
+    c_evil_spirit "Hoy, ¡mísera de ti!, ¿qué sangre esmalta\ntu puerta enrojecida?\n¿Rezas, di, por tu madre, que tu falta\npurga en la eterna vida?"
+    # catedral_0014 .. catedral_0017
+    c_evil_spirit "En las entrañas, con latir extraño,\n¿no sientes --¡infelice!--\nalgo que, por tu mal y por su daño,\nsu aparición predice?"
+    # catedral_0018 .. catedral_0021
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "¡Oh cielos! ¡Si apartar de mí pudiera\nmis propios pensamientos,\nque todos contra mí, con saña fiera,\nrevuélvense violentos!"
+    show bg cathedral at tint_dark
+    with vn_slow
+    # catedral_0022 .. catedral_0023
+    c_chorus "Dies iræ, dies illa,\nsolvet sæclum in favilla."
+    # catedral_0024
+    c_narrator "Órgano."
+    # catedral_0025 .. catedral_0028
+    c_evil_spirit "¡Llenan tu corazón sombras y horrores!\nYa suena, ya retumba\nla trompeta fatal, y a sus clamores\nse estremeció la tumba."
+    # catedral_0029 .. catedral_0032
+    c_evil_spirit "Sobre frías cenizas apagadas\ndormía tu alma yerta;\nhoy, entre abrasadoras llamaradas,\nde súbito despierta."
+    # catedral_0033 .. catedral_0036
+    c_margarita "¡Quisiera huir!... Me angustian los lamentos\ndel órgano sonoro;\nmi corazón desgarran los acentos\nde ese fúnebre coro."
+    # catedral_0037 .. catedral_0039
+    c_chorus "Judex ergo cum sedebit,\nquidquid latet apparebit,\nnil inultum remanebit."
+    # catedral_0040 .. catedral_0043
+    c_margarita "¡Oh cielos! ¡Sobre mí vienen los muros\ndel templo, y juntamente\nbajan los arcos lóbregos y oscuros!\n¡Qué opresión!... ¡Aire! ¡Ambiente!"
+    # catedral_0044 .. catedral_0047
+    c_evil_spirit "¿Dónde te escondes? ¿Dónde te sepultas?\nAllá donde tú fueres\nla deshonra verán, que en vano ocultas;\n¡y aún luz, y aún aire quieres!..."
+    # catedral_0048 .. catedral_0050
+    c_chorus "Quid sum miser tunc dicturus?\nquem patronus rogaturus?\ncum vix justus sit securus."
+    # catedral_0051 .. catedral_0054
+    c_evil_spirit "¡Pobre de ti! Los bienaventurados\ncon severos enojos\napartan de tu rostro, avergonzados,\nsus ofendidos ojos."
+    # catedral_0055 .. catedral_0057
+    c_evil_spirit "Niégante ya los corazones puros\npiedad en tu ruina:\n¡Ay de ti!"
+    # catedral_0058
+    c_chorus "Quid sum miser tunc dicturus?"
+    # catedral_0059
+    c_margarita "¡El frasquito, vecina!"
+    show layer master at vn_shake
+    # catedral_0060
+    c_narrator "Cae desmayada."
+
+label scene_valpurgis:
+    scene black
+    show card_valpurgis at truecenter
+    with fade
+    pause 2.0
+    hide card_valpurgis
+    scene bg harz at tint_none
+    with fade
+    # valpurgis_0001
+    show faust neutral at vn_left
+    show mephisto neutral at vn_right
+    with dissolve
+    c_narrator "Montañas del Harz. Alrededores de Schierke y de Elend."
+    # valpurgis_0003 .. valpurgis_0006
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¿No echas de menos el palo\nde alguna escoba embrujada?\nAún es larga la jornada,\ndoctor, y el camino malo."
+    # valpurgis_0007 .. valpurgis_0008
+    c_mephisto "Yo prefiero un buen cabrón,\nque el firme espaldar me dé."
+    # valpurgis_0009 .. valpurgis_0012
+    c_faust "Yo, mientras me tenga en pie,\nno más quiero este bastón.\n¿Por qué abreviar el camino?\nEn las retorcidas calles"
+    # valpurgis_0013 .. valpurgis_0016
+    c_faust "de estos bosques y estos valles\nvagar sin rumbo ni tino;\nescalar las rocas duras,\ndonde escondida la fuente"
+    # valpurgis_0017 .. valpurgis_0020
+    c_faust "derrama constantemente\nsus linfas claras y puras,\nes el hechizo gentil\nde estos senderos cansados."
+    # valpurgis_0021 .. valpurgis_0024
+    c_faust "¿No ves por selvas y prados\ncorrer la savia de abril?\nSi hasta el pino en las montañas\nsiente el fuego bienhechor,"
+    # valpurgis_0025 .. valpurgis_0026
+    c_faust "¿cómo tan dulce calor\nno late en nuestras entrañas?"
+    # valpurgis_0027 .. valpurgis_0030
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "No ardió jamás en las mías.\nTengo en el alma el invierno:\nhollar hielo sempiterno\nquisiera y escarchas frías."
+    # valpurgis_0031 .. valpurgis_0034
+    show mephisto scornful at vn_right
+    with dissolve
+    c_mephisto "¡Cuán menguado el turbio disco,\ntarda luna, elevas hoy!\nA tu luz escasa voy\ntropezando en cada risco."
+    # valpurgis_0035 .. valpurgis_0038
+    c_mephisto "Mejor esos fatuos fuegos\nnuestro paso alumbrarán.\nMíralos: volando van\nen extravagantes juegos."
+    # valpurgis_0039 .. valpurgis_0042
+    c_mephisto "Acudid, y vuestra lumbre\nno inútilmente se encienda:\niluminad nuestra senda\nhasta llegar a la cumbre."
+    # valpurgis_0043 .. valpurgis_0046
+    c_wisp "Haré por servirte bien,\nmi natural contrariando,\npues mi ley es ir vagando\nen caprichoso vaivén."
+    # valpurgis_0047 .. valpurgis_0050
+    c_mephisto "¿Parodiar al hombre quieres?\nRecto ve, cual un venablo,\no te juro, a fe de Diablo,\nque soplo, y al punto mueres."
+    # valpurgis_0051 .. valpurgis_0054
+    c_wisp "Reconozco tu poder\ny a tu voluntad me inclino:\nalumbraré tu camino;\nmas cuidado con caer."
+    # valpurgis_0055 .. valpurgis_0058
+    c_wisp "Está la noche sombría,\nlleno de hechizos el monte,\ny en el incierto horizonte\nuna exhalación te guía."
+    # valpurgis_0059 .. valpurgis_0062
+    c_trio "De mágicos sueños, de encantos brillantes\nse abrió a nuestros pasos la vasta mansión;\nalumbren la marcha tus rayos cambiantes,\ny así cruzaremos la negra extensión."
+    # valpurgis_0063 .. valpurgis_0066
+    c_trio "El árbol al árbol se enlaza, y las rocas\ntemblando al impulso de interno latir,\nentreabren sus grutas, fantásticas bocas,\ndo escucho, allá dentro, roncar y gruñir."
+    # valpurgis_0067 .. valpurgis_0070
+    c_trio "Derrama entre musgos la fuente serena\nsus limpios raudales con blando rumor:\n¿Cuál es el murmurio que lánguido suena?\n¿Son himnos y cantos, o quejas de amor?"
+    # valpurgis_0071 .. valpurgis_0074
+    c_trio "Son hondos suspiros de vaga esperanza,\nson dulces sollozos de inquieto placer,\nson ecos confusos que, allá en lontananza,\nlas dichas repiten de un plácido ayer."
+    # valpurgis_0075 .. valpurgis_0078
+    c_trio "Un grito ha sonado, doliente y acerbo:\n¿Quién, dentro del bosque, velando aún está?\nLa triste lechuza y el búho y el cuervo,\nque insomnes acechan la presa quizá."
+    # valpurgis_0079 .. valpurgis_0082
+    c_trio "Manojos fingiendo de horribles culebras,\nla selva, que al huésped le niega merced,\nmil brazos nudosos alarga en las quiebras,\ncual pólipo enorme, que tiende su red."
+    # valpurgis_0083 .. valpurgis_0086
+    c_trio "Millares de ratas, de todos colores,\nformadas en largos ejércitos van;\nluciérnagas pasan, que vagos fulgores,\nen gruesos enjambres volando, les dan."
+    # valpurgis_0087 .. valpurgis_0090
+    c_trio "¿Paramos la marcha? ¿Seguimos el viaje?\nParece que vueltas dé todo alredor;\ncada árbol y roca nos hace un visaje,\ny aumentan los fuegos de brillo traidor."
+    # valpurgis_0091 .. valpurgis_0094
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Agárrate bien de mí;\nsubamos aquella cuesta,\ny la prodigiosa fiesta\nmiraremos desde allí."
+    # valpurgis_0095 .. valpurgis_0096
+    c_mephisto "Sus luminarias Mammón\nenciende ya en la montaña."
+    # valpurgis_0097 .. valpurgis_0100
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Aurora triste y extraña\nbrilla en la negra extensión,\nrasgando la oscuridad\nque envolvió tétrica al mundo,"
+    # valpurgis_0101 .. valpurgis_0104
+    c_faust "y hasta el abismo profundo\npenetra su claridad.\nNegro vapor, a lo lejos,\nsurge allá, y al cielo sube;"
+    # valpurgis_0105 .. valpurgis_0108
+    c_faust "más allá, lóbrega nube\nlanza cárdenos reflejos;\ny ya el vivo resplandor\nen leves franjas se extiende,"
+    # valpurgis_0109 .. valpurgis_0112
+    c_faust "ya se remonta y desciende,\ncomo vivaz surtidor;\nya en mil arroyos partido\ncorre en curso desigual;"
+    # valpurgis_0113 .. valpurgis_0116
+    c_faust "ya acumula su raudal,\npor las rocas detenido;\nya lluvia fingen sus lumbres\nde chispas de oro brillantes;"
+    # valpurgis_0117 .. valpurgis_0118
+    c_faust "ya en las montañas distantes\ninflaman todas las cumbres."
+    # valpurgis_0119 .. valpurgis_0122
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Bien su palacio Mammón\npara la fiesta decora!\nHemos llegado a buena hora:\nbrava será la función."
+    # valpurgis_0123 .. valpurgis_0124
+    c_mephisto "Ya vienen con fiero empuje\nmás airados elementos."
+    # valpurgis_0125 .. valpurgis_0126
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "Mi nuca azotan los vientos:\n¡Cómo la tormenta ruge!"
+    # valpurgis_0127 .. valpurgis_0130
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Abrázate, sin tardar,\nal peñón cuanto pudieres,\nsi al negro fondo no quieres\ndel precipicio rodar."
+    # valpurgis_0131 .. valpurgis_0134
+    c_mephisto "Cubre la noche otro velo;\ndan ásperos estallidos\nlos troncos estremecidos,\ny huye espantado el mochuelo."
+    # valpurgis_0135 .. valpurgis_0138
+    c_mephisto "Tiembla el alcázar frondoso\nde los bosques seculares;\ncolúmpianse sus pilares\ncon crujido lastimoso;"
+    # valpurgis_0139 .. valpurgis_0142
+    c_mephisto "gimen con rudo vaivén\nlas ramas, y sacudidas\nbajo tierra, las hundidas\nraíces crujen también;"
+    # valpurgis_0143 .. valpurgis_0146
+    c_mephisto "y tronchándose, a los broncos\nbramidos del huracán,\nen montón cayendo van\nhojas y ramas y troncos."
+    # valpurgis_0147 .. valpurgis_0150
+    c_mephisto "¿Oyes selvático son\nque cerca y lejos retumba?\nEs que en los aires ya zumba\nla satánica canción."
+    hide faust
+    hide mephisto
+    show bg harz_summit at tint_none
+    with vn_slow
+    # valpurgis_0151 .. valpurgis_0157
+    c_witches_nvl "La paja está seca y aún verde está el grano;\nal Brocken volando las brujas irán:\nallí el aquelarre congrégase ufano,\ny en medio de todos asiéntase Urián.\nAl pie se revuelven, en grupo lascivo,\nel chivo y la bruja, la bruja y el chivo;\ny chivos y brujas, Dios sabe qué harán."
+    nvl clear
+    # valpurgis_0158 .. valpurgis_0159
+    c_voices_nvl "La vieja Baubo se acerca\ncabalgando en una puerca."
+    nvl clear
+    # valpurgis_0160 .. valpurgis_0165
+    c_chorus_nvl "¡Viva nuestra soberana!\n¡A Baubo gloria y honor!\nSobre la mejor marrana\nvaya la bruja mayor,\ny sigamos las demás\ntodas formadas detrás."
+    nvl clear
+    # valpurgis_0166
+    c_voices_nvl "¿De dónde vienes a la carrera?"
+    nvl clear
+    # valpurgis_0167 .. valpurgis_0169
+    c_voices_nvl "De Inselstein vengo, ¡nunca allí fuera!\nVi de un mochuelo la madriguera;\ncogerlo quise, ¡pobre de mí!"
+    nvl clear
+    # valpurgis_0170
+    c_voices_nvl "¿Y por qué corres de esa manera?"
+    nvl clear
+    # valpurgis_0171 .. valpurgis_0172
+    c_voices_nvl "Porque las uñas sacó la fiera,\ny ensangrentada toda salí."
+    nvl clear
+    # valpurgis_0173 .. valpurgis_0178
+    c_witches_nvl "Rascan las escobas, hurgan las horquillas:\nhorda turbulenta, ¡cuál corres y chillas!\n¡Largo es el camino: anda que andarás!\nEl niño se ahoga, la madre revienta:\n¡cuál corres y chillas, horda turbulenta!\nAnda que andarás, que despacio vas."
+    nvl clear
+    # valpurgis_0179 .. valpurgis_0182
+    c_witches_nvl "Marchamos con la pausa del caracol rastrero,\ndejándonos en zaga la tropa mujeril;\npues siempre, si es el Diablo quien le trazó el sendero,\nnos lleva de ventaja mil pasos y otros mil."
+    nvl clear
+    # valpurgis_0183 .. valpurgis_0186
+    c_witches_nvl "Detrás de ellas seguimos, en escuadrón reacio;\npero le vale poco su rápido correr;\ncon un brinco que demos, ganamos el espacio\nque avanzó con su trote menudo la mujer."
+    nvl clear
+    # valpurgis_0187 .. valpurgis_0190
+    c_voices_nvl "¡Oh desdichadas criaturas,\nen el pedregal errantes!\n¡Venid a mí!\n¡Venid a mí!"
+    nvl clear
+    # valpurgis_0191 .. valpurgis_0196
+    c_voices_nvl "Las espléndidas alturas\ncontemplamos anhelantes:\n¿quién volar pudiese a ti?\nLimpios y purificados\nyacemos encarcelados\ne infructíferos aquí."
+    nvl clear
+    # valpurgis_0197 .. valpurgis_0200
+    c_witches_nvl "Los vientos se adormecen, ocúltanse los astros,\nla opaca luna vela su nebulosa faz;\nlos brujos y las brujas vuelan, dejando rastros\nde resplandor fugaz."
+    nvl clear
+    # valpurgis_0201
+    c_voices_nvl "¡Teneos! ¡Teneos!"
+    nvl clear
+    # valpurgis_0202 .. valpurgis_0203
+    c_voices_nvl "¿Quién grita? ¿Quién llama?\n¿Quién es el que, bajo de tierra, así clama?"
+    nvl clear
+    # valpurgis_0204 .. valpurgis_0207
+    c_voices_nvl "Quien siempre a los suyos unirse anheló;\nquien lleva tres siglos --¡suplicio tremendo!--\nsubiendo y trepando, trepando y subiendo,\ny nunca cercana la cúspide vio."
+    nvl clear
+    # valpurgis_0208 .. valpurgis_0214
+    c_witches_nvl "Vuela el macho cabrío,\nvuela la loba,\nvuela el asno tardío,\nvuela la escoba:\n¡vuela, pelele!\nNo volará ya nunca\nquien hoy no vuele."
+    nvl clear
+    # valpurgis_0215 .. valpurgis_0218
+    c_witches_nvl "Ligera camino con paso afanoso,\ny aún lejos de todos, muy lejos estoy.\nEn casa no tengo solaz ni reposo,\ny aquí, a retaguardia, exánime voy."
+    nvl clear
+    # valpurgis_0219 .. valpurgis_0226
+    c_witches_nvl "Cuando la Bruja se unta\n--¡bendito pringue!,--\npronto el poder despunta\nque la distingue.\n¡Boga el buque velero!\n¡Va a todo trapo!\nBajel es un caldero;\nvela un harapo."
+    nvl clear
+    # valpurgis_0227 .. valpurgis_0229
+    c_witches_nvl "¡Vuela, pelele!\nNo volará ya nunca\nquien hoy no vuele."
+    nvl clear
+    # valpurgis_0230 .. valpurgis_0233
+    c_witches_nvl "Y cuando al fin lleguemos a la lejana cumbre,\ntendamos en el yermo la mágica legión,\ny cubrirá siniestra la oscura muchedumbre\ndel anchuroso campo la lóbrega extensión."
+    nvl clear
+    nvl hide dissolve
+    # valpurgis_0234 .. valpurgis_0237
+    show faust neutral at vn_left
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Qué tropel! Vocean, chillan,\nandan, corren, brincan, trotan,\nse atropellan, se alborotan,\nchocan, crujen, arden, brillan."
+    # valpurgis_0238 .. valpurgis_0241
+    c_mephisto "¡Un verdadero aquelarre!\nVen, que el escuadrón sombrío\nte arrastrará, como al mío\ntu brazo fiel no se agarre."
+    # valpurgis_0242
+    c_mephisto "Mas ¿dónde estás?"
+    # valpurgis_0243
+    c_faust "¡Aquí estoy!"
+    # valpurgis_0244 .. valpurgis_0247
+    show mephisto scornful at vn_right
+    with dissolve
+    c_mephisto "¿Perdido, y a largo trecho?...\nTendré que usar mi derecho\ncomo dueño que aquí soy.\nPor allí Voland asoma."
+    # valpurgis_0248 .. valpurgis_0251
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Oh canalla interesante!,\nábreme paso al instante.\nVen, Doctor, mi brazo toma.\nRompe, y con ligera planta"
+    # valpurgis_0252 .. valpurgis_0255
+    c_mephisto "buscaremos otra vía:\ntan incivil compañía\nni el mismo Diablo la aguanta.\nAllá, en la espesura --¿ves?--"
+    # valpurgis_0256 .. valpurgis_0258
+    c_mephisto "brillan pálidos destellos;\nno sé qué me impulsa hacia ellos:\nhacia ellos vayamos, pues."
+    # valpurgis_0259 .. valpurgis_0262
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Voy, Espíritu de extraña\ncontradicción, tras de ti;\ntodo lo has dispuesto aquí\ncon singular tino y maña."
+    # valpurgis_0263 .. valpurgis_0266
+    c_faust "En esta noche de horrores\ncuyos portentos admiro,\nla soledad y el retiro\nnos parecerán mejores."
+    # valpurgis_0267 .. valpurgis_0270
+    c_mephisto "¿Luces de vario fulgor\nno ves arder allí enfrente?\nComparsa es de alegre gente\ndonde reina el buen humor."
+    # valpurgis_0271 .. valpurgis_0272
+    c_mephisto "Entre pequeños estar\nno es estar solo."
+    # valpurgis_0273
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Quisiera"
+    # valpurgis_0274 .. valpurgis_0277
+    c_faust "subir más. Gigante hoguera\nmiro a lo lejos llamear.\nAllí, entre el humo y la lumbre,\ntriunfa soberbio Luzbel,"
+    # valpurgis_0278 .. valpurgis_0281
+    c_faust "y ansiosa corre hacia él\nnumerosa muchedumbre.\n¡Cuántos, a sus resplandores,\nviera enigmas descubiertos!"
+    # valpurgis_0282 .. valpurgis_0285
+    c_mephisto "Y a sus reflejos inciertos\nnacieran otros mayores.\nMientras que rimbomba allí\nel gran mundo, en este asilo"
+    # valpurgis_0286 .. valpurgis_0289
+    c_mephisto "goza el sosiego tranquilo\nque reservé para ti;\npues es deleite halagüeño\n--y en la experiencia me fundo--"
+    # valpurgis_0290 .. valpurgis_0293
+    c_mephisto "buscar dentro del gran mundo\notro mundo más pequeño.\nMira, ¡qué hechiceras! Van\ndesnudas. ¡Y son muy bellas!"
+    # valpurgis_0294 .. valpurgis_0297
+    c_mephisto "¡Cuán tapadas van aquellas!\nViejas o feas serán.\nAmable procura ser,\ny cortés y lisonjero:"
+    # valpurgis_0298 .. valpurgis_0301
+    c_mephisto "eso no cuesta dinero,\ny produce gran placer.\nUna música sonó:\n¡qué espantosa cencerrada!"
+    # valpurgis_0302 .. valpurgis_0305
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Pasemos: te daré entrada\ntan luego como entre yo.\nMira, ¡cuán vasto lugar!\nSus límites no se ven;"
+    # valpurgis_0306 .. valpurgis_0309
+    c_mephisto "cien antorchas y otras cien\nlanzan fulgor singular;\ny una inmensa multitud\nque vivaz júbilo inflama,"
+    # valpurgis_0310 .. valpurgis_0311
+    c_mephisto "danza y ríe, come y ama:\n¿quieres mayor beatitud?"
+    # valpurgis_0312 .. valpurgis_0315
+    c_faust "Y --la pregunta perdona--\nen mundo tan lisonjero,\n¿entras cual simple Hechicero,\no como el Diablo en persona?"
+    # valpurgis_0316 .. valpurgis_0319
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Tengo al incógnito amor;\npero, en tales ocasiones,\nrango y condecoraciones\nostentar es de rigor."
+    # valpurgis_0320 .. valpurgis_0323
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Aunque noble siempre fui,\nno tengo la Jarretiera;\nmas se aprecia y considera\nla Pata de Cabra aquí."
+    # valpurgis_0324 .. valpurgis_0327
+    c_mephisto "Viene, mirando alredor,\nuna babosa, y advierto\nque algo extraño ha descubierto\nen mí su ojo palpador."
+    # valpurgis_0328 .. valpurgis_0331
+    c_mephisto "Es el disfraz o el capuz\nprecaución para mí ociosa.\nVen, y como mariposa\nvolarás de luz en luz."
+    # valpurgis_0332 .. valpurgis_0335
+    c_mephisto "En todo servirte quiero;\ny al presentarte a la gente,\ntú serás el pretendiente,\nyo seré el casamentero."
+    # valpurgis_0336
+    c_narrator "A algunos que están sentados junto a un brasero medio apagado."
+    # valpurgis_0337 .. valpurgis_0340
+    c_mephisto "¿Qué hacéis en ese rincón,\nseñores de cierta edad?\nVenid y participad\nde la común diversión."
+    # valpurgis_0341 .. valpurgis_0344
+    c_mephisto "Buscad el fuego que abrasa\na la juventud brillante:\nya tendréis tiempo bastante\npara aburriros en casa."
+    # valpurgis_0345 .. valpurgis_0348
+    c_walpurgis_guests "Nada de la gratitud\nde las naciones esperes;\nsiempre van, cual las mujeres,\ndetrás de la juventud."
+    # valpurgis_0349 .. valpurgis_0352
+    c_walpurgis_guests "Torcidos los tiempos van.\nPor los de antaño estoy yo,\ncuando hubimos honra y pro.\n¡Qué tiempos! ¡No volverán!"
+    # valpurgis_0353 .. valpurgis_0356
+    c_walpurgis_guests "Fuimos gente de valer,\ny grandes cosas logramos;\ntodo cuanto edificamos\nlo vemos ahora caer."
+    # valpurgis_0357 .. valpurgis_0360
+    c_walpurgis_guests "¿Quién encontrará sustancia\na lo que se escribe hoy día?\n¡Qué juventud tan vacía!\n¡Qué orgullo y qué petulancia!"
+    # valpurgis_0361 .. valpurgis_0364
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Hoy, que en esta bacanal\npor la postrera vez entro,\nal género humano encuentro\ndigno del Juicio Final."
+    # valpurgis_0365 .. valpurgis_0368
+    c_mephisto "Cuando sale turbio y ruin\nde mi vieja bota el vino,\nes que próximo y vecino\nestá ya el mundo a su fin."
+    # valpurgis_0369 .. valpurgis_0372
+    c_witches "¡Oh, no paséis de ese modo,\ncaballeros, por mi tienda!\nVenid: ¿qué queréis que os venda?\nReparad: aquí hay de todo."
+    # valpurgis_0373 .. valpurgis_0376
+    c_witches "De tanto objeto diverso,\nno hallaréis uno siquiera\nque alguna vez no sirviera\npara mal del universo."
+    # valpurgis_0377 .. valpurgis_0380
+    c_witches "No habéis de encontrar puñal\nque en sangre no esté manchado;\nni copa que derramado\nno haya tósigo mortal;"
+    # valpurgis_0381 .. valpurgis_0384
+    c_witches "ni joya que perdición\nde una mujer no haya sido;\nni espada que no haya herido\nal enemigo a traición."
+    # valpurgis_0385 .. valpurgis_0388
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Oh, mi señora parienta!\nGuardad vuestra mercancía,\nya que los gustos del día\nno queréis tomar en cuenta."
+    # valpurgis_0389 .. valpurgis_0392
+    c_mephisto "Lo que pasó, pasó ya;\ny no gusta ni acomoda.\nVenga algo nuevo: de moda\nla novedad hoy está."
+    # valpurgis_0393 .. valpurgis_0394
+    c_faust "¿Feria es aquesta, o tal vez\ndeliro?"
+    # valpurgis_0395
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "La tromba asciende,"
+    # valpurgis_0396 .. valpurgis_0398
+    c_mephisto "y aquel que impulsar pretende\nes impulsado a la vez.\nMira."
+    # valpurgis_0399
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "¡Qué mujer tan bella!"
+    # valpurgis_0400
+    c_faust "¿Quién es?"
+    # valpurgis_0401
+    c_mephisto "Es Lilith, la hermosa."
+    # valpurgis_0402
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¿Lilith?"
+    # valpurgis_0403
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "La primera esposa"
+    # valpurgis_0404 .. valpurgis_0407
+    c_mephisto "de Adán. ¡Guárdate bien de ella!\nGuárdate de sus cabellos\nque su adorno y gloria son:\nsi prenden un corazón,"
+    # valpurgis_0408
+    c_mephisto "para siempre queda entre ellos."
+    # valpurgis_0409 .. valpurgis_0412
+    show faust ecstatic at vn_left
+    with dissolve
+    c_faust "Allí hay otras dos sentadas;\nun pimpollo y una vieja.\n¡Cómo bailó esa pareja!\n¡Están bien zarandeadas!"
+    # valpurgis_0413 .. valpurgis_0416
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "Es imposible parar\nen aquesta danza loca:\nla música otra vez toca:\nsaquémoslas a bailar."
+    # valpurgis_0417 .. valpurgis_0420
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Dulce ensueño tuve un día;\nfrondoso manzano vi.\n¡Qué dos manzanas tenía!\nPor las manzanas subí."
+    # valpurgis_0421 .. valpurgis_0424
+    c_walpurgis_guests "Gusta el hombre de manzanas:\nya las probó en el Edén:\nhermosas las tengo y sanas\nen mi huerto yo también."
+    # valpurgis_0425 .. valpurgis_0428
+    c_mephisto "Raro ensueño tuve un día;\nun árbol rajado vi.\nAllí dentro...\n· · · · · · · · · · · · ·"
+    # valpurgis_0429 .. valpurgis_0432
+    c_walpurgis_guests "Al de la Pata de Cabra\nsaludo y beso los pies:\nSi queréis...\n· · · · · · · · · · · · ·"
+    # valpurgis_0433
+    c_walpurgis_guests "· · · · · · · · · · · · ·"
+    # valpurgis_0434 .. valpurgis_0437
+    c_walpurgis_guests "¿Qué hacéis, gente descortés?\nProbado está y bien probado\nque jamás ha caminado\nun Espíritu en dos pies;"
+    # valpurgis_0438 .. valpurgis_0441
+    c_walpurgis_guests "y tras de tanto explicar\nel porqué, el cómo y el cuándo,\naquí os encuentro bailando\ncomo un danzarín vulgar."
+    # valpurgis_0442 .. valpurgis_0443
+    c_walpurgis_guests "¿Qué es lo que tiene que ver\ncon nuestro baile ese viejo?"
+    # valpurgis_0444 .. valpurgis_0447
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Sin que le pidan consejo\nen todo se ha de meter.\nCuando el mundo alborozado\nbaila, él comenta y critica;"
+    # valpurgis_0448 .. valpurgis_0451
+    c_faust "y si un paso no lo explica,\nlo tiene por no bailado.\nAún es mayor su despecho\nporque vamos adelante:"
+    # valpurgis_0452 .. valpurgis_0455
+    c_faust "¿queréis verlo en un instante\ndesarmado y satisfecho?\nDemos vueltas en su noria,\ny al pasar, humildemente,"
+    # valpurgis_0456 .. valpurgis_0457
+    c_faust "doblemos ante él la frente,\nadmirados de su gloria."
+    # valpurgis_0458 .. valpurgis_0461
+    c_walpurgis_guests "¿Aún aquí, rebelde grey,\nestás? ¡Mi cólera estalla!\n¡Vete! ¡La infernal canalla\nno tiene freno ni ley!"
+    # valpurgis_0462 .. valpurgis_0465
+    c_walpurgis_guests "Voy a seguir sus piruetas,\ny aunque sea empresa dura,\nhe de meter en cintura\na demonios y poetas."
+    # valpurgis_0466 .. valpurgis_0468
+    c_mephisto "¿Por qué dejas con enojo\nla dama, que aún te provoca\na la danza?"
+    # valpurgis_0469
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "De la boca"
+    # valpurgis_0470
+    c_faust "le ha salido un ratón rojo."
+    # valpurgis_0471 .. valpurgis_0474
+    c_mephisto "Eso es un grano de anís.\n¿Quién, en ocasión tan grata,\nreparará en una rata,\nno siendo la rata gris?"
+    # valpurgis_0475
+    c_faust "Y a más..."
+    # valpurgis_0476
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "¿Qué más?"
+    # valpurgis_0477
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡Ay, Mefisto!"
+    # valpurgis_0478 .. valpurgis_0481
+    c_faust "¿Una pálida doncella,\nsola y triste, dulce y bella,\nallá, a lo lejos, no has visto?\nEntre la turba precita,"
+    # valpurgis_0482 .. valpurgis_0484
+    c_faust "sin mover los pies, avanza:\n¡tiene cierta semejanza\ncon la pobre Margarita!"
+    # valpurgis_0485 .. valpurgis_0488
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Nunca satisfecho estás.\n¿Qué es aquesta aparición?\nInanimada visión,\nsombra, espectro, nada más."
+    # valpurgis_0489 .. valpurgis_0492
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Pero su presencia excusa;\nsu pupila heló la muerte\ny al hombre en piedra convierte:\nya sabes quién fue Medusa."
+    # valpurgis_0493 .. valpurgis_0496
+    c_faust "Fáltale vida: ¡es verdad!\nSus ojos, sin luz y abiertos,\nson los ojos de los muertos\nque no cerró la amistad."
+    # valpurgis_0497 .. valpurgis_0500
+    c_faust "Y --¡ay, Dios!-- esos miembros fríos\nese insensible regazo,\nson los que en amante lazo\njuzgué para siempre míos."
+    # valpurgis_0501 .. valpurgis_0504
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Ilusión mágica fue:\ncuando contempla a esa bella,\ntodo enamorado en ella\nla mujer querida ve."
+    # valpurgis_0505 .. valpurgis_0508
+    c_faust "¡Dulce y tristísimo afán!\n¡Gratos y acerbos enojos!\nDe sus apagados ojos\nvencer no puedo el imán."
+    # valpurgis_0509 .. valpurgis_0512
+    c_faust "¿Qué adorno en su cuello brilla?\nSu pálido cutis mancha\nroja cinta, no más ancha\nque el grueso de una cuchilla."
+    # valpurgis_0513 .. valpurgis_0516
+    c_mephisto "Es verdad; también la veo:\nbajo el brazo, la infeliz,\npuede llevar la cerviz,\npues se la cortó Perseo."
+    # valpurgis_0517 .. valpurgis_0520
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "Aleja ese ensueño cruel.\nVamos hacia ese collado:\ntan alegre es como el Prado,\ny un teatro veo en él."
+    # valpurgis_0521
+    c_mephisto "¿Se puede entrar?"
+    # valpurgis_0522
+    c_walpurgis_guests "Adelante."
+    # valpurgis_0523 .. valpurgis_0526
+    c_walpurgis_guests "Hoy siete piezas promete\nel cartel; la que hace siete\nva a comenzar al instante.\nCómicos son de afición;"
+    # valpurgis_0527 .. valpurgis_0530
+    c_walpurgis_guests "el autor aficionado,\ny a mí la afición me ha dado\nde levantar el telón.\nPermitidme, pues, marchar."
+    # valpurgis_0531 .. valpurgis_0533
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡En el Blocksberg os encuentro!\nAquí estáis en vuestro centro\ny en vuestro propio lugar."
+
+label scene_intermedio:
+    scene black
+    show card_intermedio at truecenter
+    with fade
+    pause 2.0
+    hide card_intermedio
+    scene bg intermezzo at tint_none
+    with fade
+    # intermedio_0001 .. intermedio_0004
+    c_dream_figures_nvl "Hijos de Mieding bravos y obedientes,\n¡al trabajo otra vez! ¡Llegó la hora!\nViejos montes y valles florecientes\nformando están la escena encantadora."
+    nvl clear
+    # intermedio_0005 .. intermedio_0008
+    c_dream_figures_nvl "Medio siglo --¡larguísima jornada!--\nha de pasar para las bodas de oro:\ndespués de la contienda terminada,\nsi queda el oro, es el mejor tesoro."
+    nvl clear
+    # intermedio_0009 .. intermedio_0012
+    c_oberon_nvl "Espíritus, venid, si no estáis lejos,\ny en tan grave ocasión prestadme ayuda:\nhoy la Real Pareja los añejos\nvínculos conyugales reanuda."
+    nvl clear
+    # intermedio_0013 .. intermedio_0016
+    c_puck_nvl "Ya viene el Puck en diagonal carrera,\narrastrando los pies, torciendo el paso;\ny una turba festiva y vocinglera\nva corriendo en tropel tras el payaso."
+    nvl clear
+    # intermedio_0017 .. intermedio_0020
+    c_ariel_nvl "Ariel divino, de armonías gratas\nllena la Creación, que le oye ansiosa.\nSu voz hechiza a muchos papanatas;\npero también conquista alguna hermosa."
+    nvl clear
+    # intermedio_0021 .. intermedio_0024
+    c_oberon_nvl "Cónyuges, si queréis vivir dichosos,\nnuestra conducta os da sanos consejos:\nsepárense cuanto antes los esposos,\ny tiernamente se amarán de lejos."
+    nvl clear
+    # intermedio_0025 .. intermedio_0028
+    c_titania_nvl "Si el marido murmura sin aguante,\nsi la mujer replica impertinente,\ncorra el uno con rumbo hacia Levante\ny el otro hacia Poniente."
+    nvl clear
+    # intermedio_0029
+    c_narrator_nvl "Fortissimo"
+    nvl clear
+    # intermedio_0030 .. intermedio_0033
+    c_orchestra_nvl "Las moscas, los mosquitos y moscones\ncon sus trompas y pífanos sonoros,\nlas ranas, y los grillos de agrios sones,\nnuestros músicos son y nuestros coros."
+    nvl clear
+    # intermedio_0034 .. intermedio_0037
+    c_orchestra_nvl "La zampoña, con pasos cachazudos,\nviene moviendo la disforme panza:\nescuchad los solemnes estornudos\nque su nariz estrepitosa lanza."
+    nvl clear
+    # intermedio_0038 .. intermedio_0041
+    c_dream_figures_nvl "Tiene pies de escorpión, vientre de sapo;\nsi alas sus alas son, es un problema;\nsu autor, a ese ridículo gazapo,\nlo titula «Poema.»"
+    nvl clear
+    # intermedio_0042 .. intermedio_0045
+    c_dream_figures_nvl "Vas brincando entre flores y perfumes\ncon breve paso y arrogante anhelo;\npero aunque mucho quieres y presumes,\nno te levantarás nunca del suelo."
+    nvl clear
+    # intermedio_0046 .. intermedio_0049
+    c_dream_figures_nvl "¿Es esto mascarada extravagante\no es que la fantasía me ilusiona?\n¿Oberón, el dios bello, el dios brillante,\nen este sitio se mostró en persona?"
+    nvl clear
+    # intermedio_0050 .. intermedio_0053
+    c_dream_figures_nvl "¡Ni uñas, ni cuernos, ni encorvado rabo!\nNo me engaña el mentido testimonio:\ncual los dioses de Grecia, al fin y al cabo,\ntú no eres otra cosa que un demonio."
+    nvl clear
+    # intermedio_0054 .. intermedio_0057
+    c_dream_figures_nvl "Cuanto concibo y ejecuto --¡ay triste!--\nes vaga sombra y pálido boceto;\npero conozco el mal y en qué consiste,\ny visitar la Italia me prometo."
+    nvl clear
+    # intermedio_0058 .. intermedio_0061
+    c_dream_figures_nvl "Topé para mi mal con esta gente;\ngroseras brujas son desarregladas.\nPasándoles revista atentamente,\nsolo un par encontré bien empolvadas."
+    nvl clear
+    # intermedio_0062 .. intermedio_0065
+    c_dream_figures_nvl "¡Polvos! ¡Trajes también! ¡Pobre atractivo,\nque tapa de la edad el triste rastro!\nDesnuda yo sobre el robusto chivo,\nmuestro feliz mis miembros de alabastro."
+    nvl clear
+    # intermedio_0066 .. intermedio_0069
+    c_dream_figures_nvl "Nuestra prudencia, que la edad madura,\nemulaciones frívolas evita:\nla flor, que ostentas hoy, de la hermosura,\ntambién tú la verás seca y marchita."
+    nvl clear
+    # intermedio_0070 .. intermedio_0073
+    c_dream_figures_nvl "¡Oh moscas y mosquitos y moscones!,\nde la hermosa desnuda separaos.\n¡Ranas y grillos de discordes sones!,\na compás y medida sujetaos."
+    nvl clear
+    # intermedio_0074 .. intermedio_0077
+    c_dream_figures_nvl "No puede haber más grata compañía:\ndoncellas de constante y tierno pecho;\njóvenes de valor y de hidalguía:\ngente toda de lustre y de provecho."
+    nvl clear
+    # intermedio_0078 .. intermedio_0081
+    c_dream_figures_nvl "Ábrete, tierra, y a la vil canalla\ntrague al momento el infernal abismo,\no mi furiosa indignación estalla,\narrojándome al Tártaro yo mismo."
+    nvl clear
+    # intermedio_0082 .. intermedio_0085
+    c_dream_figures_nvl "Somos cual sabandijas, y mordemos\ncon colmillo afilado y diminuto,\ndando solo a los méritos supremos\ndel Papá Satanás honra y tributo."
+    nvl clear
+    # intermedio_0086 .. intermedio_0089
+    c_dream_figures_nvl "Con inocente ingenuidad, que alabo,\nestá jugando la menuda grey;\nhemos de confesar, al fin y al cabo,\nque sabandijas son de buena ley."
+    nvl clear
+    # intermedio_0090 .. intermedio_0093
+    c_dream_figures_nvl "No me da pena el escuadrón rugiente\nde estas malditas brujas del Averno;\nel coro de las Musas esplendente\ncon más dificultad rijo y gobierno."
+    nvl clear
+    # intermedio_0094 .. intermedio_0097
+    c_dream_figures_nvl "Busca en mi sol el rayo que te alumbre;\nagarra mi faldón; aprieta el paso.\nPara todos hay sitio en la ancha cumbre\ndel Blocksberg y el germánico Parnaso."
+    nvl clear
+    # intermedio_0098 .. intermedio_0101
+    c_dream_figures_nvl "¿Quién es ese pedante que en su frente\nsoberbia y petulancia lleva escritas?\n¿Qué busca, tan orondo y displicente?\nSiguiendo la husma va de los Jesuitas."
+    nvl clear
+    # intermedio_0102 .. intermedio_0105
+    c_dream_figures_nvl "Pesco en las aguas turbias y en las claras:\ntengo de ello muy buenos testimonios;\ny me verás, si atento lo reparas,\nmezclar al Padre Santo y los demonios."
+    nvl clear
+    # intermedio_0106 .. intermedio_0109
+    c_dream_figures_nvl "La grey devota, para abrirse paso,\nno repara en vehículo;\nen medio del Blocksberg congrega acaso\nsu negro conventículo."
+    nvl clear
+    # intermedio_0110 .. intermedio_0113
+    c_dream_figures_nvl "¿Qué lejano rumor nos trajo el viento?\n¿Es el redoble del tambor sonoro?\nNo: es el canto pausado y soñoliento\nde los graves sochantres en el coro."
+    nvl clear
+    # intermedio_0114 .. intermedio_0117
+    c_dream_figures_nvl "Todos bailan, el grande y el menudo;\ntodos ruedan sin miedo y sin cuidado;\nbrincan el contrahecho y el panzudo;\nsalta el cojo y se estira el encorvado."
+    nvl clear
+    # intermedio_0118 .. intermedio_0121
+    c_dream_figures_nvl "Esa canalla, que danzando veo,\nllena está de malicia y de ponzoña.\nFieras domaba con su lira Orfeo:\na estos los domestica la zampoña."
+    nvl clear
+    # intermedio_0122 .. intermedio_0125
+    c_dream_figures_nvl "Ni crítica mordaz, ni duda fiera\ndestruyen mi doctrina bien probada;\nexiste el diablo, pues si no existiera,\ndejara de ser diablo y fuera nada."
+    nvl clear
+    # intermedio_0126 .. intermedio_0129
+    c_dream_figures_nvl "La fantasía dominó mi mente,\ny siervo es mi sentir de su mandato:\npues que todo lo soy, es consiguiente\nque soy también un pobre mentecato."
+    nvl clear
+    # intermedio_0130 .. intermedio_0133
+    c_dream_figures_nvl "El Ser es mi suplicio y mi tormento,\ny comienza a cansarme y aburrirme.\nHoy por primera vez experimento\nque no estoy en mis pies seguro y firme."
+    nvl clear
+    # intermedio_0134 .. intermedio_0137
+    c_dream_figures_nvl "Me encuentro bien entre estos malhadados,\ncuando en el aquelarre me introduzco;\nal ver diablos aquí por todos lados,\nque existen también ángeles deduzco."
+    nvl clear
+    # intermedio_0138 .. intermedio_0141
+    c_dream_figures_nvl "Les engaña el fulgor de un espejismo\ncuando de la verdad van al encuentro;\nDemonio y duda casi son lo mismo;\npor eso estoy aquí como en mi centro."
+    nvl clear
+    # intermedio_0142 .. intermedio_0145
+    c_dream_figures_nvl "¡Callad, moscas, mosquitos y moscones!\n¡Callad, por Dios, malditos diletantes!\n¡Callad ranas y grillos de agrios sones!\n¡Músicos todos sois horripilantes!"
+    nvl clear
+    # intermedio_0146 .. intermedio_0149
+    c_dream_figures_nvl "Somos gente feliz y positiva,\ny vivimos sin pena y sin trabajo.\n¿Pasó la moda de ir cabeza arriba?\nPues iremos también cabeza abajo."
+    nvl clear
+    # intermedio_0150 .. intermedio_0153
+    c_dream_figures_nvl "Algún día llenamos bien la panza;\nmas ya no atiende el cielo nuestros votos,\ny de tanto bailar en esta danza,\nvamos al fin con los zapatos rotos."
+    nvl clear
+    # intermedio_0154 .. intermedio_0157
+    c_dream_figures_nvl "Nacimos en los fétidos pantanos,\nengendro de la negra podredumbre:\nhoy, galanes espléndidos y ufanos,\nresplandecemos todos en la cumbre."
+    nvl clear
+    # intermedio_0158 .. intermedio_0161
+    c_dream_figures_nvl "Caí, rodando de la eterna altura\ndonde brillaba, luminosa estrella.\nTendida estoy sobre la tierra dura:\n¿quién podrá, cielos, levantarme de ella?"
+    nvl clear
+    # intermedio_0162 .. intermedio_0165
+    c_dream_figures_nvl "¡Escuchad! Tiembla el suelo al choque rudo.\n¡Plaza! ¡Ya viene el escuadrón obeso!\nSi es que Espíritus son --que no lo dudo--\ndigo que son Espíritus de peso."
+    nvl clear
+    # intermedio_0166 .. intermedio_0169
+    c_puck_nvl "¡Escuadra de hipopótamos bravía!\n¡Moderad y tened el rudo trote!\n¡Dejadme a mí la gloria, en tan gran día,\nde ser el más pesado y mazacote!"
+    nvl clear
+    # intermedio_0170 .. intermedio_0173
+    c_ariel_nvl "Si la Naturaleza cariñosa,\no el Espíritu os dan ligeras galas,\na la cumbre seguidme do la rosa\nfeliz ostenta sus purpúreas alas."
+    nvl clear
+    # intermedio_0174 .. intermedio_0177
+    c_orchestra_nvl "La neblina se aclara y desvanece;\ndeshácese la nube de igual modo:\nsonora brisa la enramada mece,\ny se disipa y se evapora todo."
+    nvl clear
+    nvl hide dissolve
+
+label scene_dia_nebuloso:
+    scene black
+    show card_dia_nebuloso at truecenter
+    with fade
+    pause 2.0
+    hide card_dia_nebuloso
+    scene bg field_day at tint_none
+    with fade
+    # dia_nebuloso_0001
+    show faust neutral at vn_left
+    show mephisto neutral at vn_right
+    with dissolve
+    c_narrator "Campo, FAUSTO, MEFISTÓFELES"
+    # dia_nebuloso_0002
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡En la miseria! ¡En la desesperación! ¡Abandonada en el mundo, largo tiempo errante, y al fin presa! ¡En la cárcel, como una malhechora, reservada a tormentos horribles, ella, la amable, la infeliz criatura!... ¡Hasta ese extremo! ¡Hasta ese extremo!..."
+    # dia_nebuloso_0003
+    c_faust "¡Traidor, indigno Espíritu! ¿Te has atrevido a ocultármelo?"
+    # dia_nebuloso_0004
+    c_faust "¡Basta ya! ¡Basta! Revuelve colérico en sus órbitas tus ojos diabólicos. Provócame aún con tu insufrible presencia. ¡Presa! ¡Sumida en irreparable infortunio! ¡Entregada a los Espíritus malos y a la despiadada justicia de los hombres! Y entre tanto, arrullándome con insulsos placeres, ocultábasme sus crecientes desdichas, y la dejabas morir sin amparo."
+    # dia_nebuloso_0005
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "No será la primera."
+    # dia_nebuloso_0006
+    c_faust "¡Perro! ¡Execrable monstruo!"
+    # dia_nebuloso_0007
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Vuélvele --¡Eterno Espíritu!--, vuélvele a ese bicho su canina forma, la forma que tomaba a menudo para trotar, negro fantasma, ante mis pasos, roncar a los pies del pasajero inofensivo, y derribarle, colgándose a sus hombros. Devuélvele su forma predilecta, para que arrastre otra vez el vientre por el suelo, para que pueda yo patearle, al réprobo."
+    # dia_nebuloso_0008
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡Que no es la primera!..."
+    # dia_nebuloso_0009
+    c_faust "¡Horror! ¡Horror incomprensible para toda alma humana, que en el abismo de tal infortunio haya podido caer más de una criatura, y que, a los ojos de la Eterna Misericordia, la primera, con sus mortales congojas, no haya pagado por todas! ¡La desdicha de esta sola penetra hasta la médula de mis huesos, llega hasta el fondo de mi vida; y tú te mofas satisfecho de millares de ellas!"
+    # dia_nebuloso_0010
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "Hétenos otra vez en la linde de vuestra comprensión, donde a vosotros, los mortales, se os dispara el juicio. ¿Por qué te asociaste a mí, si no podías seguirme? ¡Quieres volar, y aún te marea el vértigo! ¿Fui a buscarte, o viniste a buscarme?"
+    # dia_nebuloso_0011
+    c_faust "No rechines los dientes voraces. ¡Me das asco!"
+    # dia_nebuloso_0012
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¡Grande y sublime Espíritu, que te dignaste acudir a mi voz!; tú, que conoces mi corazón y mi alma, ¿por qué me encadenas a un vil compañero, que se alimenta de males y se goza en las ruinas?"
+    # dia_nebuloso_0013
+    c_mephisto "¿Acabaste?"
+    # dia_nebuloso_0014
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "Sálvala..., o ¡ay de ti! ¡Sobre tu frente irá por siglos de siglos la maldición más espantosa!"
+    # dia_nebuloso_0015
+    c_mephisto "No puedo romper las ligaduras de los vengadores, ni descorrer sus cerrojos."
+    # dia_nebuloso_0016
+    c_mephisto "¡Sálvala!"
+    # dia_nebuloso_0017
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¿Quién la perdió? ¿Tú o yo?"
+    # dia_nebuloso_0018
+    c_narrator "FAUSTO lanza en torno miradas feroces."
+    # dia_nebuloso_0019
+    c_mephisto "¿Asir quisieras un rayo? No están, por fortuna, a vuestro alcance, míseros mortales. Aplastar al que, inocente, contradice, tal es, caso de aprieto, el proceder de los tiranos."
+    # dia_nebuloso_0020
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Llévame a ella. ¡Hay que librarla!"
+    # dia_nebuloso_0021
+    show mephisto neutral at vn_right
+    with dissolve
+    c_mephisto "¿Y el riesgo a que te expones? Piensa que aún no se ha secado en la ciudad la sangre de la muerte que hiciste. En aquel sitio se ciernen implacables Espíritus, aguardando a su vez la muerte del matador."
+    # dia_nebuloso_0022
+    c_faust "¿Eso más de ti?... ¡Destrucción y ruina de todo un mundo sobre ese monstruo! Llévame allá, te digo, y libértala."
+    # dia_nebuloso_0023
+    c_mephisto "Te llevaré; y escucha lo que puedo hacer. ¿Acaso soy señor de cielos y tierra? Turbaré los sentidos del carcelero. Cogerás la llave, y con tu mano de hombre podrás sacar a la presa fuera de la prisión. Vigilaré yo en tanto. Los caballos mágicos estarán a punto, y os llevaré. Eso es lo que puedo hacer."
+    # dia_nebuloso_0024
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Vamos, pues."
+
+label scene_noche_campo:
+    scene black
+    show card_noche_campo at truecenter
+    with fade
+    pause 2.0
+    hide card_noche_campo
+    scene bg field_night at tint_none
+    with fade
+    # noche_campo_0001
+    show faust neutral at vn_left
+    show mephisto neutral at vn_right
+    with dissolve
+    c_narrator "Campo raso. FAUSTO y MEFISTÓFELES galopando en caballos negros"
+    # noche_campo_0002
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "¿Por qué bullen aquellos alrededor de un cadalso?"
+    # noche_campo_0003
+    c_mephisto "No sé qué arreglan o guisan."
+    # noche_campo_0004
+    c_faust "Corren acá y allá, se ladean, se agachan."
+    # noche_campo_0005
+    c_mephisto "Brujas en aquelarre."
+    # noche_campo_0006
+    c_faust "Parece que rocíen con el hisopo y que consagren."
+    # noche_campo_0007
+    show mephisto sly at vn_right
+    with dissolve
+    c_mephisto "¡Adelante! ¡Adelante!"
+
+label scene_carcel:
+    scene black
+    show card_carcel at truecenter
+    with fade
+    pause 2.0
+    hide card_carcel
+    scene bg prison at tint_none
+    with fade
+    # carcel_0002 .. carcel_0005
+    show faust fearful at vn_left
+    with dissolve
+    c_faust "Horror ha largo tiempo no sentido\nsiento otra vez. Me asaltan y me rinden\nlos males todos que lamenta y llora\nla pobre Humanidad. Aquí ella vive;"
+    # carcel_0006 .. carcel_0009
+    c_faust "tras ese húmedo muro está encerrada:\n¡y una ilusión querida fue su crimen!\nVoy a encontrarla, y azorado tiemblo;\nvoy a verla, y mi pie duda y resiste."
+    # carcel_0010 .. carcel_0011
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¡Valor! Puede matarla mi tardanza.\n¡No más dudar! Su salvación lo exige."
+    # carcel_0012
+    c_narrator "Toma la llave."
+    # carcel_0013
+    c_narrator "Cantan dentro del calabozo."
+    # carcel_0014 .. carcel_0017
+    c_faust "Mi madre, ramera,\nme dio muerte fiera;\nmi padre, el perdido,\nmi carne ha comido;"
+    # carcel_0018 .. carcel_0021
+    c_faust "lo poquito que quedó\nmi hermanita lo enterró.\nAbriose la fosa;\nsalió un pajarito de pluma vistosa."
+    # carcel_0022 .. carcel_0024
+    c_faust "¡Tiende, pajarito,\ntiende pronto el vuelo!\n¡Vuela, pajarito, piérdete en el cielo!"
+    # carcel_0025 .. carcel_0027
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¡Cuán ajena a pensar que oye su amante\nel son siniestro de los hierros viles\nestará la infeliz!"
+    # carcel_0028
+    c_narrator "Entra."
+    # carcel_0029
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "¡Vienen! ¡Ya vienen!"
+    # carcel_0030
+    c_margarita "¡Funesta muerte!"
+    # carcel_0031
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "Calla y serás libre."
+    # carcel_0032
+    c_faust "Vengo a salvarte."
+    # carcel_0033
+    c_margarita "Si eres ser humano,"
+    # carcel_0034
+    c_margarita "duélete de mi suerte."
+    # carcel_0035
+    c_faust "No así grites;"
+    # carcel_0036
+    c_faust "que el dormido guardián despertar puede."
+    # carcel_0037
+    c_narrator "Toma las cadenas para quitárselas."
+    # carcel_0038 .. carcel_0041
+    c_margarita "¿Quién te dio este poder? ¿Por mí viniste,\nverdugo, y ahora suena medianoche?\nVete; deja que viva y que respire\nhasta el amanecer. ¿Piensas acaso"
+    # carcel_0042
+    c_margarita "que mucho ha de tardar la hora terrible?"
+    # carcel_0043
+    c_narrator "Levantándose."
+    # carcel_0044 .. carcel_0047
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "¡Aún soy joven, muy joven, y ya muero!\n¡Y bella fui también! Ese el origen\nfue de mi mal. Entonces a mi lado\nél estaba; ¡ahora lejos! De la virgen"
+    # carcel_0048 .. carcel_0051
+    c_margarita "rota está la guirnalda, y esparcidas\nlas flores todas. ¡Ay! ¿Por qué me oprime\ntu diestra airada, y hacia ti me arrastras?\nSuelta, suelta... ¡Perdón! Mal no te hice;"
+    # carcel_0052 .. carcel_0053
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "jamás te he visto. ¿Inútiles y vanos\nmis clamores serán?"
+    # carcel_0054
+    c_faust "¿A quién no aflige"
+    # carcel_0055
+    c_faust "tanto dolor?"
+    # carcel_0056
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "En tu poder me tienes:"
+    # carcel_0057 .. carcel_0060
+    c_margarita "deja, al menos, que el pecho al infelice\nniño le dé. Toda la noche, toda\nlo estreché en mi regazo. Para herirme,\npara culparme --¡oh cielos!--, lo robaron"
+    # carcel_0061 .. carcel_0064
+    c_margarita "de mis amantes brazos, ¡y ahora dicen\nque lo maté! ¡Mis dichas concluyeron!\nCon malignas canciones me persiguen.\n¡Infames! Así acaba vieja historia;"
+    # carcel_0065
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "pero ¿es justo, gran Dios, que me la apliquen?"
+    # carcel_0066 .. carcel_0067
+    c_faust "Tu amante está a tus plantas, y la puerta\nde esta horrorosa cárcel viene a abrirte."
+    # carcel_0068 .. carcel_0071
+    c_margarita "¡De rodillas caigamos, de rodillas\npara invocar a Dios! Allí, en el linde\nde la puerta, las llamas infernales\narden, y en medio lúgubre sonríe"
+    # carcel_0072
+    show margarita joyful at vn_center
+    with dissolve
+    c_margarita "Satanás."
+    # carcel_0073
+    c_faust "¡Margarita! ¡Margarita!"
+    # carcel_0074
+    c_margarita "La voz era esa del amante: ¡ay triste!"
+    # carcel_0075
+    c_narrator "Yérguese y caen las cadenas."
+    # carcel_0076 .. carcel_0079
+    c_margarita "¿Dónde está? Me llamaba. ¿Habéis oído?\n¡Libre estoy! ¡Libre estoy! Nadie me impide\nvolar ansiosa a sus amantes brazos\ny en ellos reposar. Me llama: erguirse"
+    # carcel_0080 .. carcel_0083
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "veo su sombra entre las rojas llamas,\ny en el fragor diabólico distingue\nmi oído, entre infernales carcajadas,\nde su querida voz el dulce timbre."
+    # carcel_0084
+    c_faust "Sí, yo soy."
+    # carcel_0085
+    show margarita joyful at vn_center
+    with dissolve
+    c_margarita "¿Eres tú? ¡Dios soberano!"
+    # carcel_0086 .. carcel_0089
+    c_margarita "¿Eres tú? (Asiéndolo.) No me engañes. Ven, repite\nesa dulce palabra. ¿Qué se hicieron\nlos tormentos, la cárcel, la terrible\ncadena?... ¡Es él! ¡Es él! A libertarme"
+    # carcel_0090 .. carcel_0093
+    c_margarita "viene, y ya libre estoy. ¡Libre, sí, libre!\nMira; aquesa es la calle en que nos vimos\npor vez primera; aquellos los jardines\ndonde con Marta te aguardaba ansiosa..."
+    # carcel_0094
+    c_faust "¡Oh, ven, conmigo ven!"
+    # carcel_0095
+    c_margarita "¡Son tan felices"
+    # carcel_0096
+    c_margarita "las horas a tu lado!"
+    # carcel_0097
+    c_faust "Es peligrosa"
+    # carcel_0098
+    c_faust "la menor detención."
+    # carcel_0099
+    c_margarita "¿Y por qué, dime,"
+    # carcel_0100 .. carcel_0103
+    c_margarita "ya no me besas? En tan breve ausencia,\n¿cómo tan dulces hábitos perdiste?\n¿Y por qué tiemblo y gimo, al abrazarte,\nyo que dichosa, en éxtasis sublime,"
+    # carcel_0104 .. carcel_0107
+    c_margarita "sentí, al calor de tu pupila ardiente,\nel cielo todo a mi deleite abrirse,\ncuando, sin miedo a sofocarme en ellos,\nme estrechaban tus brazos varoniles?"
+    # carcel_0108
+    c_margarita "Di: ¿por qué callas? Bésame, o te beso."
+    # carcel_0109
+    c_narrator "Abrazándole y besándole."
+    # carcel_0110 .. carcel_0111
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "¡Ah! Tu labio está frío, está insensible...\n¿Qué fue --¡oh Dios!-- de tu amor? ¿Quién me lo roba?"
+    # carcel_0112
+    c_narrator "Apártase de él y vuelve la cabeza."
+    # carcel_0113 .. carcel_0115
+    c_faust "¡Oh, ven, ven por piedad! Constante y firme\nes mi pasión. Sosiégate, bien mío,\noye mis ruegos, y mis pasos sigue."
+    # carcel_0116
+    c_margarita "¿Y eres él? ¿Eres él? ¿Estás seguro?"
+    # carcel_0117
+    c_faust "Sí, yo soy: ven conmigo."
+    # carcel_0118
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "¿Y tú viniste"
+    # carcel_0119 .. carcel_0121
+    c_margarita "a libertarme, abriéndome los brazos?\n¿Podrá ser que de mí no te horrorices?\n¿No te han dicho, no sabes a quién salvas?"
+    # carcel_0122 .. carcel_0123
+    c_faust "Ya las nocturnas sombras, más sutiles,\nse aclaran. ¡Pronto, ven!"
+    # carcel_0124
+    c_margarita "Maté a mi madre;"
+    # carcel_0125 .. carcel_0128
+    c_margarita "ahogué al hijo mío. ¿Lo entendiste?\n¡Al hijo nuestro! ¡A entrambos nos fue dado!\n¡A ti también! Mas, ¿eres tú? Imposible\nparéceme. ¡Tu mano! ¡A ver tu mano!"
+    # carcel_0129 .. carcel_0132
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "¡Cielo! ¿Es su diestra, o la ilusión lo finge?\nEs ella, sí; ¿por qué está humedecida?\n¡Enjúgala, por Dios; sangre la tiñe!\n¡Insensato! ¿Qué has hecho? Envaina el hierro."
+    # carcel_0133
+    c_margarita "¡Envaina el hierro, por piedad!"
+    # carcel_0134
+    c_faust "Lo que hice"
+    # carcel_0135 .. carcel_0136
+    c_faust "hecho está ya. ¿Por qué mentarlo? ¿Quieres\nmatarme?"
+    # carcel_0137
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "No, no mueras: ¡vive, vive!"
+    # carcel_0138 .. carcel_0141
+    c_margarita "Yo te diré las tumbas que en la tierra\ndesde mañana tus cuidados piden.\nSerá el lugar mejor para mi madre;\nla de mi hermano mísero ha de abrirse"
+    # carcel_0142 .. carcel_0145
+    c_margarita "al lado suyo, y apartada un tanto,\nno muy lejos, la mía, ¡sola y triste!\n¡No, no sola! ¡A mi pecho el tierno infante!\n¡Él, él no más, mi sepultura humilde"
+    # carcel_0146 .. carcel_0149
+    c_margarita "quisiera compartir! Al lado tuyo\nyacer por siempre, fue de mis abriles\nlisonjera ilusión, que me han robado.\nSi me dirijo a ti, fuerza invisible"
+    # carcel_0150 .. carcel_0153
+    c_margarita "mi pie detiene, y si a tus brazos llego,\nme rechazan también y me despiden;\ndespídenme --¡gran Dios!-- ¡cuando aún tus ojos,\nlas usadas ternezas me repiten!"
+    # carcel_0154
+    c_faust "Si sabes que soy yo, sígueme."
+    # carcel_0155
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "¿Adónde?"
+    # carcel_0156
+    c_faust "A salvarte."
+    # carcel_0157
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "La tumba --¿no la viste?-- está"
+    # carcel_0158 .. carcel_0161
+    c_margarita "allí fuera, y en constante acecho\nla Muerte. Vamos, sí; quiero seguirte\nno más hasta ese lecho de reposo,\n¡de eterna paz!... Tú marcharás, Enrique."
+    # carcel_0162
+    c_margarita "¡Oh, si pudiera acompañarte!"
+    # carcel_0163
+    c_faust "Puedes;"
+    # carcel_0164
+    c_faust "la cárcel está abierta."
+    # carcel_0165
+    c_margarita "¿Y de qué sirve"
+    # carcel_0166 .. carcel_0169
+    c_margarita "la fuga? ¡Nada espero! Tras nosotros\nvendrán. ¿Quieres que mísera mendigue\nde puerta en puerta el pan; que errante y sola\nvaya, cuando me acosan y persiguen"
+    # carcel_0170 .. carcel_0171
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "mis propios pensamientos, y que al cabo\nme alcancen mis verdugos inflexibles?"
+    # carcel_0172
+    c_faust "Contigo quedo, pues."
+    # carcel_0173
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "¡No! ¡Corre, salva"
+    # carcel_0174 .. carcel_0177
+    c_margarita "al hijo tuyo! ¡Pronto! Marcha, sigue\naquel arroyo, el puentecillo pasa,\nentra en el bosque lóbrego, y dirige\nel paso hacia la izquierda... Allí, en la balsa,"
+    # carcel_0178 .. carcel_0179
+    c_margarita "¡allí está!... Mira, mira: ya va a hundirse;\n¡y aún se remueve el pobrecito! ¡Vuela!"
+    # carcel_0180
+    c_faust "¡Vuelve en ti! Un solo paso, y estás libre."
+    # carcel_0181 .. carcel_0184
+    c_margarita "¡Si hubiéramos traspuesto la montaña!\nAllí mi madre, que los años rinden,\nestá sentada en una piedra --¡Oh cielos!,\n¡soplo glacial me acosa y me persigue!--"
+    # carcel_0185 .. carcel_0188
+    c_margarita "Sentada está mi madre en una piedra,\ny mueve la cabeza, ya insensible.\nNi oye, ni ve. ¡Durmió, la pobre, tanto,\nque no despierta ya! ¡Días felices"
+    # carcel_0189 .. carcel_0190
+    c_margarita "aquellos --¡ay!-- en que su grave sueño\ndulce fue a nuestro amor!"
+    # carcel_0191
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "Pues que resistes"
+    # carcel_0192 .. carcel_0193
+    c_faust "mis instancias y ruegos, a la fuerza\ntendrás que obedecerme y que seguirme."
+    # carcel_0194 .. carcel_0196
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "¡Aparta! ¡No me toques! No con esas\nduras manos me agarres y lastimes.\n¿No hice bastante por tu amor?"
+    # carcel_0197
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¡Bien mío!"
+    show bg prison_dawn at tint_none
+    with vn_slow
+    # carcel_0198 .. carcel_0199
+    c_faust "¡Dulce amada! ¿No ves que el cielo tiñe\nel alba?"
+    # carcel_0200
+    show margarita sorrowful at vn_center
+    with dissolve
+    c_margarita "El día nace: ¡el postrer día!"
+    # carcel_0201 .. carcel_0204
+    c_margarita "El que alumbrar debiera los festines\nde nuestra unión. No digas nunca a nadie\nque a Margarita amaste y conociste.\n¡Ay, mi corona!... ¡Terminó ya todo!"
+    # carcel_0205 .. carcel_0208
+    c_margarita "Aún te veré: mas no en el baile. A miles\nvienen las gentes; mas con tal silencio,\nque nada se oye. Estrechos los confines\nson de la plaza y las cercanas calles"
+    # carcel_0209 .. carcel_0212
+    c_margarita "para tal multitud. La hora terrible\nda la campana, y el bastón se rompe.\nYa me agarrotan, y en sus brazos viles\nel verdugo al patíbulo me arrastra."
+    # carcel_0213 .. carcel_0215
+    c_margarita "Ya pende sobre todas las cervices\nla cuchilla fatal, contra mí alzada;\ny es el mundo una tumba muda y triste."
+    # carcel_0216
+    show faust anguished at vn_left
+    with dissolve
+    c_faust "¿Por qué, por qué nací?"
+    # carcel_0217
+    show mephisto scornful at vn_right
+    with dissolve
+    c_mephisto "¡Salid al punto,"
+    # carcel_0218 .. carcel_0220
+    c_mephisto "o nos perdemos! ¡Miedos mujeriles,\ndudas, ayes; y mientras, mis caballos\npiafando están, y el alba ya sonríe!"
+    # carcel_0221 .. carcel_0223
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "¿Qué funesta visión surgió del suelo?\n¡Es él! ¡Es él! ¡Es él! ¿Qué buscas, dime,\nen el santo lugar? ¡A mí me buscas!"
+    # carcel_0224
+    show faust neutral at vn_left
+    with dissolve
+    c_faust "¡Has de vivir!"
+    # carcel_0225
+    show margarita joyful at vn_center
+    with dissolve
+    c_margarita "¡Mi espíritu recibe,"
+    # carcel_0226
+    c_margarita "Eterno Juez!"
+    # carcel_0227
+    c_mephisto "Os dejo en la estacada,"
+    # carcel_0228
+    c_mephisto "si al punto no venís."
+    # carcel_0229
+    show margarita neutral at vn_center
+    with dissolve
+    c_margarita "Esta infelice"
+    # carcel_0230 .. carcel_0233
+    show margarita fearful at vn_center
+    with dissolve
+    c_margarita "es tuya, ¡oh Padre! ¡Sálvala! Y vosotros,\nángeles, celestiales adalides,\nvuestras divinas huestes desplegando\nen mi redor, guardadme y conducidme."
+    # carcel_0234
+    c_margarita "¡Enrique! Horror me das."
+    # carcel_0235
+    show mephisto deferent at vn_right
+    with dissolve
+    c_mephisto "¡Está juzgada!"
+    # carcel_0236
+    c_voices "¡Salvada!"
+    # carcel_0237
+    show mephisto scornful at vn_right
+    with dissolve
+    c_mephisto "¡Tú, conmigo!"
+    # carcel_0238
+    c_narrator "Desaparece con FAUSTO."
+    # carcel_0239
+    hide faust
+    hide mephisto
+    with dissolve
+    c_voices "¡Enrique! ¡Enrique!"
 
 label the_end:
     scene black
