@@ -5,6 +5,8 @@ label start:
     window auto
 
 label scene_dedicatoria:
+    $ vn_mark_scene("scene_dedicatoria")
+    window auto
     scene black
     show card_dedicatoria at truecenter
     with fade
@@ -13,6 +15,7 @@ label scene_dedicatoria:
     scene bg dedication at tint_none
     with fade
     # dedicatoria_0001 .. dedicatoria_0008
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_poet_voice_nvl "Tornáis de nuevo, hermosas imágenes flotantes,\nque dulce y melancólico un día contemplé.\n¿Asiros y teneros podré feliz como antes?\n¡Aún vuela hacia vosotras el alma cuando os ve!\nVenid, y medio envueltas en el brumoso velo,\na mi poder sumisas, girad en derredor;\nel corazón aún late con juvenil anhelo,\nsi aspira vuestro mágico aliento hechizador."
     nvl clear
     # dedicatoria_0009 .. dedicatoria_0016
@@ -27,6 +30,8 @@ label scene_dedicatoria:
     nvl hide dissolve
 
 label scene_prologo_teatro:
+    $ vn_mark_scene("scene_prologo_teatro")
+    window auto
     scene black
     show card_prologo_teatro at truecenter
     with fade
@@ -35,6 +40,7 @@ label scene_prologo_teatro:
     scene bg theatre at tint_none
     with fade
     # prologo_teatro_0002 .. prologo_teatro_0005
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show clown neutral at vn_left
     show director neutral at vn_center
     show poet neutral at vn_right
@@ -194,6 +200,8 @@ label scene_prologo_teatro:
     c_director "y en vuelo cadencioso,\ndesde el opaco mundo,\nremontadnos al cielo esplendoroso\ny hundidnos en el báratro profundo."
 
 label scene_prologo_cielo:
+    $ vn_mark_scene("scene_prologo_cielo")
+    window auto
     scene black
     show card_prologo_cielo at truecenter
     with fade
@@ -202,6 +210,7 @@ label scene_prologo_cielo:
     scene bg heaven at tint_none
     with fade
     # prologo_cielo_0002 .. prologo_cielo_0009
+    play music ["audio/sacred/bach-bwv147-jesus-bleibet.ogg", "audio/sacred/suk-saint-wenceslas.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_raphael_nvl "Une su añejo ritmo a la armonía\nde la celeste esfera el sol sereno,\ny exacto sigue la prescrita vía\ncon los potentes ímpetus del trueno.\nPresta vigor al Ángel su mirada,\naunque él en vano sondearla intente:\ncomo al salir risueña de la nada,\nla obra inmensa de Dios brilla esplendente."
     nvl clear
     # prologo_cielo_0010 .. prologo_cielo_0013
@@ -326,6 +335,8 @@ label scene_prologo_cielo:
     c_mephisto "De vez en cuando olvido mis rencillas,\ny busco al Viejo, y pláticas entablo.\nPláceme que un Señor de campanillas\ntrate con atención a un pobre diablo."
 
 label scene_noche:
+    $ vn_mark_scene("scene_noche")
+    window auto
     scene black
     show card_noche at truecenter
     with fade
@@ -334,6 +345,7 @@ label scene_noche:
     scene bg study at tint_none
     with fade
     # noche_0001
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust neutral at vn_center
     with dissolve
     c_narrator "En un aposento gótico, estrecho, con elevada bóveda, FAUSTO intranquilo sentado a su pupitre."
@@ -431,6 +443,7 @@ label scene_noche:
     show faust fearful at vn_left
     with vn_move
     # noche_0145
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_narrator "Toma el libro y pronuncia misteriosamente el nombre del Espíritu. Enciéndese una luz rojiza y trémula. El Espíritu aparece en ella."
     # noche_0146
     c_spirit "¿Quién me llama?"
@@ -477,6 +490,7 @@ label scene_noche:
     # noche_0188
     c_narrator "Llaman."
     # noche_0189 .. noche_0192
+    play music ["audio/comic/haydn-lark-finale.ogg", "audio/comic/mozart-figaro-overture.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_faust "¡Oh! ¡Mal haya!... Es mi fámulo. Destruye\nmi ventura y los éxtasis disipa.\nEn el pleno esplendor de mis visiones,\n¿para qué, impertinente, tu visita?"
     # noche_0193
     c_narrator "Entra WAGNER con bata y gorro de dormir. FAUSTO le vuelve la espalda malhumorado."
@@ -551,6 +565,7 @@ label scene_noche:
     # noche_0295 .. noche_0296
     c_wagner "¿Y el universo? ¿Y el hombre?\n¿Saber su esencia no cabe?"
     # noche_0297 .. noche_0300
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_faust "¿Saber? ¡Pensar que se sabe!\n¿Quién dar puede el propio nombre\na las cosas? Si en la tierra\nalguien descubre esa oculta"
     # noche_0301 .. noche_0304
     c_faust "ciencia, y en sí no sepulta\nlos arcanos que ella encierra,\nal derramar esa luz,\nque al hombre obcecado hiere,"
@@ -661,6 +676,7 @@ label scene_noche:
     # noche_0472
     c_narrator "Lleva la copa a los labios."
     # noche_0473
+    play music "audio/scenes/bach-bwv4-christ-lag.ogg" fadeout 1.0 fadein 1.0 if_changed
     c_narrator "Vuelo de campanas y coros"
     # noche_0474 .. noche_0477
     c_angels_chorus "¡Cristo ha resucitado!\n¡Júbilo al hombre y paz!\n¡Al hombre aprisionado\npor el fatal pecado,"
@@ -718,6 +734,8 @@ label scene_noche:
     c_angels_chorus "cesad en vuestro duelo:\naunque el Señor se eleva,\npresente a vuestro anhelo\nestá y a vuestro afán."
 
 label scene_puertas_ciudad:
+    $ vn_mark_scene("scene_puertas_ciudad")
+    window auto
     scene black
     show card_puertas_ciudad at truecenter
     with fade
@@ -726,6 +744,7 @@ label scene_puertas_ciudad:
     scene bg city_gates at tint_none
     with fade
     # puertas_ciudad_0002 .. puertas_ciudad_0003
+    play music ["audio/comic/haydn-lark-finale.ogg", "audio/comic/mozart-figaro-overture.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_artisans "¿Vais a tomar el camino\nde los cazadores?"
     # puertas_ciudad_0004
     c_artisans "Sí."
@@ -828,6 +847,7 @@ label scene_puertas_ciudad:
     # puertas_ciudad_0146 .. puertas_ciudad_0149
     c_faust "Aún no brotaron las flores;\nmas brillan, a falta de ellas,\nlos mancebos y las bellas\nvestidos con mil primores."
     # puertas_ciudad_0150 .. puertas_ciudad_0153
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_faust "Contempla desde esta cumbre\nla oscura ciudad: abiertas,\nvomitan las negras puertas\nturbulenta muchedumbre."
     # puertas_ciudad_0154 .. puertas_ciudad_0157
     show faust neutral at vn_left
@@ -862,6 +882,7 @@ label scene_puertas_ciudad:
     # puertas_ciudad_0198 .. puertas_ciudad_0201
     c_wagner "Cual si de infernal encanto\nestuvieran poseídos,\ndan brincos, voces y aullidos,\ny a eso llaman danza y canto."
     # puertas_ciudad_0202
+    play music ["audio/comic/haydn-lark-finale.ogg", "audio/comic/mozart-figaro-overture.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_narrator "CAMPESINOS BAJO LOS TILOS"
     # puertas_ciudad_0203
     c_narrator "Canto y baile"
@@ -936,6 +957,7 @@ label scene_puertas_ciudad:
     # puertas_ciudad_0290 .. puertas_ciudad_0293
     c_wagner "y poco falta, doctor,\npara que esa grey sencilla\ndoble ante ti la rodilla,\ncual si pasara el Señor."
     # puertas_ciudad_0294 .. puertas_ciudad_0297
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust anguished at vn_left
     with dissolve
     c_faust "Lleguemos a esas alturas;\ndescansaremos allí.\n¡Cuántas veces, ay de mí,\nsentado en sus rocas duras,"
@@ -1125,6 +1147,8 @@ label scene_puertas_ciudad:
     c_narrator "Entran en la ciudad."
 
 label scene_gabinete_1:
+    $ vn_mark_scene("scene_gabinete_1")
+    window auto
     scene black
     show card_gabinete_1 at truecenter
     with fade
@@ -1133,6 +1157,7 @@ label scene_gabinete_1:
     scene bg study at tint_none
     with fade
     # gabinete_1_0001 .. gabinete_1_0004
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust anguished at vn_left
     with dissolve
     c_faust "Dejé cubiertos por oscura noche\nmonte y campiña, y otra vez despierta\ncon zozobra fatídica en mi pecho\nel alma superior. Ya la materia"
@@ -1189,6 +1214,7 @@ label scene_gabinete_1:
     # gabinete_1_0074 .. gabinete_1_0077
     c_faust "Con repugnancia rompo\nla hospitalaria regla;\nya tienes libre el paso,\nya está franca la puerta."
     # gabinete_1_0078 .. gabinete_1_0081
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust fearful at vn_left
     with dissolve
     c_faust "Pero ¿qué es lo que veo?\n¿Verdad es o quimera?\n¡Cómo se ensancha y crece!\n¡Cómo se abulta y medra!"
@@ -1426,6 +1452,7 @@ label scene_gabinete_1:
     # gabinete_1_0349 .. gabinete_1_0352
     c_mephisto "en breves minutos más\nque en todo un año de vida.\nLos dulces coros que embriagan\ntu espíritu cuando sueñas;"
     # gabinete_1_0353 .. gabinete_1_0356
+    play music ["audio/mystical/mendelssohn-hebrides.ogg", "audio/mystical/schubert-sonata-20-andantino.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_mephisto "las imágenes risueñas\nque te circundan y halagan,\nno son vana creación\nde un artificioso encanto:"
     # gabinete_1_0357 .. gabinete_1_0360
     c_mephisto "vas a escuchar ese canto\ny admirar esa visión;\ne igualmente embebecidos\ntacto, olfato y paladar,"
@@ -1456,6 +1483,7 @@ label scene_gabinete_1:
     # gabinete_1_0391
     c_spirits "del astro de amores que brilla triunfal."
     # gabinete_1_0392 .. gabinete_1_0395
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_mephisto "Ya duerme. Os doy gracias mil\npor tan magistral concierto.\n¡Bien lo hechizasteis, por cierto,\nhijos del aire sutil!"
     # gabinete_1_0396 .. gabinete_1_0399
     c_mephisto "Dadle, en falaz testimonio,\nvisión que bella le asombre;\nduerma y delire: ¡aún no es hombre\npara atreverse al Demonio!"
@@ -1483,6 +1511,8 @@ label scene_gabinete_1:
     c_faust "Pero, loco estoy: ¿qué hablo?\nNada pasó en este encierro.\n¡Nada! Se ha escapado el perro,\ny he visto en sueños al Diablo."
 
 label scene_gabinete_2:
+    $ vn_mark_scene("scene_gabinete_2")
+    window auto
     scene black
     show card_gabinete_2 at truecenter
     with fade
@@ -1491,6 +1521,7 @@ label scene_gabinete_2:
     scene bg study_day at tint_none
     with fade
     # gabinete_2_0002 .. gabinete_2_0003
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show mephisto neutral at vn_right
     show faust neutral at vn_left
     with dissolve
@@ -1518,6 +1549,7 @@ label scene_gabinete_2:
     # gabinete_2_0020 .. gabinete_2_0021
     c_mephisto "y ven a correr el mundo,\nlibre, contento y ufano."
     # gabinete_2_0022 .. gabinete_2_0025
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_faust "¿Qué importa cambiar las ropas,\nsi están dentro los cuidados?\nTan mozo no soy que pueda\ncorrer tras goces livianos,"
     # gabinete_2_0026 .. gabinete_2_0029
     c_faust "ni tan viejo todavía\nque mi pecho esté ya exhausto.\n¿Qué puede darme la vida?\n«Abstente, abstente; sé cauto,»"
@@ -1576,6 +1608,7 @@ label scene_gabinete_2:
     # gabinete_2_0097 .. gabinete_2_0098
     c_faust "mal haya la pacientísima\nresignación de nuestro ánimo!"
     # gabinete_2_0099 .. gabinete_2_0102
+    play music ["audio/mystical/mendelssohn-hebrides.ogg", "audio/mystical/schubert-sonata-20-andantino.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_spirits "¿Qué has hecho del mundo,\ndel mundo esplendente?\nTu puño iracundo\nlo aplasta inclemente,"
     # gabinete_2_0103 .. gabinete_2_0106
     c_spirits "triunfal semidiós.\nLa hermosa y querida\nvisión de la vida\ncayó destrozada,"
@@ -1738,6 +1771,7 @@ label scene_gabinete_2:
     # gabinete_2_0294 .. gabinete_2_0297
     c_faust "encadenen de mis días\nlos eslabones variados:\nson acción y movimiento\nley del espíritu humano."
     # gabinete_2_0298 .. gabinete_2_0301
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show mephisto sly at vn_right
     with dissolve
     c_mephisto "Meta no pongo ni valla:\nsi, fugaz revoloteando,\ndesflorarlo quieres todo,\ntodo puedes desflorarlo."
@@ -2103,6 +2137,7 @@ label scene_gabinete_2:
     with dissolve
     c_faust "¡En marcha! ¡Manos a la obra!\nPero, coche no has traído,\nni caballos..."
     # gabinete_2_0749
+    play music ["audio/mystical/mendelssohn-hebrides.ogg", "audio/mystical/schubert-sonata-20-andantino.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show mephisto sly at vn_right
     with dissolve
     c_mephisto "¡Qué zozobra!..."
@@ -2114,6 +2149,8 @@ label scene_gabinete_2:
     c_mephisto "pesamos poco, mejor;\nmás presto haremos la vía.\nYa por la audaz correría\nte felicito, Doctor."
 
 label scene_taberna_auerbach:
+    $ vn_mark_scene("scene_taberna_auerbach")
+    window auto
     scene black
     show card_taberna_auerbach at truecenter
     with fade
@@ -2122,6 +2159,7 @@ label scene_taberna_auerbach:
     scene bg tavern at tint_none
     with fade
     # taberna_auerbach_0002 .. taberna_auerbach_0005
+    play music "audio/scenes/mephisto-waltz-1.ogg" fadeout 1.0 fadein 1.0 if_changed
     c_frosch "¿No hay quién beba? ¿No hay quién ría?\nYo os haré cambiar la mueca.\n¿Quién en paja húmeda trueca\nvuestra inflamable alegría?"
     # taberna_auerbach_0006 .. taberna_auerbach_0008
     c_brander "¡Tuya es la culpa, pardiez!\nHaz alguna señalada\ntontería o marranada."
@@ -2568,6 +2606,8 @@ label scene_taberna_auerbach:
     c_altmayer "que edad de milagros no es\nesta edad en que vivimos!"
 
 label scene_cocina_bruja:
+    $ vn_mark_scene("scene_cocina_bruja")
+    window auto
     scene black
     show card_cocina_bruja at truecenter
     with fade
@@ -2576,6 +2616,7 @@ label scene_cocina_bruja:
     scene bg witch_kitchen at tint_none
     with fade
     # cocina_bruja_0001
+    play music ["audio/mystical/mendelssohn-hebrides.ogg", "audio/mystical/schubert-sonata-20-andantino.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust neutral at vn_left
     show mephisto neutral at vn_right
     with dissolve
@@ -2740,6 +2781,7 @@ label scene_cocina_bruja:
     # cocina_bruja_0165
     c_narrator "La olla que la MONA ha descuidado, comienza a desbordar, y se levanta una llamarada, que sube a la chimenea. LA BRUJA aparece entre las llamas, dando gritos espantosos."
     # cocina_bruja_0166 .. cocina_bruja_0169
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show witch furious at vn_center
     with dissolve
     c_witch "¡Hola! ¡Canalla impura!\n¡Raza maldita!\n¿Así tuvisteis cura\nde la marmita?"
@@ -2842,6 +2884,7 @@ label scene_cocina_bruja:
     # cocina_bruja_0264
     c_narrator "LA BRUJA, haciendo ademanes estrambóticos, traza un círculo en el suelo, y coloca en él varios objetos raros; mientras tanto, los vasos suenan y las ollas también, haciendo una especie de música. Toma después la BRUJA un grueso librote, pone dentro del círculo a los MICOS, que le sirven de pupitre para el libro, y le sostienen las luces. Hace seña a FAUSTO de que se acerque."
     # cocina_bruja_0265 .. cocina_bruja_0268
+    play music ["audio/mystical/mendelssohn-hebrides.ogg", "audio/mystical/schubert-sonata-20-andantino.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust anguished at vn_left
     with dissolve
     c_faust "¿De qué sirve todo aquesto?\nEstos gestos y ademanes,\nestos bichos, estas farsas,\ntodo es viejo y repugnante."
@@ -2872,6 +2915,7 @@ label scene_cocina_bruja:
     with dissolve
     c_faust "Delirar le hizo la fiebre\nquizás."
     # cocina_bruja_0294
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_mephisto "No es que ella desbarre:"
     # cocina_bruja_0295 .. cocina_bruja_0298
     c_mephisto "así reza el libro; todas\nsus páginas son iguales.\nBien me quebré la cabeza\nestudiándolo; fue en balde:"
@@ -2906,6 +2950,7 @@ label scene_cocina_bruja:
     # cocina_bruja_0330
     c_narrator "LA BRUJA, con muchos aspavientos, vierte la pócima en la taza, y cuando la lleva FAUSTO a los labios, enciéndese una ligera llama en el líquido."
     # cocina_bruja_0331 .. cocina_bruja_0334
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_mephisto "Bebe, y sentirás al punto\nel corazón transformarse.\n¿Temes al fuego, teniendo\nal demonio de tu parte?"
     # cocina_bruja_0335
     c_narrator "LA BRUJA rompe el círculo; FAUSTO sale de él."
@@ -2943,6 +2988,8 @@ label scene_cocina_bruja:
     c_mephisto "Con ese trago en el vientre,\ncon esa fiebre en la sangre,\nElena será a sus ojos\nla primera mujer que halle."
 
 label scene_calle_1:
+    $ vn_mark_scene("scene_calle_1")
+    window auto
     scene black
     show card_calle_1 at truecenter
     with fade
@@ -2951,6 +2998,7 @@ label scene_calle_1:
     scene bg street at tint_none
     with fade
     # calle_1_0002 .. calle_1_0003
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust neutral at vn_left
     with dissolve
     c_faust "Hermosa señorita, bondadosa,\n¿aceptaréis mi brazo y compañía?"
@@ -3012,6 +3060,7 @@ label scene_calle_1:
     with dissolve
     c_mephisto "¿Cómo lograrlo? ¡Estás loco!\nNecesito, en conclusión,\npara atisbar la ocasión\nquince días, y aún es poco."
     # calle_1_0054 .. calle_1_0057
+    play music ["audio/comic/haydn-lark-finale.ogg", "audio/comic/mozart-figaro-overture.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_faust "¡Quince días! ¿Con quién hablo?\nSi uno tuviera por mío,\npara lograr lo que ansío\nno necesitara al diablo."
     # calle_1_0058 .. calle_1_0061
     show mephisto sly at vn_right
@@ -3073,6 +3122,8 @@ label scene_calle_1:
     c_narrator "Vase."
 
 label scene_cuartito:
+    $ vn_mark_scene("scene_cuartito")
+    window auto
     scene black
     show card_cuartito at truecenter
     with fade
@@ -3081,6 +3132,7 @@ label scene_cuartito:
     scene bg margaret_room at tint_none
     with fade
     # cuartito_0002 .. cuartito_0005
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show margarita sorrowful at vn_left
     with dissolve
     c_margarita "El deseo ya me abrasa\nde conocer al galán:\npor su porte y ademán\nparece de buena casa."
@@ -3212,6 +3264,7 @@ label scene_cuartito:
     hide margarita
     with dissolve
     # cuartito_0128 .. cuartito_0135
+    play music ["audio/comic/haydn-lark-finale.ogg", "audio/comic/mozart-figaro-overture.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_margarita_nvl "Hubo en Thule un rey amante,\nque a su amada fue constante,\nhasta el día que murió;\nella, en el último instante,\nsu copa de oro le dio.\nEl buen rey, desde aquel día,\nsolo en la copa bebía,\nfiel al recuerdo tenaz,"
     nvl clear
     # cuartito_0136 .. cuartito_0143
@@ -3256,6 +3309,8 @@ label scene_cuartito:
     c_margarita "¿Para qué ser bella quieres?\nHoy solo existe un tesoro,\ny ese tesoro es el oro:\n¡el oro!... ¡Pobres mujeres!"
 
 label scene_paseo:
+    $ vn_mark_scene("scene_paseo")
+    window auto
     scene black
     show card_paseo at truecenter
     with fade
@@ -3264,6 +3319,7 @@ label scene_paseo:
     scene bg promenade at tint_none
     with fade
     # paseo_0002 .. paseo_0005
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show mephisto scornful at vn_right
     with dissolve
     c_mephisto "¡Por las llamas del Averno!...\n¡Por las burlas del amor!...\nSi algo hay más malo, por ello\nquiero jurar, ¡voto a bríos!"
@@ -3347,6 +3403,8 @@ label scene_paseo:
     c_mephisto "Capaz sería este loco,\npor divertir a su amor,\nde hacer fuegos de artificio\ncon estrellas, luna y sol."
 
 label scene_casa_vecina:
+    $ vn_mark_scene("scene_casa_vecina")
+    window auto
     scene black
     show card_casa_vecina at truecenter
     with fade
@@ -3355,6 +3413,7 @@ label scene_casa_vecina:
     scene bg neighbour_house at tint_none
     with fade
     # casa_vecina_0001 .. casa_vecina_0004
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show marta distressed at vn_left
     with dissolve
     c_marta "¡Dios perdone a mi marido!\n¡Cuán mal conmigo se porta!\nIr siempre de Zeca en Meca,\ndejándome pobre y sola..."
@@ -3603,6 +3662,7 @@ label scene_casa_vecina:
     # casa_vecina_0204
     c_marta "es dado a chanzas y bromas."
     # casa_vecina_0205 .. casa_vecina_0207
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_mephisto "¡Paso atrás! Al mismo diablo\ntal vez la palabra coja\nla viuda."
     # casa_vecina_0208
     c_narrator "Dirigiéndose a MARGARITA."
@@ -3656,6 +3716,8 @@ label scene_casa_vecina:
     c_mephisto "Hasta la tarde, señora."
 
 label scene_calle_2:
+    $ vn_mark_scene("scene_calle_2")
+    window auto
     scene black
     show card_calle_2 at truecenter
     with fade
@@ -3664,6 +3726,7 @@ label scene_calle_2:
     scene bg street at tint_none
     with fade
     # calle_2_0002
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust neutral at vn_left
     show mephisto neutral at vn_right
     with dissolve
@@ -3754,6 +3817,8 @@ label scene_calle_2:
     c_faust "me cansa, aturde y marea:\n¡tienes razón! Sobre todo,\nporque he de hacer lo que quieras."
 
 label scene_jardin:
+    $ vn_mark_scene("scene_jardin")
+    window auto
     scene black
     show card_jardin at truecenter
     with fade
@@ -3762,6 +3827,7 @@ label scene_jardin:
     scene bg garden at tint_none
     with fade
     # jardin_0002 .. jardin_0005
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show margarita joyful at vn_left
     with dissolve
     c_margarita "Sois conmigo tan galán,\nque abochornada os escucho.\nLos que viajan y ven mucho,\nbuscan, allá donde van,"
@@ -3940,6 +4006,7 @@ label scene_jardin:
     with dissolve
     c_faust "¡Dulce amor!"
     # jardin_0182
+    play music ["audio/mystical/mendelssohn-hebrides.ogg", "audio/mystical/schubert-sonata-20-andantino.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_margarita "Voy a probar..."
     # jardin_0183
     c_margarita "Permitid... (Coge una margarita.)"
@@ -4039,6 +4106,8 @@ label scene_jardin:
     c_mephisto "¡Esa es la vida!"
 
 label scene_pabelloncito:
+    $ vn_mark_scene("scene_pabelloncito")
+    window auto
     scene black
     show card_pabelloncito at truecenter
     with fade
@@ -4047,6 +4116,7 @@ label scene_pabelloncito:
     scene bg garden_pavilion at tint_none
     with fade
     # pabelloncito_0002
+    play music ["audio/comic/haydn-lark-finale.ogg", "audio/comic/mozart-figaro-overture.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show margarita joyful at vn_left
     with dissolve
     c_margarita "¡Ya viene!"
@@ -4109,6 +4179,7 @@ label scene_pabelloncito:
     # pabelloncito_0023
     c_narrator "Vanse FAUSTO y MEFISTÓFELES."
     # pabelloncito_0024 .. pabelloncito_0027
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     hide faust
     hide mephisto
     show margarita sorrowful at vn_left
@@ -4118,6 +4189,8 @@ label scene_pabelloncito:
     c_margarita "En esta pobre mujer,\nsin talento y sin encanto,\nun hombre que vale tanto\n¿qué mérito pudo ver?"
 
 label scene_bosques_cavernas:
+    $ vn_mark_scene("scene_bosques_cavernas")
+    window auto
     scene black
     show card_bosques_cavernas at truecenter
     with fade
@@ -4126,6 +4199,7 @@ label scene_bosques_cavernas:
     scene bg forest_cave at tint_none
     with fade
     # bosques_cavernas_0001 .. bosques_cavernas_0004
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust ecstatic at vn_left
     with dissolve
     c_faust "Me has otorgado, Espíritu sublime,\ntodo cuanto pedí. No en vano has vuelto\na mí los ojos en tu ardiente llama.\nTú, la Naturaleza, el mundo entero"
@@ -4293,6 +4367,8 @@ label scene_bosques_cavernas:
     c_mephisto "cosa más triste que un diablo\ndesesperado y perplejo."
 
 label scene_aposento_margarita:
+    $ vn_mark_scene("scene_aposento_margarita")
+    window auto
     scene black
     show card_aposento_margarita at truecenter
     with fade
@@ -4301,6 +4377,7 @@ label scene_aposento_margarita:
     scene bg margaret_room at tint_none
     with fade
     # aposento_margarita_0001 .. aposento_margarita_0008
+    play music "audio/scenes/gretchen-am-spinnrade.ogg" fadeout 1.0 fadein 1.0 if_changed
     c_margarita_nvl "Huyeron del alma\nla dicha y la paz,\nhuyeron por siempre,\n¡por siempre jamás!\nLa tumba contemplo\nallí do él no está;\nel mundo emponzoña\nmi amargo penar."
     nvl clear
     # aposento_margarita_0009 .. aposento_margarita_0016
@@ -4318,6 +4395,8 @@ label scene_aposento_margarita:
     nvl hide dissolve
 
 label scene_jardin_marta:
+    $ vn_mark_scene("scene_jardin_marta")
+    window auto
     scene black
     show card_jardin_marta at truecenter
     with fade
@@ -4326,6 +4405,7 @@ label scene_jardin_marta:
     scene bg garden at tint_none
     with fade
     # jardin_marta_0002 .. jardin_marta_0003
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust neutral at vn_left
     show margarita sorrowful at vn_center
     with dissolve
@@ -4489,6 +4569,7 @@ label scene_jardin_marta:
     # jardin_marta_0175
     c_narrator "ENTRA MEFISTÓFELES"
     # jardin_marta_0176
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     hide margarita
     show mephisto sly at vn_right
     with dissolve
@@ -4529,6 +4610,8 @@ label scene_jardin_marta:
     c_mephisto "Tengo yo parte, y no es corta,\nen la dicha que te aguarda."
 
 label scene_fuente:
+    $ vn_mark_scene("scene_fuente")
+    window auto
     scene black
     show card_fuente at truecenter
     with fade
@@ -4537,6 +4620,7 @@ label scene_fuente:
     scene bg fountain at tint_none
     with fade
     # fuente_0002 .. fuente_0003
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show margarita neutral at vn_right
     show lisa neutral at vn_left
     with dissolve
@@ -4620,6 +4704,8 @@ label scene_fuente:
     c_margarita "Y todo aquello --¡Dios mío!-- que\nme impulsó, sin saber,\na estos abismos, ¡cuán grato,\ncuán grato y cuán dulce fue!"
 
 label scene_muros:
+    $ vn_mark_scene("scene_muros")
+    window auto
     scene black
     show card_muros at truecenter
     with fade
@@ -4628,6 +4714,7 @@ label scene_muros:
     scene bg city_walls at tint_none
     with fade
     # muros_0001
+    play music ["audio/sacred/bach-bwv147-jesus-bleibet.ogg", "audio/sacred/suk-saint-wenceslas.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_narrator_nvl "Una imagen de Nuestra Señora de los Dolores en un nicho de la muralla. Delante de ella vasos con flores"
     nvl clear
     # muros_0002 .. muros_0005
@@ -4654,6 +4741,8 @@ label scene_muros:
     nvl hide dissolve
 
 label scene_calle_noche:
+    $ vn_mark_scene("scene_calle_noche")
+    window auto
     scene black
     show card_calle_noche at truecenter
     with fade
@@ -4662,6 +4751,7 @@ label scene_calle_noche:
     scene bg street_night at tint_none
     with fade
     # calle_noche_0001
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_narrator "Calle delante de la puerta de MARGARITA"
     # calle_noche_0002 .. calle_noche_0005
     show valentin angry at vn_left
@@ -4740,6 +4830,7 @@ label scene_calle_noche:
     # calle_noche_0094
     c_narrator "Canta acompañándose con la mandolina."
     # calle_noche_0095 .. calle_noche_0098
+    play music ["audio/comic/haydn-lark-finale.ogg", "audio/comic/mozart-figaro-overture.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_mephisto "Aún el alba matutina\nvierte incierto resplandor;\n¿qué buscas tú, Catalina,\na la puerta de tu amor?"
     # calle_noche_0099 .. calle_noche_0102
     c_mephisto "¡Cuidadito, niña bella!\nmira, mira adónde vas:\n¡sabe Dios, si entras doncella,\nsabe Dios cómo saldrás!"
@@ -4779,6 +4870,7 @@ label scene_calle_noche:
     # calle_noche_0130
     c_mephisto "¡Tírale a fondo!"
     # calle_noche_0131
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     hide mephisto
     with dissolve
     c_valentin "¡Ay de mí!"
@@ -4888,6 +4980,8 @@ label scene_calle_noche:
     c_narrator "Muere."
 
 label scene_catedral:
+    $ vn_mark_scene("scene_catedral")
+    window auto
     scene black
     show card_catedral at truecenter
     with fade
@@ -4896,6 +4990,7 @@ label scene_catedral:
     scene bg cathedral at tint_none
     with fade
     # catedral_0001
+    play music "audio/scenes/mozart-dies-irae.ogg" fadeout 1.0 fadein 1.0 if_changed
     show margarita neutral at vn_center
     with dissolve
     c_narrator "Misa cantada, con órgano. MARGARITA entre la gente. EL ESPÍRITU MALO detrás de MARGARITA"
@@ -4944,6 +5039,8 @@ label scene_catedral:
     c_narrator "Cae desmayada."
 
 label scene_valpurgis:
+    $ vn_mark_scene("scene_valpurgis")
+    window auto
     scene black
     show card_valpurgis at truecenter
     with fade
@@ -4952,6 +5049,7 @@ label scene_valpurgis:
     scene bg harz at tint_none
     with fade
     # valpurgis_0001
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust neutral at vn_left
     show mephisto neutral at vn_right
     with dissolve
@@ -5162,6 +5260,7 @@ label scene_valpurgis:
     # valpurgis_0278 .. valpurgis_0281
     c_faust "y ansiosa corre hacia él\nnumerosa muchedumbre.\n¡Cuántos, a sus resplandores,\nviera enigmas descubiertos!"
     # valpurgis_0282 .. valpurgis_0285
+    play music ["audio/mystical/mendelssohn-hebrides.ogg", "audio/mystical/schubert-sonata-20-andantino.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_mephisto "Y a sus reflejos inciertos\nnacieran otros mayores.\nMientras que rimbomba allí\nel gran mundo, en este asilo"
     # valpurgis_0286 .. valpurgis_0289
     c_mephisto "goza el sosiego tranquilo\nque reservé para ti;\npues es deleite halagüeño\n--y en la experiencia me fundo--"
@@ -5361,6 +5460,8 @@ label scene_valpurgis:
     c_mephisto "¡En el Blocksberg os encuentro!\nAquí estáis en vuestro centro\ny en vuestro propio lugar."
 
 label scene_intermedio:
+    $ vn_mark_scene("scene_intermedio")
+    window auto
     scene black
     show card_intermedio at truecenter
     with fade
@@ -5369,6 +5470,7 @@ label scene_intermedio:
     scene bg intermezzo at tint_none
     with fade
     # intermedio_0001 .. intermedio_0004
+    play music ["audio/mystical/mendelssohn-hebrides.ogg", "audio/mystical/schubert-sonata-20-andantino.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_dream_figures_nvl "Hijos de Mieding bravos y obedientes,\n¡al trabajo otra vez! ¡Llegó la hora!\nViejos montes y valles florecientes\nformando están la escena encantadora."
     nvl clear
     # intermedio_0005 .. intermedio_0008
@@ -5501,11 +5603,14 @@ label scene_intermedio:
     c_ariel_nvl "Si la Naturaleza cariñosa,\no el Espíritu os dan ligeras galas,\na la cumbre seguidme do la rosa\nfeliz ostenta sus purpúreas alas."
     nvl clear
     # intermedio_0174 .. intermedio_0177
+    play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     c_orchestra_nvl "La neblina se aclara y desvanece;\ndeshácese la nube de igual modo:\nsonora brisa la enramada mece,\ny se disipa y se evapora todo."
     nvl clear
     nvl hide dissolve
 
 label scene_dia_nebuloso:
+    $ vn_mark_scene("scene_dia_nebuloso")
+    window auto
     scene black
     show card_dia_nebuloso at truecenter
     with fade
@@ -5514,6 +5619,7 @@ label scene_dia_nebuloso:
     scene bg field_day at tint_none
     with fade
     # dia_nebuloso_0001
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust neutral at vn_left
     show mephisto neutral at vn_right
     with dissolve
@@ -5588,6 +5694,8 @@ label scene_dia_nebuloso:
     c_faust "Vamos, pues."
 
 label scene_noche_campo:
+    $ vn_mark_scene("scene_noche_campo")
+    window auto
     scene black
     show card_noche_campo at truecenter
     with fade
@@ -5596,6 +5704,7 @@ label scene_noche_campo:
     scene bg field_night at tint_none
     with fade
     # noche_campo_0001
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust neutral at vn_left
     show mephisto neutral at vn_right
     with dissolve
@@ -5618,6 +5727,8 @@ label scene_noche_campo:
     c_mephisto "¡Adelante! ¡Adelante!"
 
 label scene_carcel:
+    $ vn_mark_scene("scene_carcel")
+    window auto
     scene black
     show card_carcel at truecenter
     with fade
@@ -5626,6 +5737,7 @@ label scene_carcel:
     scene bg prison at tint_none
     with fade
     # carcel_0002 .. carcel_0005
+    play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust fearful at vn_left
     with dissolve
     c_faust "Horror ha largo tiempo no sentido\nsiento otra vez. Me asaltan y me rinden\nlos males todos que lamenta y llora\nla pobre Humanidad. Aquí ella vive;"

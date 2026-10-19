@@ -29,7 +29,7 @@ define config.version = "0.1"
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""Primera parte — Dedicatoria, prólogos y la noche de Fausto\n\nTexto: Johann Wolfgang von Goethe\n\nTraducción: Teodoro Llorente\n\nAdaptación a novela visual generada con vnpipe.""")
+define gui.about = _p("""Primera parte\n\nTexto: Johann Wolfgang von Goethe\n\nTraducción: Teodoro Llorente\n\nAdaptación a novela visual generada con vnpipe.""")
 
 
 ## A short name for the game used for executables and directories in the built
@@ -46,7 +46,7 @@ define build.name = "faust-vn"
 ## appropriate mixer.
 
 define config.has_sound = False
-define config.has_music = False
+define config.has_music = True
 define config.has_voice = True
 
 
@@ -119,7 +119,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## Controls the default text speed. The default, 0, is infinite, while any other
 ## number is the number of characters per second to type out.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 40
 
 
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0
