@@ -13,7 +13,7 @@ Earth Spirit's rejection of Faust — 630 verse lines, 7 stage directions, 4 sce
 | Parsing | Deterministic parser: scenes, speakers + notes, verse, stanzas, split verses, directions, cast lists; fails loudly on anything unknown | `parsed.json` (639 lines) |
 | Annotation | `vnpipe annotate chunk` → 16 chunks; 8 Haiku sub-agents (2 chunks each) in parallel; `status`/`merge` validate schema, input hash, line coverage, deterministic fields, cast ids | `annotated.json`, 0 fallback chunks, 0 invalid on first pass |
 | Art | One Sonnet sub-agent drove the ChatGPT image MCP (≤ 20 generations/hour), imported with sha256 verification, chroma-keyed sprites, reviewed every image | 7 backgrounds + 17 sprites, all approved |
-| Ren'Py | `vnpipe renpy`: GUI from the SDK's `generate_gui` template, characters, images, script with title cards, NVL/ADV, cues, tints, flash/shake, expression mapping | `vn/faust/`, `renpy lint` clean |
+| Ren'Py | `vnpipe renpy`: GUI from the SDK's `generate_gui` template, characters, images, script with title cards, NVL/ADV, cues, tints, flash/shake, expression mapping | `vn/`, `renpy lint` clean |
 | Builds | Ren'Py launcher `web_build` and `distribute --package linux` | `build/web/`, `build/dist/*.tar.bz2` |
 
 Everything except the LLM and image calls is deterministic and idempotent (re-running

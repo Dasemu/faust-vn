@@ -5,7 +5,7 @@ Project Gutenberg #68566.
 
 ## Included
 
-Raw file lines 1092-1921 (`works/faust/data/raw/pg68566.txt`), i.e. from the `DEDICATORIA`
+Raw file lines 1092-1921 (`data/raw/pg68566.txt`), i.e. from the `DEDICATORIA`
 heading up to, but excluding, the `(_Llaman._)` direction at line 1923.
 
 | Scene id | Heading | Verse lines | Directions | Cast lines | Speeches |
@@ -33,7 +33,7 @@ movement.
 
 ## Scope rule
 
-Defined in `works/faust/work.toml` under `[scope]` and applied by `vnpipe.text.clean`:
+Defined in `work.toml` under `[scope]` and applied by `vnpipe.text.clean`:
 
 - Start: the first line whose stripped text equals `start_marker`. Table of contents entries
   carry page numbers, so they never match as whole lines.
@@ -41,6 +41,6 @@ Defined in `works/faust/work.toml` under `[scope]` and applied by `vnpipe.text.c
   (exclusive).
 - Illustration lines are dropped, trailing whitespace is removed, blank runs collapse to one.
 
-`vnpipe parse` writes the result to `works/faust/data/play.txt` and the structured form to
-`works/faust/data/parsed.json` (line ids `<scene>_<NNNN>`, numbered from 0001 per scene;
+`vnpipe parse` writes the result to `data/play.txt` and the structured form to
+`data/parsed.json` (line ids `<scene>_<NNNN>`, numbered from 0001 per scene;
 `src_line` points back to the raw file).

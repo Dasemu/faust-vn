@@ -2,7 +2,7 @@
 
 The look of every asset is fixed here before anything is generated. Prompts are
 assembled mechanically: **base prompt + kind template + asset prompt**. The exact
-strings live in `works/faust/assets/assets.json` (`base_prompt` and each asset's
+strings live in `assets/assets.json` (`base_prompt` and each asset's
 `prompt`); this document explains them.
 
 ## Look
