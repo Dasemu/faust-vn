@@ -22,7 +22,7 @@ translate spanish strings:
     new "Cargar R."
 
     old "Prefs"
-    new "Prefs."
+    new "Opciones"
 
     old "Start"
     new "Comenzar"
@@ -112,10 +112,10 @@ translate spanish strings:
     new "Transiciones"
 
     old "Text Speed"
-    new "Veloc. texto"
+    new "Velocidad del texto"
 
     old "Auto-Forward Time"
-    new "Veloc. autoavance"
+    new "Velocidad de autoavance"
 
     old "Music Volume"
     new "Volumen música"
@@ -253,10 +253,10 @@ translate spanish strings:
     new "Abre el menú de accesibilidad."
 
     old "Upload Sync"
-    new "Subir Sync"
+    new "Subir sincronización"
 
     old "Download Sync"
-    new "Descargar Sync"
+    new "Descargar sincronización"
 
     old "Start, Guide, B/Right Button"
     new "Inicio, Guía, B/Botón Derecho"

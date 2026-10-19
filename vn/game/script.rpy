@@ -6046,6 +6046,7 @@ label scene_carcel:
     c_voices "¡Enrique! ¡Enrique!"
 
 label the_end:
+    stop music fadeout 3.0
     scene black
     with fade
     show card_end at truecenter

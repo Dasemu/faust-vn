@@ -21,3 +21,6 @@ Recurring problems and what worked. Read before starting; add an entry when a mi
   hand-editing annotated.json.
 - The pipeline lives in `../vnpipe`: a pipeline bug is fixed there (and tested with its
   fixtures), then `uv run vnpipe renpy` is re-run here; `vn/` must not change unless intended.
+- Visual QA: verse boxes must hold 4 lines plus 5-6 for long prose speeches; check wrapped
+  line counts with PIL against `gui.dialogue_width` before touching the textbox. The headless
+  `screenshot` statement compares against an existing file instead of overwriting it.

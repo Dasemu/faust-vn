@@ -83,6 +83,17 @@ video driver); matrix tints are therefore not rendered but all game logic is exe
 `tests/test_faust_e2e.py` runs this when the SDK exists (`RENPY_SDK` or
 `tools/renpy-sdk`; slow: about a minute). On a desktop with a display, drop the three variables.
 
+## 3c. Headless screenshots (visual QA)
+
+The same test runner takes screenshots (`screenshot "name.png"` inside a `testcase`, saved
+under `_test.screenshot_directory`; an existing file is *compared*, so delete it before
+re-taking). Copy `vn/` to a scratch directory, add a `game/qa_test.rpy` with the `e2e_ticker`
+screen of `e2e_test.rpy`, `run Start("scene_noche")` + `pause 9.0` + `screenshot ...`, and run
+`renpy.sh <copy> test` with the variables of section 3b. `Start(label)` only works from the
+main menu (one test run per scene); `ShowMenu("preferences")`, `"load"`, `"history"`,
+`"vn_credits"`, `"vn_scene_select"` work anywhere. Set `persistent.art_style` with
+`run SetField(persistent, "art_style", "anime")` (a bare `$` does not redraw).
+
 ## 4. Play
 
 ```sh

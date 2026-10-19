@@ -21,7 +21,8 @@ and `"auto"` to return to the annotation moods). Current choices:
 | `aposento_margarita` | `scenes/gretchen-am-spinnrade.ogg` |
 | `noche`, from `noche_0473` (bells and Easter choruses, to the end of the scene) | `scenes/bach-bwv4-christ-lag.ogg` |
 
-The game credits screen prints every `attribution` of `credits.toml` verbatim (CC BY-SA).
+The game credits screen prints every `attribution` of `credits.toml` verbatim (CC BY-SA); when a track has
+`attribution_es` (the same credit in Spanish) that one is shown instead.
 
 ## Licensing rule
 
