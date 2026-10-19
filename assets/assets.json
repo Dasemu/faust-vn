@@ -1114,8 +1114,11 @@
         "painterly": {
           "file": "bg/painterly/city_walls.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "85faa66718d90ed52304fd1d5abd9e27279f138de869d6ffa73bf6105d5d163f"
+          "status": "approved",
+          "sha256": "9aea5f6c75ddd039f3a103bf4f8e883290331b475583be54d22fd9a02c810548",
+          "raw_file": "raw/painterly/bg_city_walls.png",
+          "generation_id": "4687f3bf-597e-42e9-ba11-9254415a6044",
+          "notes": "ok"
         }
       }
     },
@@ -1128,8 +1131,11 @@
         "painterly": {
           "file": "bg/painterly/street_night.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "85e18154a0581aa4e87d5c339560415da6f859cad5db6563c9df5a636f70e53b"
+          "status": "approved",
+          "sha256": "d5016def2c6490f2e48d00a572897bb1de586f27dfb309d91eef6a8743147611",
+          "raw_file": "raw/painterly/bg_street_night.png",
+          "generation_id": "17a4d9b0-4ec5-43f9-8235-c1ac3a69afd0",
+          "notes": "ok, same street as bg_street"
         }
       }
     },
@@ -1144,8 +1150,11 @@
         "painterly": {
           "file": "sprites/painterly/valentin_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "14d1bc2294a5c943b1ea1054d517d1e33238f0c2f7aec31e03b4eefe3f1d5a99"
+          "status": "approved",
+          "sha256": "b582cd9dbf07d4effe75541e991abe6bc62eaceb68e507991009bc89f0287670",
+          "raw_file": "raw/painterly/sprite_valentin_neutral.png",
+          "generation_id": "7d18687c-ae53-4402-9891-c9f3bde02a1c",
+          "notes": "ok"
         }
       }
     },
