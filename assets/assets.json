@@ -300,11 +300,11 @@
         "anime": {
           "raw_file": "raw/anime/sprite_mephisto_sly.png",
           "file": "sprites/anime/mephisto_sly.webp",
-          "generation_id": "9dec589e-1b8a-4c3f-a1e2-6c24588c2ab8",
-          "sha256": "7b12ca5e0e2c7835490eeaf1a7fb62cba80e2e852236e0ebf688be438ef18599",
-          "status": "rejected",
+          "generation_id": "4a7453c0-1ec9-48d3-ae17-4519479b9e57",
+          "sha256": "3c33b92eef21cb8f0725cb770669000c1b4d0cf26643117119241e2135f78763",
+          "status": "approved",
           "source": "chatgpt-web",
-          "notes": "MCP echoed the reference image (identical to neutral) twice"
+          "notes": "generated without reference (MCP echoes refs); identity close to neutral"
         }
       }
     },
@@ -324,6 +324,15 @@
           "sha256": "e008a094c02f84f78a7be96b21086d8d461f11e669eab7a41c961cb3b42a7293",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_mephisto_scornful.png",
+          "file": "sprites/anime/mephisto_scornful.webp",
+          "generation_id": "94c68d80-e3bf-419b-937b-5cd9af60cf34",
+          "sha256": "2ffb111af2581fee7c7275a46cc3f600e00197dbda165b2a19604a6381ef7ba2",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "no-reference generation; costume slightly varies, same character"
         }
       }
     },
@@ -343,6 +352,15 @@
           "sha256": "4a142fbb968d69de14e23a469ef54604e66b893febc04a6b13e237283f9e08a9",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_mephisto_deferent.png",
+          "file": "sprites/anime/mephisto_deferent.webp",
+          "generation_id": "9733c54e-28d6-41e3-9f11-730412014d54",
+          "sha256": "53fe564b17658c5f80d9856b700c1545746fa7beded5a6caef821e9bf3760df5",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "no-reference generation; same character"
         }
       }
     },
@@ -526,8 +544,11 @@
         "painterly": {
           "file": "bg/painterly/city_gates.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "a692a7087e2e606faa01661e98e7139b87258834561b311026d9c3c5a9381184"
+          "status": "approved",
+          "sha256": "e2e408f3cb3989726e56752b9982f7494bab503865ab233d1174a41e6cfb9c52",
+          "raw_file": "raw/painterly/bg_city_gates.png",
+          "generation_id": "6a192a05-1076-493d-81c0-121f3ad9473f",
+          "notes": "oil painting gate with blossom, good"
         }
       }
     },
@@ -542,8 +563,11 @@
         "painterly": {
           "file": "sprites/painterly/wagner_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "7c167dbeb482e7dfc1d1bcca34cc23dc19e39f0c967ce82af71eda806655ad04"
+          "status": "approved",
+          "sha256": "e33e530744c591a16893f84cbcbab36ca92086295cff49ba1c408c6f542dd1c0",
+          "raw_file": "raw/painterly/sprite_wagner_neutral.png",
+          "generation_id": "8e793c5b-f717-4155-9e4b-39ebc515f989",
+          "notes": "on-style, clean cutout"
         }
       }
     },
@@ -558,8 +582,11 @@
         "painterly": {
           "file": "sprites/painterly/wagner_eager.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "bc9cc8d859c339a03fc3c270c6ce4b69682694c5199619b720960c5a9493ab7f"
+          "status": "approved",
+          "sha256": "c00ad923ebc209057934735a7951e9ffe98fd4b568543fdfe4add32081217a4a",
+          "raw_file": "raw/painterly/sprite_wagner_eager.png",
+          "generation_id": "487ef964-d037-469e-9921-db3a89abde22",
+          "notes": "no-reference generation; same character"
         }
       }
     },
@@ -574,8 +601,11 @@
         "painterly": {
           "file": "sprites/painterly/wagner_uneasy.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "635a095b3d2c24675cf5708493a278a2e1635277214162b898495681514d0130"
+          "status": "approved",
+          "sha256": "44b2204c35658d0e7149d007ef5961c9c529a58c55c88e07f923beb9c4938f70",
+          "raw_file": "raw/painterly/sprite_wagner_uneasy.png",
+          "generation_id": "3e46359c-a344-47af-90d4-09554a93f01e",
+          "notes": "no-reference generation; same character"
         }
       }
     },
@@ -588,8 +618,11 @@
         "painterly": {
           "file": "bg/painterly/study_day.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "a314a2c8d722a13d02af357d56d760baa6d7f45831b456084a11221d0f22a203"
+          "status": "approved",
+          "sha256": "e251e416f2bd5378421aa7475f9eee80f7211c6a0d8f537a159e5205b830651f",
+          "raw_file": "raw/painterly/bg_study_day.png",
+          "generation_id": "30d1123a-501c-45d0-ad98-1c570002c209",
+          "notes": "daytime variant of study, no-reference; consistent"
         }
       }
     },
@@ -604,8 +637,11 @@
         "painterly": {
           "file": "sprites/painterly/student_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "32b32e890f0b0daf87cc0fbe458ba04bbc769ebc2906dbd40e67214643f17c33"
+          "status": "approved",
+          "sha256": "2e86074248b57b94f0167f33360d0657b8e839ab2dd9ce461fd4a9a116397aab",
+          "raw_file": "raw/painterly/sprite_student_neutral.png",
+          "generation_id": "5052317d-ad41-46cf-8358-d59c44e655d0",
+          "notes": "on-style, clean"
         }
       }
     },
@@ -620,8 +656,11 @@
         "painterly": {
           "file": "sprites/painterly/student_eager.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "a0c9a7133bc08547d0193d6774ea9bfd7ac36acc74e8d4f2dcbc86231ecd2fa8"
+          "status": "approved",
+          "sha256": "ff6937e9751eb8968bfeeb778225b77553cf241c0401cdbe59bc2606f2df3c02",
+          "raw_file": "raw/painterly/sprite_student_eager.png",
+          "generation_id": "293e1713-dc85-476b-a1fe-f5247591ffd5",
+          "notes": "no-reference; same character"
         }
       }
     },
@@ -636,8 +675,11 @@
         "painterly": {
           "file": "sprites/painterly/student_puzzled.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "aa42cdc557f32f2ffb5c3a272aab15c974f52c65aedc6e5239116071b27ae50d"
+          "status": "approved",
+          "sha256": "ceb72ad2d51bba2bd764df45fc188788b39d205ebeb2f292ec0be1bd59c6a644",
+          "raw_file": "raw/painterly/sprite_student_puzzled.png",
+          "generation_id": "cbe4a0c8-f4b3-4255-b348-bbcce2cc1604",
+          "notes": "no-reference; same character"
         }
       }
     },
@@ -650,8 +692,11 @@
         "painterly": {
           "file": "bg/painterly/tavern.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "cfba5ef64168aa6c0d5ad85fe0138bbccfbe03eec59b73347533ca60eb55042d"
+          "status": "approved",
+          "sha256": "693f520b374b09e257a43ccc8e855863b83e803cfc7cf1d3ecac30fb3dbde3c5",
+          "raw_file": "raw/painterly/bg_tavern.png",
+          "generation_id": "d45af8ea-4b84-4623-9e43-36b7e7135a3b",
+          "notes": "oil style, vaulted cellar, no people"
         }
       }
     },
@@ -664,8 +709,11 @@
         "painterly": {
           "file": "bg/painterly/witch_kitchen.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "6b9d25ee94e909f43211e7cb77ced789c4d71213b768bd7cd889bae027810068"
+          "status": "approved",
+          "sha256": "97ba85ab616dd23bcf18570d11622fbb64a2bdf8c74d2a5c3a4a497648827165",
+          "raw_file": "raw/painterly/bg_witch_kitchen.png",
+          "generation_id": "5aba23c3-be31-4e59-8a43-cbd707b93c9c",
+          "notes": "oil style, good"
         }
       }
     },
@@ -680,8 +728,11 @@
         "painterly": {
           "file": "sprites/painterly/witch_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "ca8b1d0f1c6b146c5e8eb209423878f9f2295517c0410f185f803613aba4f1f3"
+          "status": "approved",
+          "sha256": "eae989f959e9ada65b52a62841c6662e45519a4f84701d041b0d7b783bd8697f",
+          "raw_file": "raw/painterly/sprite_witch_neutral.png",
+          "generation_id": "fa1fdf62-3602-4dc5-ac54-5e515f9a4fbf",
+          "notes": "on-style"
         }
       }
     },
@@ -696,8 +747,11 @@
         "painterly": {
           "file": "sprites/painterly/witch_cackling.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "98193c7c4302caafbae50a2c051f1f3410a15f93fe8c9c44854964dd52263130"
+          "status": "approved",
+          "sha256": "8a8c8017049e995b1fedb27e1fda6381ed06ba74d3b30d2ddf6fc75514f5a913",
+          "raw_file": "raw/painterly/sprite_witch_cackling.png",
+          "generation_id": "4ac07100-9569-41b7-8530-fd6d95eb69a7",
+          "notes": "no-reference; same character"
         }
       }
     },
@@ -712,8 +766,11 @@
         "painterly": {
           "file": "sprites/painterly/witch_furious.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "150167acf090db67fef4b7250c1ac28f0ed40457a4d45149d19ed2de6506b4c5"
+          "status": "approved",
+          "sha256": "cbf4bcf77225407188f0ffc817bad7044cb77bc6b2f8f899bc7daaedf28ae479",
+          "raw_file": "raw/painterly/sprite_witch_furious.png",
+          "generation_id": "9595bc22-e5e9-48bd-8466-eced40ba43bd",
+          "notes": "no-reference; same character"
         }
       }
     },
@@ -726,8 +783,11 @@
         "painterly": {
           "file": "bg/painterly/street.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "3aae01fc71b073302dd566ba6a240c59a5303e0e074585211e7c6edba41124f9"
+          "status": "approved",
+          "sha256": "ac5303e1f4d703c9ad02f15a623c54265d482e0d609bae4fdedb7cff66811388",
+          "raw_file": "raw/painterly/bg_street.png",
+          "generation_id": "8558ac8d-53b0-415f-afff-faba07e3f32d",
+          "notes": "oil style, slightly glossy but acceptable"
         }
       }
     },

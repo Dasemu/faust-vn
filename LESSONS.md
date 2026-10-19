@@ -24,3 +24,11 @@ Recurring problems and what worked. Read before starting; add an entry when a mi
 - Visual QA: verse boxes must hold 4 lines plus 5-6 for long prose speeches; check wrapped
   line counts with PIL against `gui.dialogue_width` before touching the textbox. The headless
   `screenshot` statement compares against an existing file instead of overwriting it.
+- ChatGPT image MCP: `reference_images` frequently makes it echo the reference unchanged
+  (the raw bytes differ but `vnpipe assets check` reports identical pixels). Do not retry with
+  references; generate variants WITHOUT `reference_images`, reusing the neutral sprite's full
+  character description and swapping only the "Expression and pose" sentence. Identity stays
+  close enough (same costume/face); poll `query_tasks` only after ~90 s (a call returns the
+  full result in about 1 minute).
+- CI commits a VERSION bump to `development` after every push, so a later push is rejected:
+  `git fetch` and merge `origin/development` before pushing again.
