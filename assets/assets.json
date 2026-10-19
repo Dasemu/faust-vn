@@ -1217,8 +1217,11 @@
         "painterly": {
           "file": "bg/painterly/cathedral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "08dc19945bc4b7028dacaff2e62c366b60f48c0bba78ec8ce2fa3973a45b7e12"
+          "status": "approved",
+          "sha256": "e151cd8244ab650ef9a88b17136fe84dbfc9af8702629332a93f94ebe8fb919a",
+          "raw_file": "raw/painterly/bg_cathedral.png",
+          "generation_id": "01be4428-095c-4447-ac9d-2eb0991f12dd",
+          "notes": "gothic nave, painterly, consistent with set"
         }
       }
     },
@@ -1231,8 +1234,11 @@
         "painterly": {
           "file": "bg/painterly/harz.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "1e869e717fbf007004c91325df76fad19111e5a94040ba0f4cc9a9f8f393164a"
+          "status": "approved",
+          "sha256": "f51289e1b2bc9a8e8ee039d79a1cabe71518e5a87c22e47b786baf24b61832c4",
+          "raw_file": "raw/painterly/bg_harz.png",
+          "generation_id": "4faa63e3-e106-4594-9ba8-0355356e72ae",
+          "notes": "misty pine mountain, will-o-wisps, red glow"
         }
       }
     },
@@ -1245,8 +1251,11 @@
         "painterly": {
           "file": "bg/painterly/harz_summit.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "13e0a6ac0a2d502585e8ea0e6e480e46eb6edef1d3609d89ae4a87eac033f53d"
+          "status": "approved",
+          "sha256": "1d033b668433d3272b0457c36416097059e6c2a5d3eda0c1a011e18941127bb4",
+          "raw_file": "raw/painterly/bg_harz_summit.png",
+          "generation_id": "a31d1f82-95b8-4518-a6f6-3fa8b1693dba",
+          "notes": "brocken bonfires, witches, same landscape"
         }
       }
     },
@@ -1259,8 +1268,11 @@
         "painterly": {
           "file": "bg/painterly/intermezzo.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "81237fda1edb9fb885ab3fda1188e4f614ad1eed2ce08e327babe8c2644fb529"
+          "status": "approved",
+          "sha256": "deb2070b77b8b0d0c94bba63f2f4d6b119583b2a883fb0edecce7b75556de032",
+          "raw_file": "raw/painterly/bg_intermezzo.png",
+          "generation_id": "851ca982-a8bb-41b2-a3d4-29d6868ee959",
+          "notes": "moonlit clearing with miniature stage"
         }
       }
     },
