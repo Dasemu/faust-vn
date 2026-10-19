@@ -383,6 +383,203 @@ location = "prison"
 time_of_day = "night"
 subtitle = "Calabozo de Margarita · Noche"
 
+# Voice track: the LibriVox German dramatic reading under the Spanish text (docs/voice.md).
+# `scenes` limits what `vnpipe voice` processes (pilot); remove it to run every section.
+[voice]
+scenes = ["calle_1", "jardin_marta"]
+text_url = "https://www.gutenberg.org/cache/epub/2229/pg2229.txt"
+text_file = "data/raw/pg2229.txt"
+audio_url = "https://www.archive.org/download/faust1teil_1412_librivox/faust1_{nn:02d}_goethe_64kb.mp3"
+audio_dir = "data/raw/librivox"
+credits = [
+  "Lectura dramatizada de LibriVox, «Faust: Der Tragödie erster Teil» (dominio público): librivox.org/faust-der-tragoedie-erster-teil-by-johann-wolfgang-von-goethe",
+  "Narradora: Gesine. Mefistófeles: Herman Roskams. Fausto: redaer. Margarita: Sonja. Marta: Availle.",
+  "Wagner: Herr_Klugbeisser. Valentín: ekyale. Estudiante: DerHoepp. Bruja: Hokuspokus. Lisa: Katieamp.",
+  "Montaje de audio: Rapunzelina. Resto del reparto y lectores: librivox.org.",
+]
+
+[voice.asr]
+host = "root@192.168.1.0"
+workdir = "/root/vn-tts"
+python = ".venv/bin/python"
+prelude = "NV=.venv/lib/python3.11/site-packages/nvidia; export LD_LIBRARY_PATH=$PWD/$NV/cublas/lib:$PWD/$NV/cudnn/lib; export HF_HOME=/root/vn-tts/hf"
+model = "medium"
+language = "de"
+
+# German speaker label as printed (upper case, without its parenthetical) -> cast id.
+[voice.speakers]
+"MEPHISTOPHELES" = "mephisto"
+"FAUST" = "faust"
+"MARGARETE" = "margarita"
+"GRETCHEN" = "margarita"
+"MARTHE" = "marta"
+"WAGNER" = "wagner"
+"VALENTIN" = "valentin"
+"SCHÜLER" = "student"
+"DIE HEXE" = "witch"
+"LIESCHEN" = "lisa"
+"DER HERR" = "lord"
+"FROSCH" = "frosch"
+"BRANDER" = "brander"
+"SIEBEL" = "siebel"
+"ALTMAYER" = "altmayer"
+"GEIST" = "spirit"
+"BÖSER GEIST" = "evil_spirit"
+"DIREKTOR" = "director"
+"DICHTER" = "poet"
+"LUSTIGE PERSON" = "clown"
+"RAPHAEL" = "raphael"
+"GABRIEL" = "gabriel"
+"MICHAEL" = "michael"
+"OBERON" = "oberon"
+"TITANIA" = "titania"
+"PUCK" = "puck"
+"ARIEL" = "ariel"
+"IRRLICHT" = "wisp"
+"CHOR DER ENGEL" = "angels_chorus"
+"CHOR" = "chorus"
+"CHORUS" = "chorus"
+
+[[voice.sections]]
+scene = "dedicatoria"
+nn = 1
+heading = "Zueignung"
+
+[[voice.sections]]
+scene = "prologo_teatro"
+nn = 2
+heading = "Vorspiel auf dem Theater"
+
+[[voice.sections]]
+scene = "prologo_cielo"
+nn = 3
+heading = "Prolog im Himmel"
+
+[[voice.sections]]
+scene = "noche"
+nn = 4
+heading = "Nacht"
+
+[[voice.sections]]
+scene = "puertas_ciudad"
+nn = 5
+heading = "Vor dem Tor"
+
+[[voice.sections]]
+scene = "gabinete_1"
+nn = 6
+heading = "Studierzimmer"
+
+[[voice.sections]]
+scene = "gabinete_2"
+nn = 7
+heading = "Studierzimmer"
+
+[[voice.sections]]
+scene = "taberna_auerbach"
+nn = 8
+heading = "Auerbachs Keller in Leipzig"
+
+[[voice.sections]]
+scene = "cocina_bruja"
+nn = 9
+heading = "Hexenküche"
+
+[[voice.sections]]
+scene = "calle_1"
+nn = 10
+heading = "Straße (I)"
+
+[[voice.sections]]
+scene = "cuartito"
+nn = 11
+heading = "Abend."
+
+[[voice.sections]]
+scene = "paseo"
+nn = 12
+heading = "Spaziergang"
+
+[[voice.sections]]
+scene = "casa_vecina"
+nn = 13
+heading = "Der Nachbarin Haus"
+
+[[voice.sections]]
+scene = "calle_2"
+nn = 14
+heading = "Straße (II)"
+
+[[voice.sections]]
+scene = "jardin"
+nn = 15
+heading = "Garten"
+
+[[voice.sections]]
+scene = "pabelloncito"
+nn = 16
+heading = "Ein Gartenhäuschen"
+
+[[voice.sections]]
+scene = "bosques_cavernas"
+nn = 17
+heading = "Wald und Höhle"
+
+[[voice.sections]]
+scene = "aposento_margarita"
+nn = 18
+heading = "Gretchens Stube"
+
+[[voice.sections]]
+scene = "jardin_marta"
+nn = 19
+heading = "Marthens Garten"
+
+[[voice.sections]]
+scene = "fuente"
+nn = 20
+heading = "Am Brunnen"
+
+[[voice.sections]]
+scene = "muros"
+nn = 21
+heading = "Zwinger"
+
+[[voice.sections]]
+scene = "calle_noche"
+nn = 22
+heading = "Nacht. Straße vor Gretchens Türe"
+
+[[voice.sections]]
+scene = "catedral"
+nn = 23
+heading = "Dom"
+
+[[voice.sections]]
+scene = "valpurgis"
+nn = 24
+heading = "Walpurgisnacht"
+
+[[voice.sections]]
+scene = "intermedio"
+nn = 25
+heading = "Walpurgisnachtstraum"
+
+[[voice.sections]]
+scene = "dia_nebuloso"
+nn = 26
+heading = "Trüber Tag. Feld"
+
+[[voice.sections]]
+scene = "noche_campo"
+nn = 27
+heading = "Nacht, offen Feld"
+
+[[voice.sections]]
+scene = "carcel"
+nn = 28
+heading = "Kerker"
+
 # Cast. `sprite = false` means the character is never drawn as a standing sprite
 # (see docs/adaptation-rules.md); `expressions` maps the annotation emotion
 # vocabulary to the sprite expressions that exist for that character.
