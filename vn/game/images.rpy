@@ -68,15 +68,15 @@ image faust anguished = ConditionSwitch("persistent.art_style == 'anime'", "imag
 image faust ecstatic = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_ecstatic.webp", "True", "images/sprites/painterly/faust_ecstatic.webp")
 image faust fearful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_fearful.webp", "True", "images/sprites/painterly/faust_fearful.webp")
 image faust neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_neutral.webp", "True", "images/sprites/painterly/faust_neutral.webp")
-image lisa neutral = "images/sprites/painterly/lisa_neutral.webp"
-image lisa smug = "images/sprites/painterly/lisa_smug.webp"
+image lisa neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/lisa_neutral.webp", "True", "images/sprites/painterly/lisa_neutral.webp")
+image lisa smug = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/lisa_smug.webp", "True", "images/sprites/painterly/lisa_smug.webp")
 image margarita fearful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/margarita_fearful.webp", "True", "images/sprites/painterly/margarita_fearful.webp")
 image margarita joyful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/margarita_joyful.webp", "True", "images/sprites/painterly/margarita_joyful.webp")
 image margarita neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/margarita_neutral.webp", "True", "images/sprites/painterly/margarita_neutral.webp")
 image margarita sorrowful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/margarita_sorrowful.webp", "True", "images/sprites/painterly/margarita_sorrowful.webp")
-image marta coy = "images/sprites/painterly/marta_coy.webp"
-image marta distressed = "images/sprites/painterly/marta_distressed.webp"
-image marta neutral = "images/sprites/painterly/marta_neutral.webp"
+image marta coy = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/marta_coy.webp", "True", "images/sprites/painterly/marta_coy.webp")
+image marta distressed = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/marta_distressed.webp", "True", "images/sprites/painterly/marta_distressed.webp")
+image marta neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/marta_neutral.webp", "True", "images/sprites/painterly/marta_neutral.webp")
 image mephisto deferent = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/mephisto_deferent.webp", "True", "images/sprites/painterly/mephisto_deferent.webp")
 image mephisto neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/mephisto_neutral.webp", "True", "images/sprites/painterly/mephisto_neutral.webp")
 image mephisto scornful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/mephisto_scornful.webp", "True", "images/sprites/painterly/mephisto_scornful.webp")
@@ -84,15 +84,15 @@ image mephisto sly = ConditionSwitch("persistent.art_style == 'anime'", "images/
 image poet indignant = "images/sprites/painterly/poet_indignant.webp"
 image poet inspired = "images/sprites/painterly/poet_inspired.webp"
 image poet neutral = "images/sprites/painterly/poet_neutral.webp"
-image student eager = "images/sprites/painterly/student_eager.webp"
-image student neutral = "images/sprites/painterly/student_neutral.webp"
-image student puzzled = "images/sprites/painterly/student_puzzled.webp"
-image valentin angry = "images/sprites/painterly/valentin_angry.webp"
-image valentin dying = "images/sprites/painterly/valentin_dying.webp"
-image valentin neutral = "images/sprites/painterly/valentin_neutral.webp"
-image wagner eager = "images/sprites/painterly/wagner_eager.webp"
-image wagner neutral = "images/sprites/painterly/wagner_neutral.webp"
-image wagner uneasy = "images/sprites/painterly/wagner_uneasy.webp"
-image witch cackling = "images/sprites/painterly/witch_cackling.webp"
-image witch furious = "images/sprites/painterly/witch_furious.webp"
-image witch neutral = "images/sprites/painterly/witch_neutral.webp"
+image student eager = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/student_eager.webp", "True", "images/sprites/painterly/student_eager.webp")
+image student neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/student_neutral.webp", "True", "images/sprites/painterly/student_neutral.webp")
+image student puzzled = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/student_puzzled.webp", "True", "images/sprites/painterly/student_puzzled.webp")
+image valentin angry = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/valentin_angry.webp", "True", "images/sprites/painterly/valentin_angry.webp")
+image valentin dying = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/valentin_dying.webp", "True", "images/sprites/painterly/valentin_dying.webp")
+image valentin neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/valentin_neutral.webp", "True", "images/sprites/painterly/valentin_neutral.webp")
+image wagner eager = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/wagner_eager.webp", "True", "images/sprites/painterly/wagner_eager.webp")
+image wagner neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/wagner_neutral.webp", "True", "images/sprites/painterly/wagner_neutral.webp")
+image wagner uneasy = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/wagner_uneasy.webp", "True", "images/sprites/painterly/wagner_uneasy.webp")
+image witch cackling = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/witch_cackling.webp", "True", "images/sprites/painterly/witch_cackling.webp")
+image witch furious = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/witch_furious.webp", "True", "images/sprites/painterly/witch_furious.webp")
+image witch neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/witch_neutral.webp", "True", "images/sprites/painterly/witch_neutral.webp")
