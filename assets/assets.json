@@ -568,6 +568,15 @@
           "raw_file": "raw/painterly/sprite_wagner_neutral.png",
           "generation_id": "8e793c5b-f717-4155-9e4b-39ebc515f989",
           "notes": "on-style, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_wagner_neutral.png",
+          "file": "sprites/anime/wagner_neutral.webp",
+          "generation_id": "3d8da998-7941-4779-8ab6-4f2e55e5a0ec",
+          "sha256": "3037085ecd6cdbfa809c7cafd9ae8d329089ddd997fa01578da78fccd58a7c2d",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean cel anime, matches painterly costume"
         }
       }
     },
@@ -587,6 +596,15 @@
           "raw_file": "raw/painterly/sprite_wagner_eager.png",
           "generation_id": "487ef964-d037-469e-9921-db3a89abde22",
           "notes": "no-reference generation; same character"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_wagner_eager.png",
+          "file": "sprites/anime/wagner_eager.webp",
+          "generation_id": "a409c9c4-d544-4bd9-8120-a5c415bc1eaf",
+          "sha256": "838715ab748b5bbf0dbbf65eca1b4035581a46a72414e7885107e314263ead7d",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, raised finger"
         }
       }
     },
@@ -606,6 +624,15 @@
           "raw_file": "raw/painterly/sprite_wagner_uneasy.png",
           "generation_id": "3e46359c-a344-47af-90d4-09554a93f01e",
           "notes": "no-reference generation; same character"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_wagner_uneasy.png",
+          "file": "sprites/anime/wagner_uneasy.webp",
+          "generation_id": "2c8b5b72-ac84-4b91-b5a6-62dfac21004f",
+          "sha256": "fa62761c20c23bceb5b9965b457beac686207ef3169b1c33dc07fb44f05547d1",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, uneasy"
         }
       }
     },
@@ -970,6 +997,15 @@
           "raw_file": "raw/painterly/sprite_marta_neutral.png",
           "generation_id": "f097d31c-6192-42ce-8266-03c51069b439",
           "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_marta_neutral.png",
+          "file": "sprites/anime/marta_neutral.webp",
+          "generation_id": "a5563548-6a26-41be-817a-eadf9d0c7c33",
+          "sha256": "f72a61e181444a66d7bf3e194216eddf682a5a41e0f3134b8ea0f1f335f7d9a7",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "costume matches (skirt slightly bluer), adult"
         }
       }
     },
@@ -989,6 +1025,15 @@
           "raw_file": "raw/painterly/sprite_marta_coy.png",
           "generation_id": "888b8ed1-3072-450d-913d-9cf53e5280ce",
           "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_marta_coy.png",
+          "file": "sprites/anime/marta_coy.webp",
+          "generation_id": "7cda6084-0925-440b-b924-042a87ce66a1",
+          "sha256": "bec44d7c0d51e7e5bee58f51a3b8baeff65a723732b0326a304ad9a02b44fe66",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, coy"
         }
       }
     },
@@ -1008,6 +1053,15 @@
           "raw_file": "raw/painterly/sprite_marta_distressed.png",
           "generation_id": "12817d96-f1cb-493f-9378-dc41119b5509",
           "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_marta_distressed.png",
+          "file": "sprites/anime/marta_distressed.webp",
+          "generation_id": "59a9de7b-c51a-4eff-9d42-98d62344191c",
+          "sha256": "5f5ef95394fb59436549b9ad905ed56170f6fcdca135eb7a99b98b8f3cb88775",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, distressed"
         }
       }
     },
