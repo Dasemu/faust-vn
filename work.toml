@@ -173,6 +173,8 @@ direction_headings = [
 # Main menu look: the background (darkened) behind the title.
 [ui]
 main_menu_bg = "bg_study"
+# Ren'Py language of the stock menus; strings come from tl/<language>/ (vendored from the SDK).
+language = "spanish"
 
 # Scene heading (as printed) -> scene id, location, time of day. A heading printed several
 # times ("CALLE", "GABINETE DE ESTUDIO", "DE NOCHE") needs `occurrence` (1-based, in order of
