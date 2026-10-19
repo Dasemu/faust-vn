@@ -111,11 +111,12 @@ def test_cast_config():
         "valentin",
         "witch",
         "student",
+        "lisa",
         "director",
         "poet",
         "clown",
     }
-    for cid in ("frosch", "brander", "siebel", "altmayer", "lisa", "evil_spirit", "artisans"):
+    for cid in ("frosch", "brander", "siebel", "altmayer", "evil_spirit", "artisans"):
         assert work.cast[cid]["sprite"] is False
 
 
