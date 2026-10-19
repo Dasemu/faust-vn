@@ -423,43 +423,43 @@ color = "#e85a3a"
 sprite = false
 
 # Characters added for the full text. Named characters first; then groups of anonymous speakers.
-# New sprite characters map every emotion to "neutral" until their art exists.
+# Sprite characters here have 2-4 expressions (see assets/assets.json) covering all 8 emotions.
 
 [cast.wagner]
 name = "Wagner"
 color = "#9fb4d9"
 sprite = true
-expressions = { neutral = "neutral", solemn = "neutral", melancholic = "neutral", joyful = "neutral", ecstatic = "neutral", ironic = "neutral", angry = "neutral", fearful = "neutral" }
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "uneasy", joyful = "eager", ecstatic = "eager", ironic = "eager", angry = "uneasy", fearful = "uneasy" }
 
 [cast.margarita]
 name = "Margarita"
 color = "#e8b4c0"
 sprite = true
-expressions = { neutral = "neutral", solemn = "neutral", melancholic = "neutral", joyful = "neutral", ecstatic = "neutral", ironic = "neutral", angry = "neutral", fearful = "neutral" }
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "sorrowful", joyful = "joyful", ecstatic = "joyful", ironic = "neutral", angry = "fearful", fearful = "fearful" }
 
 [cast.marta]
 name = "Marta"
 color = "#c9a5d8"
 sprite = true
-expressions = { neutral = "neutral", solemn = "neutral", melancholic = "neutral", joyful = "neutral", ecstatic = "neutral", ironic = "neutral", angry = "neutral", fearful = "neutral" }
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "distressed", joyful = "coy", ecstatic = "coy", ironic = "coy", angry = "distressed", fearful = "distressed" }
 
 [cast.valentin]
 name = "Valentín"
 color = "#d98a6a"
 sprite = true
-expressions = { neutral = "neutral", solemn = "neutral", melancholic = "neutral", joyful = "neutral", ecstatic = "neutral", ironic = "neutral", angry = "neutral", fearful = "neutral" }
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "dying", joyful = "neutral", ecstatic = "neutral", ironic = "angry", angry = "angry", fearful = "dying" }
 
 [cast.witch]
 name = "La Bruja"
 color = "#9ac47a"
 sprite = true
-expressions = { neutral = "neutral", solemn = "neutral", melancholic = "neutral", joyful = "neutral", ecstatic = "neutral", ironic = "neutral", angry = "neutral", fearful = "neutral" }
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "neutral", joyful = "cackling", ecstatic = "cackling", ironic = "cackling", angry = "furious", fearful = "furious" }
 
 [cast.student]
 name = "El Estudiante"
 color = "#e0c070"
 sprite = true
-expressions = { neutral = "neutral", solemn = "neutral", melancholic = "neutral", joyful = "neutral", ecstatic = "neutral", ironic = "neutral", angry = "neutral", fearful = "neutral" }
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "puzzled", joyful = "eager", ecstatic = "eager", ironic = "eager", angry = "puzzled", fearful = "puzzled" }
 
 [cast.frosch]
 name = "Frosch"
@@ -484,7 +484,8 @@ sprite = false
 [cast.lisa]
 name = "Luisa"
 color = "#f0b8a0"
-sprite = false
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "neutral", joyful = "smug", ecstatic = "smug", ironic = "smug", angry = "smug", fearful = "neutral" }
 
 [cast.evil_spirit]
 name = "El Espíritu Malo"
@@ -650,6 +651,117 @@ bg = "bg_study"
 mode = "adv"
 cast = { faust = "center" }
 
+[staging.puertas_ciudad]
+bg = "bg_city_gates"
+mode = "adv"
+
+[staging.gabinete_1]
+bg = "bg_study"
+mode = "adv"
+cast = { faust = "left" }
+
+[staging.gabinete_2]
+bg = "bg_study_day"
+mode = "adv"
+cast = { mephisto = "right" }
+
+[staging.taberna_auerbach]
+bg = "bg_tavern"
+mode = "adv"
+
+[staging.cocina_bruja]
+bg = "bg_witch_kitchen"
+mode = "adv"
+cast = { faust = "left", mephisto = "right" }
+
+[staging.calle_1]
+bg = "bg_street"
+mode = "adv"
+cast = { faust = "left" }
+
+[staging.cuartito]
+bg = "bg_margaret_room"
+mode = "adv"
+
+[staging.paseo]
+bg = "bg_promenade"
+mode = "adv"
+cast = { mephisto = "right" }
+
+[staging.casa_vecina]
+bg = "bg_neighbour_house"
+mode = "adv"
+cast = { marta = "left" }
+
+[staging.calle_2]
+bg = "bg_street"
+mode = "adv"
+cast = { faust = "left", mephisto = "right" }
+
+[staging.jardin]
+bg = "bg_garden"
+mode = "adv"
+
+[staging.pabelloncito]
+bg = "bg_garden_pavilion"
+mode = "adv"
+cast = { margarita = "left" }
+
+[staging.bosques_cavernas]
+bg = "bg_forest_cave"
+mode = "adv"
+cast = { faust = "left" }
+
+[staging.aposento_margarita]
+bg = "bg_margaret_room"
+mode = "nvl"
+
+[staging.jardin_marta]
+bg = "bg_garden"
+mode = "adv"
+cast = { faust = "left" }
+
+[staging.fuente]
+bg = "bg_fountain"
+mode = "adv"
+cast = { margarita = "right" }
+
+[staging.muros]
+bg = "bg_city_walls"
+mode = "nvl"
+
+[staging.calle_noche]
+bg = "bg_street_night"
+mode = "adv"
+
+[staging.catedral]
+bg = "bg_cathedral"
+mode = "adv"
+cast = { margarita = "center" }
+
+[staging.valpurgis]
+bg = "bg_harz"
+mode = "adv"
+cast = { faust = "left", mephisto = "right" }
+
+[staging.intermedio]
+bg = "bg_intermezzo"
+mode = "nvl"
+
+[staging.dia_nebuloso]
+bg = "bg_field_day"
+mode = "adv"
+cast = { faust = "left", mephisto = "right" }
+
+[staging.noche_campo]
+bg = "bg_field_night"
+mode = "adv"
+cast = { faust = "left", mephisto = "right" }
+
+[staging.carcel]
+bg = "bg_prison"
+mode = "adv"
+
 [[cues]]
 # The archangels' hymn ends; the Lord is addressed by Mephistopheles.
 at = "prologo_cielo_0030"
@@ -680,6 +792,115 @@ bg = "bg_study_spirit"
 transition = "flash"
 shake = true
 move = { faust = "left" }  # keep the Spirit's flame (centre of the background) visible
+
+[[cues]]
+# Faust's sunset speech: the light fades toward dusk.
+at = "puertas_ciudad_0375"
+tint = "dark"
+transition = "slow"
+
+[[cues]]
+# The poodle swells like a storm cloud under Faust's spell.
+at = "gabinete_1_0143"
+tint = "red"
+transition = "slow"
+
+[[cues]]
+# The mist dissolves: Mephistopheles stands by the stove as a travelling scholar.
+at = "gabinete_1_0159"
+tint = "none"
+transition = "flash"
+shake = true
+
+[[cues]]
+# The spirits' lullaby; Faust falls asleep.
+at = "gabinete_1_0367"
+tint = "dark"
+transition = "slow"
+
+[[cues]]
+# The pact is to be signed in blood.
+at = "gabinete_2_0268"
+tint = "red"
+transition = "dissolve"
+
+[[cues]]
+# Back to ordinary light after the signing.
+at = "gabinete_2_0278"
+tint = "none"
+transition = "dissolve"
+
+[[cues]]
+# The spilled wine bursts into flame.
+at = "taberna_auerbach_0351"
+tint = "red"
+transition = "flash"
+shake = true
+
+[[cues]]
+# Mephistopheles vanishes with Faust.
+at = "taberna_auerbach_0389"
+tint = "none"
+transition = "dissolve"
+hide_all = true
+
+[[cues]]
+# The cauldron boils over and the Witch appears in the flames.
+at = "cocina_bruja_0165"
+tint = "red"
+transition = "flash"
+shake = true
+
+[[cues]]
+# The flames die down.
+at = "cocina_bruja_0183"
+tint = "none"
+transition = "dissolve"
+
+[[cues]]
+# Margarita's ballad of the King of Thule.
+at = "cuartito_0128"
+mode = "nvl"
+
+[[cues]]
+# The ballad ends; she finds the jewel case.
+at = "cuartito_0158"
+mode = "adv"
+
+[[cues]]
+# Valentín dies.
+at = "calle_noche_0226"
+tint = "dark"
+transition = "slow"
+
+[[cues]]
+# The Dies irae begins.
+at = "catedral_0022"
+tint = "dark"
+transition = "slow"
+
+[[cues]]
+# Margarita faints.
+at = "catedral_0060"
+shake = true
+
+[[cues]]
+# The witches' chorus on the summit.
+at = "valpurgis_0151"
+bg = "bg_harz_summit"
+transition = "slow"
+mode = "nvl"
+
+[[cues]]
+# Back to the dialogue of Faust and Mephistopheles at the revel.
+at = "valpurgis_0234"
+mode = "adv"
+
+[[cues]]
+# Dawn colours the sky.
+at = "carcel_0198"
+bg = "bg_prison_dawn"
+transition = "slow"
 
 # Mephistopheles is annotated "ironic" throughout; force the register where the text changes.
 [[overrides]]
