@@ -1671,6 +1671,15 @@
           "raw_file": "raw/painterly/bg_harz.png",
           "generation_id": "4faa63e3-e106-4594-9ba8-0355356e72ae",
           "notes": "misty pine mountain, will-o-wisps, red glow"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_harz.png",
+          "file": "bg/anime/harz.webp",
+          "generation_id": "2080050b-0731-4c51-82e1-ac04b5e420cd",
+          "sha256": "d9c7b24867d80038ec50fe1b07680480f2ca8d4c402eaf94fa62fa275a6d0d7e",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
@@ -1688,6 +1697,15 @@
           "raw_file": "raw/painterly/bg_harz_summit.png",
           "generation_id": "a31d1f82-95b8-4518-a6f6-3fa8b1693dba",
           "notes": "brocken bonfires, witches, same landscape"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_harz_summit.png",
+          "file": "bg/anime/harz_summit.webp",
+          "generation_id": "5131adcc-4c83-4f47-90c7-05f8e054ed3e",
+          "sha256": "603992554ddcfbd0d339412ef5e0e3cdb742410c713ad65dad3e2874471fbd58",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches; witches/riders of painterly omitted on purpose (no figures); anime backdrop"
         }
       }
     },
@@ -1705,6 +1723,15 @@
           "raw_file": "raw/painterly/bg_intermezzo.png",
           "generation_id": "851ca982-a8bb-41b2-a3d4-29d6868ee959",
           "notes": "moonlit clearing with miniature stage"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_intermezzo.png",
+          "file": "bg/anime/intermezzo.webp",
+          "generation_id": "3a2dc4d1-757c-4604-94f0-849aa1bb4af7",
+          "sha256": "dd43801804ed9110c378acc18d104557ca1b580fd624c049dcd4c445df6ff68c",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
@@ -1722,6 +1749,15 @@
           "raw_file": "raw/painterly/bg_field_day.png",
           "generation_id": "9150840e-3cb1-4b7b-9505-376cb539853a",
           "notes": "bleak muddy field, gallows"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_field_day.png",
+          "file": "bg/anime/field_day.webp",
+          "generation_id": "f33fbf7a-7707-4eed-9b5b-92749b6c5c44",
+          "sha256": "2b10d699dd2ed01c338041818968027f7b7b4eb7a690c735b7c501a38069bb2d",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
@@ -1739,6 +1775,15 @@
           "raw_file": "raw/painterly/bg_field_night.png",
           "generation_id": "82fa36c1-b11f-40af-8c28-ab488c371eea",
           "notes": "same plain by night, gallows lights"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_field_night.png",
+          "file": "bg/anime/field_night.webp",
+          "generation_id": "9ebce8c9-c8c2-4d7b-bb4b-eacc77f6d6c1",
+          "sha256": "ae12ba8eb3cddbdf7c46453618f482c8c4b20763897356d1bd0110d8d5ba59f3",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
