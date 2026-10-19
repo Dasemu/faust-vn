@@ -769,6 +769,15 @@
           "source": "placeholder",
           "status": "placeholder",
           "sha256": "ac5f895eac9e630817674ab08b40f2dc9769340a0c2e24e36b15592ecbda8498"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_margarita_joyful.png",
+          "file": "sprites/anime/margarita_joyful.webp",
+          "generation_id": "218efe28-230a-45c7-83d6-73abb9f4d0b2",
+          "sha256": "dd7f0c50d0e0cbca6c5e3c23a930101b35a80a0075d6e31fc3d763b44e01de7a",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "on-model, clear expression"
         }
       }
     },
@@ -785,6 +794,15 @@
           "source": "placeholder",
           "status": "placeholder",
           "sha256": "a662d91d5e9e8246740a036d119eeeca79999c317cc59d20d09027b1dfbd7051"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_margarita_sorrowful.png",
+          "file": "sprites/anime/margarita_sorrowful.webp",
+          "generation_id": "568ba40b-7500-410b-b25e-9c0f63b52d77",
+          "sha256": "2c95919a7e56a82793b190f015905dff8ecbd9529621c6223592e35dce13f949",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "on-model, clear expression"
         }
       }
     },
@@ -801,6 +819,15 @@
           "source": "placeholder",
           "status": "placeholder",
           "sha256": "596b7eba0a2321791bd570ed98b1dd6c7f363c54165df167d9860da3c99a22c2"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_margarita_fearful.png",
+          "file": "sprites/anime/margarita_fearful.webp",
+          "generation_id": "6eddf6ec-0b42-452a-af01-f5e88b0bb2ce",
+          "sha256": "ba08fd9b3137cf16cf87b433d036cd29970c057a0a83a2d2e1b2b7e8c1bc89da",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "on-model, clear expression"
         }
       }
     },
