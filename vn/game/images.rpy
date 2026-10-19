@@ -64,7 +64,7 @@ image clown neutral = "images/sprites/painterly/clown_neutral.webp"
 image director neutral = "images/sprites/painterly/director_neutral.webp"
 image director pleased = "images/sprites/painterly/director_pleased.webp"
 image director worried = "images/sprites/painterly/director_worried.webp"
-image faust anguished = "images/sprites/painterly/faust_anguished.webp"
+image faust anguished = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_anguished.webp", "True", "images/sprites/painterly/faust_anguished.webp")
 image faust ecstatic = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_ecstatic.webp", "True", "images/sprites/painterly/faust_ecstatic.webp")
 image faust fearful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_fearful.webp", "True", "images/sprites/painterly/faust_fearful.webp")
 image faust neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_neutral.webp", "True", "images/sprites/painterly/faust_neutral.webp")
