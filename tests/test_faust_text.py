@@ -202,7 +202,7 @@ def test_from_parsed_annotations():
     cielo = next(s for s in annotated["scenes"] if s["id"] == "prologo_cielo")
     assert cielo["lines"][0]["ann"]["on_stage"] == []
     # the real project generates (cues all resolve) without writing anything
-    renpy_gen.render_script(work, annotated, set())
+    renpy_gen.render_script(work, annotated)
 
 
 def test_annotated_data_is_valid():

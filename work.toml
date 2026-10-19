@@ -4,7 +4,7 @@
 [work]
 id = "faust"
 title = "Fausto"
-subtitle = "Primera parte — Dedicatoria, prólogos y la noche de Fausto"
+subtitle = "Primera parte"
 author = "Johann Wolfgang von Goethe"
 translator = "Teodoro Llorente"
 language = "es"
@@ -170,6 +170,10 @@ direction_headings = [
 "UN ESCÉPTICO" = "dream_figures"
 "LOS APROVECHADOS" = "dream_figures"
 
+# Main menu look: the background (darkened) behind the title.
+[ui]
+main_menu_bg = "bg_study"
+
 # Scene heading (as printed) -> scene id, location, time of day. A heading printed several
 # times ("CALLE", "GABINETE DE ESTUDIO", "DE NOCHE") needs `occurrence` (1-based, in order of
 # appearance) on each entry. `format = "prose"` marks scenes printed as prose, not verse.
@@ -178,18 +182,21 @@ heading = "DEDICATORIA"
 id = "dedicatoria"
 location = "dedication"
 time_of_day = "timeless"
+subtitle = "Imágenes de la juventud · Crepúsculo"
 
 [[scenes]]
 heading = "PRÓLOGO EN EL TEATRO"
 id = "prologo_teatro"
 location = "theatre"
 time_of_day = "day"
+subtitle = "Escenario de un teatro · Día"
 
 [[scenes]]
 heading = "PRÓLOGO EN EL CIELO"
 id = "prologo_cielo"
 location = "heaven"
 time_of_day = "timeless"
+subtitle = "El cielo · Fuera del tiempo"
 
 [[scenes]]
 heading = "DE NOCHE"
@@ -197,12 +204,14 @@ occurrence = 1
 id = "noche"
 location = "study"
 time_of_day = "night"
+subtitle = "Gabinete gótico de Fausto · Noche"
 
 [[scenes]]
 heading = "A LAS PUERTAS DE LA CIUDAD"
 id = "puertas_ciudad"
 location = "city_gates"
 time_of_day = "day"
+subtitle = "Fuera de las murallas · Día de Pascua"
 
 [[scenes]]
 heading = "GABINETE DE ESTUDIO"
@@ -210,6 +219,7 @@ occurrence = 1
 id = "gabinete_1"
 location = "study"
 time_of_day = "night"
+subtitle = "Gabinete de Fausto · Noche"
 
 [[scenes]]
 heading = "GABINETE DE ESTUDIO"
@@ -217,18 +227,21 @@ occurrence = 2
 id = "gabinete_2"
 location = "study"
 time_of_day = "day"
+subtitle = "Gabinete de Fausto · Día"
 
 [[scenes]]
 heading = "TABERNA DE AUERBACH EN LEIPZIG"
 id = "taberna_auerbach"
 location = "tavern"
 time_of_day = "night"
+subtitle = "Taberna de Auerbach, Leipzig · Noche"
 
 [[scenes]]
 heading = "COCINA DE LA BRUJA"
 id = "cocina_bruja"
 location = "witch_kitchen"
 time_of_day = "timeless"
+subtitle = "Cocina de la bruja · Fuera del tiempo"
 
 [[scenes]]
 heading = "CALLE"
@@ -236,24 +249,28 @@ occurrence = 1
 id = "calle_1"
 location = "street"
 time_of_day = "day"
+subtitle = "Una calle de la ciudad · Día"
 
 [[scenes]]
 heading = "AL CAER LA TARDE"
 id = "cuartito"
 location = "margaret_room"
 time_of_day = "dusk"
+subtitle = "Aposento de Margarita · Atardecer"
 
 [[scenes]]
 heading = "PASEO"
 id = "paseo"
 location = "promenade"
 time_of_day = "day"
+subtitle = "Un paseo · Día"
 
 [[scenes]]
 heading = "CASA DE LA VECINA"
 id = "casa_vecina"
 location = "neighbour_house"
 time_of_day = "day"
+subtitle = "Casa de la vecina · Día"
 
 [[scenes]]
 heading = "CALLE"
@@ -261,48 +278,56 @@ occurrence = 2
 id = "calle_2"
 location = "street"
 time_of_day = "day"
+subtitle = "Una calle de la ciudad · Día"
 
 [[scenes]]
 heading = "JARDÍN"
 id = "jardin"
 location = "garden"
 time_of_day = "day"
+subtitle = "Jardín de Marta · Día"
 
 [[scenes]]
 heading = "UN PABELLONCITO EN EL JARDÍN"
 id = "pabelloncito"
 location = "garden_pavilion"
 time_of_day = "dusk"
+subtitle = "Pabelloncito del jardín · Atardecer"
 
 [[scenes]]
 heading = "BOSQUES Y CAVERNAS"
 id = "bosques_cavernas"
 location = "forest_cave"
 time_of_day = "day"
+subtitle = "Bosque y caverna · Día"
 
 [[scenes]]
 heading = "APOSENTO DE MARGARITA"
 id = "aposento_margarita"
 location = "margaret_room"
 time_of_day = "day"
+subtitle = "Aposento de Margarita · Día"
 
 [[scenes]]
 heading = "JARDÍN DE MARTA"
 id = "jardin_marta"
 location = "garden"
 time_of_day = "day"
+subtitle = "Jardín de Marta · Día"
 
 [[scenes]]
 heading = "EN LA FUENTE"
 id = "fuente"
 location = "fountain"
 time_of_day = "day"
+subtitle = "La fuente de la ciudad · Día"
 
 [[scenes]]
 heading = "EN LOS MUROS DE LA CIUDAD"
 id = "muros"
 location = "city_walls"
 time_of_day = "dusk"
+subtitle = "Muros de la ciudad · Atardecer"
 
 [[scenes]]
 heading = "DE NOCHE"
@@ -310,30 +335,35 @@ occurrence = 2
 id = "calle_noche"
 location = "street"
 time_of_day = "night"
+subtitle = "Ante la casa de Margarita · Noche"
 
 [[scenes]]
 heading = "CATEDRAL"
 id = "catedral"
 location = "cathedral"
 time_of_day = "day"
+subtitle = "La catedral · Día"
 
 [[scenes]]
 heading = "NOCHE DE SANTA VALPURGIS"
 id = "valpurgis"
 location = "harz"
 time_of_day = "night"
+subtitle = "Montes del Harz · Noche de Walpurgis"
 
 [[scenes]]
 heading = "INTERMEDIO"
 id = "intermedio"
 location = "harz"
 time_of_day = "night"
+subtitle = "Sueño de una noche de Walpurgis · Noche"
 
 [[scenes]]
 heading = "DÍA NEBULOSO"
 id = "dia_nebuloso"
 location = "field"
 time_of_day = "day"
+subtitle = "Campo abierto · Día nebuloso"
 format = "prose"
 
 [[scenes]]
@@ -341,6 +371,7 @@ heading = "NOCHE"
 id = "noche_campo"
 location = "field"
 time_of_day = "night"
+subtitle = "Campo abierto · Noche"
 format = "prose"
 
 [[scenes]]
@@ -348,6 +379,7 @@ heading = "CÁRCEL"
 id = "carcel"
 location = "prison"
 time_of_day = "night"
+subtitle = "Calabozo de Margarita · Noche"
 
 # Cast. `sprite = false` means the character is never drawn as a standing sprite
 # (see docs/adaptation-rules.md); `expressions` maps the annotation emotion
@@ -668,6 +700,7 @@ cast = { mephisto = "right" }
 [staging.taberna_auerbach]
 bg = "bg_tavern"
 mode = "adv"
+music = "track:scenes/mephisto-waltz-1.ogg"
 
 [staging.cocina_bruja]
 bg = "bg_witch_kitchen"
@@ -715,6 +748,7 @@ cast = { faust = "left" }
 [staging.aposento_margarita]
 bg = "bg_margaret_room"
 mode = "nvl"
+music = "track:scenes/gretchen-am-spinnrade.ogg"
 
 [staging.jardin_marta]
 bg = "bg_garden"
@@ -738,6 +772,7 @@ mode = "adv"
 bg = "bg_cathedral"
 mode = "adv"
 cast = { margarita = "center" }
+music = "track:scenes/mozart-dies-irae.ogg"
 
 [staging.valpurgis]
 bg = "bg_harz"
@@ -761,6 +796,12 @@ cast = { faust = "left", mephisto = "right" }
 [staging.carcel]
 bg = "bg_prison"
 mode = "adv"
+
+[[cues]]
+# The Easter choruses ("Cristo ha resucitado") reach Faust's study: Bach's Easter cantata
+# plays until the end of the scene.
+at = "noche_0473"
+music = "track:scenes/bach-bwv4-christ-lag.ogg"
 
 [[cues]]
 # The archangels' hymn ends; the Lord is addressed by Mephistopheles.

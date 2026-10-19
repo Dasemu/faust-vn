@@ -27,10 +27,11 @@ uv run vnpipe renpy --out some/dir  # default output: vn
 ```
 
 Generation is deterministic: running it twice gives identical files (no timestamps).
-It rewrites `game/{options,gui,screens,support,characters,images,script}.rpy`,
-`game/gui/`, `game/fonts/` and `game/images/`; anything else (for example `game/audio/`)
-is left alone. Music only appears in the script for moods that have a matching
-`game/audio/<mood>.ogg`, so drop files there and regenerate.
+It rewrites `game/{options,gui,screens,styles,menus,support,characters,images,menu_data,script}.rpy`,
+`game/gui/`, `game/fonts/`, `game/images/` and, when the work has an `audio/` directory,
+`game/audio/` (a copy of `audio/**/*.ogg`; it is gitignored in `vn/`). Music, credits, scene
+select and title-card subtitles are configured in `work.toml` and `audio/credits.toml`
+(see vnpipe's `docs/work-config.md`).
 
 Images come from `assets/assets.json` (statuses `processed`, `approved`,
 `placeholder`); anything missing or unusable is replaced by a generated placeholder so
@@ -66,7 +67,8 @@ The expected result is a statistics block with no warnings above it.
 
 Lint does not catch runtime errors (missing GUI images, display bugs). `--with-test` also
 writes `game/e2e_test.rpy`, a Ren'Py `testcase` that clicks "Start", advances through the
-whole game up to the final card (`label the_end`) and back to the main menu, failing on any
+whole game up to the final card (`label the_end`) and back to the main menu (then opens and
+closes the Scenes and Credits screens), failing on any
 exception (`traceback.txt`). Use a throw-away output directory so the test file never ends
 up in `vn/` or in a build:
 

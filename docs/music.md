@@ -6,6 +6,23 @@ Faust scenes). `audio/credits.toml` is the manifest: one `[[track]]` per file wi
 composer, performer, source page, direct file URL, exact license, attribution text, original and
 processed duration and the sha256 of the downloaded original.
 
+## How it plays
+
+`vnpipe renpy` copies `audio/**/*.ogg` into `vn/game/audio/`. A line's annotation mood plays
+`audio/<mood>/` as a looping playlist (sorted by file name; a track that already plays is not
+restarted). `work.toml` overrides it: `[staging.<scene>].music` fixes a scene's music and a cue
+`music = ...` switches from its line on (`"<mood>"`, `"track:<path under audio/>"`, `"none"`,
+and `"auto"` to return to the annotation moods). Current choices:
+
+| Where | Music |
+|---|---|
+| `catedral` | `scenes/mozart-dies-irae.ogg` |
+| `taberna_auerbach` | `scenes/mephisto-waltz-1.ogg` |
+| `aposento_margarita` | `scenes/gretchen-am-spinnrade.ogg` |
+| `noche`, from `noche_0473` (bells and Easter choruses, to the end of the scene) | `scenes/bach-bwv4-christ-lag.ogg` |
+
+The game credits screen prints every `attribution` of `credits.toml` verbatim (CC BY-SA).
+
 ## Licensing rule
 
 A track is accepted only if **both** hold:
@@ -16,7 +33,7 @@ A track is accepted only if **both** hold:
 
 Most tracks are Musopen recordings (Musopen Kickstarter / Set Chopin Free projects) dedicated to
 the public domain. CC BY-SA tracks (`mephisto-waltz-1`, `mozart-dies-irae`, `bach-bwv4-christ-lag`)
-require the attribution text in `credits.toml` to be shown (e.g. in the game credits) and derived
+require the attribution text in `credits.toml` to be shown (the *Créditos* screen does) and derived
 audio to stay under the same license. `gretchen-am-spinnrade` is a 1927 US recording (public domain
 in the US since 2023, marked Public Domain Mark 1.0 on archive.org).
 
