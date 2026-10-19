@@ -77,10 +77,10 @@ image margarita sorrowful = ConditionSwitch("persistent.art_style == 'anime'", "
 image marta coy = "images/sprites/painterly/marta_coy.webp"
 image marta distressed = "images/sprites/painterly/marta_distressed.webp"
 image marta neutral = "images/sprites/painterly/marta_neutral.webp"
-image mephisto deferent = "images/sprites/painterly/mephisto_deferent.webp"
+image mephisto deferent = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/mephisto_deferent.webp", "True", "images/sprites/painterly/mephisto_deferent.webp")
 image mephisto neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/mephisto_neutral.webp", "True", "images/sprites/painterly/mephisto_neutral.webp")
-image mephisto scornful = "images/sprites/painterly/mephisto_scornful.webp"
-image mephisto sly = "images/sprites/painterly/mephisto_sly.webp"
+image mephisto scornful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/mephisto_scornful.webp", "True", "images/sprites/painterly/mephisto_scornful.webp")
+image mephisto sly = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/mephisto_sly.webp", "True", "images/sprites/painterly/mephisto_sly.webp")
 image poet indignant = "images/sprites/painterly/poet_indignant.webp"
 image poet inspired = "images/sprites/painterly/poet_inspired.webp"
 image poet neutral = "images/sprites/painterly/poet_neutral.webp"
