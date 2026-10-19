@@ -29,35 +29,35 @@ image card_dia_nebuloso = VBox(Text("DÍA NEBULOSO", size=76, kerning=3, text_al
 image card_noche_campo = VBox(Text("NOCHE", size=76, kerning=3, text_align=0.5, xmaximum=1600, xalign=0.5), Solid("#c9a25b", xsize=200, ysize=2, xalign=0.5), Text("Campo abierto · Noche", size=34, italic=True, color="#c9a25b", text_align=0.5, xmaximum=1600, xalign=0.5), spacing=26)
 image card_carcel = VBox(Text("CÁRCEL", size=76, kerning=3, text_align=0.5, xmaximum=1600, xalign=0.5), Solid("#c9a25b", xsize=200, ysize=2, xalign=0.5), Text("Calabozo de Margarita · Noche", size=34, italic=True, color="#c9a25b", text_align=0.5, xmaximum=1600, xalign=0.5), spacing=26)
 image card_end = Text("Continuará…", size=76, kerning=3, text_align=0.5, xmaximum=1600)
-image bg cathedral = "images/bg/painterly/cathedral.webp"
+image bg cathedral = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/cathedral.webp", "True", "images/bg/painterly/cathedral.webp")
 image bg city_gates = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/city_gates.webp", "True", "images/bg/painterly/city_gates.webp")
-image bg city_walls = "images/bg/painterly/city_walls.webp"
+image bg city_walls = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/city_walls.webp", "True", "images/bg/painterly/city_walls.webp")
 image bg dedication = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/dedication.webp", "True", "images/bg/painterly/dedication.webp")
-image bg field_day = "images/bg/painterly/field_day.webp"
-image bg field_night = "images/bg/painterly/field_night.webp"
-image bg forest_cave = "images/bg/painterly/forest_cave.webp"
-image bg fountain = "images/bg/painterly/fountain.webp"
-image bg garden = "images/bg/painterly/garden.webp"
-image bg garden_pavilion = "images/bg/painterly/garden_pavilion.webp"
-image bg harz = "images/bg/painterly/harz.webp"
-image bg harz_summit = "images/bg/painterly/harz_summit.webp"
+image bg field_day = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/field_day.webp", "True", "images/bg/painterly/field_day.webp")
+image bg field_night = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/field_night.webp", "True", "images/bg/painterly/field_night.webp")
+image bg forest_cave = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/forest_cave.webp", "True", "images/bg/painterly/forest_cave.webp")
+image bg fountain = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/fountain.webp", "True", "images/bg/painterly/fountain.webp")
+image bg garden = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/garden.webp", "True", "images/bg/painterly/garden.webp")
+image bg garden_pavilion = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/garden_pavilion.webp", "True", "images/bg/painterly/garden_pavilion.webp")
+image bg harz = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/harz.webp", "True", "images/bg/painterly/harz.webp")
+image bg harz_summit = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/harz_summit.webp", "True", "images/bg/painterly/harz_summit.webp")
 image bg heaven = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/heaven.webp", "True", "images/bg/painterly/heaven.webp")
 image bg heaven_lord = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/heaven_lord.webp", "True", "images/bg/painterly/heaven_lord.webp")
-image bg intermezzo = "images/bg/painterly/intermezzo.webp"
-image bg margaret_room = "images/bg/painterly/margaret_room.webp"
-image bg neighbour_house = "images/bg/painterly/neighbour_house.webp"
-image bg prison = "images/bg/painterly/prison.webp"
-image bg prison_dawn = "images/bg/painterly/prison_dawn.webp"
-image bg promenade = "images/bg/painterly/promenade.webp"
-image bg street = "images/bg/painterly/street.webp"
-image bg street_night = "images/bg/painterly/street_night.webp"
+image bg intermezzo = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/intermezzo.webp", "True", "images/bg/painterly/intermezzo.webp")
+image bg margaret_room = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/margaret_room.webp", "True", "images/bg/painterly/margaret_room.webp")
+image bg neighbour_house = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/neighbour_house.webp", "True", "images/bg/painterly/neighbour_house.webp")
+image bg prison = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/prison.webp", "True", "images/bg/painterly/prison.webp")
+image bg prison_dawn = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/prison_dawn.webp", "True", "images/bg/painterly/prison_dawn.webp")
+image bg promenade = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/promenade.webp", "True", "images/bg/painterly/promenade.webp")
+image bg street = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/street.webp", "True", "images/bg/painterly/street.webp")
+image bg street_night = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/street_night.webp", "True", "images/bg/painterly/street_night.webp")
 image bg study = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/study.webp", "True", "images/bg/painterly/study.webp")
 image bg study_day = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/study_day.webp", "True", "images/bg/painterly/study_day.webp")
 image bg study_macrocosm = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/study_macrocosm.webp", "True", "images/bg/painterly/study_macrocosm.webp")
 image bg study_spirit = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/study_spirit.webp", "True", "images/bg/painterly/study_spirit.webp")
-image bg tavern = "images/bg/painterly/tavern.webp"
+image bg tavern = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/tavern.webp", "True", "images/bg/painterly/tavern.webp")
 image bg theatre = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/theatre.webp", "True", "images/bg/painterly/theatre.webp")
-image bg witch_kitchen = "images/bg/painterly/witch_kitchen.webp"
+image bg witch_kitchen = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/witch_kitchen.webp", "True", "images/bg/painterly/witch_kitchen.webp")
 image clown laughing = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/clown_laughing.webp", "True", "images/sprites/painterly/clown_laughing.webp")
 image clown mocking = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/clown_mocking.webp", "True", "images/sprites/painterly/clown_mocking.webp")
 image clown neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/clown_neutral.webp", "True", "images/sprites/painterly/clown_neutral.webp")
