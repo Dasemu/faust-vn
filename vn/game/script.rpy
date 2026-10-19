@@ -3001,88 +3001,118 @@ label scene_calle_1:
     play music ["audio/contemplative/chopin-nocturne-27-2.ogg", "audio/contemplative/schubert-sonata-13-andante.ogg"] fadeout 1.0 fadein 1.0 if_changed
     show faust neutral at vn_left
     with dissolve
+    voice "voice/calle_1_0002.ogg"
     c_faust "Hermosa señorita, bondadosa,\n¿aceptaréis mi brazo y compañía?"
     # calle_1_0004 .. calle_1_0005
     show margarita fearful at vn_center
     with dissolve
+    voice "voice/calle_1_0004.ogg"
     c_margarita "Ni señorita soy, ni soy hermosa,\ny sé ir a casa sin sostén ni guía."
     # calle_1_0006
+    voice sustain
     c_narrator "Se suelta y se va."
     # calle_1_0007 .. calle_1_0010
     hide margarita
     show faust ecstatic at vn_left
     with dissolve
+    voice "voice/calle_1_0007.ogg"
     c_faust "Es preciosa, ¡vive Cristo!,\nesa doncella. En mi vida\nhermosura más cumplida\nni más recatada he visto."
     # calle_1_0011 .. calle_1_0014
+    voice sustain
     c_faust "Y hay algo de incitador\nen esa faz candorosa...\n¡Labios de encendida rosa!\n¡Frescas mejillas en flor!"
     # calle_1_0015 .. calle_1_0018
+    voice sustain
     c_faust "Bajó los ojos, y enojos\ntales causaron al alma,\nque me tiene ya sin calma\naquel bajar de sus ojos."
     # calle_1_0019 .. calle_1_0022
+    voice sustain
     c_faust "Con su réplica vivaz,\ncon su gracioso desdén,\na cualquier hombre de bien\nha de robarle la paz."
     # calle_1_0023
+    voice sustain
     c_narrator "Entra MEFISTÓFELES."
     # calle_1_0024 .. calle_1_0025
     show faust neutral at vn_left
     with dissolve
+    voice "voice/calle_1_0024.ogg"
     c_faust "Oye: ¿ves esa doncella?\nProcúramela al instante."
     # calle_1_0026
     show mephisto neutral at vn_right
     with dissolve
+    voice "voice/calle_1_0026.ogg"
     c_mephisto "¿Cuál dices?"
     # calle_1_0027
+    voice "voice/calle_1_0027.ogg"
     c_faust "La que delante"
     # calle_1_0028
+    voice sustain
     c_faust "de ti caminaba."
     # calle_1_0029
     show mephisto sly at vn_right
     with dissolve
+    voice "voice/calle_1_0029.ogg"
     c_mephisto "¿Aquella?"
     # calle_1_0030 .. calle_1_0033
+    voice sustain
     c_mephisto "Ha un momento que le ha dado\nel cura la absolución:\nescuché su confesión,\ndetrás de ella agazapado."
     # calle_1_0034 .. calle_1_0035
     show mephisto scornful at vn_right
     with dissolve
+    voice sustain
     c_mephisto "¡Nada! ¡Escrúpulos monjiles!\nNo tengo en ella poder."
     # calle_1_0036 .. calle_1_0037
     show faust anguished at vn_left
     with dissolve
+    voice "voice/calle_1_0036.ogg"
     c_faust "¿Cómo no, siendo mujer\ny contando quince abriles?"
     # calle_1_0038 .. calle_1_0041
     show mephisto sly at vn_right
     with dissolve
+    voice "voice/calle_1_0038.ogg"
     c_mephisto "Presumes como Don Juan.\nImaginas que las flores\nmás brillantes y mejores\npara ti son y serán;"
     # calle_1_0042 .. calle_1_0045
+    voice sustain
     c_mephisto "que todo a tu devaneo\ncederá del mejor modo:\nmas no sale, amigo, todo\na medida del deseo."
     # calle_1_0046 .. calle_1_0049
+    voice "voice/calle_1_0046.ogg"
     c_faust "Señor Maestro, no arguyo;\nmas te digo, sin reproche,\nque es ella mía esta noche,\no dejo yo de ser tuyo."
     # calle_1_0050 .. calle_1_0053
     show mephisto neutral at vn_right
     with dissolve
+    voice "voice/calle_1_0050.ogg"
     c_mephisto "¿Cómo lograrlo? ¡Estás loco!\nNecesito, en conclusión,\npara atisbar la ocasión\nquince días, y aún es poco."
     # calle_1_0054 .. calle_1_0057
     play music ["audio/comic/haydn-lark-finale.ogg", "audio/comic/mozart-figaro-overture.ogg"] fadeout 1.0 fadein 1.0 if_changed
+    voice "voice/calle_1_0054.ogg"
     c_faust "¡Quince días! ¿Con quién hablo?\nSi uno tuviera por mío,\npara lograr lo que ansío\nno necesitara al diablo."
     # calle_1_0058 .. calle_1_0061
     show mephisto sly at vn_right
     with dissolve
+    voice "voice/calle_1_0058.ogg"
     c_mephisto "¡Más no dijera un francés!\nContén tus ansias veloces:\nandar de prisa en los goces\nestrategia inhábil es."
     # calle_1_0062 .. calle_1_0065
+    voice sustain
     c_mephisto "Si alcanzar quieres la gloria\nde los placeres más vivos,\ncon luengos preparativos\napréstate a la victoria;"
     # calle_1_0066 .. calle_1_0069
+    voice sustain
     c_mephisto "y con tenaz frenesí,\ncual dice un cuento italiano,\nconstruya tu propia mano\ntu amoroso maniquí."
     # calle_1_0070 .. calle_1_0071
+    voice "voice/calle_1_0070.ogg"
     c_faust "Sin el socorro de ese arte\nardiendo está mi deseo."
     # calle_1_0072 .. calle_1_0075
     show mephisto neutral at vn_right
     with dissolve
+    voice "voice/calle_1_0072.ogg"
     c_mephisto "Basta, pues, de tiroteo;\ndejemos bromas aparte;\ny entiende que en esta lid\ncontra tan débil criatura,"
     # calle_1_0076 .. calle_1_0077
+    voice sustain
     c_mephisto "no es la audacia quien procura\nel triunfo, sino el ardid."
     # calle_1_0078 .. calle_1_0081
+    voice "voice/calle_1_0078.ogg"
     c_faust "Por fuerza, pues, o artificio,\nsi no todo el bien que imploro,\ndame algo de ese tesoro\nque me ha trastornado el juicio."
     # calle_1_0082 .. calle_1_0085
+    voice sustain
     c_faust "Dame su humilde collar,\ndame su ajustada liga,\nalgo con lo cual consiga\nmi ardiente fiebre calmar."
     # calle_1_0086 .. calle_1_0088
+    voice "voice/calle_1_0086.ogg"
     c_mephisto "Ya tu impaciencia comparto,\ny para darte consuelo,\nvoy a llevarte en un vuelo..."
     # calle_1_0089
     show faust fearful at vn_left
@@ -3093,32 +3123,43 @@ label scene_calle_1:
     # calle_1_0091 .. calle_1_0092
     show faust ecstatic at vn_left
     with dissolve
+    voice "voice/calle_1_0091.ogg"
     c_faust "¿Veré a mi beldad divina?\n¿Mía será?"
     # calle_1_0093
+    voice "voice/calle_1_0093.ogg"
     c_mephisto "¡Poco a poco!"
     # calle_1_0094 .. calle_1_0097
+    voice sustain
     c_mephisto "Está, si no me equivoco,\nen casa de una vecina;\npero, en dulce bienandanza\nrespirando allí su ambiente,"
     # calle_1_0098 .. calle_1_0099
+    voice sustain
     c_mephisto "podrás soñar ya presente\ncuanto anheló tu esperanza."
     # calle_1_0100
     show faust neutral at vn_left
     with dissolve
+    voice "voice/calle_1_0100.ogg"
     c_faust "Vamos."
     # calle_1_0101
+    voice "voice/calle_1_0101.ogg"
     c_mephisto "Es pronto quizá..."
     # calle_1_0102 .. calle_1_0103
     show faust anguished at vn_left
     with dissolve
+    voice "voice/calle_1_0102.ogg"
     c_faust "Tráeme, pues, para mi bella,\nun regalo, digno de ella."
     # calle_1_0104
+    voice sustain
     c_narrator "Vase."
     # calle_1_0105 .. calle_1_0108
     show mephisto sly at vn_right
     with dissolve
+    voice "voice/calle_1_0105.ogg"
     c_mephisto "¡Un regalo! Triunfará.\nConozco más de un rincón\ndonde hay tesoros sin cuento:\nvoy a hacer en un momento"
     # calle_1_0109
+    voice sustain
     c_mephisto "la visita de inspección."
     # calle_1_0110
+    voice sustain
     c_narrator "Vase."
 
 label scene_cuartito:
@@ -4409,204 +4450,286 @@ label scene_jardin_marta:
     show faust neutral at vn_left
     show margarita sorrowful at vn_center
     with dissolve
+    voice "voice/jardin_marta_0002.ogg"
     c_margarita "Promete, Enrique, una cosa\ndecirme."
     # jardin_marta_0004
+    voice "voice/jardin_marta_0004.ogg"
     c_faust "Como en mí esté,"
     # jardin_marta_0005
+    voice sustain
     c_faust "prometo."
     # jardin_marta_0006
     show margarita fearful at vn_center
     with dissolve
+    voice "voice/jardin_marta_0006.ogg"
     c_margarita "Cuál es tu fe,"
     # jardin_marta_0007 .. jardin_marta_0010
+    voice sustain
     c_margarita "es la duda que me acosa.\nTú tienes buen corazón,\ntu conciencia es recta y pura;\npero, ¡ay, Dios!, se me figura"
     # jardin_marta_0011
+    voice sustain
     c_margarita "que te falta religión."
     # jardin_marta_0012 .. jardin_marta_0015
+    voice "voice/jardin_marta_0012.ogg"
     c_faust "Déjate de eso, querida;\nte amo con el alma entera\ny por ti --lo sabes-- diera\ntoda la sangre y la vida."
     # jardin_marta_0016 .. jardin_marta_0018
+    voice sustain
     c_faust "No quiero el triste placer\nde robar la fe y la calma\na nadie..."
     # jardin_marta_0019
     show margarita neutral at vn_center
     with dissolve
+    voice "voice/jardin_marta_0019.ogg"
     c_margarita "Requiere el alma"
     # jardin_marta_0020
+    voice sustain
     c_margarita "algo más."
     # jardin_marta_0021
+    voice "voice/jardin_marta_0021.ogg"
     c_faust "¿Qué más?"
     # jardin_marta_0022
+    voice "voice/jardin_marta_0022.ogg"
     c_margarita "Creer."
     # jardin_marta_0023 .. jardin_marta_0026
+    voice sustain
     c_margarita "Si valieran para ti\nmis cariñosos acentos...\nTú los Santos Sacramentos\nno veneras y honras."
     # jardin_marta_0027
+    voice "voice/jardin_marta_0027.ogg"
     c_faust "Sí."
     # jardin_marta_0028 .. jardin_marta_0031
+    voice "voice/jardin_marta_0028.ogg"
     c_margarita "Mas sin ir de ellos en pos.\nNi te confiesas jamás,\nni a misa siquiera vas:\ndi, Enrique: ¿crees en Dios?"
     # jardin_marta_0032 .. jardin_marta_0035
+    voice "voice/jardin_marta_0032.ogg"
     c_faust "¿Quién podrá decirte, quién,\n«creo en Dios» con veraz labio?\nAl sacerdote y al sabio\npregúntalo tú también."
     # jardin_marta_0036 .. jardin_marta_0039
+    voice sustain
     c_faust "Y hallarás en el tenor\nde su estudiada respuesta,\nuna burla manifiesta\ndel audaz preguntador."
     # jardin_marta_0040
     show margarita fearful at vn_center
     with dissolve
+    voice "voice/jardin_marta_0040.ogg"
     c_margarita "¿A Dios niegas?..."
     # jardin_marta_0041
+    voice "voice/jardin_marta_0041.ogg"
     c_faust "¡Poco a poco!"
     # jardin_marta_0042 .. jardin_marta_0045
+    voice sustain
     c_faust "No lo niego, niña hermosa;\npero, dime, a Dios, ¿quién osa\nnombrarle, sin estar loco?\n¿Quién, a su conciencia fiel,"
     # jardin_marta_0046 .. jardin_marta_0049
+    voice sustain
     c_faust "puede decir «en Dios creo?»\n¿Quién, sin audaz devaneo,\ndirá «yo no creo en Él»?\nSi Dios todo lo creó,"
     # jardin_marta_0050 .. jardin_marta_0053
     show faust ecstatic at vn_left
     with dissolve
+    voice sustain
     c_faust "si es quien lo mantiene todo,\n¿no estamos, en cierto modo,\nen Él Él mismo, tú y yo?\n¿Ves el azul firmamento"
     # jardin_marta_0054 .. jardin_marta_0057
+    voice sustain
     c_faust "doblar su bóveda? ¿Ves\ncuál se extiende a nuestros pies\nla tierra, firme en su asiento?\n¿Ves las brillantes estrellas"
     # jardin_marta_0058 .. jardin_marta_0061
+    voice sustain
     c_faust "cuál siguen eternamente\nsu carrera, en nuestra frente\nvertiendo sus luces bellas?\n¿Sientes mis ojos clavados"
     # jardin_marta_0062 .. jardin_marta_0065
+    voice sustain
     c_faust "en tus ojos soñolientos,\ny todos los elementos\nen tu ser reconcentrados;\ny en círculo halagador,"
     # jardin_marta_0066 .. jardin_marta_0069
+    voice sustain
     c_faust "con misterio indefinible,\nlo visible y lo invisible\ngirando a tu alrededor?\nPues bien: del alma afanosa"
     # jardin_marta_0070 .. jardin_marta_0073
+    voice sustain
     c_faust "sacia el hidrópico anhelo\nen ese raudal del cielo,\ny cuando sientas, dichosa,\nque se calma tu ansiedad"
     # jardin_marta_0074 .. jardin_marta_0077
+    voice sustain
     c_faust "en deleite sin medida,\nllámale ventura y vida\ny amor y divinidad.\nA ese bien, de ningún modo"
     # jardin_marta_0078 .. jardin_marta_0081
+    voice sustain
     c_faust "hallo palabra adecuada:\nel nombre no importa nada;\nel sentimiento es el todo:\npues la palabra mejor"
     # jardin_marta_0082 .. jardin_marta_0084
+    voice sustain
     c_faust "humo es, que empaña y altera,\ncual pábilo de una hoguera,\nsu celestial resplandor."
     # jardin_marta_0085 .. jardin_marta_0088
     show margarita joyful at vn_center
     with dissolve
+    voice "voice/jardin_marta_0085.ogg"
     c_margarita "¡Hermoso lenguaje! Labras,\nhablando así, mi ventura.\nEso mismo dice el cura,\naunque con otras palabras."
     # jardin_marta_0089 .. jardin_marta_0092
     show faust neutral at vn_left
     with dissolve
+    voice "voice/jardin_marta_0089.ogg"
     c_faust "Bajo la celeste esfera\ncada corazón su fe\ndice a su modo: ¿por qué\nno he de hablar yo a mi manera?"
     # jardin_marta_0093 .. jardin_marta_0096
     show margarita sorrowful at vn_center
     with dissolve
+    voice "voice/jardin_marta_0093.ogg"
     c_margarita "¡Ay! Cuando te escucho, en vano\nse resiste mi razón;\npero, aún tengo una aprensión;\nno eres tú muy buen cristiano."
     # jardin_marta_0097
+    voice "voice/jardin_marta_0097.ogg"
     c_faust "¡Dulce dueño!"
     # jardin_marta_0098
     show margarita fearful at vn_center
     with dissolve
+    voice "voice/jardin_marta_0098.ogg"
     c_margarita "Y además"
     # jardin_marta_0099 .. jardin_marta_0100
+    voice sustain
     c_margarita "me disgusta en compañía\nverte..."
     # jardin_marta_0101
+    voice "voice/jardin_marta_0101.ogg"
     c_faust "¿De quién, alma mía?"
     # jardin_marta_0102 .. jardin_marta_0105
+    voice "voice/jardin_marta_0102.ogg"
     c_margarita "De ese con quien siempre vas.\nLe odio con el alma entera:\nen toda mi vida vi\nrostro ni expresión que así"
     # jardin_marta_0106
+    voice sustain
     c_margarita "me impresionara y me hiriera."
     # jardin_marta_0107
     show faust anguished at vn_left
     with dissolve
+    voice "voice/jardin_marta_0107.ogg"
     c_faust "¡Pueriles recelos son!"
     # jardin_marta_0108 .. jardin_marta_0111
+    voice "voice/jardin_marta_0108.ogg"
     c_margarita "Con todos soy indulgente;\npero al ver ese hombre enfrente,\nme da un vuelco el corazón.\nTan vivos como el placer"
     # jardin_marta_0112 .. jardin_marta_0115
+    voice sustain
     c_margarita "que me inspira tu presencia,\nson el temor y la violencia\nque al verle siento nacer.\nY una idea de otra en pos,"
     # jardin_marta_0116 .. jardin_marta_0118
+    voice sustain
     c_margarita "le juzgué infame y malvado:\nsi acaso le he calumniado,\nque me lo perdone Dios."
     # jardin_marta_0119 .. jardin_marta_0120
     show faust neutral at vn_left
     with dissolve
+    voice "voice/jardin_marta_0119.ogg"
     c_faust "Toda especie de alimaña\nha de haber."
     # jardin_marta_0121
+    voice "voice/jardin_marta_0121.ogg"
     c_margarita "No, no quisiera"
     # jardin_marta_0122 .. jardin_marta_0125
+    voice sustain
     c_margarita "servir yo de compañera\na un ser de esa raza extraña.\nCuando aquí los pasos guía\nmuestra, para darme enojos,"
     # jardin_marta_0126 .. jardin_marta_0129
+    voice sustain
     c_margarita "siempre el rencor en los ojos\ny en los labios la ironía.\nA cuanto pasa alredor\npermanece indiferente,"
     # jardin_marta_0130 .. jardin_marta_0133
+    voice sustain
     c_margarita "y escrito lleva en su frente\nque es su alma incapaz de amor.\n¡A tu lado, gozo tanto!\nFeliz, tranquila, contenta"
     # jardin_marta_0134 .. jardin_marta_0135
+    voice sustain
     c_margarita "estoy; mas, si él se presenta,\nme siento morir de espanto."
     # jardin_marta_0136
+    voice "voice/jardin_marta_0136.ogg"
     c_faust "¡Ángel présago quizá!"
     # jardin_marta_0137 .. jardin_marta_0140
     show margarita sorrowful at vn_center
     with dissolve
+    voice "voice/jardin_marta_0137.ogg"
     c_margarita "Y tal imperio en mí tiene\neste horror, que cuando él viene\npienso que no te amo ya.\nAnte él, sin que me lo explique,"
     # jardin_marta_0141 .. jardin_marta_0143
+    voice sustain
     c_margarita "rezar no sé, y me devora\nangustia desgarradora.\n¿No te pasa a ti eso, Enrique?"
     # jardin_marta_0144 .. jardin_marta_0145
+    voice "voice/jardin_marta_0144.ogg"
     c_faust "Antipática manía\nes tal temor..."
     # jardin_marta_0146
     show margarita fearful at vn_center
     with dissolve
+    voice "voice/jardin_marta_0146.ogg"
     c_margarita "¡Oh, no!... Mas"
     # jardin_marta_0147
+    voice sustain
     c_margarita "ya es tarde. Me voy."
     # jardin_marta_0148
+    voice "voice/jardin_marta_0148.ogg"
     c_faust "¿Te vas?"
     # jardin_marta_0149 .. jardin_marta_0152
+    voice sustain
     c_faust "¿Cuándo podré, vida mía,\nuna hora de dulce calma\ndisfrutar en tu regazo,\nfundiendo en estrecho abrazo"
     # jardin_marta_0153
+    voice sustain
     c_faust "el alma mía con tu alma?"
     # jardin_marta_0154 .. jardin_marta_0157
     show margarita sorrowful at vn_center
     with dissolve
+    voice "voice/jardin_marta_0154.ogg"
     c_margarita "Dejaría, para ti,\nsi durmiera sola, abierta\nla cerraja de mi puerta;\npero mi madre está allí,"
     # jardin_marta_0158 .. jardin_marta_0160
+    voice sustain
     c_margarita "y es muy ligero su sueño.\n¡Ay! Si despierta y nos ve,\nal suelo muerta caeré."
     # jardin_marta_0161 .. jardin_marta_0164
+    voice "voice/jardin_marta_0161.ogg"
     c_faust "No temas, celeste dueño.\nToma al punto este licor;\ntres gotas en su bebida\npon, y quedará dormida"
     # jardin_marta_0165
+    voice sustain
     c_faust "en letargo embriagador."
     # jardin_marta_0166 .. jardin_marta_0168
+    voice "voice/jardin_marta_0166.ogg"
     c_margarita "Por tu amor me avengo a todo.\nMas dime primeramente\nque este filtro es inocente..."
     # jardin_marta_0169
+    voice "voice/jardin_marta_0169.ogg"
     c_faust "¿Te lo diera, de otro modo?"
     # jardin_marta_0170 .. jardin_marta_0173
+    voice "voice/jardin_marta_0170.ogg"
     c_margarita "¡Ay! Cuando me hablas así,\nrendida a tu arbitrio quedo:\n¿qué es lo que negarte puedo,\nsi tanto te concedí?"
     # jardin_marta_0174
+    voice sustain
     c_narrator "Vase."
     # jardin_marta_0175
+    voice sustain
     c_narrator "ENTRA MEFISTÓFELES"
     # jardin_marta_0176
     play music ["audio/ominous/beethoven-coriolan.ogg", "audio/ominous/schubert-sonata-19-allegro.ogg"] fadeout 1.0 fadein 1.0 if_changed
     hide margarita
     show mephisto sly at vn_right
     with dissolve
+    voice "voice/jardin_marta_0176.ogg"
     c_mephisto "¿Voló el pájaro?"
     # jardin_marta_0177
     show faust fearful at vn_left
     with dissolve
+    voice "voice/jardin_marta_0177.ogg"
     c_faust "¿En acecho"
     # jardin_marta_0178
+    voice sustain
     c_faust "estabas?"
     # jardin_marta_0179
+    voice "voice/jardin_marta_0179.ogg"
     c_mephisto "No; mas a fe"
     # jardin_marta_0180 .. jardin_marta_0183
+    voice sustain
     c_mephisto "de Diablo, todo lo sé.\n¡Doctor, buen sermón te han hecho!\n¡Que aproveche la enseñanza!\nLa mujer quiere, y no en vano,"
     # jardin_marta_0184 .. jardin_marta_0187
+    voice sustain
     c_mephisto "al hombre devoto y llano,\ny según la antigua usanza.\n«Así, dice, así se empieza,\ny si este yugo consiente,"
     # jardin_marta_0188 .. jardin_marta_0189
+    voice sustain
     c_mephisto "a otros, insensiblemente,\ndoblando irá la cabeza.»"
     # jardin_marta_0190 .. jardin_marta_0193
     show faust anguished at vn_left
     with dissolve
+    voice "voice/jardin_marta_0190.ogg"
     c_faust "Monstruo, ¿no piensas, no ves,\nque esa alma sencilla y casta,\nllena de la fe entusiasta\nque su amor y su bien es,"
     # jardin_marta_0194 .. jardin_marta_0197
+    voice sustain
     c_faust "padece duelo profundo\nal mirar, en su ilusión,\nperdido sin remisión\na quien más ama en el mundo?"
     # jardin_marta_0198
     c_mephisto "¡Galán sensible y feliz!"
     # jardin_marta_0199
+    voice "voice/jardin_marta_0199.ogg"
     c_faust "¡Aborto de horrible escoria!"
     # jardin_marta_0200 .. jardin_marta_0203
+    voice "voice/jardin_marta_0200.ogg"
     c_mephisto "Una chiquilla --¡qué gloria!-- te\nlleva de la nariz.\n¡Y es sagaz fisonomista!\nAl verme, no sé qué siente;"
     # jardin_marta_0204 .. jardin_marta_0207
+    voice sustain
     c_mephisto "pero vislumbró en mi frente\nalgo escondido a la vista,\ny penetrando el abismo\nde mi ser, comprendió presto"
     # jardin_marta_0208 .. jardin_marta_0211
+    voice sustain
     c_mephisto "que soy un genio funesto,\no quizás el Diablo mismo.\nConque, esta noche... ¡Ya tarda!\nEsta noche..."
     # jardin_marta_0212
+    voice "voice/jardin_marta_0212.ogg"
     c_faust "¿Y qué te importa?"
     # jardin_marta_0213 .. jardin_marta_0214
+    voice "voice/jardin_marta_0213.ogg"
     c_mephisto "Tengo yo parte, y no es corta,\nen la dicha que te aguarda."
 
 label scene_fuente:
