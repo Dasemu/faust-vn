@@ -12,7 +12,7 @@
     },
     "anime": {
       "label": "Anime",
-      "base_prompt": "High-quality modern Japanese visual novel art (anime style) for a gothic-romantic adaptation of Goethe's Faust. Clean, confident lineart; cel shading with soft gradient highlights and subtle rim light; expressive eyes but mature adult anatomy and proportions (not chibi, not childlike, not moe). Elegant historically grounded 16th-century German costume and architecture. Harmonious palette of deep indigo, umber, crimson and parchment ivory with gold accents. Polished commercial visual-novel finish. No text, no letters, no signature, no watermark, no frame, no border.",
+      "base_prompt": "Japanese anime visual novel art, in the style of a polished modern anime / visual novel (2D cel animation look). Thin, clean, uniform dark lineart; flat colour fills with crisp two-tone cel shading and a single soft highlight; anime facial features (clearly drawn anime eyes with highlights, simplified small nose and mouth) while keeping mature adult anatomy and proportions (not chibi, not childlike, not moe). Definitely NOT semi-realistic, NOT painterly, NOT a realistic illustration, no rendered skin texture. Historically grounded 16th-century German costume and architecture. Harmonious palette of deep indigo, umber, crimson and parchment ivory with gold accents. No text, no letters, no signature, no watermark, no frame, no border.",
       "templates": {
         "background": "Visual novel background, 16:9 wide establishing shot at eye level, lush painted anime background art with atmospheric lighting and depth, empty foreground band in the bottom third, no people unless described.",
         "sprite": "Visual novel character sprite, 2:3 portrait. One character, standing, framed from the top of the head to mid-thigh, centred, body turned slightly toward the viewer, whole head and both hands inside the frame with clear margin above the head. Legs below mid-thigh and feet are not visible. The background is a perfectly flat, uniform chroma-green (#00B140) field with no gradient, no floor, no shadow and no props. No green anywhere on the character.",
@@ -156,6 +156,15 @@
           "sha256": "b6f6b45824c49c9e7c33aa437547eeeb25c01bbb7d226e0c238018543e173741",
           "status": "approved",
           "notes": "clean cutout, on-model base"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_faust_neutral.png",
+          "file": "sprites/anime/faust_neutral.webp",
+          "generation_id": "0d8865fa-d3f6-40cf-8783-ef3f27ab2293",
+          "sha256": "7560ee5ec5150b34492b9afad30ec67cbd22efa16c35ae4dc09aec51cb783c45",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "anime calibration v2: clean cel shading, knee framing trimmed"
         }
       }
     },
