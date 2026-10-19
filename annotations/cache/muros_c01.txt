@@ -1,0 +1,6 @@
+# input=18f90d2c241d8d176fe537505bae4504ea51213bd4f7bdb7f83ec8d80a040c6a model=haiku
+M 0002 sacred
+S 0 solemn
+L 0010 melancholic
+L 0018 melancholic
+E 0002 +margarita

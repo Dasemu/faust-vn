@@ -1,0 +1,27 @@
+# input=af5ae2801e5de72361bd686bfaec05e3dda07e7e496c11ef5fad045ad4d6aeaa model=haiku
+M 0002 contemplative
+S 0 melancholic
+L 0006 neutral
+E 0002 +margarita
+S 1 neutral
+E 0011 +mephisto +faust
+S 2 fearful
+S 3 ironic
+E 0018 -mephisto
+S 4 ecstatic
+L 0061 fearful
+L 0065 melancholic
+S 5 neutral
+S 6 angry
+S 7 ironic
+L 0090 angry
+L 0094 ironic
+S 8 fearful
+S 9 angry
+E 0112 -faust -mephisto
+S 10 fearful
+L 0125 ironic
+M 0128 comic
+L 0159 joyful
+L 0175 fearful
+L 0185 ironic

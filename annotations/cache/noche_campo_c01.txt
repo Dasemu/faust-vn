@@ -1,0 +1,8 @@
+# input=cc009a5176693e57f469f3813d966425398037a505d0663c9fde6a4824d8878d model=haiku
+M 0002 ominous
+S 0 fearful
+S 1 neutral
+S 2 fearful
+S 3 neutral
+S 4 fearful
+S 5 ironic
