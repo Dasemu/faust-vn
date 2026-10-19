@@ -61,6 +61,15 @@
           "sha256": "43dac99335a6d0167ab059699831e3106c7c5e374c0420d0d3e127807560d262",
           "status": "approved",
           "notes": "painted, stage flats, footlights, a little glossy floor"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_theatre.png",
+          "file": "bg/anime/theatre.webp",
+          "generation_id": "8eb31fd5-9796-443a-86e4-dec0483170b4",
+          "sha256": "e28e9b255432708d5f6b955895009cfe863c568de51641adc1a18c3fcf8b5859",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same stage layout, curtain, footlights"
         }
       }
     },
@@ -78,6 +87,15 @@
           "sha256": "00c78942c3b6ff08ee671ecf50fe1eca563b088c7b46ca82dbce4b1aaa84681d",
           "status": "approved",
           "notes": "painted, three archangels, gold/pale blue"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_heaven.png",
+          "file": "bg/anime/heaven.webp",
+          "generation_id": "b915e0ea-f9f6-47e1-b061-11be9cd9a428",
+          "sha256": "1c4ba5c1ff18e2c2ecf859da702698f8f22c3225798bb92bafcdce720e2ff1c2",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same layout: sun, three archangels, clouds"
         }
       }
     },
@@ -95,6 +113,15 @@
           "sha256": "896c69c4158d76937a15e0518570519e740b7979c4306f9feadab4e287ef101d",
           "status": "approved",
           "notes": "painted, empty throne of light, winged hosts"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_heaven_lord.png",
+          "file": "bg/anime/heaven_lord.webp",
+          "generation_id": "613ff634-8657-4aa6-b52d-7c6a84a40131",
+          "sha256": "259a229ec477e749f0c8004bdb99538c4a3099ac3451826168d8355c7f9087aa",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same layout: empty golden throne radiance"
         }
       }
     },
