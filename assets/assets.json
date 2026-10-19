@@ -693,6 +693,15 @@
           "raw_file": "raw/painterly/bg_city_gates.png",
           "generation_id": "6a192a05-1076-493d-81c0-121f3ad9473f",
           "notes": "oil painting gate with blossom, good"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_city_gates.png",
+          "file": "bg/anime/city_gates.webp",
+          "generation_id": "354e634f-f845-4369-bbff-d94acfa05d18",
+          "sha256": "9bad2e9d08e6bf0388da9f41508c12fe316e05e999be561396c12386e32e39c7",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same gate tower, wall, blossoms, road to village"
         }
       }
     },
@@ -794,6 +803,15 @@
           "raw_file": "raw/painterly/bg_study_day.png",
           "generation_id": "30d1123a-501c-45d0-ad98-1c570002c209",
           "notes": "daytime variant of study, no-reference; consistent"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_study_day.png",
+          "file": "bg/anime/study_day.webp",
+          "generation_id": "5552b14b-adde-47ab-9dee-ca2a93ab37ff",
+          "sha256": "9252bcb62749be3070019b5c5351d3e1f74c7715d092a96dd43cae914cca7708",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same layout as painterly, daylight"
         }
       }
     },
