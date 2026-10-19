@@ -728,8 +728,11 @@
         "painterly": {
           "file": "sprites/painterly/witch_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "ca8b1d0f1c6b146c5e8eb209423878f9f2295517c0410f185f803613aba4f1f3"
+          "status": "approved",
+          "sha256": "eae989f959e9ada65b52a62841c6662e45519a4f84701d041b0d7b783bd8697f",
+          "raw_file": "raw/painterly/sprite_witch_neutral.png",
+          "generation_id": "fa1fdf62-3602-4dc5-ac54-5e515f9a4fbf",
+          "notes": "on-style"
         }
       }
     },
@@ -744,8 +747,11 @@
         "painterly": {
           "file": "sprites/painterly/witch_cackling.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "98193c7c4302caafbae50a2c051f1f3410a15f93fe8c9c44854964dd52263130"
+          "status": "approved",
+          "sha256": "8a8c8017049e995b1fedb27e1fda6381ed06ba74d3b30d2ddf6fc75514f5a913",
+          "raw_file": "raw/painterly/sprite_witch_cackling.png",
+          "generation_id": "4ac07100-9569-41b7-8530-fd6d95eb69a7",
+          "notes": "no-reference; same character"
         }
       }
     },
@@ -760,8 +766,11 @@
         "painterly": {
           "file": "sprites/painterly/witch_furious.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "150167acf090db67fef4b7250c1ac28f0ed40457a4d45149d19ed2de6506b4c5"
+          "status": "approved",
+          "sha256": "cbf4bcf77225407188f0ffc817bad7044cb77bc6b2f8f899bc7daaedf28ae479",
+          "raw_file": "raw/painterly/sprite_witch_furious.png",
+          "generation_id": "9595bc22-e5e9-48bd-8466-eced40ba43bd",
+          "notes": "no-reference; same character"
         }
       }
     },
