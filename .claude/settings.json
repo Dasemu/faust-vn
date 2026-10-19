@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "uv run --quiet ruff format --quiet src tests 2>/dev/null || true"
+            "command": "uv run --quiet ruff format --quiet tests 2>/dev/null || true"
           }
         ]
       }

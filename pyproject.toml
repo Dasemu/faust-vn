@@ -1,17 +1,13 @@
 [project]
-name = "vnpipe"
+name = "faust-vn"
 version = "0.1.0"
-description = "Public-domain play text -> annotated JSON -> Ren'Py visual novel pipeline"
+description = "Faust (Part I, opening) as a Ren'Py visual novel, built with vnpipe"
 readme = "README.md"
 requires-python = ">=3.12"
 license = "MIT"
 dependencies = [
-    "jsonschema>=4.23",
-    "pillow>=11.0",
+    "vnpipe",
 ]
-
-[project.scripts]
-vnpipe = "vnpipe.cli:main"
 
 [dependency-groups]
 dev = [
@@ -19,12 +15,14 @@ dev = [
     "ruff>=0.8",
 ]
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+[tool.uv]
+package = false
 
-[tool.hatch.build.targets.wheel]
-packages = ["src/vnpipe"]
+# Absolute because uv resolves relative paths against the project directory and this repo is
+# used from both the main checkout and `.worktrees/<name>` (two levels deeper). From the main
+# checkout alone this could be `../vnpipe`. Adjust to where vnpipe is cloned.
+[tool.uv.sources]
+vnpipe = { path = "/home/dasemu/Hacking/Darío/vnpipe", editable = true }
 
 [tool.ruff]
 line-length = 100
