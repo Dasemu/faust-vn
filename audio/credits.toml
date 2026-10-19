@@ -1,0 +1,197 @@
+# Music credits. One [[track]] per file under audio/. See docs/music.md for the licensing rule.
+
+[[track]]
+file = "audio/comic/haydn-lark-finale.ogg"
+mood = "comic"
+title = "String Quartet, Op. 64 No. 5 'The Lark' - IV. Finale. Vivace"
+composer = "Haydn"
+performer = "Musopen String Quartet"
+source_page = "https://commons.wikimedia.org/wiki/File%3AHaydn_-_String_Quartet%2C_Op._64_No._5_in_D_major_%27The_Lark%27_-_IV._Finale._Vivace_%28Musopen_String_Quartet%29.flac"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/b/ba/Haydn_-_String_Quartet%2C_Op._64_No._5_in_D_major_%27The_Lark%27_-_IV._Finale._Vivace_%28Musopen_String_Quartet%29.flac"
+license = "Public domain (recording dedicated by Musopen, PD-author; composition PD-old)"
+attribution = "Haydn, String Quartet, Op. 64 No. 5 'The Lark' - IV. Finale. Vivace. Performed by Musopen String Quartet."
+original_duration = 91.5
+processed_duration = 91.5
+original_sha256 = "987f7cb9a4ea194e23e29efaea8c57a3a37685c4f117deee8a98b9219b24c16c"
+
+[[track]]
+file = "audio/comic/mozart-figaro-overture.ogg"
+mood = "comic"
+title = "Le nozze di Figaro, K. 492 - Overture"
+composer = "Mozart"
+performer = "Musopen Symphony"
+source_page = "https://commons.wikimedia.org/wiki/File%3AMozart_-_Le_nozze_di_Figaro%2C_K492_-_Overture_%28Musopen_Symphony%29.flac"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mozart_-_Le_nozze_di_Figaro%2C_K492_-_Overture_%28Musopen_Symphony%29.flac"
+license = "Public domain (recording dedicated by Musopen, PD-author; composition PD-old)"
+attribution = "Mozart, Le nozze di Figaro, K. 492 - Overture. Performed by Musopen Symphony."
+original_duration = 241.0
+processed_duration = 240.0
+original_sha256 = "484cb77a1a5ba764c17128e385058baefc0cf2076c542bc07cb91b05450d121d"
+
+[[track]]
+file = "audio/contemplative/chopin-nocturne-27-2.ogg"
+mood = "contemplative"
+title = "Nocturne No. 8 in D-flat major, Op. 27 No. 2"
+composer = "Chopin"
+performer = "Frank Levy"
+source_page = "https://commons.wikimedia.org/wiki/File%3AChopin_-_Nocturne_No._8_in_D-flat_major%2C_Op._27_No._2_%28Frank_Levy%29.flac"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/3/31/Chopin_-_Nocturne_No._8_in_D-flat_major%2C_Op._27_No._2_%28Frank_Levy%29.flac"
+license = "Public domain (recording dedicated by Musopen, PD-author; composition PD-old)"
+attribution = "Chopin, Nocturne No. 8 in D-flat major, Op. 27 No. 2. Performed by Frank Levy."
+original_duration = 377.8
+processed_duration = 240.0
+original_sha256 = "631e36989dbd73213a11957c62a8743d831f9aa0957793ac98e8e40032ce7bb7"
+
+[[track]]
+file = "audio/contemplative/schubert-sonata-13-andante.ogg"
+mood = "contemplative"
+title = "Piano Sonata No. 13 in A major, D 664 - II. Andante"
+composer = "Schubert"
+performer = "Paul Pitman"
+source_page = "https://commons.wikimedia.org/wiki/File%3ASchubert_-_Piano_Sonata_No._13_in_A_major%2C_D664_-_II._Andante_%28Paul_Pitman%29.flac"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/d/df/Schubert_-_Piano_Sonata_No._13_in_A_major%2C_D664_-_II._Andante_%28Paul_Pitman%29.flac"
+license = "Public domain (recording dedicated by Musopen, PD-author; composition PD-old)"
+attribution = "Schubert, Piano Sonata No. 13 in A major, D 664 - II. Andante. Performed by Paul Pitman."
+original_duration = 290.8
+processed_duration = 240.0
+original_sha256 = "bb043879de6339173c31b0549f686ce0961610acc9584eb5eb06c3f3f5ee0040"
+
+[[track]]
+file = "audio/mystical/mendelssohn-hebrides.ogg"
+mood = "mystical"
+title = "The Hebrides (Fingal's Cave) Overture, Op. 26"
+composer = "Mendelssohn"
+performer = "Musopen Symphony"
+source_page = "https://commons.wikimedia.org/wiki/File%3AMendelssohn_-_Hebrides_Overture%2C_Op._26_%28Musopen_Symphony%29.flac"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/2/24/Mendelssohn_-_Hebrides_Overture%2C_Op._26_%28Musopen_Symphony%29.flac"
+license = "Public domain (recording dedicated by Musopen, PD-author; composition PD-old)"
+attribution = "Mendelssohn, The Hebrides (Fingal's Cave) Overture, Op. 26. Performed by Musopen Symphony."
+original_duration = 682.6
+processed_duration = 240.0
+original_sha256 = "48e0ed748a461e1f8a04686f438477ac181390c2dc870788f8d3dfda88416952"
+
+[[track]]
+file = "audio/mystical/schubert-sonata-20-andantino.ogg"
+mood = "mystical"
+title = "Piano Sonata No. 20 in A major, D 959 - II. Andantino"
+composer = "Schubert"
+performer = "Paul Pitman"
+source_page = "https://commons.wikimedia.org/wiki/File%3ASchubert_-_Piano_Sonata_No._20_in_A_major%2C_D959_-_II._Andantino_%28Paul_Pitman%29.flac"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/a/a4/Schubert_-_Piano_Sonata_No._20_in_A_major%2C_D959_-_II._Andantino_%28Paul_Pitman%29.flac"
+license = "Public domain (recording dedicated by Musopen, PD-author; composition PD-old)"
+attribution = "Schubert, Piano Sonata No. 20 in A major, D 959 - II. Andantino. Performed by Paul Pitman."
+original_duration = 546.0
+processed_duration = 240.0
+original_sha256 = "674286fcf1bc0d3b67fa321f67fe744068086c31475c0afe7d2646ab65d1b1be"
+
+[[track]]
+file = "audio/ominous/beethoven-coriolan.ogg"
+mood = "ominous"
+title = "Coriolan Overture, Op. 62"
+composer = "Beethoven"
+performer = "Musopen Symphony (Czech National Symphony Orchestra)"
+source_page = "https://commons.wikimedia.org/wiki/File%3ABeethoven_-_Coriolan_Overture%2C_Op._62_%28Musopen_Symphony%29.flac"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/e/e1/Beethoven_-_Coriolan_Overture%2C_Op._62_%28Musopen_Symphony%29.flac"
+license = "Public domain (recording dedicated by Musopen, PD-author; composition PD-old)"
+attribution = "Beethoven, Coriolan Overture, Op. 62. Performed by Musopen Symphony (Czech National Symphony Orchestra)."
+original_duration = 498.7
+processed_duration = 240.0
+original_sha256 = "2949526b38864ba2cee698f3e29e6881c93c1462df97606630940987e81ef0c3"
+
+[[track]]
+file = "audio/ominous/schubert-sonata-19-allegro.ogg"
+mood = "ominous"
+title = "Piano Sonata No. 19 in C minor, D 958 - I. Allegro"
+composer = "Schubert"
+performer = "Paul Pitman"
+source_page = "https://commons.wikimedia.org/wiki/File%3ASchubert_-_Piano_Sonata_No._19_in_C_minor%2C_D958_-_I._Allegro_%28Paul_Pitman%29.flac"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/4/4e/Schubert_-_Piano_Sonata_No._19_in_C_minor%2C_D958_-_I._Allegro_%28Paul_Pitman%29.flac"
+license = "Public domain (recording dedicated by Musopen, PD-author; composition PD-old)"
+attribution = "Schubert, Piano Sonata No. 19 in C minor, D 958 - I. Allegro. Performed by Paul Pitman."
+original_duration = 710.6
+processed_duration = 240.0
+original_sha256 = "0f2f7c9c3b26c2074a3b56816d7dca7ae817023be7120ed7dc012d36f9c28db7"
+
+[[track]]
+file = "audio/sacred/bach-bwv147-jesus-bleibet.ogg"
+mood = "sacred"
+title = "Cantata BWV 147 - Jesus bleibet meine Freude"
+composer = "Bach"
+performer = "Orchestra Gli Armonici"
+source_page = "https://commons.wikimedia.org/wiki/File%3ABach%2C_BWV_147%2C_10._Jesus_bleibet_meine_Freude.ogg"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/2/27/Bach%2C_BWV_147%2C_10._Jesus_bleibet_meine_Freude.ogg"
+license = "CC0"
+attribution = "Bach, Cantata BWV 147 - Jesus bleibet meine Freude. Performed by Orchestra Gli Armonici. CC0, Musopen."
+original_duration = 202.3
+processed_duration = 202.3
+original_sha256 = "a7c2671225a32088f41b0da7407a8743c6325f8fbaaa6e4f0b5e97d37b16707d"
+
+[[track]]
+file = "audio/sacred/suk-saint-wenceslas.ogg"
+mood = "sacred"
+title = "Meditation on the Old Czech Chorale St. Wenceslas, Op. 35a"
+composer = "Suk"
+performer = "Musopen String Quartet"
+source_page = "https://commons.wikimedia.org/wiki/File%3ASuk_-_Meditation_on_the_Old_Czech_Chorale_Saint_Wenceslas%2C_Op._35a_%28Musopen_String_Quartet%29.flac"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/1/1f/Suk_-_Meditation_on_the_Old_Czech_Chorale_Saint_Wenceslas%2C_Op._35a_%28Musopen_String_Quartet%29.flac"
+license = "Public domain (recording dedicated by Musopen, PD-author; composition PD-old)"
+attribution = "Suk, Meditation on the Old Czech Chorale St. Wenceslas, Op. 35a. Performed by Musopen String Quartet."
+original_duration = 405.5
+processed_duration = 240.0
+original_sha256 = "6a8015cef8733a9755eec9ac7ac23a1afa90fc8bdae605e8c64d0855248e9e92"
+
+[[track]]
+file = "audio/scenes/mephisto-waltz-1.ogg"
+scene = "auerbach"
+title = "Mephisto Waltz No. 1, S. 514"
+composer = "Liszt"
+performer = "Giorgi Latso"
+source_page = "https://commons.wikimedia.org/wiki/File%3AFranz_Liszt_Mephisto_Waltz_No._1.ogg"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/7/79/Franz_Liszt_Mephisto_Waltz_No._1.ogg"
+license = "CC BY-SA 4.0"
+attribution = "Liszt, Mephisto Waltz No. 1. Performed by Giorgi Latso, recorded by Wikimedia Commons user Asuas, CC BY-SA 4.0."
+original_duration = 667.7
+processed_duration = 240.0
+original_sha256 = "9a414832181b293b5b8c89c9388c4a42fc27f9217223bbe508cd7367946a8638"
+
+[[track]]
+file = "audio/scenes/mozart-dies-irae.ogg"
+scene = "cathedral"
+title = "Requiem, K. 626 - Dies irae (recorder arrangement)"
+composer = "Mozart"
+performer = "Tetsuya Muto (\"Papalin\")"
+source_page = "https://commons.wikimedia.org/wiki/File%3APMLP02751-S002-02-Mozart_Requiem_Mass.ogg"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/7/72/PMLP02751-S002-02-Mozart_Requiem_Mass.ogg"
+license = "CC BY-SA 3.0"
+attribution = "Mozart, Requiem K. 626, Dies irae. Recorder arrangement performed by Tetsuya Muto (Papalin), via IMSLP / Wikimedia Commons, CC BY-SA 3.0."
+original_duration = 110.4
+processed_duration = 110.5
+original_sha256 = "d9e482d134477dc3a927b690729bfcd7f93eb6ca0ef483ba5d4e5e14fff439d8"
+
+[[track]]
+file = "audio/scenes/bach-bwv4-christ-lag.ogg"
+scene = "easter"
+title = "Cantata \"Christ lag in Todes Banden\", BWV 4"
+composer = "Bach"
+performer = "Michel Rondeau / Matanya (MIDI-based realisation)"
+source_page = "https://commons.wikimedia.org/wiki/File%3AChrist_lag_in_Todes_Banden%2C_BWV_4.ogg"
+source_file = "https://upload.wikimedia.org/wikipedia/commons/c/c1/Christ_lag_in_Todes_Banden%2C_BWV_4.ogg"
+license = "CC BY-SA 4.0"
+attribution = "J. S. Bach, Cantata BWV 4. MIDI-based realisation by Michel Rondeau (WIMA/IMSLP, CC BY 3.0), combined by Matanya (Wikimedia Commons), CC BY-SA 4.0."
+original_duration = 1249.2
+processed_duration = 240.0
+original_sha256 = "7368dc4d9df02734a6109f141b3bb80e00de5ed1dcd65811ddce30920b4ad2f3"
+
+[[track]]
+file = "audio/scenes/gretchen-am-spinnrade.ogg"
+scene = "gretchen"
+title = "Gretchen am Spinnrade, D 118"
+composer = "Schubert"
+performer = "Maria Jeritza (soprano), Wilfrid Pelletier (piano), 1927"
+source_page = "https://archive.org/details/gretchenamspinnrade"
+source_file = "https://archive.org/download/gretchenamspinnrade/Gretchen%20am%20Spinnrade.flac"
+license = "Public Domain Mark 1.0 (archive.org item page; US-published 1927 recording)"
+attribution = "Schubert, Gretchen am Spinnrade. Maria Jeritza (soprano), Wilfrid Pelletier (piano), Victor 1927; archive.org Emilio's 78 heritage collection, Public Domain Mark 1.0."
+original_duration = 269.8
+processed_duration = 240.0
+original_sha256 = "8ad70298a735ae5ef907182070871a1f25e158839df871ac0d04e594d75e82f8"

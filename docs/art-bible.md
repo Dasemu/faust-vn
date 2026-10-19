@@ -72,6 +72,13 @@ to the knees; new generations (both styles) use the head-to-mid-thigh framing.
 | `director` | Stout middle-aged theatre impresario, late 18th century; brown frock coat, buff waistcoat, tied grey wig, holding a ledger. | neutral, pleased, worried |
 | `poet` | Young pale man, long dark wavy hair, open white shirt collar, dark slate-blue coat; holds a quill. | neutral (dreamy), inspired, indignant |
 | `clown` | Jovial comedian, round ruddy face, motley of red, ochre and slate-blue diamonds, white ruff. | neutral, laughing, mocking |
+| `wagner` | Thin young scholar, late twenties, ash-brown hair, round spectacles; charcoal student's gown, white collar band, holds a thick book. | neutral, eager, uneasy |
+| `margarita` | Young woman of about sixteen, blonde braids, dove-grey laced bodice over a white chemise, ivory apron; modest. | neutral, joyful, sorrowful, fearful |
+| `marta` | Stout widow of about forty-five, white coif, dark plum bodice, rust apron. | neutral, coy, distressed |
+| `valentin` | Soldier of about thirty-five, moustache, buff leather jerkin over a grey doublet, sword hilt at the hip. | neutral, angry, dying |
+| `witch` | Ancient hag, wild grey hair, hooked nose, dark rags and a black shawl, iron ladle. | neutral, cackling, furious |
+| `student` | Eager freshman of about eighteen, ochre-brown cloak, satchel, notebook. | neutral, eager, puzzled |
+| `lisa` | Gossiping young woman of about twenty, ochre kerchief, faded blue bodice, clay pitcher. | neutral, smug |
 
 Not drawn as sprites (see `docs/adaptation-rules.md`): the Lord (a throne of light), the
 archangels (part of the heaven background), the Earth Spirit (a lighting change of the
@@ -88,6 +95,10 @@ study), the Dedicatoria's lyric voice (full-screen text).
 | `bg_study` | Narrow, high-vaulted Gothic study at night: books, parchments, alembics, a skull, a lamp on a desk with a great open book, moonlight through leaded glass. |
 | `bg_study_macrocosm` | Same study (reference `bg_study`); a golden cosmic diagram of rings and stars floats glowing above the open book. |
 | `bg_study_spirit` | Same study (reference `bg_study`) flooded with trembling red light; a towering, indistinct column of flame-like presence; no clear face. |
+
+The backgrounds added for the rest of the play (one per location, variants only where a cue
+needs them) are listed with their prompts in `assets/assets.json`; staging per scene is in
+`docs/adaptation-rules.md`.
 
 ## Process
 
