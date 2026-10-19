@@ -6,17 +6,17 @@ __pycache__/
 dist/
 .env
 # Raw downloads are cached locally and re-fetched on demand
-works/*/data/raw/
+data/raw/
 # Ren'Py runtime artifacts
-vn/*/game/**/*.rpyc
-vn/*/game/**/*.rpymc
-vn/*/game/cache/
-vn/*/game/saves/
-vn/*/log.txt
-vn/*/game/log.txt
-vn/*/traceback.txt
-vn/*/errors.txt
-vn/*/lint.txt
+vn/game/**/*.rpyc
+vn/game/**/*.rpymc
+vn/game/cache/
+vn/game/saves/
+vn/log.txt
+vn/game/log.txt
+vn/traceback.txt
+vn/errors.txt
+vn/lint.txt
 # Local Ren'Py SDK and builds
 /tools
 build/
@@ -25,5 +25,5 @@ build/
 .claude/worktrees/
 .mcp.json
 # Original generated images are large; final processed assets are committed instead
-works/*/assets/raw/
-vn/*/progressive_download.txt
+assets/raw/
+vn/progressive_download.txt

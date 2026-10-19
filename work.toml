@@ -1,5 +1,5 @@
 # Work configuration: everything specific to this text lives here.
-# The pipeline code in src/vnpipe must stay work-agnostic.
+# The pipeline (vnpipe, ../vnpipe) is work-agnostic; docs/adaptation-rules.md has the rationale.
 
 [work]
 id = "faust"
