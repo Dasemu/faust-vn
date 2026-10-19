@@ -913,6 +913,15 @@
           "raw_file": "raw/painterly/bg_tavern.png",
           "generation_id": "d45af8ea-4b84-4623-9e43-36b7e7135a3b",
           "notes": "oil style, vaulted cellar, no people"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_tavern.png",
+          "file": "bg/anime/tavern.webp",
+          "generation_id": "476d130c-7cb5-4792-bc60-8ad579650e88",
+          "sha256": "91efe35c86f667a89390828e086aa563b39f2726b45c0376f21ee44f518e36d7",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches painterly, anime backdrop, no figures"
         }
       }
     },
@@ -930,6 +939,15 @@
           "raw_file": "raw/painterly/bg_witch_kitchen.png",
           "generation_id": "5aba23c3-be31-4e59-8a43-cbd707b93c9c",
           "notes": "oil style, good"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_witch_kitchen.png",
+          "file": "bg/anime/witch_kitchen.webp",
+          "generation_id": "0c7ee727-a26c-48f7-8ea0-353d478a0dad",
+          "sha256": "ab66c542d59a0a84d15d81653d3e95b78efe8059ed0f21a28320c96c90b7f136",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
@@ -1031,6 +1049,15 @@
           "raw_file": "raw/painterly/bg_street.png",
           "generation_id": "8558ac8d-53b0-415f-afff-faba07e3f32d",
           "notes": "oil style, slightly glossy but acceptable"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_street.png",
+          "file": "bg/anime/street.webp",
+          "generation_id": "2796b4b2-4f32-4c29-aac8-d3af41c538da",
+          "sha256": "04c445961eed553dc13794d77fa41b76777d796f55053e5278e23618b0ddc063",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
@@ -1160,6 +1187,15 @@
           "raw_file": "raw/painterly/bg_margaret_room.png",
           "generation_id": "b5309888-5b8f-4e15-9aab-5ba9b2f35c6c",
           "notes": "painterly, consistent with approved bgs"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_margaret_room.png",
+          "file": "bg/anime/margaret_room.webp",
+          "generation_id": "bdbf6f84-a055-4b92-b11f-1c83e3fb0242",
+          "sha256": "dc7bf0f06869379105e926a1cabd55f9400df307dc0f17888bdd59d3f4da9c6b",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
@@ -1436,6 +1472,15 @@
           "raw_file": "raw/painterly/bg_street_night.png",
           "generation_id": "17a4d9b0-4ec5-43f9-8235-c1ac3a69afd0",
           "notes": "ok, same street as bg_street"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_street_night.png",
+          "file": "bg/anime/street_night.webp",
+          "generation_id": "c380ae01-61e5-4bef-b15c-e528c97e52f2",
+          "sha256": "39c1cf322d891139b4b19b26f5d5d22d970f510b4fcf1af23670ed381b3dbcf9",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
