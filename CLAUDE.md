@@ -1,7 +1,7 @@
 # CLAUDE.md
 
 Faust I (Spanish, Llorente) as a Ren'Py visual novel. This repo is a *work*: the pipeline
-(`vnpipe`) lives in `../vnpipe` (path dependency in `pyproject.toml`).
+(`vnpipe`) lives in its own repo (`../vnpipe`, git dependency on its `development` branch, pinned by `uv.lock`).
 
 ## Rules
 - Repo content in English; the game text is Spanish (from the source, never rewritten).
@@ -21,8 +21,8 @@ Faust I (Spanish, Llorente) as a Ren'Py visual novel. This repo is a *work*: the
 - Ren'Py SDK lives in `tools/renpy-sdk` (gitignored; may be a symlink shared between worktrees)
   or `RENPY_SDK`. Inside the sandbox prefix SDK commands with `HOME=$TMPDIR/renpy-home`.
   Lint: `tools/renpy-sdk/renpy.sh vn lint`. Playthrough test and builds: `docs/running.md`.
-- The `vnpipe` path in `pyproject.toml` is absolute (worktrees sit two levels deeper than the
-  main checkout); adjust it on another machine.
+- vnpipe comes from git (pinned in `uv.lock`); after pushing vnpipe changes run
+  `uv lock --upgrade-package vnpipe`. Unpushed vnpipe: `uv run --with-editable ../vnpipe <cmd>`.
 
 ## Branches and versions
 - `development` is the integration branch; `main` receives reviewed merges from it.

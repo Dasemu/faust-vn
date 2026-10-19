@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # TODO: pyproject.toml points to a local vnpipe checkout (absolute path). CI needs vnpipe
-      # available at that path (e.g. an extra checkout step for the vnpipe repo) before `uv sync`.
+      # TODO: vnpipe is a private git dependency over SSH; CI needs a deploy key for it.
       - uses: astral-sh/setup-uv@v5
       - run: uv sync --locked
       - name: Lint

@@ -18,11 +18,10 @@ dev = [
 [tool.uv]
 package = false
 
-# Absolute because uv resolves relative paths against the project directory and this repo is
-# used from both the main checkout and `.worktrees/<name>` (two levels deeper). From the main
-# checkout alone this could be `../vnpipe`. Adjust to where vnpipe is cloned.
+# vnpipe is pinned through uv.lock. After pushing vnpipe changes: `uv lock --upgrade-package vnpipe`.
+# To try an unpushed vnpipe checkout: `uv run --with-editable ../vnpipe <cmd>`.
 [tool.uv.sources]
-vnpipe = { path = "/home/dasemu/Hacking/Darío/vnpipe", editable = true }
+vnpipe = { git = "ssh://gitea@git.zenvairo.es:2222/dasemu/vnpipe.git", branch = "development" }
 
 [tool.ruff]
 line-length = 100
