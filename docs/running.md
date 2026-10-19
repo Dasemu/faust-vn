@@ -35,6 +35,8 @@ is left alone. Music only appears in the script for moods that have a matching
 Images come from `assets/assets.json` (statuses `processed`, `approved`,
 `placeholder`); anything missing or unusable is replaced by a generated placeholder so
 the game always runs.
+Art styles (manifest v2, `--style` on every `vnpipe assets` command, per-style status matrix
+and `assets check`) are documented in vnpipe's `docs/running.md` and `docs/art-bible.md`.
 
 ### GUI template and licences
 
