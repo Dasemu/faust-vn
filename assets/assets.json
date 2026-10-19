@@ -692,8 +692,11 @@
         "painterly": {
           "file": "bg/painterly/tavern.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "cfba5ef64168aa6c0d5ad85fe0138bbccfbe03eec59b73347533ca60eb55042d"
+          "status": "approved",
+          "sha256": "693f520b374b09e257a43ccc8e855863b83e803cfc7cf1d3ecac30fb3dbde3c5",
+          "raw_file": "raw/painterly/bg_tavern.png",
+          "generation_id": "d45af8ea-4b84-4623-9e43-36b7e7135a3b",
+          "notes": "oil style, vaulted cellar, no people"
         }
       }
     },
@@ -706,8 +709,11 @@
         "painterly": {
           "file": "bg/painterly/witch_kitchen.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "6b9d25ee94e909f43211e7cb77ced789c4d71213b768bd7cd889bae027810068"
+          "status": "approved",
+          "sha256": "97ba85ab616dd23bcf18570d11622fbb64a2bdf8c74d2a5c3a4a497648827165",
+          "raw_file": "raw/painterly/bg_witch_kitchen.png",
+          "generation_id": "5aba23c3-be31-4e59-8a43-cbd707b93c9c",
+          "notes": "oil style, good"
         }
       }
     },
