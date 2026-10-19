@@ -618,8 +618,11 @@
         "painterly": {
           "file": "bg/painterly/study_day.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "a314a2c8d722a13d02af357d56d760baa6d7f45831b456084a11221d0f22a203"
+          "status": "approved",
+          "sha256": "e251e416f2bd5378421aa7475f9eee80f7211c6a0d8f537a159e5205b830651f",
+          "raw_file": "raw/painterly/bg_study_day.png",
+          "generation_id": "30d1123a-501c-45d0-ad98-1c570002c209",
+          "notes": "daytime variant of study, no-reference; consistent"
         }
       }
     },
@@ -634,8 +637,11 @@
         "painterly": {
           "file": "sprites/painterly/student_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "32b32e890f0b0daf87cc0fbe458ba04bbc769ebc2906dbd40e67214643f17c33"
+          "status": "approved",
+          "sha256": "2e86074248b57b94f0167f33360d0657b8e839ab2dd9ce461fd4a9a116397aab",
+          "raw_file": "raw/painterly/sprite_student_neutral.png",
+          "generation_id": "5052317d-ad41-46cf-8358-d59c44e655d0",
+          "notes": "on-style, clean"
         }
       }
     },
@@ -650,8 +656,11 @@
         "painterly": {
           "file": "sprites/painterly/student_eager.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "a0c9a7133bc08547d0193d6774ea9bfd7ac36acc74e8d4f2dcbc86231ecd2fa8"
+          "status": "approved",
+          "sha256": "ff6937e9751eb8968bfeeb778225b77553cf241c0401cdbe59bc2606f2df3c02",
+          "raw_file": "raw/painterly/sprite_student_eager.png",
+          "generation_id": "293e1713-dc85-476b-a1fe-f5247591ffd5",
+          "notes": "no-reference; same character"
         }
       }
     },
@@ -666,8 +675,11 @@
         "painterly": {
           "file": "sprites/painterly/student_puzzled.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "aa42cdc557f32f2ffb5c3a272aab15c974f52c65aedc6e5239116071b27ae50d"
+          "status": "approved",
+          "sha256": "ceb72ad2d51bba2bd764df45fc188788b39d205ebeb2f292ec0be1bd59c6a644",
+          "raw_file": "raw/painterly/sprite_student_puzzled.png",
+          "generation_id": "cbe4a0c8-f4b3-4255-b348-bbcce2cc1604",
+          "notes": "no-reference; same character"
         }
       }
     },
