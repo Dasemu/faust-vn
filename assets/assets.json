@@ -563,8 +563,11 @@
         "painterly": {
           "file": "sprites/painterly/wagner_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "7c167dbeb482e7dfc1d1bcca34cc23dc19e39f0c967ce82af71eda806655ad04"
+          "status": "approved",
+          "sha256": "e33e530744c591a16893f84cbcbab36ca92086295cff49ba1c408c6f542dd1c0",
+          "raw_file": "raw/painterly/sprite_wagner_neutral.png",
+          "generation_id": "8e793c5b-f717-4155-9e4b-39ebc515f989",
+          "notes": "on-style, clean cutout"
         }
       }
     },
@@ -579,8 +582,11 @@
         "painterly": {
           "file": "sprites/painterly/wagner_eager.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "bc9cc8d859c339a03fc3c270c6ce4b69682694c5199619b720960c5a9493ab7f"
+          "status": "approved",
+          "sha256": "c00ad923ebc209057934735a7951e9ffe98fd4b568543fdfe4add32081217a4a",
+          "raw_file": "raw/painterly/sprite_wagner_eager.png",
+          "generation_id": "487ef964-d037-469e-9921-db3a89abde22",
+          "notes": "no-reference generation; same character"
         }
       }
     },
@@ -595,8 +601,11 @@
         "painterly": {
           "file": "sprites/painterly/wagner_uneasy.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "635a095b3d2c24675cf5708493a278a2e1635277214162b898495681514d0130"
+          "status": "approved",
+          "sha256": "44b2204c35658d0e7149d007ef5961c9c529a58c55c88e07f923beb9c4938f70",
+          "raw_file": "raw/painterly/sprite_wagner_uneasy.png",
+          "generation_id": "3e46359c-a344-47af-90d4-09554a93f01e",
+          "notes": "no-reference generation; same character"
         }
       }
     },
