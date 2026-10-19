@@ -1401,6 +1401,15 @@
           "raw_file": "raw/painterly/bg_forest_cave.png",
           "generation_id": "4171a2af-6511-40fc-8b48-53eddb628a7e",
           "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_forest_cave.png",
+          "file": "bg/anime/forest_cave.webp",
+          "generation_id": "10c8d1ae-ed76-4194-b3fb-e85bca07312e",
+          "sha256": "e620faf34db703ce0c6aee63784e186690439e7335de73d62daf8445491fe9f2",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
@@ -1418,6 +1427,15 @@
           "raw_file": "raw/painterly/bg_fountain.png",
           "generation_id": "81ef5ff6-f1be-4bd7-997c-0e8c193ac5a0",
           "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_fountain.png",
+          "file": "bg/anime/fountain.webp",
+          "generation_id": "f07b81a1-3060-4c0f-a390-da02f82a863d",
+          "sha256": "6420077e425937d8623d5cb91f8f2c5f8b1cfa242d864b850cc4304b1d500a5e",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
@@ -1491,6 +1509,15 @@
           "raw_file": "raw/painterly/bg_city_walls.png",
           "generation_id": "4687f3bf-597e-42e9-ba11-9254415a6044",
           "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_city_walls.png",
+          "file": "bg/anime/city_walls.webp",
+          "generation_id": "c45f05d0-70c9-4da8-aab2-da397aa7f454",
+          "sha256": "3d442d492d7d595f1309af391002784a2baa9e9198c53c08db9d284a562f2a90",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches (stone Madonna statue in niche as in painterly), anime backdrop, no living figures"
         }
       }
     },
@@ -1618,6 +1645,15 @@
           "raw_file": "raw/painterly/bg_cathedral.png",
           "generation_id": "01be4428-095c-4447-ac9d-2eb0991f12dd",
           "notes": "gothic nave, painterly, consistent with set"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_cathedral.png",
+          "file": "bg/anime/cathedral.webp",
+          "generation_id": "448372fb-05c4-4433-af15-45dd224509a1",
+          "sha256": "805801d1e41c104a57f4e5b0dbce4304ade9a40f9dfe9174a0d94a1df3f756fb",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
         }
       }
     },
