@@ -35,6 +35,15 @@
           "sha256": "749e798234e16e499f8559941edcabb611f9ab9e3f63fa9830b7f74079694583",
           "status": "approved",
           "notes": "painted, misty ghost figures, no text"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_dedication.png",
+          "file": "bg/anime/dedication.webp",
+          "generation_id": "85315109-ca4e-426d-a608-8baf68ad9fca",
+          "sha256": "c340f03609f91db6d7dbcbf2b795201486ed469bc3c762d26eb34f007b21899f",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same sunset/lake/ruin/castle layout, ghostly figures in clouds"
         }
       }
     },
@@ -103,6 +112,15 @@
           "sha256": "61406d1fa69435440c49a909132b33308f842e9cd9d210c2ee3498104c6c7de0",
           "status": "approved",
           "notes": "attempt2 (corrective style sentence): painted, matte; good"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_study.png",
+          "file": "bg/anime/study.webp",
+          "generation_id": "d74c7334-01ba-4f43-8a6a-c04eeacaa9e9",
+          "sha256": "a50bef3741afb81854f528a8b967c9f3ef1e01b767780e621252a4a3d31671ec",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "anime film background, same layout as painterly"
         }
       }
     },
@@ -120,6 +138,15 @@
           "sha256": "b61dd1ccc9441daaaaf6326604223f5dc3c6d2b42e8dca87bc0414645bb4a2c8",
           "status": "approved",
           "notes": "same room as bg_study, glowing cosmic diagram"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_study_macrocosm.png",
+          "file": "bg/anime/study_macrocosm.webp",
+          "generation_id": "007c5e1e-c9cb-499f-9a21-e422f8cb461f",
+          "sha256": "feae90556a90e99954474a7b1d0f9526be5ab79d85d025f149fd58fb2e6d0017",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same study layout, golden macrocosm over book"
         }
       }
     },
@@ -137,6 +164,15 @@
           "sha256": "aee08c767fdcf43a5fdbb282cbd3d00b1ec1aebe212a5e39a78cd00d34f97a85",
           "status": "approved",
           "notes": "same room, red flame column, no clear face"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_study_spirit.png",
+          "file": "bg/anime/study_spirit.webp",
+          "generation_id": "b2208010-3bc5-4ddb-a19b-685c76113711",
+          "sha256": "6255d6e57228ec493c5cbeaf26c5a9125d658155d30680a60ba503a186a95682",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same study layout, blood-red flame presence"
         }
       }
     },
