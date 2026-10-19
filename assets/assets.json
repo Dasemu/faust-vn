@@ -1285,8 +1285,11 @@
         "painterly": {
           "file": "bg/painterly/field_day.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "09a057561302aa97ba2fa38e6355312bd0dc19688c29ac1a9d7498989e22acf9"
+          "status": "approved",
+          "sha256": "33c609a3aa05e9b13c8dcf9475554a003e85b5bd7120ab66531ede961a6afe92",
+          "raw_file": "raw/painterly/bg_field_day.png",
+          "generation_id": "9150840e-3cb1-4b7b-9505-376cb539853a",
+          "notes": "bleak muddy field, gallows"
         }
       }
     },
@@ -1299,8 +1302,11 @@
         "painterly": {
           "file": "bg/painterly/field_night.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "15114296eebd88badab637baeaf687df470aaaeb5e64227323f5dfa6ab05c29a"
+          "status": "approved",
+          "sha256": "a21c7a3f472d91cca3581cda50f2f7f9f92857642b0a7a4a3073b69f4f04d6c0",
+          "raw_file": "raw/painterly/bg_field_night.png",
+          "generation_id": "82fa36c1-b11f-40af-8c28-ab488c371eea",
+          "notes": "same plain by night, gallows lights"
         }
       }
     },
@@ -1313,8 +1319,11 @@
         "painterly": {
           "file": "bg/painterly/prison.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "1b133dca00647327d1b97a1d114084be9d320a244f2a5cec81a642fbe6a816a6"
+          "status": "approved",
+          "sha256": "9d27076e7584eb47b8839277d835adf1522dea8c324ebdddf30a4d3efa584079",
+          "raw_file": "raw/painterly/bg_prison.png",
+          "generation_id": "c11eb214-b786-48f6-b2fb-add815402189",
+          "notes": "dungeon cell, torch, barred window"
         }
       }
     },
@@ -1327,8 +1336,11 @@
         "painterly": {
           "file": "bg/painterly/prison_dawn.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "67d0e8e955bcebd8948a34398f816147b33929d9eb3ec4ef0fa07b3af93f916b"
+          "status": "approved",
+          "sha256": "6787436c2af5329497360d27c551bbfe15d6c865941e82b97350054fe305e0c4",
+          "raw_file": "raw/painterly/bg_prison_dawn.png",
+          "generation_id": "7c259c9a-e823-4350-9757-6abdb98e7a42",
+          "notes": "same cell at dawn"
         }
       }
     }
