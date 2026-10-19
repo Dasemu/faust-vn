@@ -30,9 +30,9 @@ image card_noche_campo = VBox(Text("NOCHE", size=76, kerning=3, text_align=0.5, 
 image card_carcel = VBox(Text("CÁRCEL", size=76, kerning=3, text_align=0.5, xmaximum=1600, xalign=0.5), Solid("#c9a25b", xsize=200, ysize=2, xalign=0.5), Text("Calabozo de Margarita · Noche", size=34, italic=True, color="#c9a25b", text_align=0.5, xmaximum=1600, xalign=0.5), spacing=26)
 image card_end = Text("Continuará…", size=76, kerning=3, text_align=0.5, xmaximum=1600)
 image bg cathedral = "images/bg/painterly/cathedral.webp"
-image bg city_gates = "images/bg/painterly/city_gates.webp"
+image bg city_gates = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/city_gates.webp", "True", "images/bg/painterly/city_gates.webp")
 image bg city_walls = "images/bg/painterly/city_walls.webp"
-image bg dedication = "images/bg/painterly/dedication.webp"
+image bg dedication = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/dedication.webp", "True", "images/bg/painterly/dedication.webp")
 image bg field_day = "images/bg/painterly/field_day.webp"
 image bg field_night = "images/bg/painterly/field_night.webp"
 image bg forest_cave = "images/bg/painterly/forest_cave.webp"
@@ -41,8 +41,8 @@ image bg garden = "images/bg/painterly/garden.webp"
 image bg garden_pavilion = "images/bg/painterly/garden_pavilion.webp"
 image bg harz = "images/bg/painterly/harz.webp"
 image bg harz_summit = "images/bg/painterly/harz_summit.webp"
-image bg heaven = "images/bg/painterly/heaven.webp"
-image bg heaven_lord = "images/bg/painterly/heaven_lord.webp"
+image bg heaven = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/heaven.webp", "True", "images/bg/painterly/heaven.webp")
+image bg heaven_lord = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/heaven_lord.webp", "True", "images/bg/painterly/heaven_lord.webp")
 image bg intermezzo = "images/bg/painterly/intermezzo.webp"
 image bg margaret_room = "images/bg/painterly/margaret_room.webp"
 image bg neighbour_house = "images/bg/painterly/neighbour_house.webp"
@@ -51,19 +51,19 @@ image bg prison_dawn = "images/bg/painterly/prison_dawn.webp"
 image bg promenade = "images/bg/painterly/promenade.webp"
 image bg street = "images/bg/painterly/street.webp"
 image bg street_night = "images/bg/painterly/street_night.webp"
-image bg study = "images/bg/painterly/study.webp"
-image bg study_day = "images/bg/painterly/study_day.webp"
-image bg study_macrocosm = "images/bg/painterly/study_macrocosm.webp"
-image bg study_spirit = "images/bg/painterly/study_spirit.webp"
+image bg study = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/study.webp", "True", "images/bg/painterly/study.webp")
+image bg study_day = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/study_day.webp", "True", "images/bg/painterly/study_day.webp")
+image bg study_macrocosm = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/study_macrocosm.webp", "True", "images/bg/painterly/study_macrocosm.webp")
+image bg study_spirit = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/study_spirit.webp", "True", "images/bg/painterly/study_spirit.webp")
 image bg tavern = "images/bg/painterly/tavern.webp"
-image bg theatre = "images/bg/painterly/theatre.webp"
+image bg theatre = ConditionSwitch("persistent.art_style == 'anime'", "images/bg/anime/theatre.webp", "True", "images/bg/painterly/theatre.webp")
 image bg witch_kitchen = "images/bg/painterly/witch_kitchen.webp"
-image clown laughing = "images/sprites/painterly/clown_laughing.webp"
-image clown mocking = "images/sprites/painterly/clown_mocking.webp"
-image clown neutral = "images/sprites/painterly/clown_neutral.webp"
-image director neutral = "images/sprites/painterly/director_neutral.webp"
-image director pleased = "images/sprites/painterly/director_pleased.webp"
-image director worried = "images/sprites/painterly/director_worried.webp"
+image clown laughing = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/clown_laughing.webp", "True", "images/sprites/painterly/clown_laughing.webp")
+image clown mocking = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/clown_mocking.webp", "True", "images/sprites/painterly/clown_mocking.webp")
+image clown neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/clown_neutral.webp", "True", "images/sprites/painterly/clown_neutral.webp")
+image director neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/director_neutral.webp", "True", "images/sprites/painterly/director_neutral.webp")
+image director pleased = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/director_pleased.webp", "True", "images/sprites/painterly/director_pleased.webp")
+image director worried = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/director_worried.webp", "True", "images/sprites/painterly/director_worried.webp")
 image faust anguished = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_anguished.webp", "True", "images/sprites/painterly/faust_anguished.webp")
 image faust ecstatic = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_ecstatic.webp", "True", "images/sprites/painterly/faust_ecstatic.webp")
 image faust fearful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/faust_fearful.webp", "True", "images/sprites/painterly/faust_fearful.webp")
@@ -81,9 +81,9 @@ image mephisto deferent = ConditionSwitch("persistent.art_style == 'anime'", "im
 image mephisto neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/mephisto_neutral.webp", "True", "images/sprites/painterly/mephisto_neutral.webp")
 image mephisto scornful = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/mephisto_scornful.webp", "True", "images/sprites/painterly/mephisto_scornful.webp")
 image mephisto sly = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/mephisto_sly.webp", "True", "images/sprites/painterly/mephisto_sly.webp")
-image poet indignant = "images/sprites/painterly/poet_indignant.webp"
-image poet inspired = "images/sprites/painterly/poet_inspired.webp"
-image poet neutral = "images/sprites/painterly/poet_neutral.webp"
+image poet indignant = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/poet_indignant.webp", "True", "images/sprites/painterly/poet_indignant.webp")
+image poet inspired = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/poet_inspired.webp", "True", "images/sprites/painterly/poet_inspired.webp")
+image poet neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/poet_neutral.webp", "True", "images/sprites/painterly/poet_neutral.webp")
 image student eager = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/student_eager.webp", "True", "images/sprites/painterly/student_eager.webp")
 image student neutral = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/student_neutral.webp", "True", "images/sprites/painterly/student_neutral.webp")
 image student puzzled = ConditionSwitch("persistent.art_style == 'anime'", "images/sprites/anime/student_puzzled.webp", "True", "images/sprites/painterly/student_puzzled.webp")
