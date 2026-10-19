@@ -35,6 +35,15 @@
           "sha256": "749e798234e16e499f8559941edcabb611f9ab9e3f63fa9830b7f74079694583",
           "status": "approved",
           "notes": "painted, misty ghost figures, no text"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_dedication.png",
+          "file": "bg/anime/dedication.webp",
+          "generation_id": "85315109-ca4e-426d-a608-8baf68ad9fca",
+          "sha256": "c340f03609f91db6d7dbcbf2b795201486ed469bc3c762d26eb34f007b21899f",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same sunset/lake/ruin/castle layout, ghostly figures in clouds"
         }
       }
     },
@@ -52,6 +61,15 @@
           "sha256": "43dac99335a6d0167ab059699831e3106c7c5e374c0420d0d3e127807560d262",
           "status": "approved",
           "notes": "painted, stage flats, footlights, a little glossy floor"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_theatre.png",
+          "file": "bg/anime/theatre.webp",
+          "generation_id": "8eb31fd5-9796-443a-86e4-dec0483170b4",
+          "sha256": "e28e9b255432708d5f6b955895009cfe863c568de51641adc1a18c3fcf8b5859",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same stage layout, curtain, footlights"
         }
       }
     },
@@ -69,6 +87,15 @@
           "sha256": "00c78942c3b6ff08ee671ecf50fe1eca563b088c7b46ca82dbce4b1aaa84681d",
           "status": "approved",
           "notes": "painted, three archangels, gold/pale blue"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_heaven.png",
+          "file": "bg/anime/heaven.webp",
+          "generation_id": "b915e0ea-f9f6-47e1-b061-11be9cd9a428",
+          "sha256": "1c4ba5c1ff18e2c2ecf859da702698f8f22c3225798bb92bafcdce720e2ff1c2",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same layout: sun, three archangels, clouds"
         }
       }
     },
@@ -86,6 +113,15 @@
           "sha256": "896c69c4158d76937a15e0518570519e740b7979c4306f9feadab4e287ef101d",
           "status": "approved",
           "notes": "painted, empty throne of light, winged hosts"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_heaven_lord.png",
+          "file": "bg/anime/heaven_lord.webp",
+          "generation_id": "613ff634-8657-4aa6-b52d-7c6a84a40131",
+          "sha256": "259a229ec477e749f0c8004bdb99538c4a3099ac3451826168d8355c7f9087aa",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same layout: empty golden throne radiance"
         }
       }
     },
@@ -103,6 +139,15 @@
           "sha256": "61406d1fa69435440c49a909132b33308f842e9cd9d210c2ee3498104c6c7de0",
           "status": "approved",
           "notes": "attempt2 (corrective style sentence): painted, matte; good"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_study.png",
+          "file": "bg/anime/study.webp",
+          "generation_id": "d74c7334-01ba-4f43-8a6a-c04eeacaa9e9",
+          "sha256": "a50bef3741afb81854f528a8b967c9f3ef1e01b767780e621252a4a3d31671ec",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "anime film background, same layout as painterly"
         }
       }
     },
@@ -120,6 +165,15 @@
           "sha256": "b61dd1ccc9441daaaaf6326604223f5dc3c6d2b42e8dca87bc0414645bb4a2c8",
           "status": "approved",
           "notes": "same room as bg_study, glowing cosmic diagram"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_study_macrocosm.png",
+          "file": "bg/anime/study_macrocosm.webp",
+          "generation_id": "007c5e1e-c9cb-499f-9a21-e422f8cb461f",
+          "sha256": "feae90556a90e99954474a7b1d0f9526be5ab79d85d025f149fd58fb2e6d0017",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same study layout, golden macrocosm over book"
         }
       }
     },
@@ -137,6 +191,15 @@
           "sha256": "aee08c767fdcf43a5fdbb282cbd3d00b1ec1aebe212a5e39a78cd00d34f97a85",
           "status": "approved",
           "notes": "same room, red flame column, no clear face"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_study_spirit.png",
+          "file": "bg/anime/study_spirit.webp",
+          "generation_id": "b2208010-3bc5-4ddb-a19b-685c76113711",
+          "sha256": "6255d6e57228ec493c5cbeaf26c5a9125d658155d30680a60ba503a186a95682",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same study layout, blood-red flame presence"
         }
       }
     },
@@ -380,6 +443,15 @@
           "sha256": "7976bfc0d42a5f4fd9c19507278200ef56b6d61f2a7138dabac290098b746a09",
           "status": "approved",
           "notes": "attempt2 (framing correction): three-quarter length, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_director_neutral.png",
+          "file": "sprites/anime/director_neutral.webp",
+          "generation_id": "a990948c-df60-473b-89e2-1088aa116eb4",
+          "sha256": "2c20f3437c320031c44ad069d84860c3a36f14715e64641841c5dd674d6ddff3",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, matches painterly costume"
         }
       }
     },
@@ -399,6 +471,15 @@
           "sha256": "2c9e65c6d24e78237321f36738adfceccb0754ff43f801522a08787d07eb10aa",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_director_pleased.png",
+          "file": "sprites/anime/director_pleased.webp",
+          "generation_id": "97a01505-787c-488a-82a8-be16b01fda84",
+          "sha256": "c789bac9725ad3a54b7fdd6b82c97cef4bd6ec6d957ac08927fd2ef1a1d12d5a",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
         }
       }
     },
@@ -418,6 +499,15 @@
           "sha256": "328aca90f12db4d030c6127ba6145c5679afc18a748ffd6ddcdfeacc1d6bd98b",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_director_worried.png",
+          "file": "sprites/anime/director_worried.webp",
+          "generation_id": "0e80f43e-5b72-4c6e-a7cc-928740e791a4",
+          "sha256": "055876f1d165295129353b9299725c1bd5b935cbe1ea5494cc6113f99a744b4e",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
         }
       }
     },
@@ -437,6 +527,15 @@
           "sha256": "998507e4b3f7e144c9a6f16ee611f2dbffd5cf60198adcac71870e43cef43e8c",
           "status": "approved",
           "notes": "clean cutout, on-model base"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_poet_neutral.png",
+          "file": "sprites/anime/poet_neutral.webp",
+          "generation_id": "537b453e-db6b-44c1-875e-b99af4094af3",
+          "sha256": "b2ae28cb12257bcfd59e346acff2101accbc348182ba7ea7af64f429417fc3a7",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, matches painterly coat (2nd gen)"
         }
       }
     },
@@ -456,6 +555,15 @@
           "sha256": "eb9d41d5ab68e9a7df26bb28499e4e052538de48b774020434a608d7793a35e6",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_poet_inspired.png",
+          "file": "sprites/anime/poet_inspired.webp",
+          "generation_id": "2b290902-895e-4ff3-b847-f35480eed717",
+          "sha256": "5a9141bea8305da1c83ec57756f243e1cc0d12860310d760a7dc6e694984c81c",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
         }
       }
     },
@@ -475,6 +583,15 @@
           "sha256": "eaaeda353714510caf7b048fdb4febda0992cd09b3de06bd1fbb07aaf6058803",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_poet_indignant.png",
+          "file": "sprites/anime/poet_indignant.webp",
+          "generation_id": "ca2c5f7e-4e1a-4018-b4f6-ec09cd2ff6ad",
+          "sha256": "8ba8847b43038a905276ef98f0de51901e7fba95daa605d8d9157737f917bedc",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
         }
       }
     },
@@ -494,6 +611,15 @@
           "sha256": "8d039498d39e0f9ca11de525a47fee16480a3c07c73722330e0a3473dafe2c87",
           "status": "approved",
           "notes": "attempt2 (framing correction): clean cutout; holds a small marotte puppet"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_clown_neutral.png",
+          "file": "sprites/anime/clown_neutral.webp",
+          "generation_id": "c41f7a4b-f901-4d3f-92a5-2b7de48f3381",
+          "sha256": "716c072dc32ec4d012563b7721ee48b3da9da797ff195a265982154517e7c538",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, harlequin motley matches painterly"
         }
       }
     },
@@ -513,6 +639,15 @@
           "sha256": "0701e53692fdf1ecf7a1aa49da6268960d07807f313d90905a63f951d09b3b93",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_clown_laughing.png",
+          "file": "sprites/anime/clown_laughing.webp",
+          "generation_id": "25526f79-40c2-4dda-959a-7c4331845c00",
+          "sha256": "b6a84f957f18c8eaa4821116607e9d422c346176116ac4e781e6b7b4ab13ca67",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
         }
       }
     },
@@ -532,6 +667,15 @@
           "sha256": "29781102c27ec28fe919a1342a59720d3110cbd11f627fc2cf87b6971fbfc832",
           "status": "approved",
           "notes": "attempt2: on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_clown_mocking.png",
+          "file": "sprites/anime/clown_mocking.webp",
+          "generation_id": "5824fc14-130e-44a1-b3eb-7fc577375979",
+          "sha256": "a50f404168180ebdcad1019b7f3153e8b3a47a10270c1bd95c733f1dd3375c68",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
         }
       }
     },
@@ -549,6 +693,15 @@
           "raw_file": "raw/painterly/bg_city_gates.png",
           "generation_id": "6a192a05-1076-493d-81c0-121f3ad9473f",
           "notes": "oil painting gate with blossom, good"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_city_gates.png",
+          "file": "bg/anime/city_gates.webp",
+          "generation_id": "354e634f-f845-4369-bbff-d94acfa05d18",
+          "sha256": "9bad2e9d08e6bf0388da9f41508c12fe316e05e999be561396c12386e32e39c7",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same gate tower, wall, blossoms, road to village"
         }
       }
     },
@@ -650,6 +803,15 @@
           "raw_file": "raw/painterly/bg_study_day.png",
           "generation_id": "30d1123a-501c-45d0-ad98-1c570002c209",
           "notes": "daytime variant of study, no-reference; consistent"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_study_day.png",
+          "file": "bg/anime/study_day.webp",
+          "generation_id": "5552b14b-adde-47ab-9dee-ca2a93ab37ff",
+          "sha256": "9252bcb62749be3070019b5c5351d3e1f74c7715d092a96dd43cae914cca7708",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same layout as painterly, daylight"
         }
       }
     },
