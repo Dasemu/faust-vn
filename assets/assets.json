@@ -1042,8 +1042,11 @@
         "painterly": {
           "file": "bg/painterly/forest_cave.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "6520b9efef3aaf6fadb99ae60b809211acfdd0d63c5983daae31b29b3cde6562"
+          "status": "approved",
+          "sha256": "6bba4235e1b01f95909d8cddb4fd4be1891470ee9b855c3d2908cf55a6c9f1af",
+          "raw_file": "raw/painterly/bg_forest_cave.png",
+          "generation_id": "4171a2af-6511-40fc-8b48-53eddb628a7e",
+          "notes": "ok"
         }
       }
     },
@@ -1056,8 +1059,11 @@
         "painterly": {
           "file": "bg/painterly/fountain.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "86f5d835a6c45afc9ddb07f8600e049ebb547c31a7df45e6b327e53663b4a5a2"
+          "status": "approved",
+          "sha256": "ff5e4850d038439c1aeea99bbd9e30b19930dd91e5be8eb781885c8deb38c334",
+          "raw_file": "raw/painterly/bg_fountain.png",
+          "generation_id": "81ef5ff6-f1be-4bd7-997c-0e8c193ac5a0",
+          "notes": "ok"
         }
       }
     },
@@ -1072,8 +1078,11 @@
         "painterly": {
           "file": "sprites/painterly/lisa_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "f04d001afa15487ba58dd3df272239b1c5ad7d627ef6297c691138bc5447255c"
+          "status": "approved",
+          "sha256": "f00523d1bd48031a37c7d407a73252bb4f65a5bbb41cde48b7ce7daa82d72bf6",
+          "raw_file": "raw/painterly/sprite_lisa_neutral.png",
+          "generation_id": "51c59f5d-087d-4399-bc4a-937482181cd7",
+          "notes": "ok"
         }
       }
     },
@@ -1088,8 +1097,11 @@
         "painterly": {
           "file": "sprites/painterly/lisa_smug.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "029ff309ecb5c411ba93e561bc8d6a2b9296eaf7549db2bcbb837a594536d117"
+          "status": "approved",
+          "sha256": "6d49c38334c831246cf938ce036b46f1086e4db65b368d576e38e8228c26b137",
+          "raw_file": "raw/painterly/sprite_lisa_smug.png",
+          "generation_id": "735599b3-f11d-4f5f-a4f4-36cdfdb8c14a",
+          "notes": "ok"
         }
       }
     },
