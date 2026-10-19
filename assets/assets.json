@@ -380,6 +380,15 @@
           "sha256": "7976bfc0d42a5f4fd9c19507278200ef56b6d61f2a7138dabac290098b746a09",
           "status": "approved",
           "notes": "attempt2 (framing correction): three-quarter length, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_director_neutral.png",
+          "file": "sprites/anime/director_neutral.webp",
+          "generation_id": "a990948c-df60-473b-89e2-1088aa116eb4",
+          "sha256": "2c20f3437c320031c44ad069d84860c3a36f14715e64641841c5dd674d6ddff3",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, matches painterly costume"
         }
       }
     },
@@ -399,6 +408,15 @@
           "sha256": "2c9e65c6d24e78237321f36738adfceccb0754ff43f801522a08787d07eb10aa",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_director_pleased.png",
+          "file": "sprites/anime/director_pleased.webp",
+          "generation_id": "97a01505-787c-488a-82a8-be16b01fda84",
+          "sha256": "c789bac9725ad3a54b7fdd6b82c97cef4bd6ec6d957ac08927fd2ef1a1d12d5a",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
         }
       }
     },
@@ -418,6 +436,15 @@
           "sha256": "328aca90f12db4d030c6127ba6145c5679afc18a748ffd6ddcdfeacc1d6bd98b",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_director_worried.png",
+          "file": "sprites/anime/director_worried.webp",
+          "generation_id": "0e80f43e-5b72-4c6e-a7cc-928740e791a4",
+          "sha256": "055876f1d165295129353b9299725c1bd5b935cbe1ea5494cc6113f99a744b4e",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
         }
       }
     },
@@ -437,6 +464,15 @@
           "sha256": "998507e4b3f7e144c9a6f16ee611f2dbffd5cf60198adcac71870e43cef43e8c",
           "status": "approved",
           "notes": "clean cutout, on-model base"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_poet_neutral.png",
+          "file": "sprites/anime/poet_neutral.webp",
+          "generation_id": "537b453e-db6b-44c1-875e-b99af4094af3",
+          "sha256": "b2ae28cb12257bcfd59e346acff2101accbc348182ba7ea7af64f429417fc3a7",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, matches painterly coat (2nd gen)"
         }
       }
     },
@@ -456,6 +492,15 @@
           "sha256": "eb9d41d5ab68e9a7df26bb28499e4e052538de48b774020434a608d7793a35e6",
           "status": "approved",
           "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_poet_inspired.png",
+          "file": "sprites/anime/poet_inspired.webp",
+          "generation_id": "2b290902-895e-4ff3-b847-f35480eed717",
+          "sha256": "5a9141bea8305da1c83ec57756f243e1cc0d12860310d760a7dc6e694984c81c",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
         }
       }
     },
