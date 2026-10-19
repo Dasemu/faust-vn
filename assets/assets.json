@@ -917,8 +917,11 @@
         "painterly": {
           "file": "bg/painterly/promenade.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "f3bea51f6369eafb8fd2d9179f6788d149637f8667b82fca6889c39142d5b0b7"
+          "status": "approved",
+          "sha256": "f73985b752695e2921c6b159cc1b600682ab58ef614472e6b8f37dc33d2111bb",
+          "raw_file": "raw/painterly/bg_promenade.png",
+          "generation_id": "670efa0d-46d8-4a0e-9203-7358913bd7b0",
+          "notes": "ok"
         }
       }
     },
@@ -931,8 +934,11 @@
         "painterly": {
           "file": "bg/painterly/neighbour_house.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "6b61a0deab8773f8f8d5cac5d747152782bfaef09d4b140cc9e958501d331760"
+          "status": "approved",
+          "sha256": "35343e118fd0c98232bc2ccf40d41297aeadc28b52d305c5b6b8aacabc986fab",
+          "raw_file": "raw/painterly/bg_neighbour_house.png",
+          "generation_id": "e29c77b0-636e-44ed-a234-b4a9902ce4b2",
+          "notes": "ok"
         }
       }
     },
@@ -1002,8 +1008,11 @@
         "painterly": {
           "file": "bg/painterly/garden.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "6e70cc7bb6cb81a8d4fd9658957f47104e014b90e3b7efb55d309c07b7765221"
+          "status": "approved",
+          "sha256": "c4b362cbe915e087951294948b3bd9d5ba960e76914f1c47bc28c9e702306914",
+          "raw_file": "raw/painterly/bg_garden.png",
+          "generation_id": "d906aafd-75cb-4e1e-898b-db2735724e7f",
+          "notes": "ok, slightly glossy"
         }
       }
     },
@@ -1016,8 +1025,11 @@
         "painterly": {
           "file": "bg/painterly/garden_pavilion.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "9dae70b45cf753333a5921ff182a374e07a881eb499c207a66b6e4ed56ff732a"
+          "status": "approved",
+          "sha256": "85602e4f59ccc53cde74a58cb59a01602a0a142ec95460a78612877bf548b1e5",
+          "raw_file": "raw/painterly/bg_garden_pavilion.png",
+          "generation_id": "fb0878b8-9288-47f1-a576-6b3efc8afac8",
+          "notes": "ok"
         }
       }
     },
