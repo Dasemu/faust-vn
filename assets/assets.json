@@ -783,8 +783,11 @@
         "painterly": {
           "file": "bg/painterly/street.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "3aae01fc71b073302dd566ba6a240c59a5303e0e074585211e7c6edba41124f9"
+          "status": "approved",
+          "sha256": "ac5303e1f4d703c9ad02f15a623c54265d482e0d609bae4fdedb7cff66811388",
+          "raw_file": "raw/painterly/bg_street.png",
+          "generation_id": "8558ac8d-53b0-415f-afff-faba07e3f32d",
+          "notes": "oil style, slightly glossy but acceptable"
         }
       }
     },
