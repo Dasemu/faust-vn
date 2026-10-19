@@ -188,11 +188,11 @@
         "anime": {
           "raw_file": "raw/anime/sprite_faust_anguished.png",
           "file": "sprites/anime/faust_anguished.webp",
-          "generation_id": "65cccac8-3df9-4b17-ad0a-e0371aed9357",
-          "sha256": "7560ee5ec5150b34492b9afad30ec67cbd22efa16c35ae4dc09aec51cb783c45",
-          "status": "rejected",
+          "generation_id": "8e9efe40-7736-499f-a491-f97ca3ec3de0",
+          "sha256": "b6e862720cf2cb4c818b073ceacf28adf0249e350816f84077f9ccbd31d3188f",
+          "status": "approved",
           "source": "chatgpt-web",
-          "notes": "MCP returned reference byte-identical twice (sha c8a92e5b)"
+          "notes": "no-reference regen; cel-shaded, identity matches neutral"
         }
       }
     },
@@ -900,8 +900,11 @@
         "painterly": {
           "file": "bg/painterly/margaret_room.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "f8b1dd81ad6a5e88fa21efd627893fd7852256cfaf7f9b4c5cb4e745626caff5"
+          "status": "approved",
+          "sha256": "6124c9231bcbf145457f991b6c87abaa49a8263ceb2a79b9680d8b0d98d36de6",
+          "raw_file": "raw/painterly/bg_margaret_room.png",
+          "generation_id": "b5309888-5b8f-4e15-9aab-5ba9b2f35c6c",
+          "notes": "painterly, consistent with approved bgs"
         }
       }
     },
@@ -914,8 +917,11 @@
         "painterly": {
           "file": "bg/painterly/promenade.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "f3bea51f6369eafb8fd2d9179f6788d149637f8667b82fca6889c39142d5b0b7"
+          "status": "approved",
+          "sha256": "f73985b752695e2921c6b159cc1b600682ab58ef614472e6b8f37dc33d2111bb",
+          "raw_file": "raw/painterly/bg_promenade.png",
+          "generation_id": "670efa0d-46d8-4a0e-9203-7358913bd7b0",
+          "notes": "ok"
         }
       }
     },
@@ -928,8 +934,11 @@
         "painterly": {
           "file": "bg/painterly/neighbour_house.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "6b61a0deab8773f8f8d5cac5d747152782bfaef09d4b140cc9e958501d331760"
+          "status": "approved",
+          "sha256": "35343e118fd0c98232bc2ccf40d41297aeadc28b52d305c5b6b8aacabc986fab",
+          "raw_file": "raw/painterly/bg_neighbour_house.png",
+          "generation_id": "e29c77b0-636e-44ed-a234-b4a9902ce4b2",
+          "notes": "ok"
         }
       }
     },
@@ -944,8 +953,11 @@
         "painterly": {
           "file": "sprites/painterly/marta_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "e3294b1230d327d376b0a522b4e89253fbe3df392b730876c82848d043540bd4"
+          "status": "approved",
+          "sha256": "9af5d88b0ae7c1ca29e503c6efb3f0abaa031ff20793a8ca1f55e9483d662239",
+          "raw_file": "raw/painterly/sprite_marta_neutral.png",
+          "generation_id": "f097d31c-6192-42ce-8266-03c51069b439",
+          "notes": "ok"
         }
       }
     },
@@ -960,8 +972,11 @@
         "painterly": {
           "file": "sprites/painterly/marta_coy.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "738f5f4ce343b6affc188f564ac05decc0e09d2643a1b568ed9a784b8615672c"
+          "status": "approved",
+          "sha256": "be890d554d3ae6b7cb9a6dc8cfb8a8bb2f447d170d819cc8ec12d1c32f2f432f",
+          "raw_file": "raw/painterly/sprite_marta_coy.png",
+          "generation_id": "888b8ed1-3072-450d-913d-9cf53e5280ce",
+          "notes": "ok"
         }
       }
     },
@@ -976,8 +991,11 @@
         "painterly": {
           "file": "sprites/painterly/marta_distressed.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "a7d8fa137f0bf7eff9376b403b1d62091c2f30d1e2917da6ee700c425475a72b"
+          "status": "approved",
+          "sha256": "7197efe6b69e97a8dc9493a7209727a1d223bd8c518d8b96db0f280083136f05",
+          "raw_file": "raw/painterly/sprite_marta_distressed.png",
+          "generation_id": "12817d96-f1cb-493f-9378-dc41119b5509",
+          "notes": "ok"
         }
       }
     },
@@ -990,8 +1008,11 @@
         "painterly": {
           "file": "bg/painterly/garden.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "6e70cc7bb6cb81a8d4fd9658957f47104e014b90e3b7efb55d309c07b7765221"
+          "status": "approved",
+          "sha256": "c4b362cbe915e087951294948b3bd9d5ba960e76914f1c47bc28c9e702306914",
+          "raw_file": "raw/painterly/bg_garden.png",
+          "generation_id": "d906aafd-75cb-4e1e-898b-db2735724e7f",
+          "notes": "ok, slightly glossy"
         }
       }
     },
@@ -1004,8 +1025,11 @@
         "painterly": {
           "file": "bg/painterly/garden_pavilion.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "9dae70b45cf753333a5921ff182a374e07a881eb499c207a66b6e4ed56ff732a"
+          "status": "approved",
+          "sha256": "85602e4f59ccc53cde74a58cb59a01602a0a142ec95460a78612877bf548b1e5",
+          "raw_file": "raw/painterly/bg_garden_pavilion.png",
+          "generation_id": "fb0878b8-9288-47f1-a576-6b3efc8afac8",
+          "notes": "ok"
         }
       }
     },
@@ -1018,8 +1042,11 @@
         "painterly": {
           "file": "bg/painterly/forest_cave.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "6520b9efef3aaf6fadb99ae60b809211acfdd0d63c5983daae31b29b3cde6562"
+          "status": "approved",
+          "sha256": "6bba4235e1b01f95909d8cddb4fd4be1891470ee9b855c3d2908cf55a6c9f1af",
+          "raw_file": "raw/painterly/bg_forest_cave.png",
+          "generation_id": "4171a2af-6511-40fc-8b48-53eddb628a7e",
+          "notes": "ok"
         }
       }
     },
@@ -1032,8 +1059,11 @@
         "painterly": {
           "file": "bg/painterly/fountain.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "86f5d835a6c45afc9ddb07f8600e049ebb547c31a7df45e6b327e53663b4a5a2"
+          "status": "approved",
+          "sha256": "ff5e4850d038439c1aeea99bbd9e30b19930dd91e5be8eb781885c8deb38c334",
+          "raw_file": "raw/painterly/bg_fountain.png",
+          "generation_id": "81ef5ff6-f1be-4bd7-997c-0e8c193ac5a0",
+          "notes": "ok"
         }
       }
     },
@@ -1048,8 +1078,11 @@
         "painterly": {
           "file": "sprites/painterly/lisa_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "f04d001afa15487ba58dd3df272239b1c5ad7d627ef6297c691138bc5447255c"
+          "status": "approved",
+          "sha256": "f00523d1bd48031a37c7d407a73252bb4f65a5bbb41cde48b7ce7daa82d72bf6",
+          "raw_file": "raw/painterly/sprite_lisa_neutral.png",
+          "generation_id": "51c59f5d-087d-4399-bc4a-937482181cd7",
+          "notes": "ok"
         }
       }
     },
@@ -1064,8 +1097,11 @@
         "painterly": {
           "file": "sprites/painterly/lisa_smug.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "029ff309ecb5c411ba93e561bc8d6a2b9296eaf7549db2bcbb837a594536d117"
+          "status": "approved",
+          "sha256": "6d49c38334c831246cf938ce036b46f1086e4db65b368d576e38e8228c26b137",
+          "raw_file": "raw/painterly/sprite_lisa_smug.png",
+          "generation_id": "735599b3-f11d-4f5f-a4f4-36cdfdb8c14a",
+          "notes": "ok"
         }
       }
     },
@@ -1078,8 +1114,11 @@
         "painterly": {
           "file": "bg/painterly/city_walls.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "85faa66718d90ed52304fd1d5abd9e27279f138de869d6ffa73bf6105d5d163f"
+          "status": "approved",
+          "sha256": "9aea5f6c75ddd039f3a103bf4f8e883290331b475583be54d22fd9a02c810548",
+          "raw_file": "raw/painterly/bg_city_walls.png",
+          "generation_id": "4687f3bf-597e-42e9-ba11-9254415a6044",
+          "notes": "ok"
         }
       }
     },
@@ -1092,8 +1131,11 @@
         "painterly": {
           "file": "bg/painterly/street_night.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "85e18154a0581aa4e87d5c339560415da6f859cad5db6563c9df5a636f70e53b"
+          "status": "approved",
+          "sha256": "d5016def2c6490f2e48d00a572897bb1de586f27dfb309d91eef6a8743147611",
+          "raw_file": "raw/painterly/bg_street_night.png",
+          "generation_id": "17a4d9b0-4ec5-43f9-8235-c1ac3a69afd0",
+          "notes": "ok, same street as bg_street"
         }
       }
     },
@@ -1108,8 +1150,11 @@
         "painterly": {
           "file": "sprites/painterly/valentin_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "14d1bc2294a5c943b1ea1054d517d1e33238f0c2f7aec31e03b4eefe3f1d5a99"
+          "status": "approved",
+          "sha256": "b582cd9dbf07d4effe75541e991abe6bc62eaceb68e507991009bc89f0287670",
+          "raw_file": "raw/painterly/sprite_valentin_neutral.png",
+          "generation_id": "7d18687c-ae53-4402-9891-c9f3bde02a1c",
+          "notes": "ok"
         }
       }
     },
@@ -1124,8 +1169,11 @@
         "painterly": {
           "file": "sprites/painterly/valentin_angry.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "a28d55df112d8ec9f46c3511b9c5a367ceb7204524dd222fbc0dc071af342a73"
+          "status": "approved",
+          "sha256": "04cef074767905417828005ddf7df82c6f7f010b135142b675705c5f3250dc9c",
+          "raw_file": "raw/painterly/sprite_valentin_angry.png",
+          "generation_id": "750377a4-e3b7-493e-84af-3d0e21c1196a",
+          "notes": "ok; sword tip touches right edge"
         }
       }
     },
