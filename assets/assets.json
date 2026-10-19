@@ -1169,8 +1169,11 @@
         "painterly": {
           "file": "sprites/painterly/valentin_angry.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "a28d55df112d8ec9f46c3511b9c5a367ceb7204524dd222fbc0dc071af342a73"
+          "status": "approved",
+          "sha256": "04cef074767905417828005ddf7df82c6f7f010b135142b675705c5f3250dc9c",
+          "raw_file": "raw/painterly/sprite_valentin_angry.png",
+          "generation_id": "750377a4-e3b7-493e-84af-3d0e21c1196a",
+          "notes": "ok; sword tip touches right edge"
         }
       }
     },
