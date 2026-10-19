@@ -72,8 +72,8 @@ capped at 20 generations/hour. Everything else ran in parallel with it.
   clown carries an unrequested puppet.
 - **Reference-image variants sometimes come back identical** to the base (seen 3 times);
   the art agent caught it by comparing sha256, but a pipeline check should enforce it.
-- **No audio**: music moods are annotated and the generator supports them, but no files
-  ship.
+- **Audio**: 14 tracks ship (see `music.md`); moods are per line, so tracks change with
+  speaker changes of mood, not only per scene.
 - **Text boxes of verse**: 4 lines per box keeps verse intact but long monologues (Faust,
   80 lines) feel slow; no auto-pagination by reading time.
 - **Chroma key is per-pixel**: fine with the flat green field, but any green in a
