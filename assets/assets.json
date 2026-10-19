@@ -787,6 +787,15 @@
           "raw_file": "raw/painterly/sprite_witch_neutral.png",
           "generation_id": "fa1fdf62-3602-4dc5-ac54-5e515f9a4fbf",
           "notes": "on-style"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_witch_neutral.png",
+          "file": "sprites/anime/witch_neutral.webp",
+          "generation_id": "1473ffbe-8d26-4f9f-bf39-4d186919b96f",
+          "sha256": "485af4350c31af0ffa5a4c957028a17dbf90978e0f8fdcabafc083eef743da60",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "matches painterly hag"
         }
       }
     },
@@ -806,6 +815,15 @@
           "raw_file": "raw/painterly/sprite_witch_cackling.png",
           "generation_id": "4ac07100-9569-41b7-8530-fd6d95eb69a7",
           "notes": "no-reference; same character"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_witch_cackling.png",
+          "file": "sprites/anime/witch_cackling.webp",
+          "generation_id": "254a0516-c798-4ea0-9cb6-d7a103180396",
+          "sha256": "1cbad5aca955f0d11080323c5815248270294fa8eb2dad5c8a99134d16cc3dd5",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, cackling"
         }
       }
     },
@@ -825,6 +843,15 @@
           "raw_file": "raw/painterly/sprite_witch_furious.png",
           "generation_id": "9595bc22-e5e9-48bd-8466-eced40ba43bd",
           "notes": "no-reference; same character"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_witch_furious.png",
+          "file": "sprites/anime/witch_furious.webp",
+          "generation_id": "24d08810-c345-42a5-9337-0d9042b55b88",
+          "sha256": "065bd318310c6cb64501c4ffa694937cb516b0f8b9940666bae339d9efe96619",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity; hood tip touches top edge, head whole"
         }
       }
     },
