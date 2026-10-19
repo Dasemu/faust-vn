@@ -462,6 +462,650 @@
           "notes": "attempt2: on-model, clean cutout"
         }
       }
+    },
+    {
+      "id": "bg_city_gates",
+      "kind": "background",
+      "prompt": "The gate of a 16th-century German town on Easter Sunday afternoon: a stone gate-tower with a pointed roof and an arched passage, town walls to one side, a sunlit road leading out across meadows and budding trees toward a distant village with a church spire, bright spring sky with a few clouds, the gate area empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/city_gates.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "a692a7087e2e606faa01661e98e7139b87258834561b311026d9c3c5a9381184"
+        }
+      }
+    },
+    {
+      "id": "sprite_wagner_neutral",
+      "kind": "sprite",
+      "character": "wagner",
+      "expression": "neutral",
+      "prompt": "A scholarly young man in his late twenties, thin, with a long narrow face, short ash-brown hair and small round spectacles; charcoal-grey student's gown over a plain dark doublet with a white collar band; 16th-century German. Expression and pose: earnest, slightly pedantic neutral expression, a thick closed book held against his chest.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/wagner_neutral.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "7c167dbeb482e7dfc1d1bcca34cc23dc19e39f0c967ce82af71eda806655ad04"
+        }
+      }
+    },
+    {
+      "id": "sprite_wagner_eager",
+      "kind": "sprite",
+      "character": "wagner",
+      "expression": "eager",
+      "prompt": "Expression and pose: eager and self-satisfied, brows raised, one forefinger lifted as if making a learned point.",
+      "reference": "sprite_wagner_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/wagner_eager.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "bc9cc8d859c339a03fc3c270c6ce4b69682694c5199619b720960c5a9493ab7f"
+        }
+      }
+    },
+    {
+      "id": "sprite_wagner_uneasy",
+      "kind": "sprite",
+      "character": "wagner",
+      "expression": "uneasy",
+      "prompt": "Expression and pose: uneasy and puzzled, eyes narrowed and glancing aside, the book clutched tighter.",
+      "reference": "sprite_wagner_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/wagner_uneasy.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "635a095b3d2c24675cf5708493a278a2e1635277214162b898495681514d0130"
+        }
+      }
+    },
+    {
+      "id": "bg_study_day",
+      "kind": "background",
+      "prompt": "Same Gothic study as the reference image, same viewpoint and furniture, but now in daytime: pale grey daylight streams through the tall leaded-glass window on the left, the oil lamp is out, dust motes drift in the light, the shelves, alembics, skull and the open book on the desk clearly visible, the room looking colder and more ordinary.",
+      "reference": "bg_study",
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/study_day.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "a314a2c8d722a13d02af357d56d760baa6d7f45831b456084a11221d0f22a203"
+        }
+      }
+    },
+    {
+      "id": "sprite_student_neutral",
+      "kind": "sprite",
+      "character": "student",
+      "expression": "neutral",
+      "prompt": "A very young man of about eighteen, a freshman newly arrived at the university, with a round open face, short light-brown hair and bright eager eyes; a plain ochre-brown travelling cloak over a simple russet jerkin, a satchel strap across his chest and a small blank notebook in one hand; 16th-century German. Expression and pose: attentive, respectful neutral expression, standing straight.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/student_neutral.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "32b32e890f0b0daf87cc0fbe458ba04bbc769ebc2906dbd40e67214643f17c33"
+        }
+      }
+    },
+    {
+      "id": "sprite_student_eager",
+      "kind": "sprite",
+      "character": "student",
+      "expression": "eager",
+      "prompt": "Expression and pose: eager and delighted, wide smile, eyes shining, notebook held out hopefully.",
+      "reference": "sprite_student_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/student_eager.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "a0c9a7133bc08547d0193d6774ea9bfd7ac36acc74e8d4f2dcbc86231ecd2fa8"
+        }
+      }
+    },
+    {
+      "id": "sprite_student_puzzled",
+      "kind": "sprite",
+      "character": "student",
+      "expression": "puzzled",
+      "prompt": "Expression and pose: bewildered and slightly dismayed, brows knitted, head tilted, one hand scratching his head.",
+      "reference": "sprite_student_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/student_puzzled.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "aa42cdc557f32f2ffb5c3a272aab15c974f52c65aedc6e5239116071b27ae50d"
+        }
+      }
+    },
+    {
+      "id": "bg_tavern",
+      "kind": "background",
+      "prompt": "Interior of Auerbach's Keller, a vaulted wine tavern in 16th-century Leipzig: a low brick barrel-vault, heavy oak tables and benches, large wine casks along the walls, pewter tankards and bottles, a few hanging oil lamps and candles casting a warm smoky glow, the room empty of people.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/tavern.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "cfba5ef64168aa6c0d5ad85fe0138bbccfbe03eec59b73347533ca60eb55042d"
+        }
+      }
+    },
+    {
+      "id": "bg_witch_kitchen",
+      "kind": "background",
+      "prompt": "A witch's kitchen in a low, smoky cavern-like room: a low hearth with a great iron cauldron over a small fire, smoke rising to a black ceiling where dim images drift in it, shelves and walls crowded with strange pots, jars, bones, dried herbs, a broom and a ladle, a tall cracked mirror in a dim corner, a stool and a high-backed armchair, the room empty of people.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/witch_kitchen.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "6b9d25ee94e909f43211e7cb77ced789c4d71213b768bd7cd889bae027810068"
+        }
+      }
+    },
+    {
+      "id": "sprite_witch_neutral",
+      "kind": "sprite",
+      "character": "witch",
+      "expression": "neutral",
+      "prompt": "An ancient hag with a deeply wrinkled face, wild matted grey hair, a hooked nose and a crooked, nearly toothless grin; tattered dark-brown and charcoal rags under a patched black shawl; she holds an iron ladle in one hand. Expression and pose: sly, watchful neutral expression, head slightly forward.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/witch_neutral.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "ca8b1d0f1c6b146c5e8eb209423878f9f2295517c0410f185f803613aba4f1f3"
+        }
+      }
+    },
+    {
+      "id": "sprite_witch_cackling",
+      "kind": "sprite",
+      "character": "witch",
+      "expression": "cackling",
+      "prompt": "Expression and pose: cackling with glee, mouth wide open, eyes gleaming, ladle waving in the air.",
+      "reference": "sprite_witch_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/witch_cackling.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "98193c7c4302caafbae50a2c051f1f3410a15f93fe8c9c44854964dd52263130"
+        }
+      }
+    },
+    {
+      "id": "sprite_witch_furious",
+      "kind": "sprite",
+      "character": "witch",
+      "expression": "furious",
+      "prompt": "Expression and pose: screeching with rage, teeth bared, brows contorted, one clawed hand thrown out.",
+      "reference": "sprite_witch_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/witch_furious.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "150167acf090db67fef4b7250c1ac28f0ed40457a4d45149d19ed2de6506b4c5"
+        }
+      }
+    },
+    {
+      "id": "bg_street",
+      "kind": "background",
+      "prompt": "A narrow street in a 16th-century German town on a sunny day: half-timbered houses with steep gables and window shutters, cobblestones, a closed wooden house door with a stone step on the right, a church tower rising beyond the rooftops, the street empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/street.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "3aae01fc71b073302dd566ba6a240c59a5303e0e074585211e7c6edba41124f9"
+        }
+      }
+    },
+    {
+      "id": "sprite_margarita_neutral",
+      "kind": "sprite",
+      "character": "margarita",
+      "expression": "neutral",
+      "prompt": "A young woman of about sixteen, fair and modest, with an innocent open face, long blonde hair in two thick braids hanging over her shoulders, a dove-grey laced bodice over a white linen chemise with full sleeves, a plain ivory apron; 16th-century German townswoman. Expression and pose: gentle, slightly shy neutral expression, hands folded in front of her.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/margarita_neutral.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "8ab29469b96e1faf0dc11129fdff3152a94f29a440536908b3ef7eca1333e8d6"
+        }
+      }
+    },
+    {
+      "id": "sprite_margarita_joyful",
+      "kind": "sprite",
+      "character": "margarita",
+      "expression": "joyful",
+      "prompt": "Expression and pose: radiant and happy, bright smile, eyes shining, one hand held to her cheek.",
+      "reference": "sprite_margarita_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/margarita_joyful.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "ac5f895eac9e630817674ab08b40f2dc9769340a0c2e24e36b15592ecbda8498"
+        }
+      }
+    },
+    {
+      "id": "sprite_margarita_sorrowful",
+      "kind": "sprite",
+      "character": "margarita",
+      "expression": "sorrowful",
+      "prompt": "Expression and pose: sorrowful and tearful, eyes downcast and glistening, hands clasped to her breast.",
+      "reference": "sprite_margarita_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/margarita_sorrowful.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "a662d91d5e9e8246740a036d119eeeca79999c317cc59d20d09027b1dfbd7051"
+        }
+      }
+    },
+    {
+      "id": "sprite_margarita_fearful",
+      "kind": "sprite",
+      "character": "margarita",
+      "expression": "fearful",
+      "prompt": "Expression and pose: terrified and distraught, eyes wide, lips parted, both hands pressed to her face, hair slightly disordered.",
+      "reference": "sprite_margarita_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/margarita_fearful.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "596b7eba0a2321791bd570ed98b1dd6c7f363c54165df167d9860da3c99a22c2"
+        }
+      }
+    },
+    {
+      "id": "bg_margaret_room",
+      "kind": "background",
+      "prompt": "A small, very clean room in a 16th-century German burgher's house at dusk: a neat curtained bed, a leather armchair beside it, a wooden cupboard, a spinning wheel by the window, a small mirror on the wall, an open casement window with warm last evening light falling in and a faint candle glow, the room empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/margaret_room.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "f8b1dd81ad6a5e88fa21efd627893fd7852256cfaf7f9b4c5cb4e745626caff5"
+        }
+      }
+    },
+    {
+      "id": "bg_promenade",
+      "kind": "background",
+      "prompt": "A tree-lined walk beside a 16th-century German town: a gravel path along a low wall under bare-branched trees, town roofs and a church spire in the distance, soft overcast daylight, the path empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/promenade.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "f3bea51f6369eafb8fd2d9179f6788d149637f8667b82fca6889c39142d5b0b7"
+        }
+      }
+    },
+    {
+      "id": "bg_neighbour_house",
+      "kind": "background",
+      "prompt": "The interior of a modest 16th-century German widow's home in daylight: a sitting room with a wooden table and benches, a tiled stove, a small cupboard, linen and a mirror on the wall, a window with leaded panes and a bright garden beyond, the room empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/neighbour_house.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "6b61a0deab8773f8f8d5cac5d747152782bfaef09d4b140cc9e958501d331760"
+        }
+      }
+    },
+    {
+      "id": "sprite_marta_neutral",
+      "kind": "sprite",
+      "character": "marta",
+      "expression": "neutral",
+      "prompt": "A stout, comfortable widow of about forty-five with a ruddy round face and kind but gossipy eyes; a white linen coif covering her hair, a dark plum wool bodice over a white chemise and a rust-ochre apron; 16th-century German townswoman. Expression and pose: friendly, talkative neutral expression, hands resting at her waist.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/marta_neutral.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "e3294b1230d327d376b0a522b4e89253fbe3df392b730876c82848d043540bd4"
+        }
+      }
+    },
+    {
+      "id": "sprite_marta_coy",
+      "kind": "sprite",
+      "character": "marta",
+      "expression": "coy",
+      "prompt": "Expression and pose: coy and flattered, a pleased knowing smile, head tilted, one hand fluttering near her chin.",
+      "reference": "sprite_marta_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/marta_coy.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "738f5f4ce343b6affc188f564ac05decc0e09d2643a1b568ed9a784b8615672c"
+        }
+      }
+    },
+    {
+      "id": "sprite_marta_distressed",
+      "kind": "sprite",
+      "character": "marta",
+      "expression": "distressed",
+      "prompt": "Expression and pose: distressed and lamenting, brow creased, mouth turned down, one hand pressed to her chest.",
+      "reference": "sprite_marta_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/marta_distressed.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "a7d8fa137f0bf7eff9376b403b1d62091c2f30d1e2917da6ee700c425475a72b"
+        }
+      }
+    },
+    {
+      "id": "bg_garden",
+      "kind": "background",
+      "prompt": "A walled garden of a 16th-century German town house on a warm afternoon: gravel paths between flower beds of daisies, roses and herbs, a stone bench, a small apple tree, a pavilion door glimpsed in a hedge, a wooden garden gate, the garden empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/garden.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "6e70cc7bb6cb81a8d4fd9658957f47104e014b90e3b7efb55d309c07b7765221"
+        }
+      }
+    },
+    {
+      "id": "bg_garden_pavilion",
+      "kind": "background",
+      "prompt": "A little garden pavilion at dusk: a small wooden summer-house with a half-open door and a narrow window, a plain table and bench inside, overgrown with flowering honeysuckle and roses, the evening sky turning purple above the garden hedge, the first stars appearing, the place empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/garden_pavilion.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "9dae70b45cf753333a5921ff182a374e07a881eb499c207a66b6e4ed56ff732a"
+        }
+      }
+    },
+    {
+      "id": "bg_forest_cave",
+      "kind": "background",
+      "prompt": "A wild forest with a cavern: ancient oaks and pines rising over a rocky hillside, a cave opening with mossy rock at the centre, shafts of sunlight falling through the high branches onto the leaves, a distant waterfall and a peaceful solitude, no people.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/forest_cave.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "6520b9efef3aaf6fadb99ae60b809211acfdd0d63c5983daae31b29b3cde6562"
+        }
+      }
+    },
+    {
+      "id": "bg_fountain",
+      "kind": "background",
+      "prompt": "The town fountain of a 16th-century German town on a bright day: a stone basin with a spout in a small cobbled square between half-timbered houses with steep gables, wooden buckets and clay water jugs at its edge, the square empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/fountain.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "86f5d835a6c45afc9ddb07f8600e049ebb547c31a7df45e6b327e53663b4a5a2"
+        }
+      }
+    },
+    {
+      "id": "sprite_lisa_neutral",
+      "kind": "sprite",
+      "character": "lisa",
+      "expression": "neutral",
+      "prompt": "A young woman of about twenty, a townsman's daughter and gossip, with a plump-cheeked face, brown hair under an ochre kerchief, a faded blue laced bodice over a white chemise with rolled sleeves; she holds a clay water pitcher at her hip; 16th-century German townswoman. Expression and pose: curious, chatty neutral expression, head slightly tilted.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/lisa_neutral.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "f04d001afa15487ba58dd3df272239b1c5ad7d627ef6297c691138bc5447255c"
+        }
+      }
+    },
+    {
+      "id": "sprite_lisa_smug",
+      "kind": "sprite",
+      "character": "lisa",
+      "expression": "smug",
+      "prompt": "Expression and pose: smug and self-righteous, a small pursed smile, chin raised, eyebrows slightly arched, pitcher still at her hip.",
+      "reference": "sprite_lisa_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/lisa_smug.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "029ff309ecb5c411ba93e561bc8d6a2b9296eaf7549db2bcbb837a594536d117"
+        }
+      }
+    },
+    {
+      "id": "bg_city_walls",
+      "kind": "background",
+      "prompt": "A shadowed niche in the old stone wall of a 16th-century German town at dusk: a carved image of the Virgin as Our Lady of Sorrows, a sorrowing woman with a sword in her breast, in the niche, with clay pots of fresh flowers at her feet and a single flickering candle, ivy on the wall, the sky turning dark violet above.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/city_walls.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "85faa66718d90ed52304fd1d5abd9e27279f138de869d6ffa73bf6105d5d163f"
+        }
+      }
+    },
+    {
+      "id": "bg_street_night",
+      "kind": "background",
+      "prompt": "Same street as the reference image, same viewpoint and houses, now at night: moonlight and a single lantern hanging by the closed house door on the right, deep blue shadows, one window dimly lit, the cobblestones damp, the street empty.",
+      "reference": "bg_street",
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/street_night.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "85e18154a0581aa4e87d5c339560415da6f859cad5db6563c9df5a636f70e53b"
+        }
+      }
+    },
+    {
+      "id": "sprite_valentin_neutral",
+      "kind": "sprite",
+      "character": "valentin",
+      "expression": "neutral",
+      "prompt": "A broad-shouldered soldier of about thirty-five, Margarita's elder brother, with short dark-brown hair, a heavy moustache and a stern weathered face; a buff leather jerkin over a slate-grey slashed doublet, a sword hilt visible at his hip; 16th-century German. Expression and pose: stern, proud neutral expression, arms at his sides.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/valentin_neutral.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "14d1bc2294a5c943b1ea1054d517d1e33238f0c2f7aec31e03b4eefe3f1d5a99"
+        }
+      }
+    },
+    {
+      "id": "sprite_valentin_angry",
+      "kind": "sprite",
+      "character": "valentin",
+      "expression": "angry",
+      "prompt": "Expression and pose: enraged, teeth clenched and brows lowered, sword drawn and held ready.",
+      "reference": "sprite_valentin_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/valentin_angry.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "a28d55df112d8ec9f46c3511b9c5a367ceb7204524dd222fbc0dc071af342a73"
+        }
+      }
+    },
+    {
+      "id": "sprite_valentin_dying",
+      "kind": "sprite",
+      "character": "valentin",
+      "expression": "dying",
+      "prompt": "Expression and pose: mortally wounded and grim, face drained of colour, one hand pressed to his chest, body sagging.",
+      "reference": "sprite_valentin_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/valentin_dying.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "3e4f023420d986752290df31390100d44fec82869a05e9012865bb9b858ddc79"
+        }
+      }
+    },
+    {
+      "id": "bg_cathedral",
+      "kind": "background",
+      "prompt": "The interior of a great Gothic cathedral during Mass: soaring stone pillars and vaults, tall stained-glass windows scattering coloured light, a distant altar with candles, the large pipe organ in the gallery, a congregation seen only as dim silhouettes of heads in the pews, a dark corner pillar in the foreground.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/cathedral.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "08dc19945bc4b7028dacaff2e62c366b60f48c0bba78ec8ce2fa3973a45b7e12"
+        }
+      }
+    },
+    {
+      "id": "bg_harz",
+      "kind": "background",
+      "prompt": "The Harz mountains on Walpurgis night, around Schierke and Elend: a steep rocky mountain path through gnarled pines and bare boulders in thick mist, dim flickering will-o'-the-wisp flames glowing among the rocks and trees, a pale moon veiled by cloud, a distant red glow above the summit, no people.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/harz.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "1e869e717fbf007004c91325df76fad19111e5a94040ba0f4cc9a9f8f393164a"
+        }
+      }
+    },
+    {
+      "id": "bg_harz_summit",
+      "kind": "background",
+      "prompt": "Same mountain landscape as the reference image, now at the summit of the Brocken: a bare rocky crest with great bonfires burning among the boulders, wild red glare and sparks rising into the night sky, dark winged silhouettes of witches on broomsticks, goats and wolves crossing the moon, swirling smoke.",
+      "reference": "bg_harz",
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/harz_summit.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "13e0a6ac0a2d502585e8ea0e6e480e46eb6edef1d3609d89ae4a87eac033f53d"
+        }
+      }
+    },
+    {
+      "id": "bg_intermezzo",
+      "kind": "background",
+      "prompt": "A dreamlike moonlit clearing at night: a small gilded miniature stage with painted flats and a curtain among glowing meadow flowers and slender birches, tiny drifting lights of fairies in the air, soft silver and gold glow, shimmering mist, no people.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/intermezzo.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "81237fda1edb9fb885ab3fda1188e4f614ad1eed2ce08e327babe8c2644fb529"
+        }
+      }
+    },
+    {
+      "id": "bg_field_day",
+      "kind": "background",
+      "prompt": "A bleak open field on a dull overcast day: a flat damp plain under low grey clouds, a wet muddy track, bare trees and a lone gallows on a far hillock, distant crows, no people.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/field_day.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "09a057561302aa97ba2fa38e6355312bd0dc19688c29ac1a9d7498989e22acf9"
+        }
+      }
+    },
+    {
+      "id": "bg_field_night",
+      "kind": "background",
+      "prompt": "Same bleak plain as the reference image, now by night: a dark open field under a stormy sky with a pale moon through racing clouds, a lone gallows on a far hillock and faint fire-like lights flickering around it, no people.",
+      "reference": "bg_field_day",
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/field_night.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "15114296eebd88badab637baeaf687df470aaaeb5e64227323f5dfa6ab05c29a"
+        }
+      }
+    },
+    {
+      "id": "bg_prison",
+      "kind": "background",
+      "prompt": "The inside of a dungeon cell in a 16th-century German town gaol: damp stone walls, a low vaulted ceiling, a small barred window high up, a heap of straw on the floor, iron chains and rings fixed to the wall, a narrow iron door with a bolt at the left, a single torch in a bracket giving an orange glow, the cell empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/prison.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "1b133dca00647327d1b97a1d114084be9d320a244f2a5cec81a642fbe6a816a6"
+        }
+      }
+    },
+    {
+      "id": "bg_prison_dawn",
+      "kind": "background",
+      "prompt": "Same dungeon cell as the reference image, same viewpoint: the torch is burnt out and a cold pink and grey dawn light now falls through the barred window high on the wall, across the straw and chains, quiet and desolate.",
+      "reference": "bg_prison",
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/prison_dawn.webp",
+          "source": "placeholder",
+          "status": "placeholder",
+          "sha256": "67d0e8e955bcebd8948a34398f816147b33929d9eb3ec4ef0fa07b3af93f916b"
+        }
+      }
     }
   ]
 }
