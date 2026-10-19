@@ -357,7 +357,7 @@ wheels = [
 [[package]]
 name = "vnpipe"
 version = "0.1.0"
-source = { git = "ssh://git.zenvairo.es:2222/dasemu/vnpipe.git?branch=development#a8c99cd35b72413ce123e7b05b6e2aa94cc6522c" }
+source = { git = "ssh://git.zenvairo.es:2222/dasemu/vnpipe.git?branch=development#9ec978dc67e1052bb602b96fcd038d7bc4a16ae1" }
 dependencies = [
     { name = "jsonschema" },
     { name = "pillow" },

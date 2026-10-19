@@ -144,6 +144,10 @@ default preferences.afm_time = 15
 
 define config.save_directory = "faust-vn"
 
+## Ren'Py Sync (cloud saves on a third-party server) is not offered.
+
+define config.has_sync = False
+
 
 ## Icon ########################################################################
 ##
