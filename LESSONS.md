@@ -21,3 +21,9 @@ Recurring problems and what worked. Read before starting; add an entry when a mi
   hand-editing annotated.json.
 - The pipeline lives in `../vnpipe`: a pipeline bug is fixed there (and tested with its
   fixtures), then `uv run vnpipe renpy` is re-run here; `vn/` must not change unless intended.
+- ChatGPT image MCP: `reference_images` frequently makes it echo the reference unchanged
+  (the raw bytes differ but `vnpipe assets check` reports identical pixels). Do not retry with
+  references; generate variants WITHOUT `reference_images`, reusing the neutral sprite's full
+  character description and swapping only the "Expression and pose" sentence. Identity stays
+  close enough (same costume/face); poll `query_tasks` only after ~90 s (a call returns the
+  full result in about 1 minute).
