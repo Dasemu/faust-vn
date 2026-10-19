@@ -188,11 +188,11 @@
         "anime": {
           "raw_file": "raw/anime/sprite_faust_anguished.png",
           "file": "sprites/anime/faust_anguished.webp",
-          "generation_id": "65cccac8-3df9-4b17-ad0a-e0371aed9357",
-          "sha256": "7560ee5ec5150b34492b9afad30ec67cbd22efa16c35ae4dc09aec51cb783c45",
-          "status": "rejected",
+          "generation_id": "8e9efe40-7736-499f-a491-f97ca3ec3de0",
+          "sha256": "b6e862720cf2cb4c818b073ceacf28adf0249e350816f84077f9ccbd31d3188f",
+          "status": "approved",
           "source": "chatgpt-web",
-          "notes": "MCP returned reference byte-identical twice (sha c8a92e5b)"
+          "notes": "no-reference regen; cel-shaded, identity matches neutral"
         }
       }
     },
@@ -900,8 +900,11 @@
         "painterly": {
           "file": "bg/painterly/margaret_room.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "f8b1dd81ad6a5e88fa21efd627893fd7852256cfaf7f9b4c5cb4e745626caff5"
+          "status": "approved",
+          "sha256": "6124c9231bcbf145457f991b6c87abaa49a8263ceb2a79b9680d8b0d98d36de6",
+          "raw_file": "raw/painterly/bg_margaret_room.png",
+          "generation_id": "b5309888-5b8f-4e15-9aab-5ba9b2f35c6c",
+          "notes": "painterly, consistent with approved bgs"
         }
       }
     },
@@ -944,8 +947,11 @@
         "painterly": {
           "file": "sprites/painterly/marta_neutral.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "e3294b1230d327d376b0a522b4e89253fbe3df392b730876c82848d043540bd4"
+          "status": "approved",
+          "sha256": "9af5d88b0ae7c1ca29e503c6efb3f0abaa031ff20793a8ca1f55e9483d662239",
+          "raw_file": "raw/painterly/sprite_marta_neutral.png",
+          "generation_id": "f097d31c-6192-42ce-8266-03c51069b439",
+          "notes": "ok"
         }
       }
     },
@@ -960,8 +966,11 @@
         "painterly": {
           "file": "sprites/painterly/marta_coy.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "738f5f4ce343b6affc188f564ac05decc0e09d2643a1b568ed9a784b8615672c"
+          "status": "approved",
+          "sha256": "be890d554d3ae6b7cb9a6dc8cfb8a8bb2f447d170d819cc8ec12d1c32f2f432f",
+          "raw_file": "raw/painterly/sprite_marta_coy.png",
+          "generation_id": "888b8ed1-3072-450d-913d-9cf53e5280ce",
+          "notes": "ok"
         }
       }
     },
@@ -976,8 +985,11 @@
         "painterly": {
           "file": "sprites/painterly/marta_distressed.webp",
           "source": "placeholder",
-          "status": "placeholder",
-          "sha256": "a7d8fa137f0bf7eff9376b403b1d62091c2f30d1e2917da6ee700c425475a72b"
+          "status": "approved",
+          "sha256": "7197efe6b69e97a8dc9493a7209727a1d223bd8c518d8b96db0f280083136f05",
+          "raw_file": "raw/painterly/sprite_marta_distressed.png",
+          "generation_id": "12817d96-f1cb-493f-9378-dc41119b5509",
+          "notes": "ok"
         }
       }
     },
