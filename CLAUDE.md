@@ -19,7 +19,8 @@ Faust I (Spanish, Llorente) as a Ren'Py visual novel. This repo is a *work*: the
 - To test against an unmerged vnpipe worktree: `uv run --with-editable <vnpipe worktree> pytest -q`
   (and `--project <vnpipe worktree> vnpipe --work . parse` to run a stage).
 - `uv run vnpipe --help` — pipeline CLI (the work is the repo root). Stages: `fetch`, `parse`,
-  `annotate {run,status,prompt,merge}`, `assets {...}`, `voice {fetch,asr,build,cut}` (`docs/voice.md`), `renpy [--with-test --out DIR]`.
+  `annotate {run,status,prompt,merge}`, `assets {...}`, `voice {fetch,asr,build,cut}` (`docs/voice.md`),
+  `translate {fetch,build,status}` (English, Taylor; `data/translations/en.json`), `renpy [--with-test --out DIR]`.
 - Ren'Py SDK lives in `tools/renpy-sdk` (gitignored; may be a symlink shared between worktrees)
   or `RENPY_SDK`. Inside the sandbox prefix SDK commands with `HOME=$TMPDIR/renpy-home`.
   Lint: `tools/renpy-sdk/renpy.sh vn lint`. Playthrough test and builds: `docs/running.md`.

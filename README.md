@@ -5,7 +5,8 @@ Spanish translation: 28 scenes from the Dedicatoria to the prison, about 31,000 
 verse, never rewritten. It is the first work built with [`vnpipe`](../vnpipe), the reusable
 "classic novels to visual novels" pipeline.
 
-The game is in Spanish. Art is AI-generated (see [docs/licensing.md](docs/licensing.md)).
+The game is in Spanish, with an English version (Bayard Taylor's public-domain verse
+translation, verbatim) selectable in Preferences. Art is AI-generated (see [docs/licensing.md](docs/licensing.md)).
 
 ## What is in the game
 
@@ -41,6 +42,7 @@ tools/renpy-sdk/renpy.sh vn   # play the generated project
 uv sync
 uv run vnpipe fetch          # download the source into data/raw
 uv run vnpipe parse          # data/raw -> data/parsed.json
+uv run vnpipe translate fetch && uv run vnpipe translate build  # English -> data/translations/en.json
 uv run vnpipe renpy          # data/annotated.json + audio/ -> vn/
 tools/renpy-sdk/renpy.sh vn  # play (Ren'Py 8.5.3 SDK, see docs/running.md)
 ```
