@@ -1,100 +1,71 @@
-# Prototype report
+# Project report
 
-Build of the first playable prototype (2026-10-17, one session, ~2 h wall time).
-Scope: Dedicatoria, Prólogo en el teatro, Prólogo en el cielo and "De noche" up to the
-Earth Spirit's rejection of Faust — 630 verse lines, 7 stage directions, 4 scenes
-(`docs/scope.md`).
+## Canonical edition
 
-## What was automated
+All of *Faust, Part I* (Llorente's translation, Dedicatoria to Cárcel): 28 scenes, about
+2,250 dialogue blocks, built on 2026-10-19 (first commit 03:52, last 18:34, ~15 h wall time
+with the art queue running in the background). The pipeline was split out of this repo into
+`vnpipe`, a git dependency pinned by `uv.lock`; this repo only holds the work (`work.toml`,
+data, annotations, assets, generated `vn/`).
+
+### What was automated
 
 | Stage | How | Output |
 |---|---|---|
-| Fetch + scope cut | `vnpipe fetch` / `vnpipe parse`, markers in `work.toml` | `play.txt` (798 lines) |
-| Parsing | Deterministic parser: scenes, speakers + notes, verse, stanzas, split verses, directions, cast lists; fails loudly on anything unknown | `parsed.json` (639 lines) |
-| Annotation | `vnpipe annotate chunk` → 16 chunks; 8 Haiku sub-agents (2 chunks each) in parallel; `status`/`merge` validate schema, input hash, line coverage, deterministic fields, cast ids | `annotated.json`, 0 fallback chunks, 0 invalid on first pass |
-| Art | One Sonnet sub-agent drove the ChatGPT image MCP (≤ 20 generations/hour), imported with sha256 verification, chroma-keyed sprites, reviewed every image | 7 backgrounds + 17 sprites, all approved |
-| Ren'Py | `vnpipe renpy`: GUI from the SDK's `generate_gui` template, characters, images, script with title cards, NVL/ADV, cues, tints, flash/shake, expression mapping | `vn/`, `renpy lint` clean |
-| Builds | Ren'Py launcher `web_build` and `distribute --package linux` | `build/web/`, `build/dist/*.tar.bz2` |
+| Fetch + parse | `vnpipe fetch` / `parse`, markers and speaker map in `work.toml`; fails loudly on unknown input | `parsed.json`, 28 scenes |
+| Annotation (v2) | `vnpipe annotate`: one Haiku call per chunk via headless `claude -p`; compact records (speech-level emotion, music, entrances/exits); cached by input hash; schema, hash and coverage validated on merge | `annotated.json`, 36 chunks |
+| Art | `vnpipe assets`: prompts from the art bible, import with sha256 check, chroma key, approval manifest, per-asset renditions per style with fallback | 67 assets per style, all approved |
+| Music | 14 public-domain/CC recordings by mood plus fixed scene tracks, credits manifest (`docs/music.md`) | `audio/`, credits screen |
+| Ren'Py | `vnpipe renpy`: GUI, characters, script, title cards, NVL/ADV, cues, style switch | `vn/`, `renpy lint` clean |
+| QA | Spanish UI, *Escenas* (chapter select), credits, headless screenshot pass (`docs/running.md` 3c), end-to-end playthrough test (~5 min) | passing |
 
-Everything except the LLM and image calls is deterministic and idempotent (re-running
-any stage gives byte-identical files); those two are cached by input hash / recorded in
-the manifest, so the pipeline resumes instead of redoing work.
+Two art styles ship: *painterly* (default) and *anime*, selectable on first launch and in
+Preferences. Every stage is deterministic and idempotent; LLM and image outputs are cached.
 
-## What needed human judgment
+### What needed human judgment
 
-- **Scope cut** (where ~15 printed pages ends): chose the Earth Spirit's rejection over
-  ending at the heaven prologue, for a dramatic close and to include Faust himself.
-- **Adaptation rules** (`docs/adaptation-rules.md`): what is drawn vs. narrated — no
-  sprite for the Lord or the Earth Spirit, archangels painted into the background,
-  lyric passages as full-screen text.
-- **Staging cues** in `work.toml`: background changes on the macrocosm sign, the Spirit's
-  sign, the apparition, heaven closing.
-- **Correcting the annotator** through a generic override layer: the Haiku pass dropped
-  the Clown from stage mid-scene, moved characters between positions and labelled all
-  92 of Mephistopheles' lines "ironic". Fixed by pinned scene cast, sprite moves and
-  emotion ranges in `work.toml` instead of hand-editing JSON.
-- **Art direction**: the art bible and base prompt; the first calibration image came
-  out as glossy concept art and the base prompt had to forbid it explicitly.
-- **Visual review**: the art agent judged each image, then the orchestrator reviewed the
-  full contact sheet.
-- **Runtime QA**: playing the web build found a main-menu crash (missing GUI images)
-  that `renpy lint` does not detect.
+- Art direction: art bible, a separate anime base prompt, calibration of the first anime
+  sprites (three calibration rounds), and review of every image (some anime variants were rejected).
+- Adaptation rules and staging: what is drawn or narrated, scene backgrounds and cues,
+  per-scene music choices, music licence vetting.
+- Correcting the annotator through `work.toml` overrides (pinned cast, emotion ranges)
+  rather than editing JSON.
+- Visual and runtime QA: found GUI, label and Spanish-text defects that lint does not catch.
+- Image-MCP workaround: `reference_images` made the MCP echo the reference unchanged, so
+  variants are generated without references, repeating the full character description and
+  changing only the expression/pose sentence.
 
-## Cost and time per stage
+### Costs and throughput
 
-Costs: no paid API was used. Images came from the ChatGPT image MCP (the account's
-quota, no per-image charge); ZenvairoMediaGenerator (paid) was **not** used. Tokens are
-sub-agent totals reported by the harness.
+| Item | Figure |
+|---|---|
+| Annotation LLM | $0.76 total, 86 Haiku calls (36 chunks; 26 retries/re-runs, 2 pilot chunks included), ~8 min of model time |
+| Images | 123 generation calls in the log (including 4 marked retries and calibration), 134 approved assets over both styles; ChatGPT image MCP at 20 generations per rolling hour; no per-image charge |
+| Wall time | one day, 2026-10-19; the image queue (~1-7 min per call, sequential, rate-limited) dominates and ran in parallel with the rest |
 
-| Stage | Model | Wall time | Tokens | Notes |
-|---|---|---|---|---|
-| Planning, schemas, config, art bible, adaptation rules, review | Opus (main) | ~35 min spread | — | design + integration |
-| Text stage (parser, tests, scope/licensing docs) | Sonnet | 2.5 min | 102k | 23 tests |
-| Ren'Py SDK install (8.5.3 + web) | Haiku | 1.2 min | 54k | checksum verified |
-| Annotation tooling | Sonnet | 3.5 min | 116k | 50 tests |
-| Annotation pass (16 chunks) | 8 × Haiku | 1.5–3.3 min each, ~3.5 min total | ~630k total | 0 rejected chunks |
-| Ren'Py generator + 2 follow-ups | Sonnet | ~48 min over 3 rounds | 268k | lint clean, e2e playthrough test, web + linux builds |
-| Art (31 generations incl. calibration) | Sonnet + ChatGPT MCP | 1 h 39 min | 252k | ~4 min/image; 6 regenerations |
+The image log starts at the first anime calibration (03:57); earlier painterly generations
+are not counted in it, so the total is a lower bound.
 
-The art stage dominates wall time: the MCP queue is sequential (1–7 min per image) and
-capped at 20 generations/hour. Everything else ran in parallel with it.
+### In progress
 
-## Known weaknesses
+- German voice track from the LibriVox dramatic reading (public domain), aligned to the
+  text with Whisper.
 
-- **Emotion granularity**: the small model tends to label whole speeches with one
-  emotion (Mephistopheles all "ironic", Faust mostly "melancholic"/"ecstatic"), so
-  expressions change rarely. Overrides fix the worst cases by hand.
-- **Annotation staging is per chunk**: chunks are annotated independently, so presence
-  and positions can drift between chunks; the generator stabilises positions, and the
-  pinned cast covers the rest, but it needs human review.
-- **Sprite framing is inconsistent**: Mephistopheles is drawn to mid-shin, Faust to the
-  knees; the image model drifts to full-body unless told "cropped below the knees". The
-  clown carries an unrequested puppet.
-- **Reference-image variants sometimes come back identical** to the base (seen 3 times);
-  the art agent caught it by comparing sha256, but a pipeline check should enforce it.
-- **Audio**: 14 tracks ship (see `music.md`); moods are per line, so tracks change with
-  speaker changes of mood, not only per scene.
-- **Text boxes of verse**: 4 lines per box keeps verse intact but long monologues (Faust,
-  80 lines) feel slow; no auto-pagination by reading time.
-- **Chroma key is per-pixel**: fine with the flat green field, but any green in a
-  costume or a soft gradient field would break it (rembg would be the fallback).
-- **Remote push** depends on the SSH host being reachable from this machine; it was not
-  during the session (see final status).
+### Known limitations and next steps
 
-## Next steps to generalise (Werther, etc.)
+- Voice track (above) is not yet integrated.
+- Web and Linux builds of the canonical edition still to produce and publish.
+- CI cannot fetch the private `vnpipe` dependency: needs a deploy key (see the TODO in
+  `.github/workflows/ci.yml`).
+- Annotation still labels long speeches with few emotions; overrides cover the worst cases.
+- Sprite framing varies slightly between characters (the model drifts to full-body).
 
-1. **Prose works** (Werther is epistolary prose, not verse drama): add a prose parser
-   mode (paragraphs, letters with dates/headings as scenes, narrator as the letter
-   writer) behind the same `parsed.schema.json`; `kind` already allows narration.
-2. **Per-work config only**: everything Faust-specific already lives in `work.toml`;
-   add a `vnpipe init <gutenberg id>` that scaffolds it (detect headings and speaker
-   names automatically, propose cast and scenes for human approval).
-3. **Annotation quality**: give each chunk the previous chunk's final on-stage state,
-   ask for emotion per sentence rather than per line, and add a cheap second pass
-   ("reviewer" agent) that flags monotone speeches.
-4. **Art automation**: generate prompts for cast and locations from the annotated
-   data + art bible template; add automatic checks (variant ≠ base hash, alpha coverage,
-   framing via bbox aspect ratio) before human review.
-5. **Runtime QA in CI**: keep the end-to-end playthrough test (main menu → end) next to
-   `renpy lint`.
-6. **Audio**: public-domain recordings (e.g. Musopen) mapped to the six moods.
+## Prototype
+
+First playable prototype, 2026-10-17, one session (~2 h): Dedicatoria, both prologues and
+"De noche" up to the Earth Spirit (630 verse lines, 4 scenes). Parser, annotation (8 parallel
+Haiku sub-agents over 16 chunks, 0 rejected), 7 backgrounds + 17 sprites (31 generations,
+~1 h 40 min) and the Ren'Py generator were all built then, with no paid API. It exposed the
+problems the canonical edition addressed: single-emotion speeches, per-chunk staging drift,
+identical reference-image variants, per-line music changes, and a menu crash that only the
+playthrough test caught. The code now lives in `vnpipe`.
