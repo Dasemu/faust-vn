@@ -31,7 +31,8 @@ Faust I (Spanish, Llorente) as a Ren'Py visual novel. This repo is a *work*: the
   Feature work branches off `development` (`feat/...`, `fix/...`).
 - `VERSION` is bumped by `.github/workflows/version.yml` on push (patch on `development`,
   minor on a `development` -> `main` merge). Do not edit it by hand.
-- CI (`.github/workflows/ci.yml`) runs ruff and pytest; it needs vnpipe available (see the TODO there).
+- CI (`.github/workflows/ci.yml`) runs ruff and pytest; vnpipe is public and fetched over HTTPS.
+- `main` is the remote's default branch; `development` is only for ongoing work.
 
 ## Layout
 `work.toml`, `data/`, `annotations/`, `assets/`, `voice/`, `vn/`, `tests/`, `docs/`; see `docs/plan.md`.

@@ -53,10 +53,8 @@ are not counted in it, so the total is a lower bound.
 
 ### Known limitations and next steps
 
-- Voice track (above) is not yet integrated.
-- Web and Linux builds of the canonical edition still to produce and publish.
-- CI cannot fetch the private `vnpipe` dependency: needs a deploy key (see the TODO in
-  `.github/workflows/ci.yml`).
+- Web and Linux builds of the canonical edition are produced locally (`docs/running.md`) but
+  not yet published.
 - Annotation still labels long speeches with few emotions; overrides cover the worst cases.
 - Sprite framing varies slightly between characters (the model drifts to full-body).
 
