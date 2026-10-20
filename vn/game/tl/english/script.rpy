@@ -1293,7 +1293,8 @@ translate english puertas_ciudad_0025:
     pass
 
 translate english puertas_ciudad_0027:
-    c_artisans "That’s no great luck for me, ’tis plain.\nYou’ll have him, when and where you wander:\nHis partner in the dance you’ll be,—\nBut what is all your fun to me?"
+    voice "voice/puertas_ciudad_0027.ogg"
+    c_servant_girls "That’s no great luck for me, ’tis plain.\nYou’ll have him, when and where you wander:\nHis partner in the dance you’ll be,—\nBut what is all your fun to me?"
 
 translate english puertas_ciudad_0031:
     voice "voice/puertas_ciudad_0031.ogg"
@@ -1320,7 +1321,8 @@ translate english puertas_ciudad_0047:
     pass
 
 translate english puertas_ciudad_0051:
-    c_artisans "No, Brother! not for me their formal ways.\nQuick! lest our game escape us in the press:\nThe hand that wields the broom on Saturdays\nWill best, on Sundays, fondle and caress."
+    voice "voice/puertas_ciudad_0051.ogg"
+    c_students "No, Brother! not for me their formal ways.\nQuick! lest our game escape us in the press:\nThe hand that wields the broom on Saturdays\nWill best, on Sundays, fondle and caress."
 
 translate english puertas_ciudad_0055:
     pass
@@ -1380,7 +1382,8 @@ translate english puertas_ciudad_0106:
     pass
 
 translate english puertas_ciudad_0107:
-    c_servant_girls "She showed me mine, in crystal clear,\nWith several wild young blades, a soldier-lover:\nI seek him everywhere, I pry and peer,\nAnd yet, somehow, his face I can’t discover."
+    voice "voice/puertas_ciudad_0107.ogg"
+    c_citizens "She showed me mine, in crystal clear,\nWith several wild young blades, a soldier-lover:\nI seek him everywhere, I pry and peer,\nAnd yet, somehow, his face I can’t discover."
 
 translate english puertas_ciudad_0111:
     pass
@@ -3934,6 +3937,7 @@ translate english taberna_auerbach_0256:
     pass
 
 translate english taberna_auerbach_0260:
+    voice "voice/taberna_auerbach_0260.ogg"
     c_chorus "We crack them and we crush them,\nAt once, whene’er they bite!"
 
 translate english taberna_auerbach_0262:

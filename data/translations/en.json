@@ -4,6 +4,7 @@
  "language": "english",
  "source_sha256": "7ad6f7ba26b9a42d3873b061c6a1201023e534c724371cedfee8062c8222d9b1",
  "annotated_sha256": "36c25db99294a4960aee228eda6949d47085fc9ee2ce4c809366d3ecea3b9195",
+ "config_sha256": "1f72a451deca8236b2797fca11be3d8954639f2c0e33488744690289e0f23fa3",
  "scenes": {
   "dedicatoria": {
    "title": "DEDICATION",
@@ -1969,7 +1970,7 @@
     "puertas_ciudad_0027": [
      {
       "kind": "say",
-      "speaker": "artisans",
+      "speaker": "servant_girls",
       "src_line": 1701,
       "stanzas": [
        [
@@ -2044,7 +2045,7 @@
     "puertas_ciudad_0051": [
      {
       "kind": "say",
-      "speaker": "artisans",
+      "speaker": "students",
       "src_line": 1741,
       "stanzas": [
        [
@@ -2159,7 +2160,7 @@
     "puertas_ciudad_0107": [
      {
       "kind": "say",
-      "speaker": "servant_girls",
+      "speaker": "citizens",
       "src_line": 1807,
       "stanzas": [
        [

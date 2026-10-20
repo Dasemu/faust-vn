@@ -1404,6 +1404,11 @@ ignore_lines = ["FIRST PART OF THE TRAGEDY"]
 "SHOOTING-STAR" = "dream_figures"
 "THE HEAVY FELLOWS" = "dream_figures"
 
+# Generic labels that name different groups, one cast id per occurrence in order.
+[translations.en.scene_speakers.puertas_ciudad]
+"THE FIRST" = ["artisans", "servant_girls", "students"]  # apprentice, servant girl, student
+"THE OTHER" = ["servant_girls", "citizens"]  # servant girl, citizen's daughter
+
 [translations.en.scene_speakers.intermedio]
 "MANAGER" = "dream_figures"
 
