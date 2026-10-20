@@ -21,7 +21,7 @@ package = false
 # vnpipe is pinned through uv.lock. After pushing vnpipe changes: `uv lock --upgrade-package vnpipe`.
 # To try an unpushed vnpipe checkout: `uv run --with-editable ../vnpipe <cmd>`.
 [tool.uv.sources]
-vnpipe = { git = "ssh://gitea@git.zenvairo.es:2222/dasemu/vnpipe.git", branch = "development" }
+vnpipe = { git = "https://git.zenvairo.es/dasemu/vnpipe.git", branch = "development" }
 
 [tool.ruff]
 line-length = 100
