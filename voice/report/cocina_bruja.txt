@@ -1,0 +1,71 @@
+scene cocina_bruja  (audio section 9)
+voiced 53/61 game speeches
+source speeches 61, ASR coverage 88.4% of source words
+
+game speeches:
+  ok                   cocina_bruja_0003 faust (53w) <- source #0 cov 0.95 53.2-92.5s
+  ok                   cocina_bruja_0015 mephisto (27w) <- source #1 cov 0.96 94.8-109.8s
+  ok                   cocina_bruja_0021 faust (2w) <- source #2 cov 1.00 110.2-111.9s
+  ok                   cocina_bruja_0022 mephisto (52w) <- source #3 cov 0.92 112.1-150.6s
+  ok                   cocina_bruja_0034 faust (20w) <- source #4 cov 1.00 150.8-163.4s
+  ok                   cocina_bruja_0038 mephisto (5w) <- source #5 cov 1.00 163.7-167.3s
+  ok                   cocina_bruja_0039 faust (14w) <- source #6 cov 1.00 167.6-174.6s
+  ok                   cocina_bruja_0042 mephisto (55w) <- source #7 cov 0.94 175.0-223.7s
+  ok                   cocina_bruja_0057 apes (13w) <- source #8 cov 1.00 226.3-230.6s
+  ok                   cocina_bruja_0060 mephisto (5w) <- source #9 cov 0.86 231.0-234.2s
+  ok                   cocina_bruja_0061 apes (7w) <- source #10 cov 1.00 234.8-238.1s
+  ok                   cocina_bruja_0063 mephisto (5w) <- source #11 cov 1.00 240.2-242.6s
+  unmapped             cocina_bruja_0065 faust (1w)
+  ok                   cocina_bruja_0066 mephisto (15w) <- source #13 cov 0.85 247.5-261.4s
+  ok                   cocina_bruja_0071 apes (6w) <- source #14 cov 1.00 261.8-264.9s
+  ok                   cocina_bruja_0072 mephisto (3w) <- source #15 cov 0.83 265.4-268.9s
+  ok                   cocina_bruja_0073 apes (24w) <- source #16 cov 0.96 274.2-284.9s
+  ok                   cocina_bruja_0080 mephisto (8w) <- source #17 cov 0.93 285.1-291.5s
+  ok                   cocina_bruja_0083 apes (53w) <- source #18 cov 0.96 297.4-321.2s
+  ok                   cocina_bruja_0095 mephisto (5w) <- source #19 cov 1.00 321.4-323.1s
+  ok                   cocina_bruja_0096 apes (19w) <- source #20 cov 1.00 325.1-336.4s
+  ok                   cocina_bruja_0103 mephisto (5w) <- source #21 cov 0.67 339.2-340.9s
+  ok                   cocina_bruja_0104 apes (11w) <- source #22 cov 1.00 342.6-347.4s
+  unmapped             cocina_bruja_0107 mephisto (10w)
+  ok                   cocina_bruja_0110 apes (12w) <- source #24 cov 1.00 350.1-352.9s
+  ok                   cocina_bruja_0116 faust (69w) <- source #25 cov 0.93 363.3-414.6s
+  low-coverage         cocina_bruja_0132 mephisto (78w) <- source #26 cov 0.60
+  low-coverage         cocina_bruja_0150 apes (27w) <- source #27 cov 0.50
+  ok                   cocina_bruja_0155 faust (12w) <- source #28 cov 1.00 485.7-489.8s
+  ok                   cocina_bruja_0157 mephisto (11w) <- source #29 cov 0.80 493.0-497.0s
+  ok                   cocina_bruja_0159 apes (15w) <- source #30 cov 1.00 497.3-503.0s
+  unmapped             cocina_bruja_0161 faust (4w)
+  ok                   cocina_bruja_0162 mephisto (11w) <- source #32 cov 1.00 514.4-520.5s
+  ok                   cocina_bruja_0166 witch (50w) <- source #33 cov 0.95 535.2-556.0s
+  ok                   cocina_bruja_0183 mephisto (80w) <- source #34 cov 0.85 571.6-608.1s
+  ok                   cocina_bruja_0203 witch (18w) <- source #35 cov 0.94 608.8-615.3s
+  ok                   cocina_bruja_0207 mephisto (69w) <- source #36 cov 0.90 615.9-652.1s
+  ok                   cocina_bruja_0222 witch (12w) <- source #37 cov 1.00 654.7-659.6s
+  low-coverage         cocina_bruja_0224 mephisto (10w) <- source #38 cov 0.50
+  ok                   cocina_bruja_0226 witch (3w) <- source #39 cov 1.00 663.4-665.1s
+  ok                   cocina_bruja_0227 mephisto (49w) <- source #40 cov 0.98 665.7-694.3s
+  ok                   cocina_bruja_0238 witch (8w) <- source #41 cov 0.75 702.3-706.9s
+  ok                   cocina_bruja_0240 mephisto (8w) <- source #42 cov 0.85 710.2-717.0s
+  ok                   cocina_bruja_0242 witch (5w) <- source #43 cov 1.00 717.8-719.7s
+  ok                   cocina_bruja_0244 mephisto (17w) <- source #44 cov 0.89 720.5-730.2s
+  ok                   cocina_bruja_0248 witch (35w) <- source #45 cov 0.91 730.7-748.6s
+  ok                   cocina_bruja_0257 mephisto (33w) <- source #46 cov 0.93 748.9-761.2s
+  ok                   cocina_bruja_0265 faust (18w) <- source #47 cov 1.00 785.9-800.8s
+  ok                   cocina_bruja_0269 mephisto (29w) <- source #48 cov 0.79 801.6-814.7s
+  ok                   cocina_bruja_0277 witch (72w) <- source #49 cov 0.90 823.4-843.7s
+  low-coverage         cocina_bruja_0292 faust (6w) <- source #50 cov 0.57
+  ok                   cocina_bruja_0294 mephisto (83w) <- source #51 cov 0.95 849.0-895.0s
+  ok                   cocina_bruja_0313 witch (23w) <- source #52 cov 1.00 897.8-907.9s
+  ok                   cocina_bruja_0320 faust (18w) <- source #53 cov 0.92 908.7-922.6s
+  low-coverage         cocina_bruja_0324 mephisto (51w) <- source #54 cov 0.53
+  ok                   cocina_bruja_0337 witch (3w) <- source #55 cov 0.83 976.3-978.8s
+  ok                   cocina_bruja_0338 mephisto (15w) <- source #56 cov 0.94 981.7-988.3s
+  ok                   cocina_bruja_0341 witch (17w) <- source #57 cov 0.93 989.1-994.6s
+  ok                   cocina_bruja_0345 mephisto (46w) <- source #58 cov 0.79 997.6-1018.7s
+  ok                   cocina_bruja_0355 faust (19w) <- source #59 cov 1.00 1018.9-1026.3s
+  ok                   cocina_bruja_0359 mephisto (39w) <- source #60 cov 0.96 1026.9-1042.5s
+
+source speeches without a game speech:
+  #12 FAUST -> faust (7 tokens, cov 1.00)
+  #23 MEPHISTOPHELES -> mephisto (2 tokens, cov 1.00)
+  #31 FAUST -> faust (12 tokens, cov 1.00)

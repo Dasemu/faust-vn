@@ -1,0 +1,59 @@
+scene carcel  (audio section 28)
+voiced 48/52 game speeches
+source speeches 51, ASR coverage 94.6% of source words
+
+game speeches:
+  unmapped             carcel_0002 faust (111w)
+  ok                   carcel_0025 faust (18w) <- source #0 cov 0.87 100.2-110.3s
+  ok                   carcel_0029 margarita (5w) <- source #1 cov 0.83 116.0-120.3s
+  ok                   carcel_0031 faust (7w) <- source #2 cov 1.00 122.6-127.9s
+  ok                   carcel_0033 margarita (8w) <- source #3 cov 1.00 131.0-133.9s
+  ok                   carcel_0035 faust (9w) <- source #4 cov 1.00 134.4-138.2s
+  ok                   carcel_0038 margarita (102w) <- source #5 cov 0.96 143.1-180.4s
+  ok                   carcel_0054 faust (6w) <- source #6 cov 1.00 180.8-183.8s
+  ok                   carcel_0056 margarita (65w) <- source #7 cov 0.97 184.0-205.9s
+  ok                   carcel_0066 faust (16w) <- source #8 cov 0.78 208.4-215.2s
+  ok                   carcel_0068 margarita (26w) <- source #9 cov 0.92 218.3-229.9s
+  low-coverage         carcel_0073 faust (2w) <- source #10 cov 0.00
+  ok                   carcel_0074 margarita (59w) <- source #11 cov 0.96 236.7-262.4s
+  ok                   carcel_0084 faust (3w) <- source #12 cov 1.00 262.6-264.4s
+  ok                   carcel_0085 margarita (60w) <- source #13 cov 0.95 264.6-287.6s
+  ok                   carcel_0094 faust (4w) <- source #14 cov 1.00 290.1-292.3s
+  ok                   carcel_0095 margarita (8w) <- source #15 cov 0.80 292.5-295.7s
+  ok                   carcel_0097 faust (5w) <- source #16 cov 1.00 297.6-303.6s
+  ok                   carcel_0099 margarita (83w) <- source #17 cov 0.96 304.1-334.9s
+  ok                   carcel_0113 faust (21w) <- source #18 cov 1.00 337.2-349.8s
+  ok                   carcel_0116 margarita (7w) <- source #19 cov 1.00 351.6-354.9s
+  ok                   carcel_0117 faust (5w) <- source #20 cov 1.00 355.0-357.6s
+  ok                   carcel_0118 margarita (25w) <- source #21 cov 0.97 357.7-367.5s
+  ok                   carcel_0122 faust (10w) <- source #22 cov 1.00 367.8-372.2s
+  ok                   carcel_0124 margarita (66w) <- source #23 cov 0.95 372.5-396.7s
+  ok                   carcel_0134 faust (11w) <- source #24 cov 0.89 397.0-402.9s
+  ok                   carcel_0137 margarita (117w) <- source #25 cov 0.95 403.1-437.5s
+  ok                   carcel_0154 faust (6w) <- source #26 cov 1.00 437.5-441.5s
+  low-coverage         carcel_0155 margarita (1w) <- source #27 cov 0.00
+  ok                   carcel_0156 faust (2w) <- source #28 cov 1.00 443.1-444.8s
+  ok                   carcel_0157 margarita (35w) <- source #29 cov 0.93 445.0-455.4s
+  ok                   carcel_0163 faust (5w) <- source #30 cov 1.00 455.6-461.1s
+  ok                   carcel_0165 margarita (43w) <- source #31 cov 0.93 461.4-477.8s
+  ok                   carcel_0172 faust (3w) <- source #32 cov 1.00 477.9-480.0s
+  ok                   carcel_0173 margarita (45w) <- source #33 cov 0.97 480.3-494.9s
+  ok                   carcel_0180 faust (9w) <- source #34 cov 1.00 495.1-500.3s
+  ok                   carcel_0181 margarita (65w) <- source #35 cov 1.00 500.5-522.3s
+  ok                   carcel_0191 faust (16w) <- source #36 cov 0.83 522.6-528.9s
+  ok                   carcel_0194 margarita (19w) <- source #37 cov 0.95 530.3-537.5s
+  ok                   carcel_0197 faust (12w) <- source #38 cov 0.80 537.6-541.8s
+  ok                   carcel_0200 margarita (113w) <- source #39 cov 0.96 542.0-575.1s
+  ok                   carcel_0216 faust (5w) <- source #40 cov 0.80 575.4-577.3s
+  ok                   carcel_0217 mephisto (21w) <- source #41 cov 0.71 581.2-589.3s
+  ok                   carcel_0221 margarita (23w) <- source #42 cov 1.00 589.5-597.4s
+  ok                   carcel_0224 faust (3w) <- source #43 cov 1.00 597.4-599.8s
+  ok                   carcel_0225 margarita (5w) <- source #44 cov 1.00 600.1-603.0s
+  ok                   carcel_0227 mephisto (10w) <- source #45 cov 1.00 605.2-608.6s
+  ok                   carcel_0229 margarita (26w) <- source #46 cov 0.95 608.8-618.1s
+  ok                   carcel_0235 mephisto (2w) <- source #47 cov 1.00 618.4-621.0s
+  ok                   carcel_0236 voices (1w) <- source #48 cov 1.00 623.0-624.0s
+  ok                   carcel_0237 mephisto (2w) <- source #49 cov 0.67 626.7-629.0s
+  low-coverage         carcel_0239 voices (2w) <- source #50 cov 0.00
+
+source speeches without a game speech:

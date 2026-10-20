@@ -1,0 +1,73 @@
+scene casa_vecina  (audio section 13)
+voiced 56/62 game speeches
+source speeches 61, ASR coverage 90.2% of source words
+
+game speeches:
+  unmapped             casa_vecina_0001 marta (47w)
+  ok                   casa_vecina_0011 margarita (2w) <- source #0 cov 1.00 52.7-54.0s
+  ok                   casa_vecina_0012 marta (3w) <- source #1 cov 1.00 54.6-56.4s
+  ok                   casa_vecina_0014 margarita (29w) <- source #2 cov 0.90 56.4-69.7s
+  ok                   casa_vecina_0021 marta (12w) <- source #3 cov 1.00 70.0-74.7s
+  unmapped             casa_vecina_0023 margarita (3w)
+  low-coverage         casa_vecina_0024 marta (4w) <- source #5 cov 0.50
+  ok                   casa_vecina_0026 margarita (14w) <- source #6 cov 0.86 82.8-87.4s
+  ok                   casa_vecina_0029 marta (45w) <- source #7 cov 0.94 87.7-111.5s
+  ok                   casa_vecina_0039 margarita (13w) <- source #8 cov 1.00 111.5-120.9s
+  ok                   casa_vecina_0043 marta (6w) <- source #9 cov 1.00 123.7-127.1s
+  ok                   casa_vecina_0045 mephisto (14w) <- source #10 cov 0.82 129.1-140.5s
+  ok                   casa_vecina_0049 marta (6w) <- source #11 cov 1.00 140.9-143.8s
+  ok                   casa_vecina_0051 mephisto (17w) <- source #12 cov 0.78 146.9-157.7s
+  ok                   casa_vecina_0056 marta (9w) <- source #13 cov 1.00 160.9-165.8s
+  ok                   casa_vecina_0059 margarita (13w) <- source #14 cov 1.00 165.9-172.3s
+  ok                   casa_vecina_0063 mephisto (14w) <- source #15 cov 0.82 172.7-183.2s
+  ok                   casa_vecina_0067 marta (4w) <- source #16 cov 1.00 183.4-186.2s
+  ok                   casa_vecina_0069 mephisto (26w) <- source #17 cov 0.74 186.4-196.0s
+  ok                   casa_vecina_0076 marta (10w) <- source #18 cov 0.93 196.0-203.9s
+  ok                   casa_vecina_0079 margarita (7w) <- source #19 cov 1.00 204.1-207.0s
+  ok                   casa_vecina_0081 mephisto (6w) <- source #20 cov 0.80 207.2-209.7s
+  ok                   casa_vecina_0083 margarita (11w) <- source #21 cov 1.00 210.0-215.1s
+  ok                   casa_vecina_0086 mephisto (8w) <- source #22 cov 0.86 215.6-219.7s
+  ok                   casa_vecina_0089 marta (5w) <- source #23 cov 1.00 220.1-222.2s
+  ok                   casa_vecina_0091 mephisto (17w) <- source #24 cov 0.88 222.4-231.9s
+  ok                   casa_vecina_0095 marta (5w) <- source #25 cov 1.00 232.9-235.2s
+  ok                   casa_vecina_0096 mephisto (18w) <- source #26 cov 0.90 235.4-246.4s
+  ok                   casa_vecina_0101 marta (34w) <- source #27 cov 0.95 246.6-259.0s
+  ok                   casa_vecina_0108 mephisto (27w) <- source #28 cov 0.89 259.2-272.7s
+  ok                   casa_vecina_0114 margarita (7w) <- source #29 cov 0.94 272.9-279.3s
+  ok                   casa_vecina_0116 mephisto (9w) <- source #30 cov 0.79 279.4-285.8s
+  unmapped             casa_vecina_0119 margarita (2w)
+  ok                   casa_vecina_0120 mephisto (19w) <- source #32 cov 0.86 288.8-299.5s
+  ok                   casa_vecina_0124 margarita (7w) <- source #33 cov 1.00 299.7-301.9s
+  ok                   casa_vecina_0126 mephisto (6w) <- source #34 cov 1.00 302.2-305.2s
+  ok                   casa_vecina_0128 marta (7w) <- source #35 cov 1.00 305.6-307.2s
+  ok                   casa_vecina_0130 mephisto (54w) <- source #36 cov 0.92 307.4-335.8s
+  unmapped             casa_vecina_0142 marta (3w)
+  ok                   casa_vecina_0143 mephisto (10w) <- source #38 cov 1.00 342.1-346.6s
+  ok                   casa_vecina_0146 marta (11w) <- source #39 cov 1.00 346.7-351.3s
+  ok                   casa_vecina_0149 mephisto (41w) <- source #40 cov 0.98 351.7-371.9s
+  ok                   casa_vecina_0159 marta (12w) <- source #41 cov 1.00 372.0-378.8s
+  ok                   casa_vecina_0162 mephisto (58w) <- source #42 cov 0.92 379.1-408.5s
+  ok                   casa_vecina_0174 marta (8w) <- source #43 cov 0.88 408.8-412.6s
+  ok                   casa_vecina_0176 mephisto (37w) <- source #44 cov 0.74 412.8-432.1s
+  ok                   casa_vecina_0184 marta (17w) <- source #45 cov 0.89 432.2-440.4s
+  ok                   casa_vecina_0188 mephisto (23w) <- source #46 cov 0.81 440.6-453.7s
+  ok                   casa_vecina_0192 marta (28w) <- source #47 cov 0.90 454.0-470.3s
+  ok                   casa_vecina_0198 mephisto (19w) <- source #48 cov 0.94 470.5-485.1s
+  ok                   casa_vecina_0203 marta (9w) <- source #49 cov 0.86 485.9-488.2s
+  ok                   casa_vecina_0205 mephisto (19w) <- source #50 cov 0.90 490.4-502.0s
+  ok                   casa_vecina_0211 margarita (3w) <- source #51 cov 1.00 502.0-504.6s
+  ok                   casa_vecina_0213 margarita (3w) <- source #53 cov 1.00 512.5-513.5s
+  ok                   casa_vecina_0214 marta (32w) <- source #54 cov 0.91 513.7-527.1s
+  ok                   casa_vecina_0222 mephisto (30w) <- source #55 cov 0.73 527.4-540.7s
+  ok                   casa_vecina_0229 marta (4w) <- source #56 cov 0.75 540.9-542.4s
+  ok                   casa_vecina_0230 mephisto (20w) <- source #57 cov 1.00 542.6-552.9s
+  ok                   casa_vecina_0234 margarita (3w) <- source #58 cov 0.83 553.0-555.3s
+  ok                   casa_vecina_0236 mephisto (8w) <- source #59 cov 1.00 555.3-558.6s
+  ok                   casa_vecina_0238 marta (15w) <- source #60 cov 0.85 558.7-562.9s
+  unmapped             casa_vecina_0241 mephisto (4w)
+
+source speeches without a game speech:
+  #4 MARGARETE -> margarita (8 tokens, cov 1.00)
+  #31 MARGARETE -> margarita (8 tokens, cov 1.00)
+  #37 MARTHE -> marta (8 tokens, cov 1.00)
+  #52 MEPHISTOPHELES -> mephisto (8 tokens, cov 0.62)

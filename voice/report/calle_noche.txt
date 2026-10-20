@@ -1,0 +1,43 @@
+scene calle_noche  (audio section 22)
+voiced 33/36 game speeches
+source speeches 35, ASR coverage 89.5% of source words
+
+game speeches:
+  unmapped             calle_noche_0002 valentin (184w)
+  ok                   calle_noche_0043 faust (44w) <- source #0 cov 0.84 113.6-139.7s
+  ok                   calle_noche_0053 mephisto (62w) <- source #1 cov 0.92 141.7-173.8s
+  ok                   calle_noche_0067 faust (14w) <- source #2 cov 0.86 174.0-180.6s
+  ok                   calle_noche_0070 mephisto (17w) <- source #3 cov 0.89 180.6-191.7s
+  ok                   calle_noche_0074 faust (13w) <- source #4 cov 1.00 192.3-200.4s
+  ok                   calle_noche_0077 mephisto (18w) <- source #5 cov 0.92 200.9-206.4s
+  ok                   calle_noche_0081 faust (11w) <- source #6 cov 1.00 206.7-214.1s
+  ok                   calle_noche_0084 mephisto (116w) <- source #7 cov 0.79 214.6-276.8s
+  ok                   calle_noche_0111 valentin (20w) <- source #8 cov 0.89 280.2-288.9s
+  ok                   calle_noche_0115 mephisto (8w) <- source #9 cov 0.80 289.1-292.8s
+  ok                   calle_noche_0117 valentin (11w) <- source #10 cov 0.83 293.3-295.1s
+  ok                   calle_noche_0120 mephisto (20w) <- source #11 cov 0.95 298.8-308.4s
+  ok                   calle_noche_0124 valentin (2w) <- source #12 cov 1.00 308.6-309.7s
+  ok                   calle_noche_0125 mephisto (3w) <- source #13 cov 1.00 310.0-311.3s
+  ok                   calle_noche_0126 valentin (3w) <- source #14 cov 1.00 311.5-312.5s
+  ok                   calle_noche_0127 mephisto (3w) <- source #15 cov 1.00 312.7-313.5s
+  ok                   calle_noche_0128 valentin (11w) <- source #16 cov 0.87 313.6-317.8s
+  ok                   calle_noche_0130 mephisto (3w) <- source #17 cov 1.00 320.2-321.2s
+  low-coverage         calle_noche_0131 valentin (3w) <- source #18 cov 0.50
+  ok                   calle_noche_0132 mephisto (29w) <- source #19 cov 0.91 324.9-339.1s
+  ok                   calle_noche_0139 marta (2w) <- source #20 cov 1.00 341.4-343.3s
+  ok                   calle_noche_0140 margarita (4w) <- source #21 cov 1.00 345.5-346.6s
+  ok                   calle_noche_0142 marta (7w) <- source #22 cov 0.88 349.1-352.8s
+  ok                   calle_noche_0144 crowd (6w) <- source #23 cov 1.00 353.8-355.9s
+  ok                   calle_noche_0145 marta (9w) <- source #24 cov 0.83 358.2-360.6s
+  ok                   calle_noche_0147 margarita (4w) <- source #25 cov 1.00 362.8-364.0s
+  low-coverage         calle_noche_0148 crowd (6w) <- source #26 cov 0.33
+  ok                   calle_noche_0150 margarita (4w) <- source #27 cov 1.00 366.8-368.8s
+  ok                   calle_noche_0152 valentin (48w) <- source #28 cov 0.88 369.4-397.1s
+  ok                   calle_noche_0166 margarita (6w) <- source #29 cov 1.00 397.6-400.5s
+  ok                   calle_noche_0167 valentin (205w) <- source #30 cov 0.92 400.5-474.2s
+  ok                   calle_noche_0210 marta (18w) <- source #31 cov 1.00 475.1-480.2s
+  ok                   calle_noche_0214 valentin (14w) <- source #32 cov 0.83 480.2-490.3s
+  ok                   calle_noche_0218 margarita (3w) <- source #33 cov 1.00 490.7-493.7s
+  ok                   calle_noche_0219 valentin (34w) <- source #34 cov 1.00 494.1-510.6s
+
+source speeches without a game speech:
