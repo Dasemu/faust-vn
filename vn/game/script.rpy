@@ -495,7 +495,7 @@ label scene_noche:
     # noche_0193
     c_narrator "Entra WAGNER con bata y gorro de dormir. FAUSTO le vuelve la espalda malhumorado."
     # noche_0194 .. noche_0197
-    show wagner eager at vn_left
+    show wagner eager at vn_right
     with dissolve
     c_wagner "¡Perdón! Tu voz, que a mí llega,\nes la que me trajo aquí:\nque recitabas creí\nalguna tragedia griega."
     # noche_0198 .. noche_0201
@@ -507,7 +507,7 @@ label scene_noche:
     with dissolve
     c_faust "Dársela podrá muy bien,\nsi es el cura, por acaso,\notro comediante, caso\nque ocurrir suele también."
     # noche_0210 .. noche_0213
-    show wagner neutral at vn_left
+    show wagner neutral at vn_right
     with dissolve
     c_wagner "Quien en su estancia sombría\nvive en retiro profundo,\ny sale no más al mundo\nen algún solemne día;"
     # noche_0214 .. noche_0217
@@ -533,7 +533,7 @@ label scene_noche:
     # noche_0250 .. noche_0253
     c_faust "pues son las palabras huecas,\nque brillante oropel cubre,\nráfaga estéril de octubre\nque mueve las hojas secas."
     # noche_0254 .. noche_0257
-    show wagner uneasy at vn_left
+    show wagner uneasy at vn_right
     with dissolve
     c_wagner "Incierta y breve es la vida,\nlargo el arte, y en tan alta\nempresa a veces nos falta\nla razón desvanecida."
     # noche_0258 .. noche_0261
@@ -543,7 +543,7 @@ label scene_noche:
     with dissolve
     c_faust "La sed del alma no calma\nun árido pergamino:\nese manantial divino\nlo lleva en su fondo el alma."
     # noche_0266 .. noche_0269
-    show wagner neutral at vn_left
+    show wagner neutral at vn_right
     with dissolve
     c_wagner "También la imaginación\ngoza cuando el vuelo tiende,\ny el espíritu comprende\nde otra edad y otra región."
     # noche_0270 .. noche_0273
@@ -572,7 +572,7 @@ label scene_noche:
     # noche_0305 .. noche_0308
     c_faust "víctima infelice, muere\nen la hoguera o en la cruz.\nPero, adiós: la noche vuela;\nya es tarde; basta por hoy."
     # noche_0309 .. noche_0312
-    show wagner eager at vn_left
+    show wagner eager at vn_right
     with dissolve
     c_wagner "Oyéndote, como estoy,\npasara la noche en vela.\nPero mañana son Pascuas,\ny, si molestarte no es,"
     # noche_0313 .. noche_0316
@@ -3854,7 +3854,7 @@ label scene_jardin:
     # jardin_0023
     c_marta "siempre en movimiento?"
     # jardin_0024
-    show mephisto sly at vn_left
+    show mephisto sly at vn_left_mid
     with dissolve
     c_mephisto "Oh, sí:"
     # jardin_0025 .. jardin_0028
@@ -3868,7 +3868,7 @@ label scene_jardin:
     # jardin_0036 .. jardin_0038
     c_marta "y al acercarse a la muerte\ninsoportable es la suerte\ndel infeliz solterón."
     # jardin_0039 .. jardin_0040
-    show mephisto neutral at vn_left
+    show mephisto neutral at vn_left_mid
     with dissolve
     c_mephisto "Esa vejez, triste y fría,\nmiro con horror también."
     # jardin_0041 .. jardin_0042
@@ -3950,7 +3950,7 @@ label scene_jardin:
     with dissolve
     c_marta "¡Pobres mujeres! Gastamos\nen balde nuestras razones;\nson para los solterones\ninútiles los reclamos."
     # jardin_0134 .. jardin_0135
-    show mephisto sly at vn_left
+    show mephisto sly at vn_left_mid
     with dissolve
     c_mephisto "Solo una mujer cual vos\ncatequizarme podría."
     # jardin_0136 .. jardin_0137
@@ -3966,7 +3966,7 @@ label scene_jardin:
     # jardin_0147 .. jardin_0148
     c_marta "¿Nunca sentisteis arder\nvuestro corazón herido?..."
     # jardin_0149 .. jardin_0150
-    show mephisto neutral at vn_left
+    show mephisto neutral at vn_left_mid
     with dissolve
     c_mephisto "Siempre mal me ha parecido\nel jugar con la mujer."
     # jardin_0151 .. jardin_0152
@@ -4091,7 +4091,7 @@ label scene_jardin:
     # jardin_0228
     c_marta "entre los árboles."
     # jardin_0229
-    show mephisto sly at vn_left
+    show mephisto sly at vn_left_mid
     with dissolve
     c_mephisto "¡Bien!"
     # jardin_0230
@@ -4165,7 +4165,7 @@ label scene_pabelloncito:
     # pabelloncito_0018
     c_faust "¡adiós!"
     # pabelloncito_0019
-    show marta neutral at vn_left
+    show marta neutral at vn_left_mid
     with dissolve
     c_marta "¡Adiós, que ya es tarde!"
     # pabelloncito_0020
@@ -4885,7 +4885,7 @@ label scene_calle_noche:
     with dissolve
     c_marta "¡Socorro, socorro!"
     # calle_noche_0140
-    show margarita neutral at vn_center
+    show margarita neutral at vn_left_mid
     with dissolve
     c_margarita "Al punto"
     # calle_noche_0141
@@ -4901,7 +4901,7 @@ label scene_calle_noche:
     with dissolve
     c_marta "Los matadores, en tanto,\nhuyen y escapan de fijo..."
     # calle_noche_0147
-    show margarita fearful at vn_center
+    show margarita fearful at vn_left_mid
     with dissolve
     c_margarita "¿Quién es el muerto?"
     # calle_noche_0148
@@ -4965,7 +4965,7 @@ label scene_calle_noche:
     with dissolve
     c_valentin "¡Celestina desalmada!\nSi pudiera yo atraparte,\nfuérame la mayor parte\nde mis culpas perdonada."
     # calle_noche_0218
-    show margarita sorrowful at vn_center
+    show margarita sorrowful at vn_left_mid
     with dissolve
     c_margarita "¡Hermano!... ¡Angustia infernal!"
     # calle_noche_0219 .. calle_noche_0222

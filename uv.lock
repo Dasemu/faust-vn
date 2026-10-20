@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.12"
 
 [[package]]
@@ -357,7 +357,7 @@ wheels = [
 [[package]]
 name = "vnpipe"
 version = "0.1.0"
-source = { git = "ssh://git.zenvairo.es:2222/dasemu/vnpipe.git?branch=development#9ec978dc67e1052bb602b96fcd038d7bc4a16ae1" }
+source = { git = "ssh://git.zenvairo.es:2222/dasemu/vnpipe.git?branch=development#4c76255981a0e8b273ca2eb05d9cce3fc27bc9a3" }
 dependencies = [
     { name = "jsonschema" },
     { name = "pillow" },
