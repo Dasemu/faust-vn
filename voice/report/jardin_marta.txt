@@ -1,0 +1,49 @@
+scene jardin_marta  (audio section 19)
+voiced 41/42 game speeches
+source speeches 42, ASR coverage 94.6% of source words
+
+game speeches:
+  ok                   jardin_marta_0002 margarita (5w) <- source #0 cov 1.00 29.1-31.1s
+  ok                   jardin_marta_0004 faust (5w) <- source #1 cov 1.00 31.8-33.9s
+  ok                   jardin_marta_0006 margarita (30w) <- source #2 cov 1.00 34.0-41.8s
+  ok                   jardin_marta_0012 faust (36w) <- source #3 cov 1.00 42.3-57.6s
+  ok                   jardin_marta_0019 margarita (5w) <- source #4 cov 1.00 57.6-60.6s
+  ok                   jardin_marta_0021 faust (2w) <- source #5 cov 1.00 60.9-62.2s
+  ok                   jardin_marta_0022 margarita (16w) <- source #6 cov 0.86 62.3-66.9s
+  ok                   jardin_marta_0027 faust (1w) <- source #7 cov 1.00 67.1-68.7s
+  ok                   jardin_marta_0028 margarita (21w) <- source #8 cov 1.00 68.8-74.6s
+  ok                   jardin_marta_0032 faust (33w) <- source #9 cov 1.00 74.7-90.2s
+  ok                   jardin_marta_0040 margarita (3w) <- source #10 cov 1.00 90.3-91.8s
+  ok                   jardin_marta_0041 faust (201w) <- source #11 cov 0.99 92.1-189.1s
+  ok                   jardin_marta_0085 margarita (16w) <- source #12 cov 0.95 189.3-195.3s
+  ok                   jardin_marta_0089 faust (22w) <- source #13 cov 0.89 195.3-208.9s
+  ok                   jardin_marta_0093 margarita (21w) <- source #14 cov 1.00 209.3-215.4s
+  ok                   jardin_marta_0097 faust (2w) <- source #15 cov 1.00 215.7-217.1s
+  ok                   jardin_marta_0098 margarita (7w) <- source #16 cov 0.92 217.2-220.7s
+  ok                   jardin_marta_0101 faust (4w) <- source #17 cov 1.00 220.7-221.4s
+  ok                   jardin_marta_0102 margarita (27w) <- source #18 cov 0.88 221.4-232.4s
+  ok                   jardin_marta_0107 faust (3w) <- source #19 cov 0.60 232.6-235.8s
+  ok                   jardin_marta_0108 margarita (59w) <- source #20 cov 0.93 236.2-250.9s
+  ok                   jardin_marta_0119 faust (7w) <- source #21 cov 0.83 250.9-254.6s
+  ok                   jardin_marta_0121 margarita (73w) <- source #22 cov 0.97 254.7-276.9s
+  ok                   jardin_marta_0136 faust (3w) <- source #23 cov 1.00 277.1-279.8s
+  ok                   jardin_marta_0137 margarita (40w) <- source #24 cov 0.95 279.8-293.7s
+  ok                   jardin_marta_0144 faust (5w) <- source #25 cov 1.00 294.0-297.1s
+  ok                   jardin_marta_0146 margarita (8w) <- source #26 cov 1.00 297.2-298.6s
+  ok                   jardin_marta_0148 faust (25w) <- source #27 cov 1.00 299.1-310.6s
+  ok                   jardin_marta_0154 margarita (33w) <- source #28 cov 1.00 311.0-321.6s
+  ok                   jardin_marta_0161 faust (21w) <- source #29 cov 0.91 321.8-336.4s
+  ok                   jardin_marta_0166 margarita (15w) <- source #30 cov 0.92 336.4-341.1s
+  ok                   jardin_marta_0169 faust (6w) <- source #31 cov 1.00 341.5-346.4s
+  ok                   jardin_marta_0170 margarita (20w) <- source #32 cov 0.97 346.6-355.7s
+  ok                   jardin_marta_0176 mephisto (3w) <- source #33 cov 0.60 361.8-364.6s
+  ok                   jardin_marta_0177 faust (3w) <- source #34 cov 1.00 364.6-367.4s
+  ok                   jardin_marta_0179 mephisto (53w) <- source #35 cov 0.88 367.7-388.8s
+  ok                   jardin_marta_0190 faust (41w) <- source #36 cov 0.97 389.1-411.3s
+  low-coverage         jardin_marta_0198 mephisto (4w) <- source #37 cov 0.38
+  ok                   jardin_marta_0199 faust (4w) <- source #38 cov 1.00 419.8-423.8s
+  ok                   jardin_marta_0200 mephisto (55w) <- source #39 cov 0.89 424.1-447.8s
+  ok                   jardin_marta_0212 faust (4w) <- source #40 cov 0.75 447.8-450.4s
+  ok                   jardin_marta_0213 mephisto (13w) <- source #41 cov 1.00 451.1-454.9s
+
+source speeches without a game speech:

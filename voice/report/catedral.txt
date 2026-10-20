@@ -1,0 +1,19 @@
+scene catedral  (audio section 23)
+voiced 8/12 game speeches
+source speeches 12, ASR coverage 87.4% of source words
+
+game speeches:
+  ok                   catedral_0002 evil_spirit (75w) <- source #0 cov 0.93 34.0-72.4s
+  ok                   catedral_0018 margarita (19w) <- source #1 cov 0.93 74.1-82.7s
+  low-coverage         catedral_0022 chorus (8w) <- source #2 cov 0.25
+  ok                   catedral_0025 evil_spirit (36w) <- source #3 cov 1.00 97.2-112.5s
+  ok                   catedral_0033 margarita (18w) <- source #4 cov 1.00 112.8-121.3s
+  low-coverage         catedral_0037 chorus (10w) <- source #5 cov 0.40
+  ok                   catedral_0040 margarita (21w) <- source #6 cov 1.00 141.5-148.9s
+  ok                   catedral_0044 evil_spirit (24w) <- source #7 cov 1.00 149.7-157.7s
+  implausible-duration catedral_0048 chorus (13w) <- source #8 cov 0.69 158.2-175.0s
+  ok                   catedral_0051 evil_spirit (28w) <- source #9 cov 0.94 175.6-184.2s
+  low-coverage         catedral_0058 chorus (5w) <- source #10 cov 0.40
+  ok                   catedral_0059 margarita (3w) <- source #11 cov 1.00 189.5-191.9s
+
+source speeches without a game speech:

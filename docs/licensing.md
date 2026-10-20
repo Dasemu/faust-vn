@@ -22,6 +22,14 @@ gitignored and never redistributed.
 The Gutenberg text was transcribed by Ramón Pajares Box and the Distributed Proofreaders
 (PGDP) team. Thanks to them.
 
+## Voice
+
+The German voice track is cut from LibriVox's dramatic reading "Faust: Der Tragödie erster Teil"
+(https://librivox.org/faust-der-tragoedie-erster-teil-by-johann-wolfgang-von-goethe/), a
+public-domain recording by many volunteer readers. The German text used for alignment is
+Project Gutenberg #2229 (gitignored, not redistributed). Readers are credited in the game
+(`[voice].credits` in `work.toml`).
+
 ## Images
 
 All images (backgrounds, sprites, portraits) are AI-generated with ChatGPT image
