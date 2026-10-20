@@ -6,6 +6,7 @@ verse, never rewritten. It is the first work built with [`vnpipe`](../vnpipe), t
 "classic novels to visual novels" pipeline.
 
 The game is in Spanish. Art is AI-generated (see [docs/licensing.md](docs/licensing.md)).
+Released under the [GNU GPL v3](LICENSE); the source text and voice recordings are public domain.
 
 ## What is in the game
 

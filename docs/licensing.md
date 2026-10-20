@@ -35,6 +35,9 @@ Project Gutenberg #2229 (gitignored, not redistributed). Readers are credited in
 All images (backgrounds, sprites, portraits) are AI-generated with ChatGPT image
 generation. They are not photographs or scans of existing artwork.
 
-## Code
+## This repository
 
-The pipeline code in this repository is released under the MIT licence.
+This repository (configuration, annotations, generated Ren'Py project, images and docs) is
+released under the GNU General Public License v3.0 only; see [`LICENSE`](../LICENSE). The
+public-domain text and recordings above stay in the public domain. The pipeline it is built
+with, vnpipe, is a separate project under the MIT licence.
