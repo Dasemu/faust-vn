@@ -16,9 +16,8 @@ The game is in Spanish. Art is AI-generated (see [docs/licensing.md](docs/licens
   their own piece (Mephisto Waltz in Auerbach's tavern, Dies irae in the cathedral, Gretchen am
   Spinnrade in Margarita's room, Bach's Easter cantata for the Easter choruses). See
   [docs/music.md](docs/music.md).
-- **Voice (pilot)**: the German original read by LibriVox's public-domain dramatic reading
-  plays under the Spanish text, like subtitled anime; two scenes so far (`calle_1`,
-  `jardin_marta`). Volume slider in Preferences. See [docs/voice.md](docs/voice.md).
+- **Voice**: the German original read by LibriVox's public-domain dramatic reading
+  plays under the Spanish text, like subtitled anime; all 28 scenes. Volume slider in Preferences. See [docs/voice.md](docs/voice.md).
 - **Main menu**: title and subtitle over the study, *Escenas* (replay any scene you have
   reached) and *Créditos* (text, art and music attributions).
 - **Reading**: each scene opens with a title card (heading plus place and time); text types at
