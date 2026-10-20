@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Faust (Part I, opening) as a Ren'Py visual novel, built with vnpipe"
 readme = "README.md"
 requires-python = ">=3.12"
-license = "MIT"
+license = "GPL-3.0-only"
 dependencies = [
     "vnpipe",
 ]
