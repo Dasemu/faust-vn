@@ -22,6 +22,15 @@ gitignored and never redistributed.
 The Gutenberg text was transcribed by Ramón Pajares Box and the Distributed Proofreaders
 (PGDP) team. Thanks to them.
 
+### English text
+
+The English version shows Bayard Taylor's verse translation of *Faust, Part I* (1870; Taylor
+died 1878): public domain. Source: Project Gutenberg eBook #14591,
+https://www.gutenberg.org/ebooks/14591. Only the play text is used, verbatim, mapped onto the
+game's speeches (`data/translations/en.json`, `vnpipe translate`); Taylor's notes and
+commentary are not included. The download is gitignored and stripped of the Gutenberg header,
+footer and licence like the Spanish text above. Taylor is credited in the game.
+
 ## Voice
 
 The German voice track is cut from LibriVox's dramatic reading "Faust: Der Tragödie erster Teil"

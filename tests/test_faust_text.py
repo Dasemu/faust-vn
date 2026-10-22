@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import json
+import re
 import shutil
 from pathlib import Path
 
@@ -208,3 +209,12 @@ def test_from_parsed_annotations():
 def test_annotated_data_is_valid():
     data = json.loads((ROOT / "data/annotated.json").read_text(encoding="utf-8"))
     validate(data, "annotated")
+
+
+def test_english_translation_keeps_every_voice_clip():
+    """The committed English tl plays exactly the clips of the Spanish script."""
+    clip = re.compile(r'^\s*voice "([^"]+)"$', re.M)
+    game = ROOT / "vn/game"
+    spanish = sorted(clip.findall((game / "script.rpy").read_text(encoding="utf-8")))
+    english = sorted(clip.findall((game / "tl/english/script.rpy").read_text(encoding="utf-8")))
+    assert spanish and english == spanish

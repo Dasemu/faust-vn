@@ -1,3 +1,7 @@
+## Ren'Py's own UI strings in Spanish (Spain): the Ren'Py SDK translation
+## (launcher/game/tl/spanish/common.rpy, MIT licence) with corrections and the strings it
+## lacks. Copied into game/tl/spanish/ by `vnpipe renpy` when [ui].language = "spanish".
+
 translate spanish strings:
 
     old "{#weekday}Monday"
@@ -127,13 +131,13 @@ translate spanish strings:
     new "Borrar partida [text]"
 
     old "File page auto"
-    new "Página guardado automático"
+    new "Página de autoguardado"
 
     old "File page quick"
-    new "Página guardado rápido"
+    new "Página de guardado rápido"
 
     old "File page [text]"
-    new "Página grabación [text]"
+    new "Página [text]"
 
     old "Next file page."
     new "Página siguiente."
@@ -142,7 +146,7 @@ translate spanish strings:
     new "Página anterior."
 
     old "Quick save complete."
-    new "Grabar rápido completo."
+    new "Guardado rápido completado."
 
     old "Quick save."
     new "Guardado rápido."
@@ -229,10 +233,10 @@ translate spanish strings:
     new "¿Seguro que quieres borrar esta partida?"
 
     old "Are you sure you want to overwrite your save?"
-    new "¿Seguro que quieres sobreescribir esta partida?"
+    new "¿Seguro que quieres sobrescribir esta partida?"
 
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new "Al cargar se perderá el progreso no guardado.\n¿Seguro que quieres hacer esto?"
+    new "Al cargar se perderá el progreso no guardado.\n¿Seguro que quieres continuar?"
 
     old "Are you sure you want to quit?"
     new "¿Seguro que quieres salir?"
@@ -244,13 +248,13 @@ translate spanish strings:
     new "¿Seguro que quieres finalizar la repetición?"
 
     old "Are you sure you want to begin skipping?"
-    new "¿Seguro que quieres empezar el modo salto?"
+    new "¿Seguro que quieres empezar a saltar?"
 
     old "Are you sure you want to skip to the next choice?"
     new "¿Seguro que quieres saltar hasta la próxima elección?"
 
     old "Are you sure you want to skip unseen dialogue to the next choice?"
-    new "¿Seguro que quieres saltar el texto no visto hasta la próxima elección?"
+    new "¿Seguro que quieres saltar el texto no leído hasta la próxima elección?"
 
     old "Failed to save screenshot as %s."
     new "No se pudo guardar la captura de pantalla como %s."
@@ -259,13 +263,13 @@ translate spanish strings:
     new "Captura de pantalla guardada como %s."
 
     old "Self-voicing disabled."
-    new "Voz automática desactivada."
+    new "Lectura en voz alta desactivada."
 
     old "Clipboard voicing enabled. "
-    new "'Portapapeles a voz' activado. "
+    new "Lectura al portapapeles activada. "
 
     old "Self-voicing enabled. "
-    new "Voz automática activada. "
+    new "Lectura en voz alta activada. "
 
     old "bar"
     new "bar"
@@ -295,7 +299,7 @@ translate spanish strings:
     new "disminuir"
 
     old "Skip Mode"
-    new "Modo salto"
+    new "Saltando"
 
     old "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
     new "Este programa contiene {i}software{/i} libre sujeto a diversas licencias que incluyen la licencia MIT y la {i}GNU Lesser General Public License{/i} (Licencia Pública General Reducida de GNU). Puedes encontrar la lista completa {i}de software{/i}, con enlaces al código fuente completo, {a=https://www.renpy.org/l/license}aquí (en inglés){/a}."
@@ -328,13 +332,13 @@ translate spanish strings:
     new "saltar"
 
     old "skip unseen [text]"
-    new "saltar no visto [text]"
+    new "saltar no leído [text]"
 
     old "skip unseen text"
-    new "saltar texto no visto"
+    new "saltar texto no leído"
 
     old "begin skipping"
-    new "comienzar salto"
+    new "empezar a saltar"
 
     old "after choices"
     new "tras elecciones"
@@ -364,7 +368,7 @@ translate spanish strings:
     new "mantener voz"
 
     old "self voicing"
-    new "auto voz"
+    new "lectura en voz alta"
 
     old "clipboard voicing"
     new "voz en clipboard"
@@ -409,16 +413,16 @@ translate spanish strings:
     new "silenciar todo"
 
     old "Clipboard voicing enabled. Press 'shift+C' to disable."
-    new "'Portapapeles a voz' activado. Pulsa 'Mayús.+C' para desactivarlo."
+    new "Lectura al portapapeles activada. Pulsa Mayús+C para desactivarla."
 
     old "Self-voicing would say \"[renpy.display.tts.last]\". Press 'alt+shift+V' to disable."
-    new "Voz automática dirà \"[renpy.display.tts.last]\". Pulsa 'alt+shift+V' para desactivar."
+    new "La lectura en voz alta diría \"[renpy.display.tts.last]\". Pulsa Alt+Mayús+V para desactivarla."
 
     old "Self-voicing enabled. Press 'v' to disable."
-    new "Voz automática activada. Presiona 'v' para desactivarla."
+    new "Lectura en voz alta activada. Pulsa V para desactivarla."
 
     old "Empty Slot."
-    new "Vacío."
+    new "Espacio libre."
 
     old "Previous"
     new "Anterior"
@@ -493,7 +497,7 @@ translate spanish strings:
     new "Posición copiada al portapapeles."
 
     old "Type to filter: "
-    new "Tipo a filtrar: "
+    new "Escribe para filtrar: "
 
     old "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
     new "Texturas: [tex_count] ([tex_size_mb:.1f] MB)"
@@ -544,7 +548,7 @@ translate spanish strings:
     new "r"
 
     old "Contacting App Store\nPlease Wait..."
-    new "Contactando App Store\nPor favor, espera..."
+    new "Contactando con la App Store\nEspera, por favor..."
 
     old "The Ren'Py Updater is not supported on mobile devices."
     new "El Actualizador de Ren'Py no es compatible con dispositivos móviles."
@@ -826,10 +830,10 @@ translate spanish strings:
     new "Reiniciar"
 
     old "Line Spacing Scaling"
-    new "Escala del espacio de línea"
+    new "Escala del interlineado"
 
     old "Self-Voicing"
-    new "Voz automática"
+    new "Lectura en voz alta"
 
     old "Off"
     new "Apagado"
@@ -850,7 +854,7 @@ translate spanish strings:
     new "tamaño de fuente"
 
     old "font line spacing"
-    new "fuente de espacio de líneas"
+    new "interlineado de la fuente"
 
     old "The options on this menu are intended to improve accessibility. They may not work with all games, and some combinations of options may render the game unplayable. This is not an issue with the game or engine. For the best results when changing fonts, try to keep the text size the same as it originally was."
     new "Las opciones en este menú están destinadas a mejorar la accesibilidad. Es posible que no funcionen con todos los juegos, y algunas combinaciones de opciones pueden hacer que el juego no se pueda jugar. Esto no es un problema con el juego o el motor. Para obtener los mejores resultados al cambiar las fuentes, intente mantener el tamaño del texto igual al original."
@@ -859,10 +863,10 @@ translate spanish strings:
     new "Texto de alto contraste"
 
     old "Self-Voicing Volume Drop"
-    new "Caída de Volumen de Voz Automática"
+    new "Bajada de volumen al leer en voz alta"
 
     old "self voicing volume drop"
-    new "caída de volumen de voz automática"
+    new "bajada de volumen al leer en voz alta"
 
     old "system cursor"
     new "cursor del sistema"
@@ -880,7 +884,7 @@ translate spanish strings:
     new "Forzar renderizador GL"
 
     old "Force ANGLE Renderer"
-    new "Force renderizador ANGLE"
+    new "Forzar renderizador ANGLE"
 
     old "Force GLES Renderer"
     new "Forzar renderizador GLES"
@@ -910,4 +914,208 @@ translate spanish strings:
     new "Cambiar las opciones de renderizado"
 
     old "Press or move the '[control!s]' [kind]."
-    new "Presiona o mueve el '[control!s]' [kind]."
+    new "Pulsa o mueve: '[control!s]' [kind]."
+
+# Strings missing from the Ren'Py SDK translation (Ren'Py 8.5), added by vnpipe.
+translate spanish strings:
+
+    old "Click to play the video."
+    new "Haz clic para reproducir el vídeo."
+
+    old "Self-voicing support is limited when using a touch screen."
+    new "La lectura en voz alta es limitada con una pantalla táctil."
+
+    old "Mono Audio"
+    new "Audio mono"
+
+    old "Kerning"
+    new "Interletraje"
+
+    old "Accessibility Menu. Use up and down arrows to navigate, and enter to activate buttons and bars."
+    new "Menú de accesibilidad. Usa las flechas arriba y abajo para moverte, e Intro para activar botones y barras."
+
+    old "Self-Voicing and Audio"
+    new "Lectura en voz alta y audio"
+
+    old "Text"
+    new "Texto"
+
+    old "Open [text] directory."
+    new "Abrir la carpeta [text]."
+
+    old "Click to toggle attribute, right click to toggle negative attribute."
+    new "Clic para alternar el atributo, clic derecho para alternar el atributo negativo."
+
+    old "Click to set transform, right click to add to transform list."
+    new "Clic para fijar la transformación, clic derecho para añadirla a la lista."
+
+    old "Customize director.transforms to add more transforms."
+    new "Modifica director.transforms para añadir más transformaciones."
+
+    old "Click to set, right click to add to behind list."
+    new "Clic para fijar, clic derecho para añadir a la lista «behind»."
+
+    old "Click to set."
+    new "Clic para fijar."
+
+    old "Customize director.transitions to add more transitions."
+    new "Modifica director.transitions para añadir más transiciones."
+
+    old "Customize director.audio_channels to add more channels."
+    new "Modifica director.audio_channels para añadir más canales."
+
+    old "Are you sure you want to continue where you left off?"
+    new "¿Seguro que quieres continuar donde lo dejaste?"
+
+    old "This save was created on a different device. Maliciously constructed save files can harm your computer. Do you trust this save's creator and everyone who could have changed the file?"
+    new "Esta partida se guardó en otro dispositivo. Un archivo de partida manipulado puede dañar tu ordenador. ¿Confías en quien la creó y en cualquiera que haya podido modificar el archivo?"
+
+    old "Do you trust the device the save was created on? You should only choose yes if you are the device's sole user."
+    new "¿Confías en el dispositivo donde se guardó la partida? Elige «Sí» solo si eres su único usuario."
+
+    old "self voicing enable"
+    new "activar lectura en voz alta"
+
+    old "self voicing disable"
+    new "desactivar lectura en voz alta"
+
+    old "clipboard voicing enable"
+    new "activar lectura al portapapeles"
+
+    old "clipboard voicing disable"
+    new "desactivar lectura al portapapeles"
+
+    old "debug voicing enable"
+    new "activar lectura de depuración"
+
+    old "debug voicing disable"
+    new "desactivar lectura de depuración"
+
+    old "audio when minimized"
+    new "audio con la ventana minimizada"
+
+    old "audio when unfocused"
+    new "audio con la ventana en segundo plano"
+
+    old "web cache preload"
+    new "precarga de la caché web"
+
+    old "voice after game menu"
+    new "voz tras el menú del juego"
+
+    old "restore window position"
+    new "restaurar la posición de la ventana"
+
+    old "mono audio"
+    new "audio mono"
+
+    old "font kerning"
+    new "interletraje de la fuente"
+
+    old "reset"
+    new "restablecer"
+
+    old "main volume"
+    new "volumen general"
+
+    old "mute main"
+    new "silenciar el volumen general"
+
+    old "Speech Bubble Editor"
+    new "Editor de bocadillos"
+
+    old "(hide)"
+    new "(ocultar)"
+
+    old "(clear retained bubbles)"
+    new "(borrar los bocadillos retenidos)"
+
+    old "Sync downloaded."
+    new "Sincronización descargada."
+
+    old "Could not connect to the Ren'Py Sync server."
+    new "No se pudo conectar con el servidor de Ren'Py Sync."
+
+    old "The Ren'Py Sync server timed out."
+    new "El servidor de Ren'Py Sync no respondió a tiempo."
+
+    old "An unknown error occurred while connecting to the Ren'Py Sync server."
+    new "Error desconocido al conectar con el servidor de Ren'Py Sync."
+
+    old "The Ren'Py Sync server does not have a copy of this sync. The sync ID may be invalid, or it may have timed out."
+    new "El servidor de Ren'Py Sync no tiene esta sincronización. Puede que el ID no sea válido o que haya caducado."
+
+    old "Please enter the sync ID you generated.\nNever enter a sync ID you didn't create yourself."
+    new "Introduce el ID de sincronización que generaste.\nNunca introduzcas un ID que no hayas creado tú."
+
+    old "The sync ID is not in the correct format."
+    new "El ID de sincronización no tiene el formato correcto."
+
+    old "The sync could not be decrypted."
+    new "No se pudo descifrar la sincronización."
+
+    old "The sync belongs to a different game."
+    new "La sincronización pertenece a otro juego."
+
+    old "The sync contains a file with an invalid name."
+    new "La sincronización contiene un archivo con un nombre no válido."
+
+    old "This will upload your saves to the {a=https://sync.renpy.org}Ren'Py Sync Server{/a}.\nDo you want to continue?"
+    new "Tus partidas se subirán al {a=https://sync.renpy.org}servidor de Ren'Py Sync{/a}.\n¿Quieres continuar?"
+
+    old "Enter Sync ID"
+    new "Introduce el ID de sincronización"
+
+    old "This will contact the {a=https://sync.renpy.org}Ren'Py Sync Server{/a}."
+    new "Se contactará con el {a=https://sync.renpy.org}servidor de Ren'Py Sync{/a}."
+
+    old "Sync Success"
+    new "Sincronización completada"
+
+    old "The Sync ID is:"
+    new "El ID de sincronización es:"
+
+    old "You can use this ID to download your save on another device.\nThis sync will expire in an hour.\nRen'Py Sync is supported by {a=https://www.renpy.org/sponsors.html}Ren'Py's Sponsors{/a}."
+    new "Puedes usar este ID para descargar tus partidas en otro dispositivo.\nLa sincronización caduca en una hora.\nRen'Py Sync existe gracias a los {a=https://www.renpy.org/sponsors.html}mecenas de Ren'Py{/a}."
+
+    old "Continue"
+    new "Continuar"
+
+    old "Sync Error"
+    new "Error de sincronización"
+
+    old "Translation identifier: [identifier]"
+    new "Identificador de traducción: [identifier]"
+
+    old " translates [tl.filename]:[tl.linenumber]"
+    new " traduce [tl.filename]:[tl.linenumber]"
+
+    old "\n{color=#fff}Copied to clipboard.{/color}"
+    new "\n{color=#fff}Copiado al portapapeles.{/color}"
+
+    old "No update methods found."
+    new "No se encontró ningún método de actualización."
+
+    old "Could not download file list: "
+    new "No se pudo descargar la lista de archivos: "
+
+    old "File list digest does not match."
+    new "La suma de comprobación de la lista de archivos no coincide."
+
+    old "Preparing to download the game data."
+    new "Preparando la descarga de los datos del juego."
+
+    old "Downloading the game data."
+    new "Descargando los datos del juego."
+
+    old "The game data has been downloaded."
+    new "Los datos del juego se han descargado."
+
+    old "An error occurred when trying to download game data:"
+    new "Se produjo un error al descargar los datos del juego:"
+
+    old "This game cannot be run until the game data has been downloaded."
+    new "El juego no puede ejecutarse hasta que se descarguen sus datos."
+
+    old "Retry"
+    new "Reintentar"
