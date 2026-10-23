@@ -1,0 +1,21 @@
+scene paseo  (audio section 12)
+voiced 11/13 game speeches
+source speeches 13, ASR coverage 91.5% of source words
+
+game speeches:
+  ok                   paseo_0002 mephisto (22w) <- source #0 cov 0.88 32.1-40.7s
+  ok                   paseo_0006 faust (17w) <- source #1 cov 0.94 42.2-50.3s
+  ok                   paseo_0010 mephisto (15w) <- source #2 cov 0.93 50.5-56.4s
+  unmapped             paseo_0013 faust (3w)
+  ok                   paseo_0014 mephisto (176w) <- source #4 cov 0.91 64.9-155.4s
+  ok                   paseo_0054 faust (9w) <- source #5 cov 1.00 156.0-161.7s
+  ok                   paseo_0056 mephisto (37w) <- source #6 cov 0.86 162.0-178.5s
+  low-coverage         paseo_0064 faust (2w) <- source #7 cov 0.50
+  ok                   paseo_0065 mephisto (35w) <- source #8 cov 0.96 181.0-194.1s
+  ok                   paseo_0073 faust (20w) <- source #9 cov 0.90 194.7-204.6s
+  ok                   paseo_0077 mephisto (6w) <- source #10 cov 0.86 205.2-209.2s
+  ok                   paseo_0079 faust (26w) <- source #11 cov 0.96 209.7-223.3s
+  ok                   paseo_0085 mephisto (22w) <- source #12 cov 0.92 224.1-240.1s
+
+source speeches without a game speech:
+  #3 FAUST -> faust (14 tokens, cov 1.00)

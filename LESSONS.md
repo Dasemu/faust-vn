@@ -12,10 +12,28 @@ Recurring problems and what worked. Read before starting; add an entry when a mi
   images. Always run the end-to-end playthrough (`vnpipe renpy --with-test` + `renpy.sh test`,
   see docs/running.md) and, ideally, click through the web build.
 - Ren'Py SDK commands write to `~/.renpy`: prefix them with `HOME=$TMPDIR/renpy-home`
-  inside the sandbox. `web_build` leaves `vn/<id>/progressive_download.txt` (gitignored).
+  inside the sandbox. `web_build` leaves `vn/progressive_download.txt` (gitignored).
 - ChatGPT image MCP: reference-image variants sometimes come back byte-identical to the
   base; compare sha256 against the base before approving. Sprites drift to full-body
   unless the prompt says "cropped just below the knees".
 - Small-model annotators label whole speeches with one emotion and lose stage presence
   across chunks; fix with `work.toml` overrides (pinned cast, emotion ranges), not by
   hand-editing annotated.json.
+- The pipeline lives in `../vnpipe`: a pipeline bug is fixed there (and tested with its
+  fixtures), then `uv run vnpipe renpy` is re-run here; `vn/` must not change unless intended.
+- Visual QA: verse boxes must hold 4 lines plus 5-6 for long prose speeches; check wrapped
+  line counts with PIL against `gui.dialogue_width` before touching the textbox. The headless
+  `screenshot` statement compares against an existing file instead of overwriting it.
+- ChatGPT image MCP: `reference_images` frequently makes it echo the reference unchanged
+  (the raw bytes differ but `vnpipe assets check` reports identical pixels). Do not retry with
+  references; generate variants WITHOUT `reference_images`, reusing the neutral sprite's full
+  character description and swapping only the "Expression and pose" sentence. Identity stays
+  close enough (same costume/face); poll `query_tasks` only after ~90 s (a call returns the
+  full result in about 1 minute).
+- CI commits a VERSION bump to `development` after every push, so a later push is rejected:
+  `git fetch` and merge `origin/development` before pushing again.
+- GitHub remote is `Dasemu/faust-vn` (vnpipe: `Dasemu/vnpipe`). The `gh` OAuth token lacks the
+  `workflow` scope, so HTTPS pushes touching `.github/workflows` are rejected: push over SSH
+  (`git push git@github.com:Dasemu/<repo>.git <branch>`) or run `gh auth refresh -s workflow`.
+- Accents in the checkout path (`Darío`) break the Android Gradle build (`local.properties`
+  is Latin-1, the keystore is "not found"). Build the APK from an ASCII-path copy of `vn/`.

@@ -1,0 +1,8 @@
+scene aposento_margarita  (audio section 18)
+voiced 1/1 game speeches
+source speeches 1, ASR coverage 90.2% of source words
+
+game speeches:
+  ok                   aposento_margarita_0001 margarita (135w) <- source #0 cov 0.90 28.7-90.2s
+
+source speeches without a game speech:

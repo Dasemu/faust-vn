@@ -1,0 +1,97 @@
+scene gabinete_2  (audio section 7)
+voiced 84/87 game speeches
+source speeches 88, ASR coverage 90.3% of source words
+
+game speeches:
+  ok                   gabinete_2_0002 faust (6w) <- source #0 cov 1.00 29.1-34.5s
+  ok                   gabinete_2_0004 mephisto (4w) <- source #1 cov 1.00 35.7-38.0s
+  ok                   gabinete_2_0005 faust (2w) <- source #2 cov 1.00 38.1-39.1s
+  ok                   gabinete_2_0006 mephisto (3w) <- source #3 cov 1.00 39.2-41.6s
+  ok                   gabinete_2_0007 faust (6w) <- source #4 cov 1.00 42.2-43.5s
+  ok                   gabinete_2_0008 mephisto (65w) <- source #5 cov 0.80 43.9-76.0s
+  ok                   gabinete_2_0022 faust (158w) <- source #6 cov 0.96 76.3-187.2s
+  ok                   gabinete_2_0056 mephisto (9w) <- source #7 cov 0.90 187.4-192.1s
+  ok                   gabinete_2_0058 faust (48w) <- source #8 cov 0.84 192.5-220.0s
+  ok                   gabinete_2_0068 mephisto (11w) <- source #9 cov 1.00 220.2-227.2s
+  ok                   gabinete_2_0070 faust (3w) <- source #10 cov 1.00 227.3-232.2s
+  ok                   gabinete_2_0071 mephisto (8w) <- source #11 cov 0.89 232.8-237.2s
+  ok                   gabinete_2_0073 faust (123w) <- source #12 cov 0.96 237.8-330.0s
+  ok                   gabinete_2_0099 spirits (93w) <- source #13 cov 0.86 332.4-376.5s
+  ok                   gabinete_2_0126 mephisto (113w) <- source #14 cov 0.95 377.4-440.1s
+  ok                   gabinete_2_0150 faust (7w) <- source #15 cov 1.00 440.4-444.2s
+  ok                   gabinete_2_0151 mephisto (6w) <- source #16 cov 1.00 444.8-449.1s
+  ok                   gabinete_2_0152 faust (43w) <- source #17 cov 0.97 449.6-469.3s
+  ok                   gabinete_2_0160 mephisto (22w) <- source #18 cov 0.93 469.6-485.7s
+  ok                   gabinete_2_0164 faust (81w) <- source #19 cov 0.90 486.1-525.5s
+  ok                   gabinete_2_0178 mephisto (28w) <- source #20 cov 0.88 526.0-541.6s
+  ok                   gabinete_2_0184 faust (86w) <- source #21 cov 0.92 542.0-598.3s
+  ok                   gabinete_2_0202 mephisto (20w) <- source #22 cov 0.96 598.6-613.1s
+  ok                   gabinete_2_0206 faust (39w) <- source #23 cov 0.98 613.4-638.5s
+  low-coverage         gabinete_2_0214 mephisto (2w) <- source #24 cov 0.00
+  ok                   gabinete_2_0215 faust (41w) <- source #25 cov 0.94 639.9-669.1s
+  ok                   gabinete_2_0225 mephisto (7w) <- source #26 cov 1.00 669.6-674.8s
+  ok                   gabinete_2_0227 faust (22w) <- source #27 cov 0.88 674.8-690.0s
+  ok                   gabinete_2_0232 mephisto (32w) <- source #28 cov 0.72 690.2-704.8s
+  ok                   gabinete_2_0239 faust (116w) <- source #29 cov 0.93 705.1-783.3s
+  ok                   gabinete_2_0265 mephisto (19w) <- source #30 cov 0.91 784.2-798.8s
+  unmapped             gabinete_2_0269 faust (3w)
+  ok                   gabinete_2_0270 mephisto (7w) <- source #32 cov 0.83 805.1-809.4s
+  ok                   gabinete_2_0272 faust (120w) <- source #33 cov 0.91 809.8-883.0s
+  ok                   gabinete_2_0298 mephisto (19w) <- source #34 cov 0.90 883.3-898.0s
+  ok                   gabinete_2_0303 faust (86w) <- source #35 cov 0.91 898.1-953.0s
+  ok                   gabinete_2_0320 mephisto (68w) <- source #36 cov 0.89 954.1-986.2s
+  ok                   gabinete_2_0334 faust (2w) <- source #37 cov 1.00 986.8-988.8s
+  ok                   gabinete_2_0335 mephisto (100w) <- source #38 cov 0.83 989.1-1042.2s
+  ok                   gabinete_2_0359 faust (17w) <- source #39 cov 1.00 1042.8-1053.5s
+  ok                   gabinete_2_0363 mephisto (34w) <- source #40 cov 0.96 1054.0-1070.4s
+  ok                   gabinete_2_0370 faust (30w) <- source #41 cov 0.92 1070.9-1095.4s
+  ok                   gabinete_2_0376 mephisto (100w) <- source #42 cov 0.91 1096.0-1153.1s
+  ok                   gabinete_2_0396 faust (2w) <- source #43 cov 1.00 1153.5-1155.6s
+  ok                   gabinete_2_0397 mephisto (61w) <- source #44 cov 0.86 1156.3-1181.0s
+  ok                   gabinete_2_0410 faust (3w) <- source #45 cov 0.86 1181.7-1185.7s
+  ok                   gabinete_2_0412 mephisto (37w) <- source #46 cov 0.85 1185.9-1211.9s
+  ok                   gabinete_2_0423 mephisto (113w) <- source #47 cov 0.85 1217.2-1276.4s
+  ok                   gabinete_2_0448 student (17w) <- source #48 cov 0.83 1279.3-1288.0s
+  ok                   gabinete_2_0452 mephisto (12w) <- source #49 cov 0.89 1288.4-1296.9s
+  ok                   gabinete_2_0455 student (33w) <- source #50 cov 0.93 1297.2-1309.1s
+  ok                   gabinete_2_0463 mephisto (8w) <- source #51 cov 1.00 1309.3-1312.8s
+  ok                   gabinete_2_0465 student (39w) <- source #52 cov 0.97 1313.5-1329.2s
+  ok                   gabinete_2_0473 mephisto (40w) <- source #53 cov 0.92 1329.3-1348.6s
+  unmapped             gabinete_2_0481 student (6w)
+  ok                   gabinete_2_0483 mephisto (9w) <- source #55 cov 0.75 1354.8-1360.5s
+  ok                   gabinete_2_0486 student (16w) <- source #56 cov 0.96 1360.7-1368.5s
+  ok                   gabinete_2_0490 mephisto (11w) <- source #57 cov 1.00 1368.7-1375.7s
+  ok                   gabinete_2_0493 student (21w) <- source #58 cov 0.90 1376.2-1384.4s
+  ok                   gabinete_2_0498 mephisto (264w) <- source #59 cov 0.83 1384.8-1501.3s
+  ok                   gabinete_2_0558 student (4w) <- source #60 cov 1.00 1501.7-1504.1s
+  ok                   gabinete_2_0559 mephisto (15w) <- source #61 cov 0.71 1504.5-1514.5s
+  ok                   gabinete_2_0563 student (14w) <- source #62 cov 1.00 1514.6-1519.0s
+  ok                   gabinete_2_0566 mephisto (108w) <- source #63 cov 0.83 1519.8-1573.6s
+  ok                   gabinete_2_0590 student (18w) <- source #64 cov 0.93 1574.0-1582.8s
+  ok                   gabinete_2_0594 mephisto (4w) <- source #65 cov 0.80 1583.0-1585.7s
+  ok                   gabinete_2_0596 student (6w) <- source #66 cov 1.00 1585.9-1588.9s
+  ok                   gabinete_2_0598 mephisto (63w) <- source #67 cov 0.91 1589.2-1623.0s
+  ok                   gabinete_2_0611 student (17w) <- source #68 cov 0.89 1623.2-1630.7s
+  ok                   gabinete_2_0615 mephisto (71w) <- source #69 cov 0.89 1630.9-1667.0s
+  ok                   gabinete_2_0631 student (10w) <- source #70 cov 1.00 1667.1-1669.7s
+  ok                   gabinete_2_0634 mephisto (61w) <- source #71 cov 0.82 1669.8-1697.1s
+  ok                   gabinete_2_0648 student (39w) <- source #72 cov 0.85 1697.6-1715.9s
+  ok                   gabinete_2_0656 mephisto (219w) <- source #73 cov 0.90 1718.5-1820.7s
+  ok                   gabinete_2_0705 student (20w) <- source #74 cov 1.00 1821.3-1825.7s
+  ok                   gabinete_2_0709 mephisto (22w) <- source #75 cov 0.83 1826.3-1833.7s
+  ok                   gabinete_2_0713 student (12w) <- source #76 cov 0.96 1834.4-1842.1s
+  ok                   gabinete_2_0717 mephisto (3w) <- source #77 cov 0.83 1842.1-1846.4s
+  ok                   gabinete_2_0718 student (16w) <- source #78 cov 0.94 1846.8-1853.3s
+  ok                   gabinete_2_0723 student (7w) <- source #80 cov 1.00 1860.0-1865.2s
+  ok                   gabinete_2_0725 mephisto (19w) <- source #81 cov 0.83 1868.3-1879.2s
+  ok                   gabinete_2_0730 faust (2w) <- source #82 cov 0.80 1883.3-1885.5s
+  ok                   gabinete_2_0731 mephisto (29w) <- source #83 cov 0.82 1886.0-1897.1s
+  ok                   gabinete_2_0738 faust (28w) <- source #84 cov 0.97 1898.2-1920.6s
+  ok                   gabinete_2_0744 mephisto (9w) <- source #85 cov 0.76 1921.0-1930.6s
+  ok                   gabinete_2_0746 faust (13w) <- source #86 cov 1.00 1930.9-1937.2s
+  ok                   gabinete_2_0749 mephisto (55w) <- source #87 cov 0.98 1937.5-1965.6s
+
+source speeches without a game speech:
+  #31 FAUST -> faust (13 tokens, cov 0.92)
+  #54 SCHÜLER -> student (16 tokens, cov 1.00)
+  #79 MEPHISTOPHELES -> mephisto (2 tokens, cov 1.00)

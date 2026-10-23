@@ -1,11 +1,16 @@
 # Art bible
 
 The look of every asset is fixed here before anything is generated. Prompts are
-assembled mechanically: **base prompt + kind template + asset prompt**. The exact
-strings live in `works/faust/assets/assets.json` (`base_prompt` and each asset's
-`prompt`); this document explains them.
+assembled mechanically: **style base prompt + kind template + asset prompt**. The exact
+strings live in `assets/assets.json` (each style's `base_prompt` and `templates`, and each
+asset's `prompt`); this document explains them.
 
-## Look
+The player chooses between two art styles (first-launch picker, Preferences): **Pictórico**
+(`painterly`, the default and fallback) and **Anime** (`anime`). Every asset has one
+rendition per style under `assets/{bg,sprites}/<style>/`; an asset without an approved
+anime rendition shows its painterly one.
+
+## Look (painterly)
 
 - **Era and medium**: a romantic 19th-century illustrated edition of *Faust* — oil
   painting with the drawing discipline of a steel engraving (think Delacroix's Faust
@@ -18,7 +23,7 @@ strings live in `works/faust/assets/assets.json` (`base_prompt` and each asset's
   crushed shadows. Night scenes keep the same direction (lamp light from the left).
 - **Never**: text, letters, signatures, watermarks, frames, UI, modern objects.
 
-## Base prompt (used for every asset)
+## Base prompt (painterly)
 
 > Hand-painted romantic 19th-century oil painting on canvas with the fine linework of a steel engraving, as in an illustrated 1850s edition of Goethe's Faust (in the spirit of Delacroix's Faust lithographs and Caspar David Friedrich). Clearly painted, NOT photorealistic, NOT a 3D render, NOT digital concept art: visible loose brushstrokes, subtle engraved cross-hatching in the shadows, slightly aged varnish. Muted earthy palette of umber, ochre, slate blue and ivory with restrained deep crimson accents. Soft chiaroscuro, single warm key light from the upper left. Semi-realistic proportions. No text, no letters, no signature, no watermark, no frame, no border.
 
@@ -30,7 +35,7 @@ art, hence the explicit "NOT photorealistic, NOT a 3D render" clause.
 **Background** (16:9): wide establishing shot, eye level, empty foreground band at the
 bottom third so sprites can stand in front, no people unless the asset prompt says so.
 
-**Sprite** (2:3): one character, standing, framed from head to knees, centred, body
+**Sprite** (2:3): one character, standing, framed from the top of the head to mid-thigh (legs and feet not visible), centred, body
 turned slightly to the viewer, whole head and both hands inside the frame with margin
 above the head. Background is a **perfectly flat, uniform chroma-green (#00B140) field**
 with no gradient, floor, shadow or props — so it can be keyed out. No green in costumes.
@@ -38,6 +43,25 @@ with no gradient, floor, shadow or props — so it can be keyed out. No green in
 **Expression variant**: generated with the base sprite as `reference_images`; the prompt
 demands the identical character, costume, framing, lighting and green field and changes
 only face (and hands where noted). Identity drift → regenerate.
+
+## Anime style
+
+Same cast, scenes and per-asset prompts; only the style base prompt and the background
+template change (the sprite and variant templates are shared). Adults only: expressive
+eyes, but mature proportions, not chibi, not childlike, not moe. Palette: deep indigo,
+umber, crimson, parchment ivory, gold accents. Backgrounds are lush painted anime
+background art.
+
+> High-quality modern Japanese visual novel art (anime style) for a gothic-romantic adaptation of Goethe's Faust. Clean, confident lineart; cel shading with soft gradient highlights and subtle rim light; expressive eyes but mature adult anatomy and proportions (not chibi, not childlike, not moe). Elegant historically grounded 16th-century German costume and architecture. Harmonious palette of deep indigo, umber, crimson and parchment ivory with gold accents. Polished commercial visual-novel finish. No text, no letters, no signature, no watermark, no frame, no border.
+
+Background template: "Visual novel background, 16:9 wide establishing shot at eye level,
+lush painted anime background art with atmospheric lighting and depth, empty foreground band
+in the bottom third, no people unless described."
+
+Generate with `vnpipe assets prompt ID --style anime`, import with `--style anime`; run
+`vnpipe assets check` before approving (variants must differ from their reference, sprite
+coverage and top edge, backgrounds 1920x1080). The existing painterly sprites were framed
+to the knees; new generations (both styles) use the head-to-mid-thigh framing.
 
 ## Cast (only characters drawn as sprites)
 
@@ -48,6 +72,13 @@ only face (and hands where noted). Identity drift → regenerate.
 | `director` | Stout middle-aged theatre impresario, late 18th century; brown frock coat, buff waistcoat, tied grey wig, holding a ledger. | neutral, pleased, worried |
 | `poet` | Young pale man, long dark wavy hair, open white shirt collar, dark slate-blue coat; holds a quill. | neutral (dreamy), inspired, indignant |
 | `clown` | Jovial comedian, round ruddy face, motley of red, ochre and slate-blue diamonds, white ruff. | neutral, laughing, mocking |
+| `wagner` | Thin young scholar, late twenties, ash-brown hair, round spectacles; charcoal student's gown, white collar band, holds a thick book. | neutral, eager, uneasy |
+| `margarita` | Young woman of about sixteen, blonde braids, dove-grey laced bodice over a white chemise, ivory apron; modest. | neutral, joyful, sorrowful, fearful |
+| `marta` | Stout widow of about forty-five, white coif, dark plum bodice, rust apron. | neutral, coy, distressed |
+| `valentin` | Soldier of about thirty-five, moustache, buff leather jerkin over a grey doublet, sword hilt at the hip. | neutral, angry, dying |
+| `witch` | Ancient hag, wild grey hair, hooked nose, dark rags and a black shawl, iron ladle. | neutral, cackling, furious |
+| `student` | Eager freshman of about eighteen, ochre-brown cloak, satchel, notebook. | neutral, eager, puzzled |
+| `lisa` | Gossiping young woman of about twenty, ochre kerchief, faded blue bodice, clay pitcher. | neutral, smug |
 
 Not drawn as sprites (see `docs/adaptation-rules.md`): the Lord (a throne of light), the
 archangels (part of the heaven background), the Earth Spirit (a lighting change of the
@@ -65,10 +96,14 @@ study), the Dedicatoria's lyric voice (full-screen text).
 | `bg_study_macrocosm` | Same study (reference `bg_study`); a golden cosmic diagram of rings and stars floats glowing above the open book. |
 | `bg_study_spirit` | Same study (reference `bg_study`) flooded with trembling red light; a towering, indistinct column of flame-like presence; no clear face. |
 
+The backgrounds added for the rest of the play (one per location, variants only where a cue
+needs them) are listed with their prompts in `assets/assets.json`; staging per scene is in
+`docs/adaptation-rules.md`.
+
 ## Process
 
 1. Generate the base asset, inspect it, regenerate if off-model (max 20 generations/hour
    on the ChatGPT image MCP).
-2. Sprites: key out the green field (`vnpipe assets cutout`), inspect the alpha edges.
+2. Sprites: key out the green field (`vnpipe assets process`), inspect the alpha edges.
 3. Record prompt, generation id, sha256 and status in `assets.json`. Anything not
    approved falls back to a generated placeholder.

@@ -1,0 +1,1639 @@
+# Work configuration: everything specific to this text lives here.
+# The pipeline (vnpipe, ../vnpipe) is work-agnostic; docs/adaptation-rules.md has the rationale.
+
+[work]
+id = "faust"
+title = "Fausto"
+subtitle = "Primera parte"
+author = "Johann Wolfgang von Goethe"
+translator = "Teodoro Llorente"
+language = "es"
+# Cast id used as speaker of verse that nobody speaks (the Dedicatoria).
+lyric_voice = "poet_voice"
+
+[source]
+gutenberg_id = 68566
+url = "https://www.gutenberg.org/cache/epub/68566/pg68566.txt"
+raw_file = "data/raw/pg68566.txt"
+
+# Scope: Part I. The play starts at the first marker line and ends right before the end
+# marker (exclusive); what follows is Llorente's prose summary of Part II (out of scope).
+# Both are matched as whole stripped lines; `end_occurrence` picks which occurrence
+# (1-based) counts, searching after the start marker.
+[scope]
+start_marker = "DEDICATORIA"
+end_marker = "BREVE RESEÑA"
+end_occurrence = 1
+
+# Parser hints. `direction_headings`: whole lines printed in capitals that are stage
+# directions or section titles (not speakers); each becomes a `direction` line.
+[parser]
+direction_headings = [
+  "CAMPESINOS BAJO LOS TILOS",
+  "ENTRA UN ESTUDIANTE",
+  "ENTRA FAUSTO",
+  "ENTRAN FAUSTO Y MEFISTÓFELES",
+  "ENTRA MEFISTÓFELES",
+  "MEFISTÓFELES, FAUSTO",
+  "FAUSTO, MEFISTÓFELES",
+]
+
+# Speaker headings as printed (upper case, before any comma/parenthesis) -> cast id.
+[speakers]
+"EL DIRECTOR" = "director"
+"EL POETA" = "poet"
+"EL GRACIOSO" = "clown"
+"RAFAEL" = "raphael"
+"GABRIEL" = "gabriel"
+"MIGUEL" = "michael"
+"LOS TRES ARCÁNGELES" = "archangels"
+"MEFISTÓFELES" = "mephisto"
+"EL SEÑOR" = "lord"
+"FAUSTO" = "faust"
+"EL ESPÍRITU" = "spirit"
+
+# Speakers added for the full text. Anonymous one-off speakers share a group id; keys that
+# contain markup or punctuation are matched as the whole printed line.
+"WAGNER" = "wagner"
+"MARGARITA" = "margarita"
+"MARTA" = "marta"
+"VALENTÍN" = "valentin"
+"LA BRUJA" = "witch"
+"ESTUDIANTE" = "student"
+"FROSCH" = "frosch"
+"BRANDER" = "brander"
+"SIEBEL" = "siebel"
+"ALTMAYER" = "altmayer"
+"LUISA" = "lisa"
+"EL ESPÍRITU MALO" = "evil_spirit"
+"EL FUEGO FATUO" = "wisp"
+"OBERÓN" = "oberon"
+"TITANIA" = "titania"
+"PUCK" = "puck"
+"ARIEL" = "ariel"
+"CORO DE ÁNGELES" = "angels_chorus"
+"CORO DE MUJERES" = "women_chorus"
+"CORO DE DISCÍPULOS" = "disciples_chorus"
+"CORO DE ESPÍRITUS" = "spirits"
+"ESPÍRITUS" = "spirits"
+"CORO" = "chorus"
+"EL CORO" = "chorus"
+"TODOS" = "everyone"
+"UNOS ARTESANOS" = "artisans"
+"OTROS" = "artisans"
+"LOS PRIMEROS" = "artisans"
+"OTRO CAMARADA" = "artisans"
+"UNO DE LOS PRIMEROS" = "artisans"
+"LOS SEGUNDOS" = "artisans"
+"UN TERCERO" = "artisans"
+"CUARTO ARTESANO" = "artisans"
+"QUINTO ARTESANO" = "artisans"
+"UNA MOZA DE SERVICIO" = "servant_girls"
+"OTRA" = "servant_girls"
+"LA PRIMERA" = "servant_girls"
+"LA OTRA" = "servant_girls"
+"UN ESTUDIANTE" = "students"
+"EL PRIMER ESTUDIANTE" = "students"
+"EL SEGUNDO ESTUDIANTE" = "students"
+"UN CIUDADANO" = "citizens"
+"CIUDADANO SEGUNDO" = "citizens"
+"CIUDADANO TERCERO" = "citizens"
+"UN MENDIGO" = "citizens"
+"UNA SEÑORITA DE LA CLASE MEDIA" = "citizens"
+"UNA VIEJA" = "citizens"
+"LA JOVEN" = "citizens"
+"LA SEGUNDA JOVEN" = "citizens"
+"CANCIÓN DE LOS SOLDADOS" = "soldiers"
+"UN LABRIEGO VIEJO" = "peasants"
+"EL LABRIEGO" = "peasants"
+"LOS MONOS" = "apes"
+"EL MICO" = "apes"
+"LOS MICOS" = "apes"
+"LA GENTE" = "crowd"
+"UNA VOZ" = "voices"
+"OTRA VOZ" = "voices"
+"LA PRIMERA VOZ" = "voices"
+"LA OTRA VOZ" = "voices"
+"VOZ DE ARRIBA" = "voices"
+"VOCES DE ABAJO" = "voices"
+"VOZ DE ABAJO" = "voices"
+"VOZ INTERIOR" = "voices"
+"BRUJAS EN CORO" = "witches"
+"CORO DE BRUJAS" = "witches"
+"EL OTRO MEDIO CORO DE BRUJOS" = "witches"
+"BRUJOS. MEDIO CORO" = "witches"
+"AMBOS COROS" = "witches"
+"UNA SEMIBRUJA" = "witches"
+"LA BRUJA PRENDERA" = "witches"
+"UN GENERAL" = "walpurgis_guests"
+"UN MINISTRO" = "walpurgis_guests"
+"UN ADVENEDIZO" = "walpurgis_guests"
+"UN AUTOR" = "walpurgis_guests"
+"LA HERMOSA" = "walpurgis_guests"
+"LA VIEJA" = "walpurgis_guests"
+"EL PROKTOFANTASMISTA" = "walpurgis_guests"
+"SERVÍBILIS" = "walpurgis_guests"
+"LA ORQUESTA" = "orchestra"
+"LA ORQUESTA, TUTTI" = "orchestra"
+"SOLO" = "orchestra"
+"FAUSTO, MEFISTÓFELES _y_ EL FUEGO FATUO _cantando alternativamente_" = "trio"
+"EL DIRECTOR DEL TEATRO" = "dream_figures"
+"UN HERALDO" = "dream_figures"
+"UN ARTISTA DEL NORTE" = "dream_figures"
+"UNA BRUJA JOVEN" = "dream_figures"
+"UNA MATRONA" = "dream_figures"
+"EL MAESTRO DE CAPILLA" = "dream_figures"
+"LA VELETA" = "dream_figures"
+"UN EX GENIO DEL SIGLO" = "dream_figures"
+"UN HOMBRE DE MUNDO" = "dream_figures"
+"UN DANZANTE" = "dream_figures"
+"EL MAESTRO DE BAILE" = "dream_figures"
+"UN JUGLAR" = "dream_figures"
+"UN MATERIALISTA" = "dream_figures"
+"UN SUPERNATURALISTA" = "dream_figures"
+"LOS AHÍTOS" = "dream_figures"
+"FUEGOS FATUOS" = "dream_figures"
+"UNA ESTRELLA CAÍDA" = "dream_figures"
+"LOS AMAZACOTADOS" = "dream_figures"
+"UN GENIO QUE SE ESTÁ FORMANDO" = "dream_figures"
+"UNA PAREJITA" = "dream_figures"
+"UN VIAJERO CURIOSO" = "dream_figures"
+"UN ORTODOXO" = "dream_figures"
+"UN PURISTA" = "dream_figures"
+"LOS XENIOS" = "dream_figures"
+"HENNINGS" = "dream_figures"
+"MUSAGETA" = "dream_figures"
+"EL VIAJERO CURIOSO" = "dream_figures"
+"UNA GRULLA" = "dream_figures"
+"UN DOGMÁTICO" = "dream_figures"
+"UN IDEALISTA" = "dream_figures"
+"UN ESCÉPTICO" = "dream_figures"
+"LOS APROVECHADOS" = "dream_figures"
+
+# Main menu look: the background (darkened) behind the title.
+[ui]
+main_menu_bg = "bg_study"
+# Ren'Py language of the stock menus; strings come from tl/<language>/ (vendored from the SDK).
+language = "spanish"
+
+# Scene heading (as printed) -> scene id, location, time of day. A heading printed several
+# times ("CALLE", "GABINETE DE ESTUDIO", "DE NOCHE") needs `occurrence` (1-based, in order of
+# appearance) on each entry. `format = "prose"` marks scenes printed as prose, not verse.
+[[scenes]]
+heading = "DEDICATORIA"
+id = "dedicatoria"
+location = "dedication"
+time_of_day = "timeless"
+subtitle = "Imágenes de la juventud · Crepúsculo"
+
+[[scenes]]
+heading = "PRÓLOGO EN EL TEATRO"
+id = "prologo_teatro"
+location = "theatre"
+time_of_day = "day"
+subtitle = "Escenario de un teatro · Día"
+
+[[scenes]]
+heading = "PRÓLOGO EN EL CIELO"
+id = "prologo_cielo"
+location = "heaven"
+time_of_day = "timeless"
+subtitle = "El cielo · Fuera del tiempo"
+
+[[scenes]]
+heading = "DE NOCHE"
+occurrence = 1
+id = "noche"
+location = "study"
+time_of_day = "night"
+subtitle = "Gabinete gótico de Fausto · Noche"
+
+[[scenes]]
+heading = "A LAS PUERTAS DE LA CIUDAD"
+id = "puertas_ciudad"
+location = "city_gates"
+time_of_day = "day"
+subtitle = "Fuera de las murallas · Día de Pascua"
+
+[[scenes]]
+heading = "GABINETE DE ESTUDIO"
+occurrence = 1
+id = "gabinete_1"
+location = "study"
+time_of_day = "night"
+subtitle = "Gabinete de Fausto · Noche"
+
+[[scenes]]
+heading = "GABINETE DE ESTUDIO"
+occurrence = 2
+id = "gabinete_2"
+location = "study"
+time_of_day = "day"
+subtitle = "Gabinete de Fausto · Día"
+
+[[scenes]]
+heading = "TABERNA DE AUERBACH EN LEIPZIG"
+id = "taberna_auerbach"
+location = "tavern"
+time_of_day = "night"
+subtitle = "Taberna de Auerbach, Leipzig · Noche"
+
+[[scenes]]
+heading = "COCINA DE LA BRUJA"
+id = "cocina_bruja"
+location = "witch_kitchen"
+time_of_day = "timeless"
+subtitle = "Cocina de la bruja · Fuera del tiempo"
+
+[[scenes]]
+heading = "CALLE"
+occurrence = 1
+id = "calle_1"
+location = "street"
+time_of_day = "day"
+subtitle = "Una calle de la ciudad · Día"
+
+[[scenes]]
+heading = "AL CAER LA TARDE"
+id = "cuartito"
+location = "margaret_room"
+time_of_day = "dusk"
+subtitle = "Aposento de Margarita · Atardecer"
+
+[[scenes]]
+heading = "PASEO"
+id = "paseo"
+location = "promenade"
+time_of_day = "day"
+subtitle = "Un paseo · Día"
+
+[[scenes]]
+heading = "CASA DE LA VECINA"
+id = "casa_vecina"
+location = "neighbour_house"
+time_of_day = "day"
+subtitle = "Casa de la vecina · Día"
+
+[[scenes]]
+heading = "CALLE"
+occurrence = 2
+id = "calle_2"
+location = "street"
+time_of_day = "day"
+subtitle = "Una calle de la ciudad · Día"
+
+[[scenes]]
+heading = "JARDÍN"
+id = "jardin"
+location = "garden"
+time_of_day = "day"
+subtitle = "Jardín de Marta · Día"
+
+[[scenes]]
+heading = "UN PABELLONCITO EN EL JARDÍN"
+id = "pabelloncito"
+location = "garden_pavilion"
+time_of_day = "dusk"
+subtitle = "Pabelloncito del jardín · Atardecer"
+
+[[scenes]]
+heading = "BOSQUES Y CAVERNAS"
+id = "bosques_cavernas"
+location = "forest_cave"
+time_of_day = "day"
+subtitle = "Bosque y caverna · Día"
+
+[[scenes]]
+heading = "APOSENTO DE MARGARITA"
+id = "aposento_margarita"
+location = "margaret_room"
+time_of_day = "day"
+subtitle = "Aposento de Margarita · Día"
+
+[[scenes]]
+heading = "JARDÍN DE MARTA"
+id = "jardin_marta"
+location = "garden"
+time_of_day = "day"
+subtitle = "Jardín de Marta · Día"
+
+[[scenes]]
+heading = "EN LA FUENTE"
+id = "fuente"
+location = "fountain"
+time_of_day = "day"
+subtitle = "La fuente de la ciudad · Día"
+
+[[scenes]]
+heading = "EN LOS MUROS DE LA CIUDAD"
+id = "muros"
+location = "city_walls"
+time_of_day = "dusk"
+subtitle = "Muros de la ciudad · Atardecer"
+
+[[scenes]]
+heading = "DE NOCHE"
+occurrence = 2
+id = "calle_noche"
+location = "street"
+time_of_day = "night"
+subtitle = "Ante la casa de Margarita · Noche"
+
+[[scenes]]
+heading = "CATEDRAL"
+id = "catedral"
+location = "cathedral"
+time_of_day = "day"
+subtitle = "La catedral · Día"
+
+[[scenes]]
+heading = "NOCHE DE SANTA VALPURGIS"
+id = "valpurgis"
+location = "harz"
+time_of_day = "night"
+subtitle = "Montes del Harz · Noche de Walpurgis"
+
+[[scenes]]
+heading = "INTERMEDIO"
+id = "intermedio"
+location = "harz"
+time_of_day = "night"
+subtitle = "Sueño de una noche de Walpurgis · Noche"
+
+[[scenes]]
+heading = "DÍA NEBULOSO"
+id = "dia_nebuloso"
+location = "field"
+time_of_day = "day"
+subtitle = "Campo abierto · Día nebuloso"
+format = "prose"
+
+[[scenes]]
+heading = "NOCHE"
+id = "noche_campo"
+location = "field"
+time_of_day = "night"
+subtitle = "Campo abierto · Noche"
+format = "prose"
+
+[[scenes]]
+heading = "CÁRCEL"
+id = "carcel"
+location = "prison"
+time_of_day = "night"
+subtitle = "Calabozo de Margarita · Noche"
+
+# Voice track: the LibriVox German dramatic reading under the Spanish text (docs/voice.md).
+# `scenes` (optional) limits what `vnpipe voice` processes by default.
+[voice]
+text_url = "https://www.gutenberg.org/cache/epub/2229/pg2229.txt"
+text_file = "data/raw/pg2229.txt"
+audio_url = "https://www.archive.org/download/faust1teil_1412_librivox/faust1_{nn:02d}_goethe_64kb.mp3"
+audio_dir = "data/raw/librivox"
+ensembles = ["archangels", "angels_chorus", "women_chorus", "disciples_chorus", "artisans", "servant_girls", "students", "citizens", "soldiers", "peasants", "everyone", "crowd", "spirits", "apes", "chorus", "witches", "voices", "walpurgis_guests", "dream_figures", "orchestra", "trio", "wisp"]
+credits = [
+  "Lectura dramatizada de LibriVox, «Faust: Der Tragödie erster Teil» (dominio público): librivox.org/faust-der-tragoedie-erster-teil-by-johann-wolfgang-von-goethe",
+  "Narrador: Gesine. Mefistófeles: Herman Roskams. Fausto: redaer. Margarita: Sonja. Marta: Availle. Wagner y espíritus: Herr_Klugbeisser. Valentín: ekyale.",
+  "Brujas y coro de mujeres: Hokuspokus. Estudiante: DerHoepp. Doncellas: Jc Guan. Director y espíritu maligno: Stephanie König. Anciana y Xenias: Rapunzelina.",
+  "Rana, Rafael y Miguel: Dirk Weber. Gabriel: Claudia Weber. Los animales: Jennifer Takhar, Viktor Horvath y Katia Postnikova.",
+  "El Señor, coro de espíritus, ciudadanos y bailarines: Bastian Hepp. Campesinos: ToddHW. Poeta teatral: Ernst Pattynama. Artesano, Brander, Siebel y Altmayer: Markus Wachenheim.",
+  "Lieschen, la vieja y Titania: Katieamp. Coro de ángeles: Christa. Puck y soldados: Elli. Fuegos fatuos: Laurie Anne Walden. Voces: wilwarin.",
+  "Lars Rolander, Robert Steiner, Neeru Iyer, Nadine Eckert-Boulet, Anna Simon, Christian Al-Kadi, jgoebel9 y Jessi: resto del reparto del Intermedio, la Noche de Valpurgis y el coro de discípulos.",
+  "Montaje de audio: Rapunzelina.",
+]
+
+[voice.asr]
+host = "root@192.168.1.0"
+workdir = "/root/vn-tts"
+python = ".venv/bin/python"
+prelude = "NV=.venv/lib/python3.11/site-packages/nvidia; export LD_LIBRARY_PATH=$PWD/$NV/cublas/lib:$PWD/$NV/cudnn/lib; export HF_HOME=/root/vn-tts/hf"
+model = "medium"
+devices = [0, 1]   # GPUs used in parallel
+language = "de"
+
+# German speaker label as printed (upper case, without its parenthetical) -> cast id.
+[voice.speakers]
+"MEPHISTOPHELES" = "mephisto"
+"FAUST" = "faust"
+"MARGARETE" = "margarita"
+"GRETCHEN" = "margarita"
+"MARTHE" = "marta"
+"WAGNER" = "wagner"
+"VALENTIN" = "valentin"
+"SCHÜLER" = "student"
+"DIE HEXE" = "witch"
+"LIESCHEN" = "lisa"
+"DER HERR" = "lord"
+"FROSCH" = "frosch"
+"BRANDER" = "brander"
+"SIEBEL" = "siebel"
+"ALTMAYER" = "altmayer"
+"GEIST" = "spirit"
+"BÖSER GEIST" = "evil_spirit"
+"DIREKTOR" = "director"
+"DICHTER" = "poet"
+"LUSTIGE PERSON" = "clown"
+"RAPHAEL" = "raphael"
+"GABRIEL" = "gabriel"
+"MICHAEL" = "michael"
+"OBERON" = "oberon"
+"TITANIA" = "titania"
+"PUCK" = "puck"
+"ARIEL" = "ariel"
+"IRRLICHT" = "wisp"
+"CHOR DER ENGEL" = "angels_chorus"
+"CHOR" = "chorus"
+"CHORUS" = "chorus"
+"ZU DREI" = "archangels"
+"CHOR DER WEIBER" = "women_chorus"
+"CHOR DER JÜNGER" = "disciples_chorus"
+# Ordinal labels ("the others", "first") are a crowd member of whichever group is speaking.
+"EINIGE HANDWERKSBURSCHE" = "artisans"
+"DIE ERSTEN" = "artisans"
+"EIN HANDWERKSBURSCH" = "artisans"
+"DIE ZWEITEN" = "artisans"
+"EIN DRITTER" = "artisans"
+"VIERTER" = "artisans"
+"FÜNFTER" = "artisans"
+"ANDRE" = "crowd"
+"ERSTE" = "crowd"
+"ERSTER" = "crowd"
+"ZWEITER" = "crowd"
+"DIE ANDRE" = "crowd"
+"VOLK" = "crowd"
+"DIENSTMÄDCHEN" = "servant_girls"
+"ZWEITER SCHÜLER" = "students"
+"BÜRGERMÄDCHEN" = "citizens"
+"BÜRGER" = "citizens"
+"BETTLER" = "citizens"
+"ANDRER BÜRGER" = "citizens"
+"DRITTER BÜRGER" = "citizens"
+"ALTE" = "citizens"
+"SOLDATEN" = "soldiers"
+"ALTER BAUER" = "peasants"
+"ALLE" = "everyone"
+"GEISTER" = "spirits"
+"GEISTERCHOR" = "spirits"
+"DIE TIERE" = "apes"
+"DER KATER" = "apes"
+"KATER UND KÄTZIN" = "apes"
+"HEXEN" = "witches"
+"ANDERE HÄLFTE" = "witches"
+"BEIDE CHÖRE" = "witches"
+"HALBHEXE" = "witches"
+"CHOR DER HEXEN" = "witches"
+"TRÖDELHEXE" = "witches"
+"JUNGE HEXE" = "witches"
+"STIMME" = "voices"
+"STIMMEN" = "voices"
+"GENERAL" = "walpurgis_guests"
+"MINISTER" = "walpurgis_guests"
+"PARVENÜ" = "walpurgis_guests"
+"AUTOR" = "walpurgis_guests"
+"DIE SCHÖNE" = "walpurgis_guests"
+"DIE ALTE" = "walpurgis_guests"
+"PROKTOPHANTASMIST" = "walpurgis_guests"
+"SERVIBILIS" = "walpurgis_guests"
+"THEATERMEISTER" = "dream_figures"
+"HEROLD" = "dream_figures"
+"EIN PÄRCHEN" = "dream_figures"
+"NEUGIERIGER REISENDER" = "dream_figures"
+"ORTHODOX" = "dream_figures"
+"NORDISCHER KÜNSTLER" = "dream_figures"
+"PURIST" = "dream_figures"
+"MATRONE" = "dream_figures"
+"KAPELLMEISTER" = "dream_figures"
+"WINDFAHNE" = "dream_figures"
+"XENIEN" = "dream_figures"
+"HENNINGS" = "dream_figures"
+"MUSAGET" = "dream_figures"
+"KRANICH" = "dream_figures"
+"WELTKIND" = "dream_figures"
+"TÄNZER" = "dream_figures"
+"TANZMEISTER" = "dream_figures"
+"FIEDLER" = "dream_figures"
+"DOGMATIKER" = "dream_figures"
+"IDEALIST" = "dream_figures"
+"REALIST" = "dream_figures"
+"SUPERNATURALIST" = "dream_figures"
+"SKEPTIKER" = "dream_figures"
+"DIE GEWANDTEN" = "dream_figures"
+"DIE UNBEHILFLICHEN" = "dream_figures"
+"STERNSCHNUPPE" = "dream_figures"
+"DIE MASSIVEN" = "dream_figures"
+"IRRLICHTER" = "dream_figures"
+"ORCHESTER" = "orchestra"
+"ORCHESTER TUTTI" = "orchestra"
+"SOLO" = "orchestra"
+
+# The game's ensemble ids that one source label may stand for: two of them pair up at a penalty.
+# (Spanish `students` vs German "SCHÜLER": handled per scene below.)
+
+[voice.scene_speakers.puertas_ciudad]
+"SCHÜLER" = "students"
+[voice.scene_speakers.intermedio]
+"JUNGE HEXE" = "dream_figures"
+
+# Per-speaker ffmpeg -af chain applied before loudnorm.
+[voice.filters]
+faust = "highpass=f=80,afftdn=nr=11:nf=-40,equalizer=f=3000:t=q:w=1.2:g=2"
+
+[[voice.sections]]
+scene = "dedicatoria"
+nn = 1
+heading = "Zueignung"
+default_speaker = "poet_voice"
+
+[[voice.sections]]
+scene = "prologo_teatro"
+nn = 2
+heading = "Vorspiel auf dem Theater"
+
+[[voice.sections]]
+scene = "prologo_cielo"
+nn = 3
+heading = "Prolog im Himmel"
+
+[[voice.sections]]
+scene = "noche"
+nn = 4
+heading = "Nacht"
+
+[[voice.sections]]
+scene = "puertas_ciudad"
+nn = 5
+heading = "Vor dem Tor"
+
+[[voice.sections]]
+scene = "gabinete_1"
+nn = 6
+heading = "Studierzimmer"
+
+[[voice.sections]]
+scene = "gabinete_2"
+nn = 7
+heading = "Studierzimmer"
+
+[[voice.sections]]
+scene = "taberna_auerbach"
+nn = 8
+heading = "Auerbachs Keller in Leipzig"
+
+[[voice.sections]]
+scene = "cocina_bruja"
+nn = 9
+heading = "Hexenküche"
+
+[[voice.sections]]
+scene = "calle_1"
+nn = 10
+heading = "Straße (I)"
+
+[[voice.sections]]
+scene = "cuartito"
+nn = 11
+heading = "Abend."
+
+[[voice.sections]]
+scene = "paseo"
+nn = 12
+heading = "Spaziergang"
+
+[[voice.sections]]
+scene = "casa_vecina"
+nn = 13
+heading = "Der Nachbarin Haus"
+
+[[voice.sections]]
+scene = "calle_2"
+nn = 14
+heading = "Straße (II)"
+
+[[voice.sections]]
+scene = "jardin"
+nn = 15
+heading = "Garten"
+
+[[voice.sections]]
+scene = "pabelloncito"
+nn = 16
+heading = "Ein Gartenhäuschen"
+
+[[voice.sections]]
+scene = "bosques_cavernas"
+nn = 17
+heading = "Wald und Höhle"
+
+[[voice.sections]]
+scene = "aposento_margarita"
+nn = 18
+heading = "Gretchens Stube"
+
+[[voice.sections]]
+scene = "jardin_marta"
+nn = 19
+heading = "Marthens Garten"
+
+[[voice.sections]]
+scene = "fuente"
+nn = 20
+heading = "Am Brunnen"
+
+[[voice.sections]]
+scene = "muros"
+nn = 21
+heading = "Zwinger"
+default_speaker = "margarita"
+skip_paragraphs = 1
+
+[[voice.sections]]
+scene = "calle_noche"
+nn = 22
+heading = "Nacht. Straße vor Gretchens Türe"
+
+[[voice.sections]]
+scene = "catedral"
+nn = 23
+heading = "Dom"
+
+[[voice.sections]]
+scene = "valpurgis"
+nn = 24
+heading = "Walpurgisnacht"
+
+[[voice.sections]]
+scene = "intermedio"
+nn = 25
+heading = "Walpurgisnachtstraum"
+
+[[voice.sections]]
+scene = "dia_nebuloso"
+nn = 26
+heading = "Trüber Tag. Feld"
+
+[[voice.sections]]
+scene = "noche_campo"
+nn = 27
+heading = "Nacht, offen Feld"
+
+[[voice.sections]]
+scene = "carcel"
+nn = 28
+heading = "Kerker"
+
+# Cast. `sprite = false` means the character is never drawn as a standing sprite
+# (see docs/adaptation-rules.md); `expressions` maps the annotation emotion
+# vocabulary to the sprite expressions that exist for that character.
+[cast.narrator]
+name = ""
+color = "#d8cfc0"
+
+[cast.poet_voice]
+# The Dedicatoria is spoken by the author-poet; rendered as full-screen text.
+name = ""
+color = "#e8dcc2"
+sprite = false
+
+[cast.director]
+name = "El Director"
+color = "#c9a25b"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", joyful = "pleased", ecstatic = "pleased", ironic = "pleased", melancholic = "worried", angry = "worried", fearful = "worried" }
+
+[cast.poet]
+name = "El Poeta"
+color = "#8fa8c8"
+sprite = true
+expressions = { neutral = "neutral", melancholic = "neutral", solemn = "inspired", joyful = "inspired", ecstatic = "inspired", ironic = "indignant", angry = "indignant", fearful = "indignant" }
+
+[cast.clown]
+name = "El Gracioso"
+color = "#c87a5a"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "neutral", joyful = "laughing", ecstatic = "laughing", ironic = "mocking", angry = "mocking", fearful = "neutral" }
+
+[cast.raphael]
+name = "Rafael"
+color = "#f0d890"
+sprite = false
+
+[cast.gabriel]
+name = "Gabriel"
+color = "#d8e4f0"
+sprite = false
+
+[cast.michael]
+name = "Miguel"
+color = "#e8a878"
+sprite = false
+
+[cast.archangels]
+name = "Los tres Arcángeles"
+color = "#f4ecd0"
+sprite = false
+
+[cast.lord]
+name = "El Señor"
+color = "#fff4c8"
+sprite = false
+
+[cast.mephisto]
+name = "Mefistófeles"
+color = "#b04a3a"
+sprite = true
+expressions = { neutral = "neutral", solemn = "deferent", melancholic = "neutral", joyful = "sly", ecstatic = "sly", ironic = "sly", angry = "scornful", fearful = "deferent" }
+
+[cast.faust]
+name = "Fausto"
+color = "#a8b890"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", ironic = "neutral", melancholic = "anguished", angry = "anguished", joyful = "ecstatic", ecstatic = "ecstatic", fearful = "fearful" }
+
+[cast.spirit]
+name = "El Espíritu"
+color = "#e85a3a"
+sprite = false
+
+# Characters added for the full text. Named characters first; then groups of anonymous speakers.
+# Sprite characters here have 2-4 expressions (see assets/assets.json) covering all 8 emotions.
+
+[cast.wagner]
+name = "Wagner"
+color = "#9fb4d9"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "uneasy", joyful = "eager", ecstatic = "eager", ironic = "eager", angry = "uneasy", fearful = "uneasy" }
+
+[cast.margarita]
+name = "Margarita"
+color = "#e8b4c0"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "sorrowful", joyful = "joyful", ecstatic = "joyful", ironic = "neutral", angry = "fearful", fearful = "fearful" }
+
+[cast.marta]
+name = "Marta"
+color = "#c9a5d8"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "distressed", joyful = "coy", ecstatic = "coy", ironic = "coy", angry = "distressed", fearful = "distressed" }
+
+[cast.valentin]
+name = "Valentín"
+color = "#d98a6a"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "dying", joyful = "neutral", ecstatic = "neutral", ironic = "angry", angry = "angry", fearful = "dying" }
+
+[cast.witch]
+name = "La Bruja"
+color = "#9ac47a"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "neutral", joyful = "cackling", ecstatic = "cackling", ironic = "cackling", angry = "furious", fearful = "furious" }
+
+[cast.student]
+name = "El Estudiante"
+color = "#e0c070"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "puzzled", joyful = "eager", ecstatic = "eager", ironic = "eager", angry = "puzzled", fearful = "puzzled" }
+
+[cast.frosch]
+name = "Frosch"
+color = "#e0a860"
+sprite = false
+
+[cast.brander]
+name = "Brander"
+color = "#c8c078"
+sprite = false
+
+[cast.siebel]
+name = "Siebel"
+color = "#88c0b0"
+sprite = false
+
+[cast.altmayer]
+name = "Altmayer"
+color = "#b8a090"
+sprite = false
+
+[cast.lisa]
+name = "Luisa"
+color = "#f0b8a0"
+sprite = true
+expressions = { neutral = "neutral", solemn = "neutral", melancholic = "neutral", joyful = "smug", ecstatic = "smug", ironic = "smug", angry = "smug", fearful = "neutral" }
+
+[cast.evil_spirit]
+name = "El Espíritu Malo"
+color = "#8a3a50"
+sprite = false
+
+[cast.wisp]
+name = "El Fuego Fatuo"
+color = "#f0e070"
+sprite = false
+
+[cast.oberon]
+name = "Oberón"
+color = "#7ab8e8"
+sprite = false
+
+[cast.titania]
+name = "Titania"
+color = "#d8a0e8"
+sprite = false
+
+[cast.puck]
+name = "Puck"
+color = "#a0d870"
+sprite = false
+
+[cast.ariel]
+name = "Ariel"
+color = "#a8e0f0"
+sprite = false
+
+[cast.angels_chorus]
+name = "Coro de Ángeles"
+color = "#f0f0d8"
+sprite = false
+
+[cast.women_chorus]
+name = "Coro de Mujeres"
+color = "#e8d0e0"
+sprite = false
+
+[cast.disciples_chorus]
+name = "Coro de Discípulos"
+color = "#d0d8e8"
+sprite = false
+
+[cast.spirits]
+name = "Espíritus"
+color = "#a898d8"
+sprite = false
+
+[cast.chorus]
+name = "El Coro"
+color = "#c8b8a0"
+sprite = false
+
+[cast.everyone]
+name = "Todos"
+color = "#d0c8b0"
+sprite = false
+
+[cast.artisans]
+name = "Artesanos"
+color = "#c09870"
+sprite = false
+
+[cast.servant_girls]
+name = "Criadas"
+color = "#d8a8b0"
+sprite = false
+
+[cast.students]
+name = "Estudiantes"
+color = "#b0b868"
+sprite = false
+
+[cast.citizens]
+name = "Ciudadanos"
+color = "#a8b8c0"
+sprite = false
+
+[cast.soldiers]
+name = "Soldados"
+color = "#c87868"
+sprite = false
+
+[cast.peasants]
+name = "Campesinos"
+color = "#a8c070"
+sprite = false
+
+[cast.apes]
+name = "Los Monos"
+color = "#b09060"
+sprite = false
+
+[cast.crowd]
+name = "La Gente"
+color = "#b8b0a8"
+sprite = false
+
+[cast.voices]
+name = "Voces"
+color = "#c0c8e0"
+sprite = false
+
+[cast.witches]
+name = "Brujas"
+color = "#8ab870"
+sprite = false
+
+[cast.walpurgis_guests]
+name = "Invitados de Walpurgis"
+color = "#d0a878"
+sprite = false
+
+[cast.orchestra]
+name = "La Orquesta"
+color = "#d8c8a0"
+sprite = false
+
+[cast.trio]
+name = "Fausto, Mefistófeles y el Fuego Fatuo"
+color = "#d8d0a0"
+sprite = false
+
+[cast.dream_figures]
+name = "Figuras del Sueño"
+color = "#b8a8c8"
+sprite = false
+
+# Staging decisions (human judgment, see docs/adaptation-rules.md).
+# A scene's `bg` is shown after its title card; `mode` is the default text mode
+# ("adv" = dialogue box with sprites, "nvl" = full-screen text, no sprites).
+# A cue fires right before the line with id `at`. Keys:
+#   bg         background asset id to switch to
+#   transition dissolve | fade | flash (white/colour flash) | slow (long dissolve)
+#   tint       none | dark | red   (colour treatment of the current background)
+#   mode       adv | nvl
+#   hide_all   true -> remove all sprites
+#   shake      true -> short screen shake
+#   move       { <char> = "<pos>" } -> slide a visible sprite to left|center|right
+# A scene may also pin characters on stage for the whole scene, overriding the
+# annotation's on_stage/positions for them (sprite = true characters only):
+#   cast       { <char> = "left|center|right", ... }
+# [[overrides]] (end of file) force the emotion of a line range before expression mapping.
+[staging.dedicatoria]
+bg = "bg_dedication"
+mode = "nvl"
+
+[staging.prologo_teatro]
+bg = "bg_theatre"
+mode = "adv"
+cast = { clown = "left", director = "center", poet = "right" }
+
+[staging.prologo_cielo]
+bg = "bg_heaven"
+mode = "nvl"
+cast = { mephisto = "left" }
+
+[staging.noche]
+bg = "bg_study"
+mode = "adv"
+cast = { faust = "center" }
+
+[staging.puertas_ciudad]
+bg = "bg_city_gates"
+mode = "adv"
+
+[staging.gabinete_1]
+bg = "bg_study"
+mode = "adv"
+cast = { faust = "left" }
+
+[staging.gabinete_2]
+bg = "bg_study_day"
+mode = "adv"
+cast = { mephisto = "right" }
+
+[staging.taberna_auerbach]
+bg = "bg_tavern"
+mode = "adv"
+music = "track:scenes/mephisto-waltz-1.ogg"
+
+[staging.cocina_bruja]
+bg = "bg_witch_kitchen"
+mode = "adv"
+cast = { faust = "left", mephisto = "right" }
+
+[staging.calle_1]
+bg = "bg_street"
+mode = "adv"
+cast = { faust = "left" }
+
+[staging.cuartito]
+bg = "bg_margaret_room"
+mode = "adv"
+
+[staging.paseo]
+bg = "bg_promenade"
+mode = "adv"
+cast = { mephisto = "right" }
+
+[staging.casa_vecina]
+bg = "bg_neighbour_house"
+mode = "adv"
+cast = { marta = "left" }
+
+[staging.calle_2]
+bg = "bg_street"
+mode = "adv"
+cast = { faust = "left", mephisto = "right" }
+
+[staging.jardin]
+bg = "bg_garden"
+mode = "adv"
+
+[staging.pabelloncito]
+bg = "bg_garden_pavilion"
+mode = "adv"
+cast = { margarita = "left" }
+
+[staging.bosques_cavernas]
+bg = "bg_forest_cave"
+mode = "adv"
+cast = { faust = "left" }
+
+[staging.aposento_margarita]
+bg = "bg_margaret_room"
+mode = "nvl"
+music = "track:scenes/gretchen-am-spinnrade.ogg"
+
+[staging.jardin_marta]
+bg = "bg_garden"
+mode = "adv"
+cast = { faust = "left" }
+
+[staging.fuente]
+bg = "bg_fountain"
+mode = "adv"
+cast = { margarita = "right" }
+
+[staging.muros]
+bg = "bg_city_walls"
+mode = "nvl"
+
+[staging.calle_noche]
+bg = "bg_street_night"
+mode = "adv"
+
+[staging.catedral]
+bg = "bg_cathedral"
+mode = "adv"
+cast = { margarita = "center" }
+music = "track:scenes/mozart-dies-irae.ogg"
+
+[staging.valpurgis]
+bg = "bg_harz"
+mode = "adv"
+cast = { faust = "left", mephisto = "right" }
+
+[staging.intermedio]
+bg = "bg_intermezzo"
+mode = "nvl"
+
+[staging.dia_nebuloso]
+bg = "bg_field_day"
+mode = "adv"
+cast = { faust = "left", mephisto = "right" }
+
+[staging.noche_campo]
+bg = "bg_field_night"
+mode = "adv"
+cast = { faust = "left", mephisto = "right" }
+
+[staging.carcel]
+bg = "bg_prison"
+mode = "adv"
+
+[[cues]]
+# The Easter choruses ("Cristo ha resucitado") reach Faust's study: Bach's Easter cantata
+# plays until the end of the scene.
+at = "noche_0473"
+music = "track:scenes/bach-bwv4-christ-lag.ogg"
+
+[[cues]]
+# The archangels' hymn ends; the Lord is addressed by Mephistopheles.
+at = "prologo_cielo_0030"
+bg = "bg_heaven_lord"
+transition = "slow"
+mode = "adv"
+
+[[cues]]
+at = "prologo_cielo_0161"
+bg = "bg_heaven"
+transition = "slow"
+tint = "dark"
+
+[[cues]]
+at = "noche_0082"
+bg = "bg_study_macrocosm"
+transition = "slow"
+
+[[cues]]
+at = "noche_0118"
+bg = "bg_study"
+transition = "dissolve"
+tint = "red"
+
+[[cues]]
+at = "noche_0145"
+bg = "bg_study_spirit"
+transition = "flash"
+shake = true
+move = { faust = "left" }  # keep the Spirit's flame (centre of the background) visible
+
+[[cues]]
+# Faust's sunset speech: the light fades toward dusk.
+at = "puertas_ciudad_0375"
+tint = "dark"
+transition = "slow"
+
+[[cues]]
+# The poodle swells like a storm cloud under Faust's spell.
+at = "gabinete_1_0143"
+tint = "red"
+transition = "slow"
+
+[[cues]]
+# The mist dissolves: Mephistopheles stands by the stove as a travelling scholar.
+at = "gabinete_1_0159"
+tint = "none"
+transition = "flash"
+shake = true
+
+[[cues]]
+# The spirits' lullaby; Faust falls asleep.
+at = "gabinete_1_0367"
+tint = "dark"
+transition = "slow"
+
+[[cues]]
+# The pact is to be signed in blood.
+at = "gabinete_2_0268"
+tint = "red"
+transition = "dissolve"
+
+[[cues]]
+# Back to ordinary light after the signing.
+at = "gabinete_2_0278"
+tint = "none"
+transition = "dissolve"
+
+[[cues]]
+# The spilled wine bursts into flame.
+at = "taberna_auerbach_0351"
+tint = "red"
+transition = "flash"
+shake = true
+
+[[cues]]
+# Mephistopheles vanishes with Faust.
+at = "taberna_auerbach_0389"
+tint = "none"
+transition = "dissolve"
+hide_all = true
+
+[[cues]]
+# The cauldron boils over and the Witch appears in the flames.
+at = "cocina_bruja_0165"
+tint = "red"
+transition = "flash"
+shake = true
+
+[[cues]]
+# The flames die down.
+at = "cocina_bruja_0183"
+tint = "none"
+transition = "dissolve"
+
+[[cues]]
+# Margarita's ballad of the King of Thule.
+at = "cuartito_0128"
+mode = "nvl"
+
+[[cues]]
+# The ballad ends; she finds the jewel case.
+at = "cuartito_0158"
+mode = "adv"
+
+[[cues]]
+# Valentín dies.
+at = "calle_noche_0226"
+tint = "dark"
+transition = "slow"
+
+[[cues]]
+# The Dies irae begins.
+at = "catedral_0022"
+tint = "dark"
+transition = "slow"
+
+[[cues]]
+# Margarita faints.
+at = "catedral_0060"
+shake = true
+
+[[cues]]
+# The witches' chorus on the summit.
+at = "valpurgis_0151"
+bg = "bg_harz_summit"
+transition = "slow"
+mode = "nvl"
+
+[[cues]]
+# Back to the dialogue of Faust and Mephistopheles at the revel.
+at = "valpurgis_0234"
+mode = "adv"
+
+[[cues]]
+# Dawn colours the sky.
+at = "carcel_0198"
+bg = "bg_prison_dawn"
+transition = "slow"
+
+# Mephistopheles is annotated "ironic" throughout; force the register where the text changes.
+[[overrides]]
+from = "prologo_cielo_0030"
+to = "prologo_cielo_0043"
+emotion = "solemn"  # deferent bow before the Lord
+
+[[overrides]]
+from = "prologo_cielo_0048"
+to = "prologo_cielo_0061"
+emotion = "angry"  # scornful about mankind
+
+# English version: Bayard Taylor's verse translation (1870), Project Gutenberg #14591, mapped
+# onto the Spanish speeches by `vnpipe translate build` (docs/translations.md in vnpipe).
+# Never machine translated: every English line of the play is quoted verbatim from Taylor.
+[translations.en]
+language = "english"                # Ren'Py language name
+label = "English"                   # shown in the language choice
+text_url = "https://www.gutenberg.org/cache/epub/14591/pg14591.txt"
+text_file = "data/raw/pg14591.txt"
+gutenberg_id = 14591
+title = "Faust"
+subtitle = "First Part"
+translator = "Bayard Taylor (1870)"
+end_text = "To be continued…"
+# The [voice].credits lines in this language (the recording is shared by every language).
+voice_credits = [
+  "LibriVox dramatic reading, “Faust: Der Tragödie erster Teil” (public domain): librivox.org/faust-der-tragoedie-erster-teil-by-johann-wolfgang-von-goethe",
+  "Narrator: Gesine. Mephistopheles: Herman Roskams. Faust: redaer. Margaret: Sonja. Martha: Availle. Wagner and spirits: Herr_Klugbeisser. Valentine: ekyale.",
+  "Witches and chorus of women: Hokuspokus. Student: DerHoepp. Maidens: Jc Guan. Manager and evil spirit: Stephanie König. Old woman and Xenien: Rapunzelina.",
+  "Frosch, Raphael and Michael: Dirk Weber. Gabriel: Claudia Weber. The animals: Jennifer Takhar, Viktor Horvath and Katia Postnikova.",
+  "The Lord, chorus of spirits, citizens and dancers: Bastian Hepp. Peasants: ToddHW. Poet: Ernst Pattynama. Apprentice, Brander, Siebel and Altmayer: Markus Wachenheim.",
+  "Lieschen, the old woman and Titania: Katieamp. Chorus of angels: Christa. Puck and soldiers: Elli. Will-o’-the-wisps: Laurie Anne Walden. Voices: wilwarin.",
+  "Lars Rolander, Robert Steiner, Neeru Iyer, Nadine Eckert-Boulet, Anna Simon, Christian Al-Kadi, jgoebel9 and Jessi: the rest of the cast of the Intermezzo, Walpurgis Night and the chorus of disciples.",
+  "Audio editing: Rapunzelina.",
+]
+# Lines of the ebook that are not part of the play text.
+ignore_lines = ["FIRST PART OF THE TRAGEDY"]
+
+# Labels printed like a speaker but read as a stage direction; the text after one is spoken by
+# the cast id given (empty: nobody, a speaker label must follow).
+[translations.en.direction_labels]
+"PEASANTS, UNDER THE LINDEN-TREE" = "peasants"
+"FAUST AND WAGNER" = ""
+"FAUST AND MEPHISTOPHELES" = ""
+
+# Speaker label as printed in Taylor (without its parenthetical note) -> cast id.
+[translations.en.speakers]
+"MANAGER" = "director"
+"POET" = "poet"
+"MERRY-ANDREW" = "clown"
+"MERRY ANDREW" = "clown"
+"RAPHAEL" = "raphael"
+"GABRIEL" = "gabriel"
+"MICHAEL" = "michael"
+"THE THREE" = "archangels"
+"THE LORD" = "lord"
+"MEPHISTOPHELES" = "mephisto"
+"FAUST" = "faust"
+"SPIRIT" = "spirit"
+"WAGNER" = "wagner"
+"CHORUS OF ANGELS" = "angels_chorus"
+"CHORUS OF WOMEN" = "women_chorus"
+"CHORUS OF DISCIPLES" = "disciples_chorus"
+"SEVERAL APPRENTICES" = "artisans"
+"OTHERS" = "artisans"
+"THE FIRST" = "artisans"
+"AN APPRENTICE" = "artisans"
+"SECOND APPRENTICE" = "artisans"
+"THE OTHERS" = "artisans"
+"A THIRD" = "artisans"
+"A FOURTH" = "artisans"
+"A FIFTH" = "artisans"
+"SERVANT-GIRL" = "servant_girls"
+"ANOTHER" = "servant_girls"
+"THE OTHER" = "servant_girls"
+"A STUDENT" = "students"
+"SECOND STUDENT" = "students"
+"CITIZEN’S DAUGHTER" = "citizens"
+"CITIZEN" = "citizens"
+"BEGGAR" = "citizens"
+"ANOTHER CITIZEN" = "citizens"
+"THIRD CITIZEN" = "citizens"
+"OLD WOMAN" = "citizens"
+"SOLDIERS" = "soldiers"
+"OLD PEASANT" = "peasants"
+"ALL" = "everyone"
+"SPIRITS" = "spirits"
+"CHORUS OF SPIRITS" = "spirits"
+"STUDENT" = "student"
+"FROSCH" = "frosch"
+"BRANDER" = "brander"
+"SIEBEL" = "siebel"
+"ALTMAYER" = "altmayer"
+"CHORUS" = "chorus"
+"THE ANIMALS" = "apes"
+"THE HE-APE" = "apes"
+"HE-APE AND SHE-APE" = "apes"
+"THE WITCH" = "witch"
+"MARGARET" = "margarita"
+"MARTHA" = "marta"
+"LISBETH" = "lisa"
+"VALENTINE" = "valentin"
+"PEOPLE" = "crowd"
+"EVIL SPIRIT" = "evil_spirit"
+"WILL-O’-THE-WISP" = "wisp"
+"FAUST, MEPHISTOPHELES, WILL-O’-THE-WISP" = "trio"
+"WITCHES" = "witches"
+"WIZARDS" = "witches"
+"OTHER SEMICHORUS" = "witches"
+"BOTH CHORUSES" = "witches"
+"HALF-WITCH" = "witches"
+"CHORUS OF WITCHES" = "witches"
+"HUCKSTER-WITCH" = "witches"
+"A VOICE" = "voices"
+"VOICE" = "voices"
+"GENERAL" = "walpurgis_guests"
+"MINISTER" = "walpurgis_guests"
+"PARVENU" = "walpurgis_guests"
+"AUTHOR" = "walpurgis_guests"
+"THE FAIR ONE" = "walpurgis_guests"
+"THE OLD ONE" = "walpurgis_guests"
+"PROKTOPHANTASMIST" = "walpurgis_guests"
+"SERVIBILIS" = "walpurgis_guests"
+"HERALD" = "dream_figures"
+"OBERON" = "oberon"
+"PUCK" = "puck"
+"ARIEL" = "ariel"
+"TITANIA" = "titania"
+"ORCHESTRA. TUTTI" = "orchestra"
+"ORCHESTRA" = "orchestra"
+"SOLO" = "orchestra"
+"SPIRIT, JUST GROWING INTO FORM" = "dream_figures"
+"A LITTLE COUPLE" = "dream_figures"
+"INQUISITIVE TRAVELLER" = "dream_figures"
+"ORTHODOX" = "dream_figures"
+"NORTHERN ARTIST" = "dream_figures"
+"PURIST" = "dream_figures"
+"YOUNG WITCH" = "dream_figures"
+"MATRON" = "dream_figures"
+"LEADER OF THE BAND" = "dream_figures"
+"WEATHERCOCK" = "dream_figures"
+"XENIES" = "dream_figures"
+"HENNINGS" = "dream_figures"
+"MUSAGETES" = "dream_figures"
+"CI-DEVANT GENIUS OF THE AGE" = "dream_figures"
+"CRANE" = "dream_figures"
+"WORLDLING" = "dream_figures"
+"DANCER" = "dream_figures"
+"DANCING-MASTER" = "dream_figures"
+"GOOD FELLOW" = "dream_figures"
+"DOGMATIST" = "dream_figures"
+"IDEALIST" = "dream_figures"
+"REALIST" = "dream_figures"
+"SUPERNATURALIST" = "dream_figures"
+"SCEPTIC" = "dream_figures"
+"THE ADROIT" = "dream_figures"
+"THE AWKWARD" = "dream_figures"
+"WILL-O’-THE WISPS" = "dream_figures"
+"SHOOTING-STAR" = "dream_figures"
+"THE HEAVY FELLOWS" = "dream_figures"
+
+# Generic labels that name different groups, one cast id per occurrence in order.
+[translations.en.scene_speakers.puertas_ciudad]
+"THE FIRST" = ["artisans", "servant_girls", "students"]  # apprentice, servant girl, student
+"THE OTHER" = ["servant_girls", "citizens"]  # servant girl, citizen's daughter
+
+[translations.en.scene_speakers.intermedio]
+"MANAGER" = "dream_figures"
+
+# One section per scene, in play order: the heading line searched in the ebook, and the
+# English title card (title and place/time subtitle).
+[[translations.en.sections]]
+scene = "dedicatoria"
+heading = "[Illustration: =Dedication=]"
+title = "DEDICATION"
+subtitle = "Visions of youth · Twilight"
+default_speaker = "poet_voice"
+
+[[translations.en.sections]]
+scene = "prologo_teatro"
+heading = "[Illustration: =Prelude at the Theatre=]"
+title = "PRELUDE AT THE THEATRE"
+subtitle = "A theatre stage · Day"
+
+[[translations.en.sections]]
+scene = "prologo_cielo"
+heading = "PROLOGUE IN HEAVEN"
+subtitle = "Heaven · Beyond time"
+
+[[translations.en.sections]]
+scene = "noche"
+heading = "NIGHT"
+subtitle = "Faust’s Gothic study · Night"
+
+[[translations.en.sections]]
+scene = "puertas_ciudad"
+heading = "BEFORE THE CITY-GATE"
+subtitle = "Outside the city walls · Easter Day"
+
+[[translations.en.sections]]
+scene = "gabinete_1"
+heading = "THE STUDY"
+subtitle = "Faust’s study · Night"
+
+[[translations.en.sections]]
+scene = "gabinete_2"
+heading = "THE STUDY"
+subtitle = "Faust’s study · Day"
+
+[[translations.en.sections]]
+scene = "taberna_auerbach"
+heading = "AUERBACH’S CELLAR IN LEIPZIG"
+subtitle = "Auerbach’s Cellar, Leipzig · Night"
+
+[[translations.en.sections]]
+scene = "cocina_bruja"
+heading = "WITCHES’ KITCHEN"
+subtitle = "The witch’s kitchen · Beyond time"
+
+[[translations.en.sections]]
+scene = "calle_1"
+heading = "STREET"
+subtitle = "A street in the town · Day"
+
+[[translations.en.sections]]
+scene = "cuartito"
+heading = "EVENING A SMALL, NEATLY KEPT CHAMBER"
+title = "EVENING"
+subtitle = "Margaret’s chamber · Dusk"
+
+[[translations.en.sections]]
+scene = "paseo"
+heading = "PROMENADE"
+subtitle = "A promenade · Day"
+
+[[translations.en.sections]]
+scene = "casa_vecina"
+heading = "THE NEIGHBOR’S HOUSE"
+subtitle = "The neighbour’s house · Day"
+
+[[translations.en.sections]]
+scene = "calle_2"
+heading = "A STREET"
+subtitle = "A street in the town · Day"
+
+[[translations.en.sections]]
+scene = "jardin"
+heading = "GARDEN"
+subtitle = "Martha’s garden · Day"
+
+[[translations.en.sections]]
+scene = "pabelloncito"
+heading = "A GARDEN-ARBOR"
+subtitle = "A summer-house in the garden · Dusk"
+
+[[translations.en.sections]]
+scene = "bosques_cavernas"
+heading = "FOREST AND CAVERN"
+subtitle = "Forest and cavern · Day"
+
+[[translations.en.sections]]
+scene = "aposento_margarita"
+heading = "MARGARET’S ROOM"
+subtitle = "Margaret’s room · Day"
+
+[[translations.en.sections]]
+scene = "jardin_marta"
+heading = "MARTHA’S GARDEN"
+subtitle = "Martha’s garden · Day"
+
+[[translations.en.sections]]
+scene = "fuente"
+heading = "AT THE FOUNTAIN"
+subtitle = "The town fountain · Day"
+
+[[translations.en.sections]]
+scene = "muros"
+heading = "DONJON"
+subtitle = "The town walls · Dusk"
+
+[[translations.en.sections]]
+scene = "calle_noche"
+heading = "NIGHT"
+subtitle = "Before Margaret’s door · Night"
+
+[[translations.en.sections]]
+scene = "catedral"
+heading = "CATHEDRAL"
+subtitle = "The cathedral · Day"
+
+[[translations.en.sections]]
+scene = "valpurgis"
+heading = "WALPURGIS-NIGHT"
+subtitle = "The Harz Mountains · Walpurgis Night"
+
+[[translations.en.sections]]
+scene = "intermedio"
+heading = "WALPURGIS-NIGHT’S DREAM"
+subtitle = "Oberon and Titania’s golden wedding · Night"
+
+[[translations.en.sections]]
+scene = "dia_nebuloso"
+heading = "DREARY DAY"
+subtitle = "A field · Dreary day"
+
+[[translations.en.sections]]
+scene = "noche_campo"
+heading = "NIGHT"
+subtitle = "Open field · Night"
+
+[[translations.en.sections]]
+scene = "carcel"
+heading = "DUNGEON"
+subtitle = "Margaret’s dungeon · Night"
+
+# Forced pairs where the automatic mapping needs help: `game` is the first line id of a game
+# unit, `source` the start of a Taylor unit, quoted verbatim (markup removed).
+[[translations.en.overrides]]
+scene = "prologo_cielo"
+game = "prologo_cielo_0161"
+source = "Heaven closes: the ARCHANGELS separate."
+
+[[translations.en.overrides]]
+scene = "calle_noche"
+game = "calle_noche_0001"
+source = "STREET BEFORE MARGARET’S DOOR"
+
+[[translations.en.overrides]]
+scene = "dia_nebuloso"
+game = "dia_nebuloso_0001"
+source = "A FIELD"
+
+# Character names as Taylor prints them (cast id -> name).
+[translations.en.names]
+director = "Manager"
+poet = "Poet"
+clown = "Merry-Andrew"
+raphael = "Raphael"
+gabriel = "Gabriel"
+michael = "Michael"
+archangels = "The Three Archangels"
+lord = "The Lord"
+mephisto = "Mephistopheles"
+faust = "Faust"
+spirit = "Spirit"
+wagner = "Wagner"
+margarita = "Margaret"
+marta = "Martha"
+valentin = "Valentine"
+witch = "The Witch"
+student = "Student"
+frosch = "Frosch"
+brander = "Brander"
+siebel = "Siebel"
+altmayer = "Altmayer"
+lisa = "Lisbeth"
+evil_spirit = "Evil Spirit"
+wisp = "Will-o’-the-Wisp"
+oberon = "Oberon"
+titania = "Titania"
+puck = "Puck"
+ariel = "Ariel"
+angels_chorus = "Chorus of Angels"
+women_chorus = "Chorus of Women"
+disciples_chorus = "Chorus of Disciples"
+spirits = "Spirits"
+chorus = "Chorus"
+everyone = "All"
+artisans = "Apprentices"
+servant_girls = "Servant-Girls"
+students = "Students"
+citizens = "Citizens"
+soldiers = "Soldiers"
+peasants = "Peasants"
+apes = "The Apes"
+crowd = "The People"
+voices = "Voices"
+witches = "Witches"
+walpurgis_guests = "Walpurgis Guests"
+orchestra = "Orchestra"
+trio = "Faust, Mephistopheles and Will-o’-the-Wisp"
+dream_figures = "Dream Figures"
+
+# Other strings this work defines (art style labels of assets/assets.json).
+[translations.en.strings]
+"Pictórico" = "Painterly"
+
+# Android APK inputs for RAPT (vnpipe writes android.json, icon and presplash).
+[android]
+package = "io.github.dasemu.faust"
+name = "Fausto"
+icon = "assets/sprites/painterly/faust_neutral.webp"
+icon_background = "#14110e"
+presplash = "assets/bg/painterly/study.webp"

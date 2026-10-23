@@ -1,0 +1,176 @@
+name: Release
+
+# Builds every distribution of the game (Windows, Linux, macOS, web, Android APK).
+#  - push to development / manual run: builds are kept as workflow artifacts (7 days).
+#  - "Version bump" finished on main (a new version): the builds are attached to a GitHub
+#    release tagged vMAJOR.MINOR.PATCH.
+# Needs the ANDROID_KEYSTORE_B64 secret (base64 of android.keystore) to sign the APK; without
+# it the Android build is skipped. Never commit the keystore: losing or changing it means
+# installed apps can no longer be updated.
+
+on:
+  workflow_run:
+    workflows: ["Version bump"]
+    types: [completed]
+    branches: [main]
+  push:
+    branches: [development]
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Branch, tag or commit to build
+        default: development
+      publish:
+        description: Publish a GitHub release for the VERSION found there
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'push' }}
+
+env:
+  RENPY_VERSION: "8.5.3"
+  # Ren'Py runs headless on the runner.
+  SDL_VIDEODRIVER: dummy
+  SDL_AUDIODRIVER: dummy
+  RENPY_RENDERER: sw
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      sha: ${{ steps.version.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || (inputs.ref || github.sha) }}
+
+      - name: Version
+        id: version
+        run: |
+          echo "version=$(cat VERSION)" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - uses: astral-sh/setup-uv@v5
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21" # RAPT requires JDK 21
+
+      - name: Cache Ren'Py SDK, RAPT and Android SDK
+        id: sdk-cache
+        uses: actions/cache@v4
+        with:
+          path: tools/renpy-sdk
+          key: renpy-sdk-${{ env.RENPY_VERSION }}-android-web-v1
+
+      - name: Install Ren'Py SDK and RAPT
+        if: steps.sdk-cache.outputs.cache-hit != 'true'
+        run: |
+          set -euo pipefail
+          mkdir -p tools/renpy-sdk
+          base="https://www.renpy.org/dl/${RENPY_VERSION}"
+          curl -fsSL "$base/renpy-${RENPY_VERSION}-sdk.tar.bz2" | tar -xj --strip-components=1 -C tools/renpy-sdk
+          curl -fsSL -o /tmp/rapt.zip "$base/renpy-${RENPY_VERSION}-rapt.zip"
+          unzip -q /tmp/rapt.zip -d tools/renpy-sdk
+          curl -fsSL -o /tmp/web.zip "$base/renpy-${RENPY_VERSION}-web.zip"
+          unzip -q /tmp/web.zip -d tools/renpy-sdk
+          # Android SDK packages; this accepts Google's Android SDK licence for the build.
+          cd tools/renpy-sdk/rapt
+          ../lib/py3-linux-x86_64/python -c "
+          import runpy, sys
+          sys.path[:0] = ['..']
+          sys.argv = ['android.py', 'installsdk']
+          runpy.run_path('android.py', run_name='__main__')
+          " < <(yes y)
+
+      - name: Generate the Ren'Py project
+        run: |
+          uv sync --locked
+          uv run vnpipe --work . renpy
+
+      - name: Android signing key
+        id: android
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_B64 }}
+        run: |
+          if [ -z "$KEYSTORE_B64" ]; then
+            echo "::warning::ANDROID_KEYSTORE_B64 is not set; skipping the Android build."
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+          else
+            printf '%s' "$KEYSTORE_B64" | base64 -d > vn/android.keystore
+            cp vn/android.keystore vn/bundle.keystore
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build desktop and web packages
+        run: |
+          set -euo pipefail
+          sdk=tools/renpy-sdk
+          mkdir -p build/dist
+          "$sdk/renpy.sh" "$sdk/launcher" distribute vn --package win --package linux --package mac --destination build/dist
+          "$sdk/renpy.sh" "$sdk/launcher" web_build vn --destination build/web
+          rm -f vn/progressive_download.txt
+
+      - name: Build the Android APK
+        if: steps.android.outputs.enabled == 'true'
+        run: |
+          sdk=tools/renpy-sdk
+          "$sdk/renpy.sh" "$sdk/launcher" android_build vn --destination build/dist
+
+      - name: Name the files after the version
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          set -euo pipefail
+          mkdir -p release
+          pick() { ls build/dist/$1 2>/dev/null | head -n1; }
+          put() { [ -n "$1" ] && cp "$1" "release/faust-vn-v${VERSION}-$2"; }
+          put "$(pick '*-win.zip')" windows.zip
+          put "$(pick '*-linux.tar.bz2')" linux.tar.bz2
+          put "$(pick '*-mac.zip')" macos.zip
+          put "$(pick '*.apk')" android.apk
+          cp build/web.zip "release/faust-vn-v${VERSION}-web.zip"
+          ls -lh release
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: faust-vn-v${{ steps.version.outputs.version }}
+          path: release/*
+          retention-days: 7
+          compression-level: 0
+
+  publish:
+    needs: build
+    if: github.event_name == 'workflow_run' || (github.event_name == 'workflow_dispatch' && inputs.publish)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: faust-vn-v${{ needs.build.outputs.version }}
+          path: release
+
+      - name: Create the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ needs.build.outputs.version }}
+          SHA: ${{ needs.build.outputs.sha }}
+        run: |
+          set -euo pipefail
+          tag="v${VERSION}"
+          if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "::notice::Release $tag already exists; nothing to do."
+            exit 0
+          fi
+          gh release create "$tag" release/* \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$SHA" \
+            --title "Fausto v${VERSION}" \
+            --generate-notes

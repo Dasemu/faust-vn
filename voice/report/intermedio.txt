@@ -1,0 +1,51 @@
+scene intermedio  (audio section 25)
+voiced 42/44 game speeches
+source speeches 42, ASR coverage 90.3% of source words
+
+game speeches:
+  ok                   intermedio_0001 dream_figures (23w) <- source #0 cov 0.94 31.1-40.4s
+  ok                   intermedio_0005 dream_figures (25w) <- source #1 cov 0.95 41.2-51.5s
+  ok                   intermedio_0009 oberon (22w) <- source #2 cov 0.90 53.1-63.0s
+  ok                   intermedio_0013 puck (26w) <- source #3 cov 0.95 64.3-72.0s
+  ok                   intermedio_0017 ariel (23w) <- source #4 cov 0.95 72.7-82.5s
+  ok                   intermedio_0021 oberon (22w) <- source #5 cov 1.00 83.9-96.0s
+  ok                   intermedio_0025 titania (23w) <- source #6 cov 0.96 97.6-105.6s
+  ok                   intermedio_0030 orchestra (26w) <- source #7 cov 0.88 109.4-117.7s
+  ok                   intermedio_0034 orchestra (19w) <- source #8 cov 0.74 119.0-140.3s
+  ok                   intermedio_0038 dream_figures (24w) <- source #9 cov 0.70 141.8-152.3s
+  ok                   intermedio_0042 dream_figures (24w) <- source #10 cov 0.89 154.0-160.8s
+  ok                   intermedio_0046 dream_figures (25w) <- source #11 cov 1.00 163.1-174.3s
+  unmapped             intermedio_0050 dream_figures (31w)
+  ok                   intermedio_0054 dream_figures (26w) <- source #12 cov 0.76 176.0-186.9s
+  ok                   intermedio_0058 dream_figures (20w) <- source #13 cov 0.90 188.1-198.7s
+  ok                   intermedio_0062 dream_figures (25w) <- source #14 cov 1.00 199.6-210.5s
+  ok                   intermedio_0066 dream_figures (24w) <- source #15 cov 0.88 211.4-220.7s
+  ok                   intermedio_0070 dream_figures (22w) <- source #16 cov 0.95 222.3-232.1s
+  unmapped             intermedio_0074 dream_figures (25w)
+  ok                   intermedio_0078 dream_figures (23w) <- source #17 cov 1.00 235.4-245.4s
+  ok                   intermedio_0082 dream_figures (22w) <- source #18 cov 0.91 248.1-258.4s
+  ok                   intermedio_0086 dream_figures (24w) <- source #19 cov 0.88 259.8-271.6s
+  ok                   intermedio_0090 dream_figures (25w) <- source #20 cov 0.89 272.4-282.8s
+  ok                   intermedio_0094 dream_figures (29w) <- source #21 cov 0.89 284.3-310.1s
+  ok                   intermedio_0098 dream_figures (26w) <- source #22 cov 0.90 312.0-320.1s
+  ok                   intermedio_0102 dream_figures (29w) <- source #23 cov 0.91 320.8-329.5s
+  ok                   intermedio_0106 dream_figures (19w) <- source #24 cov 0.95 330.6-339.6s
+  ok                   intermedio_0110 dream_figures (27w) <- source #25 cov 0.95 340.7-350.7s
+  ok                   intermedio_0114 dream_figures (28w) <- source #26 cov 1.00 352.7-364.2s
+  ok                   intermedio_0118 dream_figures (24w) <- source #27 cov 0.74 365.4-375.9s
+  ok                   intermedio_0122 dream_figures (25w) <- source #28 cov 0.91 377.0-389.8s
+  ok                   intermedio_0126 dream_figures (26w) <- source #29 cov 0.86 391.3-400.1s
+  ok                   intermedio_0130 dream_figures (28w) <- source #30 cov 0.86 401.1-414.1s
+  ok                   intermedio_0134 dream_figures (24w) <- source #31 cov 0.91 415.2-424.0s
+  ok                   intermedio_0138 dream_figures (29w) <- source #32 cov 0.92 424.8-433.6s
+  ok                   intermedio_0142 dream_figures (21w) <- source #33 cov 0.94 435.2-444.7s
+  ok                   intermedio_0146 dream_figures (24w) <- source #34 cov 0.80 448.0-457.0s
+  ok                   intermedio_0150 dream_figures (28w) <- source #35 cov 1.00 458.7-471.3s
+  ok                   intermedio_0154 dream_figures (20w) <- source #36 cov 0.84 472.4-480.6s
+  ok                   intermedio_0158 dream_figures (22w) <- source #37 cov 1.00 482.3-489.9s
+  ok                   intermedio_0162 dream_figures (28w) <- source #38 cov 0.94 491.5-502.2s
+  ok                   intermedio_0166 puck (26w) <- source #39 cov 0.83 503.4-510.8s
+  ok                   intermedio_0170 ariel (23w) <- source #40 cov 0.94 511.9-522.3s
+  ok                   intermedio_0174 orchestra (24w) <- source #41 cov 0.94 524.4-538.2s
+
+source speeches without a game speech:

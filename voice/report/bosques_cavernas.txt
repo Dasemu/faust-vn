@@ -1,0 +1,27 @@
+scene bosques_cavernas  (audio section 17)
+voiced 18/20 game speeches
+source speeches 19, ASR coverage 90.3% of source words
+
+game speeches:
+  unmapped             bosques_cavernas_0001 faust (251w)
+  ok                   bosques_cavernas_0041 mephisto (19w) <- source #0 cov 0.93 212.4-225.1s
+  ok                   bosques_cavernas_0045 faust (9w) <- source #1 cov 1.00 225.7-233.0s
+  ok                   bosques_cavernas_0047 mephisto (39w) <- source #2 cov 0.90 233.4-256.3s
+  ok                   bosques_cavernas_0055 faust (8w) <- source #3 cov 0.80 256.8-265.1s
+  ok                   bosques_cavernas_0057 mephisto (81w) <- source #4 cov 0.85 265.7-308.1s
+  ok                   bosques_cavernas_0075 faust (34w) <- source #5 cov 0.83 308.4-326.9s
+  ok                   bosques_cavernas_0083 mephisto (107w) <- source #6 cov 0.88 327.2-373.6s
+  ok                   bosques_cavernas_0108 faust (1w) <- source #7 cov 0.67 373.6-375.2s
+  ok                   bosques_cavernas_0109 mephisto (224w) <- source #8 cov 0.91 375.6-496.9s
+  ok                   bosques_cavernas_0157 faust (2w) <- source #9 cov 1.00 497.5-499.8s
+  ok                   bosques_cavernas_0158 mephisto (9w) <- source #10 cov 0.60 502.3-504.1s
+  ok                   bosques_cavernas_0160 faust (28w) <- source #11 cov 1.00 504.7-519.4s
+  ok                   bosques_cavernas_0166 mephisto (20w) <- source #12 cov 0.88 519.5-527.0s
+  ok                   bosques_cavernas_0170 faust (46w) <- source #13 cov 1.00 527.1-546.0s
+  ok                   bosques_cavernas_0178 mephisto (18w) <- source #14 cov 1.00 546.3-556.1s
+  low-coverage         bosques_cavernas_0182 faust (2w) <- source #15 cov 0.50
+  ok                   bosques_cavernas_0183 mephisto (55w) <- source #16 cov 0.93 559.1-581.3s
+  ok                   bosques_cavernas_0195 faust (144w) <- source #17 cov 0.94 581.5-672.4s
+  ok                   bosques_cavernas_0227 mephisto (46w) <- source #18 cov 0.84 673.1-704.4s
+
+source speeches without a game speech:

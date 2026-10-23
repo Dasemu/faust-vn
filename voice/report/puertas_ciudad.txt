@@ -1,0 +1,61 @@
+scene puertas_ciudad  (audio section 5)
+voiced 52/53 game speeches
+source speeches 53, ASR coverage 91.8% of source words
+
+game speeches:
+  ok                   puertas_ciudad_0002 artisans (8w) <- source #0 cov 1.00 29.7-31.8s
+  ok                   puertas_ciudad_0004 artisans (1w) <- source #1 cov 0.80 32.8-35.7s
+  ok                   puertas_ciudad_0005 artisans (9w) <- source #2 cov 1.00 36.8-39.7s
+  ok                   puertas_ciudad_0007 artisans (8w) <- source #3 cov 0.75 41.2-44.3s
+  ok                   puertas_ciudad_0009 artisans (6w) <- source #4 cov 1.00 45.0-47.4s
+  ok                   puertas_ciudad_0011 artisans (2w) <- source #5 cov 1.00 48.5-50.1s
+  ok                   puertas_ciudad_0012 artisans (5w) <- source #6 cov 0.80 51.0-53.4s
+  ok                   puertas_ciudad_0014 artisans (17w) <- source #7 cov 0.95 54.4-63.0s
+  ok                   puertas_ciudad_0018 artisans (16w) <- source #8 cov 0.89 64.1-72.2s
+  ok                   puertas_ciudad_0022 servant_girls (9w) <- source #9 cov 1.00 73.4-77.1s
+  ok                   puertas_ciudad_0024 servant_girls (10w) <- source #10 cov 1.00 78.2-81.3s
+  ok                   puertas_ciudad_0027 servant_girls (24w) <- source #11 cov 0.81 82.4-92.8s
+  ok                   puertas_ciudad_0031 servant_girls (9w) <- source #12 cov 0.93 94.0-98.8s
+  ok                   puertas_ciudad_0033 students (26w) <- source #13 cov 0.76 100.6-111.4s
+  ok                   puertas_ciudad_0039 citizens (16w) <- source #14 cov 0.83 112.9-125.7s
+  ok                   puertas_ciudad_0043 students (40w) <- source #15 cov 0.92 128.0-141.6s
+  ok                   puertas_ciudad_0051 students (40w) <- source #16 cov 0.93 143.1-155.1s
+  ok                   puertas_ciudad_0059 citizens (36w) <- source #17 cov 0.93 155.7-179.4s
+  ok                   puertas_ciudad_0067 citizens (47w) <- source #18 cov 0.78 181.6-212.8s
+  ok                   puertas_ciudad_0075 citizens (70w) <- source #19 cov 0.95 215.2-246.9s
+  ok                   puertas_ciudad_0091 citizens (17w) <- source #20 cov 0.88 248.4-262.8s
+  ok                   puertas_ciudad_0096 citizens (26w) <- source #21 cov 1.00 264.7-283.2s
+  ok                   puertas_ciudad_0102 citizens (25w) <- source #22 cov 0.92 284.9-298.8s
+  ok                   puertas_ciudad_0107 citizens (23w) <- source #23 cov 0.88 300.0-314.3s
+  ok                   puertas_ciudad_0112 soldiers (74w) <- source #24 cov 0.87 316.2-339.8s
+  ok                   puertas_ciudad_0130 faust (260w) <- source #25 cov 0.95 340.6-497.7s
+  ok                   puertas_ciudad_0190 wagner (168w) <- source #26 cov 0.82 499.4-583.6s
+  ok                   puertas_ciudad_0236 peasants (47w) <- source #27 cov 0.98 585.3-615.7s
+  ok                   puertas_ciudad_0247 faust (5w) <- source #28 cov 0.90 617.2-625.4s
+  ok                   puertas_ciudad_0249 peasants (86w) <- source #29 cov 0.91 630.9-675.5s
+  ok                   puertas_ciudad_0269 everyone (9w) <- source #30 cov 0.90 676.4-681.2s
+  ok                   puertas_ciudad_0271 faust (12w) <- source #31 cov 0.82 682.4-691.2s
+  ok                   puertas_ciudad_0274 wagner (94w) <- source #32 cov 0.91 694.2-722.0s
+  ok                   puertas_ciudad_0294 faust (235w) <- source #33 cov 0.95 722.0-874.3s
+  ok                   puertas_ciudad_0350 wagner (57w) <- source #34 cov 0.98 874.3-895.7s
+  ok                   puertas_ciudad_0362 faust (258w) <- source #35 cov 0.95 897.2-1065.9s
+  ok                   puertas_ciudad_0422 wagner (92w) <- source #36 cov 0.90 1066.4-1097.0s
+  ok                   puertas_ciudad_0442 faust (132w) <- source #37 cov 0.92 1097.3-1170.5s
+  ok                   puertas_ciudad_0470 wagner (152w) <- source #38 cov 0.94 1171.2-1229.2s
+  ok                   puertas_ciudad_0505 faust (12w) <- source #39 cov 0.80 1229.2-1235.6s
+  ok                   puertas_ciudad_0508 wagner (10w) <- source #40 cov 1.00 1235.7-1239.5s
+  ok                   puertas_ciudad_0511 faust (6w) <- source #41 cov 1.00 1239.6-1244.9s
+  ok                   puertas_ciudad_0513 wagner (16w) <- source #42 cov 1.00 1245.4-1250.3s
+  ok                   puertas_ciudad_0516 faust (19w) <- source #43 cov 0.88 1250.3-1267.6s
+  unmapped             puertas_ciudad_0520 wagner (1w)
+  ok                   puertas_ciudad_0521 faust (18w) <- source #45 cov 0.73 1274.0-1285.4s
+  ok                   puertas_ciudad_0525 wagner (17w) <- source #46 cov 0.94 1285.6-1292.2s
+  ok                   puertas_ciudad_0529 faust (6w) <- source #47 cov 1.00 1292.4-1295.9s
+  ok                   puertas_ciudad_0531 wagner (30w) <- source #48 cov 0.95 1296.0-1304.4s
+  ok                   puertas_ciudad_0538 faust (7w) <- source #49 cov 1.00 1305.3-1308.3s
+  ok                   puertas_ciudad_0539 wagner (36w) <- source #50 cov 0.94 1308.5-1320.5s
+  ok                   puertas_ciudad_0546 faust (16w) <- source #51 cov 1.00 1320.5-1330.9s
+  ok                   puertas_ciudad_0550 wagner (42w) <- source #52 cov 1.00 1331.1-1340.8s
+
+source speeches without a game speech:
+  #44 WAGNER -> wagner (14 tokens, cov 1.00)

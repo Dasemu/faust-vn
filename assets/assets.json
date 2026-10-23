@@ -1,0 +1,1843 @@
+{
+  "default_style": "painterly",
+  "styles": {
+    "painterly": {
+      "label": "Pictórico",
+      "base_prompt": "Hand-painted romantic 19th-century oil painting on canvas with the fine linework of a steel engraving, as in an illustrated 1850s edition of Goethe's Faust (in the spirit of Delacroix's Faust lithographs and Caspar David Friedrich). Clearly painted, NOT photorealistic, NOT a 3D render, NOT digital concept art: visible loose brushstrokes, subtle engraved cross-hatching in the shadows, slightly aged varnish. Muted earthy palette of umber, ochre, slate blue and ivory with restrained deep crimson accents. Soft chiaroscuro, single warm key light from the upper left. Semi-realistic proportions. No text, no letters, no signature, no watermark, no frame, no border.",
+      "templates": {
+        "background": "Visual novel background, 16:9 wide establishing shot at eye level, empty foreground band in the bottom third, no people unless described.",
+        "sprite": "Visual novel character sprite, 2:3 portrait. One character, standing, framed from the top of the head to mid-thigh, centred, body turned slightly toward the viewer, whole head and both hands inside the frame with clear margin above the head. Legs below mid-thigh and feet are not visible. The background is a perfectly flat, uniform chroma-green (#00B140) field with no gradient, no floor, no shadow and no props. No green anywhere on the character.",
+        "variant": "Use the reference image: keep exactly the same character, face, hair, costume, framing, scale, lighting and flat chroma-green (#00B140) background. Change only the facial expression and pose of the hands as described."
+      }
+    },
+    "anime": {
+      "label": "Anime",
+      "base_prompt": "Japanese anime visual novel art, in the style of a polished modern anime / visual novel (2D cel animation look). Thin, clean, uniform dark lineart; flat colour fills with crisp two-tone cel shading and a single soft highlight; anime facial features (clearly drawn anime eyes with highlights, simplified small nose and mouth) while keeping mature adult anatomy and proportions (not chibi, not childlike, not moe). Definitely NOT semi-realistic, NOT painterly, NOT a realistic illustration, no rendered skin texture. Historically grounded 16th-century German costume and architecture. Harmonious palette of deep indigo, umber, crimson and parchment ivory with gold accents. No text, no letters, no signature, no watermark, no frame, no border.",
+      "templates": {
+        "background": "Visual novel background, 16:9 wide establishing shot at eye level, lush painted anime background art with atmospheric lighting and depth, empty foreground band in the bottom third, no people unless described.",
+        "sprite": "Visual novel character sprite, 2:3 portrait. One character, standing, framed from the top of the head to mid-thigh, centred, body turned slightly toward the viewer, whole head and both hands inside the frame with clear margin above the head. Legs below mid-thigh and feet are not visible. The background is a perfectly flat, uniform chroma-green (#00B140) field with no gradient, no floor, no shadow and no props. No green anywhere on the character.",
+        "variant": "Use the reference image: keep exactly the same character, face, hair, costume, framing, scale, lighting and flat chroma-green (#00B140) background. Change only the facial expression and pose of the hands as described."
+      }
+    }
+  },
+  "assets": [
+    {
+      "id": "bg_dedication",
+      "kind": "background",
+      "prompt": "Twilight sky of drifting silver mist; faint translucent human figures half-formed in the clouds, like memories, with no recognisable faces; melancholic and dreamlike.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "4618cf00-6af8-4e45-be28-2e42d90158bd",
+          "raw_file": "raw/painterly/bg_dedication.png",
+          "file": "bg/painterly/dedication.webp",
+          "sha256": "749e798234e16e499f8559941edcabb611f9ab9e3f63fa9830b7f74079694583",
+          "status": "approved",
+          "notes": "painted, misty ghost figures, no text"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_dedication.png",
+          "file": "bg/anime/dedication.webp",
+          "generation_id": "85315109-ca4e-426d-a608-8baf68ad9fca",
+          "sha256": "c340f03609f91db6d7dbcbf2b795201486ed469bc3c762d26eb34f007b21899f",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same sunset/lake/ruin/castle layout, ghostly figures in clouds"
+        }
+      }
+    },
+    {
+      "id": "bg_theatre",
+      "kind": "background",
+      "prompt": "The empty wooden stage of a small late-18th-century German theatre seen from the wings toward the stage: painted canvas flats, a heavy curtain partly drawn, a row of candle footlights, rehearsal daylight falling from high windows, dust in the air.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "9db60faf-f7ce-4092-81bc-2bde58c05dbc",
+          "raw_file": "raw/painterly/bg_theatre.png",
+          "file": "bg/painterly/theatre.webp",
+          "sha256": "43dac99335a6d0167ab059699831e3106c7c5e374c0420d0d3e127807560d262",
+          "status": "approved",
+          "notes": "painted, stage flats, footlights, a little glossy floor"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_theatre.png",
+          "file": "bg/anime/theatre.webp",
+          "generation_id": "8eb31fd5-9796-443a-86e4-dec0483170b4",
+          "sha256": "e28e9b255432708d5f6b955895009cfe863c568de51641adc1a18c3fcf8b5859",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same stage layout, curtain, footlights"
+        }
+      }
+    },
+    {
+      "id": "bg_heaven",
+      "kind": "background",
+      "prompt": "The celestial realm high above luminous clouds, the sun blazing and stars visible in a deep blue sky; three robed, winged archangels in white and gold, small and distant in the middle ground, singing.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "badcc8f4-22d8-4535-9c61-8dc148ed8a6a",
+          "raw_file": "raw/painterly/bg_heaven.png",
+          "file": "bg/painterly/heaven.webp",
+          "sha256": "00c78942c3b6ff08ee671ecf50fe1eca563b088c7b46ca82dbce4b1aaa84681d",
+          "status": "approved",
+          "notes": "painted, three archangels, gold/pale blue"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_heaven.png",
+          "file": "bg/anime/heaven.webp",
+          "generation_id": "b915e0ea-f9f6-47e1-b061-11be9cd9a428",
+          "sha256": "1c4ba5c1ff18e2c2ecf859da702698f8f22c3225798bb92bafcdce720e2ff1c2",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same layout: sun, three archangels, clouds"
+        }
+      }
+    },
+    {
+      "id": "bg_heaven_lord",
+      "kind": "background",
+      "prompt": "The celestial realm above luminous clouds; at the centre a throne-shaped radiance of golden light with no visible figure inside it, rays spreading outward; the heavenly hosts as faint winged silhouettes on both sides.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "a2cd8061-f587-4cc2-af4d-1521ac7bb273",
+          "raw_file": "raw/painterly/bg_heaven_lord.png",
+          "file": "bg/painterly/heaven_lord.webp",
+          "sha256": "896c69c4158d76937a15e0518570519e740b7979c4306f9feadab4e287ef101d",
+          "status": "approved",
+          "notes": "painted, empty throne of light, winged hosts"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_heaven_lord.png",
+          "file": "bg/anime/heaven_lord.webp",
+          "generation_id": "613ff634-8657-4aa6-b52d-7c6a84a40131",
+          "sha256": "259a229ec477e749f0c8004bdb99538c4a3099ac3451826168d8355c7f9087aa",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same layout: empty golden throne radiance"
+        }
+      }
+    },
+    {
+      "id": "bg_study",
+      "kind": "background",
+      "prompt": "A narrow, high-vaulted Gothic study at night: shelves crammed with old books and parchments, alembics and glass vessels, a skull, dusty instruments; an oil lamp burning on a heavy wooden desk with a great open book; cold moonlight through a tall leaded-glass window on the left mixing with the warm lamplight.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "e2ae3833-7f0d-4905-a289-18ef106826db",
+          "raw_file": "raw/painterly/bg_study.png",
+          "file": "bg/painterly/study.webp",
+          "sha256": "61406d1fa69435440c49a909132b33308f842e9cd9d210c2ee3498104c6c7de0",
+          "status": "approved",
+          "notes": "attempt2 (corrective style sentence): painted, matte; good"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_study.png",
+          "file": "bg/anime/study.webp",
+          "generation_id": "d74c7334-01ba-4f43-8a6a-c04eeacaa9e9",
+          "sha256": "a50bef3741afb81854f528a8b967c9f3ef1e01b767780e621252a4a3d31671ec",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "anime film background, same layout as painterly"
+        }
+      }
+    },
+    {
+      "id": "bg_study_macrocosm",
+      "kind": "background",
+      "prompt": "Same Gothic study as the reference image, same viewpoint: above the great open book on the desk floats a glowing golden diagram of the macrocosm, concentric rings, stars and planets, casting soft golden light across the room.",
+      "reference": "bg_study",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "02c090d2-fdb9-47ab-8c89-30ccd6ad101e",
+          "raw_file": "raw/painterly/bg_study_macrocosm.png",
+          "file": "bg/painterly/study_macrocosm.webp",
+          "sha256": "b61dd1ccc9441daaaaf6326604223f5dc3c6d2b42e8dca87bc0414645bb4a2c8",
+          "status": "approved",
+          "notes": "same room as bg_study, glowing cosmic diagram"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_study_macrocosm.png",
+          "file": "bg/anime/study_macrocosm.webp",
+          "generation_id": "007c5e1e-c9cb-499f-9a21-e422f8cb461f",
+          "sha256": "feae90556a90e99954474a7b1d0f9526be5ab79d85d025f149fd58fb2e6d0017",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same study layout, golden macrocosm over book"
+        }
+      }
+    },
+    {
+      "id": "bg_study_spirit",
+      "kind": "background",
+      "prompt": "Same Gothic study as the reference image, same viewpoint, now flooded with trembling blood-red light; a towering, indistinct column of flame-like presence rises in the middle of the room, terrifying, with no clear face; long dark shadows.",
+      "reference": "bg_study",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "7e121029-9aaa-401e-944f-39af61e2fae3",
+          "raw_file": "raw/painterly/bg_study_spirit.png",
+          "file": "bg/painterly/study_spirit.webp",
+          "sha256": "aee08c767fdcf43a5fdbb282cbd3d00b1ec1aebe212a5e39a78cd00d34f97a85",
+          "status": "approved",
+          "notes": "same room, red flame column, no clear face"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_study_spirit.png",
+          "file": "bg/anime/study_spirit.webp",
+          "generation_id": "b2208010-3bc5-4ddb-a19b-685c76113711",
+          "sha256": "6255d6e57228ec493c5cbeaf26c5a9125d658155d30680a60ba503a186a95682",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same study layout, blood-red flame presence"
+        }
+      }
+    },
+    {
+      "id": "sprite_faust_neutral",
+      "kind": "sprite",
+      "character": "faust",
+      "expression": "neutral",
+      "prompt": "A scholar in his fifties, gaunt, deep-set tired eyes, greying shoulder-length hair and a short grey beard; dark umber academic gown with a fur collar over a black doublet; 16th-century German. Expression and pose: brooding, weary, neutral expression, hands loosely clasped.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "7133e214-fbff-4884-b3a0-10738e391205",
+          "raw_file": "raw/painterly/sprite_faust_neutral.png",
+          "file": "sprites/painterly/faust_neutral.webp",
+          "sha256": "b6f6b45824c49c9e7c33aa437547eeeb25c01bbb7d226e0c238018543e173741",
+          "status": "approved",
+          "notes": "clean cutout, on-model base"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_faust_neutral.png",
+          "file": "sprites/anime/faust_neutral.webp",
+          "generation_id": "0d8865fa-d3f6-40cf-8783-ef3f27ab2293",
+          "sha256": "7560ee5ec5150b34492b9afad30ec67cbd22efa16c35ae4dc09aec51cb783c45",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "anime calibration v2: clean cel shading, knee framing trimmed"
+        }
+      }
+    },
+    {
+      "id": "sprite_faust_anguished",
+      "kind": "sprite",
+      "character": "faust",
+      "expression": "anguished",
+      "prompt": "Expression and pose: anguished, brow furrowed, one hand pressed to his temple.",
+      "reference": "sprite_faust_neutral",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "c98cd286-2d7d-420d-adee-ece08db8f724",
+          "raw_file": "raw/painterly/sprite_faust_anguished.png",
+          "file": "sprites/painterly/faust_anguished.webp",
+          "sha256": "09c6deff61366ab2d97a1989b9737512c7f42cbedb441ab10221fc3e24be2dd9",
+          "status": "approved",
+          "notes": "attempt2: on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_faust_anguished.png",
+          "file": "sprites/anime/faust_anguished.webp",
+          "generation_id": "8e9efe40-7736-499f-a491-f97ca3ec3de0",
+          "sha256": "b6e862720cf2cb4c818b073ceacf28adf0249e350816f84077f9ccbd31d3188f",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "no-reference regen; cel-shaded, identity matches neutral"
+        }
+      }
+    },
+    {
+      "id": "sprite_faust_ecstatic",
+      "kind": "sprite",
+      "character": "faust",
+      "expression": "ecstatic",
+      "prompt": "Expression and pose: awed and ecstatic, eyes raised, face lit from above, one hand lifted.",
+      "reference": "sprite_faust_neutral",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "03ad09dd-6250-480a-ad4e-7716a07029a4",
+          "raw_file": "raw/painterly/sprite_faust_ecstatic.png",
+          "file": "sprites/painterly/faust_ecstatic.webp",
+          "sha256": "41497d71f93e262b1af9c405dc7fa0dffb3ccf405bee67ad5068d8ebbf9fc627",
+          "status": "approved",
+          "notes": "attempt2: on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_faust_ecstatic.png",
+          "file": "sprites/anime/faust_ecstatic.webp",
+          "generation_id": "c682b469-c99f-4dfe-a802-4868acddb168",
+          "sha256": "6f997cbc04d2fa762b8771ce7cc7e7febe45b2881e94c61d0e6c4e6da28102e9",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, clear expression"
+        }
+      }
+    },
+    {
+      "id": "sprite_faust_fearful",
+      "kind": "sprite",
+      "character": "faust",
+      "expression": "fearful",
+      "prompt": "Expression and pose: terrified, recoiling, eyes wide, both hands raised defensively.",
+      "reference": "sprite_faust_neutral",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "d56098e8-72b8-4af4-8e8b-2a53dac1d38e",
+          "raw_file": "raw/painterly/sprite_faust_fearful.png",
+          "file": "sprites/painterly/faust_fearful.webp",
+          "sha256": "c37cd376347380d85affe93ff5653a947bca1936b63bbac9a52e54dcb1fa3605",
+          "status": "approved",
+          "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_faust_fearful.png",
+          "file": "sprites/anime/faust_fearful.webp",
+          "generation_id": "207b4c1e-0273-4a86-8a2d-e6b573179da7",
+          "sha256": "0fcc3efce8b00b062521de3fd945d252658039bf1a52e8b287d10e61eb213610",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, clear fearful expression"
+        }
+      }
+    },
+    {
+      "id": "sprite_mephisto_neutral",
+      "kind": "sprite",
+      "character": "mephisto",
+      "expression": "neutral",
+      "prompt": "A lean man of no clear age, sharp features, arched eyebrows, pointed black beard, sardonic mouth; dressed as a 16th-century nobleman in a deep crimson and black doublet, short black cape, black beret with a single red rooster feather. No horns, no tail. Expression and pose: composed, cool, slightly amused neutral expression, one hand on his hip.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "a7bb01fd-0aa1-416f-b774-88100fb3dd7f",
+          "raw_file": "raw/painterly/sprite_mephisto_neutral.png",
+          "file": "sprites/painterly/mephisto_neutral.webp",
+          "sha256": "ecb2572c0968a968dd232808b58c9839f5e52616c32eafd44d3653504a0b26d9",
+          "status": "approved",
+          "notes": "clean cutout, on-model base"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_mephisto_neutral.png",
+          "file": "sprites/anime/mephisto_neutral.webp",
+          "generation_id": "6eff91aa-f425-48e3-b779-79507d7a3231",
+          "sha256": "7b12ca5e0e2c7835490eeaf1a7fb62cba80e2e852236e0ebf688be438ef18599",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "on-model cel-shaded, clean"
+        }
+      }
+    },
+    {
+      "id": "sprite_mephisto_sly",
+      "kind": "sprite",
+      "character": "mephisto",
+      "expression": "sly",
+      "prompt": "Expression and pose: sly smirk, one eyebrow raised, finger lifted as if making a clever point.",
+      "reference": "sprite_mephisto_neutral",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "2119bdd5-526c-4513-b157-4d9245da7e8b",
+          "raw_file": "raw/painterly/sprite_mephisto_sly.png",
+          "file": "sprites/painterly/mephisto_sly.webp",
+          "sha256": "cde7b1637645046e45bada7f96c12c2512ec8f7887775754f38261101ea93890",
+          "status": "approved",
+          "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_mephisto_sly.png",
+          "file": "sprites/anime/mephisto_sly.webp",
+          "generation_id": "4a7453c0-1ec9-48d3-ae17-4519479b9e57",
+          "sha256": "3c33b92eef21cb8f0725cb770669000c1b4d0cf26643117119241e2135f78763",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "generated without reference (MCP echoes refs); identity close to neutral"
+        }
+      }
+    },
+    {
+      "id": "sprite_mephisto_scornful",
+      "kind": "sprite",
+      "character": "mephisto",
+      "expression": "scornful",
+      "prompt": "Expression and pose: scornful sneer, chin raised, arms crossed.",
+      "reference": "sprite_mephisto_neutral",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "4decf579-0f87-46fa-b56d-f3e07fc4e89f",
+          "raw_file": "raw/painterly/sprite_mephisto_scornful.png",
+          "file": "sprites/painterly/mephisto_scornful.webp",
+          "sha256": "e008a094c02f84f78a7be96b21086d8d461f11e669eab7a41c961cb3b42a7293",
+          "status": "approved",
+          "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_mephisto_scornful.png",
+          "file": "sprites/anime/mephisto_scornful.webp",
+          "generation_id": "94c68d80-e3bf-419b-937b-5cd9af60cf34",
+          "sha256": "2ffb111af2581fee7c7275a46cc3f600e00197dbda165b2a19604a6381ef7ba2",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "no-reference generation; costume slightly varies, same character"
+        }
+      }
+    },
+    {
+      "id": "sprite_mephisto_deferent",
+      "kind": "sprite",
+      "character": "mephisto",
+      "expression": "deferent",
+      "prompt": "Expression and pose: mock-humble, bowing slightly, hand on his chest, ironic smile.",
+      "reference": "sprite_mephisto_neutral",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "0f45b4c0-2bee-484b-9d18-fffb907d27b6",
+          "raw_file": "raw/painterly/sprite_mephisto_deferent.png",
+          "file": "sprites/painterly/mephisto_deferent.webp",
+          "sha256": "4a142fbb968d69de14e23a469ef54604e66b893febc04a6b13e237283f9e08a9",
+          "status": "approved",
+          "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_mephisto_deferent.png",
+          "file": "sprites/anime/mephisto_deferent.webp",
+          "generation_id": "9733c54e-28d6-41e3-9f11-730412014d54",
+          "sha256": "53fe564b17658c5f80d9856b700c1545746fa7beded5a6caef821e9bf3760df5",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "no-reference generation; same character"
+        }
+      }
+    },
+    {
+      "id": "sprite_director_neutral",
+      "kind": "sprite",
+      "character": "director",
+      "expression": "neutral",
+      "prompt": "A stout middle-aged theatre impresario of the late 18th century; brown frock coat, buff waistcoat, tied grey wig, holding a ledger under one arm. Expression and pose: businesslike neutral expression. Framing: cropped just below the knees; legs and feet are not visible.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "ee9422b5-e0c6-41c0-abd9-3a959b498bd0",
+          "raw_file": "raw/painterly/sprite_director_neutral.png",
+          "file": "sprites/painterly/director_neutral.webp",
+          "sha256": "7976bfc0d42a5f4fd9c19507278200ef56b6d61f2a7138dabac290098b746a09",
+          "status": "approved",
+          "notes": "attempt2 (framing correction): three-quarter length, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_director_neutral.png",
+          "file": "sprites/anime/director_neutral.webp",
+          "generation_id": "a990948c-df60-473b-89e2-1088aa116eb4",
+          "sha256": "2c20f3437c320031c44ad069d84860c3a36f14715e64641841c5dd674d6ddff3",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, matches painterly costume"
+        }
+      }
+    },
+    {
+      "id": "sprite_director_pleased",
+      "kind": "sprite",
+      "character": "director",
+      "expression": "pleased",
+      "prompt": "Expression and pose: pleased, broad smile, rubbing his hands.",
+      "reference": "sprite_director_neutral",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "4afe8032-aa94-44f0-9a3f-740b2653e666",
+          "raw_file": "raw/painterly/sprite_director_pleased.png",
+          "file": "sprites/painterly/director_pleased.webp",
+          "sha256": "2c9e65c6d24e78237321f36738adfceccb0754ff43f801522a08787d07eb10aa",
+          "status": "approved",
+          "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_director_pleased.png",
+          "file": "sprites/anime/director_pleased.webp",
+          "generation_id": "97a01505-787c-488a-82a8-be16b01fda84",
+          "sha256": "c789bac9725ad3a54b7fdd6b82c97cef4bd6ec6d957ac08927fd2ef1a1d12d5a",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
+        }
+      }
+    },
+    {
+      "id": "sprite_director_worried",
+      "kind": "sprite",
+      "character": "director",
+      "expression": "worried",
+      "prompt": "Expression and pose: worried, frowning, glancing at the open ledger.",
+      "reference": "sprite_director_neutral",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "1f19afd0-30c1-466e-a567-ecee20955a97",
+          "raw_file": "raw/painterly/sprite_director_worried.png",
+          "file": "sprites/painterly/director_worried.webp",
+          "sha256": "328aca90f12db4d030c6127ba6145c5679afc18a748ffd6ddcdfeacc1d6bd98b",
+          "status": "approved",
+          "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_director_worried.png",
+          "file": "sprites/anime/director_worried.webp",
+          "generation_id": "0e80f43e-5b72-4c6e-a7cc-928740e791a4",
+          "sha256": "055876f1d165295129353b9299725c1bd5b935cbe1ea5494cc6113f99a744b4e",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
+        }
+      }
+    },
+    {
+      "id": "sprite_poet_neutral",
+      "kind": "sprite",
+      "character": "poet",
+      "expression": "neutral",
+      "prompt": "A young pale man, long dark wavy hair, open white shirt collar, dark slate-blue coat; holding a quill pen. Expression and pose: dreamy, melancholic, gazing into the distance.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "2039b9ed-0e58-4ed3-8436-11ab95f44171",
+          "raw_file": "raw/painterly/sprite_poet_neutral.png",
+          "file": "sprites/painterly/poet_neutral.webp",
+          "sha256": "998507e4b3f7e144c9a6f16ee611f2dbffd5cf60198adcac71870e43cef43e8c",
+          "status": "approved",
+          "notes": "clean cutout, on-model base"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_poet_neutral.png",
+          "file": "sprites/anime/poet_neutral.webp",
+          "generation_id": "537b453e-db6b-44c1-875e-b99af4094af3",
+          "sha256": "b2ae28cb12257bcfd59e346acff2101accbc348182ba7ea7af64f429417fc3a7",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, matches painterly coat (2nd gen)"
+        }
+      }
+    },
+    {
+      "id": "sprite_poet_inspired",
+      "kind": "sprite",
+      "character": "poet",
+      "expression": "inspired",
+      "prompt": "Expression and pose: inspired, eyes shining, hand raised with the quill.",
+      "reference": "sprite_poet_neutral",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "ae403e52-c98a-47b2-815a-46aad26a407c",
+          "raw_file": "raw/painterly/sprite_poet_inspired.png",
+          "file": "sprites/painterly/poet_inspired.webp",
+          "sha256": "eb9d41d5ab68e9a7df26bb28499e4e052538de48b774020434a608d7793a35e6",
+          "status": "approved",
+          "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_poet_inspired.png",
+          "file": "sprites/anime/poet_inspired.webp",
+          "generation_id": "2b290902-895e-4ff3-b847-f35480eed717",
+          "sha256": "5a9141bea8305da1c83ec57756f243e1cc0d12860310d760a7dc6e694984c81c",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
+        }
+      }
+    },
+    {
+      "id": "sprite_poet_indignant",
+      "kind": "sprite",
+      "character": "poet",
+      "expression": "indignant",
+      "prompt": "Expression and pose: indignant, frowning, hand on his heart in protest.",
+      "reference": "sprite_poet_neutral",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "a2eefe49-2b2e-4c64-9450-720b2f7ae8ce",
+          "raw_file": "raw/painterly/sprite_poet_indignant.png",
+          "file": "sprites/painterly/poet_indignant.webp",
+          "sha256": "eaaeda353714510caf7b048fdb4febda0992cd09b3de06bd1fbb07aaf6058803",
+          "status": "approved",
+          "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_poet_indignant.png",
+          "file": "sprites/anime/poet_indignant.webp",
+          "generation_id": "ca2c5f7e-4e1a-4018-b4f6-ec09cd2ff6ad",
+          "sha256": "8ba8847b43038a905276ef98f0de51901e7fba95daa605d8d9157737f917bedc",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
+        }
+      }
+    },
+    {
+      "id": "sprite_clown_neutral",
+      "kind": "sprite",
+      "character": "clown",
+      "expression": "neutral",
+      "prompt": "A jovial comedian, round ruddy face, in a motley costume of red, ochre and slate-blue diamonds with a white ruff collar. Expression and pose: cheerful neutral expression. Framing: cropped just below the knees; legs and feet are not visible.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "85e1bae9-a6c4-4132-a880-af41996c5d97",
+          "raw_file": "raw/painterly/sprite_clown_neutral.png",
+          "file": "sprites/painterly/clown_neutral.webp",
+          "sha256": "8d039498d39e0f9ca11de525a47fee16480a3c07c73722330e0a3473dafe2c87",
+          "status": "approved",
+          "notes": "attempt2 (framing correction): clean cutout; holds a small marotte puppet"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_clown_neutral.png",
+          "file": "sprites/anime/clown_neutral.webp",
+          "generation_id": "c41f7a4b-f901-4d3f-92a5-2b7de48f3381",
+          "sha256": "716c072dc32ec4d012563b7721ee48b3da9da797ff195a265982154517e7c538",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, harlequin motley matches painterly"
+        }
+      }
+    },
+    {
+      "id": "sprite_clown_laughing",
+      "kind": "sprite",
+      "character": "clown",
+      "expression": "laughing",
+      "prompt": "Expression and pose: laughing heartily, head tilted back, hand on his belly.",
+      "reference": "sprite_clown_neutral",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "257a5eae-25b2-4fdc-afe4-ee9138d3c00f",
+          "raw_file": "raw/painterly/sprite_clown_laughing.png",
+          "file": "sprites/painterly/clown_laughing.webp",
+          "sha256": "0701e53692fdf1ecf7a1aa49da6268960d07807f313d90905a63f951d09b3b93",
+          "status": "approved",
+          "notes": "on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_clown_laughing.png",
+          "file": "sprites/anime/clown_laughing.webp",
+          "generation_id": "25526f79-40c2-4dda-959a-7c4331845c00",
+          "sha256": "b6a84f957f18c8eaa4821116607e9d422c346176116ac4e781e6b7b4ab13ca67",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
+        }
+      }
+    },
+    {
+      "id": "sprite_clown_mocking",
+      "kind": "sprite",
+      "character": "clown",
+      "expression": "mocking",
+      "prompt": "Expression and pose: mocking grin, winking, pointing.",
+      "reference": "sprite_clown_neutral",
+      "renditions": {
+        "painterly": {
+          "source": "chatgpt-web",
+          "generation_id": "3284dea9-5b51-4888-9d70-fbe5911fb5ab",
+          "raw_file": "raw/painterly/sprite_clown_mocking.png",
+          "file": "sprites/painterly/clown_mocking.webp",
+          "sha256": "29781102c27ec28fe919a1342a59720d3110cbd11f627fc2cf87b6971fbfc832",
+          "status": "approved",
+          "notes": "attempt2: on-model, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_clown_mocking.png",
+          "file": "sprites/anime/clown_mocking.webp",
+          "generation_id": "5824fc14-130e-44a1-b3eb-7fc577375979",
+          "sha256": "a50f404168180ebdcad1019b7f3153e8b3a47a10270c1bd95c733f1dd3375c68",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean anime, same costume"
+        }
+      }
+    },
+    {
+      "id": "bg_city_gates",
+      "kind": "background",
+      "prompt": "The gate of a 16th-century German town on Easter Sunday afternoon: a stone gate-tower with a pointed roof and an arched passage, town walls to one side, a sunlit road leading out across meadows and budding trees toward a distant village with a church spire, bright spring sky with a few clouds, the gate area empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/city_gates.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "e2e408f3cb3989726e56752b9982f7494bab503865ab233d1174a41e6cfb9c52",
+          "raw_file": "raw/painterly/bg_city_gates.png",
+          "generation_id": "6a192a05-1076-493d-81c0-121f3ad9473f",
+          "notes": "oil painting gate with blossom, good"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_city_gates.png",
+          "file": "bg/anime/city_gates.webp",
+          "generation_id": "354e634f-f845-4369-bbff-d94acfa05d18",
+          "sha256": "9bad2e9d08e6bf0388da9f41508c12fe316e05e999be561396c12386e32e39c7",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same gate tower, wall, blossoms, road to village"
+        }
+      }
+    },
+    {
+      "id": "sprite_wagner_neutral",
+      "kind": "sprite",
+      "character": "wagner",
+      "expression": "neutral",
+      "prompt": "A scholarly young man in his late twenties, thin, with a long narrow face, short ash-brown hair and small round spectacles; charcoal-grey student's gown over a plain dark doublet with a white collar band; 16th-century German. Expression and pose: earnest, slightly pedantic neutral expression, a thick closed book held against his chest.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/wagner_neutral.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "e33e530744c591a16893f84cbcbab36ca92086295cff49ba1c408c6f542dd1c0",
+          "raw_file": "raw/painterly/sprite_wagner_neutral.png",
+          "generation_id": "8e793c5b-f717-4155-9e4b-39ebc515f989",
+          "notes": "on-style, clean cutout"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_wagner_neutral.png",
+          "file": "sprites/anime/wagner_neutral.webp",
+          "generation_id": "3d8da998-7941-4779-8ab6-4f2e55e5a0ec",
+          "sha256": "3037085ecd6cdbfa809c7cafd9ae8d329089ddd997fa01578da78fccd58a7c2d",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "clean cel anime, matches painterly costume"
+        }
+      }
+    },
+    {
+      "id": "sprite_wagner_eager",
+      "kind": "sprite",
+      "character": "wagner",
+      "expression": "eager",
+      "prompt": "Expression and pose: eager and self-satisfied, brows raised, one forefinger lifted as if making a learned point.",
+      "reference": "sprite_wagner_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/wagner_eager.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "c00ad923ebc209057934735a7951e9ffe98fd4b568543fdfe4add32081217a4a",
+          "raw_file": "raw/painterly/sprite_wagner_eager.png",
+          "generation_id": "487ef964-d037-469e-9921-db3a89abde22",
+          "notes": "no-reference generation; same character"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_wagner_eager.png",
+          "file": "sprites/anime/wagner_eager.webp",
+          "generation_id": "a409c9c4-d544-4bd9-8120-a5c415bc1eaf",
+          "sha256": "838715ab748b5bbf0dbbf65eca1b4035581a46a72414e7885107e314263ead7d",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, raised finger"
+        }
+      }
+    },
+    {
+      "id": "sprite_wagner_uneasy",
+      "kind": "sprite",
+      "character": "wagner",
+      "expression": "uneasy",
+      "prompt": "Expression and pose: uneasy and puzzled, eyes narrowed and glancing aside, the book clutched tighter.",
+      "reference": "sprite_wagner_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/wagner_uneasy.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "44b2204c35658d0e7149d007ef5961c9c529a58c55c88e07f923beb9c4938f70",
+          "raw_file": "raw/painterly/sprite_wagner_uneasy.png",
+          "generation_id": "3e46359c-a344-47af-90d4-09554a93f01e",
+          "notes": "no-reference generation; same character"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_wagner_uneasy.png",
+          "file": "sprites/anime/wagner_uneasy.webp",
+          "generation_id": "2c8b5b72-ac84-4b91-b5a6-62dfac21004f",
+          "sha256": "fa62761c20c23bceb5b9965b457beac686207ef3169b1c33dc07fb44f05547d1",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, uneasy"
+        }
+      }
+    },
+    {
+      "id": "bg_study_day",
+      "kind": "background",
+      "prompt": "Same Gothic study as the reference image, same viewpoint and furniture, but now in daytime: pale grey daylight streams through the tall leaded-glass window on the left, the oil lamp is out, dust motes drift in the light, the shelves, alembics, skull and the open book on the desk clearly visible, the room looking colder and more ordinary.",
+      "reference": "bg_study",
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/study_day.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "e251e416f2bd5378421aa7475f9eee80f7211c6a0d8f537a159e5205b830651f",
+          "raw_file": "raw/painterly/bg_study_day.png",
+          "generation_id": "30d1123a-501c-45d0-ad98-1c570002c209",
+          "notes": "daytime variant of study, no-reference; consistent"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_study_day.png",
+          "file": "bg/anime/study_day.webp",
+          "generation_id": "5552b14b-adde-47ab-9dee-ca2a93ab37ff",
+          "sha256": "9252bcb62749be3070019b5c5351d3e1f74c7715d092a96dd43cae914cca7708",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same layout as painterly, daylight"
+        }
+      }
+    },
+    {
+      "id": "sprite_student_neutral",
+      "kind": "sprite",
+      "character": "student",
+      "expression": "neutral",
+      "prompt": "A very young man of about eighteen, a freshman newly arrived at the university, with a round open face, short light-brown hair and bright eager eyes; a plain ochre-brown travelling cloak over a simple russet jerkin, a satchel strap across his chest and a small blank notebook in one hand; 16th-century German. Expression and pose: attentive, respectful neutral expression, standing straight.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/student_neutral.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "2e86074248b57b94f0167f33360d0657b8e839ab2dd9ce461fd4a9a116397aab",
+          "raw_file": "raw/painterly/sprite_student_neutral.png",
+          "generation_id": "5052317d-ad41-46cf-8358-d59c44e655d0",
+          "notes": "on-style, clean"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_student_neutral.png",
+          "file": "sprites/anime/student_neutral.webp",
+          "generation_id": "1d25da78-7e15-44fd-aed4-9c74f08fe548",
+          "sha256": "d15425b8e02385eb52f82a92d42bba78131a4f45b5754c6e81d75b2b302bf4bc",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "matches painterly costume"
+        }
+      }
+    },
+    {
+      "id": "sprite_student_eager",
+      "kind": "sprite",
+      "character": "student",
+      "expression": "eager",
+      "prompt": "Expression and pose: eager and delighted, wide smile, eyes shining, notebook held out hopefully.",
+      "reference": "sprite_student_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/student_eager.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "ff6937e9751eb8968bfeeb778225b77553cf241c0401cdbe59bc2606f2df3c02",
+          "raw_file": "raw/painterly/sprite_student_eager.png",
+          "generation_id": "293e1713-dc85-476b-a1fe-f5247591ffd5",
+          "notes": "no-reference; same character"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_student_eager.png",
+          "file": "sprites/anime/student_eager.webp",
+          "generation_id": "1b018624-0054-46d8-a677-40ba0375ce6e",
+          "sha256": "2a25bd6fabc7f80225fd4d4eae15a245351274acdb462a87056a88d0b81749bf",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, eager"
+        }
+      }
+    },
+    {
+      "id": "sprite_student_puzzled",
+      "kind": "sprite",
+      "character": "student",
+      "expression": "puzzled",
+      "prompt": "Expression and pose: bewildered and slightly dismayed, brows knitted, head tilted, one hand scratching his head.",
+      "reference": "sprite_student_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/student_puzzled.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "ceb72ad2d51bba2bd764df45fc188788b39d205ebeb2f292ec0be1bd59c6a644",
+          "raw_file": "raw/painterly/sprite_student_puzzled.png",
+          "generation_id": "cbe4a0c8-f4b3-4255-b348-bbcce2cc1604",
+          "notes": "no-reference; same character"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_student_puzzled.png",
+          "file": "sprites/anime/student_puzzled.webp",
+          "generation_id": "45e766a6-7695-45d0-9b5a-637d1b4fe52b",
+          "sha256": "85d250fe5bb40b4793cc13c39e8f56d9e6458f6b46da502b51a3ab891112340c",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, puzzled"
+        }
+      }
+    },
+    {
+      "id": "bg_tavern",
+      "kind": "background",
+      "prompt": "Interior of Auerbach's Keller, a vaulted wine tavern in 16th-century Leipzig: a low brick barrel-vault, heavy oak tables and benches, large wine casks along the walls, pewter tankards and bottles, a few hanging oil lamps and candles casting a warm smoky glow, the room empty of people.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/tavern.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "693f520b374b09e257a43ccc8e855863b83e803cfc7cf1d3ecac30fb3dbde3c5",
+          "raw_file": "raw/painterly/bg_tavern.png",
+          "generation_id": "d45af8ea-4b84-4623-9e43-36b7e7135a3b",
+          "notes": "oil style, vaulted cellar, no people"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_tavern.png",
+          "file": "bg/anime/tavern.webp",
+          "generation_id": "476d130c-7cb5-4792-bc60-8ad579650e88",
+          "sha256": "91efe35c86f667a89390828e086aa563b39f2726b45c0376f21ee44f518e36d7",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches painterly, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "bg_witch_kitchen",
+      "kind": "background",
+      "prompt": "A witch's kitchen in a low, smoky cavern-like room: a low hearth with a great iron cauldron over a small fire, smoke rising to a black ceiling where dim images drift in it, shelves and walls crowded with strange pots, jars, bones, dried herbs, a broom and a ladle, a tall cracked mirror in a dim corner, a stool and a high-backed armchair, the room empty of people.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/witch_kitchen.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "97ba85ab616dd23bcf18570d11622fbb64a2bdf8c74d2a5c3a4a497648827165",
+          "raw_file": "raw/painterly/bg_witch_kitchen.png",
+          "generation_id": "5aba23c3-be31-4e59-8a43-cbd707b93c9c",
+          "notes": "oil style, good"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_witch_kitchen.png",
+          "file": "bg/anime/witch_kitchen.webp",
+          "generation_id": "0c7ee727-a26c-48f7-8ea0-353d478a0dad",
+          "sha256": "ab66c542d59a0a84d15d81653d3e95b78efe8059ed0f21a28320c96c90b7f136",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "sprite_witch_neutral",
+      "kind": "sprite",
+      "character": "witch",
+      "expression": "neutral",
+      "prompt": "An ancient hag with a deeply wrinkled face, wild matted grey hair, a hooked nose and a crooked, nearly toothless grin; tattered dark-brown and charcoal rags under a patched black shawl; she holds an iron ladle in one hand. Expression and pose: sly, watchful neutral expression, head slightly forward.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/witch_neutral.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "eae989f959e9ada65b52a62841c6662e45519a4f84701d041b0d7b783bd8697f",
+          "raw_file": "raw/painterly/sprite_witch_neutral.png",
+          "generation_id": "fa1fdf62-3602-4dc5-ac54-5e515f9a4fbf",
+          "notes": "on-style"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_witch_neutral.png",
+          "file": "sprites/anime/witch_neutral.webp",
+          "generation_id": "1473ffbe-8d26-4f9f-bf39-4d186919b96f",
+          "sha256": "485af4350c31af0ffa5a4c957028a17dbf90978e0f8fdcabafc083eef743da60",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "matches painterly hag"
+        }
+      }
+    },
+    {
+      "id": "sprite_witch_cackling",
+      "kind": "sprite",
+      "character": "witch",
+      "expression": "cackling",
+      "prompt": "Expression and pose: cackling with glee, mouth wide open, eyes gleaming, ladle waving in the air.",
+      "reference": "sprite_witch_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/witch_cackling.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "8a8c8017049e995b1fedb27e1fda6381ed06ba74d3b30d2ddf6fc75514f5a913",
+          "raw_file": "raw/painterly/sprite_witch_cackling.png",
+          "generation_id": "4ac07100-9569-41b7-8530-fd6d95eb69a7",
+          "notes": "no-reference; same character"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_witch_cackling.png",
+          "file": "sprites/anime/witch_cackling.webp",
+          "generation_id": "254a0516-c798-4ea0-9cb6-d7a103180396",
+          "sha256": "1cbad5aca955f0d11080323c5815248270294fa8eb2dad5c8a99134d16cc3dd5",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, cackling"
+        }
+      }
+    },
+    {
+      "id": "sprite_witch_furious",
+      "kind": "sprite",
+      "character": "witch",
+      "expression": "furious",
+      "prompt": "Expression and pose: screeching with rage, teeth bared, brows contorted, one clawed hand thrown out.",
+      "reference": "sprite_witch_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/witch_furious.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "cbf4bcf77225407188f0ffc817bad7044cb77bc6b2f8f899bc7daaedf28ae479",
+          "raw_file": "raw/painterly/sprite_witch_furious.png",
+          "generation_id": "9595bc22-e5e9-48bd-8466-eced40ba43bd",
+          "notes": "no-reference; same character"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_witch_furious.png",
+          "file": "sprites/anime/witch_furious.webp",
+          "generation_id": "24d08810-c345-42a5-9337-0d9042b55b88",
+          "sha256": "065bd318310c6cb64501c4ffa694937cb516b0f8b9940666bae339d9efe96619",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity; hood tip touches top edge, head whole"
+        }
+      }
+    },
+    {
+      "id": "bg_street",
+      "kind": "background",
+      "prompt": "A narrow street in a 16th-century German town on a sunny day: half-timbered houses with steep gables and window shutters, cobblestones, a closed wooden house door with a stone step on the right, a church tower rising beyond the rooftops, the street empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/street.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "ac5303e1f4d703c9ad02f15a623c54265d482e0d609bae4fdedb7cff66811388",
+          "raw_file": "raw/painterly/bg_street.png",
+          "generation_id": "8558ac8d-53b0-415f-afff-faba07e3f32d",
+          "notes": "oil style, slightly glossy but acceptable"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_street.png",
+          "file": "bg/anime/street.webp",
+          "generation_id": "2796b4b2-4f32-4c29-aac8-d3af41c538da",
+          "sha256": "04c445961eed553dc13794d77fa41b76777d796f55053e5278e23618b0ddc063",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "sprite_margarita_neutral",
+      "kind": "sprite",
+      "character": "margarita",
+      "expression": "neutral",
+      "prompt": "A young adult woman of about twenty, fair and modest, with an innocent open face, long blonde hair in two thick braids hanging over her shoulders, a dove-grey laced bodice over a white linen chemise with full sleeves, a plain ivory apron; 16th-century German townswoman. Expression and pose: gentle, slightly shy neutral expression, hands folded in front of her.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/margarita_neutral.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "c111f0eeb996a5dd0e56a36e2921554395689d66f05c68cb33790019b54f52e2",
+          "raw_file": "raw/painterly/sprite_margarita_neutral.png",
+          "generation_id": "b677c7b8-2522-4ab6-b688-23ce1ed050ae",
+          "notes": "gentle young townswoman, braids, painterly"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_margarita_neutral.png",
+          "file": "sprites/anime/margarita_neutral.webp",
+          "generation_id": "1b52f2f8-429f-471a-b408-33976dafe7cf",
+          "sha256": "2c2c3c24cac0e15ab4e38dc4b92203d18e8affb6e07b6fcacfdec5651e6c6659",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "on-model, clean cel shading; neckline slightly low but acceptable"
+        }
+      }
+    },
+    {
+      "id": "sprite_margarita_joyful",
+      "kind": "sprite",
+      "character": "margarita",
+      "expression": "joyful",
+      "prompt": "Expression and pose: radiant and happy, bright smile, eyes shining, one hand held to her cheek.",
+      "reference": "sprite_margarita_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/margarita_joyful.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "ebea3ac1f7180e1c647388ff7f669e538b1c4f4dec5dfec48bef5dceb6bbb7f9",
+          "raw_file": "raw/painterly/sprite_margarita_joyful.png",
+          "generation_id": "74f8b58e-5220-4323-abb8-a575ea06ab54",
+          "notes": "same identity, smiling, hand to cheek"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_margarita_joyful.png",
+          "file": "sprites/anime/margarita_joyful.webp",
+          "generation_id": "218efe28-230a-45c7-83d6-73abb9f4d0b2",
+          "sha256": "dd7f0c50d0e0cbca6c5e3c23a930101b35a80a0075d6e31fc3d763b44e01de7a",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "on-model, clear expression"
+        }
+      }
+    },
+    {
+      "id": "sprite_margarita_sorrowful",
+      "kind": "sprite",
+      "character": "margarita",
+      "expression": "sorrowful",
+      "prompt": "Expression and pose: sorrowful and tearful, eyes downcast and glistening, hands clasped to her breast.",
+      "reference": "sprite_margarita_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/margarita_sorrowful.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "ceaa4a4048cbb1b1cf291785aba9af677a35faae611c39ddc412a7326acefb00",
+          "raw_file": "raw/painterly/sprite_margarita_sorrowful.png",
+          "generation_id": "4fc1e2e7-e1a1-40f7-a482-1bb6af48bb63",
+          "notes": "same identity, tearful, hands to breast"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_margarita_sorrowful.png",
+          "file": "sprites/anime/margarita_sorrowful.webp",
+          "generation_id": "568ba40b-7500-410b-b25e-9c0f63b52d77",
+          "sha256": "2c95919a7e56a82793b190f015905dff8ecbd9529621c6223592e35dce13f949",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "on-model, clear expression"
+        }
+      }
+    },
+    {
+      "id": "sprite_margarita_fearful",
+      "kind": "sprite",
+      "character": "margarita",
+      "expression": "fearful",
+      "prompt": "Expression and pose: terrified and distraught, eyes wide, lips parted, both hands pressed to her face, hair slightly disordered.",
+      "reference": "sprite_margarita_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/margarita_fearful.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "c482f10d9b7a02aba15bb6db154aa30a85d136da7afa9f9be35b4b95384f9a8e",
+          "raw_file": "raw/painterly/sprite_margarita_fearful.png",
+          "generation_id": "87672ce4-f9e2-4e5b-9581-9aa954ac544d",
+          "notes": "same identity, terrified, hands to face"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_margarita_fearful.png",
+          "file": "sprites/anime/margarita_fearful.webp",
+          "generation_id": "6eddf6ec-0b42-452a-af01-f5e88b0bb2ce",
+          "sha256": "ba08fd9b3137cf16cf87b433d036cd29970c057a0a83a2d2e1b2b7e8c1bc89da",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "on-model, clear expression"
+        }
+      }
+    },
+    {
+      "id": "bg_margaret_room",
+      "kind": "background",
+      "prompt": "A small, very clean room in a 16th-century German burgher's house at dusk: a neat curtained bed, a leather armchair beside it, a wooden cupboard, a spinning wheel by the window, a small mirror on the wall, an open casement window with warm last evening light falling in and a faint candle glow, the room empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/margaret_room.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "6124c9231bcbf145457f991b6c87abaa49a8263ceb2a79b9680d8b0d98d36de6",
+          "raw_file": "raw/painterly/bg_margaret_room.png",
+          "generation_id": "b5309888-5b8f-4e15-9aab-5ba9b2f35c6c",
+          "notes": "painterly, consistent with approved bgs"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_margaret_room.png",
+          "file": "bg/anime/margaret_room.webp",
+          "generation_id": "bdbf6f84-a055-4b92-b11f-1c83e3fb0242",
+          "sha256": "dc7bf0f06869379105e926a1cabd55f9400df307dc0f17888bdd59d3f4da9c6b",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "bg_promenade",
+      "kind": "background",
+      "prompt": "A tree-lined walk beside a 16th-century German town: a gravel path along a low wall under bare-branched trees, town roofs and a church spire in the distance, soft overcast daylight, the path empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/promenade.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "f73985b752695e2921c6b159cc1b600682ab58ef614472e6b8f37dc33d2111bb",
+          "raw_file": "raw/painterly/bg_promenade.png",
+          "generation_id": "670efa0d-46d8-4a0e-9203-7358913bd7b0",
+          "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_promenade.png",
+          "file": "bg/anime/promenade.webp",
+          "generation_id": "e910b0df-b642-46c0-ad8f-dcf70d2a3ae2",
+          "sha256": "43e4b7436463024d2c969c6c372c41b5a0bb7aec9e0ad41d60f3177dc7ff767f",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "bg_neighbour_house",
+      "kind": "background",
+      "prompt": "The interior of a modest 16th-century German widow's home in daylight: a sitting room with a wooden table and benches, a tiled stove, a small cupboard, linen and a mirror on the wall, a window with leaded panes and a bright garden beyond, the room empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/neighbour_house.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "35343e118fd0c98232bc2ccf40d41297aeadc28b52d305c5b6b8aacabc986fab",
+          "raw_file": "raw/painterly/bg_neighbour_house.png",
+          "generation_id": "e29c77b0-636e-44ed-a234-b4a9902ce4b2",
+          "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_neighbour_house.png",
+          "file": "bg/anime/neighbour_house.webp",
+          "generation_id": "9d3e6c1f-35b8-47a7-973f-26e592eff5e0",
+          "sha256": "b94c7b6fa936c7c0f3031592a5657b6806dc34c16fe030978bec4db4c62dcccf",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "sprite_marta_neutral",
+      "kind": "sprite",
+      "character": "marta",
+      "expression": "neutral",
+      "prompt": "A stout, comfortable widow of about forty-five with a ruddy round face and kind but gossipy eyes; a white linen coif covering her hair, a dark plum wool bodice over a white chemise and a rust-ochre apron; 16th-century German townswoman. Expression and pose: friendly, talkative neutral expression, hands resting at her waist.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/marta_neutral.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "9af5d88b0ae7c1ca29e503c6efb3f0abaa031ff20793a8ca1f55e9483d662239",
+          "raw_file": "raw/painterly/sprite_marta_neutral.png",
+          "generation_id": "f097d31c-6192-42ce-8266-03c51069b439",
+          "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_marta_neutral.png",
+          "file": "sprites/anime/marta_neutral.webp",
+          "generation_id": "a5563548-6a26-41be-817a-eadf9d0c7c33",
+          "sha256": "f72a61e181444a66d7bf3e194216eddf682a5a41e0f3134b8ea0f1f335f7d9a7",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "costume matches (skirt slightly bluer), adult"
+        }
+      }
+    },
+    {
+      "id": "sprite_marta_coy",
+      "kind": "sprite",
+      "character": "marta",
+      "expression": "coy",
+      "prompt": "Expression and pose: coy and flattered, a pleased knowing smile, head tilted, one hand fluttering near her chin.",
+      "reference": "sprite_marta_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/marta_coy.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "be890d554d3ae6b7cb9a6dc8cfb8a8bb2f447d170d819cc8ec12d1c32f2f432f",
+          "raw_file": "raw/painterly/sprite_marta_coy.png",
+          "generation_id": "888b8ed1-3072-450d-913d-9cf53e5280ce",
+          "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_marta_coy.png",
+          "file": "sprites/anime/marta_coy.webp",
+          "generation_id": "7cda6084-0925-440b-b924-042a87ce66a1",
+          "sha256": "bec44d7c0d51e7e5bee58f51a3b8baeff65a723732b0326a304ad9a02b44fe66",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, coy"
+        }
+      }
+    },
+    {
+      "id": "sprite_marta_distressed",
+      "kind": "sprite",
+      "character": "marta",
+      "expression": "distressed",
+      "prompt": "Expression and pose: distressed and lamenting, brow creased, mouth turned down, one hand pressed to her chest.",
+      "reference": "sprite_marta_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/marta_distressed.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "7197efe6b69e97a8dc9493a7209727a1d223bd8c518d8b96db0f280083136f05",
+          "raw_file": "raw/painterly/sprite_marta_distressed.png",
+          "generation_id": "12817d96-f1cb-493f-9378-dc41119b5509",
+          "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_marta_distressed.png",
+          "file": "sprites/anime/marta_distressed.webp",
+          "generation_id": "59a9de7b-c51a-4eff-9d42-98d62344191c",
+          "sha256": "5f5ef95394fb59436549b9ad905ed56170f6fcdca135eb7a99b98b8f3cb88775",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, distressed"
+        }
+      }
+    },
+    {
+      "id": "bg_garden",
+      "kind": "background",
+      "prompt": "A walled garden of a 16th-century German town house on a warm afternoon: gravel paths between flower beds of daisies, roses and herbs, a stone bench, a small apple tree, a pavilion door glimpsed in a hedge, a wooden garden gate, the garden empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/garden.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "c4b362cbe915e087951294948b3bd9d5ba960e76914f1c47bc28c9e702306914",
+          "raw_file": "raw/painterly/bg_garden.png",
+          "generation_id": "d906aafd-75cb-4e1e-898b-db2735724e7f",
+          "notes": "ok, slightly glossy"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_garden.png",
+          "file": "bg/anime/garden.webp",
+          "generation_id": "a207bef5-892d-4d86-9282-c207cbc09c57",
+          "sha256": "d49f4c92ff2fb0dfd507fed87fe1320f03855d3c0cb80549f4f7a7464b3fbd51",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "bg_garden_pavilion",
+      "kind": "background",
+      "prompt": "A little garden pavilion at dusk: a small wooden summer-house with a half-open door and a narrow window, a plain table and bench inside, overgrown with flowering honeysuckle and roses, the evening sky turning purple above the garden hedge, the first stars appearing, the place empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/garden_pavilion.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "85602e4f59ccc53cde74a58cb59a01602a0a142ec95460a78612877bf548b1e5",
+          "raw_file": "raw/painterly/bg_garden_pavilion.png",
+          "generation_id": "fb0878b8-9288-47f1-a576-6b3efc8afac8",
+          "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_garden_pavilion.png",
+          "file": "bg/anime/garden_pavilion.webp",
+          "generation_id": "fe49f71c-fb72-4d3f-9d39-77750823d565",
+          "sha256": "0cd8374fa8759d1831bc5d2ba479c253a12bc29e6b94239c1043438ca26ef7e3",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "bg_forest_cave",
+      "kind": "background",
+      "prompt": "A wild forest with a cavern: ancient oaks and pines rising over a rocky hillside, a cave opening with mossy rock at the centre, shafts of sunlight falling through the high branches onto the leaves, a distant waterfall and a peaceful solitude, no people.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/forest_cave.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "6bba4235e1b01f95909d8cddb4fd4be1891470ee9b855c3d2908cf55a6c9f1af",
+          "raw_file": "raw/painterly/bg_forest_cave.png",
+          "generation_id": "4171a2af-6511-40fc-8b48-53eddb628a7e",
+          "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_forest_cave.png",
+          "file": "bg/anime/forest_cave.webp",
+          "generation_id": "10c8d1ae-ed76-4194-b3fb-e85bca07312e",
+          "sha256": "e620faf34db703ce0c6aee63784e186690439e7335de73d62daf8445491fe9f2",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "bg_fountain",
+      "kind": "background",
+      "prompt": "The town fountain of a 16th-century German town on a bright day: a stone basin with a spout in a small cobbled square between half-timbered houses with steep gables, wooden buckets and clay water jugs at its edge, the square empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/fountain.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "ff5e4850d038439c1aeea99bbd9e30b19930dd91e5be8eb781885c8deb38c334",
+          "raw_file": "raw/painterly/bg_fountain.png",
+          "generation_id": "81ef5ff6-f1be-4bd7-997c-0e8c193ac5a0",
+          "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_fountain.png",
+          "file": "bg/anime/fountain.webp",
+          "generation_id": "f07b81a1-3060-4c0f-a390-da02f82a863d",
+          "sha256": "6420077e425937d8623d5cb91f8f2c5f8b1cfa242d864b850cc4304b1d500a5e",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "sprite_lisa_neutral",
+      "kind": "sprite",
+      "character": "lisa",
+      "expression": "neutral",
+      "prompt": "A young woman of about twenty, a townsman's daughter and gossip, with a plump-cheeked face, brown hair under an ochre kerchief, a faded blue laced bodice over a white chemise with rolled sleeves; she holds a clay water pitcher at her hip; 16th-century German townswoman. Expression and pose: curious, chatty neutral expression, head slightly tilted.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/lisa_neutral.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "f00523d1bd48031a37c7d407a73252bb4f65a5bbb41cde48b7ce7daa82d72bf6",
+          "raw_file": "raw/painterly/sprite_lisa_neutral.png",
+          "generation_id": "51c59f5d-087d-4399-bc4a-937482181cd7",
+          "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_lisa_neutral.png",
+          "file": "sprites/anime/lisa_neutral.webp",
+          "generation_id": "b911280f-93c2-4245-8926-797d4d2d26d5",
+          "sha256": "0c10c95d7a4062d04f53ddd73724e01e1693cbecaf0da5d0c7ddf34e78910bd1",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "matches painterly costume"
+        }
+      }
+    },
+    {
+      "id": "sprite_lisa_smug",
+      "kind": "sprite",
+      "character": "lisa",
+      "expression": "smug",
+      "prompt": "Expression and pose: smug and self-righteous, a small pursed smile, chin raised, eyebrows slightly arched, pitcher still at her hip.",
+      "reference": "sprite_lisa_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/lisa_smug.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "6d49c38334c831246cf938ce036b46f1086e4db65b368d576e38e8228c26b137",
+          "raw_file": "raw/painterly/sprite_lisa_smug.png",
+          "generation_id": "735599b3-f11d-4f5f-a4f4-36cdfdb8c14a",
+          "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_lisa_smug.png",
+          "file": "sprites/anime/lisa_smug.webp",
+          "generation_id": "97413187-24f0-4b4f-b25c-f0ea46c0696b",
+          "sha256": "8f0e8d945ad90289aeb709a8bf2042b2fcc181e82e66449682b5c1b49e21593b",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, smug"
+        }
+      }
+    },
+    {
+      "id": "bg_city_walls",
+      "kind": "background",
+      "prompt": "A shadowed niche in the old stone wall of a 16th-century German town at dusk: a carved image of the Virgin as Our Lady of Sorrows, a sorrowing woman with a sword in her breast, in the niche, with clay pots of fresh flowers at her feet and a single flickering candle, ivy on the wall, the sky turning dark violet above.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/city_walls.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "9aea5f6c75ddd039f3a103bf4f8e883290331b475583be54d22fd9a02c810548",
+          "raw_file": "raw/painterly/bg_city_walls.png",
+          "generation_id": "4687f3bf-597e-42e9-ba11-9254415a6044",
+          "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_city_walls.png",
+          "file": "bg/anime/city_walls.webp",
+          "generation_id": "c45f05d0-70c9-4da8-aab2-da397aa7f454",
+          "sha256": "3d442d492d7d595f1309af391002784a2baa9e9198c53c08db9d284a562f2a90",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches (stone Madonna statue in niche as in painterly), anime backdrop, no living figures"
+        }
+      }
+    },
+    {
+      "id": "bg_street_night",
+      "kind": "background",
+      "prompt": "Same street as the reference image, same viewpoint and houses, now at night: moonlight and a single lantern hanging by the closed house door on the right, deep blue shadows, one window dimly lit, the cobblestones damp, the street empty.",
+      "reference": "bg_street",
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/street_night.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "d5016def2c6490f2e48d00a572897bb1de586f27dfb309d91eef6a8743147611",
+          "raw_file": "raw/painterly/bg_street_night.png",
+          "generation_id": "17a4d9b0-4ec5-43f9-8235-c1ac3a69afd0",
+          "notes": "ok, same street as bg_street"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_street_night.png",
+          "file": "bg/anime/street_night.webp",
+          "generation_id": "c380ae01-61e5-4bef-b15c-e528c97e52f2",
+          "sha256": "39c1cf322d891139b4b19b26f5d5d22d970f510b4fcf1af23670ed381b3dbcf9",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "sprite_valentin_neutral",
+      "kind": "sprite",
+      "character": "valentin",
+      "expression": "neutral",
+      "prompt": "A broad-shouldered soldier of about thirty-five, Margarita's elder brother, with short dark-brown hair, a heavy moustache and a stern weathered face; a buff leather jerkin over a slate-grey slashed doublet, a sword hilt visible at his hip; 16th-century German. Expression and pose: stern, proud neutral expression, arms at his sides.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/valentin_neutral.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "b582cd9dbf07d4effe75541e991abe6bc62eaceb68e507991009bc89f0287670",
+          "raw_file": "raw/painterly/sprite_valentin_neutral.png",
+          "generation_id": "7d18687c-ae53-4402-9891-c9f3bde02a1c",
+          "notes": "ok"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_valentin_neutral.png",
+          "file": "sprites/anime/valentin_neutral.webp",
+          "generation_id": "252368f2-6ac1-4d2d-8799-b28d992cb76e",
+          "sha256": "044a7ce601dcf131c36a6514c148c9d72c2ffe69e21d0996050acb281807897e",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "matches painterly costume"
+        }
+      }
+    },
+    {
+      "id": "sprite_valentin_angry",
+      "kind": "sprite",
+      "character": "valentin",
+      "expression": "angry",
+      "prompt": "Expression and pose: enraged, teeth clenched and brows lowered, sword drawn and held ready.",
+      "reference": "sprite_valentin_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/valentin_angry.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "04cef074767905417828005ddf7df82c6f7f010b135142b675705c5f3250dc9c",
+          "raw_file": "raw/painterly/sprite_valentin_angry.png",
+          "generation_id": "750377a4-e3b7-493e-84af-3d0e21c1196a",
+          "notes": "ok; sword tip touches right edge"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_valentin_angry.png",
+          "file": "sprites/anime/valentin_angry.webp",
+          "generation_id": "3f42d91f-a002-4bf1-95b9-a88fdabff8ee",
+          "sha256": "bdda5ae3386c9744cc9e5ffea998a4329b78fdc56d6d04d4d83afa54c5b646bc",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, sword drawn"
+        }
+      }
+    },
+    {
+      "id": "sprite_valentin_dying",
+      "kind": "sprite",
+      "character": "valentin",
+      "expression": "dying",
+      "prompt": "Expression and pose: mortally wounded and grim, face drained of colour, one hand pressed to his chest, body sagging.",
+      "reference": "sprite_valentin_neutral",
+      "renditions": {
+        "painterly": {
+          "file": "sprites/painterly/valentin_dying.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "0d8b1dbf687e21ae93e493c1f20b9b06926e6fda0ce2790585f45f9491a330bd",
+          "raw_file": "raw/painterly/sprite_valentin_dying.png",
+          "generation_id": "aa7a72db-4590-485e-ab18-a9a1e6363095",
+          "notes": "same soldier and costume, wounded"
+        },
+        "anime": {
+          "raw_file": "raw/anime/sprite_valentin_dying.png",
+          "file": "sprites/anime/valentin_dying.webp",
+          "generation_id": "672cb284-6d74-4ee6-8fbe-13e46ca245cf",
+          "sha256": "f53e79af8c9ae0dbab1e91091cee2cc4c642ff6a8e6f69bd37e7e733c6710883",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "same identity, wounded"
+        }
+      }
+    },
+    {
+      "id": "bg_cathedral",
+      "kind": "background",
+      "prompt": "The interior of a great Gothic cathedral during Mass: soaring stone pillars and vaults, tall stained-glass windows scattering coloured light, a distant altar with candles, the large pipe organ in the gallery, a congregation seen only as dim silhouettes of heads in the pews, a dark corner pillar in the foreground.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/cathedral.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "e151cd8244ab650ef9a88b17136fe84dbfc9af8702629332a93f94ebe8fb919a",
+          "raw_file": "raw/painterly/bg_cathedral.png",
+          "generation_id": "01be4428-095c-4447-ac9d-2eb0991f12dd",
+          "notes": "gothic nave, painterly, consistent with set"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_cathedral.png",
+          "file": "bg/anime/cathedral.webp",
+          "generation_id": "448372fb-05c4-4433-af15-45dd224509a1",
+          "sha256": "805801d1e41c104a57f4e5b0dbce4304ade9a40f9dfe9174a0d94a1df3f756fb",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "bg_harz",
+      "kind": "background",
+      "prompt": "The Harz mountains on Walpurgis night, around Schierke and Elend: a steep rocky mountain path through gnarled pines and bare boulders in thick mist, dim flickering will-o'-the-wisp flames glowing among the rocks and trees, a pale moon veiled by cloud, a distant red glow above the summit, no people.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/harz.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "f51289e1b2bc9a8e8ee039d79a1cabe71518e5a87c22e47b786baf24b61832c4",
+          "raw_file": "raw/painterly/bg_harz.png",
+          "generation_id": "4faa63e3-e106-4594-9ba8-0355356e72ae",
+          "notes": "misty pine mountain, will-o-wisps, red glow"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_harz.png",
+          "file": "bg/anime/harz.webp",
+          "generation_id": "2080050b-0731-4c51-82e1-ac04b5e420cd",
+          "sha256": "d9c7b24867d80038ec50fe1b07680480f2ca8d4c402eaf94fa62fa275a6d0d7e",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "bg_harz_summit",
+      "kind": "background",
+      "prompt": "Same mountain landscape as the reference image, now at the summit of the Brocken: a bare rocky crest with great bonfires burning among the boulders, wild red glare and sparks rising into the night sky, dark winged silhouettes of witches on broomsticks, goats and wolves crossing the moon, swirling smoke.",
+      "reference": "bg_harz",
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/harz_summit.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "1d033b668433d3272b0457c36416097059e6c2a5d3eda0c1a011e18941127bb4",
+          "raw_file": "raw/painterly/bg_harz_summit.png",
+          "generation_id": "a31d1f82-95b8-4518-a6f6-3fa8b1693dba",
+          "notes": "brocken bonfires, witches, same landscape"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_harz_summit.png",
+          "file": "bg/anime/harz_summit.webp",
+          "generation_id": "5131adcc-4c83-4f47-90c7-05f8e054ed3e",
+          "sha256": "603992554ddcfbd0d339412ef5e0e3cdb742410c713ad65dad3e2874471fbd58",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches; witches/riders of painterly omitted on purpose (no figures); anime backdrop"
+        }
+      }
+    },
+    {
+      "id": "bg_intermezzo",
+      "kind": "background",
+      "prompt": "A dreamlike moonlit clearing at night: a small gilded miniature stage with painted flats and a curtain among glowing meadow flowers and slender birches, tiny drifting lights of fairies in the air, soft silver and gold glow, shimmering mist, no people.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/intermezzo.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "deb2070b77b8b0d0c94bba63f2f4d6b119583b2a883fb0edecce7b75556de032",
+          "raw_file": "raw/painterly/bg_intermezzo.png",
+          "generation_id": "851ca982-a8bb-41b2-a3d4-29d6868ee959",
+          "notes": "moonlit clearing with miniature stage"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_intermezzo.png",
+          "file": "bg/anime/intermezzo.webp",
+          "generation_id": "3a2dc4d1-757c-4604-94f0-849aa1bb4af7",
+          "sha256": "dd43801804ed9110c378acc18d104557ca1b580fd624c049dcd4c445df6ff68c",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "bg_field_day",
+      "kind": "background",
+      "prompt": "A bleak open field on a dull overcast day: a flat damp plain under low grey clouds, a wet muddy track, bare trees and a lone gallows on a far hillock, distant crows, no people.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/field_day.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "33c609a3aa05e9b13c8dcf9475554a003e85b5bd7120ab66531ede961a6afe92",
+          "raw_file": "raw/painterly/bg_field_day.png",
+          "generation_id": "9150840e-3cb1-4b7b-9505-376cb539853a",
+          "notes": "bleak muddy field, gallows"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_field_day.png",
+          "file": "bg/anime/field_day.webp",
+          "generation_id": "f33fbf7a-7707-4eed-9b5b-92749b6c5c44",
+          "sha256": "2b10d699dd2ed01c338041818968027f7b7b4eb7a690c735b7c501a38069bb2d",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "bg_field_night",
+      "kind": "background",
+      "prompt": "Same bleak plain as the reference image, now by night: a dark open field under a stormy sky with a pale moon through racing clouds, a lone gallows on a far hillock and faint fire-like lights flickering around it, no people.",
+      "reference": "bg_field_day",
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/field_night.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "a21c7a3f472d91cca3581cda50f2f7f9f92857642b0a7a4a3073b69f4f04d6c0",
+          "raw_file": "raw/painterly/bg_field_night.png",
+          "generation_id": "82fa36c1-b11f-40af-8c28-ab488c371eea",
+          "notes": "same plain by night, gallows lights"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_field_night.png",
+          "file": "bg/anime/field_night.webp",
+          "generation_id": "9ebce8c9-c8c2-4d7b-bb4b-eacc77f6d6c1",
+          "sha256": "ae12ba8eb3cddbdf7c46453618f482c8c4b20763897356d1bd0110d8d5ba59f3",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "bg_prison",
+      "kind": "background",
+      "prompt": "The inside of a dungeon cell in a 16th-century German town gaol: damp stone walls, a low vaulted ceiling, a small barred window high up, a heap of straw on the floor, iron chains and rings fixed to the wall, a narrow iron door with a bolt at the left, a single torch in a bracket giving an orange glow, the cell empty.",
+      "reference": null,
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/prison.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "9d27076e7584eb47b8839277d835adf1522dea8c324ebdddf30a4d3efa584079",
+          "raw_file": "raw/painterly/bg_prison.png",
+          "generation_id": "c11eb214-b786-48f6-b2fb-add815402189",
+          "notes": "dungeon cell, torch, barred window"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_prison.png",
+          "file": "bg/anime/prison.webp",
+          "generation_id": "3fb94f74-253a-4c14-af8a-1eccc64124e2",
+          "sha256": "83be88bce7ad9fbb7ed2e748ebfe20b21f62badb171f0eabe9bc551cf4b33e35",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, anime backdrop, no figures"
+        }
+      }
+    },
+    {
+      "id": "bg_prison_dawn",
+      "kind": "background",
+      "prompt": "Same dungeon cell as the reference image, same viewpoint: the torch is burnt out and a cold pink and grey dawn light now falls through the barred window high on the wall, across the straw and chains, quiet and desolate.",
+      "reference": "bg_prison",
+      "renditions": {
+        "painterly": {
+          "file": "bg/painterly/prison_dawn.webp",
+          "source": "placeholder",
+          "status": "approved",
+          "sha256": "6787436c2af5329497360d27c551bbfe15d6c865941e82b97350054fe305e0c4",
+          "raw_file": "raw/painterly/bg_prison_dawn.png",
+          "generation_id": "7c259c9a-e823-4350-9757-6abdb98e7a42",
+          "notes": "same cell at dawn"
+        },
+        "anime": {
+          "raw_file": "raw/anime/bg_prison_dawn.png",
+          "file": "bg/anime/prison_dawn.webp",
+          "generation_id": "b203b0d9-d8cb-46cc-9751-899b0113fd2d",
+          "sha256": "bad0082953d31b199be0c08fea20628b901bd812033820009cceccca02b69a21",
+          "status": "approved",
+          "source": "chatgpt-web",
+          "notes": "layout matches, dawn light, anime backdrop, no figures"
+        }
+      }
+    }
+  ]
+}

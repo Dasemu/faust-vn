@@ -1,0 +1,23 @@
+scene pabelloncito  (audio section 16)
+voiced 13/15 game speeches
+source speeches 14, ASR coverage 94.7% of source words
+
+game speeches:
+  ok                   pabelloncito_0002 margarita (2w) <- source #0 cov 1.00 33.5-36.0s
+  ok                   pabelloncito_0003 faust (5w) <- source #1 cov 1.00 36.1-41.4s
+  ok                   pabelloncito_0006 margarita (10w) <- source #2 cov 1.00 46.7-49.5s
+  ok                   pabelloncito_0010 faust (3w) <- source #3 cov 1.00 53.6-54.9s
+  ok                   pabelloncito_0011 mephisto (2w) <- source #4 cov 1.00 56.5-57.8s
+  ok                   pabelloncito_0012 faust (2w) <- source #5 cov 1.00 57.8-59.6s
+  ok                   pabelloncito_0013 mephisto (6w) <- source #6 cov 0.83 59.9-62.0s
+  ok                   pabelloncito_0014 faust (3w) <- source #8 cov 1.00 66.3-69.1s
+  ok                   pabelloncito_0015 margarita (6w) <- source #9 cov 1.00 69.3-72.2s
+  ok                   pabelloncito_0017 faust (5w) <- source #10 cov 0.83 72.6-76.2s
+  unmapped             pabelloncito_0019 marta (5w)
+  unmapped             pabelloncito_0020 mephisto (3w)
+  ok                   pabelloncito_0021 marta (3w) <- source #11 cov 1.00 76.6-77.3s
+  ok                   pabelloncito_0022 margarita (5w) <- source #12 cov 0.67 77.6-79.2s
+  ok                   pabelloncito_0024 margarita (38w) <- source #13 cov 0.95 81.4-94.2s
+
+source speeches without a game speech:
+  #7 MARTHE -> marta (6 tokens, cov 1.00)

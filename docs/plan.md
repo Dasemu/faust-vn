@@ -1,21 +1,21 @@
 # Plan
 
 Goal: a playable Ren'Py prototype of the opening of Goethe's *Faust I* (Llorente's
-Spanish translation) **and** a reusable pipeline that turns any public-domain play
-from Project Gutenberg into a visual novel. Faust is the first "work"; Werther and
-others should only need a new `works/<name>/work.toml` plus art.
+Spanish translation). The reusable pipeline lives in its own repo, `../vnpipe`
+(see its `docs/pipeline.md`); this repo is the Faust "work": `work.toml`, data,
+annotations, art and the generated game.
 
-## Pipeline
+## Pipeline (as run for Faust)
 
 ```
 Gutenberg .txt ──fetch──▶ raw (cached, gitignored)
               ──clean──▶ play.txt        (header/footer/intro stripped, scope cut)
               ──parse──▶ parsed.json     (scenes, speakers, verse lines, directions)
-              ──chunk──▶ annotations/chunks/*.json   (LLM work units)
-   LLM sub-agents ─────▶ annotations/cache/*.json    (one file per chunk, keyed by hash)
+              ──chunks──▶ rendered text           (LLM work units)
+   Haiku runner ───────▶ annotations/cache/*.txt     (records per chunk, keyed by hash)
               ──merge──▶ annotated.json  (schema-validated, complete)
 art (MCP) ──▶ assets/assets.json + images (manifest, sha256, status)
-              ──renpy──▶ vn/faust/       (generated Ren'Py project)
+              ──renpy──▶ vn/             (generated Ren'Py project)
 ```
 
 Every stage is a `vnpipe` CLI subcommand, deterministic given its inputs, and
@@ -27,25 +27,25 @@ hash, so they are resumable and never redone unless their input changes.
 
 | Path | Purpose |
 |---|---|
-| `src/vnpipe/` | Generic pipeline code (no Faust-specific logic) |
-| `src/vnpipe/schemas/` | JSON Schemas: parsed text, annotation, asset manifest |
-| `works/faust/work.toml` | Everything work-specific: source URL, scope markers, cast, colors, locations, expression maps |
-| `works/faust/data/` | `play.txt`, `parsed.json`, `annotated.json` |
-| `works/faust/annotations/` | Chunk inputs and cached LLM outputs |
-| `works/faust/assets/` | `assets.json` manifest, generated/processed images |
-| `vn/<id>/` | Generated Ren'Py project (committed so the repo is playable) |
-| `docs/` | Design and process docs |
+| `work.toml` | Everything work-specific: source URL, scope markers, cast, colors, locations, expression maps, staging |
+| `data/` | `play.txt`, `parsed.json`, `annotated.json` (`raw/` is the gitignored download) |
+| `annotations/` | Cached LLM outputs (`cache/`) and token usage (`usage.jsonl`) |
+| `assets/` | `assets.json` manifest, generated/processed images (`raw/` is gitignored) |
+| `vn/` | Generated Ren'Py project (committed so the repo is playable) |
+| `tests/` | Faust integration tests (real text, e2e playthrough) |
+| `docs/` | Faust design and process docs |
+| `../vnpipe` | The pipeline code, schemas, prompts, GUI templates and generic docs |
 
 ## Steps
 
 1. **Text** — fetch, clean, cut scope (`docs/scope.md`), deterministic parser + tests,
    `docs/licensing.md`.
 2. **Annotation** — JSON Schema, chunker, merge/validate, cache. Haiku sub-agents
-   annotate chunks in parallel. Adaptation rules in `docs/adaptation-rules.md`.
+   annotate chunks in parallel. Faust adaptation rules in `docs/adaptation-rules.md`.
 3. **Art** — `docs/art-bible.md` with a fixed base prompt. Backgrounds and sprites via
    the ChatGPT image MCP (max 20 generations/hour), background removal, manifest,
    placeholders for anything missing.
-4. **Ren'Py** — generator from `annotated.json` + manifest; `renpy lint` clean;
+4. **Ren'Py** — vnpipe generator from `annotated.json` + manifest; `renpy lint` clean;
    web/desktop build if feasible.
 5. **Report** — `docs/report.md`: automation vs human judgment, cost/time, weaknesses,
    next steps.

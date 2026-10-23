@@ -1,0 +1,48 @@
+scene gabinete_1  (audio section 6)
+voiced 37/41 game speeches
+source speeches 37, ASR coverage 91.6% of source words
+
+game speeches:
+  ok                   gabinete_1_0001 faust (467w) <- source #0 cov 0.95 28.7-366.1s
+  ok                   gabinete_1_0092 spirits (58w) <- source #1 cov 0.96 368.6-390.8s
+  ok                   gabinete_1_0105 faust (223w) <- source #2 cov 0.87 391.5-535.0s
+  ok                   gabinete_1_0160 mephisto (6w) <- source #3 cov 1.00 544.4-549.2s
+  ok                   gabinete_1_0162 faust (19w) <- source #4 cov 0.93 549.8-559.2s
+  ok                   gabinete_1_0166 mephisto (9w) <- source #5 cov 0.91 559.6-566.0s
+  ok                   gabinete_1_0168 faust (3w) <- source #6 cov 1.00 566.6-568.8s
+  ok                   gabinete_1_0169 mephisto (30w) <- source #7 cov 0.92 569.1-583.3s
+  ok                   gabinete_1_0177 faust (47w) <- source #8 cov 0.97 583.8-606.2s
+  ok                   gabinete_1_0186 mephisto (17w) <- source #9 cov 0.87 606.6-615.4s
+  ok                   gabinete_1_0191 faust (4w) <- source #10 cov 1.00 615.9-619.7s
+  unmapped             gabinete_1_0193 mephisto (12w)
+  unmapped             gabinete_1_0196 faust (1w)
+  ok                   gabinete_1_0197 mephisto (42w) <- source #11 cov 0.95 620.2-648.0s
+  ok                   gabinete_1_0205 faust (14w) <- source #12 cov 1.00 648.4-655.6s
+  ok                   gabinete_1_0208 mephisto (116w) <- source #13 cov 0.90 656.2-709.5s
+  ok                   gabinete_1_0234 faust (17w) <- source #14 cov 0.84 709.8-720.9s
+  ok                   gabinete_1_0238 mephisto (166w) <- source #15 cov 0.92 721.0-779.2s
+  ok                   gabinete_1_0274 faust (22w) <- source #16 cov 1.00 779.9-800.8s
+  ok                   gabinete_1_0280 mephisto (17w) <- source #17 cov 0.88 801.1-808.4s
+  ok                   gabinete_1_0284 faust (27w) <- source #18 cov 0.94 808.7-825.7s
+  ok                   gabinete_1_0290 mephisto (17w) <- source #19 cov 0.88 826.1-836.8s
+  ok                   gabinete_1_0294 faust (30w) <- source #20 cov 0.89 837.0-854.0s
+  ok                   gabinete_1_0300 mephisto (10w) <- source #21 cov 0.91 854.5-864.5s
+  ok                   gabinete_1_0302 faust (18w) <- source #22 cov 0.94 865.0-875.5s
+  ok                   gabinete_1_0306 mephisto (23w) <- source #23 cov 0.95 876.0-885.4s
+  ok                   gabinete_1_0310 faust (7w) <- source #24 cov 1.00 885.6-890.1s
+  ok                   gabinete_1_0312 mephisto (23w) <- source #25 cov 0.84 890.4-903.8s
+  ok                   gabinete_1_0317 faust (28w) <- source #26 cov 0.96 904.1-917.8s
+  ok                   gabinete_1_0323 mephisto (35w) <- source #27 cov 0.79 918.2-937.8s
+  ok                   gabinete_1_0330 faust (9w) <- source #28 cov 0.92 938.3-945.6s
+  ok                   gabinete_1_0332 mephisto (9w) <- source #29 cov 0.86 946.1-953.1s
+  ok                   gabinete_1_0334 faust (30w) <- source #30 cov 1.00 953.6-970.3s
+  unmapped             gabinete_1_0340 mephisto (6w)
+  unmapped             gabinete_1_0342 faust (1w)
+  ok                   gabinete_1_0343 mephisto (13w) <- source #31 cov 1.00 970.4-985.3s
+  ok                   gabinete_1_0346 faust (7w) <- source #32 cov 0.93 985.5-993.1s
+  ok                   gabinete_1_0348 mephisto (77w) <- source #33 cov 0.89 993.6-1029.3s
+  ok                   gabinete_1_0367 spirits (169w) <- source #34 cov 0.92 1031.0-1110.9s
+  ok                   gabinete_1_0392 mephisto (134w) <- source #35 cov 0.83 1111.4-1186.9s
+  ok                   gabinete_1_0420 faust (39w) <- source #36 cov 0.91 1189.2-1206.7s
+
+source speeches without a game speech:

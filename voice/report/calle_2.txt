@@ -1,0 +1,24 @@
+scene calle_2  (audio section 14)
+voiced 17/17 game speeches
+source speeches 17, ASR coverage 88.0% of source words
+
+game speeches:
+  ok                   calle_2_0002 faust (4w) <- source #0 cov 0.71 29.5-34.9s
+  ok                   calle_2_0003 mephisto (34w) <- source #1 cov 0.78 37.1-54.7s
+  ok                   calle_2_0010 faust (3w) <- source #2 cov 1.00 55.3-56.2s
+  ok                   calle_2_0011 mephisto (6w) <- source #3 cov 0.86 56.2-60.0s
+  ok                   calle_2_0013 faust (5w) <- source #4 cov 0.86 60.2-63.7s
+  ok                   calle_2_0014 mephisto (23w) <- source #5 cov 0.67 64.2-72.2s
+  ok                   calle_2_0019 faust (4w) <- source #6 cov 1.00 73.2-78.0s
+  ok                   calle_2_0020 mephisto (12w) <- source #7 cov 0.85 78.8-84.8s
+  ok                   calle_2_0023 faust (11w) <- source #8 cov 1.00 84.8-91.2s
+  ok                   calle_2_0025 mephisto (66w) <- source #9 cov 0.86 92.3-126.2s
+  ok                   calle_2_0039 faust (4w) <- source #10 cov 1.00 126.4-130.7s
+  ok                   calle_2_0040 mephisto (31w) <- source #11 cov 0.79 131.0-142.5s
+  ok                   calle_2_0046 faust (4w) <- source #12 cov 1.00 142.5-145.3s
+  ok                   calle_2_0047 mephisto (25w) <- source #13 cov 0.90 145.5-156.4s
+  ok                   calle_2_0053 faust (62w) <- source #14 cov 0.98 156.7-188.5s
+  ok                   calle_2_0066 mephisto (3w) <- source #15 cov 1.00 188.7-191.2s
+  ok                   calle_2_0067 faust (37w) <- source #16 cov 0.95 191.5-215.2s
+
+source speeches without a game speech:

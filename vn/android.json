@@ -1,0 +1,21 @@
+{
+    "expansion": false,
+    "google_play_key": null,
+    "google_play_salt": null,
+    "heap_size": null,
+    "icon_name": "Fausto",
+    "include_pil": false,
+    "include_sqlite": false,
+    "layout": null,
+    "name": "Fausto",
+    "numeric_version": 1,
+    "orientation": "sensorLandscape",
+    "package": "io.github.dasemu.faust",
+    "permissions": [],
+    "source": false,
+    "store": "none",
+    "update_always": true,
+    "update_icons": true,
+    "update_keystores": true,
+    "version": "1.0"
+}

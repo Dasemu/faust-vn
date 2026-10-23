@@ -1,0 +1,39 @@
+scene noche  (audio section 4)
+voiced 32/32 game speeches
+source speeches 32, ASR coverage 87.5% of source words
+
+game speeches:
+  ok                   noche_0002 faust (827w) <- source #0 cov 0.75 31.4-466.5s
+  ok                   noche_0146 spirit (3w) <- source #1 cov 1.00 563.2-565.8s
+  ok                   noche_0147 faust (2w) <- source #2 cov 1.00 568.2-570.5s
+  ok                   noche_0148 spirit (10w) <- source #3 cov 0.75 570.6-579.0s
+  ok                   noche_0150 faust (5w) <- source #4 cov 1.00 579.2-582.2s
+  ok                   noche_0151 spirit (94w) <- source #5 cov 0.83 582.4-637.9s
+  ok                   noche_0166 faust (15w) <- source #6 cov 1.00 638.2-647.9s
+  ok                   noche_0168 spirit (58w) <- source #7 cov 0.87 648.2-674.9s
+  ok                   noche_0180 faust (17w) <- source #8 cov 1.00 675.2-683.5s
+  ok                   noche_0183 spirit (13w) <- source #9 cov 0.78 683.7-688.9s
+  ok                   noche_0186 faust (42w) <- source #10 cov 0.92 692.2-720.2s
+  ok                   noche_0194 wagner (56w) <- source #11 cov 0.91 728.3-743.7s
+  ok                   noche_0206 faust (17w) <- source #12 cov 0.86 743.7-752.5s
+  ok                   noche_0210 wagner (38w) <- source #13 cov 1.00 752.8-764.9s
+  ok                   noche_0218 faust (97w) <- source #14 cov 0.92 765.1-812.7s
+  ok                   noche_0238 wagner (20w) <- source #15 cov 1.00 813.1-818.5s
+  ok                   noche_0242 faust (55w) <- source #16 cov 0.92 819.0-860.1s
+  ok                   noche_0254 wagner (41w) <- source #17 cov 0.94 860.1-879.3s
+  ok                   noche_0262 faust (19w) <- source #18 cov 0.89 879.3-897.0s
+  ok                   noche_0266 wagner (34w) <- source #19 cov 0.81 897.3-907.7s
+  ok                   noche_0274 faust (94w) <- source #20 cov 0.95 907.7-957.6s
+  ok                   noche_0295 wagner (11w) <- source #21 cov 1.00 957.9-962.8s
+  ok                   noche_0297 faust (63w) <- source #22 cov 0.95 962.8-1000.1s
+  ok                   noche_0309 wagner (49w) <- source #23 cov 0.93 1000.4-1017.1s
+  ok                   noche_0320 faust (933w) <- source #24 cov 0.92 1019.5-1725.8s
+  ok                   noche_0474 angels_chorus (21w) <- source #25 cov 0.92 1726.9-1734.6s
+  ok                   noche_0480 faust (48w) <- source #26 cov 0.93 1734.9-1771.0s
+  ok                   noche_0488 women_chorus (31w) <- source #27 cov 0.92 1772.5-1788.3s
+  ok                   noche_0497 angels_chorus (18w) <- source #28 cov 1.00 1788.8-1795.6s
+  ok                   noche_0502 faust (168w) <- source #29 cov 0.93 1795.6-1917.8s
+  ok                   noche_0528 disciples_chorus (44w) <- source #30 cov 0.93 1918.9-1943.1s
+  ok                   noche_0542 angels_chorus (53w) <- source #31 cov 0.94 1943.1-1960.2s
+
+source speeches without a game speech:

@@ -1,0 +1,13 @@
+scene noche_campo  (audio section 27)
+voiced 5/6 game speeches
+source speeches 6, ASR coverage 93.3% of source words
+
+game speeches:
+  ok                   noche_campo_0002 faust (8w) <- source #0 cov 1.00 31.9-36.4s
+  ok                   noche_campo_0003 mephisto (6w) <- source #1 cov 1.00 38.1-40.6s
+  ok                   noche_campo_0004 faust (8w) <- source #2 cov 1.00 41.0-46.9s
+  low-coverage         noche_campo_0005 mephisto (3w) <- source #3 cov 0.50
+  ok                   noche_campo_0006 faust (9w) <- source #4 cov 0.75 49.7-52.3s
+  ok                   noche_campo_0007 mephisto (2w) <- source #5 cov 1.00 52.5-55.1s
+
+source speeches without a game speech:

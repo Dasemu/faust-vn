@@ -1,0 +1,26 @@
+scene prologo_cielo  (audio section 3)
+voiced 19/19 game speeches
+source speeches 19, ASR coverage 90.3% of source words
+
+game speeches:
+  ok                   prologo_cielo_0002 raphael (52w) <- source #0 cov 0.89 34.6-56.0s
+  ok                   prologo_cielo_0010 gabriel (47w) <- source #1 cov 0.93 57.4-79.5s
+  ok                   prologo_cielo_0018 michael (54w) <- source #2 cov 0.93 80.5-101.5s
+  ok                   prologo_cielo_0026 archangels (25w) <- source #3 cov 0.91 102.7-112.4s
+  ok                   prologo_cielo_0030 mephisto (196w) <- source #4 cov 0.90 114.8-198.9s
+  ok                   prologo_cielo_0072 lord (16w) <- source #5 cov 0.95 199.8-210.5s
+  ok                   prologo_cielo_0076 mephisto (31w) <- source #6 cov 1.00 211.2-226.5s
+  ok                   prologo_cielo_0083 lord (3w) <- source #7 cov 1.00 226.5-228.0s
+  ok                   prologo_cielo_0084 mephisto (4w) <- source #8 cov 1.00 228.0-230.1s
+  ok                   prologo_cielo_0086 lord (2w) <- source #9 cov 1.00 230.4-232.1s
+  ok                   prologo_cielo_0087 mephisto (79w) <- source #10 cov 0.74 232.7-261.7s
+  ok                   prologo_cielo_0104 lord (30w) <- source #11 cov 0.91 262.2-279.1s
+  ok                   prologo_cielo_0110 mephisto (17w) <- source #12 cov 1.00 279.6-288.9s
+  ok                   prologo_cielo_0114 lord (15w) <- source #13 cov 0.65 289.4-299.8s
+  ok                   prologo_cielo_0118 mephisto (39w) <- source #14 cov 0.95 300.1-317.0s
+  ok                   prologo_cielo_0126 lord (39w) <- source #15 cov 0.98 317.3-344.4s
+  ok                   prologo_cielo_0134 mephisto (41w) <- source #16 cov 0.85 344.8-367.1s
+  ok                   prologo_cielo_0142 lord (99w) <- source #17 cov 0.93 367.1-425.6s
+  ok                   prologo_cielo_0162 mephisto (27w) <- source #18 cov 0.89 432.7-450.3s
+
+source speeches without a game speech:

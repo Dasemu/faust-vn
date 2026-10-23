@@ -1,0 +1,18 @@
+scene prologo_teatro  (audio section 2)
+voiced 11/11 game speeches
+source speeches 11, ASR coverage 93.5% of source words
+
+game speeches:
+  ok                   prologo_teatro_0002 director (186w) <- source #0 cov 0.94 30.6-98.8s
+  ok                   prologo_teatro_0031 poet (130w) <- source #1 cov 0.88 100.4-147.0s
+  ok                   prologo_teatro_0051 clown (89w) <- source #2 cov 0.95 149.1-185.5s
+  ok                   prologo_teatro_0067 director (109w) <- source #3 cov 0.96 186.0-225.0s
+  ok                   prologo_teatro_0084 poet (22w) <- source #4 cov 0.78 225.5-237.3s
+  ok                   prologo_teatro_0088 director (191w) <- source #5 cov 0.97 238.0-312.8s
+  ok                   prologo_teatro_0119 poet (186w) <- source #6 cov 0.86 313.1-382.8s
+  ok                   prologo_teatro_0152 clown (191w) <- source #7 cov 0.97 383.1-455.0s
+  ok                   prologo_teatro_0185 poet (115w) <- source #8 cov 0.94 455.3-494.7s
+  ok                   prologo_teatro_0204 clown (115w) <- source #9 cov 0.97 495.2-530.7s
+  ok                   prologo_teatro_0224 director (173w) <- source #10 cov 0.93 531.0-595.9s
+
+source speeches without a game speech:

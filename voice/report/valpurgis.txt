@@ -1,0 +1,87 @@
+scene valpurgis  (audio section 24)
+voiced 71/77 game speeches
+source speeches 76, ASR coverage 90.7% of source words
+
+game speeches:
+  ok                   valpurgis_0003 mephisto (31w) <- source #0 cov 0.90 33.1-42.9s
+  ok                   valpurgis_0009 faust (85w) <- source #1 cov 0.90 44.0-87.3s
+  ok                   valpurgis_0027 mephisto (66w) <- source #2 cov 0.88 88.3-132.7s
+  ok                   valpurgis_0043 wisp (16w) <- source #3 cov 0.89 133.9-142.6s
+  ok                   valpurgis_0047 mephisto (22w) <- source #4 cov 0.68 143.1-153.2s
+  unmapped             valpurgis_0051 wisp (34w)
+  ok                   valpurgis_0059 trio (211w) <- source #5 cov 0.91 153.7-288.1s
+  ok                   valpurgis_0091 mephisto (22w) <- source #6 cov 0.90 288.6-301.3s
+  ok                   valpurgis_0097 faust (97w) <- source #7 cov 0.99 301.6-366.0s
+  ok                   valpurgis_0119 mephisto (25w) <- source #8 cov 0.86 367.0-379.9s
+  ok                   valpurgis_0125 faust (9w) <- source #9 cov 0.86 379.9-388.6s
+  ok                   valpurgis_0127 mephisto (96w) <- source #10 cov 0.82 388.6-445.1s
+  ok                   valpurgis_0151 witches (53w) <- source #11 cov 0.93 446.8-462.6s
+  ok                   valpurgis_0158 voices (9w) <- source #12 cov 1.00 463.7-467.9s
+  ok                   valpurgis_0160 chorus (23w) <- source #13 cov 1.00 468.8-480.1s
+  ok                   valpurgis_0166 voices (6w) <- source #14 cov 1.00 481.3-483.3s
+  ok                   valpurgis_0167 voices (17w) <- source #15 cov 0.93 484.1-490.4s
+  unmapped             valpurgis_0170 voices (7w)
+  ok                   valpurgis_0171 voices (10w) <- source #16 cov 0.78 491.7-494.6s
+  ok                   valpurgis_0173 witches (38w) <- source #17 cov 0.88 495.9-522.8s
+  unmapped             valpurgis_0179 witches (33w)
+  ok                   valpurgis_0183 witches (30w) <- source #18 cov 0.96 523.3-533.9s
+  ok                   valpurgis_0187 voices (13w) <- source #19 cov 1.00 534.6-537.0s
+  ok                   valpurgis_0191 voices (18w) <- source #20 cov 0.95 539.1-546.8s
+  ok                   valpurgis_0197 witches (25w) <- source #21 cov 0.78 548.5-560.4s
+  low-coverage         valpurgis_0201 voices (2w) <- source #22 cov 0.50
+  ok                   valpurgis_0202 voices (13w) <- source #23 cov 1.00 565.4-567.9s
+  ok                   valpurgis_0204 voices (25w) <- source #24 cov 1.00 569.7-580.0s
+  ok                   valpurgis_0208 witches (24w) <- source #25 cov 0.96 581.1-591.0s
+  ok                   valpurgis_0215 witches (26w) <- source #26 cov 0.96 592.5-602.0s
+  ok                   valpurgis_0219 witches (39w) <- source #27 cov 0.92 604.0-614.2s
+  ok                   valpurgis_0230 witches (28w) <- source #28 cov 0.96 615.3-624.9s
+  ok                   valpurgis_0234 mephisto (38w) <- source #29 cov 0.71 626.2-644.5s
+  cut-failed           valpurgis_0243 faust (2w) <- source #30 cov 1.00 645.6-646.1s
+  ok                   valpurgis_0244 mephisto (67w) <- source #31 cov 0.92 646.1-682.5s
+  ok                   valpurgis_0259 faust (34w) <- source #32 cov 0.97 682.7-706.2s
+  ok                   valpurgis_0267 mephisto (26w) <- source #33 cov 0.89 706.4-716.7s
+  ok                   valpurgis_0273 faust (34w) <- source #34 cov 0.96 716.7-732.6s
+  ok                   valpurgis_0282 mephisto (126w) <- source #35 cov 0.94 732.6-809.6s
+  ok                   valpurgis_0312 faust (18w) <- source #36 cov 0.92 809.6-819.0s
+  ok                   valpurgis_0316 mephisto (120w) <- source #37 cov 0.90 819.0-883.8s
+  ok                   valpurgis_0345 walpurgis_guests (17w) <- source #38 cov 0.93 884.7-897.5s
+  ok                   valpurgis_0349 walpurgis_guests (19w) <- source #39 cov 0.81 897.5-911.1s
+  ok                   valpurgis_0353 walpurgis_guests (15w) <- source #40 cov 0.93 912.1-927.0s
+  ok                   valpurgis_0357 walpurgis_guests (19w) <- source #41 cov 0.88 928.2-942.9s
+  ok                   valpurgis_0361 mephisto (41w) <- source #42 cov 0.83 946.3-963.2s
+  ok                   valpurgis_0369 witches (77w) <- source #43 cov 0.99 964.4-1008.8s
+  ok                   valpurgis_0385 mephisto (37w) <- source #44 cov 0.77 1008.8-1021.2s
+  ok                   valpurgis_0393 faust (7w) <- source #45 cov 1.00 1021.2-1029.3s
+  ok                   valpurgis_0395 mephisto (14w) <- source #46 cov 0.93 1029.3-1036.2s
+  ok                   valpurgis_0399 faust (6w) <- source #47 cov 1.00 1036.2-1038.4s
+  ok                   valpurgis_0401 mephisto (4w) <- source #48 cov 1.00 1038.7-1043.3s
+  ok                   valpurgis_0402 faust (1w) <- source #49 cov 1.00 1044.0-1044.8s
+  ok                   valpurgis_0403 mephisto (28w) <- source #50 cov 0.94 1045.5-1063.9s
+  ok                   valpurgis_0409 faust (17w) <- source #51 cov 1.00 1063.9-1072.2s
+  ok                   valpurgis_0413 mephisto (15w) <- source #52 cov 0.94 1072.2-1079.6s
+  ok                   valpurgis_0417 faust (16w) <- source #53 cov 0.86 1082.1-1095.1s
+  ok                   valpurgis_0421 walpurgis_guests (21w) <- source #54 cov 0.86 1097.3-1106.9s
+  ok                   valpurgis_0425 mephisto (24w) <- source #55 cov 0.79 1109.3-1119.6s
+  ok                   valpurgis_0429 walpurgis_guests (39w) <- source #56 cov 0.87 1120.8-1131.5s
+  ok                   valpurgis_0434 walpurgis_guests (38w) <- source #57 cov 0.96 1134.8-1151.2s
+  ok                   valpurgis_0442 walpurgis_guests (12w) <- source #58 cov 0.86 1153.4-1156.3s
+  ok                   valpurgis_0444 faust (66w) <- source #59 cov 0.94 1158.3-1197.3s
+  ok                   valpurgis_0458 walpurgis_guests (36w) <- source #62 cov 0.96 1231.4-1259.6s
+  unmapped             valpurgis_0466 mephisto (14w)
+  ok                   valpurgis_0469 faust (9w) <- source #64 cov 1.00 1282.0-1289.8s
+  ok                   valpurgis_0471 mephisto (20w) <- source #65 cov 0.91 1289.8-1300.7s
+  ok                   valpurgis_0475 faust (3w) <- source #66 cov 1.00 1300.7-1303.2s
+  ok                   valpurgis_0476 mephisto (2w) <- source #67 cov 1.00 1303.5-1304.3s
+  ok                   valpurgis_0477 faust (34w) <- source #68 cov 0.84 1305.3-1329.0s
+  ok                   valpurgis_0485 mephisto (33w) <- source #69 cov 0.86 1329.2-1354.3s
+  ok                   valpurgis_0493 faust (40w) <- source #70 cov 0.93 1355.1-1373.0s
+  ok                   valpurgis_0501 mephisto (16w) <- source #71 cov 1.00 1373.0-1382.0s
+  ok                   valpurgis_0505 faust (38w) <- source #72 cov 1.00 1382.0-1404.0s
+  ok                   valpurgis_0513 mephisto (42w) <- source #73 cov 0.81 1404.6-1432.7s
+  ok                   valpurgis_0522 walpurgis_guests (38w) <- source #74 cov 0.90 1434.4-1452.4s
+  ok                   valpurgis_0531 mephisto (15w) <- source #75 cov 0.94 1452.4-1459.9s
+
+source speeches without a game speech:
+  #60 PROKTOPHANTASMIST -> walpurgis_guests (47 tokens, cov 0.94)
+  #61 DIE SCHÖNE -> walpurgis_guests (8 tokens, cov 0.88)
+  #63 MEPHISTOPHELES -> mephisto (46 tokens, cov 0.87)

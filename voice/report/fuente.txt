@@ -1,0 +1,22 @@
+scene fuente  (audio section 20)
+voiced 12/14 game speeches
+source speeches 13, ASR coverage 88.2% of source words
+
+game speeches:
+  ok                   fuente_0002 lisa (6w) <- source #0 cov 0.80 27.9-30.0s
+  ok                   fuente_0004 margarita (5w) <- source #1 cov 1.00 31.4-34.1s
+  ok                   fuente_0006 lisa (14w) <- source #2 cov 0.87 34.5-40.5s
+  ok                   fuente_0010 margarita (2w) <- source #3 cov 1.00 40.6-41.5s
+  ok                   fuente_0011 lisa (11w) <- source #4 cov 1.00 41.8-46.0s
+  ok                   fuente_0013 margarita (1w) <- source #5 cov 1.00 46.0-46.9s
+  ok                   fuente_0014 lisa (71w) <- source #6 cov 0.88 47.0-71.0s
+  ok                   fuente_0030 margarita (1w) <- source #7 cov 1.00 71.3-73.0s
+  ok                   fuente_0031 lisa (62w) <- source #8 cov 0.84 73.7-89.7s
+  ok                   fuente_0045 margarita (5w) <- source #9 cov 1.00 89.9-92.1s
+  ok                   fuente_0046 lisa (18w) <- source #10 cov 0.88 92.8-98.8s
+  ok                   fuente_0050 margarita (3w) <- source #11 cov 1.00 99.0-100.5s
+  unmapped             fuente_0051 lisa (25w)
+  unmapped             fuente_0057 margarita (90w)
+
+source speeches without a game speech:
+  #12 LIESCHEN -> lisa (89 tokens, cov 0.87)

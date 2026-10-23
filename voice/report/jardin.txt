@@ -1,0 +1,62 @@
+scene jardin  (audio section 15)
+voiced 46/52 game speeches
+source speeches 52, ASR coverage 87.8% of source words
+
+game speeches:
+  low-coverage         jardin_0002 margarita (30w) <- source #0 cov 0.05
+  low-coverage         jardin_0010 faust (20w) <- source #1 cov 0.00
+  ok                   jardin_0015 margarita (27w) <- source #2 cov 0.90 57.4-67.3s
+  ok                   jardin_0022 marta (6w) <- source #3 cov 0.78 69.8-73.3s
+  ok                   jardin_0024 mephisto (30w) <- source #4 cov 0.91 75.3-86.3s
+  ok                   jardin_0031 marta (34w) <- source #5 cov 1.00 86.6-100.2s
+  ok                   jardin_0039 mephisto (9w) <- source #6 cov 0.71 100.4-103.6s
+  ok                   jardin_0041 marta (9w) <- source #7 cov 1.00 103.7-106.8s
+  ok                   jardin_0044 margarita (20w) <- source #8 cov 1.00 109.5-118.3s
+  ok                   jardin_0048 faust (38w) <- source #11 cov 0.88 129.4-147.5s
+  ok                   jardin_0056 margarita (19w) <- source #12 cov 1.00 147.7-152.5s
+  ok                   jardin_0060 faust (3w) <- source #13 cov 1.00 152.7-155.5s
+  ok                   jardin_0061 margarita (119w) <- source #14 cov 0.92 155.8-193.8s
+  ok                   jardin_0085 faust (9w) <- source #15 cov 1.00 193.9-197.1s
+  ok                   jardin_0087 margarita (85w) <- source #16 cov 0.93 197.2-225.5s
+  ok                   jardin_0105 faust (11w) <- source #17 cov 1.00 225.8-229.9s
+  ok                   jardin_0107 margarita (89w) <- source #18 cov 0.87 230.1-259.0s
+  ok                   jardin_0130 marta (14w) <- source #19 cov 0.92 260.5-265.8s
+  ok                   jardin_0134 mephisto (7w) <- source #20 cov 0.82 266.0-271.7s
+  ok                   jardin_0136 marta (11w) <- source #21 cov 1.00 271.8-278.0s
+  ok                   jardin_0138 mephisto (21w) <- source #22 cov 0.86 278.3-286.4s
+  ok                   jardin_0142 marta (6w) <- source #23 cov 1.00 286.6-289.7s
+  ok                   jardin_0144 mephisto (9w) <- source #24 cov 1.00 289.8-293.6s
+  ok                   jardin_0147 marta (6w) <- source #25 cov 0.89 293.7-297.7s
+  ok                   jardin_0149 mephisto (10w) <- source #26 cov 0.89 297.8-302.1s
+  ok                   jardin_0151 marta (8w) <- source #27 cov 1.00 302.3-304.5s
+  ok                   jardin_0153 mephisto (14w) <- source #28 cov 0.92 304.7-310.6s
+  ok                   jardin_0157 faust (9w) <- source #29 cov 1.00 312.8-319.9s
+  ok                   jardin_0159 margarita (9w) <- source #30 cov 1.00 320.4-323.2s
+  ok                   jardin_0161 faust (17w) <- source #31 cov 1.00 323.4-334.2s
+  ok                   jardin_0165 margarita (74w) <- source #32 cov 0.87 334.5-360.1s
+  ok                   jardin_0181 faust (2w) <- source #33 cov 1.00 361.0-362.2s
+  unmapped             jardin_0182 margarita (7w)
+  ok                   jardin_0184 faust (4w) <- source #35 cov 1.00 367.9-371.0s
+  ok                   jardin_0185 margarita (3w) <- source #36 cov 1.00 371.1-372.9s
+  ok                   jardin_0186 faust (5w) <- source #37 cov 1.00 373.1-373.7s
+  ok                   jardin_0188 margarita (9w) <- source #38 cov 1.00 373.9-375.5s
+  ok                   jardin_0191 faust (3w) <- source #39 cov 1.00 377.3-379.2s
+  ok                   jardin_0192 margarita (6w) <- source #40 cov 1.00 381.2-383.3s
+  ok                   jardin_0193 faust (2w) <- source #41 cov 0.67 383.4-385.1s
+  implausible-duration jardin_0194 margarita (7w) <- source #42 cov 1.00 388.5-396.8s
+  ok                   jardin_0197 faust (21w) <- source #43 cov 1.00 397.1-411.9s
+  ok                   jardin_0203 margarita (1w) <- source #44 cov 1.00 413.7-415.1s
+  ok                   jardin_0204 faust (47w) <- source #45 cov 0.95 415.6-443.0s
+  ok                   jardin_0217 marta (1w) <- source #46 cov 1.00 452.9-454.4s
+  ok                   jardin_0218 mephisto (4w) <- source #47 cov 1.00 454.5-456.7s
+  ok                   jardin_0219 marta (33w) <- source #48 cov 0.94 456.9-474.6s
+  unmapped             jardin_0226 mephisto (3w)
+  unmapped             jardin_0227 marta (4w)
+  ok                   jardin_0229 mephisto (5w) <- source #49 cov 0.86 474.9-479.5s
+  ok                   jardin_0231 marta (4w) <- source #50 cov 1.00 479.5-481.7s
+  ok                   jardin_0233 mephisto (4w) <- source #51 cov 0.70 481.9-487.6s
+
+source speeches without a game speech:
+  #9 FAUST -> faust (14 tokens, cov 1.00)
+  #10 MARGARETE -> margarita (1 tokens, cov 1.00)
+  #34 MARGARETE -> margarita (2 tokens, cov 1.00)

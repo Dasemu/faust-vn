@@ -1,0 +1,20 @@
+scene dia_nebuloso  (audio section 26)
+voiced 13/13 game speeches
+source speeches 13, ASR coverage 90.1% of source words
+
+game speeches:
+  ok                   dia_nebuloso_0002 faust (99w) <- source #0 cov 0.91 29.7-102.7s
+  ok                   dia_nebuloso_0005 mephisto (4w) <- source #1 cov 1.00 104.2-107.1s
+  ok                   dia_nebuloso_0006 faust (134w) <- source #2 cov 0.90 107.6-197.2s
+  ok                   dia_nebuloso_0010 mephisto (44w) <- source #3 cov 0.96 197.6-222.3s
+  ok                   dia_nebuloso_0011 faust (46w) <- source #4 cov 0.93 223.0-252.6s
+  ok                   dia_nebuloso_0013 mephisto (1w) <- source #5 cov 1.00 252.7-254.5s
+  ok                   dia_nebuloso_0014 faust (17w) <- source #6 cov 1.00 255.0-263.3s
+  ok                   dia_nebuloso_0015 mephisto (47w) <- source #7 cov 0.91 263.7-296.7s
+  ok                   dia_nebuloso_0020 faust (6w) <- source #8 cov 1.00 297.0-300.3s
+  ok                   dia_nebuloso_0021 mephisto (39w) <- source #9 cov 0.77 300.5-317.7s
+  ok                   dia_nebuloso_0022 faust (20w) <- source #10 cov 0.80 317.7-329.2s
+  ok                   dia_nebuloso_0023 mephisto (57w) <- source #11 cov 0.87 329.6-353.5s
+  ok                   dia_nebuloso_0024 faust (2w) <- source #12 cov 1.00 353.7-355.2s
+
+source speeches without a game speech:

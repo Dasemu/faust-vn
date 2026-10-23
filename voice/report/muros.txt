@@ -1,0 +1,8 @@
+scene muros  (audio section 21)
+voiced 1/1 game speeches
+source speeches 1, ASR coverage 95.2% of source words
+
+game speeches:
+  ok                   muros_0002 margarita (186w) <- source #0 cov 0.95 34.3-103.6s
+
+source speeches without a game speech:

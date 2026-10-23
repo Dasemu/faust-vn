@@ -1,17 +1,13 @@
 [project]
-name = "vnpipe"
+name = "faust-vn"
 version = "0.1.0"
-description = "Public-domain play text -> annotated JSON -> Ren'Py visual novel pipeline"
+description = "Faust (Part I, opening) as a Ren'Py visual novel, built with vnpipe"
 readme = "README.md"
 requires-python = ">=3.12"
-license = "MIT"
+license = "GPL-3.0-only"
 dependencies = [
-    "jsonschema>=4.23",
-    "pillow>=11.0",
+    "vnpipe",
 ]
-
-[project.scripts]
-vnpipe = "vnpipe.cli:main"
 
 [dependency-groups]
 dev = [
@@ -19,12 +15,13 @@ dev = [
     "ruff>=0.8",
 ]
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+[tool.uv]
+package = false
 
-[tool.hatch.build.targets.wheel]
-packages = ["src/vnpipe"]
+# vnpipe is pinned through uv.lock. After pushing vnpipe changes: `uv lock --upgrade-package vnpipe`.
+# To try an unpushed vnpipe checkout: `uv run --with-editable ../vnpipe <cmd>`.
+[tool.uv.sources]
+vnpipe = { git = "https://github.com/Dasemu/vnpipe.git", branch = "development" }
 
 [tool.ruff]
 line-length = 100

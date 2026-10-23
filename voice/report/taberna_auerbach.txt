@@ -1,0 +1,138 @@
+scene taberna_auerbach  (audio section 8)
+voiced 97/124 game speeches
+source speeches 109, ASR coverage 87.5% of source words
+
+game speeches:
+  ok                   taberna_auerbach_0002 frosch (22w) <- source #0 cov 0.91 29.6-40.8s
+  ok                   taberna_auerbach_0006 brander (11w) <- source #1 cov 0.93 41.5-47.0s
+  ok                   taberna_auerbach_0009 frosch (6w) <- source #2 cov 1.00 50.2-52.1s
+  low-coverage         taberna_auerbach_0011 brander (1w) <- source #3 cov 0.00
+  unmapped             taberna_auerbach_0012 frosch (2w)
+  ok                   taberna_auerbach_0013 siebel (14w) <- source #5 cov 0.88 58.1-67.2s
+  ok                   taberna_auerbach_0017 altmayer (10w) <- source #6 cov 1.00 68.5-74.9s
+  ok                   taberna_auerbach_0019 siebel (11w) <- source #7 cov 0.91 75.0-80.7s
+  low-coverage         taberna_auerbach_0021 frosch (21w) <- source #8 cov 0.54
+  unmapped             taberna_auerbach_0026 brander (78w)
+  low-coverage         taberna_auerbach_0045 altmayer (5w) <- source #9 cov 0.00
+  ok                   taberna_auerbach_0046 frosch (14w) <- source #10 cov 0.71 91.7-102.5s
+  ok                   taberna_auerbach_0050 siebel (10w) <- source #13 cov 1.00 138.1-141.9s
+  ok                   taberna_auerbach_0052 frosch (36w) <- source #14 cov 0.96 141.9-157.2s
+  ok                   taberna_auerbach_0063 siebel (87w) <- source #15 cov 0.98 158.4-195.8s
+  unmapped             taberna_auerbach_0081 frosch (1w)
+  unmapped             taberna_auerbach_0082 siebel (7w)
+  ok                   taberna_auerbach_0084 brander (102w) <- source #16 cov 0.92 198.1-235.2s
+  ok                   taberna_auerbach_0109 chorus (10w) <- source #17 cov 1.00 237.0-240.0s
+  ok                   taberna_auerbach_0111 brander (60w) <- source #18 cov 0.71 240.0-256.1s
+  ok                   taberna_auerbach_0123 chorus (10w) <- source #19 cov 0.67 256.1-258.7s
+  ok                   taberna_auerbach_0125 brander (51w) <- source #20 cov 0.95 258.7-274.8s
+  ok                   taberna_auerbach_0137 chorus (10w) <- source #21 cov 1.00 274.8-277.4s
+  ok                   taberna_auerbach_0139 siebel (16w) <- source #22 cov 0.89 277.7-285.2s
+  ok                   taberna_auerbach_0143 brander (17w) <- source #23 cov 0.86 285.3-287.6s
+  ok                   taberna_auerbach_0148 mephisto (76w) <- source #25 cov 0.87 302.1-333.6s
+  ok                   taberna_auerbach_0164 brander (16w) <- source #26 cov 0.94 334.3-340.2s
+  ok                   taberna_auerbach_0168 frosch (19w) <- source #27 cov 0.89 340.9-349.6s
+  ok                   taberna_auerbach_0172 siebel (4w) <- source #28 cov 1.00 350.1-352.3s
+  ok                   taberna_auerbach_0173 frosch (28w) <- source #29 cov 0.79 352.4-368.2s
+  ok                   taberna_auerbach_0180 brander (5w) <- source #30 cov 1.00 368.7-371.2s
+  ok                   taberna_auerbach_0182 altmayer (1w) <- source #31 cov 1.00 371.3-372.4s
+  ok                   taberna_auerbach_0183 frosch (10w) <- source #32 cov 0.60 374.0-375.3s
+  ok                   taberna_auerbach_0186 mephisto (22w) <- source #33 cov 0.85 377.3-382.7s
+  ok                   taberna_auerbach_0190 faust (3w) <- source #34 cov 0.80 383.9-387.1s
+  ok                   taberna_auerbach_0191 siebel (11w) <- source #35 cov 1.00 387.5-395.9s
+  ok                   taberna_auerbach_0194 mephisto (22w) <- source #36 cov 0.96 396.4-406.1s
+  ok                   taberna_auerbach_0199 altmayer (3w) <- source #37 cov 1.00 406.8-409.2s
+  ok                   taberna_auerbach_0200 frosch (15w) <- source #38 cov 0.82 409.4-416.0s
+  ok                   taberna_auerbach_0203 mephisto (19w) <- source #39 cov 0.89 416.3-430.9s
+  ok                   taberna_auerbach_0208 altmayer (5w) <- source #40 cov 1.00 435.2-437.9s
+  ok                   taberna_auerbach_0209 frosch (6w) <- source #42 cov 1.00 439.9-443.8s
+  ok                   taberna_auerbach_0211 mephisto (20w) <- source #43 cov 0.89 444.2-455.8s
+  ok                   taberna_auerbach_0216 frosch (2w) <- source #44 cov 1.00 456.1-458.6s
+  ok                   taberna_auerbach_0217 mephisto (8w) <- source #45 cov 0.91 459.0-466.4s
+  ok                   taberna_auerbach_0220 altmayer (4w) <- source #46 cov 1.00 467.0-468.2s
+  ok                   taberna_auerbach_0221 mephisto (6w) <- source #47 cov 0.80 468.2-471.0s
+  ok                   taberna_auerbach_0222 siebel (5w) <- source #48 cov 1.00 471.6-473.9s
+  ok                   taberna_auerbach_0223 mephisto (20w) <- source #49 cov 0.92 474.8-487.3s
+  ok                   taberna_auerbach_0229 frosch (12w) <- source #50 cov 0.73 488.5-494.4s
+  ok                   taberna_auerbach_0232 mephisto (38w) <- source #51 cov 0.85 496.3-515.7s
+  ok                   taberna_auerbach_0240 brander (20w) <- source #52 cov 0.88 516.1-525.0s
+  ok                   taberna_auerbach_0244 mephisto (80w) <- source #53 cov 0.82 525.4-564.9s
+  ok                   taberna_auerbach_0260 everyone (11w) <- source #54 cov 1.00 566.7-570.9s
+  ok                   taberna_auerbach_0262 frosch (2w) <- source #55 cov 1.00 571.5-574.4s
+  ok                   taberna_auerbach_0263 siebel (4w) <- source #56 cov 0.83 574.6-577.3s
+  ok                   taberna_auerbach_0265 brander (4w) <- source #57 cov 0.86 577.5-580.1s
+  ok                   taberna_auerbach_0267 altmayer (7w) <- source #58 cov 1.00 580.1-583.2s
+  ok                   taberna_auerbach_0269 mephisto (9w) <- source #59 cov 1.00 583.4-593.0s
+  ok                   taberna_auerbach_0271 siebel (4w) <- source #60 cov 1.00 593.5-595.7s
+  unmapped             taberna_auerbach_0272 frosch (1w)
+  ok                   taberna_auerbach_0273 mephisto (12w) <- source #61 cov 0.84 595.9-606.9s
+  ok                   taberna_auerbach_0275 siebel (5w) <- source #62 cov 1.00 607.3-609.7s
+  ok                   taberna_auerbach_0276 frosch (23w) <- source #63 cov 0.90 609.7-622.4s
+  ok                   taberna_auerbach_0282 altmayer (3w) <- source #64 cov 0.86 624.2-626.9s
+  ok                   taberna_auerbach_0283 mephisto (3w) <- source #65 cov 0.75 627.2-629.5s
+  ok                   taberna_auerbach_0284 brander (7w) <- source #66 cov 0.93 629.7-633.7s
+  low-coverage         taberna_auerbach_0287 altmayer (5w) <- source #67 cov 0.50
+  ok                   taberna_auerbach_0289 mephisto (8w) <- source #68 cov 0.86 642.0-645.5s
+  ok                   taberna_auerbach_0291 frosch (5w) <- source #69 cov 1.00 645.6-648.6s
+  ok                   taberna_auerbach_0292 mephisto (4w) <- source #70 cov 0.83 648.7-651.3s
+  ok                   taberna_auerbach_0293 altmayer (5w) <- source #71 cov 1.00 653.7-656.8s
+  ok                   taberna_auerbach_0294 frosch (15w) <- source #72 cov 0.94 656.9-664.9s
+  ok                   taberna_auerbach_0297 mephisto (9w) <- source #73 cov 1.00 670.3-674.9s
+  ok                   taberna_auerbach_0299 altmayer (6w) <- source #74 cov 1.00 675.2-677.8s
+  ok                   taberna_auerbach_0301 mephisto (4w) <- source #75 cov 1.00 680.2-681.3s
+  unmapped             taberna_auerbach_0302 brander (7w)
+  ok                   taberna_auerbach_0305 brander (31w) <- source #76 cov 0.89 681.8-700.4s
+  ok                   taberna_auerbach_0311 siebel (15w) <- source #77 cov 0.87 704.6-710.8s
+  ok                   taberna_auerbach_0314 mephisto (4w) <- source #78 cov 0.60 712.9-716.0s
+  ok                   taberna_auerbach_0315 altmayer (12w) <- source #79 cov 0.94 716.6-722.8s
+  ok                   taberna_auerbach_0318 mephisto (18w) <- source #80 cov 0.91 722.8-733.8s
+  ok                   taberna_auerbach_0322 altmayer (5w) <- source #81 cov 1.00 733.9-736.9s
+  ok                   taberna_auerbach_0324 mephisto (72w) <- source #82 cov 0.85 742.9-769.9s
+  ok                   taberna_auerbach_0339 everyone (4w) <- source #83 cov 0.83 771.9-776.3s
+  ok                   taberna_auerbach_0341 mephisto (6w) <- source #84 cov 1.00 776.5-780.4s
+  ok                   taberna_auerbach_0343 everyone (11w) <- source #85 cov 0.67 784.2-789.8s
+  ok                   taberna_auerbach_0345 mephisto (12w) <- source #86 cov 1.00 790.1-794.7s
+  ok                   taberna_auerbach_0347 faust (3w) <- source #87 cov 1.00 794.8-797.7s
+  ok                   taberna_auerbach_0348 mephisto (13w) <- source #88 cov 0.82 798.5-805.7s
+  ok                   taberna_auerbach_0352 siebel (6w) <- source #89 cov 0.67 812.0-816.0s
+  ok                   taberna_auerbach_0354 mephisto (18w) <- source #90 cov 1.00 818.7-828.0s
+  ok                   taberna_auerbach_0359 siebel (13w) <- source #91 cov 0.94 828.4-834.7s
+  ok                   taberna_auerbach_0361 frosch (4w) <- source #92 cov 0.62 834.7-839.0s
+  unmapped             taberna_auerbach_0362 altmayer (1w)
+  unmapped             taberna_auerbach_0363 everyone (2w)
+  ok                   taberna_auerbach_0364 siebel (7w) <- source #94 cov 0.82 843.2-848.5s
+  ok                   taberna_auerbach_0366 mephisto (4w) <- source #95 cov 0.67 849.2-851.8s
+  ok                   taberna_auerbach_0367 siebel (4w) <- source #96 cov 1.00 852.7-856.2s
+  unmapped             taberna_auerbach_0368 brander (4w)
+  unmapped             taberna_auerbach_0370 altmayer (2w)
+  ok                   taberna_auerbach_0371 siebel (8w) <- source #98 cov 0.71 867.2-871.7s
+  unmapped             taberna_auerbach_0373 frosch (3w)
+  ok                   taberna_auerbach_0375 mephisto (12w) <- source #99 cov 0.75 878.9-887.2s
+  ok                   taberna_auerbach_0378 altmayer (4w) <- source #100 cov 1.00 890.5-892.6s
+  ok                   taberna_auerbach_0379 frosch (10w) <- source #101 cov 0.75 893.9-896.1s
+  ok                   taberna_auerbach_0381 siebel (5w) <- source #102 cov 1.00 896.3-898.6s
+  ok                   taberna_auerbach_0382 brander (20w) <- source #103 cov 1.00 898.7-903.8s
+  low-coverage         taberna_auerbach_0387 mephisto (13w) <- source #104 cov 0.40
+  unmapped             taberna_auerbach_0390 siebel (3w)
+  unmapped             taberna_auerbach_0391 altmayer (1w)
+  unmapped             taberna_auerbach_0392 frosch (2w)
+  unmapped             taberna_auerbach_0393 brander (8w)
+  unmapped             taberna_auerbach_0395 altmayer (14w)
+  unmapped             taberna_auerbach_0398 frosch (5w)
+  unmapped             taberna_auerbach_0399 siebel (13w)
+  unmapped             taberna_auerbach_0402 altmayer (1w)
+  unmapped             taberna_auerbach_0403 siebel (1w)
+  unmapped             taberna_auerbach_0404 altmayer (21w)
+  ok                   taberna_auerbach_0409 siebel (4w) <- source #105 cov 1.00 959.1-962.0s
+  ok                   taberna_auerbach_0410 frosch (10w) <- source #106 cov 0.71 962.1-965.0s
+  ok                   taberna_auerbach_0412 brander (5w) <- source #107 cov 1.00 965.2-967.1s
+  unmapped             taberna_auerbach_0413 siebel (3w)
+  ok                   taberna_auerbach_0414 altmayer (13w) <- source #108 cov 1.00 967.5-970.9s
+
+source speeches without a game speech:
+  #4 FROSCH -> frosch (8 tokens, cov 0.75)
+  #11 BRANDER -> brander (62 tokens, cov 0.90)
+  #12 FROSCH -> frosch (10 tokens, cov 0.80)
+  #24 ALTMAYER -> altmayer (23 tokens, cov 0.91)
+  #41 SIEBEL -> siebel (3 tokens, cov 1.00)
+  #93 ALTMAYER -> altmayer (9 tokens, cov 0.78)
+  #97 BRANDER -> brander (11 tokens, cov 0.55)

@@ -1,0 +1,8 @@
+scene dedicatoria  (audio section 1)
+voiced 1/1 game speeches
+source speeches 1, ASR coverage 93.2% of source words
+
+game speeches:
+  ok                   dedicatoria_0001 poet_voice (235w) <- source #0 cov 0.93 26.0-127.0s
+
+source speeches without a game speech:
