@@ -69,7 +69,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: tools/renpy-sdk
-          key: renpy-sdk-${{ env.RENPY_VERSION }}-android-v1
+          key: renpy-sdk-${{ env.RENPY_VERSION }}-android-web-v1
 
       - name: Install Ren'Py SDK and RAPT
         if: steps.sdk-cache.outputs.cache-hit != 'true'
@@ -80,6 +80,8 @@ jobs:
           curl -fsSL "$base/renpy-${RENPY_VERSION}-sdk.tar.bz2" | tar -xj --strip-components=1 -C tools/renpy-sdk
           curl -fsSL -o /tmp/rapt.zip "$base/renpy-${RENPY_VERSION}-rapt.zip"
           unzip -q /tmp/rapt.zip -d tools/renpy-sdk
+          curl -fsSL -o /tmp/web.zip "$base/renpy-${RENPY_VERSION}-web.zip"
+          unzip -q /tmp/web.zip -d tools/renpy-sdk
           # Android SDK packages; this accepts Google's Android SDK licence for the build.
           cd tools/renpy-sdk/rapt
           ../lib/py3-linux-x86_64/python -c "
