@@ -32,3 +32,8 @@ Recurring problems and what worked. Read before starting; add an entry when a mi
   full result in about 1 minute).
 - CI commits a VERSION bump to `development` after every push, so a later push is rejected:
   `git fetch` and merge `origin/development` before pushing again.
+- GitHub remote is `Dasemu/faust-vn` (vnpipe: `Dasemu/vnpipe`). The `gh` OAuth token lacks the
+  `workflow` scope, so HTTPS pushes touching `.github/workflows` are rejected: push over SSH
+  (`git push git@github.com:Dasemu/<repo>.git <branch>`) or run `gh auth refresh -s workflow`.
+- Accents in the checkout path (`Darío`) break the Android Gradle build (`local.properties`
+  is Latin-1, the keystore is "not found"). Build the APK from an ASCII-path copy of `vn/`.
