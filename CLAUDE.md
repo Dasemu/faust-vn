@@ -34,6 +34,9 @@ Faust I (Spanish, Llorente) as a Ren'Py visual novel. This repo is a *work*: the
   minor on a `development` -> `main` merge). Do not edit it by hand.
 - CI (`.github/workflows/ci.yml`) runs ruff and pytest; vnpipe is public and fetched over HTTPS.
 - `main` is the remote's default branch; `development` is only for ongoing work.
+- Remote is GitHub `Dasemu/faust-vn` (SSH push needed for workflow changes, see `LESSONS.md`).
+  `.github/workflows/release.yml` builds win/linux/mac/web/APK and publishes a release per
+  new version on `main`; the APK keystore is the `ANDROID_KEYSTORE_B64` secret (`docs/running.md`).
 
 ## Layout
 `work.toml`, `data/`, `annotations/`, `assets/`, `voice/`, `vn/`, `tests/`, `docs/`; see `docs/plan.md`.

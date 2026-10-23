@@ -114,3 +114,30 @@ tools/renpy-sdk/renpy.sh tools/renpy-sdk/launcher distribute vn --package linux 
 `--package` also accepts `win` and `mac`; omit it to build every package. The web build
 also leaves a `build/web.zip` next to the folder. A web build writes
 `vn/progressive_download.txt`; delete it (it is not part of the generated project).
+
+### Android APK
+
+One-time local setup: unpack `renpy-8.5.3-rapt.zip` into `tools/renpy-sdk/rapt`, use JDK 21
+(`JAVA_HOME`), and install the Android SDK with RAPT's `android.py installsdk` (this accepts
+Google's Android SDK licence). The `[android]` table in `work.toml` makes `vnpipe renpy` write
+`vn/android.json`, the icons and the presplash.
+
+```sh
+tools/renpy-sdk/renpy.sh tools/renpy-sdk/launcher android_build vn --destination build/dist
+```
+
+- Signing: copy the release keystore to `vn/android.keystore` and `vn/bundle.keystore` (alias
+  `android`, password `android`; both are gitignored). Always sign with the **same** keystore:
+  a different one cannot update an installed app. Keep a private backup; never commit it.
+- The project path must be ASCII (Gradle's `local.properties` is Latin-1): from a path with
+  accents such as `Darío`, build from a copy of `vn/` in an ASCII directory.
+
+## 6. Releases (CI)
+
+`.github/workflows/release.yml` builds Windows, Linux, macOS, web and the signed APK.
+- Push to `development` or a manual run: builds are kept as workflow artifacts (7 days).
+- Merge `development` into `main`: `version.yml` bumps the version, then `release.yml`
+  publishes the GitHub release `vMAJOR.MINOR.PATCH` with all five files.
+- The APK needs the `ANDROID_KEYSTORE_B64` repository secret
+  (`base64 -w0 android.keystore | gh secret set ANDROID_KEYSTORE_B64`); without it the
+  Android build is skipped.

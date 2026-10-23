@@ -55,3 +55,8 @@ overrides, menu background) is in `work.toml`.
 
 Lint, tests and build instructions: [docs/running.md](docs/running.md).
 Plan and layout: [docs/plan.md](docs/plan.md).
+
+## Downloads
+
+Every release on GitHub (Releases page) ships the Android APK and the Windows, Linux, macOS and
+web builds. See `docs/running.md` for building them locally.

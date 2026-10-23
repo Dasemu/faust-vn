@@ -35,7 +35,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "vnpipe", git = "https://git.zenvairo.es/dasemu/vnpipe.git?branch=development" }]
+requires-dist = [{ name = "vnpipe", git = "https://github.com/Dasemu/vnpipe.git?branch=development" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -357,7 +357,7 @@ wheels = [
 [[package]]
 name = "vnpipe"
 version = "0.1.0"
-source = { git = "https://git.zenvairo.es/dasemu/vnpipe.git?branch=development#d1bcdf3340c27d8e1b79135f1dcce9cddfe9efd1" }
+source = { git = "https://github.com/Dasemu/vnpipe.git?branch=development#c50e2a3a628b3b7d315f6b8c79e92dc86dfd0755" }
 dependencies = [
     { name = "jsonschema" },
     { name = "pillow" },

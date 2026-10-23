@@ -1629,3 +1629,11 @@ dream_figures = "Dream Figures"
 # Other strings this work defines (art style labels of assets/assets.json).
 [translations.en.strings]
 "Pictórico" = "Painterly"
+
+# Android APK inputs for RAPT (vnpipe writes android.json, icon and presplash).
+[android]
+package = "io.github.dasemu.faust"
+name = "Fausto"
+icon = "assets/sprites/painterly/faust_neutral.webp"
+icon_background = "#14110e"
+presplash = "assets/bg/painterly/study.webp"
