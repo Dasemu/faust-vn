@@ -2,7 +2,7 @@
 
 A visual novel of the whole of *Faust, Part I* (Goethe), in Teodoro Llorente's public-domain
 Spanish translation: 28 scenes from the Dedicatoria to the prison, about 31,000 words of
-verse, never rewritten. It is the first work built with [`vnpipe`](../vnpipe), the reusable
+verse, never rewritten. It is the first work built with [`vnpipe`](https://github.com/Dasemu/vnpipe), the reusable
 "classic novels to visual novels" pipeline.
 
 The game is in Spanish, with an English version (Bayard Taylor's public-domain verse
@@ -26,30 +26,30 @@ Released under the [GNU GPL v3](LICENSE); the source text and voice recordings a
   40 characters/second (change it in Preferences) and a blinking arrow marks the end of a box;
   verse boxes hold at most 4 lines, and the lyric scenes use full-page stanzas.
 
-## How to play
+## Play from a clean clone
 
-Needs the [Ren'Py](https://www.renpy.org/) 8.5 SDK (`tools/renpy-sdk` or `RENPY_SDK`):
-
-```bash
-tools/renpy-sdk/renpy.sh vn   # play the generated project
-```
-
-## Quick start
-
-`vnpipe` is a path dependency: clone it next to this repo and adjust
-`[tool.uv.sources]` in `pyproject.toml` if it lives elsewhere.
+For ready-to-run packages, see [Releases](https://github.com/Dasemu/faust-vn/releases).
+To run from source, install Git, [uv](https://docs.astral.sh/uv/) and the
+**Ren'Py 8.5.3 SDK** as described in [docs/running.md](docs/running.md).
+The following commands use Bash on Linux x86-64:
 
 ```bash
-uv sync
-uv run vnpipe fetch          # download the source into data/raw
-uv run vnpipe parse          # data/raw -> data/parsed.json
-uv run vnpipe translate fetch && uv run vnpipe translate build  # English -> data/translations/en.json
-uv run vnpipe renpy          # data/annotated.json + audio/ -> vn/
-tools/renpy-sdk/renpy.sh vn  # play (Ren'Py 8.5.3 SDK, see docs/running.md)
+git clone https://github.com/Dasemu/faust-vn.git
+cd faust-vn
+uv sync --locked
+uv run vnpipe --work . renpy
+tools/renpy-sdk/renpy.sh vn
 ```
 
-`vn/` is generated and its `game/audio/` is not committed (it copies `audio/`): run
-`uv run vnpipe renpy` after cloning. Web and desktop builds: [docs/running.md](docs/running.md).
+Python >=3.12 is required; uv can provision it. `uv sync --locked` installs vnpipe
+from the Git revision recorded in `uv.lock`. No sibling checkout or edit to
+`[tool.uv.sources]` is needed. To reproduce a release, check out its tag before syncing.
+
+The committed data is sufficient to generate the game: fetching, parsing, annotation
+and translation commands are content-development steps, not prerequisites for playing.
+`vn/` is generated, including a copy of `audio/` in `vn/game/audio/`; regenerate after cloning.
+Separate desktop, web and Android setup and commands are in [docs/running.md](docs/running.md).
+
 Everything specific to this text (cast, scenes and their subtitles, staging, music
 overrides, menu background) is in `work.toml`.
 
@@ -58,5 +58,6 @@ Plan and layout: [docs/plan.md](docs/plan.md).
 
 ## Downloads
 
-Every release on GitHub (Releases page) ships the Android APK and the Windows, Linux, macOS and
-web builds. See `docs/running.md` for building them locally.
+Releases ship Windows, Linux, macOS and web builds. The Android APK is included only
+when CI has the signing secret configured. See [docs/running.md](docs/running.md)
+for local builds.
